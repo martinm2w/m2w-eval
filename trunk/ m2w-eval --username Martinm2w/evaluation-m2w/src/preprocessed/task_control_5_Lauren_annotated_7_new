@@ -1,0 +1,231 @@
+/opt/jdk1.6.0_03/bin/java -Xmx1024m -Xmn768m -Xss2048k -classpath /home/ting/develop/NLLIB:/home/ting/develop/edu/albany/ils/deer/tool/xml_parser/resolver.jar:/home/ting/develop/edu/albany/ils/deer/tool/xml_parser/serializer.jar:/home/ting/develop/edu/albany/ils/deer/tool/xml_parser/xercesImpl.jar:/home/ting/develop/edu/albany/ils/deer/tool/xml_parser/xercesSamples.jar:/home/ting/develop/edu/albany/ils/deer/tool/xml_parser/xml-apis.jar:/projects/SHARED/commons-math-2.0/commons-math-2.0.jar:/projects/SHARED/jwnl1.3/jwnl.jar:/projects/SHARED/jwnl1.3/commons-logging.jar:/source.jar:/xerces.jar:/projects/SHARED/stanford-pos/stanford-postagger.jar edu.albany.ils.dsarmd0100.lu.Assertions /projects/SHARED/data/dsarmd/annotated_files/lauren_annotated
+setKey + setVal: happy ====== someone's nice mice were        also someone's nice pets.
+setKey + setVal: malenames ====== /home/ting/develop/NLTEST/DSARMD0100/male_names.txt
+setKey + setVal: femalenames ====== /home/ting/develop/NLTEST/DSARMD0100/female_names.txt
+setKey + setVal: emotes ====== /home/ting/develop/NLTEST/DSARMD0100/emotes.txt
+setKey + setVal: pw ====== /projects/SHARED/data/dsarmd/polarity/p_w
+setKey + setVal: nw ====== /projects/SHARED/data/dsarmd/polarity/n_w
+setKey + setVal: polarity_cues ====== /projects/SHARED/data/dsarmd/polarity/confs/polars
+setKey + setVal: yes ====== /projects/SHARED/data/dsarmd/polarity/yes
+setKey + setVal: no ====== /projects/SHARED/data/dsarmd/polarity/no
+setKey + setVal: posi_confs ====== /projects/SHARED/data/dsarmd/polarity/posi_confs
+setKey + setVal: neg_confs ====== /projects/SHARED/data/dsarmd/polarity/neg_confs
+setKey + setVal: afirst_words ====== /projects/SHARED/data/dsarmd/cmmlnk/afirst_words
+setKey + setVal: aafirst_words ====== /projects/SHARED/data/dsarmd/cmmlnk/aafirst_words
+setKey + setVal: acfirst_words ====== /projects/SHARED/data/dsarmd/cmmlnk/acfirst_words
+setKey + setVal: aacfirst_words ====== /projects/SHARED/data/dsarmd/cmmlnk/aacfirst_words
+setKey + setVal: stop_words ====== /projects/NL5/NL/NLCOMMON/bin/stop-words
+setKey + setVal: process_type ====== annotated
+load files...
++++++++++++++++++++++++++++++++++++++++++
+processing: Feb13_GroupA.xml
++++++++++++++++++++++++++++++++++++++++++
+processing: Feb13_GroupB.xml
++++++++++++++++++++++++++++++++++++++++++
+processing: Feb19_GroupB_lauren.xml
++++++++++++++++++++++++++++++++++++++++++
+processing: Lauren_Cheney.xml
++++++++++++++++++++++++++++++++++++++++++
+processing: Lauren_Training.xml
++++++++++++++++++++++++++++++++++++++++++
+processing: Mar11_GroupB_lauren.xml
++++++++++++++++++++++++++++++++++++++++++
+processing: YMCA_lauren.xml
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: Feb13_GroupA.xml
+total_ac_oc_: 6
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Task Control - PMI quintile
+The di of jodie is: 0.15384615384615385
+The di of tony is: 0.10256410256410256
+The di of ashley is: 0.05128205128205128
+The di of Sarah is: 0.07692307692307693
+The di of ilspersonnel is: 0.0
+The di of jenifer is: 0.05128205128205128
+The di of laura is: 0.15384615384615385
+The di of johnw is: 0.1282051282051282
+The di of carol is: 0.05128205128205128
+The di of jessicad is: 0.23076923076923078
+qt_thrs:  0.15384615384615385 0.11794871794871793 0.06153846153846155 0.05128205128205128 0.08974358974358974
+The quintile score of jessicad is: 5 --- actual score: 0.23076923076923078
+The quintile score of jodie is: 5 --- actual score: 0.15384615384615385
+The quintile score of laura is: 5 --- actual score: 0.15384615384615385
+The quintile score johnw is: 4 --- actual score: 0.1282051282051282
+The quintile score tony is: 3 --- actual score: 0.10256410256410256
+The quintile score Sarah is: 3 --- actual score: 0.07692307692307693
+The quintile score ashley is: 2 --- actual score: 0.05128205128205128
+The quintile score jenifer is: 2 --- actual score: 0.05128205128205128
+The quintile score carol is: 2 --- actual score: 0.05128205128205128
+The quintile score ilspersonnel is: 1 --- actual score: 0.0
+total_ac_oc_: 7
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: Feb13_GroupB.xml
+total_ac_oc_: 2
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: Feb19_GroupB_lauren.xml
+total_ac_oc_: 1
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Task Control - PMI quintile
+The di of ilspersonnel2 is: 0.17142857142857143
+The di of jessamyn is: 0.05714285714285714
+The di of danielle is: 0.05714285714285714
+The di of dk is: 0.22857142857142856
+The di of jessicaf is: 0.17142857142857143
+The di of carol is: 0.2
+The di of Nicole is: 0.11428571428571428
+qt_thrs:  0.21142857142857144 0.17142857142857143 0.12571428571428572 0.05714285714285714 0.17142857142857143
+The quintile score of dk is: 5 --- actual score: 0.22857142857142856
+The quintile score carol is: 4 --- actual score: 0.2
+The quintile score ilspersonnel2 is: 4 --- actual score: 0.17142857142857143
+The quintile score jessicaf is: 4 --- actual score: 0.17142857142857143
+The quintile score Nicole is: 2 --- actual score: 0.11428571428571428
+The quintile score jessamyn is: 2 --- actual score: 0.05714285714285714
+The quintile score danielle is: 2 --- actual score: 0.05714285714285714
+total_ac_oc_: 18
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Task Control - PMSI quintile
+The di of ilspersonnel2 is: 0.16666666666666666
+The di of jessamyn is: 0.05555555555555555
+The di of danielle is: 0.0
+The di of dk is: 0.2222222222222222
+The di of jessicaf is: 0.16666666666666666
+The di of carol is: 0.2777777777777778
+The di of Nicole is: 0.1111111111111111
+qt_thrs:  0.24444444444444446 0.16666666666666666 0.12222222222222223 0.03333333333333334 0.16666666666666666
+The quintile score of carol is: 5 --- actual score: 0.2777777777777778
+The quintile score dk is: 4 --- actual score: 0.2222222222222222
+The quintile score ilspersonnel2 is: 4 --- actual score: 0.16666666666666666
+The quintile score jessicaf is: 4 --- actual score: 0.16666666666666666
+The quintile score Nicole is: 2 --- actual score: 0.1111111111111111
+The quintile score jessamyn is: 2 --- actual score: 0.05555555555555555
+The quintile score danielle is: 1 --- actual score: 0.0
+total_ac_oc_: 0
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: Lauren_Cheney.xml
+total_ac_oc_: 0
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Task Control - PMI quintile
+The di of jennifer is: 0.15
+The di of ken is: 0.1
+The di of jianhua is: 0.15
+The di of kerri is: 0.2
+The di of chris is: 0.0
+The di of jenny is: 0.0
+The di of kara is: 0.4
+qt_thrs:  0.2800000000000001 0.15 0.11000000000000001 0.0 0.15
+The quintile score of kara is: 5 --- actual score: 0.4
+The quintile score kerri is: 4 --- actual score: 0.2
+The quintile score jennifer is: 4 --- actual score: 0.15
+The quintile score jianhua is: 4 --- actual score: 0.15
+The quintile score ken is: 2 --- actual score: 0.1
+The quintile score chris is: 1 --- actual score: 0.0
+The quintile score jenny is: 1 --- actual score: 0.0
+total_ac_oc_: 13
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: Lauren_Training.xml
+total_ac_oc_: 5
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Task Control - PMI quintile
+The di of jennifer is: 0.5294117647058824
+The di of jamie is: 0.058823529411764705
+The di of jianhua is: 0.17647058823529413
+The di of chris is: 0.0
+The di of kara is: 0.23529411764705882
+qt_thrs:  0.47058823529411764 0.21176470588235297 0.10588235294117646 0.011764705882352938 0.17647058823529413
+The quintile score of jennifer is: 5 --- actual score: 0.5294117647058824
+The quintile score kara is: 4 --- actual score: 0.23529411764705882
+The quintile score jianhua is: 3 --- actual score: 0.17647058823529413
+The quintile score jamie is: 2 --- actual score: 0.058823529411764705
+The quintile score chris is: 1 --- actual score: 0.0
+total_ac_oc_: 5
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: Mar11_GroupB_lauren.xml
+total_ac_oc_: 3
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Task Control - PMI quintile
+The di of nate is: 0.2
+The di of ilspersonnel is: 0.08
+The di of jenifer is: 0.09333333333333334
+The di of johnw is: 0.013333333333333334
+The di of laura is: 0.18666666666666668
+The di of kerri is: 0.21333333333333335
+The di of jessicad is: 0.013333333333333334
+The di of lisa is: 0.2
+qt_thrs:  0.2026666666666667 0.192 0.08800000000000001 0.013333333333333334 0.14
+The quintile score of kerri is: 5 --- actual score: 0.21333333333333335
+The quintile score nate is: 4 --- actual score: 0.2
+The quintile score lisa is: 4 --- actual score: 0.2
+The quintile score laura is: 3 --- actual score: 0.18666666666666668
+The quintile score jenifer is: 3 --- actual score: 0.09333333333333334
+The quintile score ilspersonnel is: 2 --- actual score: 0.08
+The quintile score johnw is: 1 --- actual score: 0.013333333333333334
+The quintile score jessicad is: 1 --- actual score: 0.013333333333333334
+total_ac_oc_: 35
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: YMCA_lauren.xml
+total_ac_oc_: 9
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Task Control - PMI quintile
+The di of jennifer is: 0.22666666666666666
+The di of ken is: 0.1511111111111111
+The di of lance is: 0.10222222222222223
+The di of kerri is: 0.27111111111111114
+The di of chris is: 0.044444444444444446
+The di of jenny is: 0.04888888888888889
+The di of kara is: 0.15555555555555556
+qt_thrs:  0.24444444444444446 0.15466666666666667 0.11200000000000002 0.04711111111111111 0.1511111111111111
+The quintile score of kerri is: 5 --- actual score: 0.27111111111111114
+The quintile score jennifer is: 4 --- actual score: 0.22666666666666666
+The quintile score kara is: 4 --- actual score: 0.15555555555555556
+The quintile score ken is: 3 --- actual score: 0.1511111111111111
+The quintile score lance is: 2 --- actual score: 0.10222222222222223
+The quintile score jenny is: 2 --- actual score: 0.04888888888888889
+The quintile score chris is: 1 --- actual score: 0.044444444444444446
+total_ac_oc_: 108
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Task Control - PMSI quintile
+The di of jennifer is: 0.19444444444444445
+The di of ken is: 0.12037037037037036
+The di of lance is: 0.09259259259259259
+The di of kerri is: 0.24074074074074073
+The di of chris is: 0.037037037037037035
+The di of jenny is: 0.05555555555555555
+The di of kara is: 0.16666666666666666
+qt_thrs:  0.21296296296296297 0.15740740740740738 0.09814814814814815 0.04814814814814815 0.12037037037037036
+The quintile score of kerri is: 5 --- actual score: 0.24074074074074073
+The quintile score jennifer is: 4 --- actual score: 0.19444444444444445
+The quintile score kara is: 4 --- actual score: 0.16666666666666666
+The quintile score ken is: 3 --- actual score: 0.12037037037037036
+The quintile score lance is: 2 --- actual score: 0.09259259259259259
+The quintile score jenny is: 2 --- actual score: 0.05555555555555555
+The quintile score chris is: 1 --- actual score: 0.037037037037037035
+total_ac_oc_: 7
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
