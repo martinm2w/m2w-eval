@@ -1,0 +1,38 @@
+---------------- Expressive Disagreement Evaluation --------------------- 
+Human annotated file: D:/m2w cs/evaluation/src/input_files/expressive_disagreement_lauren_3_r
+Auto annotated file: D:/m2w cs/evaluation/src/input_files/expressive_disagreement_auto_3_r
+--------------------------------------------------------------- 
+-----------------------------cdxi---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+lauren	NA	4	NA	NA	NA	NA	
+nate	NA	5	Mismatch	NA	NA	NA	
+jennifer	NA	1	NA	NA	NA	NA	
+jenniferb	NA	1	NA	NA	NA	NA	
+farina	NA	3	NA	NA	NA	NA	
+nicole	NA	1	NA	NA	NA	NA	
+Precision: 	0.0(Highest/Rest/Mismatch)	0.0(High/Low/Mismatch)	0.0(Exact-match)	0.0(Partial-match)	
+---------------- Expressive Disagreement Evaluation --------------------- 
+Human annotated file: D:/m2w cs/evaluation/src/input_files/expressive_disagreement_lauren_3_r
+Auto annotated file: D:/m2w cs/evaluation/src/input_files/expressive_disagreement_auto_3_r
+--------------------------------------------------------------- 
+-----------------------------cdxi---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+kerri	4	5	Mismatch	High	no	0.5	
+ken	NA	1	NA	NA	NA	NA	
+jennifer	NA	3	NA	NA	NA	NA	
+kara	NA	4	NA	NA	NA	NA	
+jianhua	1	2	Rest	Low	no	0	
+chris	3	2	Rest	Low	no	0	
+Precision: 	0.3333333333333333(Highest/Rest/Mismatch)	0.5(High/Low/Mismatch)	0.0(Exact-match)	0.08333333333333333(Partial-match)	
+---------------- Expressive Disagreement Evaluation --------------------- 
+Human annotated file: D:/m2w cs/evaluation/src/input_files/expressive_disagreement_lauren_3_r
+Auto annotated file: D:/m2w cs/evaluation/src/input_files/expressive_disagreement_auto_3_r
+--------------------------------------------------------------- 
+-----------------------------cdxi---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+kerri	2	3	Rest	Low	no	0	
+jenifer	1	1	Rest	Low	yes	1	
+laura	NA	1	NA	NA	NA	NA	
+nate	3	5	Mismatch	Mismatch	no	0	
+lisa	4	4	Rest	High	yes	1	
+Precision: 	0.6(Highest/Rest/Mismatch)	0.6(High/Low/Mismatch)	0.4(Exact-match)	0.4(Partial-match)	
