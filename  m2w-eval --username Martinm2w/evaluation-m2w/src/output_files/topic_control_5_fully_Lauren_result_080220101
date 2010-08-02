@@ -61,47 +61,39 @@ Auto annotated file: D:/m2w cs/evaluation-m2w/src/input_files/topic_control_5_fu
 -----------------------------lti---------------------------- 
 Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
 nate	5	5	Highest	High	yes	1	
-ilspersonnel	1	1	Rest	Low	yes	1	
 jenniferb	3	3	Rest	Low	yes	1	
 farina	3	3	Rest	Low	yes	1	
 ilspersonnel2	1	1	Rest	Low	yes	1	
 lauren	4	4	Rest	High	yes	1	
-jennifer	3	3	Rest	Low	yes	1	
 nicole	2	2	Rest	Low	yes	1	
 Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	1.0(Exact-match)	1.0(Partial-match)	
 -----------------------------smt---------------------------- 
 Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
 nate	5	4	Mismatch	High	no	0	
-ilspersonnel	1	1	Rest	Low	yes	1	
 jenniferb	4	3	Rest	Mismatch	no	0	
 farina	2	5	Mismatch	Mismatch	no	0	
 ilspersonnel2	1	1	Rest	Low	yes	1	
 lauren	3	3	Rest	Low	yes	1	
-jennifer	4	3	Rest	Mismatch	no	0	
 nicole	3	2	Rest	Low	no	0.5	
-Precision: 	0.75(Highest/Rest/Mismatch)	0.625(High/Low/Mismatch)	0.375(Exact-match)	0.4375(Partial-match)	
+Precision: 	0.6666666666666666(Highest/Rest/Mismatch)	0.6666666666666666(High/Low/Mismatch)	0.3333333333333333(Exact-match)	0.4166666666666667(Partial-match)	
 -----------------------------cs---------------------------- 
 Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
 nate	3	4	Rest	Mismatch	no	0.5	
-ilspersonnel	1	1	Rest	Low	yes	1	
 jenniferb	5	3	Mismatch	Mismatch	no	0	
 farina	2	5	Mismatch	Mismatch	no	0	
 ilspersonnel2	1	1	Rest	Low	yes	1	
 lauren	4	3	Rest	Mismatch	no	0.5	
-jennifer	5	3	Mismatch	Mismatch	no	0	
 nicole	3	3	Rest	Low	yes	1	
-Precision: 	0.625(Highest/Rest/Mismatch)	0.375(High/Low/Mismatch)	0.375(Exact-match)	0.5(Partial-match)	
+Precision: 	0.6666666666666666(Highest/Rest/Mismatch)	0.3333333333333333(High/Low/Mismatch)	0.3333333333333333(Exact-match)	0.5(Partial-match)	
 -----------------------------tl---------------------------- 
 Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
 nate	5	5	Highest	High	yes	1	
-ilspersonnel	1	1	Rest	Low	yes	1	
 jenniferb	4	4	Rest	High	yes	1	
 farina	3	3	Rest	Low	yes	1	
 ilspersonnel2	1	1	Rest	Low	yes	1	
 lauren	3	2	Rest	Low	no	0.5	
-jennifer	4	4	Rest	High	yes	1	
 nicole	2	3	Rest	Low	no	0.5	
-Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.75(Exact-match)	0.875(Partial-match)	
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.6666666666666666(Exact-match)	0.8333333333333334(Partial-match)	
 ---------------- Topic Control Evaluation --------------------- 
 Human annotated file: D:/m2w cs/evaluation-m2w/src/input_files/topic_control_5_Lauren_annotated_0_1
 Auto annotated file: D:/m2w cs/evaluation-m2w/src/input_files/topic_control_5_fully_auto_0
@@ -109,40 +101,36 @@ Auto annotated file: D:/m2w cs/evaluation-m2w/src/input_files/topic_control_5_fu
 -----------------------------lti---------------------------- 
 Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
 danielle	4	3	Rest	Mismatch	no	0	
-ilspersonnel	1	1	Rest	Low	yes	1	
 dk	4	4	Rest	High	yes	1	
 carol	5	5	Highest	High	yes	1	
 ilspersonnel2	1	1	Rest	Low	yes	1	
 jessicaf	2	2	Rest	Low	yes	1	
 nicole	3	4	Rest	Mismatch	no	0.5	
 jessamyn	2	2	Rest	Low	yes	1	
-Precision: 	1.0(Highest/Rest/Mismatch)	0.75(High/Low/Mismatch)	0.75(Exact-match)	0.8125(Partial-match)	
+Precision: 	1.0(Highest/Rest/Mismatch)	0.7142857142857143(High/Low/Mismatch)	0.7142857142857143(Exact-match)	0.7857142857142857(Partial-match)	
 -----------------------------smt---------------------------- 
 Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
 danielle	4	3	Rest	Mismatch	no	0	
-ilspersonnel	1	2	Rest	Low	no	0.5	
 dk	4	4	Rest	High	yes	1	
 carol	5	5	Highest	High	yes	1	
 ilspersonnel2	1	2	Rest	Low	no	0.5	
 jessicaf	2	1	Rest	Low	no	0	
 nicole	3	4	Rest	Mismatch	no	0	
 jessamyn	2	2	Rest	Low	yes	1	
-Precision: 	1.0(Highest/Rest/Mismatch)	0.75(High/Low/Mismatch)	0.375(Exact-match)	0.5(Partial-match)	
+Precision: 	1.0(Highest/Rest/Mismatch)	0.7142857142857143(High/Low/Mismatch)	0.42857142857142855(Exact-match)	0.5(Partial-match)	
 -----------------------------cs---------------------------- 
 Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
 danielle	4	3	Rest	Mismatch	no	0	
-ilspersonnel	1	2	Rest	Low	no	0.5	
 dk	4	4	Rest	High	yes	1	
 carol	5	5	Highest	High	yes	1	
 ilspersonnel2	1	2	Rest	Low	no	0.5	
 jessicaf	2	1	Rest	Low	no	0	
 nicole	3	4	Rest	Mismatch	no	0	
 jessamyn	2	2	Rest	Low	yes	1	
-Precision: 	1.0(Highest/Rest/Mismatch)	0.75(High/Low/Mismatch)	0.375(Exact-match)	0.5(Partial-match)	
+Precision: 	1.0(Highest/Rest/Mismatch)	0.7142857142857143(High/Low/Mismatch)	0.42857142857142855(Exact-match)	0.5(Partial-match)	
 -----------------------------tl---------------------------- 
 Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
 danielle	4	4	Rest	High	yes	1	
-ilspersonnel	4	4	Rest	High	yes	1	
 dk	2	2	Rest	Low	yes	1	
 carol	5	5	Highest	High	yes	1	
 ilspersonnel2	4	4	Rest	High	yes	1	
