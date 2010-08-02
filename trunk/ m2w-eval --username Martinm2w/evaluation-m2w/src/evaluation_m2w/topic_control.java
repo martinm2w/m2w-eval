@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-
+import evaluation_m2w.Compare_eval;
 
 /**
  *
@@ -50,7 +50,7 @@ public class topic_control {
         String human_annotation = "D:/m2w cs/evaluation-m2w/src/input_files/topic_control_5_Lauren_annotated_0_1";
         String auto_annotation = "D:/m2w cs/evaluation-m2w/src/input_files/topic_control_5_fully_auto_0";
 
-        String evaluation_file = "D:/m2w cs/evaluation-m2w/src/output_files/topic_control_5_fully_Lauren_result_08022010";
+        String evaluation_file = "D:/m2w cs/evaluation-m2w/src/output_files/topic_control_5_fully_Lauren_result_080220101";
 
 
 
@@ -258,7 +258,7 @@ public class topic_control {
                                speaker.contains("The quintile score")) {
 
                                for(int k = 0; k < speakers.length; k++){
-                                   if(speaker.toLowerCase().contains(speakers[k])){
+                                   if(speaker.toLowerCase().contains(speakers[k] + " ")){
                                         score_array[k] = speaker.toLowerCase();
                                         //System.out.println("score_array[" + k + "]: " + score_array[k]);
                                    }
@@ -319,7 +319,7 @@ public class topic_control {
                            while((speaker = eia_br.readLine()) != null &&
                                    speaker.contains("The quintile score")) {
                                for(int k = 0; k < speakers.length; k++){
-                                   if(speaker.toLowerCase().contains(speakers[k])){
+                                   if(speaker.toLowerCase().contains(speakers[k] + " ")){
                                         score_array[k] = speaker.toLowerCase();
                                         //System.out.println("score_array[" + k + "]: " + score_array[k]);
                                    }
@@ -356,7 +356,7 @@ public class topic_control {
             for(int j = 0; j < scores.length; j++){
                 for(int k = 0; k < speakers.length; k++){
 //                    System.err.println(scores[j] + "       " + speakers[k]);
-                    if(scores[j] != null && scores[j].contains(speakers[k])){
+                    if(scores[j] != null && scores[j].contains(speakers[k] + " ")){
                         String speaker_scores = scores[j];
                         String[] tmp = speaker_scores.split("---");
                         String tmp2 = tmp[0].trim();
@@ -379,7 +379,7 @@ public class topic_control {
             String[] scores = auto_scores.get(category[i].toString());
             for(int j = 0; j < scores.length; j++){
                 for(int k = 0; k < speakers.length; k++){
-                    if(scores[j] != null && scores[j].contains(speakers[k])){
+                    if(scores[j] != null && scores[j].contains(speakers[k] + " ")){
                         String speaker_scores = scores[j];
                         String[] tmp = speaker_scores.split("---");
                         String tmp2 = tmp[0].trim();
@@ -400,7 +400,7 @@ public class topic_control {
             String[] scores = human_scores.get(category[i].toString());
             for(int j = 0; j < scores.length; j++){
                 for(int k = 0; k < speakers.length; k++){
-                    if(scores[j] != null && scores[j].contains(speakers[k])){
+                    if(scores[j] != null && scores[j].contains(speakers[k] + " ")){
                         String speaker_scores = scores[j];
                         String[] tmp = speaker_scores.split("---");
                         String tmp2 = tmp[1].trim();
@@ -421,7 +421,7 @@ public class topic_control {
             String[] scores = auto_scores.get(category[i].toString());
             for(int j = 0; j < scores.length; j++){
                 for(int k = 0; k < speakers.length; k++){
-                    if(scores[j] != null && scores[j].contains(speakers[k])){
+                    if(scores[j] != null && scores[j].contains(speakers[k] + " ")){
                         String speaker_scores = scores[j];
                         String[] tmp = speaker_scores.split("---");
                         String tmp2 = tmp[1].trim();
@@ -479,6 +479,7 @@ public class topic_control {
 
                     int counter = 0;
 
+                    /*Scores*/
                     for(int j = 0; j < speakers.length; j++){
 
                         if(auto_qscore == null || human_qscore == null){
@@ -644,6 +645,7 @@ public class topic_control {
 
                         bw.write("\n");
                     }
+                    
                     /* Precision */
                     bw.write("Precision: \t");
 
@@ -674,7 +676,11 @@ public class topic_control {
 
                     bw.write("\n");
 
-                }
+//                    Compare_eval CpEval = new Compare_eval();
+//                    CpEval.compareEval(bw, speakers, auto_qscore, human_qscore);
+                    
+                    
+                }//for each category
 
                 bw.close();
             } catch (IOException e) {
