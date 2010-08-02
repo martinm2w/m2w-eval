@@ -2,13 +2,26 @@ package evaluation_m2w;
 
 import java.io.BufferedWriter;
 import java.io.IOException;
+import java.util.ArrayList;
+
+/**
+ * 
+ * @author m2w
+ *
+ */
+
 
 public class Compare_eval {
 	
 	public void compareEval(BufferedWriter bw, String[] speakers, int[] auto_qscore, int[] human_qscore){
 		
+		ArrayList<String> compListH = new ArrayList<String>();
+		ArrayList<String> compListA = new ArrayList<String>();
+		int equalCount = 0;
+		
 		 /*Relations*/
         try {
+        	
 			bw.write("***   Relations ***");
 			bw.newLine();
 	        bw.write("       Auto_file       \t" + "      Human_file       ");
@@ -39,11 +52,30 @@ public class Compare_eval {
 	        			tempStrh = speakers[i] + "=" + speakers[j];
 	        		}
 	        		
-	        		bw.write("   ");
+	        		compListA.add(tempStra);// use to print result
+	        		compListH.add(tempStrh);
+	        		
+	        		bw.write(tempStra + "\t" + tempStrh);
+	        		bw.newLine();
+	        	}
+	        	
+	        } // for all speakers
+	        
+	        /*result eval line*/
+	        for(int i = 0; i < compListA.size(); i ++){
+	        	
+	        	if(compListA.get(i).equals(compListH.get(i))){
+	        		
+	        		equalCount++;
 	        		
 	        	}
 	        	
 	        }
+	        
+	        
+	        
+	        
+	        bw.write("precentage :" + String.valueOf(equalCount / compListA.size()));
 	        
 	        
 	        
