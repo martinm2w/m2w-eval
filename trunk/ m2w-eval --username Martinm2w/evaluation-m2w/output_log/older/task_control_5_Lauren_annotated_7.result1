@@ -1,6 +1,6 @@
 ---------------- Task Control Evaluation --------------------- 
-Human annotated file: D:/m2w cs/evaluation/src/preprocessed/task_control_5_Lauren_annotated_7_new
-Auto annotated file: D:/m2w cs/evaluation/src/preprocessed/task_control_5_automated_7_new
+Human annotated file: D:/m2w cs/evaluation-m2w/src/preprocessed/task_control_5_Lauren_annotated_7_new
+Auto annotated file: D:/m2w cs/evaluation-m2w/src/preprocessed/task_control_5_automated_7_new
 --------------------------------------------------------------- 
 -----------------------------pmi---------------------------- 
 Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
@@ -15,22 +15,9 @@ jodie	1	5	Mismatch	Mismatch	no	0
 tony	1	3	Rest	Low	no	0	
 sarah	4	3	Rest	Mismatch	no	0	
 Precision: 	0.7(Highest/Rest/Mismatch)	0.5(High/Low/Mismatch)	0.1(Exact-match)	0.2(Partial-match)	
------------------------------pmsi---------------------------- 
-Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
-Precision: 	Infinity(Highest/Rest/Mismatch)	Infinity(High/Low/Mismatch)	Infinity(Exact-match)	Infinity(Partial-match)	
 ---------------- Task Control Evaluation --------------------- 
-Human annotated file: D:/m2w cs/evaluation/src/preprocessed/task_control_5_Lauren_annotated_7_new
-Auto annotated file: D:/m2w cs/evaluation/src/preprocessed/task_control_5_automated_7_new
---------------------------------------------------------------- 
------------------------------pmi---------------------------- 
-Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
-Precision: 	NaN(Highest/Rest/Mismatch)	NaN(High/Low/Mismatch)	NaN(Exact-match)	NaN(Partial-match)
------------------------------pmsi---------------------------- 
-Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
-Precision: 	Infinity(Highest/Rest/Mismatch)	Infinity(High/Low/Mismatch)	Infinity(Exact-match)	Infinity(Partial-match)	
----------------- Task Control Evaluation --------------------- 
-Human annotated file: D:/m2w cs/evaluation/src/preprocessed/task_control_5_Lauren_annotated_7_new
-Auto annotated file: D:/m2w cs/evaluation/src/preprocessed/task_control_5_automated_7_new
+Human annotated file: D:/m2w cs/evaluation-m2w/src/preprocessed/task_control_5_Lauren_annotated_7_new
+Auto annotated file: D:/m2w cs/evaluation-m2w/src/preprocessed/task_control_5_automated_7_new
 --------------------------------------------------------------- 
 -----------------------------pmi---------------------------- 
 Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
@@ -55,8 +42,8 @@ nicole	4	2	Rest	Mismatch	no	0
 jessamyn	2	2	Rest	Low	yes	1	
 Precision: 	0.625(Highest/Rest/Mismatch)	0.875(High/Low/Mismatch)	0.5(Exact-match)	0.5625(Partial-match)	
 ---------------- Task Control Evaluation --------------------- 
-Human annotated file: D:/m2w cs/evaluation/src/preprocessed/task_control_5_Lauren_annotated_7_new
-Auto annotated file: D:/m2w cs/evaluation/src/preprocessed/task_control_5_automated_7_new
+Human annotated file: D:/m2w cs/evaluation-m2w/src/preprocessed/task_control_5_Lauren_annotated_7_new
+Auto annotated file: D:/m2w cs/evaluation-m2w/src/preprocessed/task_control_5_automated_7_new
 --------------------------------------------------------------- 
 -----------------------------pmi---------------------------- 
 Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
@@ -68,12 +55,9 @@ jennifer	3	4	Rest	Mismatch	no	0
 kara	4	5	Mismatch	High	no	0	
 jianhua	5	4	Mismatch	High	no	0	
 Precision: 	0.7142857142857143(Highest/Rest/Mismatch)	0.5714285714285714(High/Low/Mismatch)	0.2857142857142857(Exact-match)	0.2857142857142857(Partial-match)	
------------------------------pmsi---------------------------- 
-Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
-Precision: 	Infinity(Highest/Rest/Mismatch)	Infinity(High/Low/Mismatch)	Infinity(Exact-match)	Infinity(Partial-match)	
 ---------------- Task Control Evaluation --------------------- 
-Human annotated file: D:/m2w cs/evaluation/src/preprocessed/task_control_5_Lauren_annotated_7_new
-Auto annotated file: D:/m2w cs/evaluation/src/preprocessed/task_control_5_automated_7_new
+Human annotated file: D:/m2w cs/evaluation-m2w/src/preprocessed/task_control_5_Lauren_annotated_7_new
+Auto annotated file: D:/m2w cs/evaluation-m2w/src/preprocessed/task_control_5_automated_7_new
 --------------------------------------------------------------- 
 -----------------------------pmi---------------------------- 
 Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
@@ -83,12 +67,9 @@ jennifer	5	5	Highest	High	yes	1
 kara	3	4	Rest	Mismatch	no	0	
 jianhua	4	3	Rest	Mismatch	no	0.5	
 Precision: 	1.0(Highest/Rest/Mismatch)	0.6(High/Low/Mismatch)	0.4(Exact-match)	0.6(Partial-match)	
------------------------------pmsi---------------------------- 
-Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
-Precision: 	Infinity(Highest/Rest/Mismatch)	Infinity(High/Low/Mismatch)	Infinity(Exact-match)	Infinity(Partial-match)	
 ---------------- Task Control Evaluation --------------------- 
-Human annotated file: D:/m2w cs/evaluation/src/preprocessed/task_control_5_Lauren_annotated_7_new
-Auto annotated file: D:/m2w cs/evaluation/src/preprocessed/task_control_5_automated_7_new
+Human annotated file: D:/m2w cs/evaluation-m2w/src/preprocessed/task_control_5_Lauren_annotated_7_new
+Auto annotated file: D:/m2w cs/evaluation-m2w/src/preprocessed/task_control_5_automated_7_new
 --------------------------------------------------------------- 
 -----------------------------pmi---------------------------- 
 Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
@@ -101,12 +82,9 @@ johnw	1	1	Rest	Low	yes	1
 kerri	5	5	Highest	High	yes	1	
 lisa	4	4	Rest	High	yes	1	
 Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.75(Exact-match)	0.8125(Partial-match)	
------------------------------pmsi---------------------------- 
-Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
-Precision: 	Infinity(Highest/Rest/Mismatch)	Infinity(High/Low/Mismatch)	Infinity(Exact-match)	Infinity(Partial-match)	
 ---------------- Task Control Evaluation --------------------- 
-Human annotated file: D:/m2w cs/evaluation/src/preprocessed/task_control_5_Lauren_annotated_7_new
-Auto annotated file: D:/m2w cs/evaluation/src/preprocessed/task_control_5_automated_7_new
+Human annotated file: D:/m2w cs/evaluation-m2w/src/preprocessed/task_control_5_Lauren_annotated_7_new
+Auto annotated file: D:/m2w cs/evaluation-m2w/src/preprocessed/task_control_5_automated_7_new
 --------------------------------------------------------------- 
 -----------------------------pmi---------------------------- 
 Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
