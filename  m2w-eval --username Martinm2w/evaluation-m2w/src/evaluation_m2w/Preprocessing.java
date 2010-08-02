@@ -70,8 +70,7 @@ public class Preprocessing {
 				//System.out.println("tempStrh : " + tempStrh);
 				
 				if(tempStrh.contains("processing:")){  ///if it's a new file
-					
-					//String tempsh = null;
+
 					ArrayList<String> templist = new ArrayList<String>();
 					templist.add(tempStrh);
 					
@@ -83,25 +82,22 @@ public class Preprocessing {
 
                    }while(tempStrh!=null && !tempStrh.contains("%%%%"));
 					
-//                        tempsh=hbr.readLine();
-//                        templist.add(tempsh);
-//
-//                   }while(tempsh!=null && !tempsh.contains("%%%%"));
-
                    hbr.reset();
                    
                    HList.add(templist);
-					System.err.println("tempsh is :" + tempStrh);
+					//System.err.println("tempsh is :" + tempStrh);
 				}
 				
-				if(tempStrh.contains("+++")){  /// if new calculate block
+				
+				
+				
+				if(tempStrh.contains("+++++")){  /// if new calculate block
 					
 					//String tempsh = null;
 					ArrayList<String> templist = new ArrayList<String>();
 					templist.add(tempStrh);
 					
 					while((tempStrh = hbr.readLine()) != null && !tempStrh.contains("$$$")){
-					//while((tempsh = hbr.readLine()) != null && !tempsh.contains("$$$"))
 						
 						 hbr.mark(1000);
 	                     templist.add(tempStrh);
@@ -111,22 +107,22 @@ public class Preprocessing {
 				}	
 			} //while
 				
-			/*1.2save auto file into AList*/ //ok
+			/*1.2save auto file into AList*/ //
 			while((tempStra = abr.readLine()) != null ) {
 				
-				if(tempStra.contains("$$$$")){ /// if is new file
+				if(tempStra.contains("processing:")){ /// if is new file
 					
-					String tempsa = null;
+					//String tempStra = null;
 					ArrayList<String> templist = new ArrayList<String>();
-					//templist.add(tempStra);
+					templist.add(tempStra);
 					
 					do{ 
 
                         abr.mark(1000);
-                        tempsa=abr.readLine();
-                        templist.add(tempsa);
+                        tempStra=abr.readLine();
+                        templist.add(tempStra);
 
-                   }while(tempsa!=null && !tempsa.contains("%%%%%%%%"));
+                   }while(tempStra!=null && !tempStra.contains("%%%%%%%%"));
 
                    abr.reset();
                    
@@ -136,20 +132,25 @@ public class Preprocessing {
 				
 				
 				
-				if(tempStra.contains("%%%")){ /// if is a category in a file
+				if(tempStra.contains("+++")){ /// if is a category in a file
 					
-					String tempsa = null;
+					//String tempsa = null;
 					ArrayList<String> templist = new ArrayList<String>();
-					//templist.add(tempStra);
+					templist.add(tempStra);
 					
+//					while((tempStra = abr.readLine()) != null && !tempStra.contains("$$$$")){
+//						
+//						abr.mark(1000);
+//						templist.add(tempStra);
+//					}
 					do{ 
 
                         abr.mark(1000);
-                        tempsa=abr.readLine();
-                        templist.add(tempsa);
+                        tempStra=abr.readLine();
+                        templist.add(tempStra);
 
-                   }while(tempsa!=null && ( !tempsa.contains("$$$")));
-					// tempsa.contains("++++") || tempsa.contains("The") || tempsa.contains("calculate") || tempsa.equals("") || tempsa.contains("===") || tempsa.contains("qt_thrs")) );
+                   }while(tempStra!=null && ( !tempStra.contains("$$$")));
+				
 
                    abr.reset();
                    
