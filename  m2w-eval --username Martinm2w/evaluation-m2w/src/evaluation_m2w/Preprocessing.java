@@ -17,9 +17,23 @@ public class Preprocessing {
 		
 		Preprocessing p = new Preprocessing();
 		
-		//p.parseTskCtrl();
-		p.parseExpDis(args[0], args[1], args[2], args[3]);
 		
+		
+		/*p.parseTskCtrl(
+				"G:/m2w cs/evaluation-m2w/src/input_files/task_control_5_Lauren_annotated_7",
+				"G:/m2w cs/evaluation-m2w/src/input_files/task_control_5_automated_7",
+				"G:/m2w cs/evaluation-m2w/output_log/2010.07.31/task_control_5_Lauren_annotated_7_pp",
+				"G:/m2w cs/evaluation-m2w/output_log/2010.07.31/task_control_5_automated_7_pp");*/
+		
+		
+		
+		
+		p.parseExpDis(
+				"G:/m2w cs/evaluation-m2w/input_log/older/expressive_disagreement_Lauren_3",  
+				"G:/m2w cs/evaluation-m2w/input_log/older/expressive_disagreement_auto_3", 
+				"G:/m2w cs/evaluation-m2w/output_log/2010.07.31/expressive_disagreement_Lauren_3_pp",
+				"G:/m2w cs/evaluation-m2w/output_log/2010.07.31/expressive_disagreement_auto_3_pp");
+	
 	}
 	
 	public void parseExpDis (String input1, String input2, String input3, String input4) {
@@ -55,7 +69,7 @@ public class Preprocessing {
 			while((tempStrh = hbr.readLine()) != null ) {
 				//System.out.println("tempStrh : " + tempStrh);
 				
-				if(tempStrh.contains("$$$$")){
+				if(tempStrh.contains("$$$$")){  ///if it's a new file
 					String tempsh = null;
 					ArrayList<String> templist = new ArrayList<String>();
 					templist.add(tempStrh);
@@ -66,27 +80,34 @@ public class Preprocessing {
                         tempsh=hbr.readLine();
                         templist.add(tempsh);
 
-                   }while(tempsh!=null && !tempsh.contains("%%%%%"));
+                   }while(tempsh!=null && !tempsh.contains("%%%%"));
 
                    hbr.reset();
                    
                    HList.add(templist);
-					
+					System.err.println("tempsh is :" + tempsh);
 				}
 				
-				if(tempStrh.contains("%%%")){
+				if(tempStrh.contains("%%%")){  /// if new calculate block
 					String tempsh = null;
 					ArrayList<String> templist = new ArrayList<String>();
 					//templist.add(tempStrh);
 					
-					do{ 
+					while((tempsh = hbr.readLine()) != null && !tempsh.contains("$$$"))
+						
+//						if (tempsh.equals("")){
+//							
+//                    		continue;
+//                    	}
+					
+						 hbr.mark(1000);
+	                 	
+	                     templist.add(tempsh);
+                       
 
-                        hbr.mark(1000);
-                        tempsh=hbr.readLine();
-                        templist.add(tempsh);
-
-                   }while(tempsh!=null && !tempsh.contains("$$$$$$"));
-					//}while(tempsh!=null && ( tempsh.contains("The") || tempsh.contains("+++++") || tempsh.contains("calculate") || tempsh.contains("qt_thrs")));
+                  // }while(tempsh!=null && (!tempsh.contains("$$$")));
+					//(tempsh.contains("++++") || tempsh.contains("The") || tempsh.contains("calculate") || tempsh.contains("") || tempsh.contains("===") || tempsh.contains("qt_thrs")));
+					
                    hbr.reset();
                    
                    HList.add(templist);
@@ -98,7 +119,8 @@ public class Preprocessing {
 			/*1.2save auto file into AList*/ //ok
 			while((tempStra = abr.readLine()) != null ) {
 				
-				if(tempStra.contains("$$$$")){
+				if(tempStra.contains("$$$$")){ /// if is new file
+					
 					String tempsa = null;
 					ArrayList<String> templist = new ArrayList<String>();
 					//templist.add(tempStra);
@@ -109,7 +131,30 @@ public class Preprocessing {
                         tempsa=abr.readLine();
                         templist.add(tempsa);
 
-                   }while(tempsa!=null && !tempsa.contains("$$$$$$$$"));
+                   }while(tempsa!=null && !tempsa.contains("%%%%%%%%"));
+
+                   abr.reset();
+                   
+                   AList.add(templist);
+					
+				}
+				
+				
+				
+				if(tempStra.contains("%%%")){ /// if is a category in a file
+					
+					String tempsa = null;
+					ArrayList<String> templist = new ArrayList<String>();
+					//templist.add(tempStra);
+					
+					do{ 
+
+                        abr.mark(1000);
+                        tempsa=abr.readLine();
+                        templist.add(tempsa);
+
+                   }while(tempsa!=null && ( !tempsa.contains("$$$")));
+					// tempsa.contains("++++") || tempsa.contains("The") || tempsa.contains("calculate") || tempsa.equals("") || tempsa.contains("===") || tempsa.contains("qt_thrs")) );
 
                    abr.reset();
                    
@@ -123,10 +168,16 @@ public class Preprocessing {
 			System.out.println("Hlist size is :"+ HList.size());
 			System.out.println("Alist size is :"+ AList.size());
 			
+			hbr.close();
+			abr.close();
+			
 			/*2.1parse human, delete -1 */ //ok
 			for (int i = 0; i < HList.size(); i ++){
 				for(int j = 0 ; j < HList.get(i).size(); j++){
 					String tempStr = HList.get(i).get(j).toString(); //nullpointer
+					
+					System.out.println(tempStr);
+					
 					if (tempStr.contains("-1")){
 						delHList.add(i);
 						delAList.add(i);
@@ -152,7 +203,8 @@ public class Preprocessing {
 			delAList.clear();
 			
 			
-			/*2.1parse auto, delete -1*/ //ok
+			
+			/*2.2parse auto, delete -1*/ //ok
 			for (int i = 0; i < AList.size(); i ++){
 				for(int j = 0 ; j < AList.get(i).size(); j++){
 					
@@ -181,7 +233,11 @@ public class Preprocessing {
 			delHList.clear();
 			delAList.clear();	
 				
-				
+
+			System.out.println("Hlist final size : " + HList.size());
+			System.out.println("Alist final size : " + AList.size());
+			
+			
 			/*3.write to files*/  //ok
 			for (int i = 0; i < HList.size(); i ++) {
 				for (int j = 0 ; j < HList.get(i).size(); j++){
@@ -200,6 +256,7 @@ public class Preprocessing {
 			apw.close();
 			
 			
+			
 				} catch (FileNotFoundException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
@@ -209,17 +266,15 @@ public class Preprocessing {
 				}	
 				
 				
-				
-				
 		}
 
 			
-	public void parseTskCtrl () { // ok
-		String human_file = "D:/m2w cs/evaluation/src/input_files/task_control_5_Lauren_annotated_7";
-		String auto_file = "D:/m2w cs/evaluation/src/input_files/task_control_5_automated_7";
+	public void parseTskCtrl (String input1, String input2, String input3, String input4) { // ok
+		String human_file = input1; //"D:/m2w cs/evaluation/src/input_files/task_control_5_Lauren_annotated_7";
+		String auto_file = input2; //"D:/m2w cs/evaluation/src/input_files/task_control_5_automated_7";
 		
-		String human_preprocessed = "D:/m2w cs/evaluation/src/preprocessed/task_control_5_Lauren_annotated_7.p";
-		String auto_preprocessed = "D:/m2w cs/evaluation/src/preprocessed/task_control_5_automated_7.p";
+		String human_preprocessed = input3; //"D:/m2w cs/evaluation/src/preprocessed/task_control_5_Lauren_annotated_7.p";
+		String auto_preprocessed = input4; //"D:/m2w cs/evaluation/src/preprocessed/task_control_5_automated_7.p";
 		
 		ArrayList<ArrayList<String>> HList = new ArrayList<ArrayList<String>>();
 		ArrayList<ArrayList<String>> AList = new ArrayList<ArrayList<String>>();
@@ -392,6 +447,10 @@ public class Preprocessing {
 			delHList.clear();
 			delAList.clear();
 			
+			
+			System.out.println("Hlist final size : " + HList.size());
+			System.out.println("Alist final size : " + AList.size());
+					
 			/*3.write to files*/  //ok
 			for (int i = 0; i < HList.size(); i ++) {
 				for (int j = 0 ; j < HList.get(i).size(); j++){
@@ -409,6 +468,9 @@ public class Preprocessing {
 			}
 			apw.close();
 			
+			hbr.close();
+			abr.close();
+			
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		} catch (IOException e) {
@@ -426,169 +488,3 @@ public class Preprocessing {
 	}
 
 
-
-
-/*	
-						humBr.mark(1000);
-						String checkLine = humBr.readLine();
-						humBr.reset();
-						
-						if checkline is empty
-						if (checkLine.equals("")){
-							
-							System.out.println("============human has not qt_thrs==============");
-							
-							read out extra lines from human
-							String lines = "";
-							String linesA = "";
-							do{ //read out extra lines
-								humBr.mark(1000);
-                                lines = humBr.readLine();
-                                System.err.println("human deleted:" + lines);
-                                
-                           }while(lines !=null && !lines.contains("$"));
-							humBr.reset();
-							
-							
-							read out extra lines from auto
-						
-								do{ //read out extra lines
-									autoBr.mark(1000);
-	                                linesA = autoBr.readLine();
-	                                System.err.println("auto deleted:"+ linesA);
-	                                
-	                           }while(linesA !=null && !linesA.contains("$"));
-								autoBr.reset();
-							
-							
-							continue;  outter while
-							}*/
-						
-						
-					/*	if check line has qt_thrs
-						if (checkLine.contains("qt_thrs")){
-							
-							System.out.println("=================human has qt_thrs===========================");
-							
-							check the auto line
-							while((tempStrAt = autoBr.readLine()) != null && !tempStrAt.equals("$$$$$") ){
-								autoList.add(tempStrAt);
-								
-								if (tempStrAt.contains("calculate Expressive Disagreement -")){
-								
-								autoBr.mark(1000);
-								String checkLineA = autoBr.readLine();
-								autoBr.reset();
-								
-								if (checkLineA.equals("")){
-									
-									System.out.println("--------------------auto has not qt_thrs-----------------------");
-									
-									String lines = "";
-									String linesA = "";
-									
-									read out extra data from human
-									do{ //read out extra lines
-										humBr.mark(1000);
-		                                lines = humBr.readLine();
-		                                
-		                           }while(lines !=null && !lines.contains("$$$$$$"));
-									humBr.reset();
-									
-									
-									read out extra lines from auto
-									do{ //read out extra lines
-										autoBr.mark(1000);
-		                                linesA = autoBr.readLine();
-		                                
-		                           }while(linesA !=null && !linesA.contains("$$$$$$"));
-									autoBr.reset();
-									
-									break;
-								} if (checkLineA.equals(""))
-								
-								
-								if (checkLineA.contains("qt_thrs")){
-									
-									System.out.println("---------------auto line has qt_thrs too-------------------  ");
-									
-									
-									save the lines of human
-									String lines = "";
-									do{ //read out extra lines
-										humBr.mark(1000);
-		                                lines = humBr.readLine();
-		                                humanList.add(lines);
-		                                
-		                           }while(lines !=null && !lines.contains("$$$$$$$$"));
-									humBr.reset();
-									
-									
-									
-									save the lines of auto
-									String linesA = "";
-									
-									do{ //read out extra lines
-										autoBr.mark(1000);
-		                                linesA = autoBr.readLine();
-		                                autoList.add(lines);
-		                                
-		                           }while(linesA !=null && !linesA.contains("$$$$$$$$"));
-										autoBr.reset();
-									
-								} if (checkLineA.contains("qt_thrs"))
-								
-							  } if (tempStrAt.contains("calculate Expressive Disagreement -")){
-							
-							} while loop
-							
-							
-							
-							
-							continue;  outter while
-						}
-						
-					}
-					
-					
-					
-					
-					
-					
-				}*/
-		
-	/*			}
-		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
-		
-		
-		try {
-			BufferedWriter bwh = new BufferedWriter(new FileWriter(human_preprocessed));
-			BufferedWriter bwa = new BufferedWriter(new FileWriter(auto_preprocessed));
-			
-			write to human file
-			for(int i = 0; i < humanList.size(); i ++){
-				bwh.write(humanList.get(i).toString() + "\n");
-			}
-			bwh.close();
-			
-			write to auto file
-			for(int i = 0; i < autoList.size(); i ++){
-				bwa.write(autoList.get(i).toString()+ "\n");
-			}
-			bwa.close();
-			
-			
-			
-			
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
-		
-	}
-}*/
