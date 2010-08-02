@@ -1,0 +1,1017 @@
+/opt/jdk1.6.0_03/bin/java -Xmx1024m -Xmn768m -Xss2048k -classpath /home/ting/develop/NLLIB:/home/ting/develop/edu/albany/ils/deer/tool/xml_parser/resolver.jar:/home/ting/develop/edu/albany/ils/deer/tool/xml_parser/serializer.jar:/home/ting/develop/edu/albany/ils/deer/tool/xml_parser/xercesImpl.jar:/home/ting/develop/edu/albany/ils/deer/tool/xml_parser/xercesSamples.jar:/home/ting/develop/edu/albany/ils/deer/tool/xml_parser/xml-apis.jar:/projects/SHARED/commons-math-2.0/commons-math-2.0.jar:/projects/SHARED/jwnl1.3/jwnl.jar:/projects/SHARED/jwnl1.3/commons-logging.jar:/source.jar:/xerces.jar:/projects/SHARED/stanford-pos/stanford-postagger.jar edu.albany.ils.dsarmd0100.lu.Assertions /projects/SHARED/data/dsarmd/annotated_files/lauren_annotated
+setKey + setVal: happy ====== someone's nice mice were        also someone's nice pets.
+setKey + setVal: malenames ====== /home/ting/develop/NLTEST/DSARMD0100/male_names.txt
+setKey + setVal: femalenames ====== /home/ting/develop/NLTEST/DSARMD0100/female_names.txt
+setKey + setVal: eng_hum_pronouns ====== /home/ting/develop/NLTEST/DSARMD0100/english_human_pronouns.txt
+setKey + setVal: emotes ====== /home/ting/develop/NLTEST/DSARMD0100/emotes.txt
+setKey + setVal: eng_parsetools ====== /home/ting/develop/NLTEST/DSARMD0100/englishparsetools.txt
+setKey + setVal: formpronouns ====== /home/ting/develop/NLTEST/DSARMD0100/formpronouns.txt
+setKey + setVal: pw ====== /projects/SHARED/data/dsarmd/polarity/p_w
+setKey + setVal: nw ====== /projects/SHARED/data/dsarmd/polarity/n_w
+setKey + setVal: polarity_cues ====== /projects/SHARED/data/dsarmd/polarity/confs/polars
+setKey + setVal: yes ====== /projects/SHARED/data/dsarmd/polarity/yes
+setKey + setVal: no ====== /projects/SHARED/data/dsarmd/polarity/no
+setKey + setVal: posi_confs ====== /projects/SHARED/data/dsarmd/polarity/posi_confs
+setKey + setVal: neg_confs ====== /projects/SHARED/data/dsarmd/polarity/neg_confs
+setKey + setVal: afirst_words ====== /projects/SHARED/data/dsarmd/cmmlnk/afirst_words
+setKey + setVal: aafirst_words ====== /projects/SHARED/data/dsarmd/cmmlnk/aafirst_words
+setKey + setVal: acfirst_words ====== /projects/SHARED/data/dsarmd/cmmlnk/acfirst_words
+setKey + setVal: aacfirst_words ====== /projects/SHARED/data/dsarmd/cmmlnk/aacfirst_words
+setKey + setVal: stop_words ====== /projects/NL5/NL/NLCOMMON/bin/stop-words
+setKey + setVal: process_type ====== annotated
+load files...
++++++++++++++++++++++++++++++++++++++++++
+processing: Feb13_GroupA.xml
+943
+uttloc = 690 and uttend = -1
+<turn comm_act_type="addressed-to" dialog_act="TASK:Assertion-Opinion" end_time="20:38:59 PM" link_to="all-users" mode="chat" polarity="positive" pos=";Carla(27.1)-repetition-Carla(27.1);candidate(21.2)-repetition-candidate(21.2);she(27.1)-pronoun-reference-Carla(27.1);CPR and 1st Aid certified(33.1)-repetition-CPR training(33.1);she(27.1)-pronoun-reference-Carla(27.1);work(21.1)-repetition-job(21.1);she(27.1)-pronoun-reference-Carla(27.1);she(27.1)-pronoun-reference-Carla(27.1);hours(142.1)-repetition-work availability(142.1)" pos_count="4" pos_origin=";nanny(330.1);psychology(330.2);driver's license(330.3);public transportation(330.4)" speaker="carol" topic="Carla" turn_no="330">I think Carla is a strong candidate because she was a nanny for one year, has some learning in psychology, is CPR and 1st Aid certified, and has a clean driver's license (the latter meaning she might not have to rely on public transportation to get to work). I would assume, like it was mentioned ea!
+turnnoplace: 81
+turnend: 74
+# of utterances: 943
++++++++++++++++++++++++++++++++++++++++++
+processing: Feb13_GroupB.xml
+450
+turnnoplace: 267
+turnend: 315
+uttloc = 736 and uttend = -1
+<turn comm_act_type="addressed-to" dialog_act="TASK:Assertion-Opinion" end_time="20:48:31 PM" link_to="all-users" mode="chat" polarity="positive" pos=";presidency(54.2)-repetition-presidency(54.2);his(17.2)-pronoun-reference-obama(17.2);world(40.2)-repetition-world(40.2);peace prize(17.3)-repetition-nobel peace prize(17.3);candidate(45.1)-repetition-candidates(45.1);he(17.2)-pronoun-reference-obama(17.2);ideas(28.1)-repetition-ideas(28.1);peace(44.1)-repetition-peace(44.1);progress(85.3)-repetition-progress(85.3);world(40.2)-repetition-world(40.2);achievements(36.1)-repetition-accomplishments(36.1);obama(17.2)-repetition-obama(17.2)" pos_count="1" pos_origin=";social issues(251.1)" speaker="Nicole" topic="Obama" turn_no="251">i believe his presidency has effected the world tremendously, in social issues, but i believe the peace prize could have had a better candidate. who i am not sure. he has had a lot of great ideas about how to regulate and achieve peace. but at that poin!
+turnnoplace: 131
+turnend: 124
+uttloc = 764 and uttend = -1
+<turn comm_act_type="response-to" dialog_act="TASK:--Disagree-Reject" end_time="21:04:21 PM" link_to="Nicole:325" mode="chat" polarity="positive" pos=";consequences(312.1)-repetition-reasons(312.1);population(47.2)-repetition-people(47.2);presidency(54.2)-repetition-presidency(54.2);cooperation(46.1)-repetition-cooperation(46.1);working together(46.1)-repetition-cooperation(46.1);presidency(54.2)-repetition-presidency(54.2);his(17.2)-pronoun-reference-obama(17.2);nations(37.2)-repetition-countries(37.2);reason(312.1)-repetition-reasons(312.1);hope(40.1)-repetition-hope(40.1);U.S(179.1)-repetition-U.S(179.1);cooperation(46.1)-repetition-cooperation(46.1)" pos_count="2" pos_origin=";poor(326.1);victimized(326.2)" speaker="nate" topic="Obama" turn_no="326">no - it has international consequences - to see someone ascend the social structure from such a poor, victimized segment of the population - all the way to the presidency - and talk about things like cooperation and working t!
+turnnoplace: 124
+turnend: 117
+# of utterances: 448
++++++++++++++++++++++++++++++++++++++++++
+processing: Feb19_GroupB_lauren.xml
+597
+turnnoplace: 223
+turnend: 250
+turnnoplace: 223
+turnend: 325
+turnnoplace: 331
+turnend: 406
+turnnoplace: 265
+turnend: 295
+turnnoplace: 261
+turnend: 299
+turnnoplace: 212
+turnend: 239
+# of utterances: 584
++++++++++++++++++++++++++++++++++++++++++
+processing: Lauren_Cheney.xml
+602
+turnnoplace: 211
+turnend: 245
+uttloc = 206 and uttend = -1
+<turn comm_act_type="continuation-of" dialog_act="TASK:Acknowledge" end_time="8:43:35 PM" link_to="kara:177" mode="chat" polarity="" pos="" pos_count="" pos_origin="" speaker="kara" topic="" turn_no="178"/>
+uttloc = 308 and uttend = -1
+<turn comm_act_type="addressed-to" dialog_act="TASK:Assertion-Opinion" end_time="9:14:52 PM" link_to="all-users" mode="chat" polarity="neutral" pos=";torture(26.2)-repetition-torture(26.2);information(30.1)-repetition-information(30.1)" pos_count="" pos_origin="" speaker="ken" topic="Torture" turn_no="386">Article 11. For the purposes of this Convention, the term "torture" means any act by which severe pain or suffering, whether physical or mental, is intentionally inflicted on a person for such purposes as obtaining from him or a third person information or a confession, punishing him for an act he or a third person has committed or is suspected of having committed, or intimidating or coercing him or a third person, or for any reason based on discrimination of any kind, when such pain or suffering is inflicted by or at the instigation of or with the consent or acquiescence of a public official or other person acting in an official capacity. It does not include pain or suffe!
+turnnoplace: 77
+turnend: 70
+# of utterances: 600
++++++++++++++++++++++++++++++++++++++++++
+processing: Lauren_Training.xml
+167
+turnnoplace: 303
+turnend: 390
+turnnoplace: 213
+turnend: 233
+turnnoplace: 215
+turnend: 234
+turnnoplace: 216
+turnend: 231
+turnnoplace: 220
+turnend: 251
+turnnoplace: 407
+turnend: 485
+# of utterances: 155
++++++++++++++++++++++++++++++++++++++++++
+processing: Mar11_GroupB_lauren.xml
+482
+turnnoplace: 219
+turnend: 235
+turnnoplace: 233
+turnend: 263
+turnnoplace: 215
+turnend: 222
+# of utterances: 476
++++++++++++++++++++++++++++++++++++++++++
+processing: YMCA_lauren.xml
+656
+turnnoplace: 214
+turnend: 222
+uttloc = 218 and uttend = -1
+<turn comm_act_type="response-to" dialog_act="COMM-MGMT:--Response-Non-Answer" end_time="9:47:33 PM" link_to="kara:608" mode="chat" polarity="" pos="" pos_count="" pos_origin="" speaker="kerri" topic="" turn_no="609"/>
+# of utterances: 654
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: Feb13_GroupA.xml
+size of LTs: 157
+size of mentions: 993
+sizeOfSSLTs: 23
+sizeOfILTs: 6
+jodie's size of turns: 51
+==========================================
+From: jodie
+parameters: 
+LTI: 0.03821656050955414
+SMTI: 0.023162134944612285
+Cite Score: 0.022020725388601035
+TLI: 7.745098039215686
+ C-LTI: 2.8333333333333335
+sizeOfSSLTs: 3
+sizeOfILTs: 1
+tony's size of turns: 34
+==========================================
+From: tony
+parameters: 
+LTI: 0.006369426751592357
+SMTI: 0.0030211480362537764
+Cite Score: 0.0038860103626943004
+TLI: 9.058823529411764
+ C-LTI: 3.0
+sizeOfSSLTs: 47
+sizeOfILTs: 10
+ashley's size of turns: 66
+==========================================
+From: ashley
+parameters: 
+LTI: 0.06369426751592357
+SMTI: 0.0473313192346425
+Cite Score: 0.05699481865284974
+TLI: 8.590909090909092
+ C-LTI: 4.4
+sizeOfSSLTs: 23
+sizeOfILTs: 20
+Sarah's size of turns: 111
+==========================================
+From: Sarah
+parameters: 
+LTI: 0.12738853503184713
+SMTI: 0.023162134944612285
+Cite Score: 0.022020725388601035
+TLI: 9.018018018018019
+ C-LTI: 0.85
+sizeOfSSLTs: 15
+sizeOfILTs: 2
+ilspersonnel's size of turns: 21
+==========================================
+From: ilspersonnel
+parameters: 
+LTI: 0.012738853503184714
+SMTI: 0.015105740181268883
+Cite Score: 0.015544041450777202
+TLI: 5.666666666666667
+ C-LTI: 6.0
+sizeOfSSLTs: 142
+sizeOfILTs: 29
+jenifer's size of turns: 62
+==========================================
+From: jenifer
+parameters: 
+LTI: 0.18471337579617833
+SMTI: 0.14300100704934543
+Cite Score: 0.16191709844559585
+TLI: 11.274193548387096
+ C-LTI: 4.310344827586207
+sizeOfSSLTs: 98
+sizeOfILTs: 16
+laura's size of turns: 155
+==========================================
+From: laura
+parameters: 
+LTI: 0.10191082802547771
+SMTI: 0.0986908358509567
+Cite Score: 0.10103626943005181
+TLI: 5.890322580645162
+ C-LTI: 4.875
+sizeOfSSLTs: 118
+sizeOfILTs: 15
+johnw's size of turns: 69
+==========================================
+From: johnw
+parameters: 
+LTI: 0.09554140127388536
+SMTI: 0.11883182275931521
+Cite Score: 0.13082901554404144
+TLI: 13.26086956521739
+ C-LTI: 6.733333333333333
+sizeOfSSLTs: 13
+sizeOfILTs: 12
+carol's size of turns: 69
+==========================================
+From: carol
+parameters: 
+LTI: 0.07643312101910828
+SMTI: 0.013091641490433032
+Cite Score: 0.011658031088082901
+TLI: 18.043478260869566
+ C-LTI: 0.75
+sizeOfSSLTs: 511
+sizeOfILTs: 46
+jessicad's size of turns: 305
+==========================================
+From: jessicad
+parameters: 
+LTI: 0.2929936305732484
+SMTI: 0.5146022155085599
+Cite Score: 0.4740932642487047
+TLI: 7.370491803278688
+ C-LTI: 7.956521739130435
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control - LTI quintile
+qt_thrs:  0.17324840764331212 0.09936305732484077 0.06878980891719745 0.0178343949044586 0.08598726114649682
+The quintile score of jessicad is: 5 --- actual score: 0.2929936305732484
+The quintile score of jenifer is: 5 --- actual score: 0.18471337579617833
+The quintile score Sarah is: 4 --- actual score: 0.12738853503184713
+The quintile score laura is: 4 --- actual score: 0.10191082802547771
+The quintile score johnw is: 3 --- actual score: 0.09554140127388536
+The quintile score carol is: 3 --- actual score: 0.07643312101910828
+The quintile score ashley is: 2 --- actual score: 0.06369426751592357
+The quintile score jodie is: 2 --- actual score: 0.03821656050955414
+The quintile score ilspersonnel is: 1 --- actual score: 0.012738853503184714
+The quintile score tony is: 1 --- actual score: 0.006369426751592357
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  SMT quintile: 
+qt_thrs:  0.1381671701913394 0.078147029204431 0.023162134944612285 0.013494461228600202 0.035246727089627394
+The quintile score of jessicad is: 5 --- actual score: 0.5146022155085599
+The quintile score of jenifer is: 5 --- actual score: 0.14300100704934543
+The quintile score johnw is: 4 --- actual score: 0.11883182275931521
+The quintile score laura is: 4 --- actual score: 0.0986908358509567
+The quintile score ashley is: 3 --- actual score: 0.0473313192346425
+The quintile score jodie is: 3 --- actual score: 0.023162134944612285
+The quintile score Sarah is: 3 --- actual score: 0.023162134944612285
+The quintile score ilspersonnel is: 2 --- actual score: 0.015105740181268883
+The quintile score carol is: 1 --- actual score: 0.013091641490433032
+The quintile score tony is: 1 --- actual score: 0.0030211480362537764
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  CS quintile
+qt_thrs:  0.15569948186528498 0.08341968911917097 0.022020725388601035 0.012435233160621763 0.03950777202072539
+The quintile score of jessicad is: 5 --- actual score: 0.4740932642487047
+The quintile score of jenifer is: 5 --- actual score: 0.16191709844559585
+The quintile score johnw is: 4 --- actual score: 0.13082901554404144
+The quintile score laura is: 4 --- actual score: 0.10103626943005181
+The quintile score ashley is: 3 --- actual score: 0.05699481865284974
+The quintile score jodie is: 3 --- actual score: 0.022020725388601035
+The quintile score Sarah is: 3 --- actual score: 0.022020725388601035
+The quintile score ilspersonnel is: 2 --- actual score: 0.015544041450777202
+The quintile score carol is: 1 --- actual score: 0.011658031088082901
+The quintile score tony is: 1 --- actual score: 0.0038860103626943004
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  TL quintile
+qt_thrs:  12.863534361851332 9.042501324854266 8.083422459893049 6.1863564251718675 8.804463554463556
+The quintile score of carol is: 5 --- actual score: 18.043478260869566
+The quintile score of johnw is: 5 --- actual score: 13.26086956521739
+The quintile score jenifer is: 4 --- actual score: 11.274193548387096
+The quintile score tony is: 4 --- actual score: 9.058823529411764
+The quintile score Sarah is: 3 --- actual score: 9.018018018018019
+The quintile score ashley is: 3 --- actual score: 8.590909090909092
+The quintile score jodie is: 2 --- actual score: 7.745098039215686
+The quintile score jessicad is: 2 --- actual score: 7.370491803278688
+The quintile score laura is: 1 --- actual score: 5.890322580645162
+The quintile score ilspersonnel is: 1 --- actual score: 5.666666666666667
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: Feb13_GroupB.xml
+size of LTs: 302
+size of mentions: 1537
+sizeOfSSLTs: 0
+sizeOfILTs: 0
+ilspersonnel2's size of turns: 3
+==========================================
+From: ilspersonnel2
+parameters: 
+LTI: 0.0
+SMTI: 0.0
+Cite Score: 0.0
+TLI: 6.0
+ C-LTI: NaN
+sizeOfSSLTs: 232
+sizeOfILTs: 24
+Farina's size of turns: 76
+==========================================
+From: Farina
+parameters: 
+LTI: 0.07947019867549669
+SMTI: 0.1509433962264151
+Cite Score: 0.1623931623931624
+TLI: 10.289473684210526
+ C-LTI: 7.916666666666667
+sizeOfSSLTs: 133
+sizeOfILTs: 49
+nate's size of turns: 101
+==========================================
+From: nate
+parameters: 
+LTI: 0.16225165562913907
+SMTI: 0.08653220559531555
+Cite Score: 0.062393162393162394
+TLI: 20.237623762376238
+ C-LTI: 1.489795918367347
+sizeOfSSLTs: 27
+sizeOfILTs: 23
+jenniferb's size of turns: 82
+==========================================
+From: jenniferb
+parameters: 
+LTI: 0.076158940397351
+SMTI: 0.01756668835393624
+Cite Score: 0.01282051282051282
+TLI: 12.24390243902439
+ C-LTI: 0.6521739130434783
+sizeOfSSLTs: 88
+sizeOfILTs: 37
+lauren's size of turns: 132
+==========================================
+From: lauren
+parameters: 
+LTI: 0.12251655629139073
+SMTI: 0.057254391672088484
+Cite Score: 0.05042735042735043
+TLI: 8.143939393939394
+ C-LTI: 1.5945945945945945
+sizeOfSSLTs: 18
+sizeOfILTs: 12
+Nicole's size of turns: 56
+==========================================
+From: Nicole
+parameters: 
+LTI: 0.039735099337748346
+SMTI: 0.011711125569290826
+Cite Score: 0.01282051282051282
+TLI: 8.160714285714286
+ C-LTI: 1.25
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control - LTI quintile
+qt_thrs:  0.14635761589403973 0.08807947019867551 0.06887417218543046 0.015894039735099334 0.07781456953642385
+The quintile score of nate is: 5 --- actual score: 0.16225165562913907
+The quintile score lauren is: 4 --- actual score: 0.12251655629139073
+The quintile score Farina is: 3 --- actual score: 0.07947019867549669
+The quintile score jenniferb is: 3 --- actual score: 0.076158940397351
+The quintile score Nicole is: 2 --- actual score: 0.039735099337748346
+The quintile score ilspersonnel2 is: 1 --- actual score: 0.0
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  SMT quintile: 
+qt_thrs:  0.12517891997397523 0.0631099544567339 0.016395575797007154 0.004684450227716329 0.03741054001301236
+The quintile score of Farina is: 5 --- actual score: 0.1509433962264151
+The quintile score nate is: 4 --- actual score: 0.08653220559531555
+The quintile score lauren is: 3 --- actual score: 0.057254391672088484
+The quintile score jenniferb is: 3 --- actual score: 0.01756668835393624
+The quintile score Nicole is: 2 --- actual score: 0.011711125569290826
+The quintile score ilspersonnel2 is: 1 --- actual score: 0.0
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  CS quintile
+qt_thrs:  0.12239316239316236 0.052820512820512824 0.01282051282051282 0.0051282051282051265 0.03162393162393162
+The quintile score of Farina is: 5 --- actual score: 0.1623931623931624
+The quintile score nate is: 4 --- actual score: 0.062393162393162394
+The quintile score lauren is: 3 --- actual score: 0.05042735042735043
+The quintile score jenniferb is: 3 --- actual score: 0.01282051282051282
+The quintile score Nicole is: 3 --- actual score: 0.01282051282051282
+The quintile score ilspersonnel2 is: 1 --- actual score: 0.0
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  TL quintile
+qt_thrs:  17.040135233035496 10.6803594351733 8.157359307359307 6.857575757575757 9.225093984962406
+The quintile score of nate is: 5 --- actual score: 20.237623762376238
+The quintile score jenniferb is: 4 --- actual score: 12.24390243902439
+The quintile score Farina is: 3 --- actual score: 10.289473684210526
+The quintile score Nicole is: 3 --- actual score: 8.160714285714286
+The quintile score lauren is: 2 --- actual score: 8.143939393939394
+The quintile score ilspersonnel2 is: 1 --- actual score: 6.0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: Feb19_GroupB_lauren.xml
+size of LTs: 417
+size of mentions: 2058
+sizeOfSSLTs: 5
+sizeOfILTs: 1
+ilspersonnel2's size of turns: 12
+==========================================
+From: ilspersonnel2
+parameters: 
+LTI: 0.002398081534772182
+SMTI: 0.0024295432458697765
+Cite Score: 0.00315059861373661
+TLI: 7.25
+ C-LTI: 5.0
+sizeOfSSLTs: 14
+sizeOfILTs: 3
+jessamyn's size of turns: 53
+==========================================
+From: jessamyn
+parameters: 
+LTI: 0.007194244604316547
+SMTI: 0.006802721088435374
+Cite Score: 0.006931316950220542
+TLI: 5.90566037735849
+ C-LTI: 3.6666666666666665
+sizeOfSSLTs: 35
+sizeOfILTs: 12
+danielle's size of turns: 54
+==========================================
+From: danielle
+parameters: 
+LTI: 0.02877697841726619
+SMTI: 0.017006802721088437
+Cite Score: 0.017643352236925015
+TLI: 9.574074074074074
+ C-LTI: 2.3333333333333335
+sizeOfSSLTs: 73
+sizeOfILTs: 26
+dk's size of turns: 163
+==========================================
+From: dk
+parameters: 
+LTI: 0.06235011990407674
+SMTI: 0.03547133138969873
+Cite Score: 0.037177063642092
+TLI: 5.539877300613497
+ C-LTI: 2.269230769230769
+sizeOfSSLTs: 4
+sizeOfILTs: 9
+jessicaf's size of turns: 72
+==========================================
+From: jessicaf
+parameters: 
+LTI: 0.02158273381294964
+SMTI: 0.001943634596695821
+Cite Score: 0.002520478890989288
+TLI: 7.055555555555555
+ C-LTI: 0.4444444444444444
+sizeOfSSLTs: 151
+sizeOfILTs: 47
+carol's size of turns: 140
+==========================================
+From: carol
+parameters: 
+LTI: 0.11270983213429256
+SMTI: 0.07337220602526726
+Cite Score: 0.05419029615626969
+TLI: 10.007142857142858
+ C-LTI: 1.8297872340425532
+sizeOfSSLTs: 90
+sizeOfILTs: 18
+Nicole's size of turns: 103
+==========================================
+From: Nicole
+parameters: 
+LTI: 0.04316546762589928
+SMTI: 0.043731778425655975
+Cite Score: 0.04662885948330183
+TLI: 5.456310679611651
+ C-LTI: 4.111111111111111
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control - LTI quintile
+qt_thrs:  0.08249400479616309 0.04028776978417266 0.023021582733812954 0.005275779376498802 0.02877697841726619
+The quintile score of carol is: 5 --- actual score: 0.11270983213429256
+The quintile score dk is: 4 --- actual score: 0.06235011990407674
+The quintile score Nicole is: 4 --- actual score: 0.04316546762589928
+The quintile score danielle is: 3 --- actual score: 0.02877697841726619
+The quintile score jessicaf is: 2 --- actual score: 0.02158273381294964
+The quintile score jessamyn is: 2 --- actual score: 0.007194244604316547
+The quintile score ilspersonnel2 is: 1 --- actual score: 0.002398081534772182
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  SMT quintile: 
+qt_thrs:  0.0555879494655005 0.031778425655976675 0.008843537414965987 0.0022351797862001943 0.017006802721088437
+The quintile score of carol is: 5 --- actual score: 0.07337220602526726
+The quintile score Nicole is: 4 --- actual score: 0.043731778425655975
+The quintile score dk is: 4 --- actual score: 0.03547133138969873
+The quintile score danielle is: 3 --- actual score: 0.017006802721088437
+The quintile score jessamyn is: 2 --- actual score: 0.006802721088435374
+The quintile score ilspersonnel2 is: 2 --- actual score: 0.0024295432458697765
+The quintile score jessicaf is: 1 --- actual score: 0.001943634596695821
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  CS quintile
+qt_thrs:  0.049653434152488976 0.033270321361058605 0.00907372400756144 0.002898550724637681 0.017643352236925015
+The quintile score of carol is: 5 --- actual score: 0.05419029615626969
+The quintile score Nicole is: 4 --- actual score: 0.04662885948330183
+The quintile score dk is: 4 --- actual score: 0.037177063642092
+The quintile score danielle is: 3 --- actual score: 0.017643352236925015
+The quintile score jessamyn is: 2 --- actual score: 0.006931316950220542
+The quintile score ilspersonnel2 is: 2 --- actual score: 0.00315059861373661
+The quintile score jessicaf is: 1 --- actual score: 0.002520478890989288
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  TL quintile
+qt_thrs:  9.747301587301587 7.211111111111111 6.135639412997904 5.5064506522127585 7.055555555555555
+The quintile score of carol is: 5 --- actual score: 10.007142857142858
+The quintile score danielle is: 4 --- actual score: 9.574074074074074
+The quintile score ilspersonnel2 is: 4 --- actual score: 7.25
+The quintile score jessicaf is: 3 --- actual score: 7.055555555555555
+The quintile score jessamyn is: 2 --- actual score: 5.90566037735849
+The quintile score dk is: 2 --- actual score: 5.539877300613497
+The quintile score Nicole is: 1 --- actual score: 5.456310679611651
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: Lauren_Cheney.xml
+size of LTs: 457
+size of mentions: 2372
+sizeOfSSLTs: 4
+sizeOfILTs: 4
+jennifer's size of turns: 74
+==========================================
+From: jennifer
+parameters: 
+LTI: 0.0087527352297593
+SMTI: 0.0016863406408094434
+Cite Score: 0.0021344717182497333
+TLI: 7.864864864864865
+ C-LTI: 1.0
+sizeOfSSLTs: 45
+sizeOfILTs: 7
+ken's size of turns: 86
+==========================================
+From: ken
+parameters: 
+LTI: 0.015317286652078774
+SMTI: 0.01897133220910624
+Cite Score: 0.016542155816435433
+TLI: 11.255813953488373
+ C-LTI: 4.428571428571429
+sizeOfSSLTs: 0
+sizeOfILTs: 1
+jianhua's size of turns: 68
+==========================================
+From: jianhua
+parameters: 
+LTI: 0.002188183807439825
+SMTI: 0.0
+Cite Score: 0.0
+TLI: 2.426470588235294
+ C-LTI: 0.0
+sizeOfSSLTs: 23
+sizeOfILTs: 17
+kerri's size of turns: 187
+==========================================
+From: kerri
+parameters: 
+LTI: 0.037199124726477024
+SMTI: 0.0096964586846543
+Cite Score: 0.0096051227321238
+TLI: 6.614973262032086
+ C-LTI: 1.0588235294117647
+sizeOfSSLTs: 15
+sizeOfILTs: 7
+chris's size of turns: 53
+==========================================
+From: chris
+parameters: 
+LTI: 0.015317286652078774
+SMTI: 0.006323777403035413
+Cite Score: 0.0048025613660619
+TLI: 10.169811320754716
+ C-LTI: 1.2857142857142858
+sizeOfSSLTs: 0
+sizeOfILTs: 0
+jenny's size of turns: 7
+==========================================
+From: jenny
+parameters: 
+LTI: 0.0
+SMTI: 0.0
+Cite Score: 0.0
+TLI: 7.428571428571429
+ C-LTI: NaN
+sizeOfSSLTs: 26
+sizeOfILTs: 4
+kara's size of turns: 127
+==========================================
+From: kara
+parameters: 
+LTI: 0.0087527352297593
+SMTI: 0.010961214165261383
+Cite Score: 0.012806830309498399
+TLI: 8.67716535433071
+ C-LTI: 6.0
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control - LTI quintile
+qt_thrs:  0.024070021881838082 0.014004376367614878 0.0087527352297593 0.0013129102844638952 0.0087527352297593
+The quintile score of kerri is: 5 --- actual score: 0.037199124726477024
+The quintile score ken is: 4 --- actual score: 0.015317286652078774
+The quintile score chris is: 4 --- actual score: 0.015317286652078774
+The quintile score jennifer is: 3 --- actual score: 0.0087527352297593
+The quintile score kara is: 3 --- actual score: 0.0087527352297593
+The quintile score jianhua is: 2 --- actual score: 0.002188183807439825
+The quintile score jenny is: 1 --- actual score: 0.0
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  SMT quintile: 
+qt_thrs:  0.014165261382799329 0.009021922428330522 0.0026138279932546383 0.0 0.006323777403035413
+The quintile score of ken is: 5 --- actual score: 0.01897133220910624
+The quintile score kara is: 4 --- actual score: 0.010961214165261383
+The quintile score kerri is: 4 --- actual score: 0.0096964586846543
+The quintile score chris is: 3 --- actual score: 0.006323777403035413
+The quintile score jennifer is: 2 --- actual score: 0.0016863406408094434
+The quintile score jianhua is: 1 --- actual score: 0.0
+The quintile score jenny is: 1 --- actual score: 0.0
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  CS quintile
+qt_thrs:  0.014300960512273213 0.00864461045891142 0.002668089647812167 0.0 0.0048025613660619
+The quintile score of ken is: 5 --- actual score: 0.016542155816435433
+The quintile score kara is: 4 --- actual score: 0.012806830309498399
+The quintile score kerri is: 4 --- actual score: 0.0096051227321238
+The quintile score chris is: 3 --- actual score: 0.0048025613660619
+The quintile score jennifer is: 2 --- actual score: 0.0021344717182497333
+The quintile score jianhua is: 1 --- actual score: 0.0
+The quintile score jenny is: 1 --- actual score: 0.0
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  TL quintile
+qt_thrs:  10.60421237384818 8.51470525643754 7.515830115830116 4.93957219251337 7.864864864864865
+The quintile score of ken is: 5 --- actual score: 11.255813953488373
+The quintile score chris is: 4 --- actual score: 10.169811320754716
+The quintile score kara is: 4 --- actual score: 8.67716535433071
+The quintile score jennifer is: 3 --- actual score: 7.864864864864865
+The quintile score jenny is: 2 --- actual score: 7.428571428571429
+The quintile score kerri is: 2 --- actual score: 6.614973262032086
+The quintile score jianhua is: 1 --- actual score: 2.426470588235294
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: Lauren_Training.xml
+size of LTs: 493
+size of mentions: 2477
+sizeOfSSLTs: 18
+sizeOfILTs: 21
+jennifer's size of turns: 75
+==========================================
+From: jennifer
+parameters: 
+LTI: 0.04259634888438134
+SMTI: 0.0072668550666128385
+Cite Score: 0.00508130081300813
+TLI: 7.88
+ C-LTI: 0.47619047619047616
+sizeOfSSLTs: 0
+sizeOfILTs: 4
+jamie's size of turns: 25
+==========================================
+From: jamie
+parameters: 
+LTI: 0.008113590263691683
+SMTI: 0.0
+Cite Score: 0.0
+TLI: 7.0
+ C-LTI: 0.0
+sizeOfSSLTs: 6
+sizeOfILTs: 3
+jianhua's size of turns: 27
+==========================================
+From: jianhua
+parameters: 
+LTI: 0.006085192697768763
+SMTI: 0.0024222850222042794
+Cite Score: 0.003048780487804878
+TLI: 4.185185185185185
+ C-LTI: 2.0
+sizeOfSSLTs: 0
+sizeOfILTs: 0
+chris's size of turns: 4
+==========================================
+From: chris
+parameters: 
+LTI: 0.0
+SMTI: 0.0
+Cite Score: 0.0
+TLI: 2.75
+ C-LTI: NaN
+sizeOfSSLTs: 12
+sizeOfILTs: 8
+kara's size of turns: 36
+==========================================
+From: kara
+parameters: 
+LTI: 0.016227180527383367
+SMTI: 0.004844570044408559
+Cite Score: 0.004573170731707317
+TLI: 6.638888888888889
+ C-LTI: 1.125
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control - LTI quintile
+qt_thrs:  0.037322515212981744 0.012981744421906694 0.006896551724137931 0.0012170385395537523 0.008113590263691683
+The quintile score of jennifer is: 5 --- actual score: 0.04259634888438134
+The quintile score kara is: 4 --- actual score: 0.016227180527383367
+The quintile score jamie is: 3 --- actual score: 0.008113590263691683
+The quintile score jianhua is: 2 --- actual score: 0.006085192697768763
+The quintile score chris is: 1 --- actual score: 0.0
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  SMT quintile: 
+qt_thrs:  0.006782398062171982 0.003875656035526847 9.689140088817115E-4 0.0 0.0024222850222042794
+The quintile score of jennifer is: 5 --- actual score: 0.0072668550666128385
+The quintile score kara is: 4 --- actual score: 0.004844570044408559
+The quintile score jianhua is: 3 --- actual score: 0.0024222850222042794
+The quintile score jamie is: 1 --- actual score: 0.0
+The quintile score chris is: 1 --- actual score: 0.0
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  CS quintile
+qt_thrs:  0.004979674796747967 0.0039634146341463415 0.001219512195121951 0.0 0.003048780487804878
+The quintile score of jennifer is: 5 --- actual score: 0.00508130081300813
+The quintile score kara is: 4 --- actual score: 0.004573170731707317
+The quintile score jianhua is: 3 --- actual score: 0.003048780487804878
+The quintile score jamie is: 1 --- actual score: 0.0
+The quintile score chris is: 1 --- actual score: 0.0
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  TL quintile
+qt_thrs:  7.704 6.855555555555556 5.166666666666666 3.037037037037037 6.638888888888889
+The quintile score of jennifer is: 5 --- actual score: 7.88
+The quintile score jamie is: 4 --- actual score: 7.0
+The quintile score kara is: 3 --- actual score: 6.638888888888889
+The quintile score jianhua is: 2 --- actual score: 4.185185185185185
+The quintile score chris is: 1 --- actual score: 2.75
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: Mar11_GroupB_lauren.xml
+size of LTs: 555
+size of mentions: 2955
+sizeOfSSLTs: 272
+sizeOfILTs: 34
+nate's size of turns: 142
+==========================================
+From: nate
+parameters: 
+LTI: 0.06126126126126126
+SMTI: 0.09204737732656515
+Cite Score: 0.06652360515021459
+TLI: 11.267605633802816
+ C-LTI: 4.5588235294117645
+sizeOfSSLTs: 4
+sizeOfILTs: 1
+ilspersonnel's size of turns: 10
+==========================================
+From: ilspersonnel
+parameters: 
+LTI: 0.0018018018018018018
+SMTI: 0.0013536379018612521
+Cite Score: 0.0012875536480686696
+TLI: 8.4
+ C-LTI: 3.0
+sizeOfSSLTs: 50
+sizeOfILTs: 12
+jenifer's size of turns: 72
+==========================================
+From: jenifer
+parameters: 
+LTI: 0.021621621621621623
+SMTI: 0.01692047377326565
+Cite Score: 0.019313304721030045
+TLI: 10.652777777777779
+ C-LTI: 3.75
+sizeOfSSLTs: 0
+sizeOfILTs: 0
+johnw's size of turns: 2
+==========================================
+From: johnw
+parameters: 
+LTI: 0.0
+SMTI: 0.0
+Cite Score: 0.0
+TLI: 1.0
+ C-LTI: NaN
+sizeOfSSLTs: 4
+sizeOfILTs: 5
+laura's size of turns: 78
+==========================================
+From: laura
+parameters: 
+LTI: 0.009009009009009009
+SMTI: 0.0013536379018612521
+Cite Score: 0.0012875536480686696
+TLI: 4.602564102564102
+ C-LTI: 0.6
+sizeOfSSLTs: 62
+sizeOfILTs: 9
+kerri's size of turns: 89
+==========================================
+From: kerri
+parameters: 
+LTI: 0.016216216216216217
+SMTI: 0.02098138747884941
+Cite Score: 0.024463519313304722
+TLI: 5.438202247191011
+ C-LTI: 6.333333333333333
+sizeOfSSLTs: 0
+sizeOfILTs: 0
+jessicad's size of turns: 3
+==========================================
+From: jessicad
+parameters: 
+LTI: 0.0
+SMTI: 0.0
+Cite Score: 0.0
+TLI: 4.333333333333333
+ C-LTI: NaN
+sizeOfSSLTs: 7
+sizeOfILTs: 7
+lisa's size of turns: 86
+==========================================
+From: lisa
+parameters: 
+LTI: 0.012612612612612612
+SMTI: 0.0023688663282571912
+Cite Score: 0.002145922746781116
+TLI: 8.790697674418604
+ C-LTI: 0.7142857142857143
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control - LTI quintile
+qt_thrs:  0.029549549549549557 0.014054054054054056 0.006126126126126127 0.0 0.010810810810810811
+The quintile score of nate is: 5 --- actual score: 0.06126126126126126
+The quintile score jenifer is: 4 --- actual score: 0.021621621621621623
+The quintile score kerri is: 4 --- actual score: 0.016216216216216217
+The quintile score lisa is: 3 --- actual score: 0.012612612612612612
+The quintile score laura is: 3 --- actual score: 0.009009009009009009
+The quintile score ilspersonnel is: 2 --- actual score: 0.0018018018018018018
+The quintile score johnw is: 1 --- actual score: 0.0
+The quintile score jessicad is: 1 --- actual score: 0.0
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  SMT quintile: 
+qt_thrs:  0.035194585448392574 0.00818950930626058 0.0013536379018612521 0.0 0.0018612521150592216
+The quintile score of nate is: 5 --- actual score: 0.09204737732656515
+The quintile score kerri is: 4 --- actual score: 0.02098138747884941
+The quintile score jenifer is: 4 --- actual score: 0.01692047377326565
+The quintile score lisa is: 3 --- actual score: 0.0023688663282571912
+The quintile score ilspersonnel is: 3 --- actual score: 0.0013536379018612521
+The quintile score laura is: 3 --- actual score: 0.0013536379018612521
+The quintile score johnw is: 1 --- actual score: 0.0
+The quintile score jessicad is: 1 --- actual score: 0.0
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  CS quintile
+qt_thrs:  0.0328755364806867 0.009012875536480693 0.0012875536480686696 0.0 0.0017167381974248926
+The quintile score of nate is: 5 --- actual score: 0.06652360515021459
+The quintile score kerri is: 4 --- actual score: 0.024463519313304722
+The quintile score jenifer is: 4 --- actual score: 0.019313304721030045
+The quintile score lisa is: 3 --- actual score: 0.002145922746781116
+The quintile score ilspersonnel is: 3 --- actual score: 0.0012875536480686696
+The quintile score laura is: 3 --- actual score: 0.0012875536480686696
+The quintile score johnw is: 1 --- actual score: 0.0
+The quintile score jessicad is: 1 --- actual score: 0.0
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  TL quintile
+qt_thrs:  10.775743348982786 8.556279069767442 5.103946989340248 3.6666666666666665 6.919101123595506
+The quintile score of nate is: 5 --- actual score: 11.267605633802816
+The quintile score jenifer is: 4 --- actual score: 10.652777777777779
+The quintile score lisa is: 4 --- actual score: 8.790697674418604
+The quintile score ilspersonnel is: 3 --- actual score: 8.4
+The quintile score kerri is: 3 --- actual score: 5.438202247191011
+The quintile score laura is: 2 --- actual score: 4.602564102564102
+The quintile score jessicad is: 2 --- actual score: 4.333333333333333
+The quintile score johnw is: 1 --- actual score: 1.0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: YMCA_lauren.xml
+size of LTs: 625
+size of mentions: 3515
+sizeOfSSLTs: 13
+sizeOfILTs: 21
+jennifer's size of turns: 135
+==========================================
+From: jennifer
+parameters: 
+LTI: 0.0336
+SMTI: 0.003698435277382646
+Cite Score: 0.003867791842475387
+TLI: 7.288888888888889
+ C-LTI: 0.5238095238095238
+sizeOfSSLTs: 99
+sizeOfILTs: 12
+ken's size of turns: 85
+==========================================
+From: ken
+parameters: 
+LTI: 0.0192
+SMTI: 0.028165007112375535
+Cite Score: 0.029184247538677918
+TLI: 7.341176470588235
+ C-LTI: 6.916666666666667
+sizeOfSSLTs: 51
+sizeOfILTs: 20
+lance's size of turns: 74
+==========================================
+From: lance
+parameters: 
+LTI: 0.032
+SMTI: 0.014509246088193456
+Cite Score: 0.011251758087201125
+TLI: 12.472972972972974
+ C-LTI: 1.6
+sizeOfSSLTs: 0
+sizeOfILTs: 5
+kerri's size of turns: 206
+==========================================
+From: kerri
+parameters: 
+LTI: 0.0080
+SMTI: 0.0
+Cite Score: 0.0
+TLI: 3.79126213592233
+ C-LTI: 0.0
+sizeOfSSLTs: 43
+sizeOfILTs: 8
+chris's size of turns: 35
+==========================================
+From: chris
+parameters: 
+LTI: 0.0128
+SMTI: 0.012233285917496443
+Cite Score: 0.013009845288326301
+TLI: 6.914285714285715
+ C-LTI: 4.625
+sizeOfSSLTs: 1
+sizeOfILTs: 1
+jenny's size of turns: 25
+==========================================
+From: jenny
+parameters: 
+LTI: 0.0016
+SMTI: 2.844950213371266E-4
+Cite Score: 3.5161744022503517E-4
+TLI: 4.24
+ C-LTI: 1.0
+sizeOfSSLTs: 26
+sizeOfILTs: 5
+kara's size of turns: 96
+==========================================
+From: kara
+parameters: 
+LTI: 0.0080
+SMTI: 0.007396870554765292
+Cite Score: 0.00808720112517581
+TLI: 7.375
+ C-LTI: 4.6
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control - LTI quintile
+qt_thrs:  0.03264 0.01792 0.008960000000000001 0.005440000000000001 0.0128
+The quintile score of jennifer is: 5 --- actual score: 0.0336
+The quintile score lance is: 4 --- actual score: 0.032
+The quintile score ken is: 4 --- actual score: 0.0192
+The quintile score chris is: 3 --- actual score: 0.0128
+The quintile score kerri is: 2 --- actual score: 0.0080
+The quintile score kara is: 2 --- actual score: 0.0080
+The quintile score jenny is: 1 --- actual score: 0.0016
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  SMT quintile: 
+qt_thrs:  0.019971550497866294 0.011266002844950211 0.004438122332859175 1.70697012802276E-4 0.007396870554765292
+The quintile score of ken is: 5 --- actual score: 0.028165007112375535
+The quintile score lance is: 4 --- actual score: 0.014509246088193456
+The quintile score chris is: 4 --- actual score: 0.012233285917496443
+The quintile score kara is: 3 --- actual score: 0.007396870554765292
+The quintile score jennifer is: 2 --- actual score: 0.003698435277382646
+The quintile score jenny is: 2 --- actual score: 2.844950213371266E-4
+The quintile score kerri is: 1 --- actual score: 0.0
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  CS quintile
+qt_thrs:  0.019479606188466954 0.010618846694796062 0.004711673699015472 2.1097046413502113E-4 0.00808720112517581
+The quintile score of ken is: 5 --- actual score: 0.029184247538677918
+The quintile score chris is: 4 --- actual score: 0.013009845288326301
+The quintile score lance is: 4 --- actual score: 0.011251758087201125
+The quintile score kara is: 3 --- actual score: 0.00808720112517581
+The quintile score jennifer is: 2 --- actual score: 0.003867791842475387
+The quintile score jenny is: 2 --- actual score: 3.5161744022503517E-4
+The quintile score kerri is: 1 --- actual score: 0.0
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  TL quintile
+qt_thrs:  9.414189189189191 7.330718954248366 6.989206349206349 4.060504854368932 7.288888888888889
+The quintile score of lance is: 5 --- actual score: 12.472972972972974
+The quintile score kara is: 4 --- actual score: 7.375
+The quintile score ken is: 4 --- actual score: 7.341176470588235
+The quintile score jennifer is: 3 --- actual score: 7.288888888888889
+The quintile score chris is: 2 --- actual score: 6.914285714285715
+The quintile score jenny is: 2 --- actual score: 4.24
+The quintile score kerri is: 1 --- actual score: 3.79126213592233
