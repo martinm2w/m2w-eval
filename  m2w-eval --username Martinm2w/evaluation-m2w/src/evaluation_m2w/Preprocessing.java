@@ -29,10 +29,10 @@ public class Preprocessing {
 		
 		
 		p.parseExpDis(
-				"G:/m2w cs/evaluation-m2w/input_log/older/expressive_disagreement_Lauren_3",  
-				"G:/m2w cs/evaluation-m2w/input_log/older/expressive_disagreement_auto_3", 
-				"G:/m2w cs/evaluation-m2w/output_log/2010.07.31/expressive_disagreement_Lauren_3_pp",
-				"G:/m2w cs/evaluation-m2w/output_log/2010.07.31/expressive_disagreement_auto_3_pp");
+				"D:/m2w cs/evaluation-m2w/input_log/older/expressive_disagreement_Lauren_3",  
+				"D:/m2w cs/evaluation-m2w/input_log/older/expressive_disagreement_auto_3", 
+				"D:/m2w cs/evaluation-m2w/output_log/2010.08/expressive_disagreement_Lauren_3_pp",
+				"D:/m2w cs/evaluation-m2w/output_log/2010.08/expressive_disagreement_auto_3_pp");
 	
 	}
 	
@@ -69,51 +69,46 @@ public class Preprocessing {
 			while((tempStrh = hbr.readLine()) != null ) {
 				//System.out.println("tempStrh : " + tempStrh);
 				
-				if(tempStrh.contains("$$$$")){  ///if it's a new file
-					String tempsh = null;
+				if(tempStrh.contains("processing:")){  ///if it's a new file
+					
+					//String tempsh = null;
 					ArrayList<String> templist = new ArrayList<String>();
 					templist.add(tempStrh);
 					
 					do{ 
 
                         hbr.mark(1000);
-                        tempsh=hbr.readLine();
-                        templist.add(tempsh);
+                        tempStrh=hbr.readLine();
+                        templist.add(tempStrh);
 
-                   }while(tempsh!=null && !tempsh.contains("%%%%"));
+                   }while(tempStrh!=null && !tempStrh.contains("%%%%"));
+					
+//                        tempsh=hbr.readLine();
+//                        templist.add(tempsh);
+//
+//                   }while(tempsh!=null && !tempsh.contains("%%%%"));
 
                    hbr.reset();
                    
                    HList.add(templist);
-					System.err.println("tempsh is :" + tempsh);
+					System.err.println("tempsh is :" + tempStrh);
 				}
 				
-				if(tempStrh.contains("%%%")){  /// if new calculate block
-					String tempsh = null;
+				if(tempStrh.contains("+++")){  /// if new calculate block
+					
+					//String tempsh = null;
 					ArrayList<String> templist = new ArrayList<String>();
-					//templist.add(tempStrh);
+					templist.add(tempStrh);
 					
-					while((tempsh = hbr.readLine()) != null && !tempsh.contains("$$$"))
+					while((tempStrh = hbr.readLine()) != null && !tempStrh.contains("$$$")){
+					//while((tempsh = hbr.readLine()) != null && !tempsh.contains("$$$"))
 						
-//						if (tempsh.equals("")){
-//							
-//                    		continue;
-//                    	}
-					
 						 hbr.mark(1000);
-	                 	
-	                     templist.add(tempsh);
-                       
-
-                  // }while(tempsh!=null && (!tempsh.contains("$$$")));
-					//(tempsh.contains("++++") || tempsh.contains("The") || tempsh.contains("calculate") || tempsh.contains("") || tempsh.contains("===") || tempsh.contains("qt_thrs")));
-					
-                   hbr.reset();
-                   
-                   HList.add(templist);
-					
-				}
-				
+	                     templist.add(tempStrh);
+					}
+	                     hbr.reset();
+	                     HList.add(templist);
+				}	
 			} //while
 				
 			/*1.2save auto file into AList*/ //ok
