@@ -224,7 +224,7 @@ public class expressive_disagreementooo {
            br = new BufferedReader(new FileReader(file));
            while ((tempStr = br.readLine()) != null){
         	   
-        	   if(tempStr.contains("$$$$$$$$$$$$")){// isnew value set to $$$$$
+        	   if(tempStr.contains("processing:")){// isnew value set to $$$$$
 
                    isnew=true;
 
