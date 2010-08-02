@@ -47,12 +47,10 @@ public class topic_control {
 
        // for(int i = 0; i < annotators.length; i++){
 
-        String evaluation_file = "D:/m2w cs/evaluation/src/output_files/topic_control_5_fully_Lauren.result";
+        String human_annotation = "D:/m2w cs/evaluation-m2w/src/input_files/topic_control_5_Lauren_annotated_0_1";
+        String auto_annotation = "D:/m2w cs/evaluation-m2w/src/input_files/topic_control_5_fully_auto_0";
 
-        String human_annotation = "D:/m2w cs/evaluation/src/input_files/topic_control_5_Lauren_annotated_0_1";
-        String auto_annotation = "D:/m2w cs/evaluation/src/input_files/topic_control_5_fully_auto_0";
-
-
+        String evaluation_file = "D:/m2w cs/evaluation-m2w/src/output_files/topic_control_5_fully_Lauren_result_08022010";
 
 
 

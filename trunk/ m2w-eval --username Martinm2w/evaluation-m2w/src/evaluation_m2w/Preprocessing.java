@@ -31,8 +31,8 @@ public class Preprocessing {
 		p.parseExpDis(
 				"D:/m2w cs/evaluation-m2w/input_log/older/expressive_disagreement_Lauren_3",  
 				"D:/m2w cs/evaluation-m2w/input_log/older/expressive_disagreement_auto_3", 
-				"D:/m2w cs/evaluation-m2w/output_log/2010.08/expressive_disagreement_Lauren_3_pp",
-				"D:/m2w cs/evaluation-m2w/output_log/2010.08/expressive_disagreement_auto_3_pp");
+				"D:/m2w cs/evaluation-m2w/preprocessed_log/2010.08/expressive_disagreement_Lauren_3_pp",
+				"D:/m2w cs/evaluation-m2w/preprocessed_log/2010.08/expressive_disagreement_auto_3_pp");
 	
 	}
 	
