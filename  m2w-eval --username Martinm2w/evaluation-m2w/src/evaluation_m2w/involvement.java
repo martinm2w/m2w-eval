@@ -246,7 +246,7 @@ public class involvement {
                                speaker.contains("The quintile score")) {
 
                                for(int k = 0; k < speakers.length; k++){
-                                   if(speaker.toLowerCase().contains(speakers[k])){
+                                   if(speaker.toLowerCase().contains(speakers[k] + " ")){
                                         score_array[k] = speaker.toLowerCase();
                                         //System.out.println("score_array[" + k + "]: " + score_array[k]);
                                    }
@@ -308,7 +308,7 @@ public class involvement {
                            while((speaker = eia_br.readLine()) != null &&
                                    speaker.contains("The quintile score")) {
                                for(int k = 0; k < speakers.length; k++){
-                                   if(speaker.toLowerCase().contains(speakers[k])){
+                                   if(speaker.toLowerCase().contains(speakers[k] + " ")){
                                         score_array[k] = speaker.toLowerCase();
                                         //System.out.println("score_array[" + k + "]: " + score_array[k]);
                                    }
@@ -348,7 +348,7 @@ public class involvement {
                     continue;
                 }
                 for(int k = 0; k < speakers.length; k++){
-                    if(scores[j].contains(speakers[k])){
+                    if(scores[j].contains(speakers[k] + " ")){
                         String speaker_scores = scores[j];
                         String[] tmp = speaker_scores.split("---");
                         String tmp2 = tmp[0].trim();
@@ -374,7 +374,7 @@ public class involvement {
                     continue;
                 }
                 for(int k = 0; k < speakers.length; k++){
-                    if(scores[j].contains(speakers[k])){
+                    if(scores[j].contains(speakers[k] + " ")){
                         String speaker_scores = scores[j];
                         String[] tmp = speaker_scores.split("---");
                         String tmp2 = tmp[0].trim();
@@ -398,7 +398,7 @@ public class involvement {
                     continue;
                 }
                 for(int k = 0; k < speakers.length; k++){
-                    if(scores[j].contains(speakers[k])){
+                    if(scores[j].contains(speakers[k] + " ")){
                         String speaker_scores = scores[j];
                         String[] tmp = speaker_scores.split("---");
                         String tmp2 = tmp[1].trim();
@@ -422,7 +422,7 @@ public class involvement {
                     continue;
                 }
                 for(int k = 0; k < speakers.length; k++){
-                    if(scores[j].contains(speakers[k])){
+                    if(scores[j].contains(speakers[k] + " ")){
                         String speaker_scores = scores[j];
                         String[] tmp = speaker_scores.split("---");
                         String tmp2 = tmp[1].trim();
