@@ -329,7 +329,7 @@ public class expressive_disagreementooo {
 
 
  public static void extract_info_auto(String evaluation_file, String file, String auto_annotation, String curtopic, boolean isnew){
-        BufferedReader br;
+        //BufferedReader br;
         String tempStr = "";
 
 
@@ -573,8 +573,8 @@ public class expressive_disagreementooo {
                     int[] auto_qscore = auto_quintile_scores.get(category);
                     int[] human_qscore = human_quintile_scores.get(category);
 
-                    String[] auto_ascore = auto_actual_scores.get(category);
-                    String[] human_ascore = human_actual_scores.get(category);
+                    //String[] auto_ascore = auto_actual_scores.get(category);
+                    //String[] human_ascore = human_actual_scores.get(category);
 
                     String[] auto_qt = auto_qt_thrs.get(category);
                     String[] human_qt = human_qt_thrs.get(category);

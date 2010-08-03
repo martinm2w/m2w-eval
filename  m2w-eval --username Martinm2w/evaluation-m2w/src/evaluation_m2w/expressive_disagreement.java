@@ -141,7 +141,7 @@ public class expressive_disagreement {
         	   
         	  if(tempStr.contains("calculate Expressive Disagreement -")){
         		  
-        		  String cat = tempStr;
+        		 // String cat = tempStr;
         		  
         		 // if((tempStr = br.readLine()).contains("qt_thrs: ")){
                 	  
@@ -224,7 +224,7 @@ public class expressive_disagreement {
 
 
  public static void extract_info_auto(String evaluation_file, String file, String auto_annotation){// (output, human, auto)
-        BufferedReader br;
+       // BufferedReader br;
         String tempStr = "";
 
 
@@ -434,8 +434,8 @@ public class expressive_disagreement {
                     int[] auto_qscore = auto_quintile_scores.get(category);
                     int[] human_qscore = human_quintile_scores.get(category);
 
-                    String[] auto_ascore = auto_actual_scores.get(category);
-                    String[] human_ascore = human_actual_scores.get(category);
+                   // String[] auto_ascore = auto_actual_scores.get(category);
+                   // String[] human_ascore = human_actual_scores.get(category);
 
                     String[] auto_qt = auto_qt_thrs.get(category);
                     String[] human_qt = human_qt_thrs.get(category);
