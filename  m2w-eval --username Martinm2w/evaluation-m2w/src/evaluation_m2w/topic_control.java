@@ -93,6 +93,16 @@ public class topic_control {
 
 
                     }
+                    /*merged files*/
+                    else if(tempstr.contains("calculate Merged quintile")){
+                    	
+                    	if(categories_map.get("merged quintile") == null){
+                    		
+                    		categories_map.put("merged quintile", "merged quintile");
+                    		
+                    	}
+                    }
+                    /*normal files*/
                     else if(tempstr.contains("calculate Topic Control - ")){//get topics
 
                        // System.err.println(tempstr.split("\"")[1]);
@@ -147,7 +157,7 @@ public class topic_control {
 
                     categories[ei]=(String)categoriesarray[ei];
 
-                    System.err.println(categories[ei]);
+                    System.out.println(categories[ei]);
 
                 }
 
@@ -228,11 +238,11 @@ public class topic_control {
 
                }
 
-               if(tempStr.contains("calculate Topic Control - ")){
+               if(tempStr.contains("calculate Topic Control - ") || tempStr.contains("calculate Merged quintile")){
 
 
                    for(int i = 0; i < categories.length; i++){
-                       if(tempStr.toLowerCase().contains("calculate topic control - "+categories[i])  || tempStr.toLowerCase().contains("calculate topic control -  "+categories[i])){
+                       if(tempStr.toLowerCase().contains("calculate topic control - "+categories[i])  || tempStr.toLowerCase().contains("calculate topic control -  "+categories[i]) || tempStr.toLowerCase().contains("calculate " +categories[i])){
 
                            curtopic=categories[i];
 
@@ -297,9 +307,10 @@ public class topic_control {
                 }
 
            while ((tempStr = eia_br.readLine()) != null){
-               if(tempStr.contains("calculate Topic Control - ")){
+        	   
+               if(tempStr.contains("calculate Topic Control - ") || tempStr.contains("calculate Merged quintile")){
                    for(int i = 0; i < categories.length; i++){
-                       if(tempStr.toLowerCase().contains("calculate topic control - "+categories[i]) || tempStr.toLowerCase().contains("calculate topic control -  "+categories[i])){
+                       if(tempStr.toLowerCase().contains("calculate topic control - "+categories[i]) || tempStr.toLowerCase().contains("calculate topic control -  "+categories[i]) || tempStr.toLowerCase().contains("calculate " +categories[i])){
                            String qt_thrs = eia_br.readLine();
                            String[] qt_thrs1 = qt_thrs.split("\\s+");
                            String[] qt_thrs_array = new String[qt_thrs1.length-1];
@@ -673,8 +684,8 @@ public class topic_control {
 
                     bw.write("\n");
 
-                    Compare_eval CpEval = new Compare_eval();
-                    CpEval.compareEval(bw, speakers, auto_qscore, human_qscore);
+                    //Compare_eval CpEval = new Compare_eval();
+                   // CpEval.compareEval(bw, speakers, auto_qscore, human_qscore);
                     
                     
                 }  //for each category
