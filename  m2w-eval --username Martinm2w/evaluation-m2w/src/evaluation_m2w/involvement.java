@@ -10,6 +10,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+//import evaluation_m2w.Compare_eval;
 
 /**
  *
@@ -680,6 +681,10 @@ public class involvement {
                     bw.write(PM_precision + "(Partial-match)\t");
 
                     bw.write("\n");
+                    
+                    /*compare_evaluation*/
+                    //Compare_eval CpEval = new Compare_eval();
+                   // CpEval.compareEval(bw, speakers, auto_qscore, human_qscore);
 
                 }
 
