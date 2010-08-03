@@ -10,6 +10,7 @@ import java.io.*;
 import java.util.HashMap;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+//import evaluation_m2w.Compare_eval;
 
 /**
  *
@@ -113,6 +114,7 @@ public class topic_disagreement {
 
 
                     }
+                    
                     else if(tempstr.contains("Topic Disagreement on ")){//get topics
 
                        // System.err.println(tempstr.split("\"")[1]);
@@ -748,6 +750,10 @@ public class topic_disagreement {
 
                     System.err.println("GOT++++++++++++++++++++++++++++*************************************************************");
                     bw.write("\n");
+
+                    /*compare_evaluation*/
+                    //Compare_eval CpEval = new Compare_eval();
+                   // CpEval.compareEval(bw, speakers, auto_qscore, human_qscore);
 
                 }
 

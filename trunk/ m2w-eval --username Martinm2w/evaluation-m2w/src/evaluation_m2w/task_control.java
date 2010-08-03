@@ -10,6 +10,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+//import evaluation_m2w.Compare_eval;
 
 /**
  *
@@ -93,6 +94,16 @@ public class task_control {
 
 
                     }
+                    /*merged files*/
+                    else if(tempstr.contains("calculate Merged quintile")){
+                    	
+                    	if(categories_map.get("merged quintile") == null){
+                    		
+                    		categories_map.put("merged quintile", "merged quintile");
+                    		
+                    	}
+                    }
+                    /*normal files*/
                     else if(tempstr.contains("calculate Task Control - ")){//get topics
 
                        // System.err.println(tempstr.split("\"")[1]);
@@ -232,11 +243,11 @@ public class task_control {
 
                }
 
-               if(tempStr.contains("calculate Task Control - ")){
+               if(tempStr.contains("calculate Task Control - ") || tempStr.contains("calculate Merged quintile")){
             	   
                    for(int i = 0; i < categories.length; i++){
                 	   
-                       if(tempStr.toLowerCase().contains(categories[i])){
+                       if(tempStr.toLowerCase().contains(categories[i]) || tempStr.toLowerCase().contains("calculate " +categories[i])){
                     	   
                     	   curtopic=categories[i];
                     	   
@@ -305,9 +316,9 @@ public class task_control {
 
            
            while ((tempStr = eia_br.readLine()) != null){
-               if(tempStr.contains("calculate Task Control - ")){
+               if(tempStr.contains("calculate Task Control - ") || tempStr.contains("calculate Merged quintile")){
                    for(int i = 0; i < categories.length; i++){
-                       if(tempStr.toLowerCase().contains(categories[i])){
+                       if(tempStr.toLowerCase().contains(categories[i]) || tempStr.toLowerCase().contains("calculate " +categories[i])){
                            String qt_thrs = eia_br.readLine();
                            while(!qt_thrs.contains("qt_thrs: ")){
                                qt_thrs = eia_br.readLine();
@@ -717,6 +728,10 @@ public class task_control {
 
                     bw.write("\n");
 
+                    /*compare_evaluation*/
+                    //Compare_eval CpEval = new Compare_eval();
+                   // CpEval.compareEval(bw, speakers, auto_qscore, human_qscore);
+                    
                 }
 
                 bw.close();
