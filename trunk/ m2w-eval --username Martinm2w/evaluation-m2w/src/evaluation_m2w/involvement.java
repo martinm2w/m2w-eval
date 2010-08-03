@@ -53,8 +53,6 @@ public class involvement {
             String evaluation_file = "D:/m2w cs/evaluation-m2w/src/output_files/involvement_6_Lauren_annotated_with_merge_2_result";
 
 
-
-
             try { //extract names/topics
                 BufferedReader br = new BufferedReader(new FileReader(human_annotation));
 

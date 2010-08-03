@@ -22,62 +22,87 @@ public class Compare_eval {
 		 /*Relations*/
         try {
         	
-			bw.write("***   Relations ***");
+			bw.write("********************   Relations ************************");
 			bw.newLine();
-	        bw.write("       Auto_file       \t" + "      Human_file       ");
+	        bw.write("       Auto_file     \t  \t" + "      Human_file       ");
 	        bw.newLine();
 			
-	        for(int i = 0; i < speakers.length; i++){
+	        for(int i = 0; i < (speakers.length - 1); i++){
 	        
 	        	for(int j = i+1; j < speakers.length; j++){
 	        		
+	        		if(auto_qscore == null || human_qscore == null){
+                        continue;
+                    }
+                    if(auto_qscore[j] == 0 && human_qscore[j] == 0){
+                        continue;
+                    }
+                    
 	        		String tempStra = null;
 	        		String tempStrh = null;
 	        		
 	        		/*auto_file logic*/
 	        		if(auto_qscore[i] < auto_qscore[j]){
-	        			tempStra = speakers[i] + "<" + speakers[j];
-	        		}else if (auto_qscore[i] > auto_qscore[j]){
-	        			tempStra = speakers[i] + ">" + speakers[j];
-	        		}else{
-	        			tempStra = speakers[i] + "=" + speakers[j];
+	        			tempStra = speakers[i] + " < " + speakers[j];
+	        		}
+	        		
+	        		if(auto_qscore[i] > auto_qscore[j]){
+	        			tempStra = speakers[i] + " > " + speakers[j];
+	        		}
+	        		
+	        		if(auto_qscore[i] == auto_qscore[j]){
+	        			tempStra = speakers[i] + " = " + speakers[j];
 	        		}
 	        		
 	        		/*human_file logic*/
-	        		if(human_qscore[i] < human_qscore[j]){
-	        			tempStrh = speakers[i] + "<" + speakers[j];
-	        		}else if (human_qscore[i] > human_qscore[j]){
-	        			tempStrh = speakers[i] + ">" + speakers[j];
-	        		}else{
-	        			tempStrh = speakers[i] + "=" + speakers[j];
+	        		if (human_qscore[i] < human_qscore[j]){
+	        			tempStrh = speakers[i] + " < " + speakers[j];
+	        		
 	        		}
+	        		if (human_qscore[i] > human_qscore[j]){
+	        			tempStrh = speakers[i] + " > " + speakers[j];
+	        		}
+	        		if (human_qscore[i] == human_qscore[j]){
+	        			tempStrh = speakers[i] + " = " + speakers[j];
+	        		}
+	        		
 	        		
 	        		compListA.add(tempStra);// use to print result
 	        		compListH.add(tempStrh);
 	        		
-	        		bw.write(tempStra + "\t" + tempStrh);
+	        		if(tempStra.equals(tempStrh)){
+	        			equalCount++;
+	        		}
+	        		
+	        		bw.write(tempStra + "\t \t \t " + tempStrh);
 	        		bw.newLine();
 	        	}
 	        	
 	        } // for all speakers
 	        
 	        /*result eval line*/
-	        for(int i = 0; i < compListA.size(); i ++){
-	        	
-	        	if(compListA.get(i).equals(compListH.get(i))){
-	        		
-	        		equalCount++;
-	        		
-	        	}
-	        	
-	        }
+//	        for(int i = 0; i < compListA.size(); i ++){
+//	        	
+//	        	String a = compListA.get(i).toString();
+//	        	String b = compListH.get(i).toString();
+//	        	
+//	        	
+//	        	
+//	        	if(a == b){
+//	        		
+//	        		equalCount++;
+//	        		
+//	        	}
+//	        	
+//	        }
 	        
 	        
 	        
+	        bw.write("||||Equalcount : "+ equalCount +"||||precentage :" + ((double)equalCount / (double)compListA.size()) + "|||||");
+	        bw.newLine();
 	        
-	        bw.write("precentage :" + String.valueOf(equalCount / compListA.size()));
-	        
-	        
+	        compListA.clear();
+	        compListH.clear();
 	        
 		} catch (IOException e) {
 			// TODO Auto-generated catch block

@@ -673,11 +673,11 @@ public class topic_control {
 
                     bw.write("\n");
 
-                  //  Compare_eval CpEval = new Compare_eval();
-                  //  CpEval.compareEval(bw, speakers, auto_qscore, human_qscore);
+                    Compare_eval CpEval = new Compare_eval();
+                    CpEval.compareEval(bw, speakers, auto_qscore, human_qscore);
                     
                     
-                }//for each category
+                }  //for each category
 
                 bw.close();
             } catch (IOException e) {
