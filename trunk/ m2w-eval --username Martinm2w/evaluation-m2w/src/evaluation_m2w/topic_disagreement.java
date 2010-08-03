@@ -35,7 +35,7 @@ public class topic_disagreement {
     static HashMap<String, String[]> human_actual_scores = new HashMap<String, String[]>(); // key: category; value: actual scores, order by speakers
     static HashMap<String, String[]> auto_actual_scores = new HashMap<String, String[]>(); // key: category; value: actual scores, order by speakers
 
-    private static boolean readerOpened=false;
+    //private static boolean readerOpened=false;
     //private static BufferedReader eia_br;
     //private static BufferedReader backupeia_br;
 
@@ -277,7 +277,7 @@ public class topic_disagreement {
                }
            }
 
-           readerOpened=false; //next human annotator
+           //readerOpened=false; //next human annotator
            br.close();
 
            br.close();
