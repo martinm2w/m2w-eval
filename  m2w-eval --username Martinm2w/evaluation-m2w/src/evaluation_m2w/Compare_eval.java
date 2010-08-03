@@ -98,7 +98,8 @@ public class Compare_eval {
 	        
 	        
 	        
-	        bw.write("||||Equalcount : "+ equalCount +"||||precentage :" + ((double)equalCount / (double)compListA.size()) + "|||||");
+	        bw.write("|||| Equalcount : "+ equalCount +"||||");
+	        bw.write("|||| Precentage :" + ((double)equalCount / (double)compListA.size()) + "|||||");
 	        bw.newLine();
 	        
 	        compListA.clear();
