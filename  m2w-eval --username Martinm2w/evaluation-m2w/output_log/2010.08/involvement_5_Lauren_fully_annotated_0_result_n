@@ -1,0 +1,383 @@
+---------------- Involvement Evaluation --------------------- 
+Human annotated file: D:/m2w cs/evaluation-m2w/input_log/older/involvement_5_Lauren_annotated_0_1
+Auto annotated file: D:/m2w cs/evaluation-m2w/input_log/older/involvement_5_fully_auto_0
+--------------------------------------------------------------- 
++++++++++++++++++++++++++ npi ++++++++++++++++++++++++++++++ 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+jenifer	3	3	Rest	Low	yes	1	
+jessicad	5	5	Highest	High	yes	1	
+laura	5	5	Highest	High	yes	1	
+ilspersonnel	1	1	Rest	Low	yes	1	
+johnw	4	2	Rest	Mismatch	no	0	
+carol	4	4	Rest	High	yes	1	
+ashley	3	2	Rest	Low	no	0.5	
+jodie	2	3	Rest	Low	no	0.5	
+tony	1	2	Rest	Low	no	0.5	
+sarah	3	4	Rest	Mismatch	no	0	
+Precision: 	1.0(Highest/Rest/Mismatch)	0.8(High/Low/Mismatch)	0.5(Exact-match)	0.65(Partial-match)	
++++++++++++++++++++++++++ ti ++++++++++++++++++++++++++++++ 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+jenifer	2	2	Rest	Low	yes	1	
+jessicad	5	5	Highest	High	yes	1	
+laura	5	5	Highest	High	yes	1	
+ilspersonnel	1	1	Rest	Low	yes	1	
+johnw	4	4	Rest	High	yes	1	
+carol	4	4	Rest	High	yes	1	
+ashley	3	3	Rest	Low	yes	1	
+jodie	2	2	Rest	Low	yes	1	
+tony	1	1	Rest	Low	yes	1	
+sarah	4	4	Rest	High	yes	1	
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	1.0(Exact-match)	1.0(Partial-match)	
++++++++++++++++++++++++++ tci ++++++++++++++++++++++++++++++ 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+jenifer	3	4	Rest	Mismatch	no	0	
+jessicad	5	5	Highest	High	yes	1	
+laura	5	4	Mismatch	High	no	0.5	
+ilspersonnel	1	1	Rest	Low	yes	1	
+johnw	4	3	Rest	Mismatch	no	0.5	
+carol	4	5	Mismatch	High	no	0.5	
+ashley	2	2	Rest	Low	yes	1	
+jodie	3	3	Rest	Low	yes	1	
+tony	2	2	Rest	Low	yes	1	
+sarah	1	2	Rest	Low	no	0	
+Precision: 	0.8(Highest/Rest/Mismatch)	0.8(High/Low/Mismatch)	0.5(Exact-match)	0.65(Partial-match)	
++++++++++++++++++++++++++ allotp ++++++++++++++++++++++++++++++ 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+jenifer	3	4	Rest	Mismatch	no	0	
+jessicad	5	5	Highest	High	yes	1	
+laura	4	4	Rest	High	yes	1	
+ilspersonnel	1	1	Rest	Low	yes	1	
+johnw	4	3	Rest	Mismatch	no	0	
+carol	5	5	Highest	High	yes	1	
+ashley	2	2	Rest	Low	yes	1	
+jodie	2	2	Rest	Low	yes	1	
+tony	1	1	Rest	Low	yes	1	
+sarah	3	3	Rest	Low	yes	1	
+Precision: 	1.0(Highest/Rest/Mismatch)	0.8(High/Low/Mismatch)	0.8(Exact-match)	0.8(Partial-match)	
++++++++++++++++++++++++++ asmi ++++++++++++++++++++++++++++++ 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+jenifer	3	4	Rest	Mismatch	no	0.5	
+jessicad	5	5	Highest	High	yes	1	
+laura	4	4	Rest	High	yes	1	
+ilspersonnel	1	1	Rest	Low	yes	1	
+johnw	4	3	Rest	Mismatch	no	0	
+carol	5	5	Highest	High	yes	1	
+ashley	2	2	Rest	Low	yes	1	
+jodie	2	2	Rest	Low	yes	1	
+tony	1	1	Rest	Low	yes	1	
+sarah	3	3	Rest	Low	yes	1	
+Precision: 	1.0(Highest/Rest/Mismatch)	0.8(High/Low/Mismatch)	0.8(Exact-match)	0.85(Partial-match)	
+---------------- Involvement Evaluation --------------------- 
+Human annotated file: D:/m2w cs/evaluation-m2w/input_log/older/involvement_5_Lauren_annotated_0_1
+Auto annotated file: D:/m2w cs/evaluation-m2w/input_log/older/involvement_5_fully_auto_0
+--------------------------------------------------------------- 
++++++++++++++++++++++++++ npi ++++++++++++++++++++++++++++++ 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+nate	5	5	Highest	High	yes	1	
+jenniferb	3	2	Rest	Low	no	0.5	
+farina	3	3	Rest	Low	yes	1	
+ilspersonnel2	1	1	Rest	Low	yes	1	
+lauren	4	4	Rest	High	yes	1	
+nicole	2	3	Rest	Low	no	0.5	
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.6666666666666666(Exact-match)	0.8333333333333334(Partial-match)	
++++++++++++++++++++++++++ ti ++++++++++++++++++++++++++++++ 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+nate	4	4	Rest	High	yes	1	
+jenniferb	3	3	Rest	Low	yes	1	
+farina	3	3	Rest	Low	yes	1	
+ilspersonnel2	1	1	Rest	Low	yes	1	
+lauren	5	5	Highest	High	yes	1	
+nicole	2	2	Rest	Low	yes	1	
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	1.0(Exact-match)	1.0(Partial-match)	
++++++++++++++++++++++++++ tci ++++++++++++++++++++++++++++++ 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+nate	5	5	Highest	High	yes	1	
+jenniferb	4	2	Rest	Mismatch	no	0	
+farina	4	3	Rest	Mismatch	no	0	
+ilspersonnel2	1	1	Rest	Low	yes	1	
+lauren	2	4	Rest	Mismatch	no	0	
+nicole	3	3	Rest	Low	yes	1	
+Precision: 	1.0(Highest/Rest/Mismatch)	0.5(High/Low/Mismatch)	0.5(Exact-match)	0.5(Partial-match)	
++++++++++++++++++++++++++ allotp ++++++++++++++++++++++++++++++ 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+nate	5	5	Highest	High	yes	1	
+jenniferb	4	4	Rest	High	yes	1	
+farina	3	2	Rest	Low	no	0	
+ilspersonnel2	1	1	Rest	Low	yes	1	
+lauren	3	3	Rest	Low	yes	1	
+nicole	2	3	Rest	Low	no	0.5	
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.6666666666666666(Exact-match)	0.75(Partial-match)	
++++++++++++++++++++++++++ asmi ++++++++++++++++++++++++++++++ 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+nate	5	5	Highest	High	yes	1	
+jenniferb	4	3	Rest	Mismatch	no	0.5	
+farina	3	3	Rest	Low	yes	1	
+ilspersonnel2	1	1	Rest	Low	yes	1	
+lauren	3	4	Rest	Mismatch	no	0.5	
+nicole	2	2	Rest	Low	yes	1	
+Precision: 	1.0(Highest/Rest/Mismatch)	0.6666666666666666(High/Low/Mismatch)	0.6666666666666666(Exact-match)	0.8333333333333334(Partial-match)	
+---------------- Involvement Evaluation --------------------- 
+Human annotated file: D:/m2w cs/evaluation-m2w/input_log/older/involvement_5_Lauren_annotated_0_1
+Auto annotated file: D:/m2w cs/evaluation-m2w/input_log/older/involvement_5_fully_auto_0
+--------------------------------------------------------------- 
++++++++++++++++++++++++++ npi ++++++++++++++++++++++++++++++ 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+danielle	3	4	Rest	Mismatch	no	0	
+dk	4	4	Rest	High	yes	1	
+carol	5	5	Highest	High	yes	1	
+ilspersonnel2	1	1	Rest	Low	yes	1	
+jessicaf	2	2	Rest	Low	yes	1	
+nicole	4	3	Rest	Mismatch	no	0.5	
+jessamyn	2	2	Rest	Low	yes	1	
+Precision: 	1.0(Highest/Rest/Mismatch)	0.7142857142857143(High/Low/Mismatch)	0.7142857142857143(Exact-match)	0.7857142857142857(Partial-match)	
++++++++++++++++++++++++++ ti ++++++++++++++++++++++++++++++ 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+danielle	2	2	Rest	Low	yes	1	
+dk	5	5	Highest	High	yes	1	
+carol	4	4	Rest	High	yes	1	
+ilspersonnel2	1	1	Rest	Low	yes	1	
+jessicaf	3	3	Rest	Low	yes	1	
+nicole	4	4	Rest	High	yes	1	
+jessamyn	2	2	Rest	Low	yes	1	
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	1.0(Exact-match)	1.0(Partial-match)	
++++++++++++++++++++++++++ tci ++++++++++++++++++++++++++++++ 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+danielle	3	3	Rest	Low	yes	1	
+dk	4	4	Rest	High	yes	1	
+carol	5	5	Highest	High	yes	1	
+ilspersonnel2	1	1	Rest	Low	yes	1	
+jessicaf	2	2	Rest	Low	yes	1	
+nicole	4	4	Rest	High	yes	1	
+jessamyn	2	2	Rest	Low	yes	1	
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	1.0(Exact-match)	1.0(Partial-match)	
++++++++++++++++++++++++++ allotp ++++++++++++++++++++++++++++++ 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+danielle	2	2	Rest	Low	yes	1	
+dk	4	4	Rest	High	yes	1	
+carol	5	5	Highest	High	yes	1	
+ilspersonnel2	1	1	Rest	Low	yes	1	
+jessicaf	3	4	Rest	Mismatch	no	0.5	
+nicole	4	3	Rest	Mismatch	no	0	
+jessamyn	2	2	Rest	Low	yes	1	
+Precision: 	1.0(Highest/Rest/Mismatch)	0.7142857142857143(High/Low/Mismatch)	0.7142857142857143(Exact-match)	0.7857142857142857(Partial-match)	
++++++++++++++++++++++++++ asmi ++++++++++++++++++++++++++++++ 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+danielle	2	3	Rest	Low	no	0.5	
+dk	4	4	Rest	High	yes	1	
+carol	5	5	Highest	High	yes	1	
+ilspersonnel2	1	1	Rest	Low	yes	1	
+jessicaf	3	2	Rest	Low	no	0.5	
+nicole	4	4	Rest	High	yes	1	
+jessamyn	2	2	Rest	Low	yes	1	
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.7142857142857143(Exact-match)	0.8571428571428571(Partial-match)	
+---------------- Involvement Evaluation --------------------- 
+Human annotated file: D:/m2w cs/evaluation-m2w/input_log/older/involvement_5_Lauren_annotated_0_1
+Auto annotated file: D:/m2w cs/evaluation-m2w/input_log/older/involvement_5_fully_auto_0
+--------------------------------------------------------------- 
++++++++++++++++++++++++++ npi ++++++++++++++++++++++++++++++ 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+jenny	1	2	Rest	Low	no	0.5	
+chris	2	3	Rest	Low	no	0.5	
+kerri	5	5	Highest	High	yes	1	
+ken	4	4	Rest	High	yes	1	
+jennifer	3	2	Rest	Low	no	0.5	
+kara	4	4	Rest	High	yes	1	
+jianhua	2	1	Rest	Low	no	0.5	
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.42857142857142855(Exact-match)	0.7142857142857143(Partial-match)	
++++++++++++++++++++++++++ ti ++++++++++++++++++++++++++++++ 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+jenny	1	1	Rest	Low	yes	1	
+chris	2	2	Rest	Low	yes	1	
+kerri	5	5	Highest	High	yes	1	
+ken	4	4	Rest	High	yes	1	
+jennifer	3	3	Rest	Low	yes	1	
+kara	4	4	Rest	High	yes	1	
+jianhua	2	2	Rest	Low	yes	1	
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	1.0(Exact-match)	1.0(Partial-match)	
++++++++++++++++++++++++++ tci ++++++++++++++++++++++++++++++ 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+jenny	1	1	Rest	Low	yes	1	
+chris	4	3	Rest	Mismatch	no	0.5	
+kerri	5	5	Highest	High	yes	1	
+ken	3	4	Rest	Mismatch	no	0.5	
+jennifer	2	2	Rest	Low	yes	1	
+kara	4	4	Rest	High	yes	1	
+jianhua	2	2	Rest	Low	yes	1	
+Precision: 	1.0(Highest/Rest/Mismatch)	0.7142857142857143(High/Low/Mismatch)	0.7142857142857143(Exact-match)	0.8571428571428571(Partial-match)	
++++++++++++++++++++++++++ allotp ++++++++++++++++++++++++++++++ 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+jenny	1	1	Rest	Low	yes	1	
+chris	3	4	Rest	Mismatch	no	0.5	
+kerri	5	5	Highest	High	yes	1	
+ken	4	3	Rest	Mismatch	no	0.5	
+jennifer	2	2	Rest	Low	yes	1	
+kara	4	4	Rest	High	yes	1	
+jianhua	2	2	Rest	Low	yes	1	
+Precision: 	1.0(Highest/Rest/Mismatch)	0.7142857142857143(High/Low/Mismatch)	0.7142857142857143(Exact-match)	0.8571428571428571(Partial-match)	
++++++++++++++++++++++++++ asmi ++++++++++++++++++++++++++++++ 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+jenny	1	1	Rest	Low	yes	1	
+chris	3	4	Rest	Mismatch	no	0.5	
+kerri	5	5	Highest	High	yes	1	
+ken	4	4	Rest	High	yes	1	
+jennifer	2	2	Rest	Low	yes	1	
+kara	4	3	Rest	Mismatch	no	0.5	
+jianhua	2	2	Rest	Low	yes	1	
+Precision: 	1.0(Highest/Rest/Mismatch)	0.7142857142857143(High/Low/Mismatch)	0.7142857142857143(Exact-match)	0.8571428571428571(Partial-match)	
+---------------- Involvement Evaluation --------------------- 
+Human annotated file: D:/m2w cs/evaluation-m2w/input_log/older/involvement_5_Lauren_annotated_0_1
+Auto annotated file: D:/m2w cs/evaluation-m2w/input_log/older/involvement_5_fully_auto_0
+--------------------------------------------------------------- 
++++++++++++++++++++++++++ npi ++++++++++++++++++++++++++++++ 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+jamie	4	4	Rest	High	yes	1	
+chris	1	1	Rest	Low	yes	1	
+jennifer	5	5	Highest	High	yes	1	
+kara	3	3	Rest	Low	yes	1	
+jianhua	2	2	Rest	Low	yes	1	
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	1.0(Exact-match)	1.0(Partial-match)	
++++++++++++++++++++++++++ ti ++++++++++++++++++++++++++++++ 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+jamie	2	2	Rest	Low	yes	1	
+chris	1	1	Rest	Low	yes	1	
+jennifer	5	5	Highest	High	yes	1	
+kara	4	4	Rest	High	yes	1	
+jianhua	3	3	Rest	Low	yes	1	
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	1.0(Exact-match)	1.0(Partial-match)	
++++++++++++++++++++++++++ tci ++++++++++++++++++++++++++++++ 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+jamie	4	3	Rest	Mismatch	no	0.5	
+chris	1	1	Rest	Low	yes	1	
+jennifer	5	5	Highest	High	yes	1	
+kara	3	4	Rest	Mismatch	no	0.5	
+jianhua	2	2	Rest	Low	yes	1	
+Precision: 	1.0(Highest/Rest/Mismatch)	0.6(High/Low/Mismatch)	0.6(Exact-match)	0.8(Partial-match)	
++++++++++++++++++++++++++ allotp ++++++++++++++++++++++++++++++ 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+jamie	3	3	Rest	Low	yes	1	
+chris	1	1	Rest	Low	yes	1	
+jennifer	5	5	Highest	High	yes	1	
+kara	4	4	Rest	High	yes	1	
+jianhua	2	2	Rest	Low	yes	1	
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	1.0(Exact-match)	1.0(Partial-match)	
++++++++++++++++++++++++++ asmi ++++++++++++++++++++++++++++++ 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+jamie	3	3	Rest	Low	yes	1	
+chris	1	1	Rest	Low	yes	1	
+jennifer	5	5	Highest	High	yes	1	
+kara	4	4	Rest	High	yes	1	
+jianhua	2	2	Rest	Low	yes	1	
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	1.0(Exact-match)	1.0(Partial-match)	
+---------------- Involvement Evaluation --------------------- 
+Human annotated file: D:/m2w cs/evaluation-m2w/input_log/older/involvement_5_Lauren_annotated_0_1
+Auto annotated file: D:/m2w cs/evaluation-m2w/input_log/older/involvement_5_fully_auto_0
+--------------------------------------------------------------- 
++++++++++++++++++++++++++ npi ++++++++++++++++++++++++++++++ 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+jenifer	4	1	Rest	Mismatch	no	0	
+jessicad	1	1	Rest	Low	yes	1	
+nate	5	1	Mismatch	Mismatch	no	0	
+laura	3	1	Rest	Low	no	0	
+ilspersonnel	2	1	Rest	Low	no	0	
+johnw	1	1	Rest	Low	yes	1	
+kerri	3	1	Rest	Low	no	0	
+lisa	4	5	Mismatch	High	no	0.5	
+Precision: 	0.75(Highest/Rest/Mismatch)	0.75(High/Low/Mismatch)	0.25(Exact-match)	0.3125(Partial-match)	
++++++++++++++++++++++++++ ti ++++++++++++++++++++++++++++++ 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+jenifer	3	3	Rest	Low	yes	1	
+jessicad	2	2	Rest	Low	yes	1	
+nate	5	5	Highest	High	yes	1	
+laura	3	3	Rest	Low	yes	1	
+ilspersonnel	2	2	Rest	Low	yes	1	
+johnw	1	1	Rest	Low	yes	1	
+kerri	4	4	Rest	High	yes	1	
+lisa	4	4	Rest	High	yes	1	
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	1.0(Exact-match)	1.0(Partial-match)	
++++++++++++++++++++++++++ tci ++++++++++++++++++++++++++++++ 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+jenifer	4	4	Rest	High	yes	1	
+jessicad	1	1	Rest	Low	yes	1	
+nate	5	5	Highest	High	yes	1	
+laura	3	3	Rest	Low	yes	1	
+ilspersonnel	1	1	Rest	Low	yes	1	
+johnw	1	1	Rest	Low	yes	1	
+kerri	3	3	Rest	Low	yes	1	
+lisa	4	4	Rest	High	yes	1	
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	1.0(Exact-match)	1.0(Partial-match)	
++++++++++++++++++++++++++ allotp ++++++++++++++++++++++++++++++ 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+jenifer	4	4	Rest	High	yes	1	
+jessicad	1	1	Rest	Low	yes	1	
+nate	5	4	Mismatch	High	no	0.5	
+laura	3	3	Rest	Low	yes	1	
+ilspersonnel	2	2	Rest	Low	yes	1	
+johnw	1	1	Rest	Low	yes	1	
+kerri	3	3	Rest	Low	yes	1	
+lisa	4	5	Mismatch	High	no	0.5	
+Precision: 	0.75(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.75(Exact-match)	0.875(Partial-match)	
++++++++++++++++++++++++++ asmi ++++++++++++++++++++++++++++++ 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+jenifer	4	4	Rest	High	yes	1	
+jessicad	1	1	Rest	Low	yes	1	
+nate	5	5	Highest	High	yes	1	
+laura	3	3	Rest	Low	yes	1	
+ilspersonnel	2	2	Rest	Low	yes	1	
+johnw	1	1	Rest	Low	yes	1	
+kerri	3	3	Rest	Low	yes	1	
+lisa	4	4	Rest	High	yes	1	
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	1.0(Exact-match)	1.0(Partial-match)	
+---------------- Involvement Evaluation --------------------- 
+Human annotated file: D:/m2w cs/evaluation-m2w/input_log/older/involvement_5_Lauren_annotated_0_1
+Auto annotated file: D:/m2w cs/evaluation-m2w/input_log/older/involvement_5_fully_auto_0
+--------------------------------------------------------------- 
++++++++++++++++++++++++++ npi ++++++++++++++++++++++++++++++ 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+lance	3	2	Rest	Low	no	0.5	
+jenny	1	1	Rest	Low	yes	1	
+chris	2	2	Rest	Low	yes	1	
+kerri	5	5	Highest	High	yes	1	
+ken	2	4	Rest	Mismatch	no	0	
+jennifer	4	4	Rest	High	yes	1	
+kara	4	3	Rest	Mismatch	no	0.5	
+Precision: 	1.0(Highest/Rest/Mismatch)	0.7142857142857143(High/Low/Mismatch)	0.5714285714285714(Exact-match)	0.7142857142857143(Partial-match)	
++++++++++++++++++++++++++ ti ++++++++++++++++++++++++++++++ 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+lance	2	2	Rest	Low	yes	1	
+jenny	1	1	Rest	Low	yes	1	
+chris	2	2	Rest	Low	yes	1	
+kerri	5	5	Highest	High	yes	1	
+ken	3	3	Rest	Low	yes	1	
+jennifer	4	4	Rest	High	yes	1	
+kara	4	4	Rest	High	yes	1	
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	1.0(Exact-match)	1.0(Partial-match)	
++++++++++++++++++++++++++ tci ++++++++++++++++++++++++++++++ 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+lance	2	4	Rest	Mismatch	no	0	
+jenny	1	1	Rest	Low	yes	1	
+chris	2	2	Rest	Low	yes	1	
+kerri	4	4	Rest	High	yes	1	
+ken	3	4	Rest	Mismatch	no	0	
+jennifer	5	5	Highest	High	yes	1	
+kara	4	2	Rest	Mismatch	no	0	
+Precision: 	1.0(Highest/Rest/Mismatch)	0.5714285714285714(High/Low/Mismatch)	0.5714285714285714(Exact-match)	0.5714285714285714(Partial-match)	
++++++++++++++++++++++++++ allotp ++++++++++++++++++++++++++++++ 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+lance	3	4	Rest	Mismatch	no	0.5	
+jenny	1	2	Rest	Low	no	0.5	
+chris	2	1	Rest	Low	no	0.5	
+kerri	4	4	Rest	High	yes	1	
+ken	2	2	Rest	Low	yes	1	
+jennifer	5	5	Highest	High	yes	1	
+kara	4	3	Rest	Mismatch	no	0.5	
+Precision: 	1.0(Highest/Rest/Mismatch)	0.7142857142857143(High/Low/Mismatch)	0.42857142857142855(Exact-match)	0.7142857142857143(Partial-match)	
++++++++++++++++++++++++++ asmi ++++++++++++++++++++++++++++++ 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+lance	3	4	Rest	Mismatch	no	0.5	
+jenny	1	1	Rest	Low	yes	1	
+chris	2	2	Rest	Low	yes	1	
+kerri	4	4	Rest	High	yes	1	
+ken	2	2	Rest	Low	yes	1	
+jennifer	5	5	Highest	High	yes	1	
+kara	4	3	Rest	Mismatch	no	0	
+Precision: 	1.0(Highest/Rest/Mismatch)	0.7142857142857143(High/Low/Mismatch)	0.7142857142857143(Exact-match)	0.7857142857142857(Partial-match)	

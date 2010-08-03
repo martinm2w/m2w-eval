@@ -47,13 +47,10 @@ public class topic_control {
 
        // for(int i = 0; i < annotators.length; i++){
 
-        String human_annotation = "D:/m2w cs/evaluation-m2w/src/input_files/topic_control_5_Lauren_annotated_0_1";
-        String auto_annotation = "D:/m2w cs/evaluation-m2w/src/input_files/topic_control_5_fully_auto_0";
+        String human_annotation = "D:/m2w cs/evaluation-m2w/src/input_files/topic_control_6_Lauren_annotated_with_merge_2";
+        String auto_annotation = "D:/m2w cs/evaluation-m2w/src/input_files/topic_control_6_automated_with_merge_2";
 
-        String evaluation_file = "D:/m2w cs/evaluation-m2w/src/output_files/topic_control_5_fully_Lauren_result_080220101";
-
-
-
+        String evaluation_file = "D:/m2w cs/evaluation-m2w/src/output_files/topic_control_6_Lauren_annotated_with_merge_2_result";
 
 
             try { //extract names/topics
@@ -676,8 +673,8 @@ public class topic_control {
 
                     bw.write("\n");
 
-//                    Compare_eval CpEval = new Compare_eval();
-//                    CpEval.compareEval(bw, speakers, auto_qscore, human_qscore);
+                  //  Compare_eval CpEval = new Compare_eval();
+                  //  CpEval.compareEval(bw, speakers, auto_qscore, human_qscore);
                     
                     
                 }//for each category

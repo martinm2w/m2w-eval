@@ -47,10 +47,10 @@ public class involvement {
     //   String[] annotators = {"brian", "kerri", "lauren"};
 
       //  for(int i = 0; i < annotators.length; i++){
-            String human_annotation = "D:/m2w cs/evaluation/src/input_files/involvement_5_Lauren_annotated_0_1";
-            String auto_annotation = "D:/m2w cs/evaluation/src/input_files/involvement_5_fully_auto_0";
+            String human_annotation = "D:/m2w cs/evaluation-m2w/src/input_files/involvement_6_Lauren_annotated_with_merge_2";
+            String auto_annotation = "D:/m2w cs/evaluation-m2w/src/input_files/involvement_6_automated_with_merge_2";
 
-            String evaluation_file = "D:/m2w cs/evaluation/src/output_files/involvement_5_Lauren_fully_annotated_0_result";
+            String evaluation_file = "D:/m2w cs/evaluation-m2w/src/output_files/involvement_6_Lauren_annotated_with_merge_2_result";
 
 
 
