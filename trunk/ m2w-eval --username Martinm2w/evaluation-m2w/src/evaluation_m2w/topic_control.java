@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import evaluation_m2w.Compare_eval;
+//import evaluation_m2w.Compare_eval;
 
 /**
  *
@@ -43,7 +43,7 @@ public class topic_control {
 
 //        String[] annotators = {"brian", "kerri", "lauren"};
 
-        String[] annotators = {"one"};
+        //String[] annotators = {"one"};
 
        // for(int i = 0; i < annotators.length; i++){
 
@@ -295,7 +295,7 @@ public class topic_control {
     }
 
     public static void extract_info_auto(String evaluation_file, String file,String auto_annotation, String curtopic, boolean isnew){
-        BufferedReader br;
+        //BufferedReader br;
         String tempStr = "";
 
         try {
@@ -479,8 +479,8 @@ public class topic_control {
                     int[] auto_qscore = auto_quintile_scores.get(category);
                     int[] human_qscore = human_quintile_scores.get(category);
 
-                    String[] auto_ascore = auto_actual_scores.get(category);
-                    String[] human_ascore = human_actual_scores.get(category);
+                    //String[] auto_ascore = auto_actual_scores.get(category);
+                    //String[] human_ascore = human_actual_scores.get(category);
 
                     String[] auto_qt = auto_qt_thrs.get(category);
                     String[] human_qt = human_qt_thrs.get(category);

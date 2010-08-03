@@ -39,7 +39,7 @@ public class involvement {
     static HashMap<String, String[]> auto_actual_scores = new HashMap<String, String[]>(); // key: category; value: actual scores, order by speakers
 
     private static boolean readerOpened=false;
-        private static BufferedReader eia_br;
+    private static BufferedReader eia_br;
 
 
     public static void main(String[] args){
@@ -283,7 +283,7 @@ public class involvement {
     }
 
     public static void extract_info_auto(String evaluation_file, String file,String auto_annotation, String curtopic, boolean isnew){
-        BufferedReader br;
+        //BufferedReader br;
         String tempStr = "";
 
         try {
@@ -478,8 +478,8 @@ public class involvement {
                     int[] auto_qscore = auto_quintile_scores.get(category);
                     int[] human_qscore = human_quintile_scores.get(category);
 
-                    String[] auto_ascore = auto_actual_scores.get(category);
-                    String[] human_ascore = human_actual_scores.get(category);
+                   // String[] auto_ascore = auto_actual_scores.get(category);
+                    //String[] human_ascore = human_actual_scores.get(category);
 
                     String[] auto_qt = auto_qt_thrs.get(category);
                     String[] human_qt = human_qt_thrs.get(category);

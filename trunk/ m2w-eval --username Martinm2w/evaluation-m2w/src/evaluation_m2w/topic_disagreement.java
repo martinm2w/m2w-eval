@@ -6,7 +6,7 @@
 package evaluation_m2w;
 
 import java.io.*;
-import java.util.Arrays;
+//import java.util.Arrays;
 import java.util.HashMap;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -513,8 +513,8 @@ public class topic_disagreement {
                     int[] auto_qscore = auto_quintile_scores.get(category);
                     int[] human_qscore = human_quintile_scores.get(category);
 
-                    String[] auto_ascore = auto_actual_scores.get(category);
-                    String[] human_ascore = human_actual_scores.get(category);
+                    //String[] auto_ascore = auto_actual_scores.get(category);
+                   // String[] human_ascore = human_actual_scores.get(category);
 
                     String[] auto_qt = auto_qt_thrs.get(category);
                     String[] human_qt = human_qt_thrs.get(category);
