@@ -93,6 +93,16 @@ public class involvement {
 
 
                     }
+                    /*merged files*/
+                    else if(tempstr.contains("calculate Merged quintile")){
+                    	
+                    	if(categories_map.get("merged quintile") == null){
+                    		
+                    		categories_map.put("merged quintile", "merged quintile");
+                    		
+                    	}
+                    }
+                    /*normal files*/
                     else if(tempstr.contains("calculate Involvement - ")){//get topics
 
                        // System.err.println(tempstr.split("\"")[1]);
@@ -214,9 +224,9 @@ public class involvement {
 
                }
 
-               if(tempStr.contains("calculate Involvement - ")){
+               if(tempStr.contains("calculate Involvement - ") || tempStr.contains("calculate Merged quintile")){
                    for(int i = 0; i < categories.length; i++){
-                       if(tempStr.toLowerCase().contains("calculate involvement - "+ categories[i])){
+                       if(tempStr.toLowerCase().contains("calculate involvement - "+ categories[i]) || tempStr.toLowerCase().contains("calculate " +categories[i])){
 
                            curtopic=categories[i];
 
@@ -287,9 +297,9 @@ public class involvement {
 
 
            while ((tempStr = eia_br.readLine()) != null){
-               if(tempStr.contains("calculate Involvement - ")){
+               if(tempStr.contains("calculate Involvement - ") || tempStr.contains("calculate Merged quintile")){
                    for(int i = 0; i < categories.length; i++){
-                       if(tempStr.toLowerCase().contains("calculate involvement - "+categories[i])){
+                       if(tempStr.toLowerCase().contains("calculate involvement - "+categories[i]) || tempStr.toLowerCase().contains("calculate " +categories[i])){
                            String qt_thrs = eia_br.readLine();
                            String[] qt_thrs1 = qt_thrs.split("\\s+");
                            String[] qt_thrs_array = new String[qt_thrs1.length-1];
