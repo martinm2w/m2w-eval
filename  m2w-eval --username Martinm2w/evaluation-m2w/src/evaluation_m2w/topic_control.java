@@ -2,12 +2,12 @@ package evaluation_m2w;
 
 
 import java.io.*;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import evaluation_m2w.Compare_eval;
+import evaluation_m2w.CompareEval;
+import evaluation_m2w.Filenames;
 
 /**
  *
@@ -38,11 +38,8 @@ public class topic_control {
     static HashMap<String, String[]> auto_actual_scores = new HashMap<String, String[]>(); // key: category; value: actual scores, order by speakers
 
     /*new_file_names*/
-    static HashMap<String, String> human_files = new HashMap<String, String>();
-    static HashMap<String, String> auto_files = new HashMap<String, String>();
-    static ArrayList<String> human_file_list = new ArrayList<String>();
-    static ArrayList<String> auto_file_list = new ArrayList<String>();
-    static int fileIndex = 0;
+    static Filenames filename = new Filenames();
+
     
     private static boolean readerOpened=false;
     private static BufferedReader eia_br;
@@ -59,61 +56,15 @@ public class topic_control {
         String human_annotation = "D:/m2w cs/evaluation-m2w/src/input_files/topic_control_6_Lauren_annotated_with_merge_3";
         String auto_annotation = "D:/m2w cs/evaluation-m2w/src/input_files/topic_control_6_automated_with_merge_3";
 
-        String evaluation_file = "D:/m2w cs/evaluation-m2w/src/output_files/topic_control_6_Lauren_annotated_with_merge_3_result_ce";
+        String evaluation_file = "D:/m2w cs/evaluation-m2w/src/output_files/topic_control_6_Lauren_annotated_with_merge_3_result";
 
-
+        
+        
             try { //extract names/topics
                 BufferedReader br = new BufferedReader(new FileReader(human_annotation));
                 
-                
-                /*start read in file names from 2 files */
-                BufferedReader hfbr = new BufferedReader(new FileReader(human_annotation)); // human file name buffered reader
-                BufferedReader afbr = new BufferedReader(new FileReader(auto_annotation)); // auto file name buffered reader
-                
-                String hfileStr = "";
-                String afileStr = "";
-                
-                while((hfileStr = hfbr.readLine()) != null){
-                	
-                	if(hfileStr != null && hfileStr.contains("processing") ){
-                		
-                		if(human_files.get(hfileStr.split(" ")[1]) == null){
-                			
-                			human_files.put(hfileStr.split(" ")[1], hfileStr.split(" ")[1]); //tester
-                			human_file_list.add(hfileStr.split(" ")[1]);// ordered file names
-                			
-                		}
-                		
-                	}
-                	
-                }
-                
-                while((afileStr = afbr.readLine()) != null){
-                	
-                	if(afileStr != null && afileStr.contains("processing") ){
-                		
-                		if(auto_files.get(afileStr.split(" ")[1]) == null){
-                			
-                			auto_files.put(afileStr.split(" ")[1], afileStr.split(" ")[1]);
-                			auto_file_list.add(afileStr.split(" ")[1]);
-                			
-                		}
-                		
-                	}
-                	
-                	
-                }
-                
-                //System.out.println(Arrays.toString(auto_files.keySet().toArray()));
-                //System.out.println(Arrays.toString(human_files.keySet().toArray()));
-                
-                System.out.println(human_file_list);
-                System.out.println(auto_file_list);
-                
-                
-                afbr.close();
-                hfbr.close();
-                /*end read in */
+                /*read in file name*/
+                filename.extractFileNames(human_annotation, auto_annotation);
 
 
                 String tempstr;
@@ -514,13 +465,8 @@ public class topic_control {
            
                 if(isnew){ //only print for new section
                 	
-                	
-                    bw.write("---------------- Topic Control Evaluation --------------------- \n");
-                    bw.write("Human annotated file: " + human_file_list.get(fileIndex) + "\n");
-                    bw.write("Auto annotated file: " + auto_file_list.get(fileIndex) + "\n");
-                    bw.write("--------------------------------------------------------------- \n");
+                	filename.printFileNames(bw);
 
-                    fileIndex ++;
                 }
 
                 for(int i = 0; i < categories.length; i++){
@@ -746,8 +692,8 @@ public class topic_control {
                     bw.write("\n");
 
                     /*compare_evaluation*/
-                   Compare_eval CpEval = new Compare_eval();
-                  // CpEval.compareEval(bw, speakers, auto_qscore, human_qscore);
+                   CompareEval CpEval = new CompareEval();
+                   //CpEval.compareEval(bw, speakers, auto_qscore, human_qscore);
                     
                     
                 }  //for each category
