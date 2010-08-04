@@ -1,4 +1,4 @@
-package evaluation_m2w;
+package util;
 
 import java.io.BufferedWriter;
 import java.io.IOException;
