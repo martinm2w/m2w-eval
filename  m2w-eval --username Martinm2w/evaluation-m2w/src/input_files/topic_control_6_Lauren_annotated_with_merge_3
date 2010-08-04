@@ -279,17 +279,17 @@ The quintile score laura is: 1 --- actual score: 5.890322580645162
 The quintile score ilspersonnel is: 1 --- actual score: 5.666666666666667
 ++++++++++++++++++++++++++++++++
 calculate Merged quintile
-qt_thrs:  3.3094056124428377 2.2857984234636923 2.1737200866726307 1.6298169757932524 2.228878701359352
-The quintile score of carol is: 5 --- actual score: 4.536165263616797
-The quintile score of johnw is: 5 --- actual score: 3.401517951198658
-The quintile score jenifer is: 4 --- actual score: 2.940956257419554
-The quintile score Sarah is: 4 --- actual score: 2.29764735334577
-The quintile score tony is: 3 --- actual score: 2.2680250286405763
-The quintile score ashley is: 3 --- actual score: 2.189732374078127
-The quintile score jessicad is: 2 --- actual score: 2.1630452284023
-The quintile score jodie is: 2 --- actual score: 1.9571243650146135
-The quintile score laura is: 1 --- actual score: 1.5479901284879118
-The quintile score ilspersonnel is: 1 --- actual score: 1.4275138254504744
+qt_thrs:  0.14560672234625216 0.08338656993772173 0.06529656341362206 0.029751116770652525 0.06948540004546802
+The quintile score of jessicad is: 5 --- actual score: 0.33963250107293946
+The quintile score of jenifer is: 5 --- actual score: 0.15179258215994634
+The quintile score johnw is: 4 --- actual score: 0.12086328309147525
+The quintile score laura is: 4 --- actual score: 0.09076183921064615
+The quintile score carol is: 3 --- actual score: 0.07232366602833512
+The quintile score Sarah is: 3 --- actual score: 0.06664713406260092
+The quintile score ashley is: 2 --- actual score: 0.06439618298096947
+The quintile score jodie is: 2 --- actual score: 0.041036440890295955
+The quintile score tony is: 1 --- actual score: 0.026929785740741664
+The quintile score ilspersonnel is: 1 --- actual score: 0.025616584762049678
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 processing: Feb13_GroupB.xml
 size of LTs: 145
@@ -405,13 +405,13 @@ The quintile score lauren is: 2 --- actual score: 8.143939393939394
 The quintile score ilspersonnel2 is: 1 --- actual score: 6.0
 ++++++++++++++++++++++++++++++++
 calculate Merged quintile
-qt_thrs:  4.404339543091992 2.9192061310859407 2.1627546967062687 1.7348409881193858 2.5244833105346576
-The quintile score of nate is: 5 --- actual score: 5.256009115563106
-The quintile score jenniferb is: 4 --- actual score: 3.1268351843853224
-The quintile score Farina is: 3 --- actual score: 2.8672988677610953
-The quintile score lauren is: 3 --- actual score: 2.18166775330822
-The quintile score Nicole is: 2 --- actual score: 2.0871024702984644
-The quintile score ilspersonnel2 is: 1 --- actual score: 1.5
+qt_thrs:  0.310415482739117 0.1964454075077835 0.1059723628062185 0.04513996590661731 0.144933047399341
+The quintile score of Farina is: 5 --- actual score: 0.33445933777788334
+The quintile score nate is: 4 --- actual score: 0.27434970018096755
+The quintile score lauren is: 3 --- actual score: 0.17696933433948747
+The quintile score jenniferb is: 3 --- actual score: 0.1128967604591945
+The quintile score Nicole is: 2 --- actual score: 0.07827477219431452
+The quintile score ilspersonnel2 is: 1 --- actual score: 0.02305009504815252
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 processing: Feb19_GroupB_lauren.xml
 size of LTs: 115
@@ -542,14 +542,14 @@ The quintile score dk is: 2 --- actual score: 5.539877300613497
 The quintile score Nicole is: 1 --- actual score: 5.456310679611651
 ++++++++++++++++++++++++++++++++
 calculate Merged quintile
-qt_thrs:  2.5974092306801144 1.8160172318692722 1.5883927767967967 1.5176060073087678 1.7982800646762092
-The quintile score of carol is: 5 --- actual score: 2.805344697620213
-The quintile score danielle is: 4 --- actual score: 2.458785586053382
-The quintile score ilspersonnel2 is: 4 --- actual score: 1.820451523667538
-The quintile score jessicaf is: 3 --- actual score: 1.7982800646762092
-The quintile score dk is: 2 --- actual score: 1.5359209548269435
-The quintile score Nicole is: 2 --- actual score: 1.531285268054348
-The quintile score jessamyn is: 1 --- actual score: 1.4970871161903976
+qt_thrs:  0.25756642918144057 0.1650555569742555 0.0777757680448426 0.047300554196168784 0.11239413022580683
+The quintile score of carol is: 5 --- actual score: 0.3528177675403652
+The quintile score Nicole is: 4 --- actual score: 0.19406553694215742
+The quintile score dk is: 4 --- actual score: 0.1782209136613677
+The quintile score danielle is: 3 --- actual score: 0.11239413022580683
+The quintile score jessicaf is: 2 --- actual score: 0.06912117749960153
+The quintile score jessamyn is: 2 --- actual score: 0.04974182271944129
+The quintile score ilspersonnel2 is: 1 --- actual score: 0.043638651411260033
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 processing: Lauren_Cheney.xml
 size of LTs: 40
@@ -680,14 +680,14 @@ The quintile score kerri is: 2 --- actual score: 6.614973262032086
 The quintile score jianhua is: 1 --- actual score: 2.426470588235294
 ++++++++++++++++++++++++++++++++
 calculate Merged quintile
-qt_thrs:  2.7658552896734765 2.2073097222215305 2.0072810358043593 1.360184144879724 2.0244175855055397
-The quintile score of ken is: 5 --- actual score: 2.991968109101682
-The quintile score chris is: 4 --- actual score: 2.615113410054673
-The quintile score kara is: 4 --- actual score: 2.253032756400528
-The quintile score kerri is: 3 --- actual score: 2.0244175855055397
-The quintile score jennifer is: 2 --- actual score: 2.002996898379064
-The quintile score jenny is: 2 --- actual score: 1.8571428571428572
-The quintile score jianhua is: 1 --- actual score: 0.6147460764850237
+qt_thrs:  0.2982447178214642 0.1227453025381416 0.0821923817385579 0.028177727984094268 0.1193645037135849
+The quintile score of kerri is: 5 --- actual score: 0.4010529267630866
+The quintile score ken is: 4 --- actual score: 0.22970591186038256
+The quintile score kara is: 4 --- actual score: 0.12359050224428078
+The quintile score chris is: 3 --- actual score: 0.1193645037135849
+The quintile score jennifer is: 2 --- actual score: 0.07289935124480115
+The quintile score jenny is: 2 --- actual score: 0.034115031572743405
+The quintile score jianhua is: 1 --- actual score: 0.019271772601120556
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 processing: Lauren_Training.xml
 size of LTs: 36
@@ -788,12 +788,12 @@ The quintile score jianhua is: 2 --- actual score: 4.185185185185185
 The quintile score chris is: 1 --- actual score: 2.75
 ++++++++++++++++++++++++++++++++
 calculate Merged quintile
-qt_thrs:  2.2406031746031743 1.817777777777778 1.4413888888888888 0.7910449735449735 1.7956349206349207
-The quintile score of jennifer is: 5 --- actual score: 2.3426190476190474
-The quintile score kara is: 4 --- actual score: 1.8325396825396827
-The quintile score jamie is: 3 --- actual score: 1.7956349206349207
-The quintile score jianhua is: 2 --- actual score: 1.2052248677248678
-The quintile score chris is: 1 --- actual score: 0.6875
+qt_thrs:  0.39971220163973914 0.2169683843391312 0.14256251293894798 0.04075690108218158 0.19569997694232977
+The quintile score of jennifer is: 5 --- actual score: 0.4418534213987576
+The quintile score kara is: 4 --- actual score: 0.2311473226036655
+The quintile score jianhua is: 3 --- actual score: 0.19569997694232977
+The quintile score jamie is: 2 --- actual score: 0.10713753693669346
+The quintile score chris is: 1 --- actual score: 0.024161742118553615
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 processing: Mar11_GroupB_lauren.xml
 size of LTs: 62
@@ -939,15 +939,15 @@ The quintile score jessicad is: 2 --- actual score: 4.333333333333333
 The quintile score johnw is: 1 --- actual score: 1.0
 ++++++++++++++++++++++++++++++++
 calculate Merged quintile
-qt_thrs:  2.890204188600788 2.169640972322685 1.3938524418120153 0.9166666666666666 1.8137871352805641
-The quintile score of nate is: 5 --- actual score: 3.107013630841877
-The quintile score jenifer is: 4 --- actual score: 2.8360018280405157
-The quintile score lisa is: 4 --- actual score: 2.261355841813851
-The quintile score ilspersonnel is: 3 --- actual score: 2.10849772599524
-The quintile score kerri is: 3 --- actual score: 1.519076544565888
-The quintile score laura is: 2 --- actual score: 1.206016287681206
-The quintile score jessicad is: 2 --- actual score: 1.0833333333333333
-The quintile score johnw is: 1 --- actual score: 0.25
+qt_thrs:  0.24571181101181555 0.13620147511007438 0.06471233678300749 0.016824146561090984 0.09025518795201033
+The quintile score of nate is: 5 --- actual score: 0.3418125447299932
+The quintile score jenifer is: 4 --- actual score: 0.22168662758227112
+The quintile score kerri is: 4 --- actual score: 0.1844786495778432
+The quintile score lisa is: 3 --- actual score: 0.10401669213156178
+The quintile score laura is: 3 --- actual score: 0.07649368377245888
+The quintile score ilspersonnel is: 2 --- actual score: 0.0470403162988304
+The quintile score jessicad is: 2 --- actual score: 0.019883082299471163
+The quintile score johnw is: 1 --- actual score: 0.004588403607570269
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 processing: YMCA_lauren.xml
 size of LTs: 70
@@ -1078,11 +1078,11 @@ The quintile score jenny is: 2 --- actual score: 4.24
 The quintile score kerri is: 1 --- actual score: 3.79126213592233
 ++++++++++++++++++++++++++++++++
 calculate Merged quintile
-qt_thrs:  2.562289588757312 1.961113165941952 1.8135517419662743 1.0327286237099549 1.8679575644288895
-The quintile score of lance is: 5 --- actual score: 3.400709239107068
-The quintile score ken is: 4 --- actual score: 2.003343155190807
-The quintile score jennifer is: 4 --- actual score: 1.9844020663202178
-The quintile score kara is: 3 --- actual score: 1.8679575644288895
-The quintile score chris is: 2 --- actual score: 1.7999502863506205
-The quintile score jenny is: 2 --- actual score: 1.0645746500159083
-The quintile score kerri is: 1 --- actual score: 0.9849595842510247
+qt_thrs:  0.26133308842104375 0.1805101608334977 0.0704807987043492 0.04420162587696033 0.10635348350106943
+The quintile score of lance is: 5 --- actual score: 0.3455582051527039
+The quintile score ken is: 4 --- actual score: 0.20518301059993693
+The quintile score jennifer is: 4 --- actual score: 0.19904933016660478
+The quintile score chris is: 3 --- actual score: 0.10635348350106943
+The quintile score kara is: 2 --- actual score: 0.061512627505169136
+The quintile score kerri is: 2 --- actual score: 0.05632144323577008
+The quintile score jenny is: 1 --- actual score: 0.02602189983874569

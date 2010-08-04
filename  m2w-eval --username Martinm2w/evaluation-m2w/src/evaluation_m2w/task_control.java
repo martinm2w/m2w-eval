@@ -46,11 +46,11 @@ public class task_control {
 
         /*for(int i = 0; i < annotators.length; i++){*/
 
-        String human_annotation = args[0]; //"D:/m2w cs/evaluation/src/preprocessed/task_control_5_Lauren_annotated_7_new";
-        String auto_annotation = args[1]; // "D:/m2w cs/evaluation/src/preprocessed/task_control_5_automated_7_new";
+        String human_annotation = "D:/m2w cs/evaluation-m2w/preprocess_log/old/task_control_5_Lauren_annotated_7.p";
+        String auto_annotation =  "D:/m2w cs/evaluation-m2w/preprocess_log/old/task_control_5_automated_7.p";
 
 
-        String evaluation_file = args[2]; //"D:/m2w cs/evaldata/output_log/2010.07.30/task_control_5_Lauren_annotated_7.result1";
+        String evaluation_file = "D:/m2w cs/evaluation-m2w/output_log/older/task_control_5_Lauren_annotated_7_testing_compare";
 
 
 
@@ -730,7 +730,7 @@ public class task_control {
 
                     /*compare_evaluation*/
                     //Compare_eval CpEval = new Compare_eval();
-                   // CpEval.compareEval(bw, speakers, auto_qscore, human_qscore);
+                    //CpEval.compareEval(bw, speakers, auto_qscore, human_qscore);
                     
                 }
 

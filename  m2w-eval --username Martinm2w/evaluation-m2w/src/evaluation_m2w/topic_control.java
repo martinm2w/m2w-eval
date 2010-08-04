@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-//import evaluation_m2w.Compare_eval;
+import evaluation_m2w.Compare_eval;
 
 /**
  *
@@ -47,10 +47,10 @@ public class topic_control {
 
        // for(int i = 0; i < annotators.length; i++){
 
-        String human_annotation = "D:/m2w cs/evaluation-m2w/src/input_files/topic_control_6_Lauren_annotated_with_merge_2";
-        String auto_annotation = "D:/m2w cs/evaluation-m2w/src/input_files/topic_control_6_automated_with_merge_2";
+        String human_annotation = "D:/m2w cs/evaluation-m2w/src/input_files/topic_control_6_Lauren_annotated_with_merge_3";
+        String auto_annotation = "D:/m2w cs/evaluation-m2w/src/input_files/topic_control_6_automated_with_merge_3";
 
-        String evaluation_file = "D:/m2w cs/evaluation-m2w/src/output_files/topic_control_6_Lauren_annotated_with_merge_2_result";
+        String evaluation_file = "D:/m2w cs/evaluation-m2w/src/output_files/topic_control_6_Lauren_annotated_with_merge_3_result_ce";
 
 
             try { //extract names/topics
@@ -685,8 +685,8 @@ public class topic_control {
                     bw.write("\n");
 
                     /*compare_evaluation*/
-                    //Compare_eval CpEval = new Compare_eval();
-                   // CpEval.compareEval(bw, speakers, auto_qscore, human_qscore);
+                   Compare_eval CpEval = new Compare_eval();
+                   CpEval.compareEval(bw, speakers, auto_qscore, human_qscore);
                     
                     
                 }  //for each category
