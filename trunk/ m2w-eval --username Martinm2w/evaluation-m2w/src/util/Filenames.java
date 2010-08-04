@@ -8,6 +8,12 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 
+/**
+ * 
+ * @author m2w
+ *
+ */
+
 public class Filenames {
     /*new_file_names*/
     static HashMap<String, String> human_files = new HashMap<String, String>();

@@ -11,6 +11,12 @@ import java.io.PrintWriter;
 //import java.lang.reflect.Array;
 import java.util.ArrayList;
 
+/**
+ * 
+ * @author m2w
+ *
+ */
+
 public class Preprocessing {
 
 	public static void main(String[] args) throws IOException{
