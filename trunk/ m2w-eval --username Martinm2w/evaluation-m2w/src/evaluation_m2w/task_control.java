@@ -37,6 +37,9 @@ public class task_control {
     static HashMap<String, String[]> human_actual_scores = new HashMap<String, String[]>(); // key: category; value: actual scores, order by speakers
     static HashMap<String, String[]> auto_actual_scores = new HashMap<String, String[]>(); // key: category; value: actual scores, order by speakers
 
+    /*new_file_names*/
+    static Filenames filename = new Filenames();
+    
     private static boolean readerOpened=false;
         private static BufferedReader eia_br;
 
@@ -57,7 +60,8 @@ public class task_control {
          try { //extract names/topics
                 BufferedReader br = new BufferedReader(new FileReader(human_annotation));
 
-
+                /*read in file name*/
+                filename.extractFileNames(human_annotation, auto_annotation);
 
                 String tempstr;
 
@@ -476,11 +480,11 @@ public class task_control {
                 BufferedWriter bw = new BufferedWriter(new FileWriter(filePath, true));
                 
                 if(isnew){
-                	
-	                bw.write("---------------- Task Control Evaluation --------------------- \n");
-	                bw.write("Human annotated file: " + human_annotation + "\n");
-	                bw.write("Auto annotated file: " + auto_annotation + "\n");
-	                bw.write("--------------------------------------------------------------- \n");
+                	filename.printFileNames(bw);
+//	                bw.write("---------------- Task Control Evaluation --------------------- \n");
+//	                bw.write("Human annotated file: " + human_annotation + "\n");
+//	                bw.write("Auto annotated file: " + auto_annotation + "\n");
+//	                bw.write("--------------------------------------------------------------- \n");
 
                 }
                 
@@ -729,7 +733,7 @@ public class task_control {
                     bw.write("\n");
 
                     /*compare_evaluation*/
-                    //Compare_eval CpEval = new Compare_eval();
+                    //CompareEval CpEval = new CompareEval();
                     //CpEval.compareEval(bw, speakers, auto_qscore, human_qscore);
                     
                 }

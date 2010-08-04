@@ -10,7 +10,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-//import evaluation_m2w.Compare_eval;
+
 
 /**
  *
@@ -54,7 +54,7 @@ public class involvement {
             String human_annotation = "D:/m2w cs/evaluation-m2w/input_log/2010.08/involvement_6_Lauren_annotated_with_merge_2";
             String auto_annotation = "D:/m2w cs/evaluation-m2w/input_log/2010.08/involvement_6_automated_with_merge_2";
 
-            String evaluation_file = "D:/m2w cs/evaluation-m2w/src/output_files/involvement_6_Lauren_annotated_with_merge_2_result_fn";
+            String evaluation_file = "D:/m2w cs/evaluation-m2w/src/output_files/involvement_6_Lauren_annotated_with_merge_2_result_ce";
 
 
             try { //extract names/topics
@@ -688,8 +688,8 @@ public class involvement {
                     bw.write("\n");
                     
                     /*compare_evaluation*/
-                    //Compare_eval CpEval = new Compare_eval();
-                   // CpEval.compareEval(bw, speakers, auto_qscore, human_qscore);
+                    CompareEval CpEval = new CompareEval();
+                    CpEval.compareEval(bw, speakers, auto_qscore, human_qscore);
 
                 }
 

@@ -692,7 +692,7 @@ public class topic_control {
                     bw.write("\n");
 
                     /*compare_evaluation*/
-                   CompareEval CpEval = new CompareEval();
+                   //CompareEval CpEval = new CompareEval();
                    //CpEval.compareEval(bw, speakers, auto_qscore, human_qscore);
                     
                     
