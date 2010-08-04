@@ -24,7 +24,7 @@ public class Compare_eval {
         	
 			bw.write("********************   Relations ************************");
 			bw.newLine();
-	        bw.write("       Auto_file     \t  \t" + "      Human_file       ");
+	        bw.write("Auto_file\t\t" + "Human_file");
 	        bw.newLine();
 			
 	        for(int i = 0; i < (speakers.length - 1); i++){
@@ -70,36 +70,21 @@ public class Compare_eval {
 	        		compListA.add(tempStra);// use to print result
 	        		compListH.add(tempStrh);
 	        		
+	        		/*calculate equalcount*/
 	        		if(tempStra.equals(tempStrh)){
 	        			equalCount++;
 	        		}
 	        		
-	        		bw.write(tempStra + "\t \t \t " + tempStrh);
+	        		bw.write(tempStra + "\t\t" + tempStrh);
 	        		bw.newLine();
 	        	}
 	        	
 	        } // for all speakers
 	        
 	        /*result eval line*/
-//	        for(int i = 0; i < compListA.size(); i ++){
-//	        	
-//	        	String a = compListA.get(i).toString();
-//	        	String b = compListH.get(i).toString();
-//	        	
-//	        	
-//	        	
-//	        	if(a == b){
-//	        		
-//	        		equalCount++;
-//	        		
-//	        	}
-//	        	
-//	        }
-	        
-	        
-	        
 	        bw.write("|||| Equalcount : "+ equalCount +"||||");
-	        bw.write("|||| Precentage :" + ((double)equalCount / (double)compListA.size()) + "|||||");
+	        bw.newLine();
+	        bw.write("|||| Accuracy :" + ((double)equalCount / (double)compListA.size()) + "||||");
 	        bw.newLine();
 	        
 	        compListA.clear();
