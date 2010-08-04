@@ -39,6 +39,9 @@ public class involvement {
     static HashMap<String, String[]> human_actual_scores = new HashMap<String, String[]>(); // key: category; value: actual scores, order by speakers
     static HashMap<String, String[]> auto_actual_scores = new HashMap<String, String[]>(); // key: category; value: actual scores, order by speakers
 
+    /*new_file_names*/
+    static Filenames filename = new Filenames();
+    
     private static boolean readerOpened=false;
     private static BufferedReader eia_br;
 
@@ -48,16 +51,17 @@ public class involvement {
     //   String[] annotators = {"brian", "kerri", "lauren"};
 
       //  for(int i = 0; i < annotators.length; i++){
-            String human_annotation = "D:/m2w cs/evaluation-m2w/src/input_files/involvement_6_Lauren_annotated_with_merge_2";
-            String auto_annotation = "D:/m2w cs/evaluation-m2w/src/input_files/involvement_6_automated_with_merge_2";
+            String human_annotation = "D:/m2w cs/evaluation-m2w/input_log/2010.08/involvement_6_Lauren_annotated_with_merge_2";
+            String auto_annotation = "D:/m2w cs/evaluation-m2w/input_log/2010.08/involvement_6_automated_with_merge_2";
 
-            String evaluation_file = "D:/m2w cs/evaluation-m2w/src/output_files/involvement_6_Lauren_annotated_with_merge_2_result";
+            String evaluation_file = "D:/m2w cs/evaluation-m2w/src/output_files/involvement_6_Lauren_annotated_with_merge_2_result_fn";
 
 
             try { //extract names/topics
                 BufferedReader br = new BufferedReader(new FileReader(human_annotation));
 
-
+                /*read in file name*/
+                filename.extractFileNames(human_annotation, auto_annotation);
 
                 String tempstr;
 
@@ -456,11 +460,12 @@ public class involvement {
                 BufferedWriter bw = new BufferedWriter(new FileWriter(filePath, true));
 
                 if(isnew){ //only print for new section
-
-                    bw.write("---------------- Involvement Evaluation --------------------- \n");
-                    bw.write("Human annotated file: " + human_annotation + "\n");
-                    bw.write("Auto annotated file: " + auto_annotation + "\n");
-                    bw.write("--------------------------------------------------------------- \n");
+                	
+                	filename.printFileNames(bw);
+//                    bw.write("---------------- Involvement Evaluation --------------------- \n");
+//                    bw.write("Human annotated file: " + human_annotation + "\n");
+//                    bw.write("Auto annotated file: " + auto_annotation + "\n");
+//                    bw.write("--------------------------------------------------------------- \n");
 
                 }
 
