@@ -9,6 +9,8 @@ import java.io.*;
 import java.util.HashMap;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
+import util.MatchEval;
 //import evaluation_m2w.Compare_eval;
 /**
  *
@@ -46,13 +48,13 @@ public class expressive_disagreementooo {
     public static void main(String[] args){
 
        // String[] annotators = {"brian", "kerri", "lauren"};
-
+    	
         //for(int i = 0; i < annotators.length; i++){
-        String human_annotation = args[0]; //"D:/m2w cs/evaluation/src/input_files/expressive_disagreement_lauren_3_r";
-        String auto_annotation = args[1]; //"D:/m2w cs/evaluation/src/input_files/expressive_disagreement_auto_3_r";
+        String human_annotation = "D:/m2w cs/evaluation-m2w/preprocess_log/old/expressive_disagreement_Lauren_3_pp" ;
+        String auto_annotation = "D:/m2w cs/evaluation-m2w/preprocess_log/old/expressive_disagreement_auto_3_pp" ;
 
 
-        String evaluation_file = args[2]; //"D:/m2w cs/evaluation/src/output_files/expressive_disagreement_lauren_3.result";
+        String evaluation_file = "D:/m2w cs/evaluation-m2w/src/output_files/expressive_disagreement_Lauren_3_result";
 
 
 
@@ -569,246 +571,21 @@ public class expressive_disagreementooo {
                     String category = categories[i];
                     bw.write("-----------------------------" + category + "---------------------------- \n");
                     bw.write("Speaker \t Auto_annotated \t Human_annotated \t Highest/Rest/Mismatch \t " +
-                            "High/Low/Mismatch \t Exact-match \t Partial-match \n");
-                    int[] auto_qscore = auto_quintile_scores.get(category);
-                    int[] human_qscore = human_quintile_scores.get(category);
-
-                    //String[] auto_ascore = auto_actual_scores.get(category);
-                    //String[] human_ascore = human_actual_scores.get(category);
-
-                    String[] auto_qt = auto_qt_thrs.get(category);
-                    String[] human_qt = human_qt_thrs.get(category);
-
-                    int counter = 0;
-
-                    for(int j = 0; j < speakers.length; j++){
-                        if(auto_qscore[j] == 0 && human_qscore[j] == 0){
-                            continue;
-                        }
-
-                        counter++;
-
-                        String speaker = speakers[j];
-                        bw.write(speaker + "\t");
-                        if(human_qscore == null){
-                            human_qscore = new int[speakers.length];
-                        }
-                        if(auto_qscore == null){
-                            auto_qscore = new int[speakers.length];
-                        }
-                        if(auto_qscore[j] != 0){
-                            bw.write(auto_qscore[j] + "\t");
-                        }
-                        else{
-                            bw.write("NA\t");
-                        }
-                        if(human_qscore[j] != 0){
-                            bw.write(human_qscore[j] + "\t");
-                        }
-                        else{
-                            bw.write("NA\t");
-                        }
-                        /* Highest/Rest/Mismatch */
-                        if(auto_qscore[j] == 5 && human_qscore[j] == 5){
-                            bw.write("Highest\t");
-                            HighestRestMismatch[j] = 1;
-                        }
-                        else if(auto_qscore[j] == 5 || human_qscore[j] == 5){
-                            bw.write("Mismatch\t");
-                            HighestRestMismatch[j] = 0;
-                        }
-                        else if(auto_qscore[j] == 0 || human_qscore[j] == 0){
-                            bw.write("NA\t");
-                            HighestRestMismatch[j] = 0;
-                        }
-                        else{
-                            bw.write("Rest\t");
-                            HighestRestMismatch[j] = 0.5;
-                        }
-
-                        /* High/Low/Mismatch */
-                        if(auto_qscore[j] >= 4 && human_qscore[j] >=4){
-                            bw.write("High\t");
-                            HighLowMismatch[j] = 1;
-                        }
-                        else if(auto_qscore[j] == 0 || human_qscore[j] == 0){
-                            bw.write("NA\t");
-                            HighLowMismatch[j] = 0;
-                        }
-                        else if(auto_qscore[j] < 4 && human_qscore[j] < 4){
-                            bw.write("Low\t");
-                            HighLowMismatch[j] = 0.5;
-                        }
-                        else{
-                            bw.write("Mismatch\t");
-                            HighLowMismatch[j] = 0;
-                        }
-
-                        /* Exact-match */
-                        if(auto_qscore[j] != 0 && auto_qscore[j] == human_qscore[j]){
-                            bw.write("yes\t");
-                            ExactMatch[j] = 1;
-                        }
-                        else if(auto_qscore[j] == 0 || human_qscore[j] == 0){
-                            bw.write("NA\t");
-                            ExactMatch[j] = 0;
-                        }
-                        else{
-                            bw.write("no\t");
-                            ExactMatch[j] = 0;
-                        }
-
-                        /* Partial-match */
-                        if(auto_qscore[j] == 0 || human_qscore[j] == 0){
-                            bw.write("NA\t");
-                            PartialMatch[j] = 0;
-                        }
-                        else if(auto_qscore[j] == human_qscore[j]){
-                            bw.write("1\t");
-                            PartialMatch[j] = 1;
-                        }
-                        else if(auto_qscore[j]-human_qscore[j] > 1 || auto_qscore[j]-human_qscore[j] < -1){
-                            bw.write("0\t");
-                            PartialMatch[j] = 0;
-                        }
-                        else{ // calculate partial score
-                            String[] auto_actual_scores_array = auto_actual_scores.get(category);
-                            String[] human_actual_scores_array = human_actual_scores.get(category);
-
-                            //check if human_actual_scores_array is all null
-
-                            boolean notallnull;
-                            notallnull=false;
-
-                            for(int gh=0; gh<human_actual_scores_array.length;gh++){
-
-                                if(human_actual_scores_array[gh]!=null){
-
-                                    notallnull=true;
-                                    break;
-
-                                }
-
-                            }
-
-                           if(!notallnull){ // human_actual_scores_array is all null
-                                bw.write("0\t");
-                                PartialMatch[j] = 0;
-
-                           }
-                           else{
-
-
-
-                            if(auto_actual_scores_array == null){
-                                auto_actual_scores_array = new String[speakers.length];
-                            }
-                            else if(human_actual_scores_array == null){
-                                human_actual_scores_array = new String[speakers.length];
-                            }
-                            double auto_actual_score = 0.0;
-                            double human_actual_score = 0.0;
-                            if(auto_actual_scores_array[j] != null && !auto_actual_scores_array[j].equals("")
-                               && human_actual_scores_array[j] != null && !human_actual_scores_array[j].equals(""))
-                            {
-                                auto_actual_score = Double.parseDouble(auto_actual_scores_array[j]);
-                                human_actual_score = Double.parseDouble(human_actual_scores_array[j]);
-                            }
-
-                            if(human_qscore[j] - auto_qscore[j]  == 1){
-
-                                int mid_qt_thrs_index = 5 - human_qscore[j];
-                                if(auto_qt.length > mid_qt_thrs_index && human_qt.length > mid_qt_thrs_index){
-                                double auto_mid_qt_thrs = Double.parseDouble(auto_qt[mid_qt_thrs_index]);
-                                double human_mid_qt_thrs = Double.parseDouble(human_qt[mid_qt_thrs_index]);
-                                double p = 0.0;
-                                double np = 0.0;
-                                if(mid_qt_thrs_index != 0){
-                                if(mid_qt_thrs_index != 3){
-                                    p = auto_mid_qt_thrs - auto_actual_score;
-                                    np = auto_actual_score - Double.parseDouble(auto_qt[mid_qt_thrs_index-1]);
-                                }
-                                else{
-                                    p = human_actual_score - human_mid_qt_thrs;
-                                    np = Double.parseDouble(human_qt[mid_qt_thrs_index-1]) - human_actual_score;
-                                }
-                                }
-                                System.out.println("p: " + p + "np: "+ np);
-                                if(p <= np){
-                                    bw.write("0.5\t");
-                                    PartialMatch[j] = 0.5;
-                                }
-                                else{
-                                    bw.write("0\t");
-                                    PartialMatch[j] = 0;
-                                }
-                                }
-                            }
-                            else if(human_qscore[j] - auto_qscore[j]  == -1){
-                                int mid_qt_thrs_index = 5 - auto_qscore[j];
-                                if(auto_qt.length > mid_qt_thrs_index && human_qt.length > mid_qt_thrs_index){
-                                double auto_mid_qt_thrs = Double.parseDouble(auto_qt[mid_qt_thrs_index]);
-                                double human_mid_qt_thrs = Double.parseDouble(human_qt[mid_qt_thrs_index]);
-                                double p = 0.0;
-                                double np = 0.0;
-                                if(mid_qt_thrs_index != 3){
-                                    p = human_mid_qt_thrs - human_actual_score;
-                                    np = human_actual_score - Double.parseDouble(human_qt[mid_qt_thrs_index-1]);
-                                }
-                                else{
-                                    p = auto_actual_score - auto_mid_qt_thrs;
-                                    np = Double.parseDouble(auto_qt[mid_qt_thrs_index-1]) - auto_actual_score;
-                                }
-                                System.out.println("p: " + p + "np: "+ np);
-                                if(p <= np){
-                                    bw.write("0.5\t");
-                                    PartialMatch[j] = 0.5;
-                                }
-                                else{
-                                    bw.write("0\t");
-                                    PartialMatch[j] = 0;
-                                }
-
-                            }
-                            }
-                        }
-                        }
-
-
-
-                        bw.write("\n");
-                    }
-                    /* Precision */
-                    bw.write("Precision: \t");
-
-                    int HRM = 0, HLM = 0, EXM = 0;
-                    double PM = 0;
-                    for(int k = 0; k < speakers.length; k++){
-                        if(HighestRestMismatch[k] != 0){
-                            HRM++;
-                        }
-                        if(HighLowMismatch[k] != 0){
-                            HLM++;
-                        }
-                        if(ExactMatch[k] != 0){
-                            EXM++;
-                        }
-                        if(PartialMatch[k] != 0){
-                            PM += PartialMatch[k];
-                        }
-                    }
-                    System.err.println("counter = " + counter);
-//                    System.err.println("HRM = " + HRM);
-                    double HRM_precision = (double)HRM/(double)counter;
-                    bw.write(HRM_precision + "(Highest/Rest/Mismatch)\t");
-                    double HLM_precision = (double)HLM/(double)counter;
-                    bw.write(HLM_precision + "(High/Low/Mismatch)\t");
-                    double EXM_precision = (double)EXM/(double)counter;
-                    bw.write(EXM_precision + "(Exact-match)\t");
-                    double PM_precision = (double)PM/(double)counter;
-                    bw.write(PM_precision + "(Partial-match)\t");
-
-                    bw.write("\n");
+					"High/Low/Mismatch \t Exact-match \t Partial-match \n");
+				
+					int[] auto_qscore = auto_quintile_scores.get(category);
+					int[] human_qscore = human_quintile_scores.get(category);
+					
+					//String[] auto_ascore = auto_actual_scores.get(category);
+					//String[] human_ascore = human_actual_scores.get(category);
+					
+					String[] auto_qt = auto_qt_thrs.get(category);
+					String[] human_qt = human_qt_thrs.get(category);
+					
+					int counter = 0;
+                    /*old match evaluation method*/
+                    MatchEval me = new MatchEval();
+                    me.matchEval_expdis(bw, auto_qscore, human_qscore, auto_qt, human_qt, speakers, category, HighestRestMismatch, HighLowMismatch, ExactMatch, PartialMatch, human_actual_scores, auto_actual_scores, counter);
 
                     /*compare_evaluation*/
                     //Compare_eval CpEval = new Compare_eval();

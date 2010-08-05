@@ -1,0 +1,98 @@
+---------------- Topic Control Evaluation --------------------- 
+Human annotated file: Feb13_GroupA.xml
+Auto annotated file: Feb13_GroupA_Auto.xml
+--------------------------------------------------------------- 
+-----------------------------lti---------------------------- 
+Precision: 	0.8(Highest/Rest/Mismatch)	0.8(High/Low/Mismatch)	0.7(Exact-match)	0.75(Partial-match)	
+-----------------------------smt---------------------------- 
+Precision: 	1.0(Highest/Rest/Mismatch)	0.8(High/Low/Mismatch)	0.4(Exact-match)	0.5(Partial-match)	
+-----------------------------cs---------------------------- 
+Precision: 	1.0(Highest/Rest/Mismatch)	0.8(High/Low/Mismatch)	0.6(Exact-match)	0.65(Partial-match)	
+-----------------------------tl---------------------------- 
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	1.0(Exact-match)	1.0(Partial-match)	
+-----------------------------merged quintile---------------------------- 
+Precision: 	1.0(Highest/Rest/Mismatch)	0.8(High/Low/Mismatch)	0.8(Exact-match)	0.8(Partial-match)	
+---------------- Topic Control Evaluation --------------------- 
+Human annotated file: Feb13_GroupB.xml
+Auto annotated file: Feb13_GroupB_Auto.xml
+--------------------------------------------------------------- 
+-----------------------------lti---------------------------- 
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	1.0(Exact-match)	1.0(Partial-match)	
+-----------------------------smt---------------------------- 
+Precision: 	0.6666666666666666(Highest/Rest/Mismatch)	0.6666666666666666(High/Low/Mismatch)	0.5(Exact-match)	0.5833333333333334(Partial-match)	
+-----------------------------cs---------------------------- 
+Precision: 	0.6666666666666666(Highest/Rest/Mismatch)	0.6666666666666666(High/Low/Mismatch)	0.16666666666666666(Exact-match)	0.4166666666666667(Partial-match)	
+-----------------------------tl---------------------------- 
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.6666666666666666(Exact-match)	0.8333333333333334(Partial-match)	
+-----------------------------merged quintile---------------------------- 
+Precision: 	0.6666666666666666(Highest/Rest/Mismatch)	0.6666666666666666(High/Low/Mismatch)	0.5(Exact-match)	0.6666666666666666(Partial-match)	
+---------------- Topic Control Evaluation --------------------- 
+Human annotated file: Feb19_GroupB_lauren.xml
+Auto annotated file: Feb19_GroupB_lauren_Auto.xml
+--------------------------------------------------------------- 
+-----------------------------lti---------------------------- 
+Precision: 	1.0(Highest/Rest/Mismatch)	0.7142857142857143(High/Low/Mismatch)	0.7142857142857143(Exact-match)	0.7857142857142857(Partial-match)	
+-----------------------------smt---------------------------- 
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	1.0(Exact-match)	1.0(Partial-match)	
+-----------------------------cs---------------------------- 
+Precision: 	0.7142857142857143(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.7142857142857143(Exact-match)	0.7857142857142857(Partial-match)	
+-----------------------------tl---------------------------- 
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	1.0(Exact-match)	1.0(Partial-match)	
+-----------------------------merged quintile---------------------------- 
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	1.0(Exact-match)	1.0(Partial-match)	
+---------------- Topic Control Evaluation --------------------- 
+Human annotated file: Lauren_Cheney.xml
+Auto annotated file: Lauren_Cheney_Auto.xml
+--------------------------------------------------------------- 
+-----------------------------lti---------------------------- 
+Precision: 	1.0(Highest/Rest/Mismatch)	0.7142857142857143(High/Low/Mismatch)	0.7142857142857143(Exact-match)	0.7142857142857143(Partial-match)	
+-----------------------------smt---------------------------- 
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	1.0(Exact-match)	1.0(Partial-match)	
+-----------------------------cs---------------------------- 
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	1.0(Exact-match)	1.0(Partial-match)	
+-----------------------------tl---------------------------- 
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	1.0(Exact-match)	1.0(Partial-match)	
+-----------------------------merged quintile---------------------------- 
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.7142857142857143(Exact-match)	0.8571428571428571(Partial-match)	
+---------------- Topic Control Evaluation --------------------- 
+Human annotated file: Lauren_Training.xml
+Auto annotated file: Lauren_Training_Auto.xml
+--------------------------------------------------------------- 
+-----------------------------lti---------------------------- 
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	1.0(Exact-match)	1.0(Partial-match)	
+-----------------------------smt---------------------------- 
+Precision: 	1.0(Highest/Rest/Mismatch)	0.8(High/Low/Mismatch)	0.6(Exact-match)	0.6(Partial-match)	
+-----------------------------cs---------------------------- 
+Precision: 	1.0(Highest/Rest/Mismatch)	0.6(High/Low/Mismatch)	0.6(Exact-match)	0.7(Partial-match)	
+-----------------------------tl---------------------------- 
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	1.0(Exact-match)	1.0(Partial-match)	
+-----------------------------merged quintile---------------------------- 
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.6(Exact-match)	0.8(Partial-match)	
+---------------- Topic Control Evaluation --------------------- 
+Human annotated file: Mar11_GroupB_lauren.xml
+Auto annotated file: Mar11_GroupB_lauren_Auto.xml
+--------------------------------------------------------------- 
+-----------------------------lti---------------------------- 
+Precision: 	1.0(Highest/Rest/Mismatch)	0.75(High/Low/Mismatch)	0.625(Exact-match)	0.8125(Partial-match)	
+-----------------------------smt---------------------------- 
+Precision: 	0.75(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.625(Exact-match)	0.8125(Partial-match)	
+-----------------------------cs---------------------------- 
+Precision: 	0.75(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.625(Exact-match)	0.8125(Partial-match)	
+-----------------------------tl---------------------------- 
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	1.0(Exact-match)	1.0(Partial-match)	
+-----------------------------merged quintile---------------------------- 
+Precision: 	0.75(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.75(Exact-match)	0.875(Partial-match)	
+---------------- Topic Control Evaluation --------------------- 
+Human annotated file: YMCA_lauren.xml
+Auto annotated file: YMCA_lauren_Auto.xml
+--------------------------------------------------------------- 
+-----------------------------lti---------------------------- 
+Precision: 	0.8571428571428571(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.5714285714285714(Exact-match)	0.7142857142857143(Partial-match)	
+-----------------------------smt---------------------------- 
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.7142857142857143(Exact-match)	0.8571428571428571(Partial-match)	
+-----------------------------cs---------------------------- 
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.7142857142857143(Exact-match)	0.8571428571428571(Partial-match)	
+-----------------------------tl---------------------------- 
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	1.0(Exact-match)	1.0(Partial-match)	
+-----------------------------merged quintile---------------------------- 
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.7142857142857143(Exact-match)	0.7142857142857143(Partial-match)	
