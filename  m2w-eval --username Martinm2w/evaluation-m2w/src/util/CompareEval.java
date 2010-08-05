@@ -22,7 +22,7 @@ public class CompareEval {
 		 /*Relations*/
         try {
         	
-			bw.write("********************   Relations ************************");
+			bw.write("||||||||||||||||| Relations ||||||||||||||||||||");
 			bw.newLine();
 	        bw.write("Auto_file\t\t" + "Human_file");
 	        bw.newLine();
@@ -82,9 +82,9 @@ public class CompareEval {
 	        } // for all speakers
 	        
 	        /*result eval line*/
-	        bw.write("|||| Equalcount : "+ equalCount +"||||");
+	        bw.write("::Equalcount\t\tAccuracy");
 	        bw.newLine();
-	        bw.write("|||| Accuracy :" + ((double)equalCount / (double)compListA.size()) + "||||");
+	        bw.write("::" + equalCount + "\t\t" + ((double)equalCount / (double)compListA.size()));
 	        bw.newLine();
 	        
 	        compListA.clear();
