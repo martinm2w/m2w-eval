@@ -483,8 +483,8 @@ public class involvement {
 
                     String category = categories[i];
                     bw.write("+++++++++++++++++++++++++ " + category + " ++++++++++++++++++++++++++++++ \n");
-                    bw.write("Speaker \t Auto_annotated \t Human_annotated \t Highest/Rest/Mismatch \t " +
-	   				 "High/Low/Mismatch \t Exact-match \t Partial-match \n");
+//                    bw.write("Speaker \t Auto_annotated \t Human_annotated \t Highest/Rest/Mismatch \t " +
+//	   				 "High/Low/Mismatch \t Exact-match \t Partial-match \n");
 	   			
 		   			 int[] auto_qscore = auto_quintile_scores.get(category);
 		   			 int[] human_qscore = human_quintile_scores.get(category);

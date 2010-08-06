@@ -20,9 +20,12 @@ public class MatchEval {
 										     HashMap<String, String[]> auto_actual_scores,
 										     int counter
 										     ){
+			
 		
 		
 			 try {
+				 bw.write("Speaker \t Auto_annotated \t Human_annotated \t Highest/Rest/Mismatch \t " +
+				 "High/Low/Mismatch \t Exact-match \t Partial-match \n");
 			 /*Scores*/
 			 for(int j = 0; j < speakers.length; j++){
 			
@@ -241,6 +244,9 @@ public class MatchEval {
 		     ){
 		        try {
 
+		        	bw.write("Speaker \t Auto_annotated \t Human_annotated \t Highest/Rest/Mismatch \t " +
+					"High/Low/Mismatch \t Exact-match \t Partial-match \n");
+		        	
 				for(int j = 0; j < speakers.length; j++){
 				    if(auto_qscore[j] == 0 && human_qscore[j] == 0){
 				        continue;
@@ -493,7 +499,9 @@ public class MatchEval {
 	
 				try {
 					
-				
+					bw.write("Speaker \t Auto_annotated \t Human_annotated \t Highest/Rest/Mismatch \t " +
+					"High/Low/Mismatch \t Exact-match \t Partial-match \n");
+					
 				for(int j = 0; j < speakers.length; j++){
 				if(auto_qscore == null || human_qscore == null){
 				    continue;

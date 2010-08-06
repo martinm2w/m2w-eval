@@ -3,19 +3,7 @@ Human annotated file: Feb13_GroupA.xml
 Auto annotated file: Feb13_GroupA_Auto.xml
 --------------------------------------------------------------- 
 -----------------------------lti---------------------------- 
-Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
-jenifer	4	5	Mismatch	High	no	0	
-jessicad	5	5	Highest	High	yes	1	
-laura	3	4	Rest	Mismatch	no	0.5	
-ilspersonnel	1	1	Rest	Low	yes	1	
-johnw	3	3	Rest	Low	yes	1	
-carol	5	3	Mismatch	Mismatch	no	0	
-ashley	2	2	Rest	Low	yes	1	
-jodie	2	2	Rest	Low	yes	1	
-tony	1	1	Rest	Low	yes	1	
-sarah	4	4	Rest	High	yes	1	
-Precision: 	0.8(Highest/Rest/Mismatch)	0.8(High/Low/Mismatch)	0.7(Exact-match)	0.75(Partial-match)	
-********************   Relations ************************
+||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
 jenifer < jessicad		jenifer = jessicad
 jenifer > laura		jenifer > laura
@@ -143,22 +131,10 @@ nicole < sarah		nicole < sarah
 tony < sarah		tony < sarah
 jessamyn < sarah		jessamyn < sarah
 jianhua < sarah		jianhua < sarah
-|||| Equalcount : 117||||
-|||| Accuracy :0.9285714285714286||||
+::Equalcount		Accuracy
+::117		0.9285714285714286
 -----------------------------smt---------------------------- 
-Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
-jenifer	5	5	Highest	High	yes	1	
-jessicad	5	5	Highest	High	yes	1	
-laura	3	4	Rest	Mismatch	no	0	
-ilspersonnel	1	2	Rest	Low	no	0.5	
-johnw	4	4	Rest	High	yes	1	
-carol	3	1	Rest	Low	no	0	
-ashley	2	3	Rest	Low	no	0.5	
-jodie	2	3	Rest	Low	no	0	
-tony	1	1	Rest	Low	yes	1	
-sarah	4	3	Rest	Mismatch	no	0	
-Precision: 	1.0(Highest/Rest/Mismatch)	0.8(High/Low/Mismatch)	0.4(Exact-match)	0.5(Partial-match)	
-********************   Relations ************************
+||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
 jenifer = jessicad		jenifer = jessicad
 jenifer > laura		jenifer > laura
@@ -286,22 +262,10 @@ nicole < sarah		nicole < sarah
 tony < sarah		tony < sarah
 jessamyn < sarah		jessamyn < sarah
 jianhua < sarah		jianhua < sarah
-|||| Equalcount : 115||||
-|||| Accuracy :0.9126984126984127||||
+::Equalcount		Accuracy
+::115		0.9126984126984127
 -----------------------------cs---------------------------- 
-Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
-jenifer	5	5	Highest	High	yes	1	
-jessicad	5	5	Highest	High	yes	1	
-laura	3	4	Rest	Mismatch	no	0.5	
-ilspersonnel	2	2	Rest	Low	yes	1	
-johnw	4	4	Rest	High	yes	1	
-carol	2	1	Rest	Low	no	0	
-ashley	3	3	Rest	Low	yes	1	
-jodie	2	3	Rest	Low	no	0	
-tony	1	1	Rest	Low	yes	1	
-sarah	4	3	Rest	Mismatch	no	0	
-Precision: 	1.0(Highest/Rest/Mismatch)	0.8(High/Low/Mismatch)	0.6(Exact-match)	0.65(Partial-match)	
-********************   Relations ************************
+||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
 jenifer = jessicad		jenifer = jessicad
 jenifer > laura		jenifer > laura
@@ -429,22 +393,10 @@ nicole < sarah		nicole < sarah
 tony < sarah		tony < sarah
 jessamyn < sarah		jessamyn < sarah
 jianhua < sarah		jianhua < sarah
-|||| Equalcount : 115||||
-|||| Accuracy :0.9126984126984127||||
+::Equalcount		Accuracy
+::115		0.9126984126984127
 -----------------------------tl---------------------------- 
-Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
-jenifer	4	4	Rest	High	yes	1	
-jessicad	2	2	Rest	Low	yes	1	
-laura	1	1	Rest	Low	yes	1	
-ilspersonnel	1	1	Rest	Low	yes	1	
-johnw	5	5	Highest	High	yes	1	
-carol	5	5	Highest	High	yes	1	
-ashley	3	3	Rest	Low	yes	1	
-jodie	2	2	Rest	Low	yes	1	
-tony	4	4	Rest	High	yes	1	
-sarah	3	3	Rest	Low	yes	1	
-Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	1.0(Exact-match)	1.0(Partial-match)	
-********************   Relations ************************
+||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
 jenifer > jessicad		jenifer > jessicad
 jenifer > laura		jenifer > laura
@@ -572,22 +524,10 @@ nicole < sarah		nicole < sarah
 tony > sarah		tony > sarah
 jessamyn < sarah		jessamyn < sarah
 jianhua < sarah		jianhua < sarah
-|||| Equalcount : 126||||
-|||| Accuracy :1.0||||
+::Equalcount		Accuracy
+::126		1.0
 -----------------------------merged quintile---------------------------- 
-Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
-jenifer	5	5	Highest	High	yes	1	
-jessicad	5	5	Highest	High	yes	1	
-laura	3	4	Rest	Mismatch	no	0	
-ilspersonnel	1	1	Rest	Low	yes	1	
-johnw	4	4	Rest	High	yes	1	
-carol	4	3	Rest	Mismatch	no	0	
-ashley	2	2	Rest	Low	yes	1	
-jodie	2	2	Rest	Low	yes	1	
-tony	1	1	Rest	Low	yes	1	
-sarah	3	3	Rest	Low	yes	1	
-Precision: 	1.0(Highest/Rest/Mismatch)	0.8(High/Low/Mismatch)	0.8(Exact-match)	0.8(Partial-match)	
-********************   Relations ************************
+||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
 jenifer = jessicad		jenifer = jessicad
 jenifer > laura		jenifer > laura
@@ -715,22 +655,14 @@ nicole < sarah		nicole < sarah
 tony < sarah		tony < sarah
 jessamyn < sarah		jessamyn < sarah
 jianhua < sarah		jianhua < sarah
-|||| Equalcount : 121||||
-|||| Accuracy :0.9603174603174603||||
+::Equalcount		Accuracy
+::121		0.9603174603174603
 ---------------- Topic Control Evaluation --------------------- 
 Human annotated file: Feb13_GroupB.xml
 Auto annotated file: Feb13_GroupB_Auto.xml
 --------------------------------------------------------------- 
 -----------------------------lti---------------------------- 
-Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
-nate	5	5	Highest	High	yes	1	
-jenniferb	3	3	Rest	Low	yes	1	
-farina	3	3	Rest	Low	yes	1	
-ilspersonnel2	1	1	Rest	Low	yes	1	
-lauren	4	4	Rest	High	yes	1	
-nicole	2	2	Rest	Low	yes	1	
-Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	1.0(Exact-match)	1.0(Partial-match)	
-********************   Relations ************************
+||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
 jenifer < nate		jenifer < nate
 jenifer < jenniferb		jenifer < jenniferb
@@ -807,18 +739,10 @@ jodie < nicole		jodie < nicole
 jennifer < nicole		jennifer < nicole
 kara < nicole		kara < nicole
 lisa < nicole		lisa < nicole
-|||| Equalcount : 75||||
-|||| Accuracy :1.0||||
+::Equalcount		Accuracy
+::75		1.0
 -----------------------------smt---------------------------- 
-Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
-nate	5	4	Mismatch	High	no	0	
-jenniferb	3	3	Rest	Low	yes	1	
-farina	3	5	Mismatch	Mismatch	no	0	
-ilspersonnel2	1	1	Rest	Low	yes	1	
-lauren	4	3	Rest	Mismatch	no	0.5	
-nicole	2	2	Rest	Low	yes	1	
-Precision: 	0.6666666666666666(Highest/Rest/Mismatch)	0.6666666666666666(High/Low/Mismatch)	0.5(Exact-match)	0.5833333333333334(Partial-match)	
-********************   Relations ************************
+||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
 jenifer < nate		jenifer < nate
 jenifer < jenniferb		jenifer < jenniferb
@@ -895,18 +819,10 @@ jodie < nicole		jodie < nicole
 jennifer < nicole		jennifer < nicole
 kara < nicole		kara < nicole
 lisa < nicole		lisa < nicole
-|||| Equalcount : 71||||
-|||| Accuracy :0.9466666666666667||||
+::Equalcount		Accuracy
+::71		0.9466666666666667
 -----------------------------cs---------------------------- 
-Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
-nate	5	4	Mismatch	High	no	0	
-jenniferb	3	2	Rest	Low	no	0.5	
-farina	3	5	Mismatch	Mismatch	no	0	
-ilspersonnel2	1	1	Rest	Low	yes	1	
-lauren	4	3	Rest	Mismatch	no	0.5	
-nicole	2	3	Rest	Low	no	0.5	
-Precision: 	0.6666666666666666(Highest/Rest/Mismatch)	0.6666666666666666(High/Low/Mismatch)	0.16666666666666666(Exact-match)	0.4166666666666667(Partial-match)	
-********************   Relations ************************
+||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
 jenifer < nate		jenifer < nate
 jenifer < jenniferb		jenifer < jenniferb
@@ -983,18 +899,10 @@ jodie < nicole		jodie < nicole
 jennifer < nicole		jennifer < nicole
 kara < nicole		kara < nicole
 lisa < nicole		lisa < nicole
-|||| Equalcount : 70||||
-|||| Accuracy :0.9333333333333333||||
+::Equalcount		Accuracy
+::70		0.9333333333333333
 -----------------------------tl---------------------------- 
-Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
-nate	5	5	Highest	High	yes	1	
-jenniferb	4	4	Rest	High	yes	1	
-farina	3	3	Rest	Low	yes	1	
-ilspersonnel2	1	1	Rest	Low	yes	1	
-lauren	3	2	Rest	Low	no	0.5	
-nicole	2	3	Rest	Low	no	0.5	
-Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.6666666666666666(Exact-match)	0.8333333333333334(Partial-match)	
-********************   Relations ************************
+||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
 jenifer < nate		jenifer < nate
 jenifer < jenniferb		jenifer < jenniferb
@@ -1071,18 +979,10 @@ jodie < nicole		jodie < nicole
 jennifer < nicole		jennifer < nicole
 kara < nicole		kara < nicole
 lisa < nicole		lisa < nicole
-|||| Equalcount : 72||||
-|||| Accuracy :0.96||||
+::Equalcount		Accuracy
+::72		0.96
 -----------------------------merged quintile---------------------------- 
-Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
-nate	5	4	Mismatch	High	no	0.5	
-jenniferb	3	3	Rest	Low	yes	1	
-farina	3	5	Mismatch	Mismatch	no	0	
-ilspersonnel2	1	1	Rest	Low	yes	1	
-lauren	4	3	Rest	Mismatch	no	0.5	
-nicole	2	2	Rest	Low	yes	1	
-Precision: 	0.6666666666666666(Highest/Rest/Mismatch)	0.6666666666666666(High/Low/Mismatch)	0.5(Exact-match)	0.6666666666666666(Partial-match)	
-********************   Relations ************************
+||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
 jenifer < nate		jenifer < nate
 jenifer < jenniferb		jenifer < jenniferb
@@ -1159,23 +1059,14 @@ jodie < nicole		jodie < nicole
 jennifer < nicole		jennifer < nicole
 kara < nicole		kara < nicole
 lisa < nicole		lisa < nicole
-|||| Equalcount : 71||||
-|||| Accuracy :0.9466666666666667||||
+::Equalcount		Accuracy
+::71		0.9466666666666667
 ---------------- Topic Control Evaluation --------------------- 
 Human annotated file: Feb19_GroupB_lauren.xml
 Auto annotated file: Feb19_GroupB_lauren_Auto.xml
 --------------------------------------------------------------- 
 -----------------------------lti---------------------------- 
-Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
-danielle	4	3	Rest	Mismatch	no	0	
-dk	4	4	Rest	High	yes	1	
-carol	5	5	Highest	High	yes	1	
-ilspersonnel2	1	1	Rest	Low	yes	1	
-jessicaf	2	2	Rest	Low	yes	1	
-nicole	3	4	Rest	Mismatch	no	0.5	
-jessamyn	2	2	Rest	Low	yes	1	
-Precision: 	1.0(Highest/Rest/Mismatch)	0.7142857142857143(High/Low/Mismatch)	0.7142857142857143(Exact-match)	0.7857142857142857(Partial-match)	
-********************   Relations ************************
+||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
 jenifer < danielle		jenifer < danielle
 jenifer < dk		jenifer < dk
@@ -1282,19 +1173,10 @@ lisa < nicole		lisa < nicole
 lisa < jessamyn		lisa < jessamyn
 nicole > jessamyn		nicole > jessamyn
 tony < jessamyn		tony < jessamyn
-|||| Equalcount : 102||||
-|||| Accuracy :0.9714285714285714||||
+::Equalcount		Accuracy
+::102		0.9714285714285714
 -----------------------------smt---------------------------- 
-Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
-danielle	3	3	Rest	Low	yes	1	
-dk	4	4	Rest	High	yes	1	
-carol	5	5	Highest	High	yes	1	
-ilspersonnel2	1	1	Rest	Low	yes	1	
-jessicaf	2	2	Rest	Low	yes	1	
-nicole	4	4	Rest	High	yes	1	
-jessamyn	2	2	Rest	Low	yes	1	
-Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	1.0(Exact-match)	1.0(Partial-match)	
-********************   Relations ************************
+||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
 jenifer < danielle		jenifer < danielle
 jenifer < dk		jenifer < dk
@@ -1401,19 +1283,10 @@ lisa < nicole		lisa < nicole
 lisa < jessamyn		lisa < jessamyn
 nicole > jessamyn		nicole > jessamyn
 tony < jessamyn		tony < jessamyn
-|||| Equalcount : 105||||
-|||| Accuracy :1.0||||
+::Equalcount		Accuracy
+::105		1.0
 -----------------------------cs---------------------------- 
-Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
-danielle	3	3	Rest	Low	yes	1	
-dk	5	4	Mismatch	High	no	0	
-carol	4	5	Mismatch	High	no	0.5	
-ilspersonnel2	1	1	Rest	Low	yes	1	
-jessicaf	2	2	Rest	Low	yes	1	
-nicole	4	4	Rest	High	yes	1	
-jessamyn	2	2	Rest	Low	yes	1	
-Precision: 	0.7142857142857143(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.7142857142857143(Exact-match)	0.7857142857142857(Partial-match)	
-********************   Relations ************************
+||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
 jenifer < danielle		jenifer < danielle
 jenifer < dk		jenifer < dk
@@ -1520,19 +1393,10 @@ lisa < nicole		lisa < nicole
 lisa < jessamyn		lisa < jessamyn
 nicole > jessamyn		nicole > jessamyn
 tony < jessamyn		tony < jessamyn
-|||| Equalcount : 102||||
-|||| Accuracy :0.9714285714285714||||
+::Equalcount		Accuracy
+::102		0.9714285714285714
 -----------------------------tl---------------------------- 
-Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
-danielle	4	4	Rest	High	yes	1	
-dk	2	2	Rest	Low	yes	1	
-carol	5	5	Highest	High	yes	1	
-ilspersonnel2	4	4	Rest	High	yes	1	
-jessicaf	3	3	Rest	Low	yes	1	
-nicole	1	1	Rest	Low	yes	1	
-jessamyn	2	2	Rest	Low	yes	1	
-Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	1.0(Exact-match)	1.0(Partial-match)	
-********************   Relations ************************
+||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
 jenifer < danielle		jenifer < danielle
 jenifer < dk		jenifer < dk
@@ -1639,19 +1503,10 @@ lisa < nicole		lisa < nicole
 lisa < jessamyn		lisa < jessamyn
 nicole < jessamyn		nicole < jessamyn
 tony < jessamyn		tony < jessamyn
-|||| Equalcount : 105||||
-|||| Accuracy :1.0||||
+::Equalcount		Accuracy
+::105		1.0
 -----------------------------merged quintile---------------------------- 
-Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
-danielle	3	3	Rest	Low	yes	1	
-dk	4	4	Rest	High	yes	1	
-carol	5	5	Highest	High	yes	1	
-ilspersonnel2	1	1	Rest	Low	yes	1	
-jessicaf	2	2	Rest	Low	yes	1	
-nicole	4	4	Rest	High	yes	1	
-jessamyn	2	2	Rest	Low	yes	1	
-Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	1.0(Exact-match)	1.0(Partial-match)	
-********************   Relations ************************
+||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
 jenifer < danielle		jenifer < danielle
 jenifer < dk		jenifer < dk
@@ -1758,23 +1613,14 @@ lisa < nicole		lisa < nicole
 lisa < jessamyn		lisa < jessamyn
 nicole > jessamyn		nicole > jessamyn
 tony < jessamyn		tony < jessamyn
-|||| Equalcount : 105||||
-|||| Accuracy :1.0||||
+::Equalcount		Accuracy
+::105		1.0
 ---------------- Topic Control Evaluation --------------------- 
 Human annotated file: Lauren_Cheney.xml
 Auto annotated file: Lauren_Cheney_Auto.xml
 --------------------------------------------------------------- 
 -----------------------------lti---------------------------- 
-Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
-jenny	1	1	Rest	Low	yes	1	
-chris	2	4	Rest	Mismatch	no	0	
-kerri	5	5	Highest	High	yes	1	
-ken	4	4	Rest	High	yes	1	
-jennifer	3	3	Rest	Low	yes	1	
-kara	4	3	Rest	Mismatch	no	0	
-jianhua	2	2	Rest	Low	yes	1	
-Precision: 	1.0(Highest/Rest/Mismatch)	0.7142857142857143(High/Low/Mismatch)	0.7142857142857143(Exact-match)	0.7142857142857143(Partial-match)	
-********************   Relations ************************
+||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
 jenifer < jenny		jenifer < jenny
 jenifer < chris		jenifer < chris
@@ -1917,19 +1763,10 @@ lisa < jianhua		lisa < jianhua
 nicole < jianhua		nicole < jianhua
 tony < jianhua		tony < jianhua
 jessamyn < jianhua		jessamyn < jianhua
-|||| Equalcount : 135||||
-|||| Accuracy :0.9574468085106383||||
+::Equalcount		Accuracy
+::135		0.9574468085106383
 -----------------------------smt---------------------------- 
-Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
-jenny	1	1	Rest	Low	yes	1	
-chris	3	3	Rest	Low	yes	1	
-kerri	5	5	Highest	High	yes	1	
-ken	4	4	Rest	High	yes	1	
-jennifer	2	2	Rest	Low	yes	1	
-kara	4	4	Rest	High	yes	1	
-jianhua	2	2	Rest	Low	yes	1	
-Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	1.0(Exact-match)	1.0(Partial-match)	
-********************   Relations ************************
+||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
 jenifer < jenny		jenifer < jenny
 jenifer < chris		jenifer < chris
@@ -2072,19 +1909,10 @@ lisa < jianhua		lisa < jianhua
 nicole < jianhua		nicole < jianhua
 tony < jianhua		tony < jianhua
 jessamyn < jianhua		jessamyn < jianhua
-|||| Equalcount : 141||||
-|||| Accuracy :1.0||||
+::Equalcount		Accuracy
+::141		1.0
 -----------------------------cs---------------------------- 
-Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
-jenny	1	1	Rest	Low	yes	1	
-chris	3	3	Rest	Low	yes	1	
-kerri	5	5	Highest	High	yes	1	
-ken	4	4	Rest	High	yes	1	
-jennifer	2	2	Rest	Low	yes	1	
-kara	4	4	Rest	High	yes	1	
-jianhua	2	2	Rest	Low	yes	1	
-Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	1.0(Exact-match)	1.0(Partial-match)	
-********************   Relations ************************
+||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
 jenifer < jenny		jenifer < jenny
 jenifer < chris		jenifer < chris
@@ -2227,19 +2055,10 @@ lisa < jianhua		lisa < jianhua
 nicole < jianhua		nicole < jianhua
 tony < jianhua		tony < jianhua
 jessamyn < jianhua		jessamyn < jianhua
-|||| Equalcount : 141||||
-|||| Accuracy :1.0||||
+::Equalcount		Accuracy
+::141		1.0
 -----------------------------tl---------------------------- 
-Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
-jenny	2	2	Rest	Low	yes	1	
-chris	4	4	Rest	High	yes	1	
-kerri	2	2	Rest	Low	yes	1	
-ken	5	5	Highest	High	yes	1	
-jennifer	3	3	Rest	Low	yes	1	
-kara	4	4	Rest	High	yes	1	
-jianhua	1	1	Rest	Low	yes	1	
-Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	1.0(Exact-match)	1.0(Partial-match)	
-********************   Relations ************************
+||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
 jenifer < jenny		jenifer < jenny
 jenifer < chris		jenifer < chris
@@ -2382,19 +2201,10 @@ lisa < jianhua		lisa < jianhua
 nicole < jianhua		nicole < jianhua
 tony < jianhua		tony < jianhua
 jessamyn < jianhua		jessamyn < jianhua
-|||| Equalcount : 141||||
-|||| Accuracy :1.0||||
+::Equalcount		Accuracy
+::141		1.0
 -----------------------------merged quintile---------------------------- 
-Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
-jenny	1	2	Rest	Low	no	0.5	
-chris	3	3	Rest	Low	yes	1	
-kerri	5	5	Highest	High	yes	1	
-ken	4	4	Rest	High	yes	1	
-jennifer	2	2	Rest	Low	yes	1	
-kara	4	4	Rest	High	yes	1	
-jianhua	2	1	Rest	Low	no	0.5	
-Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.7142857142857143(Exact-match)	0.8571428571428571(Partial-match)	
-********************   Relations ************************
+||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
 jenifer < jenny		jenifer < jenny
 jenifer < chris		jenifer < chris
@@ -2537,21 +2347,14 @@ lisa < jianhua		lisa < jianhua
 nicole < jianhua		nicole < jianhua
 tony < jianhua		tony < jianhua
 jessamyn < jianhua		jessamyn < jianhua
-|||| Equalcount : 138||||
-|||| Accuracy :0.9787234042553191||||
+::Equalcount		Accuracy
+::138		0.9787234042553191
 ---------------- Topic Control Evaluation --------------------- 
 Human annotated file: Lauren_Training.xml
 Auto annotated file: Lauren_Training_Auto.xml
 --------------------------------------------------------------- 
 -----------------------------lti---------------------------- 
-Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
-jamie	3	3	Rest	Low	yes	1	
-chris	1	1	Rest	Low	yes	1	
-jennifer	5	5	Highest	High	yes	1	
-kara	4	4	Rest	High	yes	1	
-jianhua	2	2	Rest	Low	yes	1	
-Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	1.0(Exact-match)	1.0(Partial-match)	
-********************   Relations ************************
+||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
 jenifer < jamie		jenifer < jamie
 jenifer < chris		jenifer < chris
@@ -2654,17 +2457,10 @@ lisa < jianhua		lisa < jianhua
 nicole < jianhua		nicole < jianhua
 tony < jianhua		tony < jianhua
 jessamyn < jianhua		jessamyn < jianhua
-|||| Equalcount : 101||||
-|||| Accuracy :1.0||||
+::Equalcount		Accuracy
+::101		1.0
 -----------------------------smt---------------------------- 
-Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
-jamie	3	2	Rest	Low	no	0	
-chris	1	1	Rest	Low	yes	1	
-jennifer	5	5	Highest	High	yes	1	
-kara	4	4	Rest	High	yes	1	
-jianhua	2	4	Rest	Mismatch	no	0	
-Precision: 	1.0(Highest/Rest/Mismatch)	0.8(High/Low/Mismatch)	0.6(Exact-match)	0.6(Partial-match)	
-********************   Relations ************************
+||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
 jenifer < jamie		jenifer < jamie
 jenifer < chris		jenifer < chris
@@ -2767,17 +2563,10 @@ lisa < jianhua		lisa < jianhua
 nicole < jianhua		nicole < jianhua
 tony < jianhua		tony < jianhua
 jessamyn < jianhua		jessamyn < jianhua
-|||| Equalcount : 99||||
-|||| Accuracy :0.9801980198019802||||
+::Equalcount		Accuracy
+::99		0.9801980198019802
 -----------------------------cs---------------------------- 
-Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
-jamie	2	2	Rest	Low	yes	1	
-chris	1	1	Rest	Low	yes	1	
-jennifer	5	5	Highest	High	yes	1	
-kara	4	3	Rest	Mismatch	no	0.5	
-jianhua	3	4	Rest	Mismatch	no	0	
-Precision: 	1.0(Highest/Rest/Mismatch)	0.6(High/Low/Mismatch)	0.6(Exact-match)	0.7(Partial-match)	
-********************   Relations ************************
+||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
 jenifer < jamie		jenifer < jamie
 jenifer < chris		jenifer < chris
@@ -2880,17 +2669,10 @@ lisa < jianhua		lisa < jianhua
 nicole < jianhua		nicole < jianhua
 tony < jianhua		tony < jianhua
 jessamyn < jianhua		jessamyn < jianhua
-|||| Equalcount : 100||||
-|||| Accuracy :0.9900990099009901||||
+::Equalcount		Accuracy
+::100		0.9900990099009901
 -----------------------------tl---------------------------- 
-Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
-jamie	4	4	Rest	High	yes	1	
-chris	1	1	Rest	Low	yes	1	
-jennifer	5	5	Highest	High	yes	1	
-kara	3	3	Rest	Low	yes	1	
-jianhua	2	2	Rest	Low	yes	1	
-Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	1.0(Exact-match)	1.0(Partial-match)	
-********************   Relations ************************
+||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
 jenifer < jamie		jenifer < jamie
 jenifer < chris		jenifer < chris
@@ -2993,17 +2775,10 @@ lisa < jianhua		lisa < jianhua
 nicole < jianhua		nicole < jianhua
 tony < jianhua		tony < jianhua
 jessamyn < jianhua		jessamyn < jianhua
-|||| Equalcount : 101||||
-|||| Accuracy :1.0||||
+::Equalcount		Accuracy
+::101		1.0
 -----------------------------merged quintile---------------------------- 
-Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
-jamie	3	2	Rest	Low	no	0.5	
-chris	1	1	Rest	Low	yes	1	
-jennifer	5	5	Highest	High	yes	1	
-kara	4	4	Rest	High	yes	1	
-jianhua	2	3	Rest	Low	no	0.5	
-Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.6(Exact-match)	0.8(Partial-match)	
-********************   Relations ************************
+||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
 jenifer < jamie		jenifer < jamie
 jenifer < chris		jenifer < chris
@@ -3106,24 +2881,14 @@ lisa < jianhua		lisa < jianhua
 nicole < jianhua		nicole < jianhua
 tony < jianhua		tony < jianhua
 jessamyn < jianhua		jessamyn < jianhua
-|||| Equalcount : 100||||
-|||| Accuracy :0.9900990099009901||||
+::Equalcount		Accuracy
+::100		0.9900990099009901
 ---------------- Topic Control Evaluation --------------------- 
 Human annotated file: Mar11_GroupB_lauren.xml
 Auto annotated file: Mar11_GroupB_lauren_Auto.xml
 --------------------------------------------------------------- 
 -----------------------------lti---------------------------- 
-Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
-jenifer	4	4	Rest	High	yes	1	
-jessicad	2	1	Rest	Low	no	0.5	
-nate	5	5	Highest	High	yes	1	
-laura	3	3	Rest	Low	yes	1	
-ilspersonnel	2	2	Rest	Low	yes	1	
-johnw	1	1	Rest	Low	yes	1	
-kerri	3	4	Rest	Mismatch	no	0.5	
-lisa	4	3	Rest	Mismatch	no	0.5	
-Precision: 	1.0(Highest/Rest/Mismatch)	0.75(High/Low/Mismatch)	0.625(Exact-match)	0.8125(Partial-match)	
-********************   Relations ************************
+||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
 jenifer > jessicad		jenifer > jessicad
 jenifer < nate		jenifer < nate
@@ -3193,20 +2958,10 @@ ken < lisa		ken < lisa
 jodie < lisa		jodie < lisa
 jennifer < lisa		jennifer < lisa
 kara < lisa		kara < lisa
-|||| Equalcount : 61||||
-|||| Accuracy :0.8970588235294118||||
+::Equalcount		Accuracy
+::61		0.8970588235294118
 -----------------------------smt---------------------------- 
-Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
-jenifer	5	4	Mismatch	High	no	0.5	
-jessicad	2	1	Rest	Low	no	0.5	
-nate	4	5	Mismatch	High	no	0.5	
-laura	3	3	Rest	Low	yes	1	
-ilspersonnel	2	2	Rest	Low	yes	1	
-johnw	1	1	Rest	Low	yes	1	
-kerri	4	4	Rest	High	yes	1	
-lisa	3	3	Rest	Low	yes	1	
-Precision: 	0.75(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.625(Exact-match)	0.8125(Partial-match)	
-********************   Relations ************************
+||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
 jenifer > jessicad		jenifer > jessicad
 jenifer > nate		jenifer < nate
@@ -3276,20 +3031,10 @@ ken < lisa		ken < lisa
 jodie < lisa		jodie < lisa
 jennifer < lisa		jennifer < lisa
 kara < lisa		kara < lisa
-|||| Equalcount : 63||||
-|||| Accuracy :0.9264705882352942||||
+::Equalcount		Accuracy
+::63		0.9264705882352942
 -----------------------------cs---------------------------- 
-Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
-jenifer	5	4	Mismatch	High	no	0.5	
-jessicad	2	1	Rest	Low	no	0.5	
-nate	4	4	Rest	High	yes	1	
-laura	3	3	Rest	Low	yes	1	
-ilspersonnel	2	2	Rest	Low	yes	1	
-johnw	1	1	Rest	Low	yes	1	
-kerri	4	5	Mismatch	High	no	0.5	
-lisa	3	3	Rest	Low	yes	1	
-Precision: 	0.75(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.625(Exact-match)	0.8125(Partial-match)	
-********************   Relations ************************
+||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
 jenifer > jessicad		jenifer > jessicad
 jenifer > nate		jenifer = nate
@@ -3359,20 +3104,10 @@ ken < lisa		ken < lisa
 jodie < lisa		jodie < lisa
 jennifer < lisa		jennifer < lisa
 kara < lisa		kara < lisa
-|||| Equalcount : 63||||
-|||| Accuracy :0.9264705882352942||||
+::Equalcount		Accuracy
+::63		0.9264705882352942
 -----------------------------tl---------------------------- 
-Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
-jenifer	4	4	Rest	High	yes	1	
-jessicad	2	2	Rest	Low	yes	1	
-nate	5	5	Highest	High	yes	1	
-laura	2	2	Rest	Low	yes	1	
-ilspersonnel	3	3	Rest	Low	yes	1	
-johnw	1	1	Rest	Low	yes	1	
-kerri	3	3	Rest	Low	yes	1	
-lisa	4	4	Rest	High	yes	1	
-Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	1.0(Exact-match)	1.0(Partial-match)	
-********************   Relations ************************
+||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
 jenifer > jessicad		jenifer > jessicad
 jenifer < nate		jenifer < nate
@@ -3442,20 +3177,10 @@ ken < lisa		ken < lisa
 jodie < lisa		jodie < lisa
 jennifer < lisa		jennifer < lisa
 kara < lisa		kara < lisa
-|||| Equalcount : 68||||
-|||| Accuracy :1.0||||
+::Equalcount		Accuracy
+::68		1.0
 -----------------------------merged quintile---------------------------- 
-Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
-jenifer	5	4	Mismatch	High	no	0.5	
-jessicad	2	2	Rest	Low	yes	1	
-nate	4	5	Mismatch	High	no	0.5	
-laura	3	3	Rest	Low	yes	1	
-ilspersonnel	2	2	Rest	Low	yes	1	
-johnw	1	1	Rest	Low	yes	1	
-kerri	4	4	Rest	High	yes	1	
-lisa	3	3	Rest	Low	yes	1	
-Precision: 	0.75(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.75(Exact-match)	0.875(Partial-match)	
-********************   Relations ************************
+||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
 jenifer > jessicad		jenifer > jessicad
 jenifer > nate		jenifer < nate
@@ -3525,23 +3250,14 @@ ken < lisa		ken < lisa
 jodie < lisa		jodie < lisa
 jennifer < lisa		jennifer < lisa
 kara < lisa		kara < lisa
-|||| Equalcount : 65||||
-|||| Accuracy :0.9558823529411765||||
+::Equalcount		Accuracy
+::65		0.9558823529411765
 ---------------- Topic Control Evaluation --------------------- 
 Human annotated file: YMCA_lauren.xml
 Auto annotated file: YMCA_lauren_Auto.xml
 --------------------------------------------------------------- 
 -----------------------------lti---------------------------- 
-Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
-lance	5	5	Highest	High	yes	1	
-jenny	1	1	Rest	Low	yes	1	
-chris	2	3	Rest	Low	no	0	
-kerri	3	2	Rest	Low	no	0.5	
-ken	4	4	Rest	High	yes	1	
-jennifer	4	5	Mismatch	High	no	0.5	
-kara	2	2	Rest	Low	yes	1	
-Precision: 	0.8571428571428571(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.5714285714285714(Exact-match)	0.7142857142857143(Partial-match)	
-********************   Relations ************************
+||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
 jenifer < lance		jenifer < lance
 jenifer < jenny		jenifer < jenny
@@ -3658,19 +3374,10 @@ ken > kara		ken > kara
 jodie < jennifer		jodie < jennifer
 jodie < kara		jodie < kara
 jennifer > kara		jennifer > kara
-|||| Equalcount : 110||||
-|||| Accuracy :0.9565217391304348||||
+::Equalcount		Accuracy
+::110		0.9565217391304348
 -----------------------------smt---------------------------- 
-Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
-lance	5	5	Highest	High	yes	1	
-jenny	1	1	Rest	Low	yes	1	
-chris	2	3	Rest	Low	no	0.5	
-kerri	3	2	Rest	Low	no	0.5	
-ken	4	4	Rest	High	yes	1	
-jennifer	4	4	Rest	High	yes	1	
-kara	2	2	Rest	Low	yes	1	
-Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.7142857142857143(Exact-match)	0.8571428571428571(Partial-match)	
-********************   Relations ************************
+||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
 jenifer < lance		jenifer < lance
 jenifer < jenny		jenifer < jenny
@@ -3787,19 +3494,10 @@ ken > kara		ken > kara
 jodie < jennifer		jodie < jennifer
 jodie < kara		jodie < kara
 jennifer > kara		jennifer > kara
-|||| Equalcount : 112||||
-|||| Accuracy :0.9739130434782609||||
+::Equalcount		Accuracy
+::112		0.9739130434782609
 -----------------------------cs---------------------------- 
-Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
-lance	5	5	Highest	High	yes	1	
-jenny	1	1	Rest	Low	yes	1	
-chris	2	3	Rest	Low	no	0.5	
-kerri	3	2	Rest	Low	no	0.5	
-ken	4	4	Rest	High	yes	1	
-jennifer	4	4	Rest	High	yes	1	
-kara	2	2	Rest	Low	yes	1	
-Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.7142857142857143(Exact-match)	0.8571428571428571(Partial-match)	
-********************   Relations ************************
+||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
 jenifer < lance		jenifer < lance
 jenifer < jenny		jenifer < jenny
@@ -3916,19 +3614,10 @@ ken > kara		ken > kara
 jodie < jennifer		jodie < jennifer
 jodie < kara		jodie < kara
 jennifer > kara		jennifer > kara
-|||| Equalcount : 112||||
-|||| Accuracy :0.9739130434782609||||
+::Equalcount		Accuracy
+::112		0.9739130434782609
 -----------------------------tl---------------------------- 
-Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
-lance	5	5	Highest	High	yes	1	
-jenny	2	2	Rest	Low	yes	1	
-chris	2	2	Rest	Low	yes	1	
-kerri	1	1	Rest	Low	yes	1	
-ken	4	4	Rest	High	yes	1	
-jennifer	3	3	Rest	Low	yes	1	
-kara	4	4	Rest	High	yes	1	
-Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	1.0(Exact-match)	1.0(Partial-match)	
-********************   Relations ************************
+||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
 jenifer < lance		jenifer < lance
 jenifer < jenny		jenifer < jenny
@@ -4045,19 +3734,10 @@ ken = kara		ken = kara
 jodie < jennifer		jodie < jennifer
 jodie < kara		jodie < kara
 jennifer < kara		jennifer < kara
-|||| Equalcount : 115||||
-|||| Accuracy :1.0||||
+::Equalcount		Accuracy
+::115		1.0
 -----------------------------merged quintile---------------------------- 
-Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
-lance	5	5	Highest	High	yes	1	
-jenny	1	1	Rest	Low	yes	1	
-chris	2	3	Rest	Low	no	0	
-kerri	3	2	Rest	Low	no	0	
-ken	4	4	Rest	High	yes	1	
-jennifer	4	4	Rest	High	yes	1	
-kara	2	2	Rest	Low	yes	1	
-Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.7142857142857143(Exact-match)	0.7142857142857143(Partial-match)	
-********************   Relations ************************
+||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
 jenifer < lance		jenifer < lance
 jenifer < jenny		jenifer < jenny
@@ -4174,5 +3854,5 @@ ken > kara		ken > kara
 jodie < jennifer		jodie < jennifer
 jodie < kara		jodie < kara
 jennifer > kara		jennifer > kara
-|||| Equalcount : 112||||
-|||| Accuracy :0.9739130434782609||||
+::Equalcount		Accuracy
+::112		0.9739130434782609
