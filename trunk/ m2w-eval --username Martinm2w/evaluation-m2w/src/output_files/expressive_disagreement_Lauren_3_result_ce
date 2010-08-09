@@ -1,0 +1,130 @@
+---------------- Expressive Disagreement Evaluation --------------------- 
+Human annotated file: Feb13_GroupA.xml
+Auto annotated file: Feb13_GroupA_final_predictions.xml
+--------------------------------------------------------------- 
+-----------------------------cdxi---------------------------- 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+lauren = nate		lauren < nate
+lauren = jennifer		lauren > jennifer
+lauren = jenniferb		lauren > jenniferb
+lauren = farina		lauren > farina
+lauren = nicole		lauren > nicole
+kerri = nate		kerri < nate
+kerri = jennifer		kerri < jennifer
+kerri = jenniferb		kerri < jenniferb
+kerri = farina		kerri < farina
+kerri = nicole		kerri < nicole
+jenifer = nate		jenifer < nate
+jenifer = jennifer		jenifer < jennifer
+jenifer = jenniferb		jenifer < jenniferb
+jenifer = farina		jenifer < farina
+jenifer = nicole		jenifer < nicole
+ken = nate		ken < nate
+ken = jennifer		ken < jennifer
+ken = jenniferb		ken < jenniferb
+ken = farina		ken < farina
+ken = nicole		ken < nicole
+laura = nate		laura < nate
+laura = jennifer		laura < jennifer
+laura = jenniferb		laura < jenniferb
+laura = farina		laura < farina
+laura = nicole		laura < nicole
+nate = jennifer		nate > jennifer
+nate = jenniferb		nate > jenniferb
+nate = farina		nate > farina
+nate = nicole		nate > nicole
+jennifer = jenniferb		jennifer = jenniferb
+jennifer = farina		jennifer < farina
+jennifer = nicole		jennifer = nicole
+kara = jenniferb		kara < jenniferb
+kara = farina		kara < farina
+kara = nicole		kara < nicole
+jenniferb = farina		jenniferb < farina
+jenniferb = nicole		jenniferb = nicole
+farina = nicole		farina > nicole
+::Equalcount		Accuracy
+::3		0.07894736842105263
+---------------- Expressive Disagreement Evaluation --------------------- 
+Human annotated file: Feb13_GroupB.xml
+Auto annotated file: Feb13_GroupB_final_predictions.xml
+--------------------------------------------------------------- 
+-----------------------------cdxi---------------------------- 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+lauren < kerri		lauren < kerri
+lauren = ken		lauren < ken
+lauren = jennifer		lauren < jennifer
+lauren = kara		lauren < kara
+lauren < jianhua		lauren < jianhua
+lauren < chris		lauren < chris
+kerri > ken		kerri > ken
+kerri > jennifer		kerri > jennifer
+kerri > kara		kerri > kara
+kerri > jianhua		kerri > jianhua
+kerri > chris		kerri > chris
+jenifer = ken		jenifer < ken
+jenifer = jennifer		jenifer < jennifer
+jenifer = kara		jenifer < kara
+jenifer < jianhua		jenifer < jianhua
+jenifer < chris		jenifer < chris
+ken = jennifer		ken < jennifer
+ken = kara		ken < kara
+ken < jianhua		ken < jianhua
+ken < chris		ken < chris
+laura = jennifer		laura < jennifer
+laura = kara		laura < kara
+laura < jianhua		laura < jianhua
+laura < chris		laura < chris
+nate = jennifer		nate < jennifer
+nate = kara		nate < kara
+nate < jianhua		nate < jianhua
+nate < chris		nate < chris
+jennifer = kara		jennifer < kara
+jennifer < jianhua		jennifer > jianhua
+jennifer < chris		jennifer > chris
+kara < jianhua		kara > jianhua
+kara < chris		kara > chris
+jenniferb < jianhua		jenniferb < jianhua
+jenniferb < chris		jenniferb < chris
+farina < jianhua		farina < jianhua
+farina < chris		farina < chris
+nicole < jianhua		nicole < jianhua
+nicole < chris		nicole < chris
+lisa < jianhua		lisa < jianhua
+lisa < chris		lisa < chris
+jianhua < chris		jianhua = chris
+::Equalcount		Accuracy
+::24		0.5714285714285714
+---------------- Expressive Disagreement Evaluation --------------------- 
+Human annotated file: Feb19_GroupB_lauren.xml
+Auto annotated file: Feb19_GroupB_lauren_final_predictions.xml
+--------------------------------------------------------------- 
+-----------------------------cdxi---------------------------- 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+lauren < kerri		lauren < kerri
+lauren < jenifer		lauren < jenifer
+lauren = laura		lauren < laura
+lauren < nate		lauren < nate
+lauren < lisa		lauren < lisa
+kerri > jenifer		kerri > jenifer
+kerri > laura		kerri > laura
+kerri < nate		kerri < nate
+kerri < lisa		kerri < lisa
+jenifer > laura		jenifer = laura
+jenifer < nate		jenifer < nate
+jenifer < lisa		jenifer < lisa
+ken = laura		ken < laura
+ken < nate		ken < nate
+ken < lisa		ken < lisa
+laura < nate		laura < nate
+laura < lisa		laura < lisa
+nate < lisa		nate > lisa
+jennifer < lisa		jennifer < lisa
+kara < lisa		kara < lisa
+jenniferb < lisa		jenniferb < lisa
+farina < lisa		farina < lisa
+nicole < lisa		nicole < lisa
+::Equalcount		Accuracy
+::19		0.8260869565217391

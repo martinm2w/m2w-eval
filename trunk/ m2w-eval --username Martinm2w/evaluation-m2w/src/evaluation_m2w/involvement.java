@@ -465,11 +465,16 @@ public class involvement {
 
                 if(isnew){ //only print for new section
                 	
-                	filename.printFileNames(bw);
-//                    bw.write("---------------- Involvement Evaluation --------------------- \n");
+                	
+                    bw.write("---------------- Involvement Evaluation --------------------- \n");
+                    
+                    /*print file names*/
+	                filename.printFileNames(bw);
+	                
+                    
 //                    bw.write("Human annotated file: " + human_annotation + "\n");
 //                    bw.write("Auto annotated file: " + auto_annotation + "\n");
-//                    bw.write("--------------------------------------------------------------- \n");
+                    bw.write("--------------------------------------------------------------- \n");
 
                 }
 
@@ -498,13 +503,13 @@ public class involvement {
 		   			 int counter = 0;
 		   			 
                     /*old match evaluation method*/
-                    MatchEval me = new MatchEval();
-                    me.matchEval(bw, auto_qscore, human_qscore, auto_qt, human_qt, speakers, category, HighestRestMismatch, HighLowMismatch, ExactMatch, PartialMatch, human_actual_scores, auto_actual_scores, counter);
+//                    MatchEval me = new MatchEval();
+//                    me.matchEval(bw, auto_qscore, human_qscore, auto_qt, human_qt, speakers, category, HighestRestMismatch, HighLowMismatch, ExactMatch, PartialMatch, human_actual_scores, auto_actual_scores, counter);
                    
 
                     /*compare_evaluation*/
-//                    CompareEval CpEval = new CompareEval();
-//                    CpEval.compareEval(bw, speakers, auto_qscore, human_qscore);
+                    CompareEval CpEval = new CompareEval();
+                    CpEval.compareEval(bw, speakers, auto_qscore, human_qscore);
 
                 }
 

@@ -467,8 +467,11 @@ public class topic_control {
            
                 if(isnew){ //only print for new section
                 	
+                	bw.write("---------------- Topic Control Evaluation --------------------- \n");
+                	
                 	filename.printFileNames(bw);
-
+                	
+                	bw.write("--------------------------------------------------------------- \n");
                 }
 
                 for(int i = 0; i < categories.length; i++){

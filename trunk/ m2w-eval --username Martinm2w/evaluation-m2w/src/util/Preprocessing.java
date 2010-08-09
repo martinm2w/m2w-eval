@@ -25,20 +25,20 @@ public class Preprocessing {
 		
 		
 		
-		/*p.parseTskCtrl(
-				"G:/m2w cs/evaluation-m2w/src/input_files/task_control_5_Lauren_annotated_7",
-				"G:/m2w cs/evaluation-m2w/src/input_files/task_control_5_automated_7",
-				"G:/m2w cs/evaluation-m2w/output_log/2010.07.31/task_control_5_Lauren_annotated_7_pp",
-				"G:/m2w cs/evaluation-m2w/output_log/2010.07.31/task_control_5_automated_7_pp");*/
+		p.parseTskCtrl(
+				"D:/m2w cs/evaluation-m2w/input_log/older/task_control_5_Lauren_annotated_7",
+				"D:/m2w cs/evaluation-m2w/input_log/older/task_control_5_automated_7",
+				"D:/m2w cs/evaluation-m2w/src/preprocessed/task_control_5_Lauren_annotated_7_pp",
+				"D:/m2w cs/evaluation-m2w/src/preprocessed/task_control_5_automated_7_pp");
 		
 		
 		
 		
-		p.parseExpDis(
-				"D:/m2w cs/evaluation-m2w/input_log/older/expressive_disagreement_Lauren_3",  
-				"D:/m2w cs/evaluation-m2w/input_log/older/expressive_disagreement_auto_3", 
-				"D:/m2w cs/evaluation-m2w/preprocessed_log/2010.08/expressive_disagreement_Lauren_3_pp",
-				"D:/m2w cs/evaluation-m2w/preprocessed_log/2010.08/expressive_disagreement_auto_3_pp");
+//		p.parseExpDis(
+//				"D:/m2w cs/evaluation-m2w/input_log/older/expressive_disagreement_Lauren_3",  
+//				"D:/m2w cs/evaluation-m2w/input_log/older/expressive_disagreement_auto_3", 
+//				"D:/m2w cs/evaluation-m2w/preprocessed_log/2010.08/expressive_disagreement_Lauren_3_pp",
+//				"D:/m2w cs/evaluation-m2w/preprocessed_log/2010.08/expressive_disagreement_auto_3_pp");
 	
 	}
 	
