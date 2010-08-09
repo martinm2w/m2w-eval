@@ -12,6 +12,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 //import evaluation_m2w.Compare_eval;
 
+import util.CompareEval;
 import util.Filenames;
 import util.MatchEval;
 
@@ -52,11 +53,11 @@ public class task_control {
 
         /*for(int i = 0; i < annotators.length; i++){*/
 
-        String human_annotation = "D:/m2w cs/evaluation-m2w/preprocess_log/old/task_control_5_Lauren_annotated_7.p";
-        String auto_annotation =  "D:/m2w cs/evaluation-m2w/preprocess_log/old/task_control_5_automated_7.p";
+        String human_annotation = "D:/m2w cs/evaluation-m2w/src/preprocessed/task_control_5_Lauren_annotated_7_pp";
+        String auto_annotation =  "D:/m2w cs/evaluation-m2w/src/preprocessed/task_control_5_automated_7_pp";
 
 
-        String evaluation_file = "D:/m2w cs/evaluation-m2w/output_log/older/task_control_5_Lauren_annotated_7_testing_compare";
+        String evaluation_file = "D:/m2w cs/evaluation-m2w/src/output_files/task_control_5_Lauren_annotated_7_result_ce";
 
 
 
@@ -483,11 +484,15 @@ public class task_control {
                 BufferedWriter bw = new BufferedWriter(new FileWriter(filePath, true));
                 
                 if(isnew){
-                	filename.printFileNames(bw);
-//	                bw.write("---------------- Task Control Evaluation --------------------- \n");
+                	
+	                bw.write("---------------- Task Control Evaluation --------------------- \n");
+	                
+	                /*print file names*/
+	                filename.printFileNames(bw);
+	                
 //	                bw.write("Human annotated file: " + human_annotation + "\n");
 //	                bw.write("Auto annotated file: " + auto_annotation + "\n");
-//	                bw.write("--------------------------------------------------------------- \n");
+	                bw.write("--------------------------------------------------------------- \n");
 
                 }
                 
@@ -523,12 +528,12 @@ public class task_control {
 		   			
 		   			 int counter = 0;
                     /*old match evaluation method*/
-                    MatchEval me = new MatchEval();
-                    me.matchEval(bw, auto_qscore, human_qscore, auto_qt, human_qt, speakers, category, HighestRestMismatch, HighLowMismatch, ExactMatch, PartialMatch, human_actual_scores, auto_actual_scores, counter);
+                    //MatchEval me = new MatchEval();
+                    //me.matchEval(bw, auto_qscore, human_qscore, auto_qt, human_qt, speakers, category, HighestRestMismatch, HighLowMismatch, ExactMatch, PartialMatch, human_actual_scores, auto_actual_scores, counter);
           
                     /*compare_evaluation*/
-                    //CompareEval CpEval = new CompareEval();
-                    //CpEval.compareEval(bw, speakers, auto_qscore, human_qscore);
+                    CompareEval CpEval = new CompareEval();
+                    CpEval.compareEval(bw, speakers, auto_qscore, human_qscore);
                     
                 }
 

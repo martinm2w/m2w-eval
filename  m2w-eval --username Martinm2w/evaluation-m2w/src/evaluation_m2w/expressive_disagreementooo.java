@@ -10,8 +10,11 @@ import java.util.HashMap;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+import util.CompareEval;
 import util.MatchEval;
-//import evaluation_m2w.Compare_eval;
+import util.Filenames;
+
+//
 /**
  *
  * @author m2w
@@ -40,7 +43,9 @@ public class expressive_disagreementooo {
     static HashMap<String, String[]> human_actual_scores = new HashMap<String, String[]>(); // key: category; value: actual scores, order by speakers
     static HashMap<String, String[]> auto_actual_scores = new HashMap<String, String[]>(); // key: category; value: actual scores, order by speakers
 
-
+    /*new_file_names*/
+    static Filenames filename = new Filenames();
+    
 	private static boolean readerOpened=false;
 	private static BufferedReader eia_br;
 
@@ -54,14 +59,16 @@ public class expressive_disagreementooo {
         String auto_annotation = "D:/m2w cs/evaluation-m2w/preprocess_log/old/expressive_disagreement_auto_3_pp" ;
 
 
-        String evaluation_file = "D:/m2w cs/evaluation-m2w/src/output_files/expressive_disagreement_Lauren_3_result";
+        String evaluation_file = "D:/m2w cs/evaluation-m2w/src/output_files/expressive_disagreement_Lauren_3_result_ce";
 
 
 
             try { //extract names/topics
                 BufferedReader br = new BufferedReader(new FileReader(human_annotation));
 
-
+                /*read in file name*/
+                filename.extractFileNames(human_annotation, auto_annotation);
+                /*end*/
 
                 String tempstr;
 
@@ -555,8 +562,12 @@ public class expressive_disagreementooo {
                 
                 if(isnew){ //only print for new section
 		                bw.write("---------------- Expressive Disagreement Evaluation --------------------- \n");
-		                bw.write("Human annotated file: " + human_annotation + "\n");
-		                bw.write("Auto annotated file: " + auto_annotation + "\n");
+		                
+		                /*print file names*/
+		                filename.printFileNames(bw);
+		                
+//		                bw.write("Human annotated file: " + human_annotation + "\n");
+//		                bw.write("Auto annotated file: " + auto_annotation + "\n");
 		                bw.write("--------------------------------------------------------------- \n");
                 }
                 
@@ -584,12 +595,12 @@ public class expressive_disagreementooo {
 					
 					int counter = 0;
                     /*old match evaluation method*/
-                    MatchEval me = new MatchEval();
-                    me.matchEval_expdis(bw, auto_qscore, human_qscore, auto_qt, human_qt, speakers, category, HighestRestMismatch, HighLowMismatch, ExactMatch, PartialMatch, human_actual_scores, auto_actual_scores, counter);
+                    //MatchEval me = new MatchEval();
+                    //me.matchEval_expdis(bw, auto_qscore, human_qscore, auto_qt, human_qt, speakers, category, HighestRestMismatch, HighLowMismatch, ExactMatch, PartialMatch, human_actual_scores, auto_actual_scores, counter);
 
                     /*compare_evaluation*/
-                    //Compare_eval CpEval = new Compare_eval();
-                   // CpEval.compareEval(bw, speakers, auto_qscore, human_qscore);
+                    CompareEval CpEval = new CompareEval();
+                    CpEval.compareEval(bw, speakers, auto_qscore, human_qscore);
 
                 }
 
