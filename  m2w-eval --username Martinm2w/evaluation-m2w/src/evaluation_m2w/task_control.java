@@ -57,7 +57,7 @@ public class task_control {
         String auto_annotation =  "D:/m2w cs/evaluation-m2w/src/preprocessed/task_control_5_automated_7_pp";
 
 
-        String evaluation_file = "D:/m2w cs/evaluation-m2w/src/output_files/task_control_5_Lauren_annotated_7_result_me";
+        String evaluation_file = "D:/m2w cs/evaluation-m2w/src/output_files/task_control_5_Lauren_annotated_7_result_ce";
 
 
 
@@ -528,12 +528,12 @@ public class task_control {
 		   			
 		   			 int counter = 0;
                     /*old match evaluation method*/
-                    MatchEval me = new MatchEval();
-                    me.matchEval_taskCtl(bw, auto_qscore, human_qscore, auto_qt, human_qt, speakers, category, HighestRestMismatch, HighLowMismatch, ExactMatch, PartialMatch, human_actual_scores, auto_actual_scores, counter);
+//                    MatchEval me = new MatchEval();
+//                    me.matchEval_taskCtl(bw, auto_qscore, human_qscore, auto_qt, human_qt, speakers, category, HighestRestMismatch, HighLowMismatch, ExactMatch, PartialMatch, human_actual_scores, auto_actual_scores, counter);
           
                     /*compare_evaluation*/
-//                    CompareEval CpEval = new CompareEval();
-//                    CpEval.compareEval(bw, speakers, auto_qscore, human_qscore);
+                    CompareEval CpEval = new CompareEval();
+                    CpEval.compareEval(bw, speakers, auto_qscore, human_qscore);
                     
                 }
 
