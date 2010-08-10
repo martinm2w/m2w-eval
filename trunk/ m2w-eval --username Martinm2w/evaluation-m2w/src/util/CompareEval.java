@@ -31,6 +31,7 @@ public class CompareEval {
 	        
 	        	for(int j = i+1; j < speakers.length; j++){
 	        		
+	        		 /*2 if discard speaker not in subfile*/
 	        		if(auto_qscore == null || human_qscore == null){
                         continue;
                     }
