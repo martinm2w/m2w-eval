@@ -338,6 +338,8 @@ public class Preprocessing {
 		ArrayList<Integer> delHList = new ArrayList<Integer>();
 		ArrayList<Integer> delAList = new ArrayList<Integer>();
 		
+		ArrayList<Integer> addList = new ArrayList<Integer>();
+		
 				
 		try {
 			
@@ -483,15 +485,10 @@ public class Preprocessing {
 					if (tempStr.contains("-1")){
 						
 						AList.get(i).set(j, tempStr + " --- actual score: 0");
+						
 						continue;	
 					}
-					
-//					if (tempStr.contains("-1")){
-//						delAList.add(i);
-//						delHList.add(i);
-//						break;
-//					}
-				
+									
 				}
 				
 			}
@@ -509,11 +506,46 @@ public class Preprocessing {
 //			}
 //			
 //			delHList.clear();
-//			delAList.clear();
+//			elAList.clear();
 			
 			
 			System.out.println("Hlist final size : " + HList.size());
 			System.out.println("Alist final size : " + AList.size());
+					
+			/*2.3.1 new, add qt_thrs: 0.0 to -1 categories*/
+			for (int i = 0; i < AList.size(); i ++){//get category number needs to be added.
+				for(int j = 0 ; j < AList.get(i).size(); j++){
+			
+					String tempStr = AList.get(i).get(j).toString();
+					
+					if (tempStr.contains("-1")){
+					
+						addList.add(i);
+						break;
+					}
+					
+				}
+				
+			}
+			
+			/*2.3.2 adding*/
+			for (int i = 0; i < addList.size(); i ++){
+				
+				int catNum = addList.get(i);//get category number from add list
+				
+				for(int j = 0 ; j < AList.get(catNum).size(); j++){
+					
+					String tempStr = AList.get(catNum).get(j).toString(); // get line from category
+					
+					if (tempStr.contains("-1")){//add qt_thrs
+						
+						AList.get(catNum).add(j, "qt_thrs:  0.0 0.0 0.0 0.0 0.0"); // 不是 j - 1 , 是 j, 插入到有-1 的那一行
+						break;
+						
+					}
+										
+				}
+			}
 					
 			/*3.write to files*/  //ok
 			for (int i = 0; i < HList.size(); i ++) {
