@@ -1,0 +1,86 @@
+---------------- Expressive Disagreement Evaluation --------------------- 
+Human annotated file: Feb13_GroupB.xml
+Auto annotated file: Feb13_GroupB_final_predictions.xml
+--------------------------------------------------------------- 
+-----------------------------cdxi---------------------------- 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+lauren = nate		lauren < nate
+lauren = jennifer		lauren > jennifer
+lauren = jenniferb		lauren > jenniferb
+lauren = farina		lauren > farina
+lauren = nicole		lauren > nicole
+nate = jennifer		nate > jennifer
+nate = jenniferb		nate > jenniferb
+nate = farina		nate > farina
+nate = nicole		nate > nicole
+jennifer = jenniferb		jennifer = jenniferb
+jennifer = farina		jennifer < farina
+jennifer = nicole		jennifer = nicole
+jenniferb = farina		jenniferb < farina
+jenniferb = nicole		jenniferb = nicole
+farina = nicole		farina > nicole
+::Equalcount		Accuracy
+::3		0.2
+---------------- Expressive Disagreement Evaluation --------------------- 
+Human annotated file: Lauren_Cheney.xml
+Auto annotated file: Lauren_Cheney_final_predictions.xml
+--------------------------------------------------------------- 
+-----------------------------cdxi---------------------------- 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+kerri > ken		kerri > ken
+kerri > jennifer		kerri > jennifer
+kerri > kara		kerri > kara
+kerri > jianhua		kerri > jianhua
+kerri > chris		kerri > chris
+ken = jennifer		ken < jennifer
+ken = kara		ken < kara
+ken < jianhua		ken < jianhua
+ken < chris		ken < chris
+jennifer = kara		jennifer < kara
+jennifer < jianhua		jennifer > jianhua
+jennifer < chris		jennifer > chris
+kara < jianhua		kara > jianhua
+kara < chris		kara > chris
+jianhua < chris		jianhua = chris
+::Equalcount		Accuracy
+::7		0.4666666666666667
+---------------- Expressive Disagreement Evaluation --------------------- 
+Human annotated file: Mar11_GroupB_lauren.xml
+Auto annotated file: Mar11_GroupB_lauren_final_predictions.xml
+--------------------------------------------------------------- 
+-----------------------------cdxi---------------------------- 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+kerri > jenifer		kerri > jenifer
+kerri > laura		kerri > laura
+kerri < nate		kerri < nate
+kerri < lisa		kerri < lisa
+jenifer > laura		jenifer = laura
+jenifer < nate		jenifer < nate
+jenifer < lisa		jenifer < lisa
+laura < nate		laura < nate
+laura < lisa		laura < lisa
+nate < lisa		nate > lisa
+::Equalcount		Accuracy
+::8		0.8
+---------------- Expressive Disagreement Evaluation --------------------- 
+Human annotated file: YMCA_lauren.xml
+Auto annotated file: YMCA_lauren_final_predictions.xml
+--------------------------------------------------------------- 
+-----------------------------cdxi---------------------------- 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+kerri = lance		kerri > lance
+kerri = ken		kerri > ken
+kerri > jennifer		kerri > jennifer
+kerri = kara		kerri > kara
+lance = ken		lance < ken
+lance > jennifer		lance < jennifer
+lance = kara		lance < kara
+ken > jennifer		ken = jennifer
+ken = kara		ken = kara
+jennifer < kara		jennifer = kara
+::Equalcount		Accuracy
+::2		0.2
