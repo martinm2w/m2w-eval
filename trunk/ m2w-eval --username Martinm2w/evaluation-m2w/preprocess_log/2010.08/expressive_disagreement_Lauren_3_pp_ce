@@ -1,0 +1,69 @@
+processing: Feb13_GroupB.xml
+size of LTs: 880
+size of mentions: 1493
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Expressive Disagreement - CDXI quintile
+qt_thrs:  0.42727272727272725 0.24545454545454548 0.0818181818181818 0.045454545454545456 0.13636363636363635
+
+=====================================
+
+
+The quintile score of nate is: 5 --- actual score: 0.45454545454545453
+The quintile score of lauren is: 4 --- actual score: 0.3181818181818182
+The quintile score of Farina is: 3 --- actual score: 0.13636363636363635
+The quintile score of jenniferb is: 1 --- actual score: 0.045454545454545456
+The quintile score of Nicole is: 1 --- actual score: 0.045454545454545456
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: Lauren_Cheney.xml
+size of LTs: 1687
+size of mentions: 2546
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Expressive Disagreement - CDXI quintile
+qt_thrs:  0.3655172413793103 0.15862068965517243 0.06896551724137931 0.04827586206896552 0.10344827586206896
+
+=====================================
+
+
+The quintile score of kerri is: 5 --- actual score: 0.4482758620689655
+The quintile score of kara is: 4 --- actual score: 0.2413793103448276
+The quintile score of jennifer is: 3 --- actual score: 0.13793103448275862
+The quintile score of jianhua is: 2 --- actual score: 0.06896551724137931
+The quintile score of chris is: 2 --- actual score: 0.06896551724137931
+The quintile score of ken is: 1 --- actual score: 0.034482758620689655
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: Mar11_GroupB_lauren.xml
+size of LTs: 2131
+size of mentions: 3215
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Expressive Disagreement - CDXI quintile
+qt_thrs:  0.43448275862068964 0.22758620689655173 0.10344827586206895 0.034482758620689655 0.20689655172413793
+
+=====================================
+
+
+The quintile score of nate is: 5 --- actual score: 0.4827586206896552
+The quintile score of lisa is: 4 --- actual score: 0.2413793103448276
+The quintile score of kerri is: 3 --- actual score: 0.20689655172413793
+The quintile score of jenifer is: 1 --- actual score: 0.034482758620689655
+The quintile score of laura is: 1 --- actual score: 0.034482758620689655
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: YMCA_lauren.xml
+size of LTs: 2543
+size of mentions: 3759
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Expressive Disagreement - CDXI quintile
+qt_thrs:  0.32727272727272727 0.18181818181818182 0.18181818181818182 0.10909090909090909 0.18181818181818182
+
+=====================================
+
+
+The quintile score of kerri is: 5 --- actual score: 0.36363636363636365
+The quintile score of jennifer is: 2 --- actual score: 0.18181818181818182
+The quintile score of ken is: 2 --- actual score: 0.18181818181818182
+The quintile score of kara is: 2 --- actual score: 0.18181818181818182
+The quintile score of lance is: 1 --- actual score: 0.09090909090909091
+null

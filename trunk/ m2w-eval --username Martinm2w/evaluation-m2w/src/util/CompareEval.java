@@ -37,7 +37,7 @@ public class CompareEval {
                     if(auto_qscore[j] == 0 && human_qscore[j] == 0){
                         continue;
                     }
-                    
+                                   
 	        		String tempStra = null;
 	        		String tempStrh = null;
 	        		

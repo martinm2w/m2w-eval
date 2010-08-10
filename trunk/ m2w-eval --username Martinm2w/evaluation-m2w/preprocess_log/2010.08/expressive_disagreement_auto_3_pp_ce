@@ -1,0 +1,55 @@
+processing: Feb13_GroupB_final_predictions.xml
+size of LTs: 869
+size of mentions: 1485
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Expressive Disagreement - CDXI quintile
+qt_thrs:  NaN NaN NaN NaN NaN
+
+=====================================
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: Lauren_Cheney_final_predictions.xml
+size of LTs: 1676
+size of mentions: 2543
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Expressive Disagreement - CDXI quintile
+qt_thrs:  0.625 0.39999999999999997 0.2 0.125 0.25
+
+=====================================
+
+The quintile score of kerri is: 4 --- actual score: 0.625
+The quintile score of chris is: 3 --- actual score: 0.25
+The quintile score of jianhua is: 1 --- actual score: 0.125
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: Mar11_GroupB_lauren_final_predictions.xml
+size of LTs: 2120
+size of mentions: 3210
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Expressive Disagreement - CDXI quintile
+qt_thrs:  0.4 0.3 0.2 0.1 0.25
+
+=====================================
+
+The quintile score of lisa is: 4 --- actual score: 0.4
+The quintile score of nate is: 3 --- actual score: 0.3
+The quintile score of kerri is: 2 --- actual score: 0.2
+The quintile score of jenifer is: 1 --- actual score: 0.1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: YMCA_lauren_final_predictions.xml
+size of LTs: 2532
+size of mentions: 3753
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Expressive Disagreement - CDXI quintile
+
+The quintile score of jennifer is: -1 --- actual score: 0
+
+The quintile score of ken is: -1 --- actual score: 0
+
+The quintile score of lance is: -1 --- actual score: 0
+
+The quintile score of kerri is: -1 --- actual score: 0
+null
