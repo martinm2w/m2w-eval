@@ -1,6 +1,6 @@
 ---------------- Expressive Disagreement Evaluation --------------------- 
-Human annotated file: D:/m2w cs/evaluation-m2w/output_log/2010.08/expressive_disagreement_Lauren_3_pp
-Auto annotated file: D:/m2w cs/evaluation-m2w/output_log/2010.08/expressive_disagreement_auto_3_pp
+Human annotated file: D:/m2w cs/evaluation-m2w/preprocess_log/old/expressive_disagreement_Lauren_3_pp
+Auto annotated file: D:/m2w cs/evaluation-m2w/preprocess_log/old/expressive_disagreement_auto_3_pp
 --------------------------------------------------------------- 
 -----------------------------cdxi---------------------------- 
 Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
@@ -12,8 +12,8 @@ farina	NA	3	NA	NA	NA	NA
 nicole	NA	1	NA	NA	NA	NA	
 Precision: 	0.0(Highest/Rest/Mismatch)	0.0(High/Low/Mismatch)	0.0(Exact-match)	0.0(Partial-match)	
 ---------------- Expressive Disagreement Evaluation --------------------- 
-Human annotated file: D:/m2w cs/evaluation-m2w/output_log/2010.08/expressive_disagreement_Lauren_3_pp
-Auto annotated file: D:/m2w cs/evaluation-m2w/output_log/2010.08/expressive_disagreement_auto_3_pp
+Human annotated file: D:/m2w cs/evaluation-m2w/preprocess_log/old/expressive_disagreement_Lauren_3_pp
+Auto annotated file: D:/m2w cs/evaluation-m2w/preprocess_log/old/expressive_disagreement_auto_3_pp
 --------------------------------------------------------------- 
 -----------------------------cdxi---------------------------- 
 Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
@@ -25,8 +25,8 @@ jianhua	1	2	Rest	Low	no	0
 chris	3	2	Rest	Low	no	0	
 Precision: 	0.3333333333333333(Highest/Rest/Mismatch)	0.5(High/Low/Mismatch)	0.0(Exact-match)	0.08333333333333333(Partial-match)	
 ---------------- Expressive Disagreement Evaluation --------------------- 
-Human annotated file: D:/m2w cs/evaluation-m2w/output_log/2010.08/expressive_disagreement_Lauren_3_pp
-Auto annotated file: D:/m2w cs/evaluation-m2w/output_log/2010.08/expressive_disagreement_auto_3_pp
+Human annotated file: D:/m2w cs/evaluation-m2w/preprocess_log/old/expressive_disagreement_Lauren_3_pp
+Auto annotated file: D:/m2w cs/evaluation-m2w/preprocess_log/old/expressive_disagreement_auto_3_pp
 --------------------------------------------------------------- 
 -----------------------------cdxi---------------------------- 
 Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 

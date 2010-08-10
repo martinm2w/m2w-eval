@@ -1,6 +1,6 @@
----------------- Topic Control Evaluation --------------------- 
-Human annotated file: Feb13_GroupA.xml
-Auto annotated file: Feb13_GroupA_final_predictions.xml
+---------------- Task Control Evaluation --------------------- 
+Human annotated file: D:/m2w cs/evaluation-m2w/preprocess_log/old/task_control_5_Lauren_annotated_7.p
+Auto annotated file: D:/m2w cs/evaluation-m2w/preprocess_log/old/task_control_5_automated_7.p
 --------------------------------------------------------------- 
 -----------------------------pmi---------------------------- 
 Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
@@ -15,9 +15,121 @@ jodie	1	5	Mismatch	Mismatch	no	0
 tony	1	3	Rest	Low	no	0	
 sarah	4	3	Rest	Mismatch	no	0	
 Precision: 	0.7(Highest/Rest/Mismatch)	0.5(High/Low/Mismatch)	0.1(Exact-match)	0.2(Partial-match)	
----------------- Topic Control Evaluation --------------------- 
-Human annotated file: Feb13_GroupB.xml
-Auto annotated file: Feb13_GroupB_final_predictions.xml
+********************   Relations ************************
+       Auto_file     	  	      Human_file       
+jenifer = jessicad	 	 	 jenifer < jessicad
+jenifer < laura	 	 	 jenifer < laura
+jenifer < ilspersonnel	 	 	 jenifer > ilspersonnel
+jenifer > johnw	 	 	 jenifer < johnw
+jenifer > carol	 	 	 jenifer = carol
+jenifer > ashley	 	 	 jenifer = ashley
+jenifer > jodie	 	 	 jenifer < jodie
+jenifer > tony	 	 	 jenifer < tony
+jenifer = sarah	 	 	 jenifer < sarah
+jessicad < laura	 	 	 jessicad = laura
+jessicad < ilspersonnel	 	 	 jessicad > ilspersonnel
+jessicad > johnw	 	 	 jessicad > johnw
+jessicad > carol	 	 	 jessicad > carol
+jessicad > ashley	 	 	 jessicad > ashley
+jessicad > jodie	 	 	 jessicad = jodie
+jessicad > tony	 	 	 jessicad > tony
+jessicad = sarah	 	 	 jessicad > sarah
+lance < laura	 	 	 lance < laura
+lance < ilspersonnel	 	 	 lance < ilspersonnel
+lance < johnw	 	 	 lance < johnw
+lance < carol	 	 	 lance < carol
+lance < ashley	 	 	 lance < ashley
+lance < jodie	 	 	 lance < jodie
+lance < tony	 	 	 lance < tony
+lance < sarah	 	 	 lance < sarah
+danielle < laura	 	 	 danielle < laura
+danielle < ilspersonnel	 	 	 danielle < ilspersonnel
+danielle < johnw	 	 	 danielle < johnw
+danielle < carol	 	 	 danielle < carol
+danielle < ashley	 	 	 danielle < ashley
+danielle < jodie	 	 	 danielle < jodie
+danielle < tony	 	 	 danielle < tony
+danielle < sarah	 	 	 danielle < sarah
+laura = ilspersonnel	 	 	 laura > ilspersonnel
+laura > johnw	 	 	 laura > johnw
+laura > carol	 	 	 laura > carol
+laura > ashley	 	 	 laura > ashley
+laura > jodie	 	 	 laura = jodie
+laura > tony	 	 	 laura > tony
+laura > sarah	 	 	 laura > sarah
+nate < ilspersonnel	 	 	 nate < ilspersonnel
+nate < johnw	 	 	 nate < johnw
+nate < carol	 	 	 nate < carol
+nate < ashley	 	 	 nate < ashley
+nate < jodie	 	 	 nate < jodie
+nate < tony	 	 	 nate < tony
+nate < sarah	 	 	 nate < sarah
+ilspersonnel > johnw	 	 	 ilspersonnel < johnw
+ilspersonnel > carol	 	 	 ilspersonnel < carol
+ilspersonnel > ashley	 	 	 ilspersonnel < ashley
+ilspersonnel > jodie	 	 	 ilspersonnel < jodie
+ilspersonnel > tony	 	 	 ilspersonnel < tony
+ilspersonnel > sarah	 	 	 ilspersonnel < sarah
+johnw = carol	 	 	 johnw > carol
+johnw = ashley	 	 	 johnw > ashley
+johnw = jodie	 	 	 johnw < jodie
+johnw = tony	 	 	 johnw > tony
+johnw < sarah	 	 	 johnw > sarah
+dk < carol	 	 	 dk < carol
+dk < ashley	 	 	 dk < ashley
+dk < jodie	 	 	 dk < jodie
+dk < tony	 	 	 dk < tony
+dk < sarah	 	 	 dk < sarah
+carol = ashley	 	 	 carol = ashley
+carol = jodie	 	 	 carol < jodie
+carol = tony	 	 	 carol < tony
+carol < sarah	 	 	 carol < sarah
+jamie < ashley	 	 	 jamie < ashley
+jamie < jodie	 	 	 jamie < jodie
+jamie < tony	 	 	 jamie < tony
+jamie < sarah	 	 	 jamie < sarah
+jessicaf < ashley	 	 	 jessicaf < ashley
+jessicaf < jodie	 	 	 jessicaf < jodie
+jessicaf < tony	 	 	 jessicaf < tony
+jessicaf < sarah	 	 	 jessicaf < sarah
+ilspersonnel2 < ashley	 	 	 ilspersonnel2 < ashley
+ilspersonnel2 < jodie	 	 	 ilspersonnel2 < jodie
+ilspersonnel2 < tony	 	 	 ilspersonnel2 < tony
+ilspersonnel2 < sarah	 	 	 ilspersonnel2 < sarah
+jenny < ashley	 	 	 jenny < ashley
+jenny < jodie	 	 	 jenny < jodie
+jenny < tony	 	 	 jenny < tony
+jenny < sarah	 	 	 jenny < sarah
+chris < ashley	 	 	 chris < ashley
+chris < jodie	 	 	 chris < jodie
+chris < tony	 	 	 chris < tony
+chris < sarah	 	 	 chris < sarah
+ashley = jodie	 	 	 ashley < jodie
+ashley = tony	 	 	 ashley < tony
+ashley < sarah	 	 	 ashley < sarah
+kerri < jodie	 	 	 kerri < jodie
+kerri < tony	 	 	 kerri < tony
+kerri < sarah	 	 	 kerri < sarah
+ken < jodie	 	 	 ken < jodie
+ken < tony	 	 	 ken < tony
+ken < sarah	 	 	 ken < sarah
+jodie = tony	 	 	 jodie > tony
+jodie < sarah	 	 	 jodie > sarah
+jennifer < tony	 	 	 jennifer < tony
+jennifer < sarah	 	 	 jennifer < sarah
+kara < tony	 	 	 kara < tony
+kara < sarah	 	 	 kara < sarah
+lisa < tony	 	 	 lisa < tony
+lisa < sarah	 	 	 lisa < sarah
+nicole < tony	 	 	 nicole < tony
+nicole < sarah	 	 	 nicole < sarah
+tony < sarah	 	 	 tony = sarah
+jessamyn < sarah	 	 	 jessamyn < sarah
+jianhua < sarah	 	 	 jianhua < sarah
+|||| Equalcount : 77|||||||| Precentage :0.7064220183486238|||||
+---------------- Task Control Evaluation --------------------- 
+Human annotated file: D:/m2w cs/evaluation-m2w/preprocess_log/old/task_control_5_Lauren_annotated_7.p
+Auto annotated file: D:/m2w cs/evaluation-m2w/preprocess_log/old/task_control_5_automated_7.p
 --------------------------------------------------------------- 
 -----------------------------pmi---------------------------- 
 Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
@@ -29,6 +141,98 @@ ilspersonnel2	3	4	Rest	Mismatch	no	0
 nicole	3	2	Rest	Low	no	0.5	
 jessamyn	1	2	Rest	Low	no	0.5	
 Precision: 	0.7142857142857143(Highest/Rest/Mismatch)	0.8571428571428571(High/Low/Mismatch)	0.2857142857142857(Exact-match)	0.42857142857142855(Partial-match)	
+********************   Relations ************************
+       Auto_file     	  	      Human_file       
+jenifer < danielle	 	 	 jenifer < danielle
+jenifer < dk	 	 	 jenifer < dk
+jenifer < carol	 	 	 jenifer < carol
+jenifer < jessicaf	 	 	 jenifer < jessicaf
+jenifer < ilspersonnel2	 	 	 jenifer < ilspersonnel2
+jenifer < nicole	 	 	 jenifer < nicole
+jenifer < jessamyn	 	 	 jenifer < jessamyn
+jessicad < danielle	 	 	 jessicad < danielle
+jessicad < dk	 	 	 jessicad < dk
+jessicad < carol	 	 	 jessicad < carol
+jessicad < jessicaf	 	 	 jessicad < jessicaf
+jessicad < ilspersonnel2	 	 	 jessicad < ilspersonnel2
+jessicad < nicole	 	 	 jessicad < nicole
+jessicad < jessamyn	 	 	 jessicad < jessamyn
+lance < danielle	 	 	 lance < danielle
+lance < dk	 	 	 lance < dk
+lance < carol	 	 	 lance < carol
+lance < jessicaf	 	 	 lance < jessicaf
+lance < ilspersonnel2	 	 	 lance < ilspersonnel2
+lance < nicole	 	 	 lance < nicole
+lance < jessamyn	 	 	 lance < jessamyn
+danielle < dk	 	 	 danielle < dk
+danielle < carol	 	 	 danielle < carol
+danielle < jessicaf	 	 	 danielle < jessicaf
+danielle < ilspersonnel2	 	 	 danielle < ilspersonnel2
+danielle < nicole	 	 	 danielle = nicole
+danielle > jessamyn	 	 	 danielle = jessamyn
+laura < dk	 	 	 laura < dk
+laura < carol	 	 	 laura < carol
+laura < jessicaf	 	 	 laura < jessicaf
+laura < ilspersonnel2	 	 	 laura < ilspersonnel2
+laura < nicole	 	 	 laura < nicole
+laura < jessamyn	 	 	 laura < jessamyn
+nate < dk	 	 	 nate < dk
+nate < carol	 	 	 nate < carol
+nate < jessicaf	 	 	 nate < jessicaf
+nate < ilspersonnel2	 	 	 nate < ilspersonnel2
+nate < nicole	 	 	 nate < nicole
+nate < jessamyn	 	 	 nate < jessamyn
+ilspersonnel < dk	 	 	 ilspersonnel < dk
+ilspersonnel < carol	 	 	 ilspersonnel < carol
+ilspersonnel < jessicaf	 	 	 ilspersonnel < jessicaf
+ilspersonnel < ilspersonnel2	 	 	 ilspersonnel < ilspersonnel2
+ilspersonnel < nicole	 	 	 ilspersonnel < nicole
+ilspersonnel < jessamyn	 	 	 ilspersonnel < jessamyn
+johnw < dk	 	 	 johnw < dk
+johnw < carol	 	 	 johnw < carol
+johnw < jessicaf	 	 	 johnw < jessicaf
+johnw < ilspersonnel2	 	 	 johnw < ilspersonnel2
+johnw < nicole	 	 	 johnw < nicole
+johnw < jessamyn	 	 	 johnw < jessamyn
+dk = carol	 	 	 dk > carol
+dk < jessicaf	 	 	 dk > jessicaf
+dk > ilspersonnel2	 	 	 dk > ilspersonnel2
+dk > nicole	 	 	 dk > nicole
+dk > jessamyn	 	 	 dk > jessamyn
+carol < jessicaf	 	 	 carol = jessicaf
+carol > ilspersonnel2	 	 	 carol = ilspersonnel2
+carol > nicole	 	 	 carol > nicole
+carol > jessamyn	 	 	 carol > jessamyn
+jamie < jessicaf	 	 	 jamie < jessicaf
+jamie < ilspersonnel2	 	 	 jamie < ilspersonnel2
+jamie < nicole	 	 	 jamie < nicole
+jamie < jessamyn	 	 	 jamie < jessamyn
+jessicaf > ilspersonnel2	 	 	 jessicaf = ilspersonnel2
+jessicaf > nicole	 	 	 jessicaf > nicole
+jessicaf > jessamyn	 	 	 jessicaf > jessamyn
+ilspersonnel2 = nicole	 	 	 ilspersonnel2 > nicole
+ilspersonnel2 > jessamyn	 	 	 ilspersonnel2 > jessamyn
+jenny < nicole	 	 	 jenny < nicole
+jenny < jessamyn	 	 	 jenny < jessamyn
+chris < nicole	 	 	 chris < nicole
+chris < jessamyn	 	 	 chris < jessamyn
+ashley < nicole	 	 	 ashley < nicole
+ashley < jessamyn	 	 	 ashley < jessamyn
+kerri < nicole	 	 	 kerri < nicole
+kerri < jessamyn	 	 	 kerri < jessamyn
+ken < nicole	 	 	 ken < nicole
+ken < jessamyn	 	 	 ken < jessamyn
+jodie < nicole	 	 	 jodie < nicole
+jodie < jessamyn	 	 	 jodie < jessamyn
+jennifer < nicole	 	 	 jennifer < nicole
+jennifer < jessamyn	 	 	 jennifer < jessamyn
+kara < nicole	 	 	 kara < nicole
+kara < jessamyn	 	 	 kara < jessamyn
+lisa < nicole	 	 	 lisa < nicole
+lisa < jessamyn	 	 	 lisa < jessamyn
+nicole > jessamyn	 	 	 nicole = jessamyn
+tony < jessamyn	 	 	 tony < jessamyn
+|||| Equalcount : 80|||||||| Precentage :0.898876404494382|||||
 -----------------------------pmsi---------------------------- 
 Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
 danielle	1	1	Rest	Low	yes	1	
@@ -39,9 +243,101 @@ ilspersonnel2	4	4	Rest	High	yes	1
 nicole	4	2	Rest	Mismatch	no	0	
 jessamyn	2	2	Rest	Low	yes	1	
 Precision: 	0.5714285714285714(Highest/Rest/Mismatch)	0.8571428571428571(High/Low/Mismatch)	0.42857142857142855(Exact-match)	0.5(Partial-match)	
----------------- Topic Control Evaluation --------------------- 
-Human annotated file: Feb19_GroupB_lauren.xml
-Auto annotated file: Feb19_GroupB_lauren_final_predictions.xml
+********************   Relations ************************
+       Auto_file     	  	      Human_file       
+jenifer < danielle	 	 	 jenifer < danielle
+jenifer < dk	 	 	 jenifer < dk
+jenifer < carol	 	 	 jenifer < carol
+jenifer < jessicaf	 	 	 jenifer < jessicaf
+jenifer < ilspersonnel2	 	 	 jenifer < ilspersonnel2
+jenifer < nicole	 	 	 jenifer < nicole
+jenifer < jessamyn	 	 	 jenifer < jessamyn
+jessicad < danielle	 	 	 jessicad < danielle
+jessicad < dk	 	 	 jessicad < dk
+jessicad < carol	 	 	 jessicad < carol
+jessicad < jessicaf	 	 	 jessicad < jessicaf
+jessicad < ilspersonnel2	 	 	 jessicad < ilspersonnel2
+jessicad < nicole	 	 	 jessicad < nicole
+jessicad < jessamyn	 	 	 jessicad < jessamyn
+lance < danielle	 	 	 lance < danielle
+lance < dk	 	 	 lance < dk
+lance < carol	 	 	 lance < carol
+lance < jessicaf	 	 	 lance < jessicaf
+lance < ilspersonnel2	 	 	 lance < ilspersonnel2
+lance < nicole	 	 	 lance < nicole
+lance < jessamyn	 	 	 lance < jessamyn
+danielle < dk	 	 	 danielle < dk
+danielle < carol	 	 	 danielle < carol
+danielle < jessicaf	 	 	 danielle < jessicaf
+danielle < ilspersonnel2	 	 	 danielle < ilspersonnel2
+danielle < nicole	 	 	 danielle < nicole
+danielle < jessamyn	 	 	 danielle < jessamyn
+laura < dk	 	 	 laura < dk
+laura < carol	 	 	 laura < carol
+laura < jessicaf	 	 	 laura < jessicaf
+laura < ilspersonnel2	 	 	 laura < ilspersonnel2
+laura < nicole	 	 	 laura < nicole
+laura < jessamyn	 	 	 laura < jessamyn
+nate < dk	 	 	 nate < dk
+nate < carol	 	 	 nate < carol
+nate < jessicaf	 	 	 nate < jessicaf
+nate < ilspersonnel2	 	 	 nate < ilspersonnel2
+nate < nicole	 	 	 nate < nicole
+nate < jessamyn	 	 	 nate < jessamyn
+ilspersonnel < dk	 	 	 ilspersonnel < dk
+ilspersonnel < carol	 	 	 ilspersonnel < carol
+ilspersonnel < jessicaf	 	 	 ilspersonnel < jessicaf
+ilspersonnel < ilspersonnel2	 	 	 ilspersonnel < ilspersonnel2
+ilspersonnel < nicole	 	 	 ilspersonnel < nicole
+ilspersonnel < jessamyn	 	 	 ilspersonnel < jessamyn
+johnw < dk	 	 	 johnw < dk
+johnw < carol	 	 	 johnw < carol
+johnw < jessicaf	 	 	 johnw < jessicaf
+johnw < ilspersonnel2	 	 	 johnw < ilspersonnel2
+johnw < nicole	 	 	 johnw < nicole
+johnw < jessamyn	 	 	 johnw < jessamyn
+dk > carol	 	 	 dk < carol
+dk = jessicaf	 	 	 dk = jessicaf
+dk > ilspersonnel2	 	 	 dk = ilspersonnel2
+dk > nicole	 	 	 dk > nicole
+dk > jessamyn	 	 	 dk > jessamyn
+carol < jessicaf	 	 	 carol > jessicaf
+carol = ilspersonnel2	 	 	 carol > ilspersonnel2
+carol = nicole	 	 	 carol > nicole
+carol > jessamyn	 	 	 carol > jessamyn
+jamie < jessicaf	 	 	 jamie < jessicaf
+jamie < ilspersonnel2	 	 	 jamie < ilspersonnel2
+jamie < nicole	 	 	 jamie < nicole
+jamie < jessamyn	 	 	 jamie < jessamyn
+jessicaf > ilspersonnel2	 	 	 jessicaf = ilspersonnel2
+jessicaf > nicole	 	 	 jessicaf > nicole
+jessicaf > jessamyn	 	 	 jessicaf > jessamyn
+ilspersonnel2 = nicole	 	 	 ilspersonnel2 > nicole
+ilspersonnel2 > jessamyn	 	 	 ilspersonnel2 > jessamyn
+jenny < nicole	 	 	 jenny < nicole
+jenny < jessamyn	 	 	 jenny < jessamyn
+chris < nicole	 	 	 chris < nicole
+chris < jessamyn	 	 	 chris < jessamyn
+ashley < nicole	 	 	 ashley < nicole
+ashley < jessamyn	 	 	 ashley < jessamyn
+kerri < nicole	 	 	 kerri < nicole
+kerri < jessamyn	 	 	 kerri < jessamyn
+ken < nicole	 	 	 ken < nicole
+ken < jessamyn	 	 	 ken < jessamyn
+jodie < nicole	 	 	 jodie < nicole
+jodie < jessamyn	 	 	 jodie < jessamyn
+jennifer < nicole	 	 	 jennifer < nicole
+jennifer < jessamyn	 	 	 jennifer < jessamyn
+kara < nicole	 	 	 kara < nicole
+kara < jessamyn	 	 	 kara < jessamyn
+lisa < nicole	 	 	 lisa < nicole
+lisa < jessamyn	 	 	 lisa < jessamyn
+nicole > jessamyn	 	 	 nicole = jessamyn
+tony < jessamyn	 	 	 tony < jessamyn
+|||| Equalcount : 81|||||||| Precentage :0.9101123595505618|||||
+---------------- Task Control Evaluation --------------------- 
+Human annotated file: D:/m2w cs/evaluation-m2w/preprocess_log/old/task_control_5_Lauren_annotated_7.p
+Auto annotated file: D:/m2w cs/evaluation-m2w/preprocess_log/old/task_control_5_automated_7.p
 --------------------------------------------------------------- 
 -----------------------------pmi---------------------------- 
 Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
@@ -53,9 +349,136 @@ jennifer	3	4	Rest	Mismatch	no	0
 kara	4	5	Mismatch	High	no	0	
 jianhua	5	4	Mismatch	High	no	0	
 Precision: 	0.7142857142857143(Highest/Rest/Mismatch)	0.5714285714285714(High/Low/Mismatch)	0.2857142857142857(Exact-match)	0.2857142857142857(Partial-match)	
----------------- Topic Control Evaluation --------------------- 
-Human annotated file: Lauren_Cheney.xml
-Auto annotated file: Lauren_Cheney_final_predictions.xml
+********************   Relations ************************
+       Auto_file     	  	      Human_file       
+jenifer < jenny	 	 	 jenifer < jenny
+jenifer < chris	 	 	 jenifer < chris
+jenifer < kerri	 	 	 jenifer < kerri
+jenifer < ken	 	 	 jenifer < ken
+jenifer < jennifer	 	 	 jenifer < jennifer
+jenifer < kara	 	 	 jenifer < kara
+jenifer < jianhua	 	 	 jenifer < jianhua
+jessicad < jenny	 	 	 jessicad < jenny
+jessicad < chris	 	 	 jessicad < chris
+jessicad < kerri	 	 	 jessicad < kerri
+jessicad < ken	 	 	 jessicad < ken
+jessicad < jennifer	 	 	 jessicad < jennifer
+jessicad < kara	 	 	 jessicad < kara
+jessicad < jianhua	 	 	 jessicad < jianhua
+lance < jenny	 	 	 lance < jenny
+lance < chris	 	 	 lance < chris
+lance < kerri	 	 	 lance < kerri
+lance < ken	 	 	 lance < ken
+lance < jennifer	 	 	 lance < jennifer
+lance < kara	 	 	 lance < kara
+lance < jianhua	 	 	 lance < jianhua
+danielle < jenny	 	 	 danielle < jenny
+danielle < chris	 	 	 danielle < chris
+danielle < kerri	 	 	 danielle < kerri
+danielle < ken	 	 	 danielle < ken
+danielle < jennifer	 	 	 danielle < jennifer
+danielle < kara	 	 	 danielle < kara
+danielle < jianhua	 	 	 danielle < jianhua
+laura < jenny	 	 	 laura < jenny
+laura < chris	 	 	 laura < chris
+laura < kerri	 	 	 laura < kerri
+laura < ken	 	 	 laura < ken
+laura < jennifer	 	 	 laura < jennifer
+laura < kara	 	 	 laura < kara
+laura < jianhua	 	 	 laura < jianhua
+nate < jenny	 	 	 nate < jenny
+nate < chris	 	 	 nate < chris
+nate < kerri	 	 	 nate < kerri
+nate < ken	 	 	 nate < ken
+nate < jennifer	 	 	 nate < jennifer
+nate < kara	 	 	 nate < kara
+nate < jianhua	 	 	 nate < jianhua
+ilspersonnel < jenny	 	 	 ilspersonnel < jenny
+ilspersonnel < chris	 	 	 ilspersonnel < chris
+ilspersonnel < kerri	 	 	 ilspersonnel < kerri
+ilspersonnel < ken	 	 	 ilspersonnel < ken
+ilspersonnel < jennifer	 	 	 ilspersonnel < jennifer
+ilspersonnel < kara	 	 	 ilspersonnel < kara
+ilspersonnel < jianhua	 	 	 ilspersonnel < jianhua
+johnw < jenny	 	 	 johnw < jenny
+johnw < chris	 	 	 johnw < chris
+johnw < kerri	 	 	 johnw < kerri
+johnw < ken	 	 	 johnw < ken
+johnw < jennifer	 	 	 johnw < jennifer
+johnw < kara	 	 	 johnw < kara
+johnw < jianhua	 	 	 johnw < jianhua
+dk < jenny	 	 	 dk < jenny
+dk < chris	 	 	 dk < chris
+dk < kerri	 	 	 dk < kerri
+dk < ken	 	 	 dk < ken
+dk < jennifer	 	 	 dk < jennifer
+dk < kara	 	 	 dk < kara
+dk < jianhua	 	 	 dk < jianhua
+carol < jenny	 	 	 carol < jenny
+carol < chris	 	 	 carol < chris
+carol < kerri	 	 	 carol < kerri
+carol < ken	 	 	 carol < ken
+carol < jennifer	 	 	 carol < jennifer
+carol < kara	 	 	 carol < kara
+carol < jianhua	 	 	 carol < jianhua
+jamie < jenny	 	 	 jamie < jenny
+jamie < chris	 	 	 jamie < chris
+jamie < kerri	 	 	 jamie < kerri
+jamie < ken	 	 	 jamie < ken
+jamie < jennifer	 	 	 jamie < jennifer
+jamie < kara	 	 	 jamie < kara
+jamie < jianhua	 	 	 jamie < jianhua
+jessicaf < jenny	 	 	 jessicaf < jenny
+jessicaf < chris	 	 	 jessicaf < chris
+jessicaf < kerri	 	 	 jessicaf < kerri
+jessicaf < ken	 	 	 jessicaf < ken
+jessicaf < jennifer	 	 	 jessicaf < jennifer
+jessicaf < kara	 	 	 jessicaf < kara
+jessicaf < jianhua	 	 	 jessicaf < jianhua
+ilspersonnel2 < jenny	 	 	 ilspersonnel2 < jenny
+ilspersonnel2 < chris	 	 	 ilspersonnel2 < chris
+ilspersonnel2 < kerri	 	 	 ilspersonnel2 < kerri
+ilspersonnel2 < ken	 	 	 ilspersonnel2 < ken
+ilspersonnel2 < jennifer	 	 	 ilspersonnel2 < jennifer
+ilspersonnel2 < kara	 	 	 ilspersonnel2 < kara
+ilspersonnel2 < jianhua	 	 	 ilspersonnel2 < jianhua
+jenny = chris	 	 	 jenny = chris
+jenny < kerri	 	 	 jenny < kerri
+jenny < ken	 	 	 jenny < ken
+jenny < jennifer	 	 	 jenny < jennifer
+jenny < kara	 	 	 jenny < kara
+jenny < jianhua	 	 	 jenny < jianhua
+chris < kerri	 	 	 chris < kerri
+chris < ken	 	 	 chris < ken
+chris < jennifer	 	 	 chris < jennifer
+chris < kara	 	 	 chris < kara
+chris < jianhua	 	 	 chris < jianhua
+ashley < kerri	 	 	 ashley < kerri
+ashley < ken	 	 	 ashley < ken
+ashley < jennifer	 	 	 ashley < jennifer
+ashley < kara	 	 	 ashley < kara
+ashley < jianhua	 	 	 ashley < jianhua
+kerri < ken	 	 	 kerri > ken
+kerri = jennifer	 	 	 kerri = jennifer
+kerri < kara	 	 	 kerri < kara
+kerri < jianhua	 	 	 kerri = jianhua
+ken > jennifer	 	 	 ken < jennifer
+ken = kara	 	 	 ken < kara
+ken < jianhua	 	 	 ken < jianhua
+jodie < jennifer	 	 	 jodie < jennifer
+jodie < kara	 	 	 jodie < kara
+jodie < jianhua	 	 	 jodie < jianhua
+jennifer < kara	 	 	 jennifer < kara
+jennifer < jianhua	 	 	 jennifer = jianhua
+kara < jianhua	 	 	 kara > jianhua
+lisa < jianhua	 	 	 lisa < jianhua
+nicole < jianhua	 	 	 nicole < jianhua
+tony < jianhua	 	 	 tony < jianhua
+jessamyn < jianhua	 	 	 jessamyn < jianhua
+|||| Equalcount : 118|||||||| Precentage :0.9516129032258065|||||
+---------------- Task Control Evaluation --------------------- 
+Human annotated file: D:/m2w cs/evaluation-m2w/preprocess_log/old/task_control_5_Lauren_annotated_7.p
+Auto annotated file: D:/m2w cs/evaluation-m2w/preprocess_log/old/task_control_5_automated_7.p
 --------------------------------------------------------------- 
 -----------------------------pmi---------------------------- 
 Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
@@ -65,9 +488,100 @@ jennifer	5	5	Highest	High	yes	1
 kara	3	4	Rest	Mismatch	no	0	
 jianhua	4	3	Rest	Mismatch	no	0.5	
 Precision: 	1.0(Highest/Rest/Mismatch)	0.6(High/Low/Mismatch)	0.4(Exact-match)	0.6(Partial-match)	
----------------- Topic Control Evaluation --------------------- 
-Human annotated file: Lauren_Training.xml
-Auto annotated file: Lauren_Training_final_predictions.xml
+********************   Relations ************************
+       Auto_file     	  	      Human_file       
+jenifer < jamie	 	 	 jenifer < jamie
+jenifer < chris	 	 	 jenifer < chris
+jenifer < jennifer	 	 	 jenifer < jennifer
+jenifer < kara	 	 	 jenifer < kara
+jenifer < jianhua	 	 	 jenifer < jianhua
+jessicad < jamie	 	 	 jessicad < jamie
+jessicad < chris	 	 	 jessicad < chris
+jessicad < jennifer	 	 	 jessicad < jennifer
+jessicad < kara	 	 	 jessicad < kara
+jessicad < jianhua	 	 	 jessicad < jianhua
+lance < jamie	 	 	 lance < jamie
+lance < chris	 	 	 lance < chris
+lance < jennifer	 	 	 lance < jennifer
+lance < kara	 	 	 lance < kara
+lance < jianhua	 	 	 lance < jianhua
+danielle < jamie	 	 	 danielle < jamie
+danielle < chris	 	 	 danielle < chris
+danielle < jennifer	 	 	 danielle < jennifer
+danielle < kara	 	 	 danielle < kara
+danielle < jianhua	 	 	 danielle < jianhua
+laura < jamie	 	 	 laura < jamie
+laura < chris	 	 	 laura < chris
+laura < jennifer	 	 	 laura < jennifer
+laura < kara	 	 	 laura < kara
+laura < jianhua	 	 	 laura < jianhua
+nate < jamie	 	 	 nate < jamie
+nate < chris	 	 	 nate < chris
+nate < jennifer	 	 	 nate < jennifer
+nate < kara	 	 	 nate < kara
+nate < jianhua	 	 	 nate < jianhua
+ilspersonnel < jamie	 	 	 ilspersonnel < jamie
+ilspersonnel < chris	 	 	 ilspersonnel < chris
+ilspersonnel < jennifer	 	 	 ilspersonnel < jennifer
+ilspersonnel < kara	 	 	 ilspersonnel < kara
+ilspersonnel < jianhua	 	 	 ilspersonnel < jianhua
+johnw < jamie	 	 	 johnw < jamie
+johnw < chris	 	 	 johnw < chris
+johnw < jennifer	 	 	 johnw < jennifer
+johnw < kara	 	 	 johnw < kara
+johnw < jianhua	 	 	 johnw < jianhua
+dk < jamie	 	 	 dk < jamie
+dk < chris	 	 	 dk < chris
+dk < jennifer	 	 	 dk < jennifer
+dk < kara	 	 	 dk < kara
+dk < jianhua	 	 	 dk < jianhua
+carol < jamie	 	 	 carol < jamie
+carol < chris	 	 	 carol < chris
+carol < jennifer	 	 	 carol < jennifer
+carol < kara	 	 	 carol < kara
+carol < jianhua	 	 	 carol < jianhua
+jamie > chris	 	 	 jamie > chris
+jamie < jennifer	 	 	 jamie < jennifer
+jamie = kara	 	 	 jamie < kara
+jamie < jianhua	 	 	 jamie < jianhua
+jessicaf < chris	 	 	 jessicaf < chris
+jessicaf < jennifer	 	 	 jessicaf < jennifer
+jessicaf < kara	 	 	 jessicaf < kara
+jessicaf < jianhua	 	 	 jessicaf < jianhua
+ilspersonnel2 < chris	 	 	 ilspersonnel2 < chris
+ilspersonnel2 < jennifer	 	 	 ilspersonnel2 < jennifer
+ilspersonnel2 < kara	 	 	 ilspersonnel2 < kara
+ilspersonnel2 < jianhua	 	 	 ilspersonnel2 < jianhua
+jenny < chris	 	 	 jenny < chris
+jenny < jennifer	 	 	 jenny < jennifer
+jenny < kara	 	 	 jenny < kara
+jenny < jianhua	 	 	 jenny < jianhua
+chris < jennifer	 	 	 chris < jennifer
+chris < kara	 	 	 chris < kara
+chris < jianhua	 	 	 chris < jianhua
+ashley < jennifer	 	 	 ashley < jennifer
+ashley < kara	 	 	 ashley < kara
+ashley < jianhua	 	 	 ashley < jianhua
+kerri < jennifer	 	 	 kerri < jennifer
+kerri < kara	 	 	 kerri < kara
+kerri < jianhua	 	 	 kerri < jianhua
+ken < jennifer	 	 	 ken < jennifer
+ken < kara	 	 	 ken < kara
+ken < jianhua	 	 	 ken < jianhua
+jodie < jennifer	 	 	 jodie < jennifer
+jodie < kara	 	 	 jodie < kara
+jodie < jianhua	 	 	 jodie < jianhua
+jennifer > kara	 	 	 jennifer > kara
+jennifer > jianhua	 	 	 jennifer > jianhua
+kara < jianhua	 	 	 kara > jianhua
+lisa < jianhua	 	 	 lisa < jianhua
+nicole < jianhua	 	 	 nicole < jianhua
+tony < jianhua	 	 	 tony < jianhua
+jessamyn < jianhua	 	 	 jessamyn < jianhua
+|||| Equalcount : 86|||||||| Precentage :0.9772727272727273|||||
+---------------- Task Control Evaluation --------------------- 
+Human annotated file: D:/m2w cs/evaluation-m2w/preprocess_log/old/task_control_5_Lauren_annotated_7.p
+Auto annotated file: D:/m2w cs/evaluation-m2w/preprocess_log/old/task_control_5_automated_7.p
 --------------------------------------------------------------- 
 -----------------------------pmi---------------------------- 
 Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
@@ -80,9 +594,72 @@ johnw	1	1	Rest	Low	yes	1
 kerri	5	5	Highest	High	yes	1	
 lisa	4	4	Rest	High	yes	1	
 Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.75(Exact-match)	0.8125(Partial-match)	
----------------- Topic Control Evaluation --------------------- 
-Human annotated file: Mar11_GroupB_lauren.xml
-Auto annotated file: Mar11_GroupB_lauren_final_predictions.xml
+********************   Relations ************************
+       Auto_file     	  	      Human_file       
+jenifer > jessicad	 	 	 jenifer > jessicad
+jenifer < laura	 	 	 jenifer = laura
+jenifer < nate	 	 	 jenifer < nate
+jenifer < ilspersonnel	 	 	 jenifer > ilspersonnel
+jenifer > johnw	 	 	 jenifer > johnw
+jenifer < kerri	 	 	 jenifer < kerri
+jenifer < lisa	 	 	 jenifer < lisa
+jessicad < laura	 	 	 jessicad < laura
+jessicad < nate	 	 	 jessicad < nate
+jessicad < ilspersonnel	 	 	 jessicad < ilspersonnel
+jessicad = johnw	 	 	 jessicad = johnw
+jessicad < kerri	 	 	 jessicad < kerri
+jessicad < lisa	 	 	 jessicad < lisa
+lance < laura	 	 	 lance < laura
+lance < nate	 	 	 lance < nate
+lance < ilspersonnel	 	 	 lance < ilspersonnel
+lance < johnw	 	 	 lance < johnw
+lance < kerri	 	 	 lance < kerri
+lance < lisa	 	 	 lance < lisa
+danielle < laura	 	 	 danielle < laura
+danielle < nate	 	 	 danielle < nate
+danielle < ilspersonnel	 	 	 danielle < ilspersonnel
+danielle < johnw	 	 	 danielle < johnw
+danielle < kerri	 	 	 danielle < kerri
+danielle < lisa	 	 	 danielle < lisa
+laura < nate	 	 	 laura < nate
+laura = ilspersonnel	 	 	 laura > ilspersonnel
+laura > johnw	 	 	 laura > johnw
+laura < kerri	 	 	 laura < kerri
+laura < lisa	 	 	 laura < lisa
+nate > ilspersonnel	 	 	 nate > ilspersonnel
+nate > johnw	 	 	 nate > johnw
+nate < kerri	 	 	 nate < kerri
+nate = lisa	 	 	 nate = lisa
+ilspersonnel > johnw	 	 	 ilspersonnel > johnw
+ilspersonnel < kerri	 	 	 ilspersonnel < kerri
+ilspersonnel < lisa	 	 	 ilspersonnel < lisa
+johnw < kerri	 	 	 johnw < kerri
+johnw < lisa	 	 	 johnw < lisa
+dk < kerri	 	 	 dk < kerri
+dk < lisa	 	 	 dk < lisa
+carol < kerri	 	 	 carol < kerri
+carol < lisa	 	 	 carol < lisa
+jamie < kerri	 	 	 jamie < kerri
+jamie < lisa	 	 	 jamie < lisa
+jessicaf < kerri	 	 	 jessicaf < kerri
+jessicaf < lisa	 	 	 jessicaf < lisa
+ilspersonnel2 < kerri	 	 	 ilspersonnel2 < kerri
+ilspersonnel2 < lisa	 	 	 ilspersonnel2 < lisa
+jenny < kerri	 	 	 jenny < kerri
+jenny < lisa	 	 	 jenny < lisa
+chris < kerri	 	 	 chris < kerri
+chris < lisa	 	 	 chris < lisa
+ashley < kerri	 	 	 ashley < kerri
+ashley < lisa	 	 	 ashley < lisa
+kerri > lisa	 	 	 kerri > lisa
+ken < lisa	 	 	 ken < lisa
+jodie < lisa	 	 	 jodie < lisa
+jennifer < lisa	 	 	 jennifer < lisa
+kara < lisa	 	 	 kara < lisa
+|||| Equalcount : 57|||||||| Precentage :0.95|||||
+---------------- Task Control Evaluation --------------------- 
+Human annotated file: D:/m2w cs/evaluation-m2w/preprocess_log/old/task_control_5_Lauren_annotated_7.p
+Auto annotated file: D:/m2w cs/evaluation-m2w/preprocess_log/old/task_control_5_automated_7.p
 --------------------------------------------------------------- 
 -----------------------------pmi---------------------------- 
 Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
@@ -94,6 +671,110 @@ ken	3	3	Rest	Low	yes	1
 jennifer	4	4	Rest	High	yes	1	
 kara	4	4	Rest	High	yes	1	
 Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.7142857142857143(Exact-match)	0.8571428571428571(Partial-match)	
+********************   Relations ************************
+       Auto_file     	  	      Human_file       
+jenifer < lance	 	 	 jenifer < lance
+jenifer < jenny	 	 	 jenifer < jenny
+jenifer < chris	 	 	 jenifer < chris
+jenifer < kerri	 	 	 jenifer < kerri
+jenifer < ken	 	 	 jenifer < ken
+jenifer < jennifer	 	 	 jenifer < jennifer
+jenifer < kara	 	 	 jenifer < kara
+jessicad < lance	 	 	 jessicad < lance
+jessicad < jenny	 	 	 jessicad < jenny
+jessicad < chris	 	 	 jessicad < chris
+jessicad < kerri	 	 	 jessicad < kerri
+jessicad < ken	 	 	 jessicad < ken
+jessicad < jennifer	 	 	 jessicad < jennifer
+jessicad < kara	 	 	 jessicad < kara
+lance > jenny	 	 	 lance = jenny
+lance = chris	 	 	 lance > chris
+lance < kerri	 	 	 lance < kerri
+lance < ken	 	 	 lance < ken
+lance < jennifer	 	 	 lance < jennifer
+lance < kara	 	 	 lance < kara
+danielle < jenny	 	 	 danielle < jenny
+danielle < chris	 	 	 danielle < chris
+danielle < kerri	 	 	 danielle < kerri
+danielle < ken	 	 	 danielle < ken
+danielle < jennifer	 	 	 danielle < jennifer
+danielle < kara	 	 	 danielle < kara
+laura < jenny	 	 	 laura < jenny
+laura < chris	 	 	 laura < chris
+laura < kerri	 	 	 laura < kerri
+laura < ken	 	 	 laura < ken
+laura < jennifer	 	 	 laura < jennifer
+laura < kara	 	 	 laura < kara
+nate < jenny	 	 	 nate < jenny
+nate < chris	 	 	 nate < chris
+nate < kerri	 	 	 nate < kerri
+nate < ken	 	 	 nate < ken
+nate < jennifer	 	 	 nate < jennifer
+nate < kara	 	 	 nate < kara
+ilspersonnel < jenny	 	 	 ilspersonnel < jenny
+ilspersonnel < chris	 	 	 ilspersonnel < chris
+ilspersonnel < kerri	 	 	 ilspersonnel < kerri
+ilspersonnel < ken	 	 	 ilspersonnel < ken
+ilspersonnel < jennifer	 	 	 ilspersonnel < jennifer
+ilspersonnel < kara	 	 	 ilspersonnel < kara
+johnw < jenny	 	 	 johnw < jenny
+johnw < chris	 	 	 johnw < chris
+johnw < kerri	 	 	 johnw < kerri
+johnw < ken	 	 	 johnw < ken
+johnw < jennifer	 	 	 johnw < jennifer
+johnw < kara	 	 	 johnw < kara
+dk < jenny	 	 	 dk < jenny
+dk < chris	 	 	 dk < chris
+dk < kerri	 	 	 dk < kerri
+dk < ken	 	 	 dk < ken
+dk < jennifer	 	 	 dk < jennifer
+dk < kara	 	 	 dk < kara
+carol < jenny	 	 	 carol < jenny
+carol < chris	 	 	 carol < chris
+carol < kerri	 	 	 carol < kerri
+carol < ken	 	 	 carol < ken
+carol < jennifer	 	 	 carol < jennifer
+carol < kara	 	 	 carol < kara
+jamie < jenny	 	 	 jamie < jenny
+jamie < chris	 	 	 jamie < chris
+jamie < kerri	 	 	 jamie < kerri
+jamie < ken	 	 	 jamie < ken
+jamie < jennifer	 	 	 jamie < jennifer
+jamie < kara	 	 	 jamie < kara
+jessicaf < jenny	 	 	 jessicaf < jenny
+jessicaf < chris	 	 	 jessicaf < chris
+jessicaf < kerri	 	 	 jessicaf < kerri
+jessicaf < ken	 	 	 jessicaf < ken
+jessicaf < jennifer	 	 	 jessicaf < jennifer
+jessicaf < kara	 	 	 jessicaf < kara
+ilspersonnel2 < jenny	 	 	 ilspersonnel2 < jenny
+ilspersonnel2 < chris	 	 	 ilspersonnel2 < chris
+ilspersonnel2 < kerri	 	 	 ilspersonnel2 < kerri
+ilspersonnel2 < ken	 	 	 ilspersonnel2 < ken
+ilspersonnel2 < jennifer	 	 	 ilspersonnel2 < jennifer
+ilspersonnel2 < kara	 	 	 ilspersonnel2 < kara
+jenny < chris	 	 	 jenny > chris
+jenny < kerri	 	 	 jenny < kerri
+jenny < ken	 	 	 jenny < ken
+jenny < jennifer	 	 	 jenny < jennifer
+jenny < kara	 	 	 jenny < kara
+chris < kerri	 	 	 chris < kerri
+chris < ken	 	 	 chris < ken
+chris < jennifer	 	 	 chris < jennifer
+chris < kara	 	 	 chris < kara
+ashley < kerri	 	 	 ashley < kerri
+ashley < ken	 	 	 ashley < ken
+ashley < jennifer	 	 	 ashley < jennifer
+ashley < kara	 	 	 ashley < kara
+kerri > ken	 	 	 kerri > ken
+kerri > jennifer	 	 	 kerri > jennifer
+kerri > kara	 	 	 kerri > kara
+ken < jennifer	 	 	 ken < jennifer
+ken < kara	 	 	 ken < kara
+jodie < jennifer	 	 	 jodie < jennifer
+jodie < kara	 	 	 jodie < kara
+jennifer = kara	 	 	 jennifer = kara
+|||| Equalcount : 98|||||||| Precentage :0.9702970297029703|||||
 -----------------------------pmsi---------------------------- 
 Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
 lance	3	2	Rest	Low	no	0.5	
@@ -104,3 +785,107 @@ ken	3	3	Rest	Low	yes	1
 jennifer	4	4	Rest	High	yes	1	
 kara	5	4	Mismatch	High	no	0	
 Precision: 	0.8571428571428571(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.42857142857142855(Exact-match)	0.6428571428571429(Partial-match)	
+********************   Relations ************************
+       Auto_file     	  	      Human_file       
+jenifer < lance	 	 	 jenifer < lance
+jenifer < jenny	 	 	 jenifer < jenny
+jenifer < chris	 	 	 jenifer < chris
+jenifer < kerri	 	 	 jenifer < kerri
+jenifer < ken	 	 	 jenifer < ken
+jenifer < jennifer	 	 	 jenifer < jennifer
+jenifer < kara	 	 	 jenifer < kara
+jessicad < lance	 	 	 jessicad < lance
+jessicad < jenny	 	 	 jessicad < jenny
+jessicad < chris	 	 	 jessicad < chris
+jessicad < kerri	 	 	 jessicad < kerri
+jessicad < ken	 	 	 jessicad < ken
+jessicad < jennifer	 	 	 jessicad < jennifer
+jessicad < kara	 	 	 jessicad < kara
+lance > jenny	 	 	 lance = jenny
+lance > chris	 	 	 lance > chris
+lance < kerri	 	 	 lance < kerri
+lance = ken	 	 	 lance < ken
+lance < jennifer	 	 	 lance < jennifer
+lance < kara	 	 	 lance < kara
+danielle < jenny	 	 	 danielle < jenny
+danielle < chris	 	 	 danielle < chris
+danielle < kerri	 	 	 danielle < kerri
+danielle < ken	 	 	 danielle < ken
+danielle < jennifer	 	 	 danielle < jennifer
+danielle < kara	 	 	 danielle < kara
+laura < jenny	 	 	 laura < jenny
+laura < chris	 	 	 laura < chris
+laura < kerri	 	 	 laura < kerri
+laura < ken	 	 	 laura < ken
+laura < jennifer	 	 	 laura < jennifer
+laura < kara	 	 	 laura < kara
+nate < jenny	 	 	 nate < jenny
+nate < chris	 	 	 nate < chris
+nate < kerri	 	 	 nate < kerri
+nate < ken	 	 	 nate < ken
+nate < jennifer	 	 	 nate < jennifer
+nate < kara	 	 	 nate < kara
+ilspersonnel < jenny	 	 	 ilspersonnel < jenny
+ilspersonnel < chris	 	 	 ilspersonnel < chris
+ilspersonnel < kerri	 	 	 ilspersonnel < kerri
+ilspersonnel < ken	 	 	 ilspersonnel < ken
+ilspersonnel < jennifer	 	 	 ilspersonnel < jennifer
+ilspersonnel < kara	 	 	 ilspersonnel < kara
+johnw < jenny	 	 	 johnw < jenny
+johnw < chris	 	 	 johnw < chris
+johnw < kerri	 	 	 johnw < kerri
+johnw < ken	 	 	 johnw < ken
+johnw < jennifer	 	 	 johnw < jennifer
+johnw < kara	 	 	 johnw < kara
+dk < jenny	 	 	 dk < jenny
+dk < chris	 	 	 dk < chris
+dk < kerri	 	 	 dk < kerri
+dk < ken	 	 	 dk < ken
+dk < jennifer	 	 	 dk < jennifer
+dk < kara	 	 	 dk < kara
+carol < jenny	 	 	 carol < jenny
+carol < chris	 	 	 carol < chris
+carol < kerri	 	 	 carol < kerri
+carol < ken	 	 	 carol < ken
+carol < jennifer	 	 	 carol < jennifer
+carol < kara	 	 	 carol < kara
+jamie < jenny	 	 	 jamie < jenny
+jamie < chris	 	 	 jamie < chris
+jamie < kerri	 	 	 jamie < kerri
+jamie < ken	 	 	 jamie < ken
+jamie < jennifer	 	 	 jamie < jennifer
+jamie < kara	 	 	 jamie < kara
+jessicaf < jenny	 	 	 jessicaf < jenny
+jessicaf < chris	 	 	 jessicaf < chris
+jessicaf < kerri	 	 	 jessicaf < kerri
+jessicaf < ken	 	 	 jessicaf < ken
+jessicaf < jennifer	 	 	 jessicaf < jennifer
+jessicaf < kara	 	 	 jessicaf < kara
+ilspersonnel2 < jenny	 	 	 ilspersonnel2 < jenny
+ilspersonnel2 < chris	 	 	 ilspersonnel2 < chris
+ilspersonnel2 < kerri	 	 	 ilspersonnel2 < kerri
+ilspersonnel2 < ken	 	 	 ilspersonnel2 < ken
+ilspersonnel2 < jennifer	 	 	 ilspersonnel2 < jennifer
+ilspersonnel2 < kara	 	 	 ilspersonnel2 < kara
+jenny < chris	 	 	 jenny > chris
+jenny < kerri	 	 	 jenny < kerri
+jenny < ken	 	 	 jenny < ken
+jenny < jennifer	 	 	 jenny < jennifer
+jenny < kara	 	 	 jenny < kara
+chris < kerri	 	 	 chris < kerri
+chris < ken	 	 	 chris < ken
+chris < jennifer	 	 	 chris < jennifer
+chris < kara	 	 	 chris < kara
+ashley < kerri	 	 	 ashley < kerri
+ashley < ken	 	 	 ashley < ken
+ashley < jennifer	 	 	 ashley < jennifer
+ashley < kara	 	 	 ashley < kara
+kerri > ken	 	 	 kerri > ken
+kerri > jennifer	 	 	 kerri > jennifer
+kerri = kara	 	 	 kerri > kara
+ken < jennifer	 	 	 ken < jennifer
+ken < kara	 	 	 ken < kara
+jodie < jennifer	 	 	 jodie < jennifer
+jodie < kara	 	 	 jodie < kara
+jennifer < kara	 	 	 jennifer = kara
+|||| Equalcount : 96|||||||| Precentage :0.9504950495049505|||||

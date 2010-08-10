@@ -58,7 +58,7 @@ public class topic_control {
         String human_annotation = "D:/m2w cs/evaluation-m2w/input_log/2010.08/topic_control_6_Lauren_annotated_with_merge_3";
         String auto_annotation = "D:/m2w cs/evaluation-m2w/input_log/2010.08/topic_control_6_automated_with_merge_3";
 
-        String evaluation_file = "D:/m2w cs/evaluation-m2w/src/output_files/topic_control_6_Lauren_annotated_with_merge_3_ce";
+        String evaluation_file = "D:/m2w cs/evaluation-m2w/src/output_files/topic_control_6_Lauren_annotated_with_merge_3_me";
 
         
         
@@ -502,12 +502,12 @@ public class topic_control {
 		   			 int counter = 0;
    			
                     /*old match evaluation method*/
-//                    MatchEval me = new MatchEval();
-//                    me.matchEval(bw, auto_qscore, human_qscore, auto_qt, human_qt, speakers, category, HighestRestMismatch, HighLowMismatch, ExactMatch, PartialMatch, human_actual_scores, auto_actual_scores, counter);
+                    MatchEval me = new MatchEval();
+                    me.matchEval(bw, auto_qscore, human_qscore, auto_qt, human_qt, speakers, category, HighestRestMismatch, HighLowMismatch, ExactMatch, PartialMatch, human_actual_scores, auto_actual_scores, counter);
                     
                     /*new compare evaluation method*/
-                    CompareEval CpEval = new CompareEval();
-                    CpEval.compareEval(bw, speakers, auto_qscore, human_qscore);
+//                    CompareEval CpEval = new CompareEval();
+//                    CpEval.compareEval(bw, speakers, auto_qscore, human_qscore);
                     
                     
                 }  //for each category
