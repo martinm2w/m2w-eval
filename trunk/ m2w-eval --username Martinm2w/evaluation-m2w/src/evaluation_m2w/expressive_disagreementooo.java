@@ -55,8 +55,8 @@ public class expressive_disagreementooo {
        // String[] annotators = {"brian", "kerri", "lauren"};
     	
         //for(int i = 0; i < annotators.length; i++){
-        String human_annotation = "D:/m2w cs/evaluation-m2w/preprocess_log/old/expressive_disagreement_Lauren_3_pp" ;
-        String auto_annotation = "D:/m2w cs/evaluation-m2w/preprocess_log/old/expressive_disagreement_auto_3_pp" ;
+        String human_annotation = "D:/m2w cs/evaluation-m2w/src/preprocessed/expressive_disagreement_Lauren_3_pp_ce" ;
+        String auto_annotation = "D:/m2w cs/evaluation-m2w/src/preprocessed/expressive_disagreement_auto_3_pp_ce" ;
 
 
         String evaluation_file = "D:/m2w cs/evaluation-m2w/src/output_files/expressive_disagreement_Lauren_3_result_ce";
@@ -586,6 +586,21 @@ public class expressive_disagreementooo {
 				
 					int[] auto_qscore = auto_quintile_scores.get(category);
 					int[] human_qscore = human_quintile_scores.get(category);
+					
+					for (int k = 0; k < auto_qscore.length; k ++){
+						
+						System.err.println("auto q score"+ auto_qscore[k]);
+						
+					}
+					
+					for (int l = 0; l < auto_qscore.length; l ++){
+						
+						System.err.println("human q score"+ human_qscore[l]);
+						
+					}
+					
+					
+					
 					
 					//String[] auto_ascore = auto_actual_scores.get(category);
 					//String[] human_ascore = human_actual_scores.get(category);
