@@ -1,6 +1,6 @@
 ---------------- Expressive Disagreement Evaluation --------------------- 
-Human annotated file: D:/m2w cs/evaluation-m2w/preprocess_log/old/expressive_disagreement_Lauren_3_pp
-Auto annotated file: D:/m2w cs/evaluation-m2w/preprocess_log/old/expressive_disagreement_auto_3_pp
+Human annotated file: Feb13_GroupB.xml
+Auto annotated file: Feb13_GroupB_final_predictions.xml
 --------------------------------------------------------------- 
 -----------------------------cdxi---------------------------- 
 Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
@@ -12,8 +12,8 @@ farina	NA	3	NA	NA	NA	NA
 nicole	NA	1	NA	NA	NA	NA	
 Precision: 	0.0(Highest/Rest/Mismatch)	0.0(High/Low/Mismatch)	0.0(Exact-match)	0.0(Partial-match)	
 ---------------- Expressive Disagreement Evaluation --------------------- 
-Human annotated file: D:/m2w cs/evaluation-m2w/preprocess_log/old/expressive_disagreement_Lauren_3_pp
-Auto annotated file: D:/m2w cs/evaluation-m2w/preprocess_log/old/expressive_disagreement_auto_3_pp
+Human annotated file: Lauren_Cheney.xml
+Auto annotated file: Lauren_Cheney_final_predictions.xml
 --------------------------------------------------------------- 
 -----------------------------cdxi---------------------------- 
 Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
@@ -25,8 +25,8 @@ jianhua	1	2	Rest	Low	no	0
 chris	3	2	Rest	Low	no	0	
 Precision: 	0.3333333333333333(Highest/Rest/Mismatch)	0.5(High/Low/Mismatch)	0.0(Exact-match)	0.08333333333333333(Partial-match)	
 ---------------- Expressive Disagreement Evaluation --------------------- 
-Human annotated file: D:/m2w cs/evaluation-m2w/preprocess_log/old/expressive_disagreement_Lauren_3_pp
-Auto annotated file: D:/m2w cs/evaluation-m2w/preprocess_log/old/expressive_disagreement_auto_3_pp
+Human annotated file: Mar11_GroupB_lauren.xml
+Auto annotated file: Mar11_GroupB_lauren_final_predictions.xml
 --------------------------------------------------------------- 
 -----------------------------cdxi---------------------------- 
 Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
@@ -36,3 +36,15 @@ laura	NA	1	NA	NA	NA	NA
 nate	3	5	Mismatch	Mismatch	no	0	
 lisa	4	4	Rest	High	yes	1	
 Precision: 	0.6(Highest/Rest/Mismatch)	0.6(High/Low/Mismatch)	0.4(Exact-match)	0.4(Partial-match)	
+---------------- Expressive Disagreement Evaluation --------------------- 
+Human annotated file: YMCA_lauren.xml
+Auto annotated file: YMCA_lauren_final_predictions.xml
+--------------------------------------------------------------- 
+-----------------------------cdxi---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+kerri	NA	5	Mismatch	NA	NA	NA	
+lance	NA	1	NA	NA	NA	NA	
+ken	NA	2	NA	NA	NA	NA	
+jennifer	-1	2	Rest	Low	no	0	
+kara	NA	2	NA	NA	NA	NA	
+Precision: 	0.2(Highest/Rest/Mismatch)	0.2(High/Low/Mismatch)	0.0(Exact-match)	0.0(Partial-match)	

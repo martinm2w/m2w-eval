@@ -251,7 +251,7 @@ public class task_control {
 
                }
 
-               if(tempStr.contains("calculate Task Control - ") || tempStr.contains("calculate Merged quintile")){
+               if(tempStr.contains("calculate Task Control - ") /*|| tempStr.contains("calculate Merged quintile")*/){
             	   
                    for(int i = 0; i < categories.length; i++){
                 	   
@@ -324,7 +324,7 @@ public class task_control {
 
            
            while ((tempStr = eia_br.readLine()) != null){
-               if(tempStr.contains("calculate Task Control - ") || tempStr.contains("calculate Merged quintile")){
+               if(tempStr.contains("calculate Task Control - ") /*|| tempStr.contains("calculate Merged quintile")*/){
                    for(int i = 0; i < categories.length; i++){
                        if(tempStr.toLowerCase().contains(categories[i]) || tempStr.toLowerCase().contains("calculate " +categories[i])){
                            String qt_thrs = eia_br.readLine();
@@ -533,7 +533,7 @@ public class task_control {
           
                     /*compare_evaluation*/
                     CompareEval CpEval = new CompareEval();
-                    CpEval.compareEval(bw, speakers, auto_qscore, human_qscore);
+                    CpEval.compareEval_tsk_ctrl(bw, speakers, auto_qscore, human_qscore);
                     
                 }
 

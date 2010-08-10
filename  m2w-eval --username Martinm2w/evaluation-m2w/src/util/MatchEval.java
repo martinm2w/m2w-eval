@@ -772,29 +772,29 @@ public class MatchEval {
 
             String speaker = speakers[j];
             
-            bw.write(speaker + "\t");
-		    if(human_qscore == null){
-		        human_qscore = new int[speakers.length];
-		    }
-		    if(auto_qscore == null){
-		        auto_qscore = new int[speakers.length];
-		    }
-		    if(auto_qscore[j] != 0){
-		        bw.write(auto_qscore[j] + "\t");
-		    }
-		    else{
-		        bw.write("NA\t");
-		    }
-		    if(human_qscore[j] != 0){
-		        bw.write(human_qscore[j] + "\t");
-		    }
-		    else{
-		        bw.write("NA\t");
-		    }
-//				bw.write(speaker + "\t");
-//			
-//            bw.write(auto_qscore[j] + "\t");
-//            bw.write(human_qscore[j] + "\t");
+//            bw.write(speaker + "\t");
+//		    if(human_qscore == null){
+//		        human_qscore = new int[speakers.length];
+//		    }
+//		    if(auto_qscore == null){
+//		        auto_qscore = new int[speakers.length];
+//		    }
+//		    if(auto_qscore[j] != 0){
+//		        bw.write(auto_qscore[j] + "\t");
+//		    }
+//		    else{
+//		        bw.write("NA\t");
+//		    }
+//		    if(human_qscore[j] != 0){
+//		        bw.write(human_qscore[j] + "\t");
+//		    }
+//		    else{
+//		        bw.write("NA\t");
+//		    }
+				bw.write(speaker + "\t");
+			
+            bw.write(auto_qscore[j] + "\t");
+            bw.write(human_qscore[j] + "\t");
             /* Highest/Rest/Mismatch */
             if(auto_qscore[j] == 5 && human_qscore[j] == 5){
                 bw.write("Highest\t");
