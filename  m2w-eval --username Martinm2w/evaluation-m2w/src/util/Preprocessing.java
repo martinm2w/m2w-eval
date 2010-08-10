@@ -365,7 +365,7 @@ public class Preprocessing {
                         tempsh=hbr.readLine();
                         templist.add(tempsh);
 
-                   }while(tempsh!=null && !tempsh.contains("%%%%%"));
+                   }while(tempsh!=null && !tempsh.contains("total_ac_oc_:"));
 
                    hbr.reset();
                    
@@ -409,7 +409,7 @@ public class Preprocessing {
                         tempsa=abr.readLine();
                         templist.add(tempsa);
 
-                   }while(tempsa!=null && !tempsa.contains("%%%%%%%%"));
+                   }while(tempsa!=null && !tempsa.contains("total_ac_oc_:"));//header sensor changed to total_ac_oc_:
 
                    abr.reset();
                    
@@ -474,7 +474,7 @@ public class Preprocessing {
 			delAList.clear();
 			
 			
-			/*2.1parse auto, delete -1*/ //ok
+			/*2.1parse auto, add actual score = 0*/ //ok
 			for (int i = 0; i < AList.size(); i ++){
 				for(int j = 0 ; j < AList.get(i).size(); j++){
 					
