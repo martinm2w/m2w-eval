@@ -533,7 +533,7 @@ public class task_control {
           
                     /*compare_evaluation*/
                     CompareEval CpEval = new CompareEval();
-                    CpEval.compareEval_tsk_ctrl(bw, speakers, auto_qscore, human_qscore);
+                    CpEval.compareEval(bw, speakers, auto_qscore, human_qscore);
                     
                 }
 
