@@ -50,8 +50,8 @@ ashley = sarah		ashley > sarah
 jodie = tony		jodie = tony
 jodie = sarah		jodie = sarah
 tony = sarah		tony = sarah
-::Equalcount		Accuracy
-::21		0.4666666666666667
+::Equalcount		Totalcount		Accuracy
+::21		45		0.4666666666666667
 -----------------------------pmi---------------------------- 
 ||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
@@ -100,8 +100,8 @@ ashley < sarah		ashley < sarah
 jodie = tony		jodie > tony
 jodie < sarah		jodie > sarah
 tony < sarah		tony = sarah
-::Equalcount		Accuracy
-::13		0.28888888888888886
+::Equalcount		Totalcount		Accuracy
+::13		45		0.28888888888888886
 ---------------- Task Control Evaluation --------------------- 
 Human annotated file: Feb13_GroupB.xml
 Auto annotated file: Feb13_GroupB_final_predictions.xml
@@ -124,8 +124,8 @@ farina = nicole		farina < nicole
 ilspersonnel2 = lauren		ilspersonnel2 < lauren
 ilspersonnel2 = nicole		ilspersonnel2 < nicole
 lauren = nicole		lauren > nicole
-::Equalcount		Accuracy
-::3		0.2
+::Equalcount		Totalcount		Accuracy
+::3		15		0.2
 -----------------------------pmsi---------------------------- 
 ||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
@@ -144,8 +144,8 @@ farina = nicole		farina < nicole
 ilspersonnel2 = lauren		ilspersonnel2 < lauren
 ilspersonnel2 = nicole		ilspersonnel2 < nicole
 lauren = nicole		lauren > nicole
-::Equalcount		Accuracy
-::2		0.13333333333333333
+::Equalcount		Totalcount		Accuracy
+::2		15		0.13333333333333333
 ---------------- Task Control Evaluation --------------------- 
 Human annotated file: Feb19_GroupB_lauren.xml
 Auto annotated file: Feb19_GroupB_lauren_final_predictions.xml
@@ -174,8 +174,8 @@ ilspersonnel2 > jessamyn		ilspersonnel2 > jessamyn
 jessicaf > nicole		jessicaf > nicole
 jessicaf > jessamyn		jessicaf > jessamyn
 nicole > jessamyn		nicole = jessamyn
-::Equalcount		Accuracy
-::12		0.5714285714285714
+::Equalcount		Totalcount		Accuracy
+::12		21		0.5714285714285714
 -----------------------------pmsi---------------------------- 
 ||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
@@ -200,8 +200,8 @@ ilspersonnel2 > jessamyn		ilspersonnel2 > jessamyn
 jessicaf > nicole		jessicaf > nicole
 jessicaf > jessamyn		jessicaf > jessamyn
 nicole > jessamyn		nicole = jessamyn
-::Equalcount		Accuracy
-::13		0.6190476190476191
+::Equalcount		Totalcount		Accuracy
+::13		21		0.6190476190476191
 ---------------- Task Control Evaluation --------------------- 
 Human annotated file: Lauren_Cheney.xml
 Auto annotated file: Lauren_Cheney_final_predictions.xml
@@ -230,8 +230,8 @@ ken < jianhua		ken < jianhua
 jennifer < kara		jennifer < kara
 jennifer < jianhua		jennifer = jianhua
 kara < jianhua		kara > jianhua
-::Equalcount		Accuracy
-::15		0.7142857142857143
+::Equalcount		Totalcount		Accuracy
+::15		21		0.7142857142857143
 -----------------------------pmsi---------------------------- 
 ||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
@@ -256,8 +256,8 @@ ken = jianhua		ken < jianhua
 jennifer = kara		jennifer < kara
 jennifer = jianhua		jennifer = jianhua
 kara = jianhua		kara > jianhua
-::Equalcount		Accuracy
-::4		0.19047619047619047
+::Equalcount		Totalcount		Accuracy
+::4		21		0.19047619047619047
 ---------------- Task Control Evaluation --------------------- 
 Human annotated file: Lauren_Training.xml
 Auto annotated file: Lauren_Training_final_predictions.xml
@@ -275,8 +275,8 @@ chris = jianhua		chris = jianhua
 jennifer = kara		jennifer > kara
 jennifer = jianhua		jennifer > jianhua
 kara = jianhua		kara > jianhua
-::Equalcount		Accuracy
-::3		0.3
+::Equalcount		Totalcount		Accuracy
+::3		10		0.3
 -----------------------------pmi---------------------------- 
 ||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
@@ -290,8 +290,8 @@ chris < jianhua		chris < jianhua
 jennifer > kara		jennifer > kara
 jennifer > jianhua		jennifer > jianhua
 kara < jianhua		kara > jianhua
-::Equalcount		Accuracy
-::8		0.8
+::Equalcount		Totalcount		Accuracy
+::8		10		0.8
 -----------------------------pmsi---------------------------- 
 ||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
@@ -305,8 +305,8 @@ chris = jianhua		chris < jianhua
 jennifer = kara		jennifer > kara
 jennifer = jianhua		jennifer > jianhua
 kara = jianhua		kara < jianhua
-::Equalcount		Accuracy
-::3		0.3
+::Equalcount		Totalcount		Accuracy
+::3		10		0.3
 -----------------------------dtsi---------------------------- 
 ||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
@@ -320,8 +320,8 @@ chris = jianhua		chris = jianhua
 jennifer = kara		jennifer > kara
 jennifer = jianhua		jennifer > jianhua
 kara = jianhua		kara > jianhua
-::Equalcount		Accuracy
-::3		0.3
+::Equalcount		Totalcount		Accuracy
+::3		10		0.3
 ---------------- Task Control Evaluation --------------------- 
 Human annotated file: Mar11_GroupB_lauren.xml
 Auto annotated file: Mar11_GroupB_lauren_final_predictions.xml
@@ -357,8 +357,8 @@ ilspersonnel < lisa		ilspersonnel < lisa
 johnw < kerri		johnw < kerri
 johnw < lisa		johnw < lisa
 kerri > lisa		kerri > lisa
-::Equalcount		Accuracy
-::25		0.8928571428571429
+::Equalcount		Totalcount		Accuracy
+::25		28		0.8928571428571429
 -----------------------------pmsi---------------------------- 
 ||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
@@ -390,8 +390,8 @@ ilspersonnel = lisa		ilspersonnel < lisa
 johnw = kerri		johnw < kerri
 johnw = lisa		johnw < lisa
 kerri = lisa		kerri = lisa
-::Equalcount		Accuracy
-::3		0.10714285714285714
+::Equalcount		Totalcount		Accuracy
+::3		28		0.10714285714285714
 ---------------- Task Control Evaluation --------------------- 
 Human annotated file: YMCA_lauren.xml
 Auto annotated file: YMCA_lauren_final_predictions.xml
@@ -420,8 +420,8 @@ kerri = kara		kerri = kara
 ken = jennifer		ken < jennifer
 ken = kara		ken < kara
 jennifer = kara		jennifer > kara
-::Equalcount		Accuracy
-::7		0.3333333333333333
+::Equalcount		Totalcount		Accuracy
+::7		21		0.3333333333333333
 -----------------------------pmi---------------------------- 
 ||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
@@ -446,8 +446,8 @@ kerri > kara		kerri > kara
 ken < jennifer		ken < jennifer
 ken < kara		ken < kara
 jennifer = kara		jennifer = kara
-::Equalcount		Accuracy
-::18		0.8571428571428571
+::Equalcount		Totalcount		Accuracy
+::18		21		0.8571428571428571
 -----------------------------pmsi---------------------------- 
 ||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
@@ -472,5 +472,5 @@ kerri = kara		kerri > kara
 ken < jennifer		ken < jennifer
 ken < kara		ken < kara
 jennifer < kara		jennifer = kara
-::Equalcount		Accuracy
-::16		0.7619047619047619
+::Equalcount		Totalcount		Accuracy
+::16		21		0.7619047619047619
