@@ -20,8 +20,8 @@ jennifer = nicole		jennifer = nicole
 jenniferb = farina		jenniferb < farina
 jenniferb = nicole		jenniferb = nicole
 farina = nicole		farina > nicole
-::Equalcount		Accuracy
-::3		0.2
+::Equalcount		Totalcount		Accuracy
+::3		15		0.2
 ---------------- Expressive Disagreement Evaluation --------------------- 
 Human annotated file: Lauren_Cheney.xml
 Auto annotated file: Lauren_Cheney_final_predictions.xml
@@ -44,8 +44,8 @@ jennifer < chris		jennifer > chris
 kara < jianhua		kara > jianhua
 kara < chris		kara > chris
 jianhua < chris		jianhua = chris
-::Equalcount		Accuracy
-::7		0.4666666666666667
+::Equalcount		Totalcount		Accuracy
+::7		15		0.4666666666666667
 ---------------- Expressive Disagreement Evaluation --------------------- 
 Human annotated file: Mar11_GroupB_lauren.xml
 Auto annotated file: Mar11_GroupB_lauren_final_predictions.xml
@@ -63,8 +63,8 @@ jenifer < lisa		jenifer < lisa
 laura < nate		laura < nate
 laura < lisa		laura < lisa
 nate < lisa		nate > lisa
-::Equalcount		Accuracy
-::8		0.8
+::Equalcount		Totalcount		Accuracy
+::8		10		0.8
 ---------------- Expressive Disagreement Evaluation --------------------- 
 Human annotated file: YMCA_lauren.xml
 Auto annotated file: YMCA_lauren_final_predictions.xml
@@ -82,5 +82,5 @@ lance = kara		lance < kara
 ken > jennifer		ken = jennifer
 ken = kara		ken = kara
 jennifer < kara		jennifer = kara
-::Equalcount		Accuracy
-::2		0.2
+::Equalcount		Totalcount		Accuracy
+::2		10		0.2

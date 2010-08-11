@@ -50,8 +50,8 @@ ashley = sarah		ashley < sarah
 jodie > tony		jodie > tony
 jodie < sarah		jodie < sarah
 tony < sarah		tony < sarah
-::Equalcount		Accuracy
-::31		0.6888888888888889
+::Equalcount		Totalcount		Accuracy
+::31		45		0.6888888888888889
 +++++++++++++++++++++++++ ti ++++++++++++++++++++++++++++++ 
 ||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
@@ -100,8 +100,8 @@ ashley < sarah		ashley < sarah
 jodie > tony		jodie > tony
 jodie < sarah		jodie < sarah
 tony < sarah		tony < sarah
-::Equalcount		Accuracy
-::45		1.0
+::Equalcount		Totalcount		Accuracy
+::45		45		1.0
 +++++++++++++++++++++++++ tci ++++++++++++++++++++++++++++++ 
 ||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
@@ -150,8 +150,8 @@ ashley > sarah		ashley = sarah
 jodie > tony		jodie > tony
 jodie > sarah		jodie > sarah
 tony > sarah		tony = sarah
-::Equalcount		Accuracy
-::34		0.7555555555555555
+::Equalcount		Totalcount		Accuracy
+::34		45		0.7555555555555555
 +++++++++++++++++++++++++ allotp ++++++++++++++++++++++++++++++ 
 ||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
@@ -200,8 +200,8 @@ ashley < sarah		ashley < sarah
 jodie > tony		jodie > tony
 jodie < sarah		jodie < sarah
 tony < sarah		tony < sarah
-::Equalcount		Accuracy
-::40		0.8888888888888888
+::Equalcount		Totalcount		Accuracy
+::40		45		0.8888888888888888
 +++++++++++++++++++++++++ asmi ++++++++++++++++++++++++++++++ 
 ||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
@@ -250,8 +250,8 @@ ashley < sarah		ashley < sarah
 jodie > tony		jodie > tony
 jodie < sarah		jodie < sarah
 tony < sarah		tony < sarah
-::Equalcount		Accuracy
-::40		0.8888888888888888
+::Equalcount		Totalcount		Accuracy
+::40		45		0.8888888888888888
 +++++++++++++++++++++++++ merged quintile ++++++++++++++++++++++++++++++ 
 ||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
@@ -300,8 +300,8 @@ ashley < sarah		ashley < sarah
 jodie > tony		jodie > tony
 jodie < sarah		jodie < sarah
 tony < sarah		tony < sarah
-::Equalcount		Accuracy
-::37		0.8222222222222222
+::Equalcount		Totalcount		Accuracy
+::37		45		0.8222222222222222
 ---------------- Involvement Evaluation --------------------- 
 Human annotated file: Feb13_GroupB.xml
 Auto annotated file: Feb13_GroupB_Auto.xml
@@ -324,8 +324,8 @@ farina > nicole		farina = nicole
 ilspersonnel2 < lauren		ilspersonnel2 < lauren
 ilspersonnel2 < nicole		ilspersonnel2 < nicole
 lauren > nicole		lauren > nicole
-::Equalcount		Accuracy
-::12		0.8
+::Equalcount		Totalcount		Accuracy
+::12		15		0.8
 +++++++++++++++++++++++++ ti ++++++++++++++++++++++++++++++ 
 ||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
@@ -344,8 +344,8 @@ farina > nicole		farina > nicole
 ilspersonnel2 < lauren		ilspersonnel2 < lauren
 ilspersonnel2 < nicole		ilspersonnel2 < nicole
 lauren > nicole		lauren > nicole
-::Equalcount		Accuracy
-::15		1.0
+::Equalcount		Totalcount		Accuracy
+::15		15		1.0
 +++++++++++++++++++++++++ tci ++++++++++++++++++++++++++++++ 
 ||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
@@ -364,8 +364,8 @@ farina > nicole		farina = nicole
 ilspersonnel2 < lauren		ilspersonnel2 < lauren
 ilspersonnel2 < nicole		ilspersonnel2 < nicole
 lauren < nicole		lauren > nicole
-::Equalcount		Accuracy
-::9		0.6
+::Equalcount		Totalcount		Accuracy
+::9		15		0.6
 +++++++++++++++++++++++++ allotp ++++++++++++++++++++++++++++++ 
 ||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
@@ -384,8 +384,8 @@ farina > nicole		farina < nicole
 ilspersonnel2 < lauren		ilspersonnel2 < lauren
 ilspersonnel2 < nicole		ilspersonnel2 < nicole
 lauren > nicole		lauren = nicole
-::Equalcount		Accuracy
-::12		0.8
+::Equalcount		Totalcount		Accuracy
+::12		15		0.8
 +++++++++++++++++++++++++ asmi ++++++++++++++++++++++++++++++ 
 ||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
@@ -404,8 +404,8 @@ farina > nicole		farina > nicole
 ilspersonnel2 < lauren		ilspersonnel2 < lauren
 ilspersonnel2 < nicole		ilspersonnel2 < nicole
 lauren > nicole		lauren > nicole
-::Equalcount		Accuracy
-::12		0.8
+::Equalcount		Totalcount		Accuracy
+::12		15		0.8
 +++++++++++++++++++++++++ merged quintile ++++++++++++++++++++++++++++++ 
 ||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
@@ -424,8 +424,8 @@ farina > nicole		farina < nicole
 ilspersonnel2 < lauren		ilspersonnel2 < lauren
 ilspersonnel2 < nicole		ilspersonnel2 < nicole
 lauren > nicole		lauren > nicole
-::Equalcount		Accuracy
-::12		0.8
+::Equalcount		Totalcount		Accuracy
+::12		15		0.8
 ---------------- Involvement Evaluation --------------------- 
 Human annotated file: Feb19_GroupB_lauren.xml
 Auto annotated file: Feb19_GroupB_lauren_Auto.xml
@@ -454,8 +454,8 @@ ilspersonnel2 < jessamyn		ilspersonnel2 < jessamyn
 jessicaf < nicole		jessicaf < nicole
 jessicaf = jessamyn		jessicaf = jessamyn
 nicole > jessamyn		nicole > jessamyn
-::Equalcount		Accuracy
-::18		0.8571428571428571
+::Equalcount		Totalcount		Accuracy
+::18		21		0.8571428571428571
 +++++++++++++++++++++++++ ti ++++++++++++++++++++++++++++++ 
 ||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
@@ -480,8 +480,8 @@ ilspersonnel2 < jessamyn		ilspersonnel2 < jessamyn
 jessicaf < nicole		jessicaf < nicole
 jessicaf > jessamyn		jessicaf > jessamyn
 nicole > jessamyn		nicole > jessamyn
-::Equalcount		Accuracy
-::21		1.0
+::Equalcount		Totalcount		Accuracy
+::21		21		1.0
 +++++++++++++++++++++++++ tci ++++++++++++++++++++++++++++++ 
 ||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
@@ -506,8 +506,8 @@ ilspersonnel2 < jessamyn		ilspersonnel2 < jessamyn
 jessicaf < nicole		jessicaf < nicole
 jessicaf = jessamyn		jessicaf = jessamyn
 nicole > jessamyn		nicole > jessamyn
-::Equalcount		Accuracy
-::21		1.0
+::Equalcount		Totalcount		Accuracy
+::21		21		1.0
 +++++++++++++++++++++++++ allotp ++++++++++++++++++++++++++++++ 
 ||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
@@ -532,8 +532,8 @@ ilspersonnel2 < jessamyn		ilspersonnel2 < jessamyn
 jessicaf > nicole		jessicaf > nicole
 jessicaf > jessamyn		jessicaf > jessamyn
 nicole > jessamyn		nicole = jessamyn
-::Equalcount		Accuracy
-::18		0.8571428571428571
+::Equalcount		Totalcount		Accuracy
+::18		21		0.8571428571428571
 +++++++++++++++++++++++++ asmi ++++++++++++++++++++++++++++++ 
 ||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
@@ -558,8 +558,8 @@ ilspersonnel2 < jessamyn		ilspersonnel2 < jessamyn
 jessicaf < nicole		jessicaf < nicole
 jessicaf > jessamyn		jessicaf = jessamyn
 nicole > jessamyn		nicole > jessamyn
-::Equalcount		Accuracy
-::18		0.8571428571428571
+::Equalcount		Totalcount		Accuracy
+::18		21		0.8571428571428571
 +++++++++++++++++++++++++ merged quintile ++++++++++++++++++++++++++++++ 
 ||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
@@ -584,8 +584,8 @@ ilspersonnel2 < jessamyn		ilspersonnel2 < jessamyn
 jessicaf < nicole		jessicaf < nicole
 jessicaf > jessamyn		jessicaf = jessamyn
 nicole > jessamyn		nicole > jessamyn
-::Equalcount		Accuracy
-::18		0.8571428571428571
+::Equalcount		Totalcount		Accuracy
+::18		21		0.8571428571428571
 ---------------- Involvement Evaluation --------------------- 
 Human annotated file: Lauren_Cheney.xml
 Auto annotated file: Lauren_Cheney_Auto.xml
@@ -614,8 +614,8 @@ ken > jianhua		ken > jianhua
 jennifer < kara		jennifer < kara
 jennifer > jianhua		jennifer > jianhua
 kara > jianhua		kara > jianhua
-::Equalcount		Accuracy
-::17		0.8095238095238095
+::Equalcount		Totalcount		Accuracy
+::17		21		0.8095238095238095
 +++++++++++++++++++++++++ ti ++++++++++++++++++++++++++++++ 
 ||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
@@ -640,8 +640,8 @@ ken > jianhua		ken > jianhua
 jennifer < kara		jennifer < kara
 jennifer > jianhua		jennifer > jianhua
 kara > jianhua		kara > jianhua
-::Equalcount		Accuracy
-::21		1.0
+::Equalcount		Totalcount		Accuracy
+::21		21		1.0
 +++++++++++++++++++++++++ tci ++++++++++++++++++++++++++++++ 
 ||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
@@ -666,8 +666,8 @@ ken > jianhua		ken > jianhua
 jennifer < kara		jennifer < kara
 jennifer = jianhua		jennifer = jianhua
 kara > jianhua		kara > jianhua
-::Equalcount		Accuracy
-::18		0.8571428571428571
+::Equalcount		Totalcount		Accuracy
+::18		21		0.8571428571428571
 +++++++++++++++++++++++++ allotp ++++++++++++++++++++++++++++++ 
 ||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
@@ -692,8 +692,8 @@ ken > jianhua		ken > jianhua
 jennifer < kara		jennifer < kara
 jennifer = jianhua		jennifer = jianhua
 kara > jianhua		kara > jianhua
-::Equalcount		Accuracy
-::16		0.7619047619047619
+::Equalcount		Totalcount		Accuracy
+::16		21		0.7619047619047619
 +++++++++++++++++++++++++ asmi ++++++++++++++++++++++++++++++ 
 ||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
@@ -718,8 +718,8 @@ ken > jianhua		ken > jianhua
 jennifer < kara		jennifer < kara
 jennifer = jianhua		jennifer = jianhua
 kara > jianhua		kara > jianhua
-::Equalcount		Accuracy
-::18		0.8571428571428571
+::Equalcount		Totalcount		Accuracy
+::18		21		0.8571428571428571
 +++++++++++++++++++++++++ merged quintile ++++++++++++++++++++++++++++++ 
 ||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
@@ -744,8 +744,8 @@ ken > jianhua		ken > jianhua
 jennifer < kara		jennifer < kara
 jennifer = jianhua		jennifer = jianhua
 kara > jianhua		kara > jianhua
-::Equalcount		Accuracy
-::21		1.0
+::Equalcount		Totalcount		Accuracy
+::21		21		1.0
 ---------------- Involvement Evaluation --------------------- 
 Human annotated file: Lauren_Training.xml
 Auto annotated file: Lauren_Training_Auto.xml
@@ -763,8 +763,8 @@ chris < jianhua		chris < jianhua
 jennifer > kara		jennifer > kara
 jennifer > jianhua		jennifer > jianhua
 kara > jianhua		kara > jianhua
-::Equalcount		Accuracy
-::10		1.0
+::Equalcount		Totalcount		Accuracy
+::10		10		1.0
 +++++++++++++++++++++++++ ti ++++++++++++++++++++++++++++++ 
 ||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
@@ -778,8 +778,8 @@ chris < jianhua		chris < jianhua
 jennifer > kara		jennifer > kara
 jennifer > jianhua		jennifer > jianhua
 kara > jianhua		kara > jianhua
-::Equalcount		Accuracy
-::10		1.0
+::Equalcount		Totalcount		Accuracy
+::10		10		1.0
 +++++++++++++++++++++++++ tci ++++++++++++++++++++++++++++++ 
 ||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
@@ -793,8 +793,8 @@ chris < jianhua		chris < jianhua
 jennifer > kara		jennifer > kara
 jennifer > jianhua		jennifer > jianhua
 kara > jianhua		kara > jianhua
-::Equalcount		Accuracy
-::9		0.9
+::Equalcount		Totalcount		Accuracy
+::9		10		0.9
 +++++++++++++++++++++++++ allotp ++++++++++++++++++++++++++++++ 
 ||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
@@ -808,8 +808,8 @@ chris < jianhua		chris < jianhua
 jennifer < kara		jennifer > kara
 jennifer < jianhua		jennifer > jianhua
 kara > jianhua		kara > jianhua
-::Equalcount		Accuracy
-::7		0.7
+::Equalcount		Totalcount		Accuracy
+::7		10		0.7
 +++++++++++++++++++++++++ asmi ++++++++++++++++++++++++++++++ 
 ||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
@@ -823,8 +823,8 @@ chris < jianhua		chris < jianhua
 jennifer > kara		jennifer > kara
 jennifer > jianhua		jennifer > jianhua
 kara > jianhua		kara > jianhua
-::Equalcount		Accuracy
-::9		0.9
+::Equalcount		Totalcount		Accuracy
+::9		10		0.9
 +++++++++++++++++++++++++ merged quintile ++++++++++++++++++++++++++++++ 
 ||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
@@ -838,8 +838,8 @@ chris < jianhua		chris < jianhua
 jennifer > kara		jennifer > kara
 jennifer > jianhua		jennifer > jianhua
 kara > jianhua		kara > jianhua
-::Equalcount		Accuracy
-::10		1.0
+::Equalcount		Totalcount		Accuracy
+::10		10		1.0
 ---------------- Involvement Evaluation --------------------- 
 Human annotated file: Mar11_GroupB_lauren.xml
 Auto annotated file: Mar11_GroupB_lauren_Auto.xml
@@ -875,8 +875,8 @@ ilspersonnel < lisa		ilspersonnel < lisa
 johnw < kerri		johnw = kerri
 johnw < lisa		johnw < lisa
 kerri < lisa		kerri < lisa
-::Equalcount		Accuracy
-::7		0.25
+::Equalcount		Totalcount		Accuracy
+::7		28		0.25
 +++++++++++++++++++++++++ ti ++++++++++++++++++++++++++++++ 
 ||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
@@ -908,8 +908,8 @@ ilspersonnel < lisa		ilspersonnel < lisa
 johnw < kerri		johnw < kerri
 johnw < lisa		johnw < lisa
 kerri = lisa		kerri = lisa
-::Equalcount		Accuracy
-::28		1.0
+::Equalcount		Totalcount		Accuracy
+::28		28		1.0
 +++++++++++++++++++++++++ tci ++++++++++++++++++++++++++++++ 
 ||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
@@ -941,8 +941,8 @@ ilspersonnel < lisa		ilspersonnel < lisa
 johnw < kerri		johnw < kerri
 johnw < lisa		johnw < lisa
 kerri < lisa		kerri < lisa
-::Equalcount		Accuracy
-::28		1.0
+::Equalcount		Totalcount		Accuracy
+::28		28		1.0
 +++++++++++++++++++++++++ allotp ++++++++++++++++++++++++++++++ 
 ||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
@@ -974,8 +974,8 @@ ilspersonnel < lisa		ilspersonnel < lisa
 johnw < kerri		johnw < kerri
 johnw < lisa		johnw < lisa
 kerri < lisa		kerri < lisa
-::Equalcount		Accuracy
-::25		0.8928571428571429
+::Equalcount		Totalcount		Accuracy
+::25		28		0.8928571428571429
 +++++++++++++++++++++++++ asmi ++++++++++++++++++++++++++++++ 
 ||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
@@ -1007,8 +1007,8 @@ ilspersonnel < lisa		ilspersonnel < lisa
 johnw < kerri		johnw < kerri
 johnw < lisa		johnw < lisa
 kerri < lisa		kerri < lisa
-::Equalcount		Accuracy
-::28		1.0
+::Equalcount		Totalcount		Accuracy
+::28		28		1.0
 +++++++++++++++++++++++++ merged quintile ++++++++++++++++++++++++++++++ 
 ||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
@@ -1040,8 +1040,8 @@ ilspersonnel < lisa		ilspersonnel < lisa
 johnw < kerri		johnw < kerri
 johnw < lisa		johnw < lisa
 kerri < lisa		kerri < lisa
-::Equalcount		Accuracy
-::25		0.8928571428571429
+::Equalcount		Totalcount		Accuracy
+::25		28		0.8928571428571429
 ---------------- Involvement Evaluation --------------------- 
 Human annotated file: YMCA_lauren.xml
 Auto annotated file: YMCA_lauren_Auto.xml
@@ -1070,8 +1070,8 @@ kerri > kara		kerri > kara
 ken < jennifer		ken = jennifer
 ken < kara		ken > kara
 jennifer = kara		jennifer > kara
-::Equalcount		Accuracy
-::15		0.7142857142857143
+::Equalcount		Totalcount		Accuracy
+::15		21		0.7142857142857143
 +++++++++++++++++++++++++ ti ++++++++++++++++++++++++++++++ 
 ||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
@@ -1096,8 +1096,8 @@ kerri > kara		kerri > kara
 ken < jennifer		ken < jennifer
 ken < kara		ken < kara
 jennifer = kara		jennifer = kara
-::Equalcount		Accuracy
-::21		1.0
+::Equalcount		Totalcount		Accuracy
+::21		21		1.0
 +++++++++++++++++++++++++ tci ++++++++++++++++++++++++++++++ 
 ||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
@@ -1122,8 +1122,8 @@ kerri = kara		kerri > kara
 ken < jennifer		ken < jennifer
 ken < kara		ken > kara
 jennifer > kara		jennifer > kara
-::Equalcount		Accuracy
-::13		0.6190476190476191
+::Equalcount		Totalcount		Accuracy
+::13		21		0.6190476190476191
 +++++++++++++++++++++++++ allotp ++++++++++++++++++++++++++++++ 
 ||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
@@ -1148,8 +1148,8 @@ kerri < kara		kerri = kara
 ken < jennifer		ken < jennifer
 ken < kara		ken < kara
 jennifer = kara		jennifer > kara
-::Equalcount		Accuracy
-::16		0.7619047619047619
+::Equalcount		Totalcount		Accuracy
+::16		21		0.7619047619047619
 +++++++++++++++++++++++++ asmi ++++++++++++++++++++++++++++++ 
 ||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
@@ -1174,8 +1174,8 @@ kerri > kara		kerri > kara
 ken < jennifer		ken < jennifer
 ken < kara		ken > kara
 jennifer > kara		jennifer > kara
-::Equalcount		Accuracy
-::18		0.8571428571428571
+::Equalcount		Totalcount		Accuracy
+::18		21		0.8571428571428571
 +++++++++++++++++++++++++ merged quintile ++++++++++++++++++++++++++++++ 
 ||||||||||||||||| Relations ||||||||||||||||||||
 Auto_file		Human_file
@@ -1200,5 +1200,5 @@ kerri > kara		kerri > kara
 ken < jennifer		ken < jennifer
 ken < kara		ken < kara
 jennifer = kara		jennifer = kara
-::Equalcount		Accuracy
-::18		0.8571428571428571
+::Equalcount		Totalcount		Accuracy
+::18		21		0.8571428571428571
