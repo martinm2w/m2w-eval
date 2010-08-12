@@ -13,10 +13,10 @@ public class MatchEval {
 											 String[] human_qt,
 										     String[] speakers,
 										     String category,
-										     double[] HighestRestMismatch,
-										     double[] HighLowMismatch,
-										     double[] ExactMatch,
-										     double[] PartialMatch,
+//										     double[] HighestRestMismatch,
+//										     double[] HighLowMismatch,
+//										     double[] ExactMatch,
+//										     double[] PartialMatch,
 										     HashMap<String, String[]> human_actual_scores,
 										     HashMap<String, String[]> auto_actual_scores,
 										     int counter
@@ -25,6 +25,10 @@ public class MatchEval {
 		
 		
 			 try {
+				 double[] HighestRestMismatch = new double[speakers.length];
+			        double[] HighLowMismatch = new double[speakers.length];
+			        double[] ExactMatch = new double[speakers.length];
+			        double[] PartialMatch = new double[speakers.length];
 				 bw.write("Speaker \t Auto_annotated \t Human_annotated \t Highest/Rest/Mismatch \t " +
 				 "High/Low/Mismatch \t Exact-match \t Partial-match \n");
 			 /*Scores*/
@@ -239,16 +243,20 @@ public class MatchEval {
 			 String[] human_qt,
 		     String[] speakers,
 		     String category,
-		     double[] HighestRestMismatch,
-		     double[] HighLowMismatch,
-		     double[] ExactMatch,
-		     double[] PartialMatch,
+//		     double[] HighestRestMismatch,
+//		     double[] HighLowMismatch,
+//		     double[] ExactMatch,
+//		     double[] PartialMatch,
 		     HashMap<String, String[]> human_actual_scores,
 		     HashMap<String, String[]> auto_actual_scores,
 		     int counter
 		     ){
 		        try {
-
+		        	double[] HighestRestMismatch = new double[speakers.length];
+			        double[] HighLowMismatch = new double[speakers.length];
+			        double[] ExactMatch = new double[speakers.length];
+			        double[] PartialMatch = new double[speakers.length];
+		        	
 		        	bw.write("Speaker \t Auto_annotated \t Human_annotated \t Highest/Rest/Mismatch \t " +
 					"High/Low/Mismatch \t Exact-match \t Partial-match \n");
 		        	
@@ -493,16 +501,20 @@ public class MatchEval {
 			 String[] human_qt,
 		     String[] speakers,
 		     String category,
-		     double[] HighestRestMismatch,
-		     double[] HighLowMismatch,
-		     double[] ExactMatch,
-		     double[] PartialMatch,
+//		     double[] HighestRestMismatch,
+//		     double[] HighLowMismatch,
+//		     double[] ExactMatch,
+//		     double[] PartialMatch,
 		     HashMap<String, String[]> human_actual_scores,
 		     HashMap<String, String[]> auto_actual_scores,
 		     int counter
 		     ){
 	
 				try {
+					 double[] HighestRestMismatch = new double[speakers.length];
+				        double[] HighLowMismatch = new double[speakers.length];
+				        double[] ExactMatch = new double[speakers.length];
+				        double[] PartialMatch = new double[speakers.length];
 					
 					bw.write("Speaker \t Auto_annotated \t Human_annotated \t Highest/Rest/Mismatch \t " +
 					"High/Low/Mismatch \t Exact-match \t Partial-match \n");
@@ -746,16 +758,22 @@ public class MatchEval {
 			 String[] human_qt,
 		     String[] speakers,
 		     String category,
-		     double[] HighestRestMismatch,
-		     double[] HighLowMismatch,
-		     double[] ExactMatch,
-		     double[] PartialMatch,
+//		     double[] HighestRestMismatch,
+//		     double[] HighLowMismatch,
+//		     double[] ExactMatch,
+//		     double[] PartialMatch,
 		     HashMap<String, String[]> human_actual_scores,
 		     HashMap<String, String[]> auto_actual_scores,
 		     int counter
 		     ){
 		
 		try {
+			
+			double[] HighestRestMismatch = new double[speakers.length];
+	        double[] HighLowMismatch = new double[speakers.length];
+	        double[] ExactMatch = new double[speakers.length];
+	        double[] PartialMatch = new double[speakers.length];
+			
 			bw.write("Speaker \t Auto_annotated \t Human_annotated \t Highest/Rest/Mismatch \t " +
 				 "High/Low/Mismatch \t Exact-match \t Partial-match \n");
 			
