@@ -456,10 +456,10 @@ public class topic_control {
 
     public static void writeToEvaluation(String filePath, String human_annotation, String auto_annotation, String curtopic, boolean isnew){
 
-        double[] HighestRestMismatch = new double[speakers.length];
-        double[] HighLowMismatch = new double[speakers.length];
-        double[] ExactMatch = new double[speakers.length];
-        double[] PartialMatch = new double[speakers.length];
+//        double[] HighestRestMismatch = new double[speakers.length];
+//        double[] HighLowMismatch = new double[speakers.length];
+//        double[] ExactMatch = new double[speakers.length];
+//        double[] PartialMatch = new double[speakers.length];
 
         try {
                 BufferedWriter bw = new BufferedWriter(new FileWriter(filePath, true));
@@ -502,13 +502,13 @@ public class topic_control {
 		   			 int counter = 0;
    			
                     /*old match evaluation method*/
-//                    MatchEval me = new MatchEval();
-//                    me.matchEval(bw, auto_qscore, human_qscore, auto_qt, human_qt, speakers, category, HighestRestMismatch, HighLowMismatch, ExactMatch, PartialMatch, human_actual_scores, auto_actual_scores, counter);
+                    MatchEval me = new MatchEval();
+                    me.matchEval(bw, auto_qscore, human_qscore, auto_qt, human_qt, speakers, category, human_actual_scores, auto_actual_scores, counter);
                     
                     /*new compare evaluation method*/
-                    CompareEval CpEval = new CompareEval();
-                    CpEval.compareEval(bw, speakers, auto_qscore, human_qscore);
-                    
+//                    CompareEval CpEval = new CompareEval();
+//                    CpEval.compareEval(bw, speakers, auto_qscore, human_qscore);
+//                    
                     
                 }  //for each category
 
