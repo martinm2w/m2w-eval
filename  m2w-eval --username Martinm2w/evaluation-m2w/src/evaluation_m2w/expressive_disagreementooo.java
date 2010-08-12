@@ -147,7 +147,7 @@ public class expressive_disagreementooo {
                 speakers=new String[speakerarray.length];
 
                 for(int ei=0;ei<speakerarray.length;ei++){
-
+                	
                     speakers[ei]=(String)speakerarray[ei];
 
                     System.err.println(speakers[ei]);
@@ -566,8 +566,6 @@ public class expressive_disagreementooo {
 		                /*print file names*/
 		                filename.printFileNames(bw);
 		                
-//		                bw.write("Human annotated file: " + human_annotation + "\n");
-//		                bw.write("Auto annotated file: " + auto_annotation + "\n");
 		                bw.write("--------------------------------------------------------------- \n");
                 }
                 
@@ -600,11 +598,7 @@ public class expressive_disagreementooo {
 					}
 					
 					
-					
-					
-					//String[] auto_ascore = auto_actual_scores.get(category);
-					//String[] human_ascore = human_actual_scores.get(category);
-					
+
 					String[] auto_qt = auto_qt_thrs.get(category);
 					String[] human_qt = human_qt_thrs.get(category);
 					
