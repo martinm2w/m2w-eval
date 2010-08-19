@@ -103,4 +103,34 @@ public class Filenames {
 
     fileIndex ++;
     }
+    
+    public void printFileNamesSurveyHuman(BufferedWriter bw){
+    	
+        try {
+    		//bw.write("---------------- Topic Control Evaluation --------------------- \n");
+    		bw.write("Human annotated file: " + human_file_list.get(fileIndex) + "\n");
+    		bw.write("Survey annotated file: " + auto_file_list.get(fileIndex) + "\n");
+    		//bw.write("--------------------------------------------------------------- \n");
+    	} catch (IOException e) {
+    		// TODO Auto-generated catch block
+    		e.printStackTrace();
+    	}
+
+        fileIndex ++;
+        }
+    
+    public void printFileNamesAutoSurvey(BufferedWriter bw){
+    	
+        try {
+    		//bw.write("---------------- Topic Control Evaluation --------------------- \n");
+    		bw.write("Survey annotated file: " + human_file_list.get(fileIndex) + "\n");
+    		bw.write("Auto annotated file: " + auto_file_list.get(fileIndex) + "\n");
+    		//bw.write("--------------------------------------------------------------- \n");
+    	} catch (IOException e) {
+    		// TODO Auto-generated catch block
+    		e.printStackTrace();
+    	}
+
+        fileIndex ++;
+        }
 }
