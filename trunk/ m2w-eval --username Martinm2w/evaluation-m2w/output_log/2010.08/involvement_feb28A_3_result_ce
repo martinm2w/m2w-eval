@@ -1,0 +1,154 @@
+---------------- Involvement Evaluation --------------------- 
+Human annotated file: Feb28_GroupA.xml
+Auto annotated file: Feb28_GroupA.xml
+--------------------------------------------------------------- 
++++++++++++++++++++++++++ npi ++++++++++++++++++++++++++++++ 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+johnw < nicole		johnw < nicole
+johnw < jenifer		johnw < jenifer
+johnw < jessamyn		johnw < jessamyn
+johnw < laura		johnw < laura
+johnw > ilspersonnel		johnw > ilspersonnel
+johnw = jessicaf		johnw = jessicaf
+nicole = jenifer		nicole = jenifer
+nicole > jessamyn		nicole > jessamyn
+nicole < laura		nicole < laura
+nicole > ilspersonnel		nicole > ilspersonnel
+nicole > jessicaf		nicole > jessicaf
+jenifer > jessamyn		jenifer > jessamyn
+jenifer < laura		jenifer < laura
+jenifer > ilspersonnel		jenifer > ilspersonnel
+jenifer > jessicaf		jenifer > jessicaf
+jessamyn < laura		jessamyn < laura
+jessamyn > ilspersonnel		jessamyn > ilspersonnel
+jessamyn > jessicaf		jessamyn > jessicaf
+laura > ilspersonnel		laura > ilspersonnel
+laura > jessicaf		laura > jessicaf
+ilspersonnel < jessicaf		ilspersonnel < jessicaf
+::Equalcount		Totalcount		Accuracy
+::21		21		1.0
++++++++++++++++++++++++++ ti ++++++++++++++++++++++++++++++ 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+johnw < nicole		johnw < nicole
+johnw < jenifer		johnw < jenifer
+johnw < jessamyn		johnw < jessamyn
+johnw < laura		johnw < laura
+johnw > ilspersonnel		johnw > ilspersonnel
+johnw = jessicaf		johnw = jessicaf
+nicole = jenifer		nicole = jenifer
+nicole > jessamyn		nicole > jessamyn
+nicole < laura		nicole < laura
+nicole > ilspersonnel		nicole > ilspersonnel
+nicole > jessicaf		nicole > jessicaf
+jenifer > jessamyn		jenifer > jessamyn
+jenifer < laura		jenifer < laura
+jenifer > ilspersonnel		jenifer > ilspersonnel
+jenifer > jessicaf		jenifer > jessicaf
+jessamyn < laura		jessamyn < laura
+jessamyn > ilspersonnel		jessamyn > ilspersonnel
+jessamyn > jessicaf		jessamyn > jessicaf
+laura > ilspersonnel		laura > ilspersonnel
+laura > jessicaf		laura > jessicaf
+ilspersonnel < jessicaf		ilspersonnel < jessicaf
+::Equalcount		Totalcount		Accuracy
+::21		21		1.0
++++++++++++++++++++++++++ tci ++++++++++++++++++++++++++++++ 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+johnw < nicole		johnw < nicole
+johnw < jenifer		johnw < jenifer
+johnw = jessamyn		johnw = jessamyn
+johnw < laura		johnw < laura
+johnw > ilspersonnel		johnw > ilspersonnel
+johnw < jessicaf		johnw < jessicaf
+nicole = jenifer		nicole = jenifer
+nicole > jessamyn		nicole > jessamyn
+nicole < laura		nicole < laura
+nicole > ilspersonnel		nicole > ilspersonnel
+nicole > jessicaf		nicole > jessicaf
+jenifer > jessamyn		jenifer > jessamyn
+jenifer < laura		jenifer < laura
+jenifer > ilspersonnel		jenifer > ilspersonnel
+jenifer > jessicaf		jenifer > jessicaf
+jessamyn < laura		jessamyn < laura
+jessamyn > ilspersonnel		jessamyn > ilspersonnel
+jessamyn < jessicaf		jessamyn < jessicaf
+laura > ilspersonnel		laura > ilspersonnel
+laura > jessicaf		laura > jessicaf
+ilspersonnel < jessicaf		ilspersonnel < jessicaf
+::Equalcount		Totalcount		Accuracy
+::21		21		1.0
++++++++++++++++++++++++++ allotp ++++++++++++++++++++++++++++++ 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+johnw < nicole		johnw < nicole
+johnw < jenifer		johnw < jenifer
+johnw < jessamyn		johnw < jessamyn
+johnw < laura		johnw < laura
+johnw > ilspersonnel		johnw > ilspersonnel
+johnw = jessicaf		johnw = jessicaf
+nicole = jenifer		nicole = jenifer
+nicole > jessamyn		nicole > jessamyn
+nicole < laura		nicole < laura
+nicole > ilspersonnel		nicole > ilspersonnel
+nicole > jessicaf		nicole > jessicaf
+jenifer > jessamyn		jenifer > jessamyn
+jenifer < laura		jenifer < laura
+jenifer > ilspersonnel		jenifer > ilspersonnel
+jenifer > jessicaf		jenifer > jessicaf
+jessamyn < laura		jessamyn < laura
+jessamyn > ilspersonnel		jessamyn > ilspersonnel
+jessamyn > jessicaf		jessamyn > jessicaf
+laura > ilspersonnel		laura > ilspersonnel
+laura > jessicaf		laura > jessicaf
+ilspersonnel < jessicaf		ilspersonnel < jessicaf
+::Equalcount		Totalcount		Accuracy
+::21		21		1.0
++++++++++++++++++++++++++ asmi ++++++++++++++++++++++++++++++ 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+johnw < nicole		johnw < nicole
+johnw < jenifer		johnw < jenifer
+johnw < jessamyn		johnw < jessamyn
+johnw < laura		johnw < laura
+johnw > ilspersonnel		johnw > ilspersonnel
+johnw = jessicaf		johnw = jessicaf
+nicole = jenifer		nicole = jenifer
+nicole > jessamyn		nicole > jessamyn
+nicole < laura		nicole < laura
+nicole > ilspersonnel		nicole > ilspersonnel
+nicole > jessicaf		nicole > jessicaf
+jenifer > jessamyn		jenifer > jessamyn
+jenifer < laura		jenifer < laura
+jenifer > ilspersonnel		jenifer > ilspersonnel
+jenifer > jessicaf		jenifer > jessicaf
+jessamyn < laura		jessamyn < laura
+jessamyn > ilspersonnel		jessamyn > ilspersonnel
+jessamyn > jessicaf		jessamyn > jessicaf
+laura > ilspersonnel		laura > ilspersonnel
+laura > jessicaf		laura > jessicaf
+ilspersonnel < jessicaf		ilspersonnel < jessicaf
+::Equalcount		Totalcount		Accuracy
+::21		21		1.0
++++++++++++++++++++++++++ merged quintile ++++++++++++++++++++++++++++++ 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+johnw < nicole		johnw < nicole
+johnw < jenifer		johnw = jenifer
+johnw < jessamyn		johnw > jessamyn
+johnw < laura		johnw < laura
+johnw > jessicaf		johnw > jessicaf
+nicole < jenifer		nicole > jenifer
+nicole = jessamyn		nicole > jessamyn
+nicole < laura		nicole < laura
+nicole > jessicaf		nicole > jessicaf
+jenifer > jessamyn		jenifer > jessamyn
+jenifer < laura		jenifer < laura
+jenifer > jessicaf		jenifer > jessicaf
+jessamyn < laura		jessamyn < laura
+jessamyn > jessicaf		jessamyn > jessicaf
+laura > jessicaf		laura > jessicaf
+::Equalcount		Totalcount		Accuracy
+::11		15		0.7333333333333333

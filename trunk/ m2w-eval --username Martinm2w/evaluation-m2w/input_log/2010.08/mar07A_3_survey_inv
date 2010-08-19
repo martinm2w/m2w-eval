@@ -207,10 +207,9 @@ The quintile score ilspersonnel is: 1 --- actual score: 0.015706806282722512
 ++++++++++++++++++++++++++++++++
 calculate Merged quintile
 qt_thrs:  0.1893871217364292 0.17095679058471094 0.1498988692763621 0.07870382567111674 0.15807565118422537
-The quintile score of jessamyn is: 5 --- actual score: 0.20741469871919732
-The quintile score eugenia is: 4 --- actual score: 0.1773687370812504
+The quintile score of jessamyn is: 3 --- actual score: 0.20741469871919732
+The quintile score eugenia is: 1 --- actual score: 0.1773687370812504
 The quintile score nicole is: 3 --- actual score: 0.17417707543483235
-The quintile score tony is: 3 --- actual score: 0.15807565118422537
-The quintile score ashley is: 2 --- actual score: 0.14785467379939626
-The quintile score danielle is: 1 --- actual score: 0.12330080079338716
-
+The quintile score tony is: 2 --- actual score: 0.15807565118422537
+The quintile score ashley is: 3 --- actual score: 0.14785467379939626
+The quintile score danielle is: 5 --- actual score: 0.12330080079338716
