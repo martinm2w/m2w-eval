@@ -55,10 +55,10 @@ public class involvement {
     //   String[] annotators = {"brian", "kerri", "lauren"};
 
       //  for(int i = 0; i < annotators.length; i++){
-            String human_annotation = "D:/m2w cs/evaluation-m2w/src/input_files/feb19B_lauren_annotated_inv";
-            String auto_annotation = "D:/m2w cs/evaluation-m2w/src/input_files/feb19B_automated_without_ils_inv";
+            String human_annotation = "D:/m2w cs/evaluation-m2w/src/input_files/mar11B_survey_1_inv";
+            String auto_annotation = "D:/m2w cs/evaluation-m2w/src/input_files/mar11B_automated_without_ils_1_inv";
 
-            String evaluation_file = "D:/m2w cs/evaluation-m2w/src/output_files/involvement_feb19B_Human_Auto_ce";
+            String evaluation_file = "D:/m2w cs/evaluation-m2w/src/output_files/involvement_mar11B_Survey_Auto_ce";
 
 
             try { //extract names/topics
@@ -471,9 +471,9 @@ public class involvement {
                     bw.write("---------------- Involvement Evaluation --------------------- \n");
                     
                     /*print file names*/
-                    filename.printFileNames(bw);
+//                    filename.printFileNames(bw);
 //	                filename.printFileNamesSurveyHuman(bw);
-//	                filename.printFileNamesAutoSurvey(bw);
+	                filename.printFileNamesAutoSurvey(bw);
 	                
                     
 //                    bw.write("Human annotated file: " + human_annotation + "\n");

@@ -1,0 +1,243 @@
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: Feb28_GroupA.xml
+size of top10nouns: 172
+size of LTs: 345
+size of mentions: 307
+sizeof mentions: 10
+sizeof mentions: 3
+sizeof mentions: 3
+sizeof mentions: 4
+sizeof mentions: 2
+sizeof mentions: 58
+sizeof mentions: 20
+sizeof mentions: 58
+sizeof mentions: 2
+sizeof mentions: 2
+sizeof mentions: 2
+sizeof mentions: 2
+sizeof mentions: 2
+sizeof mentions: 9
+sizeof mentions: 3
+sizeof mentions: 4
+sizeof mentions: 2
+clts_: [edu.albany.ils.dsarmd0100.lu.LocalTopic@113beb5, edu.albany.ils.dsarmd0100.lu.LocalTopic@14d7745, edu.albany.ils.dsarmd0100.lu.LocalTopic@d17ec3, edu.albany.ils.dsarmd0100.lu.LocalTopic@1d95da8, edu.albany.ils.dsarmd0100.lu.LocalTopic@193f6e2, edu.albany.ils.dsarmd0100.lu.LocalTopic@1358f03, edu.albany.ils.dsarmd0100.lu.LocalTopic@1402d5a, edu.albany.ils.dsarmd0100.lu.LocalTopic@61736e, edu.albany.ils.dsarmd0100.lu.LocalTopic@1e13e07, edu.albany.ils.dsarmd0100.lu.LocalTopic@af72d8, edu.albany.ils.dsarmd0100.lu.LocalTopic@9cfec1, edu.albany.ils.dsarmd0100.lu.LocalTopic@11946c2, edu.albany.ils.dsarmd0100.lu.LocalTopic@747fa2, edu.albany.ils.dsarmd0100.lu.LocalTopic@6782a9, edu.albany.ils.dsarmd0100.lu.LocalTopic@1b34126, edu.albany.ils.dsarmd0100.lu.LocalTopic@17a4989, edu.albany.ils.dsarmd0100.lu.LocalTopic@17200b4]
+==========================================
+speaker name: jessamyn
+
+0.07777777777777778
+0.11324376199616124
+0.0755813953488372
+0.09771986970684039
+0.12162162162162163
+sizeof mentions: 58
+sizeof mentions: 7
+sizeof mentions: 10
+sizeof mentions: 4
+sizeof mentions: 58
+sizeof mentions: 3
+sizeof mentions: 2
+sizeof mentions: 6
+sizeof mentions: 20
+sizeof mentions: 9
+sizeof mentions: 3
+sizeof mentions: 7
+sizeof mentions: 5
+sizeof mentions: 2
+sizeof mentions: 2
+sizeof mentions: 9
+sizeof mentions: 2
+sizeof mentions: 2
+sizeof mentions: 2
+sizeof mentions: 2
+sizeof mentions: 4
+sizeof mentions: 3
+sizeof mentions: 4
+sizeof mentions: 3
+sizeof mentions: 4
+sizeof mentions: 8
+clts_: [edu.albany.ils.dsarmd0100.lu.LocalTopic@61736e, edu.albany.ils.dsarmd0100.lu.LocalTopic@4c47db, edu.albany.ils.dsarmd0100.lu.LocalTopic@18c74, edu.albany.ils.dsarmd0100.lu.LocalTopic@1ac3379, edu.albany.ils.dsarmd0100.lu.LocalTopic@1358f03, edu.albany.ils.dsarmd0100.lu.LocalTopic@6779e6, edu.albany.ils.dsarmd0100.lu.LocalTopic@174219d, edu.albany.ils.dsarmd0100.lu.LocalTopic@14ae2c1, edu.albany.ils.dsarmd0100.lu.LocalTopic@1402d5a, edu.albany.ils.dsarmd0100.lu.LocalTopic@16d2702, edu.albany.ils.dsarmd0100.lu.LocalTopic@11c2b67, edu.albany.ils.dsarmd0100.lu.LocalTopic@659db7, edu.albany.ils.dsarmd0100.lu.LocalTopic@1556d12, edu.albany.ils.dsarmd0100.lu.LocalTopic@16be68f, edu.albany.ils.dsarmd0100.lu.LocalTopic@edf389, edu.albany.ils.dsarmd0100.lu.LocalTopic@6782a9, edu.albany.ils.dsarmd0100.lu.LocalTopic@fced4, edu.albany.ils.dsarmd0100.lu.LocalTopic@1d3cdaa, edu.albany.ils.dsarmd0100.lu.LocalTopic@6355dc, edu.albany.ils.dsarmd0100.lu.LocalTopic@19a029e, edu.albany.ils.dsarmd0100.lu.LocalTopic@21e554, edu.albany.ils.dsarmd0100.lu.LocalTopic@15718f2, edu.albany.ils.dsarmd0100.lu.LocalTopic@17a4989, edu.albany.ils.dsarmd0100.lu.LocalTopic@126f827, edu.albany.ils.dsarmd0100.lu.LocalTopic@16dfa45, edu.albany.ils.dsarmd0100.lu.LocalTopic@149eb9f]
+==========================================
+speaker name: nicole
+
+0.19444444444444445
+0.22456813819577734
+0.1511627906976744
+0.18566775244299674
+0.23873873873873874
+clts_: []
+==========================================
+speaker name: ilspersonnel
+
+0.0
+0.02111324376199616
+0.0
+0.003257328990228013
+0.0
+sizeof mentions: 4
+sizeof mentions: 20
+sizeof mentions: 5
+sizeof mentions: 3
+sizeof mentions: 2
+sizeof mentions: 2
+sizeof mentions: 10
+sizeof mentions: 6
+sizeof mentions: 3
+sizeof mentions: 2
+sizeof mentions: 7
+sizeof mentions: 2
+sizeof mentions: 2
+sizeof mentions: 2
+sizeof mentions: 9
+sizeof mentions: 4
+sizeof mentions: 4
+sizeof mentions: 7
+sizeof mentions: 2
+sizeof mentions: 2
+sizeof mentions: 4
+clts_: [edu.albany.ils.dsarmd0100.lu.LocalTopic@c3014, edu.albany.ils.dsarmd0100.lu.LocalTopic@1402d5a, edu.albany.ils.dsarmd0100.lu.LocalTopic@1556d12, edu.albany.ils.dsarmd0100.lu.LocalTopic@289d2e, edu.albany.ils.dsarmd0100.lu.LocalTopic@6754d6, edu.albany.ils.dsarmd0100.lu.LocalTopic@1f2cea2, edu.albany.ils.dsarmd0100.lu.LocalTopic@113beb5, edu.albany.ils.dsarmd0100.lu.LocalTopic@14ae2c1, edu.albany.ils.dsarmd0100.lu.LocalTopic@14d7745, edu.albany.ils.dsarmd0100.lu.LocalTopic@1dc0e7a, edu.albany.ils.dsarmd0100.lu.LocalTopic@4c47db, edu.albany.ils.dsarmd0100.lu.LocalTopic@3a9bba, edu.albany.ils.dsarmd0100.lu.LocalTopic@1c5ddc9, edu.albany.ils.dsarmd0100.lu.LocalTopic@163f7a1, edu.albany.ils.dsarmd0100.lu.LocalTopic@6782a9, edu.albany.ils.dsarmd0100.lu.LocalTopic@1690ab, edu.albany.ils.dsarmd0100.lu.LocalTopic@173ec72, edu.albany.ils.dsarmd0100.lu.LocalTopic@659db7, edu.albany.ils.dsarmd0100.lu.LocalTopic@1a85d38, edu.albany.ils.dsarmd0100.lu.LocalTopic@8046f4, edu.albany.ils.dsarmd0100.lu.LocalTopic@1d95da8]
+==========================================
+speaker name: jenifer
+
+0.29444444444444445
+0.1746641074856046
+0.26744186046511625
+0.2703583061889251
+0.13063063063063063
+sizeof mentions: 5
+sizeof mentions: 20
+sizeof mentions: 9
+sizeof mentions: 58
+sizeof mentions: 4
+sizeof mentions: 4
+sizeof mentions: 2
+sizeof mentions: 3
+sizeof mentions: 8
+sizeof mentions: 3
+sizeof mentions: 10
+sizeof mentions: 4
+clts_: [edu.albany.ils.dsarmd0100.lu.LocalTopic@1bbd7b2, edu.albany.ils.dsarmd0100.lu.LocalTopic@1402d5a, edu.albany.ils.dsarmd0100.lu.LocalTopic@14df764, edu.albany.ils.dsarmd0100.lu.LocalTopic@61736e, edu.albany.ils.dsarmd0100.lu.LocalTopic@1acfa31, edu.albany.ils.dsarmd0100.lu.LocalTopic@c3014, edu.albany.ils.dsarmd0100.lu.LocalTopic@15dd910, edu.albany.ils.dsarmd0100.lu.LocalTopic@55bb93, edu.albany.ils.dsarmd0100.lu.LocalTopic@149eb9f, edu.albany.ils.dsarmd0100.lu.LocalTopic@1b34126, edu.albany.ils.dsarmd0100.lu.LocalTopic@18c74, edu.albany.ils.dsarmd0100.lu.LocalTopic@1ac3379]
+==========================================
+speaker name: johnw
+
+0.05555555555555555
+0.09404990403071017
+0.0755813953488372
+0.09120521172638436
+0.0990990990990991
+sizeof mentions: 58
+sizeof mentions: 58
+sizeof mentions: 4
+sizeof mentions: 4
+sizeof mentions: 3
+sizeof mentions: 10
+sizeof mentions: 20
+sizeof mentions: 3
+sizeof mentions: 2
+sizeof mentions: 9
+sizeof mentions: 8
+sizeof mentions: 7
+sizeof mentions: 3
+sizeof mentions: 3
+sizeof mentions: 2
+sizeof mentions: 2
+sizeof mentions: 2
+sizeof mentions: 2
+sizeof mentions: 10
+sizeof mentions: 5
+sizeof mentions: 2
+clts_: [edu.albany.ils.dsarmd0100.lu.LocalTopic@61736e, edu.albany.ils.dsarmd0100.lu.LocalTopic@1358f03, edu.albany.ils.dsarmd0100.lu.LocalTopic@21e554, edu.albany.ils.dsarmd0100.lu.LocalTopic@17a4989, edu.albany.ils.dsarmd0100.lu.LocalTopic@18ce14a, edu.albany.ils.dsarmd0100.lu.LocalTopic@113beb5, edu.albany.ils.dsarmd0100.lu.LocalTopic@1402d5a, edu.albany.ils.dsarmd0100.lu.LocalTopic@289d2e, edu.albany.ils.dsarmd0100.lu.LocalTopic@1ae90c, edu.albany.ils.dsarmd0100.lu.LocalTopic@16d2702, edu.albany.ils.dsarmd0100.lu.LocalTopic@149eb9f, edu.albany.ils.dsarmd0100.lu.LocalTopic@659db7, edu.albany.ils.dsarmd0100.lu.LocalTopic@11c2b67, edu.albany.ils.dsarmd0100.lu.LocalTopic@55bb93, edu.albany.ils.dsarmd0100.lu.LocalTopic@ba4211, edu.albany.ils.dsarmd0100.lu.LocalTopic@47a0d4, edu.albany.ils.dsarmd0100.lu.LocalTopic@8ff4cf, edu.albany.ils.dsarmd0100.lu.LocalTopic@1114460, edu.albany.ils.dsarmd0100.lu.LocalTopic@18c74, edu.albany.ils.dsarmd0100.lu.LocalTopic@1556d12, edu.albany.ils.dsarmd0100.lu.LocalTopic@9ffe3f]
+==========================================
+speaker name: laura
+
+0.3111111111111111
+0.29366602687140114
+0.3488372093023256
+0.28338762214983715
+0.31981981981981983
+sizeof mentions: 8
+sizeof mentions: 58
+sizeof mentions: 5
+sizeof mentions: 4
+sizeof mentions: 58
+sizeof mentions: 4
+sizeof mentions: 3
+sizeof mentions: 7
+sizeof mentions: 2
+sizeof mentions: 7
+sizeof mentions: 5
+clts_: [edu.albany.ils.dsarmd0100.lu.LocalTopic@149eb9f, edu.albany.ils.dsarmd0100.lu.LocalTopic@1358f03, edu.albany.ils.dsarmd0100.lu.LocalTopic@1bbd7b2, edu.albany.ils.dsarmd0100.lu.LocalTopic@1ac3379, edu.albany.ils.dsarmd0100.lu.LocalTopic@61736e, edu.albany.ils.dsarmd0100.lu.LocalTopic@173ec72, edu.albany.ils.dsarmd0100.lu.LocalTopic@1ed1b0b, edu.albany.ils.dsarmd0100.lu.LocalTopic@659db7, edu.albany.ils.dsarmd0100.lu.LocalTopic@18a8ce2, edu.albany.ils.dsarmd0100.lu.LocalTopic@4c47db, edu.albany.ils.dsarmd0100.lu.LocalTopic@1556d12]
+==========================================
+speaker name: jessicaf
+
+0.06666666666666667
+0.07869481765834933
+0.08139534883720931
+0.06840390879478828
+0.09009009009009009
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+++++++++++++++++++++++++++++++++
+calculate Involvement - NPI quintile
+qt_thrs:  0.3011111111111111 0.1711111111111111 0.06888888888888889 0.03333333333333334 0.07777777777777778
+The quintile score of laura is: 5 --- actual score: 0.3111111111111111
+The quintile score jenifer is: 4 --- actual score: 0.29444444444444445
+The quintile score nicole is: 4 --- actual score: 0.19444444444444445
+The quintile score jessamyn is: 3 --- actual score: 0.07777777777777778
+The quintile score jessicaf is: 2 --- actual score: 0.06666666666666667
+The quintile score johnw is: 2 --- actual score: 0.05555555555555555
+The quintile score ilspersonnel is: 1 --- actual score: 0.0
+
+++++++++++++++++++++++++++++++++
+calculate Involvement - TI quintile
+qt_thrs:  0.2522072936660269 0.16238003838771592 0.0978886756238004 0.055662188099808066 0.11324376199616124
+The quintile score of laura is: 5 --- actual score: 0.29366602687140114
+The quintile score nicole is: 4 --- actual score: 0.22456813819577734
+The quintile score jenifer is: 4 --- actual score: 0.1746641074856046
+The quintile score jessamyn is: 3 --- actual score: 0.11324376199616124
+The quintile score johnw is: 2 --- actual score: 0.09404990403071017
+The quintile score jessicaf is: 2 --- actual score: 0.07869481765834933
+The quintile score ilspersonnel is: 1 --- actual score: 0.02111324376199616
+
+++++++++++++++++++++++++++++++++
+calculate Involvement - TCI quintile: [0.3488372093023256, 0.26744186046511625, 0.1511627906976744, 0.08139534883720931, 0.0755813953488372, 0.0755813953488372, 0.0]
+qt_thrs:  0.30000000000000004 0.13720930232558137 0.07674418604651162 0.04534883720930233 0.08139534883720931
+The quintile score of laura is: 5 --- actual score: 0.3488372093023256
+The quintile score jenifer is: 4 --- actual score: 0.26744186046511625
+The quintile score nicole is: 4 --- actual score: 0.1511627906976744
+The quintile score jessicaf is: 3 --- actual score: 0.08139534883720931
+The quintile score jessamyn is: 2 --- actual score: 0.0755813953488372
+The quintile score johnw is: 2 --- actual score: 0.0755813953488372
+The quintile score ilspersonnel is: 1 --- actual score: 0.0
+
+++++++++++++++++++++++++++++++++
+calculate Involvement - ALLOTP quintile
+qt_thrs:  0.2711711711711712 0.12882882882882882 0.10360360360360361 0.05405405405405406 0.12162162162162163
+The quintile score of laura is: 5 --- actual score: 0.31981981981981983
+The quintile score nicole is: 4 --- actual score: 0.23873873873873874
+The quintile score jenifer is: 4 --- actual score: 0.13063063063063063
+The quintile score jessamyn is: 3 --- actual score: 0.12162162162162163
+The quintile score johnw is: 2 --- actual score: 0.0990990990990991
+The quintile score jessicaf is: 2 --- actual score: 0.09009009009009009
+The quintile score ilspersonnel is: 1 --- actual score: 0.0
+
+++++++++++++++++++++++++++++++++
+calculate Involvement - ASMI quintile
+qt_thrs:  0.27557003257328994 0.16807817589576546 0.09250814332247558 0.042345276872964174 0.09771986970684039
+The quintile score of laura is: 5 --- actual score: 0.28338762214983715
+The quintile score jenifer is: 4 --- actual score: 0.2703583061889251
+The quintile score nicole is: 4 --- actual score: 0.18566775244299674
+The quintile score jessamyn is: 3 --- actual score: 0.09771986970684039
+The quintile score johnw is: 2 --- actual score: 0.09120521172638436
+The quintile score jessicaf is: 2 --- actual score: 0.06840390879478828
+The quintile score ilspersonnel is: 1 --- actual score: 0.003257328990228013
+++++++++++++++++++++++++++++++++
+calculate Merged quintile
+qt_thrs:  0.26105046504612617 0.17857087538119057 0.08591636357974335 0.04817974566583037 0.09718888529024765
+The quintile score of laura is: 5 --- actual score: 0.311364357850899
+The quintile score jenifer is: 4 --- actual score: 0.22750786984294424
+The quintile score nicole is: 3 --- actual score: 0.19891637290392633
+The quintile score jessamyn is: 3 --- actual score: 0.09718888529024765
+The quintile score johnw is: 2 --- actual score: 0.08309823315211727
+The quintile score jessicaf is: 1 --- actual score: 0.07705016640942072
+
+
