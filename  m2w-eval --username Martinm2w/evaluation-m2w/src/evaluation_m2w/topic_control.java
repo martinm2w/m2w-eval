@@ -55,13 +55,11 @@ public class topic_control {
 
        // for(int i = 0; i < annotators.length; i++){
 
-        String human_annotation = "D:/m2w cs/evaluation-m2w/input_log/2010.08/topic_control_6_Lauren_annotated_with_merge_3";
-        String auto_annotation = "D:/m2w cs/evaluation-m2w/input_log/2010.08/topic_control_6_automated_with_merge_3";
+        String human_annotation = "D:/m2w cs/evaluation-m2w/src/input_files/mar07A_2_survey_tpc";
+        String auto_annotation = "D:/m2w cs/evaluation-m2w/src/input_files/mar07A_2_auto_tpc";
 
-        String evaluation_file = "D:/m2w cs/evaluation-m2w/src/output_files/topic_control_6_Lauren_annotated_with_merge_3_ce";
+        String evaluation_file = "D:/m2w cs/evaluation-m2w/src/output_files/topic_control_mar07A_2_result_ce";
 
-        
-        
             try { //extract names/topics
                 BufferedReader br = new BufferedReader(new FileReader(human_annotation));
                 
@@ -502,12 +500,12 @@ public class topic_control {
 		   			 int counter = 0;
    			
                     /*old match evaluation method*/
-                    MatchEval me = new MatchEval();
-                    me.matchEval(bw, auto_qscore, human_qscore, auto_qt, human_qt, speakers, category, human_actual_scores, auto_actual_scores, counter);
+//                    MatchEval me = new MatchEval();
+//                    me.matchEval(bw, auto_qscore, human_qscore, auto_qt, human_qt, speakers, category, human_actual_scores, auto_actual_scores, counter);
                     
                     /*new compare evaluation method*/
-//                    CompareEval CpEval = new CompareEval();
-//                    CpEval.compareEval(bw, speakers, auto_qscore, human_qscore);
+                    CompareEval CpEval = new CompareEval();
+                    CpEval.compareEval(bw, speakers, auto_qscore, human_qscore);
 //                    
                     
                 }  //for each category

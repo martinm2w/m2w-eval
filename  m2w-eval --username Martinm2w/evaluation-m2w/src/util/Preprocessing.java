@@ -26,10 +26,10 @@ public class Preprocessing {
 		
 		
 		p.parseTskCtrl(
-				"D:/m2w cs/evaluation-m2w/input_log/older/task_control_5_Lauren_annotated_7",
-				"D:/m2w cs/evaluation-m2w/input_log/older/task_control_5_automated_7",
-				"D:/m2w cs/evaluation-m2w/src/preprocessed/task_control_5_Lauren_annotated_7_pp",
-				"D:/m2w cs/evaluation-m2w/src/preprocessed/task_control_5_automated_7_pp");
+				"D:/m2w cs/evaluation-m2w/src/input_files/mar07A_2_survey_tkc",
+				"D:/m2w cs/evaluation-m2w/src/input_files/mar07A_2_auto_tkc",
+				"D:/m2w cs/evaluation-m2w/src/preprocessed/mar07A_2_survey_tkc_pp",
+				"D:/m2w cs/evaluation-m2w/src/preprocessed/mar07A_2_auto_tkc_pp");
 //		
 		
 		
