@@ -1,0 +1,149 @@
+---------------- Involvement Evaluation --------------------- 
+Survey annotated file: Mar11_GroupB_lauren_Auto.xml
+Auto annotated file: Mar11_GroupB_lauren_Auto.xml
+--------------------------------------------------------------- 
++++++++++++++++++++++++++ npi ++++++++++++++++++++++++++++++ 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+johnw < lisa		johnw < lisa
+johnw < kerri		johnw < kerri
+johnw < jenifer		johnw < jenifer
+johnw = jessicad		johnw = jessicad
+johnw < laura		johnw < laura
+johnw < nate		johnw < nate
+lisa > kerri		lisa > kerri
+lisa = jenifer		lisa = jenifer
+lisa > jessicad		lisa > jessicad
+lisa > laura		lisa > laura
+lisa < nate		lisa < nate
+kerri < jenifer		kerri < jenifer
+kerri > jessicad		kerri > jessicad
+kerri > laura		kerri > laura
+kerri < nate		kerri < nate
+jenifer > jessicad		jenifer > jessicad
+jenifer > laura		jenifer > laura
+jenifer < nate		jenifer < nate
+jessicad < laura		jessicad < laura
+jessicad < nate		jessicad < nate
+laura < nate		laura < nate
+::Equalcount		Totalcount		Accuracy
+::21		21		1.0
++++++++++++++++++++++++++ ti ++++++++++++++++++++++++++++++ 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+johnw < lisa		johnw < lisa
+johnw < kerri		johnw < kerri
+johnw < jenifer		johnw < jenifer
+johnw < jessicad		johnw < jessicad
+johnw < laura		johnw < laura
+johnw < nate		johnw < nate
+lisa = kerri		lisa = kerri
+lisa > jenifer		lisa > jenifer
+lisa > jessicad		lisa > jessicad
+lisa > laura		lisa > laura
+lisa < nate		lisa < nate
+kerri > jenifer		kerri > jenifer
+kerri > jessicad		kerri > jessicad
+kerri > laura		kerri > laura
+kerri < nate		kerri < nate
+jenifer = jessicad		jenifer = jessicad
+jenifer < laura		jenifer < laura
+jenifer < nate		jenifer < nate
+jessicad < laura		jessicad < laura
+jessicad < nate		jessicad < nate
+laura < nate		laura < nate
+::Equalcount		Totalcount		Accuracy
+::21		21		1.0
++++++++++++++++++++++++++ tci ++++++++++++++++++++++++++++++ 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+johnw < lisa		johnw < lisa
+johnw < kerri		johnw < kerri
+johnw < jenifer		johnw < jenifer
+johnw = jessicad		johnw = jessicad
+johnw < laura		johnw < laura
+johnw < nate		johnw < nate
+lisa > kerri		lisa > kerri
+lisa = jenifer		lisa = jenifer
+lisa > jessicad		lisa > jessicad
+lisa > laura		lisa > laura
+lisa < nate		lisa < nate
+kerri < jenifer		kerri < jenifer
+kerri > jessicad		kerri > jessicad
+kerri > laura		kerri > laura
+kerri < nate		kerri < nate
+jenifer > jessicad		jenifer > jessicad
+jenifer > laura		jenifer > laura
+jenifer < nate		jenifer < nate
+jessicad < laura		jessicad < laura
+jessicad < nate		jessicad < nate
+laura < nate		laura < nate
+::Equalcount		Totalcount		Accuracy
+::21		21		1.0
++++++++++++++++++++++++++ allotp ++++++++++++++++++++++++++++++ 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+johnw < lisa		johnw < lisa
+johnw < kerri		johnw < kerri
+johnw < jenifer		johnw < jenifer
+johnw = jessicad		johnw = jessicad
+johnw < laura		johnw < laura
+johnw < nate		johnw < nate
+lisa > kerri		lisa > kerri
+lisa = jenifer		lisa = jenifer
+lisa > jessicad		lisa > jessicad
+lisa > laura		lisa > laura
+lisa < nate		lisa < nate
+kerri < jenifer		kerri < jenifer
+kerri > jessicad		kerri > jessicad
+kerri > laura		kerri > laura
+kerri < nate		kerri < nate
+jenifer > jessicad		jenifer > jessicad
+jenifer > laura		jenifer > laura
+jenifer < nate		jenifer < nate
+jessicad < laura		jessicad < laura
+jessicad < nate		jessicad < nate
+laura < nate		laura < nate
+::Equalcount		Totalcount		Accuracy
+::21		21		1.0
++++++++++++++++++++++++++ asmi ++++++++++++++++++++++++++++++ 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+johnw < lisa		johnw < lisa
+johnw < kerri		johnw < kerri
+johnw < jenifer		johnw < jenifer
+johnw = jessicad		johnw = jessicad
+johnw < laura		johnw < laura
+johnw < nate		johnw < nate
+lisa > kerri		lisa > kerri
+lisa = jenifer		lisa = jenifer
+lisa > jessicad		lisa > jessicad
+lisa > laura		lisa > laura
+lisa < nate		lisa < nate
+kerri < jenifer		kerri < jenifer
+kerri > jessicad		kerri > jessicad
+kerri > laura		kerri > laura
+kerri < nate		kerri < nate
+jenifer > jessicad		jenifer > jessicad
+jenifer > laura		jenifer > laura
+jenifer < nate		jenifer < nate
+jessicad < laura		jessicad < laura
+jessicad < nate		jessicad < nate
+laura < nate		laura < nate
+::Equalcount		Totalcount		Accuracy
+::21		21		1.0
++++++++++++++++++++++++++ merged quintile ++++++++++++++++++++++++++++++ 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+lisa > kerri		lisa > kerri
+lisa > jenifer		lisa > jenifer
+lisa > laura		lisa > laura
+lisa < nate		lisa < nate
+kerri < jenifer		kerri < jenifer
+kerri > laura		kerri < laura
+kerri < nate		kerri < nate
+jenifer > laura		jenifer = laura
+jenifer < nate		jenifer < nate
+laura < nate		laura < nate
+::Equalcount		Totalcount		Accuracy
+::8		10		0.8
