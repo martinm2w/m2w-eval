@@ -53,13 +53,10 @@ public class task_control {
 
         /*for(int i = 0; i < annotators.length; i++){*/
 
-        String human_annotation = "D:/m2w cs/evaluation-m2w/src/preprocessed/task_control_5_Lauren_annotated_7_pp";
-        String auto_annotation =  "D:/m2w cs/evaluation-m2w/src/preprocessed/task_control_5_automated_7_pp";
+        String human_annotation = "D:/m2w cs/evaluation-m2w/src/preprocessed/mar07A_2_survey_tpc";
+        String auto_annotation =  "D:/m2w cs/evaluation-m2w/src/preprocessed/mar07A_2_auto_tpc";
 
-
-        String evaluation_file = "D:/m2w cs/evaluation-m2w/src/output_files/task_control_5_Lauren_annotated_7_result_ce";
-
-
+        String evaluation_file = "D:/m2w cs/evaluation-m2w/src/output_files/task_control_mar07A_2_result_ce";
 
          try { //extract names/topics
                 BufferedReader br = new BufferedReader(new FileReader(human_annotation));
@@ -358,8 +355,8 @@ public class task_control {
 
                    save_human_quintile_scores();
                     save_auto_quintile_scores();
-                    save_human_actual_scores();
-                    save_auto_actual_scores();
+//                    save_human_actual_scores();
+//                    save_auto_actual_scores();
 
                      writeToEvaluation(evaluation_file, file, auto_annotation, curtopic, isnew);
                         init();
@@ -425,53 +422,53 @@ public class task_control {
         }
     }
 
-    public static void save_human_actual_scores(){
-        Object[] category = human_scores.keySet().toArray();
-        for(int i = 0; i < category.length; i++){
-            String[] actual_score_array = new String[speakers.length];
-            String[] scores = human_scores.get(category[i].toString());
-            for(int j = 0; j < scores.length; j++){
-                if(scores[j] == null || scores[j].equals("")){
-                    continue;
-                }
-                for(int k = 0; k < speakers.length; k++){
-                    if(scores[j].contains(speakers[k] + " ")){
-                        String speaker_scores = scores[j];
-                        String[] tmp = speaker_scores.split("---");
-                        String tmp2 = tmp[1].trim();
-                        String[] tmp3 = tmp2.split(":");
-                        String actual_score = tmp3[1].trim();
-                        actual_score_array[k] = actual_score;
-                    }
-                }
-            }
-            human_actual_scores.put(category[i].toString(), actual_score_array);
-        }
-    }
+//    public static void save_human_actual_scores(){
+//        Object[] category = human_scores.keySet().toArray();
+//        for(int i = 0; i < category.length; i++){
+//            String[] actual_score_array = new String[speakers.length];
+//            String[] scores = human_scores.get(category[i].toString());
+//            for(int j = 0; j < scores.length; j++){
+//                if(scores[j] == null || scores[j].equals("")){
+//                    continue;
+//                }
+//                for(int k = 0; k < speakers.length; k++){
+//                    if(scores[j].contains(speakers[k] + " ")){
+//                        String speaker_scores = scores[j];
+//                        String[] tmp = speaker_scores.split("---");
+//                        String tmp2 = tmp[1].trim();
+//                        String[] tmp3 = tmp2.split(":");
+//                        String actual_score = tmp3[1].trim();
+//                        actual_score_array[k] = actual_score;
+//                    }
+//                }
+//            }
+//            human_actual_scores.put(category[i].toString(), actual_score_array);
+//        }
+//    }
 
-    public static void save_auto_actual_scores(){
-        Object[] category = auto_scores.keySet().toArray();
-        for(int i = 0; i < category.length; i++){
-            String[] actual_score_array = new String[speakers.length];
-            String[] scores = auto_scores.get(category[i].toString());
-            for(int j = 0; j < scores.length; j++){
-                if(scores[j] == null || scores[j].equals("")){
-                    continue;
-                }
-                for(int k = 0; k < speakers.length; k++){
-                    if(scores[j].contains(speakers[k] + " ")){
-                        String speaker_scores = scores[j];
-                        String[] tmp = speaker_scores.split("---");
-                        String tmp2 = tmp[1].trim();
-                        String[] tmp3 = tmp2.split(":");
-                        String actual_score = tmp3[1].trim();
-                        actual_score_array[k] = actual_score;
-                    }
-                }
-            }
-            auto_actual_scores.put(category[i].toString(), actual_score_array);
-        }
-    }
+//    public static void save_auto_actual_scores(){
+//        Object[] category = auto_scores.keySet().toArray();
+//        for(int i = 0; i < category.length; i++){
+//            String[] actual_score_array = new String[speakers.length];
+//            String[] scores = auto_scores.get(category[i].toString());
+//            for(int j = 0; j < scores.length; j++){
+//                if(scores[j] == null || scores[j].equals("")){
+//                    continue;
+//                }
+//                for(int k = 0; k < speakers.length; k++){
+//                    if(scores[j].contains(speakers[k] + " ")){
+//                        String speaker_scores = scores[j];
+//                        String[] tmp = speaker_scores.split("---");
+//                        String tmp2 = tmp[1].trim();
+//                        String[] tmp3 = tmp2.split(":");
+//                        String actual_score = tmp3[1].trim();
+//                        actual_score_array[k] = actual_score;
+//                    }
+//                }
+//            }
+//            auto_actual_scores.put(category[i].toString(), actual_score_array);
+//        }
+//    }
 
     public static void writeToEvaluation(String filePath, String human_annotation, String auto_annotation, String curtopic, boolean isnew){
 //
@@ -528,12 +525,12 @@ public class task_control {
 		   			
 		   			 int counter = 0;
                     /*old match evaluation method*/
-                    MatchEval me = new MatchEval();
-                    me.matchEval_taskCtl(bw, auto_qscore, human_qscore, auto_qt, human_qt, speakers, category, human_actual_scores, auto_actual_scores, counter);
+//                    MatchEval me = new MatchEval();
+//                    me.matchEval_taskCtl(bw, auto_qscore, human_qscore, auto_qt, human_qt, speakers, category, human_actual_scores, auto_actual_scores, counter);
           
                     /*compare_evaluation*/
-//                    CompareEval CpEval = new CompareEval();
-//                    CpEval.compareEval(bw, speakers, auto_qscore, human_qscore);
+                    CompareEval CpEval = new CompareEval();
+                    CpEval.compareEval(bw, speakers, auto_qscore, human_qscore);
                     
                 }
 

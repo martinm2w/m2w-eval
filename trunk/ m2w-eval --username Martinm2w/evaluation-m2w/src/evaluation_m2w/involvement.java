@@ -55,10 +55,10 @@ public class involvement {
     //   String[] annotators = {"brian", "kerri", "lauren"};
 
       //  for(int i = 0; i < annotators.length; i++){
-            String human_annotation = "D:/m2w cs/evaluation-m2w/input_log/2010.08/involvement_6_Lauren_annotated_with_merge_2";
-            String auto_annotation = "D:/m2w cs/evaluation-m2w/input_log/2010.08/involvement_6_automated_with_merge_2";
+            String human_annotation = "D:/m2w cs/evaluation-m2w/src/input_files/mar07A_2_survey_inv";
+            String auto_annotation = "D:/m2w cs/evaluation-m2w/src/input_files/mar07A_2_auto_inv";
 
-            String evaluation_file = "D:/m2w cs/evaluation-m2w/src/output_files/involvement_6_Lauren_annotated_with_merge_2_result_me";
+            String evaluation_file = "D:/m2w cs/evaluation-m2w/src/output_files/involvement_mar07A_2_result_ce";
 
 
             try { //extract names/topics
@@ -503,13 +503,13 @@ public class involvement {
 		   			 int counter = 0;
 		   			 
                     /*old match evaluation method*/
-                    MatchEval me = new MatchEval();
-                    me.matchEval(bw, auto_qscore, human_qscore, auto_qt, human_qt, speakers, category, human_actual_scores, auto_actual_scores, counter);
+//                    MatchEval me = new MatchEval();
+//                    me.matchEval(bw, auto_qscore, human_qscore, auto_qt, human_qt, speakers, category, human_actual_scores, auto_actual_scores, counter);
                    
 
                     /*compare_evaluation*/
-//                    CompareEval CpEval = new CompareEval();
-//                    CpEval.compareEval(bw, speakers, auto_qscore, human_qscore);
+                    CompareEval CpEval = new CompareEval();
+                    CpEval.compareEval(bw, speakers, auto_qscore, human_qscore);
 
                 }
 
