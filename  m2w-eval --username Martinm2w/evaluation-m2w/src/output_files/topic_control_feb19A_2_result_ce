@@ -1,0 +1,128 @@
+---------------- Topic Control Evaluation --------------------- 
+Human annotated file: Feb19_GroupA.xml
+Auto annotated file: Feb19_GroupA.xml
+--------------------------------------------------------------- 
+-----------------------------lti---------------------------- 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+lisa < kerri		lisa < kerri
+lisa > jessicad		lisa > jessicad
+lisa < eugenia		lisa < eugenia
+lisa > laura		lisa > laura
+lisa > ilspersonnel2		lisa > ilspersonnel2
+lisa < jenniferb		lisa < jenniferb
+kerri > jessicad		kerri > jessicad
+kerri = eugenia		kerri = eugenia
+kerri > laura		kerri > laura
+kerri > ilspersonnel2		kerri > ilspersonnel2
+kerri < jenniferb		kerri < jenniferb
+jessicad < eugenia		jessicad < eugenia
+jessicad = laura		jessicad = laura
+jessicad > ilspersonnel2		jessicad > ilspersonnel2
+jessicad < jenniferb		jessicad < jenniferb
+eugenia > laura		eugenia > laura
+eugenia > ilspersonnel2		eugenia > ilspersonnel2
+eugenia < jenniferb		eugenia < jenniferb
+laura > ilspersonnel2		laura > ilspersonnel2
+laura < jenniferb		laura < jenniferb
+ilspersonnel2 < jenniferb		ilspersonnel2 < jenniferb
+::Equalcount		Totalcount		Accuracy
+::21		21		1.0
+-----------------------------smt---------------------------- 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+lisa < kerri		lisa < kerri
+lisa < jessicad		lisa < jessicad
+lisa > eugenia		lisa > eugenia
+lisa > laura		lisa > laura
+lisa > ilspersonnel2		lisa > ilspersonnel2
+lisa < jenniferb		lisa < jenniferb
+kerri < jessicad		kerri < jessicad
+kerri > eugenia		kerri > eugenia
+kerri > laura		kerri > laura
+kerri > ilspersonnel2		kerri > ilspersonnel2
+kerri = jenniferb		kerri = jenniferb
+jessicad > eugenia		jessicad > eugenia
+jessicad > laura		jessicad > laura
+jessicad > ilspersonnel2		jessicad > ilspersonnel2
+jessicad > jenniferb		jessicad > jenniferb
+eugenia = laura		eugenia = laura
+eugenia > ilspersonnel2		eugenia > ilspersonnel2
+eugenia < jenniferb		eugenia < jenniferb
+laura > ilspersonnel2		laura > ilspersonnel2
+laura < jenniferb		laura < jenniferb
+ilspersonnel2 < jenniferb		ilspersonnel2 < jenniferb
+::Equalcount		Totalcount		Accuracy
+::21		21		1.0
+-----------------------------cs---------------------------- 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+lisa < kerri		lisa < kerri
+lisa < jessicad		lisa < jessicad
+lisa > eugenia		lisa > eugenia
+lisa > laura		lisa > laura
+lisa > ilspersonnel2		lisa > ilspersonnel2
+lisa < jenniferb		lisa < jenniferb
+kerri < jessicad		kerri < jessicad
+kerri > eugenia		kerri > eugenia
+kerri > laura		kerri > laura
+kerri > ilspersonnel2		kerri > ilspersonnel2
+kerri = jenniferb		kerri = jenniferb
+jessicad > eugenia		jessicad > eugenia
+jessicad > laura		jessicad > laura
+jessicad > ilspersonnel2		jessicad > ilspersonnel2
+jessicad > jenniferb		jessicad > jenniferb
+eugenia = laura		eugenia = laura
+eugenia > ilspersonnel2		eugenia > ilspersonnel2
+eugenia < jenniferb		eugenia < jenniferb
+laura > ilspersonnel2		laura > ilspersonnel2
+laura < jenniferb		laura < jenniferb
+ilspersonnel2 < jenniferb		ilspersonnel2 < jenniferb
+::Equalcount		Totalcount		Accuracy
+::21		21		1.0
+-----------------------------tl---------------------------- 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+lisa > kerri		lisa > kerri
+lisa > jessicad		lisa > jessicad
+lisa > eugenia		lisa > eugenia
+lisa > laura		lisa > laura
+lisa = ilspersonnel2		lisa = ilspersonnel2
+lisa < jenniferb		lisa < jenniferb
+kerri = jessicad		kerri = jessicad
+kerri < eugenia		kerri < eugenia
+kerri > laura		kerri > laura
+kerri < ilspersonnel2		kerri < ilspersonnel2
+kerri < jenniferb		kerri < jenniferb
+jessicad < eugenia		jessicad < eugenia
+jessicad > laura		jessicad > laura
+jessicad < ilspersonnel2		jessicad < ilspersonnel2
+jessicad < jenniferb		jessicad < jenniferb
+eugenia > laura		eugenia > laura
+eugenia < ilspersonnel2		eugenia < ilspersonnel2
+eugenia < jenniferb		eugenia < jenniferb
+laura < ilspersonnel2		laura < ilspersonnel2
+laura < jenniferb		laura < jenniferb
+ilspersonnel2 < jenniferb		ilspersonnel2 < jenniferb
+::Equalcount		Totalcount		Accuracy
+::21		21		1.0
+-----------------------------merged quintile---------------------------- 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+lisa = kerri		lisa > kerri
+lisa < jessicad		lisa > jessicad
+lisa > eugenia		lisa > eugenia
+lisa > laura		lisa > laura
+lisa < jenniferb		lisa > jenniferb
+kerri < jessicad		kerri > jessicad
+kerri > eugenia		kerri > eugenia
+kerri > laura		kerri > laura
+kerri < jenniferb		kerri > jenniferb
+jessicad > eugenia		jessicad < eugenia
+jessicad > laura		jessicad < laura
+jessicad < jenniferb		jessicad < jenniferb
+eugenia > laura		eugenia < laura
+eugenia < jenniferb		eugenia < jenniferb
+laura < jenniferb		laura = jenniferb
+::Equalcount		Totalcount		Accuracy
+::6		15		0.4

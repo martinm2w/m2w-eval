@@ -1,0 +1,77 @@
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: Feb19_GroupA.xml
+total_ac_oc_: 0
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Task Control - DI quintile
+The di of ilspersonnel2 is: NaN
+The di of eugenia is: NaN
+The di of jenniferb is: NaN
+The di of kerri is: NaN
+The di of laura is: NaN
+The di of jessicad is: NaN
+The di of lisa is: NaN
+The quintile score of ilspersonnel2 is: -1
+The quintile score of eugenia is: -1
+The quintile score of jenniferb is: -1
+The quintile score of kerri is: -1
+The quintile score of laura is: -1
+The quintile score of jessicad is: -1
+The quintile score of lisa is: -1
+total_ac_oc_: 8
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Task Control - PMI quintile
+The di of ilspersonnel2 is: 0.25
+The di of eugenia is: 0.125
+The di of jenniferb is: 0.375
+The di of kerri is: 0.125
+The di of laura is: 0.0
+The di of jessicad is: 0.0
+The di of lisa is: 0.125
+qt_thrs:  33.0 20.4 2.0000000000000018 0.0 10.0
+qt_thrs:  0.30000000000000004 0.125 0.125 0.0 0.125
+The quintile score of jenniferb is: 5 --- actual score: 0.375
+The quintile score eugenia is: 3 --- actual score: 0.125
+The quintile score kerri is: 3 --- actual score: 0.125
+The quintile score lisa is: 3 --- actual score: 0.125
+The quintile score laura is: 1 --- actual score: 0.0
+The quintile score jessicad is: 1 --- actual score: 0.0
+total_ac_oc_: 5
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Task Control - PMSI quintile
+The di of ilspersonnel2 is: 0.4
+The di of eugenia is: 0.2
+The di of jenniferb is: 0.4
+The di of kerri is: 0.0
+The di of laura is: 0.0
+The di of jessicad is: 0.0
+The di of lisa is: 0.0
+qt_thrs:  33.0 20.4 2.0000000000000018 0.0 10.0
+qt_thrs:  0.4 0.15999999999999998 0.0 0.0 0.0
+The quintile score ilspersonnel2 is: 4 --- actual score: 0.4
+The quintile score jenniferb is: 4 --- actual score: 0.4
+The quintile score eugenia is: 4 --- actual score: 0.2
+The quintile score kerri is: 1 --- actual score: 0.0
+The quintile score laura is: 1 --- actual score: 0.0
+The quintile score jessicad is: 1 --- actual score: 0.0
+The quintile score lisa is: 1 --- actual score: 0.0
+total_ac_oc_: 0
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Task Control - DTSI quintile
+The di of ilspersonnel2 is: NaN
+The di of eugenia is: NaN
+The di of jenniferb is: NaN
+The di of kerri is: NaN
+The di of laura is: NaN
+The di of jessicad is: NaN
+The di of lisa is: NaN
+The quintile score of ilspersonnel2 is: -1
+The quintile score of eugenia is: -1
+The quintile score of jenniferb is: -1
+The quintile score of kerri is: -1
+The quintile score of laura is: -1
+The quintile score of jessicad is: -1
+The quintile score of lisa is: -1

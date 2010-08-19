@@ -1,0 +1,75 @@
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: Mar07_GroupA.xml
+total_ac_oc_: 0
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Task Control - DI quintile
+The di of jessamyn is: NaN
+The di of danielle is: NaN
+The di of nicole is: NaN
+The di of eugenia is: NaN
+The di of tony is: NaN
+The di of ashley is: NaN
+The di of ilspersonnel is: NaN
+The quintile score of jessamyn is: -1
+The quintile score of danielle is: -1
+The quintile score of nicole is: -1
+The quintile score of eugenia is: -1
+The quintile score of tony is: -1
+The quintile score of ashley is: -1
+The quintile score of ilspersonnel is: -1
+total_ac_oc_: 4
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Task Control - PMI quintile
+The di of jessamyn is: 0.0
+The di of danielle is: 0.0
+The di of nicole is: 0.0
+The di of eugenia is: 0.25
+The di of tony is: 0.25
+The di of ashley is: 0.0
+The di of ilspersonnel is: 0.5
+qt_thrs:  33.0 20.4 2.0000000000000018 0.0 10.0
+qt_thrs:  0.3500000000000001 0.19999999999999996 0.0 0.0 0.0
+The quintile score eugenia is: -1 --- actual score: 0.25
+The quintile score tony is: -1 --- actual score: 0.25
+The quintile score jessamyn is: -1 --- actual score: 0.0
+The quintile score danielle is: -1 --- actual score: 0.0
+The quintile score nicole is: -1 --- actual score: 0.0
+The quintile score ashley is: -1 --- actual score: 0.0
+total_ac_oc_: 3
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Task Control - PMSI quintile
+The di of jessamyn is: 0.0
+The di of danielle is: 0.0
+The di of nicole is: 0.0
+The di of eugenia is: 0.3333333333333333
+The di of tony is: 0.0
+The di of ashley is: 0.0
+The di of ilspersonnel is: 0.6666666666666666
+The quintile score of ilspersonnel is: -1
+The quintile score of eugenia is: -1
+The quintile score of jessamyn is: -1
+The quintile score of danielle is: -1
+The quintile score of nicole is: -1
+The quintile score of tony is: -1
+The quintile score of ashley is: -1
+total_ac_oc_: 0
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Task Control - DTSI quintile
+The di of jessamyn is: NaN
+The di of danielle is: NaN
+The di of nicole is: NaN
+The di of eugenia is: NaN
+The di of tony is: NaN
+The di of ashley is: NaN
+The di of ilspersonnel is: NaN
+The quintile score of jessamyn is: -1
+The quintile score of danielle is: -1
+The quintile score of nicole is: -1
+The quintile score of eugenia is: -1
+The quintile score of tony is: -1
+The quintile score of ashley is: -1
+The quintile score of ilspersonnel is: -1

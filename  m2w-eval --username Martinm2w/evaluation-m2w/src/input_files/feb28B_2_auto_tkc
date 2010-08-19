@@ -1,0 +1,67 @@
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: Feb28_GroupB.xml
+total_ac_oc_: 0
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Task Control - DI quintile
+The di of jorge1 is: NaN
+The di of tony is: NaN
+The di of ashley is: NaN
+The di of ilspersonnel is: NaN
+The di of lisa is: NaN
+The di of jessicad is: NaN
+The quintile score of jorge1 is: -1
+The quintile score of tony is: -1
+The quintile score of ashley is: -1
+The quintile score of ilspersonnel is: -1
+The quintile score of lisa is: -1
+The quintile score of jessicad is: -1
+total_ac_oc_: 4
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Task Control - PMI quintile
+The di of jorge1 is: 0.25
+The di of tony is: 0.0
+The di of ashley is: 0.0
+The di of ilspersonnel is: 0.5
+The di of lisa is: 0.0
+The di of jessicad is: 0.25
+qt_thrs:  33.0 20.4 2.0000000000000018 0.0 10.0
+qt_thrs:  0.3999999999999999 0.25 0.0 0.0 0.125
+The quintile score jorge1 is: -1 --- actual score: 0.25
+The quintile score jessicad is: -1 --- actual score: 0.25
+The quintile score tony is: -1 --- actual score: 0.0
+The quintile score ashley is: -1 --- actual score: 0.0
+The quintile score lisa is: -1 --- actual score: 0.0
+total_ac_oc_: 0
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Task Control - PMSI quintile
+The di of jorge1 is: NaN
+The di of tony is: NaN
+The di of ashley is: NaN
+The di of ilspersonnel is: NaN
+The di of lisa is: NaN
+The di of jessicad is: NaN
+The quintile score of jorge1 is: -1
+The quintile score of tony is: -1
+The quintile score of ashley is: -1
+The quintile score of ilspersonnel is: -1
+The quintile score of lisa is: -1
+The quintile score of jessicad is: -1
+total_ac_oc_: 0
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Task Control - DTSI quintile
+The di of jorge1 is: NaN
+The di of tony is: NaN
+The di of ashley is: NaN
+The di of ilspersonnel is: NaN
+The di of lisa is: NaN
+The di of jessicad is: NaN
+The quintile score of jorge1 is: -1
+The quintile score of tony is: -1
+The quintile score of ashley is: -1
+The quintile score of ilspersonnel is: -1
+The quintile score of lisa is: -1
+The quintile score of jessicad is: -1
