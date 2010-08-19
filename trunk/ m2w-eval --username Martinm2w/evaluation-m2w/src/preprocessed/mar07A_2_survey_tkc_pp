@@ -1,0 +1,21 @@
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: Mar07_GroupA.xml
+total_ac_oc_: 0
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Task Control - PMI quintile
+The di of jessamyn is: 0.0
+The di of danielle is: 0.0
+The di of nicole is: 0.0
+The di of eugenia is: 0.25
+The di of tony is: 0.25
+The di of ashley is: 0.0
+The di of ilspersonnel is: 0.5
+qt_thrs:  33.0 20.4 2.0000000000000018 0.0 10.0
+The quintile score eugenia is: 2 --- actual score: 0.25
+The quintile score tony is: 3 --- actual score: 0.25
+The quintile score jessamyn is: 2 --- actual score: 0.0
+The quintile score danielle is: 4 --- actual score: 0.0
+The quintile score nicole is: 5 --- actual score: 0.0
+The quintile score ashley is: 1 --- actual score: 0.0
+total_ac_oc_: 3

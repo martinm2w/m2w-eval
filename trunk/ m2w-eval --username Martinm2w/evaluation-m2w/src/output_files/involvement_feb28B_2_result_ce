@@ -1,0 +1,119 @@
+---------------- Involvement Evaluation --------------------- 
+Human annotated file: Feb28_GroupB.xml
+Auto annotated file: Feb28_GroupB.xml
+--------------------------------------------------------------- 
++++++++++++++++++++++++++ npi ++++++++++++++++++++++++++++++ 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+lisa > ashley		lisa > ashley
+lisa > jessicad		lisa > jessicad
+lisa > tony		lisa > tony
+lisa > jorge1		lisa > jorge1
+lisa > ilspersonnel		lisa > ilspersonnel
+ashley < jessicad		ashley < jessicad
+ashley < tony		ashley < tony
+ashley < jorge1		ashley < jorge1
+ashley > ilspersonnel		ashley > ilspersonnel
+jessicad = tony		jessicad = tony
+jessicad = jorge1		jessicad = jorge1
+jessicad > ilspersonnel		jessicad > ilspersonnel
+tony = jorge1		tony = jorge1
+tony > ilspersonnel		tony > ilspersonnel
+jorge1 > ilspersonnel		jorge1 > ilspersonnel
+::Equalcount		Totalcount		Accuracy
+::15		15		1.0
++++++++++++++++++++++++++ ti ++++++++++++++++++++++++++++++ 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+lisa > ashley		lisa > ashley
+lisa < jessicad		lisa < jessicad
+lisa > tony		lisa > tony
+lisa > jorge1		lisa > jorge1
+lisa > ilspersonnel		lisa > ilspersonnel
+ashley < jessicad		ashley < jessicad
+ashley > tony		ashley > tony
+ashley = jorge1		ashley = jorge1
+ashley > ilspersonnel		ashley > ilspersonnel
+jessicad > tony		jessicad > tony
+jessicad > jorge1		jessicad > jorge1
+jessicad > ilspersonnel		jessicad > ilspersonnel
+tony < jorge1		tony < jorge1
+tony > ilspersonnel		tony > ilspersonnel
+jorge1 > ilspersonnel		jorge1 > ilspersonnel
+::Equalcount		Totalcount		Accuracy
+::15		15		1.0
++++++++++++++++++++++++++ tci ++++++++++++++++++++++++++++++ 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+lisa > ashley		lisa > ashley
+lisa > jessicad		lisa > jessicad
+lisa > tony		lisa > tony
+lisa > jorge1		lisa > jorge1
+lisa > ilspersonnel		lisa > ilspersonnel
+ashley < jessicad		ashley < jessicad
+ashley < tony		ashley < tony
+ashley < jorge1		ashley < jorge1
+ashley > ilspersonnel		ashley > ilspersonnel
+jessicad = tony		jessicad = tony
+jessicad < jorge1		jessicad < jorge1
+jessicad > ilspersonnel		jessicad > ilspersonnel
+tony < jorge1		tony < jorge1
+tony > ilspersonnel		tony > ilspersonnel
+jorge1 > ilspersonnel		jorge1 > ilspersonnel
+::Equalcount		Totalcount		Accuracy
+::15		15		1.0
++++++++++++++++++++++++++ allotp ++++++++++++++++++++++++++++++ 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+lisa > ashley		lisa > ashley
+lisa > jessicad		lisa > jessicad
+lisa > tony		lisa > tony
+lisa > jorge1		lisa > jorge1
+lisa > ilspersonnel		lisa > ilspersonnel
+ashley < jessicad		ashley < jessicad
+ashley < tony		ashley < tony
+ashley < jorge1		ashley < jorge1
+ashley > ilspersonnel		ashley > ilspersonnel
+jessicad = tony		jessicad = tony
+jessicad < jorge1		jessicad < jorge1
+jessicad > ilspersonnel		jessicad > ilspersonnel
+tony < jorge1		tony < jorge1
+tony > ilspersonnel		tony > ilspersonnel
+jorge1 > ilspersonnel		jorge1 > ilspersonnel
+::Equalcount		Totalcount		Accuracy
+::15		15		1.0
++++++++++++++++++++++++++ asmi ++++++++++++++++++++++++++++++ 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+lisa > ashley		lisa > ashley
+lisa > jessicad		lisa > jessicad
+lisa > tony		lisa > tony
+lisa > jorge1		lisa > jorge1
+lisa > ilspersonnel		lisa > ilspersonnel
+ashley < jessicad		ashley < jessicad
+ashley < tony		ashley < tony
+ashley < jorge1		ashley < jorge1
+ashley > ilspersonnel		ashley > ilspersonnel
+jessicad > tony		jessicad > tony
+jessicad > jorge1		jessicad > jorge1
+jessicad > ilspersonnel		jessicad > ilspersonnel
+tony = jorge1		tony = jorge1
+tony > ilspersonnel		tony > ilspersonnel
+jorge1 > ilspersonnel		jorge1 > ilspersonnel
+::Equalcount		Totalcount		Accuracy
+::15		15		1.0
++++++++++++++++++++++++++ merged quintile ++++++++++++++++++++++++++++++ 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+lisa > ashley		lisa > ashley
+lisa > jessicad		lisa > jessicad
+lisa > tony		lisa > tony
+lisa > jorge1		lisa = jorge1
+ashley < jessicad		ashley = jessicad
+ashley < tony		ashley > tony
+ashley < jorge1		ashley < jorge1
+jessicad > tony		jessicad > tony
+jessicad > jorge1		jessicad < jorge1
+tony < jorge1		tony < jorge1
+::Equalcount		Totalcount		Accuracy
+::6		10		0.6

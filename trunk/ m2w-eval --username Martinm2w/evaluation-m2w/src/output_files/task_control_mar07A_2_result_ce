@@ -1,0 +1,24 @@
+---------------- Task Control Evaluation --------------------- 
+Human annotated file: Mar07_GroupA.xml
+Auto annotated file: Mar07_GroupA.xml
+--------------------------------------------------------------- 
+-----------------------------pmi---------------------------- 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+nicole = ashley		nicole > ashley
+nicole = tony		nicole > tony
+nicole = eugenia		nicole > eugenia
+nicole = danielle		nicole > danielle
+nicole = jessamyn		nicole > jessamyn
+ashley = tony		ashley < tony
+ashley = eugenia		ashley < eugenia
+ashley = danielle		ashley < danielle
+ashley = jessamyn		ashley < jessamyn
+tony = eugenia		tony > eugenia
+tony = danielle		tony < danielle
+tony = jessamyn		tony > jessamyn
+eugenia = danielle		eugenia < danielle
+eugenia = jessamyn		eugenia = jessamyn
+danielle = jessamyn		danielle > jessamyn
+::Equalcount		Totalcount		Accuracy
+::1		15		0.06666666666666667
