@@ -56,9 +56,9 @@ public class topic_control {
        // for(int i = 0; i < annotators.length; i++){
 
         String human_annotation = "D:/m2w cs/evaluation-m2w/src/input_files/mar07A_2_survey_tpc";
-        String auto_annotation = "D:/m2w cs/evaluation-m2w/src/input_files/mar07A_2_auto_tpc";
+        String auto_annotation = "D:/m2w cs/evaluation-m2w/src/input_files/mar07A_3_auto_remove_ils_tpc";
 
-        String evaluation_file = "D:/m2w cs/evaluation-m2w/src/output_files/topic_control_mar07A_2_result_ce";
+        String evaluation_file = "D:/m2w cs/evaluation-m2w/src/output_files/topic_control_mar07A_3_auto_remove_ils_result_ce";
 
             try { //extract names/topics
                 BufferedReader br = new BufferedReader(new FileReader(human_annotation));
@@ -467,7 +467,8 @@ public class topic_control {
                 	
                 	bw.write("---------------- Topic Control Evaluation --------------------- \n");
                 	
-                	filename.printFileNames(bw);
+//                	filename.printFileNames(bw);
+                	filename.printFileNamesAutoSurvey(bw);
                 	
                 	bw.write("--------------------------------------------------------------- \n");
                 }

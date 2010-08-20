@@ -1,0 +1,148 @@
+//opt/jdk1.6.0_03/bin/java -Xmx1024m -Xmn768m -Xss2048k -classpath /home/ting/develop/NLLIB:/home/ting/develop/edu/albany/ils/deer/tool/xml_parser/resolver.jar:/home/ting/develop/edu/albany/ils/deer/tool/xml_parser/serializer.jar:/home/ting/develop/edu/albany/ils/deer/tool/xml_parser/xercesImpl.jar:/home/ting/develop/edu/albany/ils/deer/tool/xml_parser/xercesSamples.jar:/home/ting/develop/edu/albany/ils/deer/tool/xml_parser/xml-apis.jar:/projects/SHARED/commons-math-2.0/commons-math-2.0.jar:{/projects/SHARED/report_lib/jsr173_1.0_api.jar:/projects/SHARED/report_lib/xmlpublic.jar:/projects/SHARED/report_lib/xmlbeans-qname.jar:/projects/SHARED/report_lib/xbean.jar:/projects/SHARED/report_lib/resolver.jar:/projects/SHARED/report_lib/ptsReport.jar:/projects/SHARED/report_lib/xbean_xpath.jar}:/projects/SHARED/jwnl1.3/jwnl.jar:/projects/SHARED/jwnl1.3/commons-logging.jar:/source.jar:/xerces.jar:/projects/SHARED/stanford-pos/stanford-postagger.jar edu.albany.ils.dsarmd0100.lu.Assertions /projects/SHARED/data/dsarmd/eval_2010aug_auto_tagged/feb28B
+setKey + setVal: happy ====== someone's nice mice were        also someone's nice pets.
+setKey + setVal: malenames ====== /home/ting/develop/NLTEST/DSARMD0100/male_names.txt
+setKey + setVal: femalenames ====== /home/ting/develop/NLTEST/DSARMD0100/female_names.txt
+setKey + setVal: eng_hum_pronouns ====== /home/ting/develop/NLTEST/DSARMD0100/english_human_pronouns.txt
+setKey + setVal: emotes ====== /home/ting/develop/NLTEST/DSARMD0100/emotes.txt
+setKey + setVal: eng_parsetools ====== /home/ting/develop/NLTEST/DSARMD0100/englishparsetools.txt
+setKey + setVal: formpronouns ====== /home/ting/develop/NLTEST/DSARMD0100/formpronouns.txt
+setKey + setVal: pw ====== /projects/SHARED/data/dsarmd/polarity/p_w
+setKey + setVal: nw ====== /projects/SHARED/data/dsarmd/polarity/n_w
+setKey + setVal: polarity_cues ====== /projects/SHARED/data/dsarmd/polarity/confs/polars
+setKey + setVal: yes ====== /projects/SHARED/data/dsarmd/polarity/yes
+setKey + setVal: no ====== /projects/SHARED/data/dsarmd/polarity/no
+setKey + setVal: posi_confs ====== /projects/SHARED/data/dsarmd/polarity/posi_confs
+setKey + setVal: neg_confs ====== /projects/SHARED/data/dsarmd/polarity/neg_confs
+setKey + setVal: afirst_words ====== /projects/SHARED/data/dsarmd/cmmlnk/afirst_words
+setKey + setVal: aafirst_words ====== /projects/SHARED/data/dsarmd/cmmlnk/aafirst_words
+setKey + setVal: acfirst_words ====== /projects/SHARED/data/dsarmd/cmmlnk/acfirst_words
+setKey + setVal: aacfirst_words ====== /projects/SHARED/data/dsarmd/cmmlnk/aacfirst_words
+setKey + setVal: stop_words ====== /projects/NL5/NL/NLCOMMON/bin/stop-words
+setKey + setVal: process_type ====== automated
+setKey + setVal: report ====== /home/ting/develop/NLTEST/DSARMD0100/Feb28BReport.xml
+load files...
++++++++++++++++++++++++++++++++++++++++++
+processing: Feb28_GroupB.xml
+467
+# of utterances: 467
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: Feb28_GroupB.xml
+size of LTs: 296
+size of mentions: 333
+sizeOfSSLTs: 12
+sizeOfILTs: 37
+jorge1's size of turns: 66
+==========================================
+From: jorge1
+parameters: 
+LTI: 0.125
+SMTI: 0.036036036036036036
+Cite Score: 0.0375
+TLI: 6.484848484848484
+ C-LTI: 0.24324324324324326
+sizeOfSSLTs: 9
+sizeOfILTs: 16
+tony's size of turns: 44
+==========================================
+From: tony
+parameters: 
+LTI: 0.05405405405405406
+SMTI: 0.02702702702702703
+Cite Score: 0.020833333333333332
+TLI: 6.431818181818182
+ C-LTI: 0.3125
+sizeOfSSLTs: 61
+sizeOfILTs: 50
+ashley's size of turns: 66
+==========================================
+From: ashley
+parameters: 
+LTI: 0.16891891891891891
+SMTI: 0.1831831831831832
+Cite Score: 0.23333333333333334
+TLI: 5.636363636363637
+ C-LTI: 1.12
+sizeOfSSLTs: 5
+sizeOfILTs: 16
+ilspersonnel's size of turns: 15
+==========================================
+From: ilspersonnel
+parameters: 
+LTI: 0.05405405405405406
+SMTI: 0.015015015015015015
+Cite Score: 0.0125
+TLI: 7.2
+ C-LTI: 0.1875
+sizeOfSSLTs: 140
+sizeOfILTs: 102
+lisa's size of turns: 118
+==========================================
+From: lisa
+parameters: 
+LTI: 0.34459459459459457
+SMTI: 0.42042042042042044
+Cite Score: 0.375
+TLI: 8.305084745762711
+ C-LTI: 0.8823529411764706
+sizeOfSSLTs: 106
+sizeOfILTs: 75
+jessicad's size of turns: 158
+==========================================
+From: jessicad
+parameters: 
+LTI: 0.2533783783783784
+SMTI: 0.3183183183183183
+Cite Score: 0.32083333333333336
+TLI: 5.234177215189874
+ C-LTI: 1.0266666666666666
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control - LTI quintile
+qt_thrs:  0.30810810810810807 0.18581081081081083 0.11081081081081079 0.05405405405405406 0.14695945945945946
+The quintile score of lisa is: 5 --- actual score: 0.34459459459459457
+The quintile score jessicad is: 4 --- actual score: 0.2533783783783784
+The quintile score ashley is: 3 --- actual score: 0.16891891891891891
+The quintile score jorge1 is: 3 --- actual score: 0.125
+The quintile score tony is: 1 --- actual score: 0.05405405405405406
+The quintile score ilspersonnel is: 1 --- actual score: 0.05405405405405406
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  SMT quintile: 
+qt_thrs:  0.37957957957957955 0.21021021021021025 0.03423423423423423 0.01981981981981982 0.10960960960960961
+The quintile score of lisa is: 5 --- actual score: 0.42042042042042044
+The quintile score jessicad is: 4 --- actual score: 0.3183183183183183
+The quintile score ashley is: 3 --- actual score: 0.1831831831831832
+The quintile score jorge1 is: 3 --- actual score: 0.036036036036036036
+The quintile score tony is: 2 --- actual score: 0.02702702702702703
+The quintile score ilspersonnel is: 1 --- actual score: 0.015015015015015015
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  CS quintile
+qt_thrs:  0.35333333333333333 0.25083333333333335 0.034166666666666665 0.01583333333333333 0.13541666666666666
+The quintile score of lisa is: 5 --- actual score: 0.375
+The quintile score jessicad is: 4 --- actual score: 0.32083333333333336
+The quintile score ashley is: 3 --- actual score: 0.23333333333333334
+The quintile score jorge1 is: 3 --- actual score: 0.0375
+The quintile score tony is: 2 --- actual score: 0.020833333333333332
+The quintile score ilspersonnel is: 1 --- actual score: 0.0125
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  TL quintile
+qt_thrs:  7.863050847457626 6.627878787878788 6.2727272727272725 5.395051783659379 6.458333333333333
+The quintile score of lisa is: 5 --- actual score: 8.305084745762711
+The quintile score ilspersonnel is: 4 --- actual score: 7.2
+The quintile score jorge1 is: 3 --- actual score: 6.484848484848484
+The quintile score tony is: 3 --- actual score: 6.431818181818182
+The quintile score ashley is: 2 --- actual score: 5.636363636363637
+The quintile score jessicad is: 1 --- actual score: 5.234177215189874
+++++++++++++++++++++++++++++++++
+calculate Merged quintile
+qt_thrs:  0.3052813998613592 0.19706356457625643 0.08599575514163194 0.06628226858405836 0.13655747040826488
+The quintile score of lisa is: 5 --- actual score: 0.33784544526137505
+The quintile score jessicad is: 2 --- actual score: 0.25643533176133554
+The quintile score ashley is: 3 --- actual score: 0.18222062277998663
+The quintile score jorge1 is: 4 --- actual score: 0.0908943180365431
+The quintile score tony is: 1 --- actual score: 0.0664015035619873
