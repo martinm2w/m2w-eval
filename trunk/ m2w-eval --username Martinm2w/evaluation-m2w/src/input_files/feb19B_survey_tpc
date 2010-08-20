@@ -1,0 +1,161 @@
+/opt/jdk1.6.0_03/bin/java -Xmx1024m -Xmn768m -Xss2048k -classpath /home/ting/develop/NLLIB:/home/ting/develop/edu/albany/ils/deer/tool/xml_parser/resolver.jar:/home/ting/develop/edu/albany/ils/deer/tool/xml_parser/serializer.jar:/home/ting/develop/edu/albany/ils/deer/tool/xml_parser/xercesImpl.jar:/home/ting/develop/edu/albany/ils/deer/tool/xml_parser/xercesSamples.jar:/home/ting/develop/edu/albany/ils/deer/tool/xml_parser/xml-apis.jar:/projects/SHARED/commons-math-2.0/commons-math-2.0.jar:{/projects/SHARED/report_lib/jsr173_1.0_api.jar:/projects/SHARED/report_lib/xmlpublic.jar:/projects/SHARED/report_lib/xmlbeans-qname.jar:/projects/SHARED/report_lib/xbean.jar:/projects/SHARED/report_lib/resolver.jar:/projects/SHARED/report_lib/ptsReport.jar:/projects/SHARED/report_lib/xbean_xpath.jar}:/projects/SHARED/jwnl1.3/jwnl.jar:/projects/SHARED/jwnl1.3/commons-logging.jar:/source.jar:/xerces.jar:/projects/SHARED/stanford-pos/stanford-postagger.jar edu.albany.ils.dsarmd0100.lu.Assertions /projects/SHARED/data/dsarmd/annotated_files/lauren_annotated_feb19B
+setKey + setVal: happy ====== someone's nice mice were        also someone's nice pets.
+setKey + setVal: malenames ====== /home/ting/develop/NLTEST/DSARMD0100/male_names.txt
+setKey + setVal: femalenames ====== /home/ting/develop/NLTEST/DSARMD0100/female_names.txt
+setKey + setVal: eng_hum_pronouns ====== /home/ting/develop/NLTEST/DSARMD0100/english_human_pronouns.txt
+setKey + setVal: emotes ====== /home/ting/develop/NLTEST/DSARMD0100/emotes.txt
+setKey + setVal: eng_parsetools ====== /home/ting/develop/NLTEST/DSARMD0100/englishparsetools.txt
+setKey + setVal: formpronouns ====== /home/ting/develop/NLTEST/DSARMD0100/formpronouns.txt
+setKey + setVal: pw ====== /projects/SHARED/data/dsarmd/polarity/p_w
+setKey + setVal: nw ====== /projects/SHARED/data/dsarmd/polarity/n_w
+setKey + setVal: polarity_cues ====== /projects/SHARED/data/dsarmd/polarity/confs/polars
+setKey + setVal: yes ====== /projects/SHARED/data/dsarmd/polarity/yes
+setKey + setVal: no ====== /projects/SHARED/data/dsarmd/polarity/no
+setKey + setVal: posi_confs ====== /projects/SHARED/data/dsarmd/polarity/posi_confs
+setKey + setVal: neg_confs ====== /projects/SHARED/data/dsarmd/polarity/neg_confs
+setKey + setVal: afirst_words ====== /projects/SHARED/data/dsarmd/cmmlnk/afirst_words
+setKey + setVal: aafirst_words ====== /projects/SHARED/data/dsarmd/cmmlnk/aafirst_words
+setKey + setVal: acfirst_words ====== /projects/SHARED/data/dsarmd/cmmlnk/acfirst_words
+setKey + setVal: aacfirst_words ====== /projects/SHARED/data/dsarmd/cmmlnk/aacfirst_words
+setKey + setVal: stop_words ====== /projects/NL5/NL/NLCOMMON/bin/stop-words
+setKey + setVal: process_type ====== annotated
+setKey + setVal: report ====== /home/ting/develop/NLTEST/DSARMD0100/SalesAssociateReport.xml
+load files...
++++++++++++++++++++++++++++++++++++++++++
+processing: Feb19_GroupB_lauren.xml
+597
+turnnoplace: 223
+turnend: 250
+turnnoplace: 223
+turnend: 325
+turnnoplace: 331
+turnend: 406
+turnnoplace: 265
+turnend: 295
+turnnoplace: 261
+turnend: 299
+turnnoplace: 212
+turnend: 239
+# of utterances: 584
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: Feb19_GroupB_lauren.xml
+size of LTs: 115
+size of mentions: 518
+sizeOfSSLTs: 14
+sizeOfILTs: 3
+jessamyn's size of turns: 53
+==========================================
+From: jessamyn
+parameters: 
+LTI: 0.02608695652173913
+SMTI: 0.02702702702702703
+Cite Score: 0.030136986301369864
+TLI: 5.90566037735849
+ C-LTI: 3.6666666666666665
+sizeOfSSLTs: 38
+sizeOfILTs: 12
+danielle's size of turns: 54
+==========================================
+From: danielle
+parameters: 
+LTI: 0.10434782608695652
+SMTI: 0.07335907335907337
+Cite Score: 0.08493150684931507
+TLI: 9.574074074074074
+ C-LTI: 2.5833333333333335
+sizeOfSSLTs: 93
+sizeOfILTs: 26
+dk's size of turns: 163
+==========================================
+From: dk
+parameters: 
+LTI: 0.22608695652173913
+SMTI: 0.17953667953667954
+Cite Score: 0.19726027397260273
+TLI: 5.539877300613497
+ C-LTI: 2.769230769230769
+sizeOfSSLTs: 18
+sizeOfILTs: 10
+jessicaf's size of turns: 72
+==========================================
+From: jessicaf
+parameters: 
+LTI: 0.08695652173913043
+SMTI: 0.03474903474903475
+Cite Score: 0.038356164383561646
+TLI: 7.055555555555555
+ C-LTI: 1.4
+sizeOfSSLTs: 230
+sizeOfILTs: 47
+carol's size of turns: 140
+==========================================
+From: carol
+parameters: 
+LTI: 0.40869565217391307
+SMTI: 0.444015444015444
+Cite Score: 0.3643835616438356
+TLI: 10.007142857142858
+ C-LTI: 2.8297872340425534
+sizeOfSSLTs: 125
+sizeOfILTs: 17
+Nicole's size of turns: 103
+==========================================
+From: Nicole
+parameters: 
+LTI: 0.14782608695652175
+SMTI: 0.2413127413127413
+Cite Score: 0.28493150684931506
+TLI: 5.456310679611651
+ C-LTI: 6.117647058823529
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control - LTI quintile
+qt_thrs:  0.3356521739130434 0.16347826086956524 0.1008695652173913 0.05043478260869565 0.12608695652173912
+The quintile score of carol is: 5 --- actual score: 0.40869565217391307
+The quintile score dk is: 4 --- actual score: 0.22608695652173913
+The quintile score Nicole is: 3 --- actual score: 0.14782608695652175
+The quintile score danielle is: 3 --- actual score: 0.10434782608695652
+The quintile score jessicaf is: 2 --- actual score: 0.08695652173913043
+The quintile score jessamyn is: 1 --- actual score: 0.02608695652173913
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  SMT quintile: 
+qt_thrs:  0.3629343629343629 0.1918918918918919 0.06563706563706563 0.030115830115830116 0.12644787644787644
+The quintile score of carol is: 5 --- actual score: 0.444015444015444
+The quintile score Nicole is: 4 --- actual score: 0.2413127413127413
+The quintile score dk is: 3 --- actual score: 0.17953667953667954
+The quintile score danielle is: 3 --- actual score: 0.07335907335907337
+The quintile score jessicaf is: 2 --- actual score: 0.03474903474903475
+The quintile score jessamyn is: 1 --- actual score: 0.02702702702702703
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  CS quintile
+qt_thrs:  0.3326027397260274 0.2147945205479452 0.07561643835616438 0.033424657534246574 0.1410958904109589
+The quintile score of carol is: 5 --- actual score: 0.3643835616438356
+The quintile score Nicole is: 4 --- actual score: 0.28493150684931506
+The quintile score dk is: 3 --- actual score: 0.19726027397260273
+The quintile score danielle is: 3 --- actual score: 0.08493150684931507
+The quintile score jessicaf is: 2 --- actual score: 0.038356164383561646
+The quintile score jessamyn is: 1 --- actual score: 0.030136986301369864
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  TL quintile
+qt_thrs:  9.833915343915343 7.559259259259259 5.832503762009492 5.48973732801239 6.480607966457023
+The quintile score of carol is: 5 --- actual score: 10.007142857142858
+The quintile score danielle is: 4 --- actual score: 9.574074074074074
+The quintile score jessicaf is: 3 --- actual score: 7.055555555555555
+The quintile score jessamyn is: 3 --- actual score: 5.90566037735849
+The quintile score dk is: 2 --- actual score: 5.539877300613497
+The quintile score Nicole is: 1 --- actual score: 5.456310679611651
+++++++++++++++++++++++++++++++++
+calculate Merged quintile
+qt_thrs:  0.2969801281242904 0.18599446350426863 0.11261309211259561 0.06504537986264357 0.15158265900949583
+The quintile score of carol is: 4 --- actual score: 0.3617349635478861
+The quintile score Nicole is: 3 --- actual score: 0.19984787498889714
+The quintile score dk is: 5 --- actual score: 0.18253111063311148
+The quintile score danielle is: 2 --- actual score: 0.1206342073858802
+The quintile score jessicaf is: 3 --- actual score: 0.08052863101945731
+The quintile score jessamyn is: 1 --- actual score: 0.05472321242476775
