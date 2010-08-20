@@ -1,0 +1,104 @@
+---------------- Topic Control Evaluation --------------------- 
+Human annotated file: Feb19_GroupB_lauren.xml
+Survey annotated file: Feb19_GroupB_lauren.xml
+--------------------------------------------------------------- 
+-----------------------------lti---------------------------- 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+nicole = danielle		nicole = danielle
+nicole < dk		nicole < dk
+nicole > jessamyn		nicole > jessamyn
+nicole < carol		nicole < carol
+nicole > jessicaf		nicole > jessicaf
+danielle < dk		danielle < dk
+danielle > jessamyn		danielle > jessamyn
+danielle < carol		danielle < carol
+danielle > jessicaf		danielle > jessicaf
+dk > jessamyn		dk > jessamyn
+dk < carol		dk < carol
+dk > jessicaf		dk > jessicaf
+jessamyn < carol		jessamyn < carol
+jessamyn < jessicaf		jessamyn < jessicaf
+carol > jessicaf		carol > jessicaf
+::Equalcount		Totalcount		Accuracy
+::15		15		1.0
+-----------------------------smt---------------------------- 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+nicole > danielle		nicole > danielle
+nicole > dk		nicole > dk
+nicole > jessamyn		nicole > jessamyn
+nicole < carol		nicole < carol
+nicole > jessicaf		nicole > jessicaf
+danielle = dk		danielle = dk
+danielle > jessamyn		danielle > jessamyn
+danielle < carol		danielle < carol
+danielle > jessicaf		danielle > jessicaf
+dk > jessamyn		dk > jessamyn
+dk < carol		dk < carol
+dk > jessicaf		dk > jessicaf
+jessamyn < carol		jessamyn < carol
+jessamyn < jessicaf		jessamyn < jessicaf
+carol > jessicaf		carol > jessicaf
+::Equalcount		Totalcount		Accuracy
+::15		15		1.0
+-----------------------------cs---------------------------- 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+nicole > danielle		nicole > danielle
+nicole > dk		nicole > dk
+nicole > jessamyn		nicole > jessamyn
+nicole < carol		nicole < carol
+nicole > jessicaf		nicole > jessicaf
+danielle = dk		danielle = dk
+danielle > jessamyn		danielle > jessamyn
+danielle < carol		danielle < carol
+danielle > jessicaf		danielle > jessicaf
+dk > jessamyn		dk > jessamyn
+dk < carol		dk < carol
+dk > jessicaf		dk > jessicaf
+jessamyn < carol		jessamyn < carol
+jessamyn < jessicaf		jessamyn < jessicaf
+carol > jessicaf		carol > jessicaf
+::Equalcount		Totalcount		Accuracy
+::15		15		1.0
+-----------------------------tl---------------------------- 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+nicole < danielle		nicole < danielle
+nicole < dk		nicole < dk
+nicole < jessamyn		nicole < jessamyn
+nicole < carol		nicole < carol
+nicole < jessicaf		nicole < jessicaf
+danielle > dk		danielle > dk
+danielle > jessamyn		danielle > jessamyn
+danielle < carol		danielle < carol
+danielle > jessicaf		danielle > jessicaf
+dk < jessamyn		dk < jessamyn
+dk < carol		dk < carol
+dk < jessicaf		dk < jessicaf
+jessamyn < carol		jessamyn < carol
+jessamyn = jessicaf		jessamyn = jessicaf
+carol > jessicaf		carol > jessicaf
+::Equalcount		Totalcount		Accuracy
+::15		15		1.0
+-----------------------------merged quintile---------------------------- 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+nicole > danielle		nicole > danielle
+nicole < dk		nicole > dk
+nicole > jessamyn		nicole > jessamyn
+nicole < carol		nicole < carol
+nicole = jessicaf		nicole > jessicaf
+danielle < dk		danielle = dk
+danielle > jessamyn		danielle > jessamyn
+danielle < carol		danielle < carol
+danielle < jessicaf		danielle > jessicaf
+dk > jessamyn		dk > jessamyn
+dk > carol		dk < carol
+dk > jessicaf		dk > jessicaf
+jessamyn < carol		jessamyn < carol
+jessamyn < jessicaf		jessamyn < jessicaf
+carol > jessicaf		carol > jessicaf
+::Equalcount		Totalcount		Accuracy
+::10		15		0.6666666666666666
