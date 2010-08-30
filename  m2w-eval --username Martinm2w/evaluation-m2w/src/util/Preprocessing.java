@@ -26,10 +26,10 @@ public class Preprocessing {
 		
 		
 		p.parseTskCtrl(
-				"D:/m2w cs/evaluation-m2w/src/input_files/mar07A_2_survey_tkc",
-				"D:/m2w cs/evaluation-m2w/src/input_files/mar07A_2_auto_tkc",
-				"D:/m2w cs/evaluation-m2w/src/preprocessed/mar07A_2_survey_tkc_pp",
-				"D:/m2w cs/evaluation-m2w/src/preprocessed/mar07A_2_auto_tkc_pp");
+				"D:/m2w cs/evaluation-m2w/src/input_files/task_control_6_lauren_annonated_ymca_training_cheney",
+				"D:/m2w cs/evaluation-m2w/src/input_files/task_control_6_automated_ymca_training_cheney",
+				"D:/m2w cs/evaluation-m2w/src/preprocessed/task_control_6_lauren_annonated_ymca_training_cheney_pp",
+				"D:/m2w cs/evaluation-m2w/src/preprocessed/task_control_6_automated_ymca_training_cheney_pp");
 //		
 		
 		
@@ -445,13 +445,18 @@ public class Preprocessing {
 			
 			System.out.println("Hlist size is :"+ HList.size());
 			System.out.println("Alist size is :"+ AList.size());
+			System.out.println("Hlist 1 1  is :"+ HList.get(0).get(0));
 			
 			
 			/*2.1parse human, delete -1 */ //ok
 			for (int i = 0; i < HList.size(); i ++){
 				for(int j = 0 ; j < HList.get(i).size(); j++){
-					String tempStr = HList.get(i).get(j).toString();
-					if (tempStr.contains("-1")){
+					String tempStr = HList.get(i).get(j);
+//					System.out.println(tempStr);
+					if ((tempStr != null) && tempStr.contains("-1")){
+						
+						System.out.println(i);
+						
 						delHList.add(i);
 						delAList.add(i);
 						break;
@@ -480,9 +485,9 @@ public class Preprocessing {
 			for (int i = 0; i < AList.size(); i ++){
 				for(int j = 0 ; j < AList.get(i).size(); j++){
 					
-					String tempStr = AList.get(i).get(j).toString();
+					String tempStr = AList.get(i).get(j);
 					
-					if (tempStr.contains("-1")){
+					if ((tempStr != null) && tempStr.contains("-1")){
 						
 						AList.get(i).set(j, tempStr + " --- actual score: 0");
 						
