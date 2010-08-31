@@ -1,0 +1,281 @@
+/opt/jdk1.6.0_03/bin/java -Xmx1024m -Xmn768m -Xss2048k -classpath /home/ting/develop/NLLIB:/home/ting/develop/edu/albany/ils/deer/tool/xml_parser/resolver.jar:/home/ting/develop/edu/albany/ils/deer/tool/xml_parser/serializer.jar:/home/ting/develop/edu/albany/ils/deer/tool/xml_parser/xercesImpl.jar:/home/ting/develop/edu/albany/ils/deer/tool/xml_parser/xercesSamples.jar:/home/ting/develop/edu/albany/ils/deer/tool/xml_parser/xml-apis.jar:/projects/SHARED/commons-math-2.0/commons-math-2.0.jar:{/projects/SHARED/report_lib/jsr173_1.0_api.jar:/projects/SHARED/report_lib/xmlpublic.jar:/projects/SHARED/report_lib/xmlbeans-qname.jar:/projects/SHARED/report_lib/xbean.jar:/projects/SHARED/report_lib/resolver.jar:/projects/SHARED/report_lib/ptsReport.jar:/projects/SHARED/report_lib/xbean_xpath.jar}:/projects/SHARED/jwnl1.3/jwnl.jar:/projects/SHARED/jwnl1.3/commons-logging.jar:/source.jar:/xerces.jar:/projects/SHARED/stanford-pos/stanford-postagger.jar edu.albany.ils.dsarmd0100.lu.Assertions /projects/SHARED/data/dsarmd/auto_ymca_cashier_cheney
+setKey + setVal: happy ====== someone's nice mice were        also someone's nice pets.
+setKey + setVal: malenames ====== /home/ting/develop/NLTEST/DSARMD0100/male_names.txt
+setKey + setVal: femalenames ====== /home/ting/develop/NLTEST/DSARMD0100/female_names.txt
+setKey + setVal: eng_hum_pronouns ====== /home/ting/develop/NLTEST/DSARMD0100/english_human_pronouns.txt
+setKey + setVal: emotes ====== /home/ting/develop/NLTEST/DSARMD0100/emotes.txt
+setKey + setVal: eng_parsetools ====== /home/ting/develop/NLTEST/DSARMD0100/englishparsetools.txt
+setKey + setVal: formpronouns ====== /home/ting/develop/NLTEST/DSARMD0100/formpronouns.txt
+setKey + setVal: pw ====== /projects/SHARED/data/dsarmd/polarity/p_w
+setKey + setVal: nw ====== /projects/SHARED/data/dsarmd/polarity/n_w
+setKey + setVal: polarity_cues ====== /projects/SHARED/data/dsarmd/polarity/confs/polars
+setKey + setVal: yes ====== /projects/SHARED/data/dsarmd/polarity/yes
+setKey + setVal: no ====== /projects/SHARED/data/dsarmd/polarity/no
+setKey + setVal: posi_confs ====== /projects/SHARED/data/dsarmd/polarity/posi_confs
+setKey + setVal: neg_confs ====== /projects/SHARED/data/dsarmd/polarity/neg_confs
+setKey + setVal: afirst_words ====== /projects/SHARED/data/dsarmd/cmmlnk/afirst_words
+setKey + setVal: aafirst_words ====== /projects/SHARED/data/dsarmd/cmmlnk/aafirst_words
+setKey + setVal: acfirst_words ====== /projects/SHARED/data/dsarmd/cmmlnk/acfirst_words
+setKey + setVal: aacfirst_words ====== /projects/SHARED/data/dsarmd/cmmlnk/aacfirst_words
+setKey + setVal: stop_words ====== /projects/NL5/NL/NLCOMMON/bin/stop-words
+setKey + setVal: process_type ====== automated
+setKey + setVal: report ====== /home/ting/develop/NLTEST/DSARMD0100/Feb28_GroupA_Report.xml
+load files...
++++++++++++++++++++++++++++++++++++++++++
+processing: Lauren_Cheney_final_predictions.xml
+602
+uttloc = 28 and uttend = -1
+<Dialogue date="2009-05-03">
+turnnoplace: 211
+turnend: 245
+uttloc = 209 and uttend = -1
+<turn comm_act_type="continuation-of" dialog_act="unknown:Acknowledge" end_time="8:43:35 PM" link_to="kara:177" mode="chat" polarity="" pos="" pos_count="" pos_origin="" speaker="kara" topic="" turn_no="178"/>
+# of utterances: 602
++++++++++++++++++++++++++++++++++++++++++
+processing: Lauren_Training_final_predictions.xml
+167
+uttloc = 28 and uttend = -1
+<Dialogue date="2009-05-03">
+turnnoplace: 301
+turnend: 388
+turnnoplace: 213
+turnend: 233
+turnnoplace: 216
+turnend: 235
+turnnoplace: 216
+turnend: 231
+turnnoplace: 220
+turnend: 251
+turnnoplace: 407
+turnend: 485
+# of utterances: 162
++++++++++++++++++++++++++++++++++++++++++
+processing: YMCA_lauren_final_predictions.xml
+656
+uttloc = 28 and uttend = -1
+<Dialogue date="2009-05-03">
+turnnoplace: 204
+turnend: 212
+uttloc = 204 and uttend = -1
+<turn comm_act_type="response-to" dialog_act="COMM-MGMT:unknown" end_time="9:47:33 PM" link_to="kara:608" mode="chat" polarity="" pos="" pos_count="" pos_origin="" speaker="kerri" topic="" turn_no="609"/>
+# of utterances: 656
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: Lauren_Cheney_final_predictions.xml
+total_ac_oc_: 0
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Task Control - DI quintile
+The di of jennifer is: NaN
+The di of ken is: NaN
+The di of jianhua is: NaN
+The di of kerri is: NaN
+The di of chris is: NaN
+The di of jenny is: NaN
+The di of kara is: NaN
+The quintile score of jennifer is: -1
+The quintile score of ken is: -1
+The quintile score of jianhua is: -1
+The quintile score of kerri is: -1
+The quintile score of chris is: -1
+The quintile score of jenny is: -1
+The quintile score of kara is: -1
+total_ac_oc_: 10
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Task Control - PMI quintile
+The di of jennifer is: 0.1
+The di of ken is: 0.2
+The di of jianhua is: 0.4
+The di of kerri is: 0.1
+The di of chris is: 0.0
+The di of jenny is: 0.0
+The di of kara is: 0.2
+qt_thrs:  33.0 20.4 2.0000000000000018 0.0 10.0 15.988090805942017
+qt_thrs:  0.2800000000000001 0.18 0.1 0.0 0.1 0.13972762620115442
+The quintile score of jianhua is: 5 --- actual score: 0.4
+The quintile score ken is: 4 --- actual score: 0.2
+The quintile score kara is: 4 --- actual score: 0.2
+The quintile score jennifer is: 2 --- actual score: 0.1
+The quintile score kerri is: 2 --- actual score: 0.1
+The quintile score chris is: 1 --- actual score: 0.0
+The quintile score jenny is: 1 --- actual score: 0.0
+total_ac_oc_: 3
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Task Control - PMSI quintile
+The di of jennifer is: 0.3333333333333333
+The di of ken is: 0.3333333333333333
+The di of jianhua is: 0.0
+The di of kerri is: 0.3333333333333333
+The di of chris is: 0.0
+The di of jenny is: 0.0
+The di of kara is: 0.0
+The quintile score of jennifer is: -1
+The quintile score of ken is: -1
+The quintile score of kerri is: -1
+The quintile score of jianhua is: -1
+The quintile score of chris is: -1
+The quintile score of jenny is: -1
+The quintile score of kara is: -1
+total_ac_oc_: 0
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Task Control - DTSI quintile
+The di of jennifer is: NaN
+The di of ken is: NaN
+The di of jianhua is: NaN
+The di of kerri is: NaN
+The di of chris is: NaN
+The di of jenny is: NaN
+The di of kara is: NaN
+The quintile score of jennifer is: -1
+The quintile score of ken is: -1
+The quintile score of jianhua is: -1
+The quintile score of kerri is: -1
+The quintile score of chris is: -1
+The quintile score of jenny is: -1
+The quintile score of kara is: -1
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: Lauren_Training_final_predictions.xml
+total_ac_oc_: 0
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Task Control - DI quintile
+The di of jennifer is: NaN
+The di of jamie is: NaN
+The di of jianhua is: NaN
+The di of chris is: NaN
+The di of kara is: NaN
+The quintile score of jennifer is: -1
+The quintile score of jamie is: -1
+The quintile score of jianhua is: -1
+The quintile score of chris is: -1
+The quintile score of kara is: -1
+total_ac_oc_: 16
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Task Control - PMI quintile
+The di of jennifer is: 0.4375
+The di of jamie is: 0.125
+The di of jianhua is: 0.3125
+The di of chris is: 0.0
+The di of kara is: 0.125
+qt_thrs:  33.0 20.4 2.0000000000000018 0.0 10.0 15.988090805942017
+qt_thrs:  0.4125 0.23750000000000002 0.125 0.024999999999999994 0.125 0.1734304615688951
+The quintile score of jennifer is: 5 --- actual score: 0.4375
+The quintile score jianhua is: 4 --- actual score: 0.3125
+The quintile score jamie is: 2 --- actual score: 0.125
+The quintile score kara is: 2 --- actual score: 0.125
+The quintile score chris is: 1 --- actual score: 0.0
+total_ac_oc_: 2
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Task Control - PMSI quintile
+The di of jennifer is: 0.0
+The di of jamie is: 0.0
+The di of jianhua is: 1.0
+The di of chris is: 0.0
+The di of kara is: 0.0
+The quintile score of jianhua is: -1
+The quintile score of jennifer is: -1
+The quintile score of jamie is: -1
+The quintile score of chris is: -1
+The quintile score of kara is: -1
+total_ac_oc_: 0
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Task Control - DTSI quintile
+The di of jennifer is: NaN
+The di of jamie is: NaN
+The di of jianhua is: NaN
+The di of chris is: NaN
+The di of kara is: NaN
+The quintile score of jennifer is: -1
+The quintile score of jamie is: -1
+The quintile score of jianhua is: -1
+The quintile score of chris is: -1
+The quintile score of kara is: -1
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: YMCA_lauren_final_predictions.xml
+total_ac_oc_: 2
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Task Control - DI quintile
+The di of jennifer is: 0.5
+The di of ken is: 0.0
+The di of lance is: 0.0
+The di of kerri is: 0.0
+The di of chris is: 0.0
+The di of jenny is: 0.0
+The di of kara is: 0.5
+The quintile score of jennifer is: -1
+The quintile score of kara is: -1
+The quintile score of ken is: -1
+The quintile score of lance is: -1
+The quintile score of kerri is: -1
+The quintile score of chris is: -1
+The quintile score of jenny is: -1
+total_ac_oc_: 132
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Task Control - PMI quintile
+The di of jennifer is: 0.20454545454545456
+The di of ken is: 0.12878787878787878
+The di of lance is: 0.07575757575757576
+The di of kerri is: 0.3181818181818182
+The di of chris is: 0.05303030303030303
+The di of jenny is: 0.03787878787878788
+The di of kara is: 0.18181818181818182
+qt_thrs:  33.0 20.4 2.0000000000000018 0.0 10.0 15.988090805942017
+qt_thrs:  0.25000000000000006 0.1712121212121212 0.08636363636363638 0.046969696969696974 0.12878787878787878 0.09987639393872387
+The quintile score of kerri is: 5 --- actual score: 0.3181818181818182
+The quintile score jennifer is: 4 --- actual score: 0.20454545454545456
+The quintile score kara is: 4 --- actual score: 0.18181818181818182
+The quintile score ken is: 3 --- actual score: 0.12878787878787878
+The quintile score lance is: 2 --- actual score: 0.07575757575757576
+The quintile score chris is: 2 --- actual score: 0.05303030303030303
+The quintile score jenny is: 1 --- actual score: 0.03787878787878788
+total_ac_oc_: 50
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Task Control - PMSI quintile
+The di of jennifer is: 0.2
+The di of ken is: 0.12
+The di of lance is: 0.12
+The di of kerri is: 0.24
+The di of chris is: 0.04
+The di of jenny is: 0.0
+The di of kara is: 0.24
+qt_thrs:  33.0 20.4 2.0000000000000018 0.0 10.0 15.988090805942017
+qt_thrs:  0.24 0.184 0.12 0.024000000000000004 0.12 0.09481812163545632
+The quintile score kerri is: 4 --- actual score: 0.24
+The quintile score kara is: 4 --- actual score: 0.24
+The quintile score jennifer is: 4 --- actual score: 0.2
+The quintile score ken is: 2 --- actual score: 0.12
+The quintile score lance is: 2 --- actual score: 0.12
+The quintile score chris is: 2 --- actual score: 0.04
+The quintile score jenny is: 1 --- actual score: 0.0
+total_ac_oc_: 2
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Task Control - DTSI quintile
+The di of jennifer is: 0.5
+The di of ken is: 0.0
+The di of lance is: 0.0
+The di of kerri is: 0.0
+The di of chris is: 0.0
+The di of jenny is: 0.0
+The di of kara is: 0.5
+The quintile score of jennifer is: -1
+The quintile score of kara is: -1
+The quintile score of ken is: -1
+The quintile score of lance is: -1
+The quintile score of kerri is: -1
+The quintile score of chris is: -1
+The quintile score of jenny is: -1

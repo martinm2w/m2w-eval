@@ -1,0 +1,182 @@
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: Lauren_Cheney_final_predictions.xml
+total_ac_oc_: 0
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Task Control - PMI quintile
+The di of jennifer is: 0.1
+The di of ken is: 0.2
+The di of jianhua is: 0.4
+The di of kerri is: 0.1
+The di of chris is: 0.0
+The di of jenny is: 0.0
+The di of kara is: 0.2
+qt_thrs:  0.2800000000000001 0.18 0.1 0.0 0.1 0.13972762620115442
+The quintile score of jianhua is: 5 --- actual score: 0.4
+The quintile score ken is: 4 --- actual score: 0.2
+The quintile score kara is: 4 --- actual score: 0.2
+The quintile score jennifer is: 2 --- actual score: 0.1
+The quintile score kerri is: 2 --- actual score: 0.1
+The quintile score chris is: 1 --- actual score: 0.0
+The quintile score jenny is: 1 --- actual score: 0.0
+total_ac_oc_: 3
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Task Control - PMSI quintile
+The di of jennifer is: 0.3333333333333333
+The di of ken is: 0.3333333333333333
+The di of jianhua is: 0.0
+The di of kerri is: 0.3333333333333333
+The di of chris is: 0.0
+The di of jenny is: 0.0
+The di of kara is: 0.0
+qt_thrs:  0.0 0.0 0.0 0.0 0.0
+The quintile score of jennifer is: -1 --- actual score: 0
+The quintile score of ken is: -1 --- actual score: 0
+The quintile score of kerri is: -1 --- actual score: 0
+The quintile score of jianhua is: -1 --- actual score: 0
+The quintile score of chris is: -1 --- actual score: 0
+The quintile score of jenny is: -1 --- actual score: 0
+The quintile score of kara is: -1 --- actual score: 0
+total_ac_oc_: 0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: Lauren_Training_final_predictions.xml
+total_ac_oc_: 0
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Task Control - DI quintile
+The di of jennifer is: NaN
+The di of jamie is: NaN
+The di of jianhua is: NaN
+The di of chris is: NaN
+The di of kara is: NaN
+qt_thrs:  0.0 0.0 0.0 0.0 0.0
+The quintile score of jennifer is: -1 --- actual score: 0
+The quintile score of jamie is: -1 --- actual score: 0
+The quintile score of jianhua is: -1 --- actual score: 0
+The quintile score of chris is: -1 --- actual score: 0
+The quintile score of kara is: -1 --- actual score: 0
+total_ac_oc_: 16
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Task Control - PMI quintile
+The di of jennifer is: 0.4375
+The di of jamie is: 0.125
+The di of jianhua is: 0.3125
+The di of chris is: 0.0
+The di of kara is: 0.125
+qt_thrs:  0.4125 0.23750000000000002 0.125 0.024999999999999994 0.125 0.1734304615688951
+The quintile score of jennifer is: 5 --- actual score: 0.4375
+The quintile score jianhua is: 4 --- actual score: 0.3125
+The quintile score jamie is: 2 --- actual score: 0.125
+The quintile score kara is: 2 --- actual score: 0.125
+The quintile score chris is: 1 --- actual score: 0.0
+total_ac_oc_: 2
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Task Control - PMSI quintile
+The di of jennifer is: 0.0
+The di of jamie is: 0.0
+The di of jianhua is: 1.0
+The di of chris is: 0.0
+The di of kara is: 0.0
+qt_thrs:  0.0 0.0 0.0 0.0 0.0
+The quintile score of jianhua is: -1 --- actual score: 0
+The quintile score of jennifer is: -1 --- actual score: 0
+The quintile score of jamie is: -1 --- actual score: 0
+The quintile score of chris is: -1 --- actual score: 0
+The quintile score of kara is: -1 --- actual score: 0
+total_ac_oc_: 0
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Task Control - DTSI quintile
+The di of jennifer is: NaN
+The di of jamie is: NaN
+The di of jianhua is: NaN
+The di of chris is: NaN
+The di of kara is: NaN
+qt_thrs:  0.0 0.0 0.0 0.0 0.0
+The quintile score of jennifer is: -1 --- actual score: 0
+The quintile score of jamie is: -1 --- actual score: 0
+The quintile score of jianhua is: -1 --- actual score: 0
+The quintile score of chris is: -1 --- actual score: 0
+The quintile score of kara is: -1 --- actual score: 0
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: YMCA_lauren_final_predictions.xml
+total_ac_oc_: 2
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Task Control - DI quintile
+The di of jennifer is: 0.5
+The di of ken is: 0.0
+The di of lance is: 0.0
+The di of kerri is: 0.0
+The di of chris is: 0.0
+The di of jenny is: 0.0
+The di of kara is: 0.5
+qt_thrs:  0.0 0.0 0.0 0.0 0.0
+The quintile score of jennifer is: -1 --- actual score: 0
+The quintile score of kara is: -1 --- actual score: 0
+The quintile score of ken is: -1 --- actual score: 0
+The quintile score of lance is: -1 --- actual score: 0
+The quintile score of kerri is: -1 --- actual score: 0
+The quintile score of chris is: -1 --- actual score: 0
+The quintile score of jenny is: -1 --- actual score: 0
+total_ac_oc_: 132
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Task Control - PMI quintile
+The di of jennifer is: 0.20454545454545456
+The di of ken is: 0.12878787878787878
+The di of lance is: 0.07575757575757576
+The di of kerri is: 0.3181818181818182
+The di of chris is: 0.05303030303030303
+The di of jenny is: 0.03787878787878788
+The di of kara is: 0.18181818181818182
+qt_thrs:  0.25000000000000006 0.1712121212121212 0.08636363636363638 0.046969696969696974 0.12878787878787878 0.09987639393872387
+The quintile score of kerri is: 5 --- actual score: 0.3181818181818182
+The quintile score jennifer is: 4 --- actual score: 0.20454545454545456
+The quintile score kara is: 4 --- actual score: 0.18181818181818182
+The quintile score ken is: 3 --- actual score: 0.12878787878787878
+The quintile score lance is: 2 --- actual score: 0.07575757575757576
+The quintile score chris is: 2 --- actual score: 0.05303030303030303
+The quintile score jenny is: 1 --- actual score: 0.03787878787878788
+total_ac_oc_: 50
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Task Control - PMSI quintile
+The di of jennifer is: 0.2
+The di of ken is: 0.12
+The di of lance is: 0.12
+The di of kerri is: 0.24
+The di of chris is: 0.04
+The di of jenny is: 0.0
+The di of kara is: 0.24
+qt_thrs:  0.24 0.184 0.12 0.024000000000000004 0.12 0.09481812163545632
+The quintile score kerri is: 4 --- actual score: 0.24
+The quintile score kara is: 4 --- actual score: 0.24
+The quintile score jennifer is: 4 --- actual score: 0.2
+The quintile score ken is: 2 --- actual score: 0.12
+The quintile score lance is: 2 --- actual score: 0.12
+The quintile score chris is: 2 --- actual score: 0.04
+The quintile score jenny is: 1 --- actual score: 0.0
+total_ac_oc_: 2
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Task Control - DTSI quintile
+The di of jennifer is: 0.5
+The di of ken is: 0.0
+The di of lance is: 0.0
+The di of kerri is: 0.0
+The di of chris is: 0.0
+The di of jenny is: 0.0
+The di of kara is: 0.5
+qt_thrs:  0.0 0.0 0.0 0.0 0.0
+The quintile score of jennifer is: -1 --- actual score: 0
+The quintile score of kara is: -1 --- actual score: 0
+The quintile score of ken is: -1 --- actual score: 0
+The quintile score of lance is: -1 --- actual score: 0
+The quintile score of kerri is: -1 --- actual score: 0
+The quintile score of chris is: -1 --- actual score: 0
+The quintile score of jenny is: -1 --- actual score: 0

@@ -1,0 +1,104 @@
+---------------- Task Control Evaluation --------------------- 
+Human annotated file: Lauren_Cheney.xml
+Auto annotated file: Lauren_Cheney_final_predictions.xml
+--------------------------------------------------------------- 
+-----------------------------pmi---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+kerri	2	4	Rest	Mismatch	no	0	
+ken	4	2	Rest	Mismatch	no	0	
+jennifer	2	3	Rest	Low	no	0.5	
+jenny	1	1	Rest	Low	yes	1	
+kara	4	5	Mismatch	High	no	0	
+chris	1	1	Rest	Low	yes	1	
+jianhua	5	3	Mismatch	Mismatch	no	0	
+Precision: 	0.7142857142857143(Highest/Rest/Mismatch)	0.5714285714285714(High/Low/Mismatch)	0.2857142857142857(Exact-match)	0.35714285714285715(Partial-match)	
+-----------------------------pmsi---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+kerri	-1	4	Rest	Mismatch	no	0	
+ken	-1	2	Rest	Low	no	0	
+jennifer	-1	3	Rest	Low	no	0	
+jenny	-1	1	Rest	Low	no	0	
+kara	-1	5	Mismatch	Mismatch	no	0	
+chris	-1	1	Rest	Low	no	0	
+jianhua	-1	3	Rest	Low	no	0	
+Precision: 	0.8571428571428571(Highest/Rest/Mismatch)	0.7142857142857143(High/Low/Mismatch)	0.0(Exact-match)	0.0(Partial-match)	
+---------------- Task Control Evaluation --------------------- 
+Human annotated file: Lauren_Training.xml
+Auto annotated file: Lauren_Training_final_predictions.xml
+--------------------------------------------------------------- 
+-----------------------------di---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+jennifer	-1	5	Mismatch	Mismatch	no	0	
+jamie	-1	1	Rest	Low	no	0	
+kara	-1	4	Rest	Mismatch	no	0	
+chris	-1	1	Rest	Low	no	0	
+jianhua	-1	1	Rest	Low	no	0	
+Precision: 	0.8(Highest/Rest/Mismatch)	0.6(High/Low/Mismatch)	0.0(Exact-match)	0.0(Partial-match)	
+-----------------------------pmi---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+jennifer	5	5	Highest	High	yes	1	
+jamie	2	2	Rest	Low	yes	1	
+kara	2	4	Rest	Mismatch	no	0	
+chris	1	1	Rest	Low	yes	1	
+jianhua	4	3	Rest	Mismatch	no	0.5	
+Precision: 	1.0(Highest/Rest/Mismatch)	0.6(High/Low/Mismatch)	0.6(Exact-match)	0.7(Partial-match)	
+-----------------------------pmsi---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+jennifer	-1	5	Mismatch	Mismatch	no	0	
+jamie	-1	1	Rest	Low	no	0	
+kara	-1	1	Rest	Low	no	0	
+chris	-1	1	Rest	Low	no	0	
+jianhua	-1	4	Rest	Mismatch	no	0	
+Precision: 	0.8(Highest/Rest/Mismatch)	0.6(High/Low/Mismatch)	0.0(Exact-match)	0.0(Partial-match)	
+-----------------------------dtsi---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+jennifer	-1	5	Mismatch	Mismatch	no	0	
+jamie	-1	1	Rest	Low	no	0	
+kara	-1	4	Rest	Mismatch	no	0	
+chris	-1	1	Rest	Low	no	0	
+jianhua	-1	1	Rest	Low	no	0	
+Precision: 	0.8(Highest/Rest/Mismatch)	0.6(High/Low/Mismatch)	0.0(Exact-match)	0.0(Partial-match)	
+---------------- Task Control Evaluation --------------------- 
+Human annotated file: YMCA_lauren.xml
+Auto annotated file: YMCA_lauren_final_predictions.xml
+--------------------------------------------------------------- 
+-----------------------------di---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+kerri	-1	4	Rest	Mismatch	no	0	
+lance	-1	1	Rest	Low	no	0	
+ken	-1	1	Rest	Low	no	0	
+jennifer	-1	5	Mismatch	Mismatch	no	0	
+jenny	-1	2	Rest	Low	no	0	
+kara	-1	2	Rest	Low	no	0	
+chris	-1	2	Rest	Low	no	0	
+Precision: 	0.8571428571428571(Highest/Rest/Mismatch)	0.7142857142857143(High/Low/Mismatch)	0.0(Exact-match)	0.0(Partial-match)	
+-----------------------------pmi---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+kerri	5	5	Highest	High	yes	1	
+lance	2	2	Rest	Low	yes	1	
+ken	3	3	Rest	Low	yes	1	
+jennifer	4	4	Rest	High	yes	1	
+jenny	1	2	Rest	Low	no	0.5	
+kara	4	4	Rest	High	yes	1	
+chris	2	1	Rest	Low	no	0.5	
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.7142857142857143(Exact-match)	0.8571428571428571(Partial-match)	
+-----------------------------pmsi---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+kerri	4	5	Mismatch	High	no	0.5	
+lance	2	2	Rest	Low	yes	1	
+ken	2	3	Rest	Low	no	0.5	
+jennifer	4	4	Rest	High	yes	1	
+jenny	1	2	Rest	Low	no	0.5	
+kara	4	4	Rest	High	yes	1	
+chris	2	1	Rest	Low	no	0.5	
+Precision: 	0.8571428571428571(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.42857142857142855(Exact-match)	0.7142857142857143(Partial-match)	
+-----------------------------dtsi---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+kerri	-1	4	Rest	Mismatch	no	0	
+lance	-1	1	Rest	Low	no	0	
+ken	-1	1	Rest	Low	no	0	
+jennifer	-1	4	Rest	Mismatch	no	0	
+jenny	-1	2	Rest	Low	no	0	
+kara	-1	2	Rest	Low	no	0	
+chris	-1	2	Rest	Low	no	0	
+Precision: 	1.0(Highest/Rest/Mismatch)	0.7142857142857143(High/Low/Mismatch)	0.0(Exact-match)	0.0(Partial-match)	
