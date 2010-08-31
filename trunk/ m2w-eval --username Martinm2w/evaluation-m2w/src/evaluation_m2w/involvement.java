@@ -55,10 +55,10 @@ public class involvement {
     //   String[] annotators = {"brian", "kerri", "lauren"};
 
       //  for(int i = 0; i < annotators.length; i++){
-            String human_annotation = "D:/m2w cs/evaluation-m2w/src/input_files/mar11B_survey_1_inv";
-            String auto_annotation = "D:/m2w cs/evaluation-m2w/src/input_files/mar11B_automated_without_ils_1_inv";
+            String human_annotation = "D:/m2w cs/evaluation-m2w/src/input_files/involvement_6_lauren_annotated_ymca_training_cheney";
+            String auto_annotation = "D:/m2w cs/evaluation-m2w/src/input_files/involvement_6_automated_ymca_training_cheney_1";
 
-            String evaluation_file = "D:/m2w cs/evaluation-m2w/src/output_files/involvement_mar11B_Survey_Auto_ce";
+            String evaluation_file = "D:/m2w cs/evaluation-m2w/src/output_files/involvement_6_1_me";
 
 
             try { //extract names/topics
@@ -471,9 +471,9 @@ public class involvement {
                     bw.write("---------------- Involvement Evaluation --------------------- \n");
                     
                     /*print file names*/
-//                    filename.printFileNames(bw);
+                    filename.printFileNames(bw);
 //	                filename.printFileNamesSurveyHuman(bw);
-	                filename.printFileNamesAutoSurvey(bw);
+//	                filename.printFileNamesAutoSurvey(bw);
 	                
                     
 //                    bw.write("Human annotated file: " + human_annotation + "\n");
@@ -507,13 +507,13 @@ public class involvement {
 		   			 int counter = 0;
 		   			 
                     /*old match evaluation method*/
-//                    MatchEval me = new MatchEval();
-//                    me.matchEval(bw, auto_qscore, human_qscore, auto_qt, human_qt, speakers, category, human_actual_scores, auto_actual_scores, counter);
+                    MatchEval me = new MatchEval();
+                    me.matchEval(bw, auto_qscore, human_qscore, auto_qt, human_qt, speakers, category, human_actual_scores, auto_actual_scores, counter);
                    
 
                     /*compare_evaluation*/
-                    CompareEval CpEval = new CompareEval();
-                    CpEval.compareEval(bw, speakers, auto_qscore, human_qscore);
+//                    CompareEval CpEval = new CompareEval();
+//                    CpEval.compareEval(bw, speakers, auto_qscore, human_qscore);
 
                 }
 
