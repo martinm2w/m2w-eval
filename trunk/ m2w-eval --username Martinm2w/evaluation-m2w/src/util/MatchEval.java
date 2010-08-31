@@ -864,8 +864,8 @@ public class MatchEval {
                 String[] auto_actual_scores_array = auto_actual_scores.get(category);
                 String[] human_actual_scores_array = human_actual_scores.get(category);
 
-                System.err.println(Arrays.toString(auto_actual_scores_array));
-                System.err.println(Arrays.toString(human_actual_scores_array));
+                System.err.println("auto arr" + Arrays.toString(auto_actual_scores_array));
+                System.err.println("human arr" + Arrays.toString(human_actual_scores_array));
 
                 //check if human_actual_scores_array is all null
 
