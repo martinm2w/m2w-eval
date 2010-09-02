@@ -1,0 +1,152 @@
+---------------- Topic Control Evaluation --------------------- 
+Human annotated file: Lauren_Cheney.xml
+Auto annotated file: Lauren_Cheney.xml
+--------------------------------------------------------------- 
+-----------------------------lti---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+kerri	5	5	Highest	High	yes	1	
+ken	4	4	Rest	High	yes	1	
+jennifer	3	2	Rest	Low	no	0.5	
+jenny	1	1	Rest	Low	yes	1	
+kara	4	2	Rest	Mismatch	no	0	
+jianhua	2	2	Rest	Low	yes	1	
+chris	2	4	Rest	Mismatch	no	0	
+Precision: 	1.0(Highest/Rest/Mismatch)	0.7142857142857143(High/Low/Mismatch)	0.5714285714285714(Exact-match)	0.6428571428571429(Partial-match)	
+-----------------------------smt---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+kerri	5	5	Highest	High	yes	1	
+ken	4	4	Rest	High	yes	1	
+jennifer	2	2	Rest	Low	yes	1	
+jenny	1	1	Rest	Low	yes	1	
+kara	4	4	Rest	High	yes	1	
+jianhua	2	2	Rest	Low	yes	1	
+chris	3	3	Rest	Low	yes	1	
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	1.0(Exact-match)	1.0(Partial-match)	
+-----------------------------cs---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+kerri	5	5	Highest	High	yes	1	
+ken	4	4	Rest	High	yes	1	
+jennifer	2	2	Rest	Low	yes	1	
+jenny	1	1	Rest	Low	yes	1	
+kara	4	4	Rest	High	yes	1	
+jianhua	2	2	Rest	Low	yes	1	
+chris	3	3	Rest	Low	yes	1	
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	1.0(Exact-match)	1.0(Partial-match)	
+-----------------------------tl---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+kerri	2	2	Rest	Low	yes	1	
+ken	5	5	Highest	High	yes	1	
+jennifer	3	3	Rest	Low	yes	1	
+jenny	2	2	Rest	Low	yes	1	
+kara	4	4	Rest	High	yes	1	
+jianhua	1	1	Rest	Low	yes	1	
+chris	4	4	Rest	High	yes	1	
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	1.0(Exact-match)	1.0(Partial-match)	
+-----------------------------merged quintile---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+kerri	5	5	Highest	High	yes	1	
+ken	4	4	Rest	High	yes	1	
+jennifer	2	2	Rest	Low	yes	1	
+jenny	1	2	Rest	Low	no	0.5	
+kara	4	4	Rest	High	yes	1	
+jianhua	2	1	Rest	Low	no	0.5	
+chris	3	3	Rest	Low	yes	1	
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.7142857142857143(Exact-match)	0.8571428571428571(Partial-match)	
+---------------- Topic Control Evaluation --------------------- 
+Human annotated file: Lauren_Training.xml
+Auto annotated file: Lauren_Training.xml
+--------------------------------------------------------------- 
+-----------------------------lti---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+jennifer	5	5	Highest	High	yes	1	
+jamie	3	3	Rest	Low	yes	1	
+kara	4	4	Rest	High	yes	1	
+jianhua	2	2	Rest	Low	yes	1	
+chris	1	1	Rest	Low	yes	1	
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	1.0(Exact-match)	1.0(Partial-match)	
+-----------------------------smt---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+jennifer	5	5	Highest	High	yes	1	
+jamie	3	2	Rest	Low	no	0	
+kara	4	3	Rest	Mismatch	no	0.5	
+jianhua	2	3	Rest	Low	no	0.5	
+chris	1	1	Rest	Low	yes	1	
+Precision: 	1.0(Highest/Rest/Mismatch)	0.8(High/Low/Mismatch)	0.4(Exact-match)	0.6(Partial-match)	
+-----------------------------cs---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+jennifer	5	5	Highest	High	yes	1	
+jamie	2	2	Rest	Low	yes	1	
+kara	4	3	Rest	Mismatch	no	0.5	
+jianhua	3	4	Rest	Mismatch	no	0	
+chris	1	1	Rest	Low	yes	1	
+Precision: 	1.0(Highest/Rest/Mismatch)	0.6(High/Low/Mismatch)	0.6(Exact-match)	0.7(Partial-match)	
+-----------------------------tl---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+jennifer	5	5	Highest	High	yes	1	
+jamie	4	4	Rest	High	yes	1	
+kara	3	3	Rest	Low	yes	1	
+jianhua	2	2	Rest	Low	yes	1	
+chris	1	1	Rest	Low	yes	1	
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	1.0(Exact-match)	1.0(Partial-match)	
+-----------------------------merged quintile---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+jennifer	5	5	Highest	High	yes	1	
+jamie	3	2	Rest	Low	no	0.5	
+kara	4	4	Rest	High	yes	1	
+jianhua	2	3	Rest	Low	no	0.5	
+chris	1	1	Rest	Low	yes	1	
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.6(Exact-match)	0.8(Partial-match)	
+---------------- Topic Control Evaluation --------------------- 
+Human annotated file: YMCA_lauren.xml
+Auto annotated file: YMCA_lauren.xml
+--------------------------------------------------------------- 
+-----------------------------lti---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+kerri	3	2	Rest	Low	no	0.5	
+lance	5	4	Mismatch	High	no	0.5	
+ken	4	4	Rest	High	yes	1	
+jennifer	4	4	Rest	High	yes	1	
+jenny	1	1	Rest	Low	yes	1	
+kara	2	2	Rest	Low	yes	1	
+chris	2	3	Rest	Low	no	0	
+Precision: 	0.8571428571428571(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.5714285714285714(Exact-match)	0.7142857142857143(Partial-match)	
+-----------------------------smt---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+kerri	3	2	Rest	Low	no	0.5	
+lance	5	5	Highest	High	yes	1	
+ken	4	4	Rest	High	yes	1	
+jennifer	4	4	Rest	High	yes	1	
+jenny	1	1	Rest	Low	yes	1	
+kara	2	2	Rest	Low	yes	1	
+chris	2	3	Rest	Low	no	0.5	
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.7142857142857143(Exact-match)	0.8571428571428571(Partial-match)	
+-----------------------------cs---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+kerri	3	2	Rest	Low	no	0.5	
+lance	5	5	Highest	High	yes	1	
+ken	4	4	Rest	High	yes	1	
+jennifer	4	4	Rest	High	yes	1	
+jenny	1	1	Rest	Low	yes	1	
+kara	2	2	Rest	Low	yes	1	
+chris	2	3	Rest	Low	no	0.5	
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.7142857142857143(Exact-match)	0.8571428571428571(Partial-match)	
+-----------------------------tl---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+kerri	1	1	Rest	Low	yes	1	
+lance	5	5	Highest	High	yes	1	
+ken	4	4	Rest	High	yes	1	
+jennifer	3	3	Rest	Low	yes	1	
+jenny	2	2	Rest	Low	yes	1	
+kara	4	4	Rest	High	yes	1	
+chris	2	2	Rest	Low	yes	1	
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	1.0(Exact-match)	1.0(Partial-match)	
+-----------------------------merged quintile---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+kerri	3	2	Rest	Low	no	0	
+lance	5	5	Highest	High	yes	1	
+ken	4	4	Rest	High	yes	1	
+jennifer	4	4	Rest	High	yes	1	
+jenny	1	1	Rest	Low	yes	1	
+kara	2	2	Rest	Low	yes	1	
+chris	2	3	Rest	Low	no	0.5	
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.7142857142857143(Exact-match)	0.7857142857142857(Partial-match)	

@@ -1,0 +1,869 @@
+/opt/jdk1.6.0_03/bin/java -Xmx1024m -Xmn768m -Xss2048k -classpath /home/ting/develop/NLLIB:/home/ting/develop/edu/albany/ils/deer/tool/xml_parser/resolver.jar:/home/ting/develop/edu/albany/ils/deer/tool/xml_parser/serializer.jar:/home/ting/develop/edu/albany/ils/deer/tool/xml_parser/xercesImpl.jar:/home/ting/develop/edu/albany/ils/deer/tool/xml_parser/xercesSamples.jar:/home/ting/develop/edu/albany/ils/deer/tool/xml_parser/xml-apis.jar:/projects/SHARED/commons-math-2.0/commons-math-2.0.jar:{/projects/SHARED/report_lib/jsr173_1.0_api.jar:/projects/SHARED/report_lib/xmlpublic.jar:/projects/SHARED/report_lib/xmlbeans-qname.jar:/projects/SHARED/report_lib/xbean.jar:/projects/SHARED/report_lib/resolver.jar:/projects/SHARED/report_lib/ptsReport.jar:/projects/SHARED/report_lib/xbean_xpath.jar}:/projects/SHARED/jwnl1.3/jwnl.jar:/projects/SHARED/jwnl1.3/commons-logging.jar:/source.jar:/xerces.jar:/projects/SHARED/stanford-pos/stanford-postagger.jar edu.albany.ils.dsarmd0100.lu.Assertions /projects/SHARED/data/dsarmd/auto_ymca_cashier_cheney
+setKey + setVal: happy ====== someone's nice mice were        also someone's nice pets.
+setKey + setVal: malenames ====== /home/ting/develop/NLTEST/DSARMD0100/male_names.txt
+setKey + setVal: femalenames ====== /home/ting/develop/NLTEST/DSARMD0100/female_names.txt
+setKey + setVal: eng_hum_pronouns ====== /home/ting/develop/NLTEST/DSARMD0100/english_human_pronouns.txt
+setKey + setVal: emotes ====== /home/ting/develop/NLTEST/DSARMD0100/emotes.txt
+setKey + setVal: eng_parsetools ====== /home/ting/develop/NLTEST/DSARMD0100/englishparsetools.txt
+setKey + setVal: formpronouns ====== /home/ting/develop/NLTEST/DSARMD0100/formpronouns.txt
+setKey + setVal: pw ====== /projects/SHARED/data/dsarmd/polarity/p_w
+setKey + setVal: nw ====== /projects/SHARED/data/dsarmd/polarity/n_w
+setKey + setVal: polarity_cues ====== /projects/SHARED/data/dsarmd/polarity/confs/polars
+setKey + setVal: yes ====== /projects/SHARED/data/dsarmd/polarity/yes
+setKey + setVal: no ====== /projects/SHARED/data/dsarmd/polarity/no
+setKey + setVal: posi_confs ====== /projects/SHARED/data/dsarmd/polarity/posi_confs
+setKey + setVal: neg_confs ====== /projects/SHARED/data/dsarmd/polarity/neg_confs
+setKey + setVal: afirst_words ====== /projects/SHARED/data/dsarmd/cmmlnk/afirst_words
+setKey + setVal: aafirst_words ====== /projects/SHARED/data/dsarmd/cmmlnk/aafirst_words
+setKey + setVal: acfirst_words ====== /projects/SHARED/data/dsarmd/cmmlnk/acfirst_words
+setKey + setVal: aacfirst_words ====== /projects/SHARED/data/dsarmd/cmmlnk/aacfirst_words
+setKey + setVal: stop_words ====== /projects/NL5/NL/NLCOMMON/bin/stop-words
+setKey + setVal: process_type ====== automated
+setKey + setVal: report ====== /home/ting/develop/NLTEST/DSARMD0100/Feb28_GroupA_Report.xml
+load files...
++++++++++++++++++++++++++++++++++++++++++
+processing: Lauren_Cheney_final_predictions.xml
+602
+uttloc = 28 and uttend = -1
+<Dialogue date="2009-05-03">
+turnnoplace: 211
+turnend: 245
+uttloc = 209 and uttend = -1
+<turn comm_act_type="continuation-of" dialog_act="unknown:Acknowledge" end_time="8:43:35 PM" link_to="kara:177" mode="chat" polarity="" pos="" pos_count="" pos_origin="" speaker="kara" topic="" turn_no="178"/>
+# of utterances: 602
++++++++++++++++++++++++++++++++++++++++++
+processing: Lauren_Training_final_predictions.xml
+167
+uttloc = 28 and uttend = -1
+<Dialogue date="2009-05-03">
+turnnoplace: 301
+turnend: 388
+turnnoplace: 213
+turnend: 233
+turnnoplace: 216
+turnend: 235
+turnnoplace: 216
+turnend: 231
+turnnoplace: 220
+turnend: 251
+turnnoplace: 407
+turnend: 485
+# of utterances: 162
++++++++++++++++++++++++++++++++++++++++++
+processing: YMCA_lauren_final_predictions.xml
+656
+uttloc = 28 and uttend = -1
+<Dialogue date="2009-05-03">
+turnnoplace: 204
+turnend: 212
+uttloc = 204 and uttend = -1
+<turn comm_act_type="response-to" dialog_act="COMM-MGMT:unknown" end_time="9:47:33 PM" link_to="kara:608" mode="chat" polarity="" pos="" pos_count="" pos_origin="" speaker="kerri" topic="" turn_no="609"/>
+# of utterances: 656
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: Lauren_Cheney_final_predictions.xml
+size of top10nouns: 161
+size of LTs: 511
+size of mentions: 512
+sizeof mentions: 14
+sizeof mentions: 5
+sizeof mentions: 11
+sizeof mentions: 3
+sizeof mentions: 30
+sizeof mentions: 7
+sizeof mentions: 12
+sizeof mentions: 4
+sizeof mentions: 2
+sizeof mentions: 5
+sizeof mentions: 7
+sizeof mentions: 4
+sizeof mentions: 7
+sizeof mentions: 2
+sizeof mentions: 5
+sizeof mentions: 2
+sizeof mentions: 22
+sizeof mentions: 3
+sizeof mentions: 9
+sizeof mentions: 4
+sizeof mentions: 2
+sizeof mentions: 2
+sizeof mentions: 19
+sizeof mentions: 3
+sizeof mentions: 4
+sizeof mentions: 5
+clts_: [edu.albany.ils.dsarmd0100.lu.LocalTopic@113a53d, edu.albany.ils.dsarmd0100.lu.LocalTopic@c5495e, edu.albany.ils.dsarmd0100.lu.LocalTopic@53fb57, edu.albany.ils.dsarmd0100.lu.LocalTopic@19a32e0, edu.albany.ils.dsarmd0100.lu.LocalTopic@8238f4, edu.albany.ils.dsarmd0100.lu.LocalTopic@16925b0, edu.albany.ils.dsarmd0100.lu.LocalTopic@297ffb, edu.albany.ils.dsarmd0100.lu.LocalTopic@914f6a, edu.albany.ils.dsarmd0100.lu.LocalTopic@1f4cbee, edu.albany.ils.dsarmd0100.lu.LocalTopic@787d6a, edu.albany.ils.dsarmd0100.lu.LocalTopic@71dc3d, edu.albany.ils.dsarmd0100.lu.LocalTopic@1326484, edu.albany.ils.dsarmd0100.lu.LocalTopic@16546ef, edu.albany.ils.dsarmd0100.lu.LocalTopic@1428ea, edu.albany.ils.dsarmd0100.lu.LocalTopic@18a49e0, edu.albany.ils.dsarmd0100.lu.LocalTopic@1f82982, edu.albany.ils.dsarmd0100.lu.LocalTopic@16d2633, edu.albany.ils.dsarmd0100.lu.LocalTopic@e70e30, edu.albany.ils.dsarmd0100.lu.LocalTopic@154864a, edu.albany.ils.dsarmd0100.lu.LocalTopic@3c9217, edu.albany.ils.dsarmd0100.lu.LocalTopic@9b42e6, edu.albany.ils.dsarmd0100.lu.LocalTopic@14520eb, edu.albany.ils.dsarmd0100.lu.LocalTopic@1742700, edu.albany.ils.dsarmd0100.lu.LocalTopic@acb158, edu.albany.ils.dsarmd0100.lu.LocalTopic@1af33d6, edu.albany.ils.dsarmd0100.lu.LocalTopic@17431b9]
+==========================================
+speaker name: jennifer
+
+0.145985401459854
+0.12292358803986711
+0.11180124223602485
+0.10546875
+0.125
+sizeof mentions: 12
+sizeof mentions: 4
+sizeof mentions: 2
+sizeof mentions: 4
+sizeof mentions: 14
+sizeof mentions: 5
+sizeof mentions: 11
+sizeof mentions: 11
+sizeof mentions: 19
+sizeof mentions: 7
+sizeof mentions: 4
+sizeof mentions: 4
+sizeof mentions: 7
+sizeof mentions: 13
+sizeof mentions: 10
+sizeof mentions: 6
+sizeof mentions: 3
+sizeof mentions: 6
+sizeof mentions: 3
+sizeof mentions: 7
+sizeof mentions: 3
+sizeof mentions: 7
+sizeof mentions: 2
+sizeof mentions: 7
+sizeof mentions: 6
+sizeof mentions: 2
+sizeof mentions: 5
+sizeof mentions: 30
+sizeof mentions: 3
+sizeof mentions: 8
+sizeof mentions: 7
+sizeof mentions: 4
+sizeof mentions: 2
+sizeof mentions: 9
+sizeof mentions: 6
+sizeof mentions: 5
+sizeof mentions: 4
+sizeof mentions: 2
+sizeof mentions: 5
+clts_: [edu.albany.ils.dsarmd0100.lu.LocalTopic@297ffb, edu.albany.ils.dsarmd0100.lu.LocalTopic@89cc5e, edu.albany.ils.dsarmd0100.lu.LocalTopic@c837cd, edu.albany.ils.dsarmd0100.lu.LocalTopic@914f6a, edu.albany.ils.dsarmd0100.lu.LocalTopic@113a53d, edu.albany.ils.dsarmd0100.lu.LocalTopic@c79809, edu.albany.ils.dsarmd0100.lu.LocalTopic@1ce784b, edu.albany.ils.dsarmd0100.lu.LocalTopic@53fb57, edu.albany.ils.dsarmd0100.lu.LocalTopic@1742700, edu.albany.ils.dsarmd0100.lu.LocalTopic@71dc3d, edu.albany.ils.dsarmd0100.lu.LocalTopic@3bc473, edu.albany.ils.dsarmd0100.lu.LocalTopic@1de9ac4, edu.albany.ils.dsarmd0100.lu.LocalTopic@182bcde, edu.albany.ils.dsarmd0100.lu.LocalTopic@3dc0bb, edu.albany.ils.dsarmd0100.lu.LocalTopic@384065, edu.albany.ils.dsarmd0100.lu.LocalTopic@10bbf9e, edu.albany.ils.dsarmd0100.lu.LocalTopic@513d61, edu.albany.ils.dsarmd0100.lu.LocalTopic@194d372, edu.albany.ils.dsarmd0100.lu.LocalTopic@1c5fde0, edu.albany.ils.dsarmd0100.lu.LocalTopic@19e8329, edu.albany.ils.dsarmd0100.lu.LocalTopic@1b5340c, edu.albany.ils.dsarmd0100.lu.LocalTopic@16c163f, edu.albany.ils.dsarmd0100.lu.LocalTopic@12884e0, edu.albany.ils.dsarmd0100.lu.LocalTopic@16546ef, edu.albany.ils.dsarmd0100.lu.LocalTopic@12bcd4b, edu.albany.ils.dsarmd0100.lu.LocalTopic@b307f0, edu.albany.ils.dsarmd0100.lu.LocalTopic@1ce3fc5, edu.albany.ils.dsarmd0100.lu.LocalTopic@8238f4, edu.albany.ils.dsarmd0100.lu.LocalTopic@1bcdbf6, edu.albany.ils.dsarmd0100.lu.LocalTopic@cf66b, edu.albany.ils.dsarmd0100.lu.LocalTopic@1060478, edu.albany.ils.dsarmd0100.lu.LocalTopic@f9c40, edu.albany.ils.dsarmd0100.lu.LocalTopic@db4fa2, edu.albany.ils.dsarmd0100.lu.LocalTopic@154864a, edu.albany.ils.dsarmd0100.lu.LocalTopic@491c4c, edu.albany.ils.dsarmd0100.lu.LocalTopic@1e0f2f6, edu.albany.ils.dsarmd0100.lu.LocalTopic@16f25a7, edu.albany.ils.dsarmd0100.lu.LocalTopic@110c31, edu.albany.ils.dsarmd0100.lu.LocalTopic@17431b9]
+==========================================
+speaker name: ken
+
+0.20437956204379562
+0.14285714285714285
+0.15527950310559005
+0.1875
+0.21428571428571427
+sizeof mentions: 6
+sizeof mentions: 7
+sizeof mentions: 14
+sizeof mentions: 2
+sizeof mentions: 15
+sizeof mentions: 2
+sizeof mentions: 22
+sizeof mentions: 2
+sizeof mentions: 4
+sizeof mentions: 9
+sizeof mentions: 3
+sizeof mentions: 5
+clts_: [edu.albany.ils.dsarmd0100.lu.LocalTopic@12bcd4b, edu.albany.ils.dsarmd0100.lu.LocalTopic@1060478, edu.albany.ils.dsarmd0100.lu.LocalTopic@13785d3, edu.albany.ils.dsarmd0100.lu.LocalTopic@32efa7, edu.albany.ils.dsarmd0100.lu.LocalTopic@13f991, edu.albany.ils.dsarmd0100.lu.LocalTopic@165a3c2, edu.albany.ils.dsarmd0100.lu.LocalTopic@16d2633, edu.albany.ils.dsarmd0100.lu.LocalTopic@1e228bc, edu.albany.ils.dsarmd0100.lu.LocalTopic@1af33d6, edu.albany.ils.dsarmd0100.lu.LocalTopic@154864a, edu.albany.ils.dsarmd0100.lu.LocalTopic@e06940, edu.albany.ils.dsarmd0100.lu.LocalTopic@17431b9]
+==========================================
+speaker name: jianhua
+
+0.0072992700729927005
+0.11295681063122924
+0.024844720496894408
+0.0390625
+0.03869047619047619
+sizeof mentions: 30
+sizeof mentions: 7
+sizeof mentions: 4
+sizeof mentions: 3
+sizeof mentions: 8
+sizeof mentions: 3
+sizeof mentions: 3
+sizeof mentions: 14
+sizeof mentions: 14
+sizeof mentions: 7
+sizeof mentions: 5
+sizeof mentions: 2
+sizeof mentions: 2
+sizeof mentions: 2
+sizeof mentions: 4
+sizeof mentions: 6
+sizeof mentions: 2
+sizeof mentions: 3
+sizeof mentions: 4
+sizeof mentions: 2
+sizeof mentions: 4
+sizeof mentions: 6
+sizeof mentions: 8
+sizeof mentions: 13
+sizeof mentions: 2
+sizeof mentions: 4
+sizeof mentions: 3
+sizeof mentions: 2
+sizeof mentions: 6
+sizeof mentions: 2
+sizeof mentions: 2
+sizeof mentions: 5
+sizeof mentions: 7
+sizeof mentions: 3
+sizeof mentions: 2
+sizeof mentions: 2
+sizeof mentions: 2
+sizeof mentions: 4
+sizeof mentions: 6
+sizeof mentions: 4
+sizeof mentions: 2
+sizeof mentions: 2
+clts_: [edu.albany.ils.dsarmd0100.lu.LocalTopic@8238f4, edu.albany.ils.dsarmd0100.lu.LocalTopic@71dc3d, edu.albany.ils.dsarmd0100.lu.LocalTopic@16f25a7, edu.albany.ils.dsarmd0100.lu.LocalTopic@1aae94f, edu.albany.ils.dsarmd0100.lu.LocalTopic@1bb5c09, edu.albany.ils.dsarmd0100.lu.LocalTopic@1976011, edu.albany.ils.dsarmd0100.lu.LocalTopic@1242b11, edu.albany.ils.dsarmd0100.lu.LocalTopic@13785d3, edu.albany.ils.dsarmd0100.lu.LocalTopic@113a53d, edu.albany.ils.dsarmd0100.lu.LocalTopic@16546ef, edu.albany.ils.dsarmd0100.lu.LocalTopic@787d6a, edu.albany.ils.dsarmd0100.lu.LocalTopic@1878144, edu.albany.ils.dsarmd0100.lu.LocalTopic@137d090, edu.albany.ils.dsarmd0100.lu.LocalTopic@15db314, edu.albany.ils.dsarmd0100.lu.LocalTopic@97eded, edu.albany.ils.dsarmd0100.lu.LocalTopic@858bf1, edu.albany.ils.dsarmd0100.lu.LocalTopic@1a68ef9, edu.albany.ils.dsarmd0100.lu.LocalTopic@1f48262, edu.albany.ils.dsarmd0100.lu.LocalTopic@1af33d6, edu.albany.ils.dsarmd0100.lu.LocalTopic@19bfb30, edu.albany.ils.dsarmd0100.lu.LocalTopic@3bc473, edu.albany.ils.dsarmd0100.lu.LocalTopic@10bbf9e, edu.albany.ils.dsarmd0100.lu.LocalTopic@cf66b, edu.albany.ils.dsarmd0100.lu.LocalTopic@3dc0bb, edu.albany.ils.dsarmd0100.lu.LocalTopic@1884174, edu.albany.ils.dsarmd0100.lu.LocalTopic@814013, edu.albany.ils.dsarmd0100.lu.LocalTopic@513d61, edu.albany.ils.dsarmd0100.lu.LocalTopic@195d4fe, edu.albany.ils.dsarmd0100.lu.LocalTopic@1d2b01b, edu.albany.ils.dsarmd0100.lu.LocalTopic@127fa12, edu.albany.ils.dsarmd0100.lu.LocalTopic@192c8d9, edu.albany.ils.dsarmd0100.lu.LocalTopic@1ce3fc5, edu.albany.ils.dsarmd0100.lu.LocalTopic@1c05ffd, edu.albany.ils.dsarmd0100.lu.LocalTopic@de1b8a, edu.albany.ils.dsarmd0100.lu.LocalTopic@1e232b5, edu.albany.ils.dsarmd0100.lu.LocalTopic@16f144c, edu.albany.ils.dsarmd0100.lu.LocalTopic@19da4fc, edu.albany.ils.dsarmd0100.lu.LocalTopic@1326484, edu.albany.ils.dsarmd0100.lu.LocalTopic@baa466, edu.albany.ils.dsarmd0100.lu.LocalTopic@17f409c, edu.albany.ils.dsarmd0100.lu.LocalTopic@16acdd1, edu.albany.ils.dsarmd0100.lu.LocalTopic@ee6681]
+==========================================
+speaker name: kerri
+
+0.2773722627737226
+0.3106312292358804
+0.2670807453416149
+0.27734375
+0.23511904761904762
+sizeof mentions: 19
+sizeof mentions: 12
+sizeof mentions: 10
+sizeof mentions: 5
+sizeof mentions: 14
+sizeof mentions: 15
+sizeof mentions: 30
+sizeof mentions: 3
+sizeof mentions: 11
+sizeof mentions: 2
+sizeof mentions: 2
+sizeof mentions: 2
+sizeof mentions: 7
+sizeof mentions: 2
+sizeof mentions: 3
+sizeof mentions: 22
+sizeof mentions: 3
+sizeof mentions: 2
+sizeof mentions: 8
+sizeof mentions: 5
+sizeof mentions: 7
+sizeof mentions: 6
+sizeof mentions: 2
+sizeof mentions: 2
+sizeof mentions: 2
+sizeof mentions: 6
+sizeof mentions: 2
+sizeof mentions: 4
+sizeof mentions: 2
+sizeof mentions: 14
+sizeof mentions: 2
+clts_: [edu.albany.ils.dsarmd0100.lu.LocalTopic@1742700, edu.albany.ils.dsarmd0100.lu.LocalTopic@297ffb, edu.albany.ils.dsarmd0100.lu.LocalTopic@384065, edu.albany.ils.dsarmd0100.lu.LocalTopic@c79809, edu.albany.ils.dsarmd0100.lu.LocalTopic@113a53d, edu.albany.ils.dsarmd0100.lu.LocalTopic@13f991, edu.albany.ils.dsarmd0100.lu.LocalTopic@8238f4, edu.albany.ils.dsarmd0100.lu.LocalTopic@18bbc5a, edu.albany.ils.dsarmd0100.lu.LocalTopic@1ce784b, edu.albany.ils.dsarmd0100.lu.LocalTopic@facf0b, edu.albany.ils.dsarmd0100.lu.LocalTopic@2f0df1, edu.albany.ils.dsarmd0100.lu.LocalTopic@13c6a22, edu.albany.ils.dsarmd0100.lu.LocalTopic@182bcde, edu.albany.ils.dsarmd0100.lu.LocalTopic@15c07d8, edu.albany.ils.dsarmd0100.lu.LocalTopic@10721b0, edu.albany.ils.dsarmd0100.lu.LocalTopic@16d2633, edu.albany.ils.dsarmd0100.lu.LocalTopic@134b07e, edu.albany.ils.dsarmd0100.lu.LocalTopic@2f48d2, edu.albany.ils.dsarmd0100.lu.LocalTopic@1bb5c09, edu.albany.ils.dsarmd0100.lu.LocalTopic@787d6a, edu.albany.ils.dsarmd0100.lu.LocalTopic@16925b0, edu.albany.ils.dsarmd0100.lu.LocalTopic@55d93d, edu.albany.ils.dsarmd0100.lu.LocalTopic@296f76, edu.albany.ils.dsarmd0100.lu.LocalTopic@54c4ad, edu.albany.ils.dsarmd0100.lu.LocalTopic@13c7378, edu.albany.ils.dsarmd0100.lu.LocalTopic@194d372, edu.albany.ils.dsarmd0100.lu.LocalTopic@1c0f2e5, edu.albany.ils.dsarmd0100.lu.LocalTopic@f9c40, edu.albany.ils.dsarmd0100.lu.LocalTopic@8ab708, edu.albany.ils.dsarmd0100.lu.LocalTopic@13785d3, edu.albany.ils.dsarmd0100.lu.LocalTopic@f6ac0b]
+==========================================
+speaker name: chris
+
+0.12408759124087591
+0.08803986710963455
+0.17391304347826086
+0.154296875
+0.17261904761904762
+sizeof mentions: 2
+sizeof mentions: 19
+sizeof mentions: 7
+sizeof mentions: 15
+clts_: [edu.albany.ils.dsarmd0100.lu.LocalTopic@9934d4, edu.albany.ils.dsarmd0100.lu.LocalTopic@1742700, edu.albany.ils.dsarmd0100.lu.LocalTopic@16546ef, edu.albany.ils.dsarmd0100.lu.LocalTopic@13f991]
+==========================================
+speaker name: jenny
+
+0.0
+0.011627906976744186
+0.012422360248447204
+0.0078125
+0.011904761904761904
+sizeof mentions: 3
+sizeof mentions: 22
+sizeof mentions: 11
+sizeof mentions: 5
+sizeof mentions: 3
+sizeof mentions: 3
+sizeof mentions: 2
+sizeof mentions: 5
+sizeof mentions: 14
+sizeof mentions: 3
+sizeof mentions: 8
+sizeof mentions: 2
+sizeof mentions: 15
+sizeof mentions: 3
+sizeof mentions: 4
+sizeof mentions: 4
+sizeof mentions: 4
+sizeof mentions: 3
+sizeof mentions: 5
+sizeof mentions: 2
+sizeof mentions: 4
+sizeof mentions: 8
+sizeof mentions: 6
+sizeof mentions: 4
+sizeof mentions: 2
+sizeof mentions: 2
+sizeof mentions: 3
+sizeof mentions: 4
+sizeof mentions: 2
+sizeof mentions: 6
+sizeof mentions: 7
+sizeof mentions: 2
+sizeof mentions: 19
+sizeof mentions: 7
+sizeof mentions: 2
+sizeof mentions: 2
+sizeof mentions: 2
+sizeof mentions: 2
+sizeof mentions: 10
+clts_: [edu.albany.ils.dsarmd0100.lu.LocalTopic@5b8827, edu.albany.ils.dsarmd0100.lu.LocalTopic@16d2633, edu.albany.ils.dsarmd0100.lu.LocalTopic@1ce784b, edu.albany.ils.dsarmd0100.lu.LocalTopic@18a49e0, edu.albany.ils.dsarmd0100.lu.LocalTopic@147c1db, edu.albany.ils.dsarmd0100.lu.LocalTopic@82d37, edu.albany.ils.dsarmd0100.lu.LocalTopic@d09ad3, edu.albany.ils.dsarmd0100.lu.LocalTopic@1649b44, edu.albany.ils.dsarmd0100.lu.LocalTopic@13785d3, edu.albany.ils.dsarmd0100.lu.LocalTopic@dc67e, edu.albany.ils.dsarmd0100.lu.LocalTopic@cf66b, edu.albany.ils.dsarmd0100.lu.LocalTopic@6295eb, edu.albany.ils.dsarmd0100.lu.LocalTopic@13f991, edu.albany.ils.dsarmd0100.lu.LocalTopic@609959, edu.albany.ils.dsarmd0100.lu.LocalTopic@1f3ce5c, edu.albany.ils.dsarmd0100.lu.LocalTopic@97eded, edu.albany.ils.dsarmd0100.lu.LocalTopic@17f409c, edu.albany.ils.dsarmd0100.lu.LocalTopic@1712b3a, edu.albany.ils.dsarmd0100.lu.LocalTopic@1e0f2f6, edu.albany.ils.dsarmd0100.lu.LocalTopic@cd2e33, edu.albany.ils.dsarmd0100.lu.LocalTopic@1de9ac4, edu.albany.ils.dsarmd0100.lu.LocalTopic@9446e4, edu.albany.ils.dsarmd0100.lu.LocalTopic@491c4c, edu.albany.ils.dsarmd0100.lu.LocalTopic@ba5c7a, edu.albany.ils.dsarmd0100.lu.LocalTopic@10d593e, edu.albany.ils.dsarmd0100.lu.LocalTopic@15e0873, edu.albany.ils.dsarmd0100.lu.LocalTopic@7cbde6, edu.albany.ils.dsarmd0100.lu.LocalTopic@814013, edu.albany.ils.dsarmd0100.lu.LocalTopic@1977b9b, edu.albany.ils.dsarmd0100.lu.LocalTopic@340101, edu.albany.ils.dsarmd0100.lu.LocalTopic@16c163f, edu.albany.ils.dsarmd0100.lu.LocalTopic@2e1f1f, edu.albany.ils.dsarmd0100.lu.LocalTopic@1742700, edu.albany.ils.dsarmd0100.lu.LocalTopic@1060478, edu.albany.ils.dsarmd0100.lu.LocalTopic@1fd6bea, edu.albany.ils.dsarmd0100.lu.LocalTopic@b7ec5d, edu.albany.ils.dsarmd0100.lu.LocalTopic@fefe3f, edu.albany.ils.dsarmd0100.lu.LocalTopic@e61a35, edu.albany.ils.dsarmd0100.lu.LocalTopic@384065]
+==========================================
+speaker name: kara
+
+0.24087591240875914
+0.21096345514950166
+0.2546583850931677
+0.228515625
+0.20238095238095238
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+++++++++++++++++++++++++++++++++
+calculate Involvement - NPI quintile
+qt_thrs:  0.25547445255474455 0.1927007299270073 0.12846715328467154 0.004379562043795621 0.145985401459854 0.10849975955579658
+The quintile score of kerri is: 5 --- actual score: 0.2773722627737226
+The quintile score kara is: 4 --- actual score: 0.24087591240875914
+The quintile score ken is: 4 --- actual score: 0.20437956204379562
+The quintile score jennifer is: 3 --- actual score: 0.145985401459854
+The quintile score chris is: 2 --- actual score: 0.12408759124087591
+The quintile score jianhua is: 2 --- actual score: 0.0072992700729927005
+The quintile score jenny is: 1 --- actual score: 0.0
+
+++++++++++++++++++++++++++++++++
+calculate Involvement - TI quintile
+qt_thrs:  0.2508305647840532 0.1388704318936877 0.11495016611295682 0.057475083056478415 0.12292358803986711 0.09513502367625483
+The quintile score of kerri is: 5 --- actual score: 0.3106312292358804
+The quintile score kara is: 4 --- actual score: 0.21096345514950166
+The quintile score ken is: 4 --- actual score: 0.14285714285714285
+The quintile score jennifer is: 3 --- actual score: 0.12292358803986711
+The quintile score jianhua is: 2 --- actual score: 0.11295681063122924
+The quintile score chris is: 2 --- actual score: 0.08803986710963455
+The quintile score jenny is: 1 --- actual score: 0.011627906976744186
+
+++++++++++++++++++++++++++++++++
+calculate Involvement - TCI quintile: [0.2670807453416149, 0.2546583850931677, 0.17391304347826086, 0.15527950310559005, 0.11180124223602485, 0.024844720496894408, 0.012422360248447204]
+qt_thrs:  0.25962732919254655 0.17018633540372669 0.1204968944099379 0.01987577639751553 0.15527950310559005 0.10079222728478744
+The quintile score of kerri is: 5 --- actual score: 0.2670807453416149
+The quintile score kara is: 4 --- actual score: 0.2546583850931677
+The quintile score chris is: 4 --- actual score: 0.17391304347826086
+The quintile score ken is: 3 --- actual score: 0.15527950310559005
+The quintile score jennifer is: 2 --- actual score: 0.11180124223602485
+The quintile score jianhua is: 2 --- actual score: 0.024844720496894408
+The quintile score jenny is: 1 --- actual score: 0.012422360248447204
+
+++++++++++++++++++++++++++++++++
+calculate Involvement - ALLOTP quintile
+qt_thrs:  0.2226190476190476 0.19642857142857142 0.13452380952380955 0.027976190476190477 0.17261904761904762 0.08790264769852604
+The quintile score of kerri is: 5 --- actual score: 0.23511904761904762
+The quintile score ken is: 4 --- actual score: 0.21428571428571427
+The quintile score kara is: 4 --- actual score: 0.20238095238095238
+The quintile score chris is: 3 --- actual score: 0.17261904761904762
+The quintile score jennifer is: 2 --- actual score: 0.125
+The quintile score jianhua is: 2 --- actual score: 0.03869047619047619
+The quintile score jenny is: 1 --- actual score: 0.011904761904761904
+
+++++++++++++++++++++++++++++++++
+calculate Involvement - ASMI quintile
+qt_thrs:  0.24804687500000003 0.180859375 0.11523437500000001 0.026562500000000003 0.154296875 0.09828203515045225
+The quintile score of kerri is: 5 --- actual score: 0.27734375
+The quintile score kara is: 4 --- actual score: 0.228515625
+The quintile score ken is: 4 --- actual score: 0.1875
+The quintile score chris is: 3 --- actual score: 0.154296875
+The quintile score jennifer is: 2 --- actual score: 0.10546875
+The quintile score jianhua is: 2 --- actual score: 0.0390625
+The quintile score jenny is: 1 --- actual score: 0.0078125
+++++++++++++++++++++++++++++++++
+calculate Merged quintile
+qt_thrs:  0.24589108240150695 0.1732065645446716 0.1263068940556321 0.03024385561738737 0.1425912848895638 0.09464354754056407
+The quintile score of kerri is: 5 --- actual score: 0.27350940699405313
+The quintile score kara is: 4 --- actual score: 0.22747886600647615
+The quintile score ken is: 4 --- actual score: 0.18086038445844857
+The quintile score chris is: 3 --- actual score: 0.1425912848895638
+The quintile score jennifer is: 2 --- actual score: 0.12223579634714918
+The quintile score jianhua is: 2 --- actual score: 0.044570755478318506
+The quintile score jenny is: 1 --- actual score: 0.00875350582599066
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: Lauren_Training_final_predictions.xml
+size of top10nouns: 57
+size of LTs: 130
+size of mentions: 101
+sizeof mentions: 5
+sizeof mentions: 3
+sizeof mentions: 2
+sizeof mentions: 2
+sizeof mentions: 2
+sizeof mentions: 2
+sizeof mentions: 3
+clts_: [edu.albany.ils.dsarmd0100.lu.LocalTopic@aadc97, edu.albany.ils.dsarmd0100.lu.LocalTopic@178460d, edu.albany.ils.dsarmd0100.lu.LocalTopic@13f210f, edu.albany.ils.dsarmd0100.lu.LocalTopic@1938039, edu.albany.ils.dsarmd0100.lu.LocalTopic@c743eb, edu.albany.ils.dsarmd0100.lu.LocalTopic@3c342b, edu.albany.ils.dsarmd0100.lu.LocalTopic@8530b8]
+==========================================
+speaker name: jennifer
+
+0.45652173913043476
+0.4491017964071856
+0.543859649122807
+0.44554455445544555
+0.15789473684210525
+sizeof mentions: 7
+sizeof mentions: 3
+sizeof mentions: 13
+sizeof mentions: 11
+sizeof mentions: 7
+sizeof mentions: 2
+sizeof mentions: 3
+sizeof mentions: 3
+sizeof mentions: 3
+sizeof mentions: 7
+sizeof mentions: 7
+sizeof mentions: 4
+clts_: [edu.albany.ils.dsarmd0100.lu.LocalTopic@419d05, edu.albany.ils.dsarmd0100.lu.LocalTopic@1abcc03, edu.albany.ils.dsarmd0100.lu.LocalTopic@1deeb40, edu.albany.ils.dsarmd0100.lu.LocalTopic@26e9f9, edu.albany.ils.dsarmd0100.lu.LocalTopic@cafb56, edu.albany.ils.dsarmd0100.lu.LocalTopic@3ae941, edu.albany.ils.dsarmd0100.lu.LocalTopic@8530b8, edu.albany.ils.dsarmd0100.lu.LocalTopic@1a7ddcf, edu.albany.ils.dsarmd0100.lu.LocalTopic@1d36dfe, edu.albany.ils.dsarmd0100.lu.LocalTopic@1da669c, edu.albany.ils.dsarmd0100.lu.LocalTopic@186c730, edu.albany.ils.dsarmd0100.lu.LocalTopic@17f242c]
+==========================================
+speaker name: jamie
+
+0.2608695652173913
+0.1497005988023952
+0.19298245614035087
+0.22772277227722773
+0.3157894736842105
+sizeof mentions: 7
+sizeof mentions: 2
+sizeof mentions: 2
+sizeof mentions: 7
+sizeof mentions: 5
+sizeof mentions: 5
+sizeof mentions: 11
+sizeof mentions: 2
+sizeof mentions: 2
+clts_: [edu.albany.ils.dsarmd0100.lu.LocalTopic@186c730, edu.albany.ils.dsarmd0100.lu.LocalTopic@1fd5e2, edu.albany.ils.dsarmd0100.lu.LocalTopic@12f9ee, edu.albany.ils.dsarmd0100.lu.LocalTopic@1da669c, edu.albany.ils.dsarmd0100.lu.LocalTopic@1d6a56e, edu.albany.ils.dsarmd0100.lu.LocalTopic@aadc97, edu.albany.ils.dsarmd0100.lu.LocalTopic@26e9f9, edu.albany.ils.dsarmd0100.lu.LocalTopic@106fc94, edu.albany.ils.dsarmd0100.lu.LocalTopic@1b06041]
+==========================================
+speaker name: jianhua
+
+0.08695652173913043
+0.16167664670658682
+0.08771929824561403
+0.10891089108910891
+0.19298245614035087
+sizeof mentions: 7
+sizeof mentions: 3
+sizeof mentions: 4
+clts_: [edu.albany.ils.dsarmd0100.lu.LocalTopic@419d05, edu.albany.ils.dsarmd0100.lu.LocalTopic@1abcc03, edu.albany.ils.dsarmd0100.lu.LocalTopic@17f242c]
+==========================================
+speaker name: chris
+
+0.0
+0.023952095808383235
+0.017543859649122806
+0.0297029702970297
+0.05263157894736842
+sizeof mentions: 11
+sizeof mentions: 13
+sizeof mentions: 7
+sizeof mentions: 2
+sizeof mentions: 7
+sizeof mentions: 4
+sizeof mentions: 3
+sizeof mentions: 2
+sizeof mentions: 4
+sizeof mentions: 2
+clts_: [edu.albany.ils.dsarmd0100.lu.LocalTopic@26e9f9, edu.albany.ils.dsarmd0100.lu.LocalTopic@1deeb40, edu.albany.ils.dsarmd0100.lu.LocalTopic@419d05, edu.albany.ils.dsarmd0100.lu.LocalTopic@7f5580, edu.albany.ils.dsarmd0100.lu.LocalTopic@cafb56, edu.albany.ils.dsarmd0100.lu.LocalTopic@1c6572b, edu.albany.ils.dsarmd0100.lu.LocalTopic@84cc09, edu.albany.ils.dsarmd0100.lu.LocalTopic@6f9b8e, edu.albany.ils.dsarmd0100.lu.LocalTopic@14db0e3, edu.albany.ils.dsarmd0100.lu.LocalTopic@1982fc1]
+==========================================
+speaker name: kara
+
+0.1956521739130435
+0.2155688622754491
+0.15789473684210525
+0.18811881188118812
+0.2807017543859649
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+++++++++++++++++++++++++++++++++
+calculate Involvement - NPI quintile
+qt_thrs:  0.417391304347826 0.23478260869565218 0.13043478260869565 0.017391304347826084 0.1956521739130435 0.17486154393208872
+The quintile score of jennifer is: 5 --- actual score: 0.45652173913043476
+The quintile score jamie is: 4 --- actual score: 0.2608695652173913
+The quintile score kara is: 3 --- actual score: 0.1956521739130435
+The quintile score jianhua is: 2 --- actual score: 0.08695652173913043
+The quintile score chris is: 1 --- actual score: 0.0
+
+++++++++++++++++++++++++++++++++
+calculate Involvement - TI quintile
+qt_thrs:  0.4023952095808383 0.1940119760479042 0.15449101796407186 0.04910179640718562 0.16167664670658682 0.1559532527591112
+The quintile score of jennifer is: 5 --- actual score: 0.4491017964071856
+The quintile score kara is: 4 --- actual score: 0.2155688622754491
+The quintile score jianhua is: 3 --- actual score: 0.16167664670658682
+The quintile score jamie is: 2 --- actual score: 0.1497005988023952
+The quintile score chris is: 1 --- actual score: 0.023952095808383235
+
+++++++++++++++++++++++++++++++++
+calculate Involvement - TCI quintile: [0.543859649122807, 0.19298245614035087, 0.15789473684210525, 0.08771929824561403, 0.017543859649122806]
+qt_thrs:  0.47368421052631576 0.17894736842105263 0.11578947368421051 0.03157894736842105 0.15789473684210525 0.2036901792799999
+The quintile score of jennifer is: 5 --- actual score: 0.543859649122807
+The quintile score jamie is: 4 --- actual score: 0.19298245614035087
+The quintile score kara is: 3 --- actual score: 0.15789473684210525
+The quintile score jianhua is: 2 --- actual score: 0.08771929824561403
+The quintile score chris is: 1 --- actual score: 0.017543859649122806
+
+++++++++++++++++++++++++++++++++
+calculate Involvement - ALLOTP quintile
+qt_thrs:  0.30877192982456136 0.24561403508771928 0.1719298245614035 0.07368421052631578 0.19298245614035087 0.10423474229833647
+The quintile score of jamie is: 5 --- actual score: 0.3157894736842105
+The quintile score kara is: 4 --- actual score: 0.2807017543859649
+The quintile score jianhua is: 3 --- actual score: 0.19298245614035087
+The quintile score jennifer is: 2 --- actual score: 0.15789473684210525
+The quintile score chris is: 1 --- actual score: 0.05263157894736842
+
+++++++++++++++++++++++++++++++++
+calculate Involvement - ASMI quintile
+qt_thrs:  0.40198019801980195 0.2118811881188119 0.14059405940594058 0.04554455445544554 0.18811881188118812 0.1569236653953184
+The quintile score of jennifer is: 5 --- actual score: 0.44554455445544555
+The quintile score jamie is: 4 --- actual score: 0.22772277227722773
+The quintile score kara is: 3 --- actual score: 0.18811881188118812
+The quintile score jianhua is: 2 --- actual score: 0.10891089108910891
+The quintile score chris is: 1 --- actual score: 0.0297029702970297
+++++++++++++++++++++++++++++++++
+calculate Merged quintile
+qt_thrs:  0.37435019079813947 0.22068269107840915 0.15962440481431497 0.04534271330913631 0.20758726785955015 0.14248691366932267
+The quintile score of jennifer is: 5 --- actual score: 0.4105844951915956
+The quintile score jamie is: 4 --- actual score: 0.22941297322431514
+The quintile score kara is: 3 --- actual score: 0.20758726785955015
+The quintile score jianhua is: 2 --- actual score: 0.12764916278415822
+The quintile score chris is: 1 --- actual score: 0.02476610094038083
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: YMCA_lauren_final_predictions.xml
+size of top10nouns: 243
+size of LTs: 508
+size of mentions: 549
+sizeof mentions: 83
+sizeof mentions: 19
+sizeof mentions: 4
+sizeof mentions: 10
+sizeof mentions: 6
+sizeof mentions: 2
+sizeof mentions: 58
+sizeof mentions: 2
+sizeof mentions: 4
+sizeof mentions: 2
+sizeof mentions: 2
+sizeof mentions: 5
+sizeof mentions: 9
+sizeof mentions: 11
+sizeof mentions: 14
+sizeof mentions: 4
+sizeof mentions: 8
+sizeof mentions: 8
+sizeof mentions: 3
+sizeof mentions: 3
+sizeof mentions: 5
+sizeof mentions: 3
+sizeof mentions: 2
+sizeof mentions: 14
+sizeof mentions: 12
+sizeof mentions: 2
+sizeof mentions: 3
+sizeof mentions: 2
+sizeof mentions: 2
+sizeof mentions: 2
+sizeof mentions: 4
+sizeof mentions: 2
+sizeof mentions: 3
+sizeof mentions: 3
+sizeof mentions: 5
+sizeof mentions: 4
+sizeof mentions: 3
+sizeof mentions: 4
+sizeof mentions: 2
+sizeof mentions: 4
+sizeof mentions: 7
+sizeof mentions: 2
+sizeof mentions: 6
+clts_: [edu.albany.ils.dsarmd0100.lu.LocalTopic@149b290, edu.albany.ils.dsarmd0100.lu.LocalTopic@16a38b5, edu.albany.ils.dsarmd0100.lu.LocalTopic@b1074a, edu.albany.ils.dsarmd0100.lu.LocalTopic@55a338, edu.albany.ils.dsarmd0100.lu.LocalTopic@4ee70b, edu.albany.ils.dsarmd0100.lu.LocalTopic@22ab57, edu.albany.ils.dsarmd0100.lu.LocalTopic@1eec35, edu.albany.ils.dsarmd0100.lu.LocalTopic@25c828, edu.albany.ils.dsarmd0100.lu.LocalTopic@77ef83, edu.albany.ils.dsarmd0100.lu.LocalTopic@d85cc, edu.albany.ils.dsarmd0100.lu.LocalTopic@1cb52ae, edu.albany.ils.dsarmd0100.lu.LocalTopic@1a12495, edu.albany.ils.dsarmd0100.lu.LocalTopic@68c26c, edu.albany.ils.dsarmd0100.lu.LocalTopic@1b446d1, edu.albany.ils.dsarmd0100.lu.LocalTopic@955cd5, edu.albany.ils.dsarmd0100.lu.LocalTopic@1bde4, edu.albany.ils.dsarmd0100.lu.LocalTopic@59fb21, edu.albany.ils.dsarmd0100.lu.LocalTopic@1766806, edu.albany.ils.dsarmd0100.lu.LocalTopic@a77106, edu.albany.ils.dsarmd0100.lu.LocalTopic@ed662d, edu.albany.ils.dsarmd0100.lu.LocalTopic@1cf4a2c, edu.albany.ils.dsarmd0100.lu.LocalTopic@eac5a, edu.albany.ils.dsarmd0100.lu.LocalTopic@15575e0, edu.albany.ils.dsarmd0100.lu.LocalTopic@1addb59, edu.albany.ils.dsarmd0100.lu.LocalTopic@11bed71, edu.albany.ils.dsarmd0100.lu.LocalTopic@81b1fb, edu.albany.ils.dsarmd0100.lu.LocalTopic@cbdb20, edu.albany.ils.dsarmd0100.lu.LocalTopic@19f3736, edu.albany.ils.dsarmd0100.lu.LocalTopic@1e1dadb, edu.albany.ils.dsarmd0100.lu.LocalTopic@e79839, edu.albany.ils.dsarmd0100.lu.LocalTopic@bac9b9, edu.albany.ils.dsarmd0100.lu.LocalTopic@111b910, edu.albany.ils.dsarmd0100.lu.LocalTopic@8ceeea, edu.albany.ils.dsarmd0100.lu.LocalTopic@995a79, edu.albany.ils.dsarmd0100.lu.LocalTopic@2c35e, edu.albany.ils.dsarmd0100.lu.LocalTopic@1687e7c, edu.albany.ils.dsarmd0100.lu.LocalTopic@14835fb, edu.albany.ils.dsarmd0100.lu.LocalTopic@1cffeb4, edu.albany.ils.dsarmd0100.lu.LocalTopic@5b0668, edu.albany.ils.dsarmd0100.lu.LocalTopic@1d5a0, edu.albany.ils.dsarmd0100.lu.LocalTopic@701a27, edu.albany.ils.dsarmd0100.lu.LocalTopic@1c50507, edu.albany.ils.dsarmd0100.lu.LocalTopic@1cd107f]
+==========================================
+speaker name: jennifer
+
+0.19844357976653695
+0.20579268292682926
+0.25102880658436216
+0.23861566484517305
+0.20813397129186603
+sizeof mentions: 83
+sizeof mentions: 58
+sizeof mentions: 11
+sizeof mentions: 4
+sizeof mentions: 4
+sizeof mentions: 3
+sizeof mentions: 2
+sizeof mentions: 6
+sizeof mentions: 4
+sizeof mentions: 19
+sizeof mentions: 5
+sizeof mentions: 2
+sizeof mentions: 8
+sizeof mentions: 4
+sizeof mentions: 7
+sizeof mentions: 3
+sizeof mentions: 23
+sizeof mentions: 4
+sizeof mentions: 3
+sizeof mentions: 2
+sizeof mentions: 2
+sizeof mentions: 9
+sizeof mentions: 6
+sizeof mentions: 4
+sizeof mentions: 2
+sizeof mentions: 10
+clts_: [edu.albany.ils.dsarmd0100.lu.LocalTopic@149b290, edu.albany.ils.dsarmd0100.lu.LocalTopic@1eec35, edu.albany.ils.dsarmd0100.lu.LocalTopic@1f64158, edu.albany.ils.dsarmd0100.lu.LocalTopic@3c2378, edu.albany.ils.dsarmd0100.lu.LocalTopic@3cc262, edu.albany.ils.dsarmd0100.lu.LocalTopic@fdb00d, edu.albany.ils.dsarmd0100.lu.LocalTopic@131303f, edu.albany.ils.dsarmd0100.lu.LocalTopic@56860b, edu.albany.ils.dsarmd0100.lu.LocalTopic@7a5a19, edu.albany.ils.dsarmd0100.lu.LocalTopic@16a38b5, edu.albany.ils.dsarmd0100.lu.LocalTopic@1a12495, edu.albany.ils.dsarmd0100.lu.LocalTopic@b122a1, edu.albany.ils.dsarmd0100.lu.LocalTopic@1766806, edu.albany.ils.dsarmd0100.lu.LocalTopic@1cffeb4, edu.albany.ils.dsarmd0100.lu.LocalTopic@1589e56, edu.albany.ils.dsarmd0100.lu.LocalTopic@1033a6f, edu.albany.ils.dsarmd0100.lu.LocalTopic@f18e8e, edu.albany.ils.dsarmd0100.lu.LocalTopic@c623af, edu.albany.ils.dsarmd0100.lu.LocalTopic@50ca0c, edu.albany.ils.dsarmd0100.lu.LocalTopic@e753, edu.albany.ils.dsarmd0100.lu.LocalTopic@15311bd, edu.albany.ils.dsarmd0100.lu.LocalTopic@68c26c, edu.albany.ils.dsarmd0100.lu.LocalTopic@b1aebf, edu.albany.ils.dsarmd0100.lu.LocalTopic@1687e7c, edu.albany.ils.dsarmd0100.lu.LocalTopic@1478a43, edu.albany.ils.dsarmd0100.lu.LocalTopic@55a338]
+==========================================
+speaker name: ken
+
+0.1517509727626459
+0.12957317073170732
+0.11934156378600823
+0.11657559198542805
+0.1291866028708134
+sizeof mentions: 8
+sizeof mentions: 8
+sizeof mentions: 10
+sizeof mentions: 6
+sizeof mentions: 12
+sizeof mentions: 3
+sizeof mentions: 16
+sizeof mentions: 4
+sizeof mentions: 4
+sizeof mentions: 2
+sizeof mentions: 3
+sizeof mentions: 14
+sizeof mentions: 6
+sizeof mentions: 7
+sizeof mentions: 3
+sizeof mentions: 9
+sizeof mentions: 14
+sizeof mentions: 8
+sizeof mentions: 7
+sizeof mentions: 4
+sizeof mentions: 2
+sizeof mentions: 3
+sizeof mentions: 12
+sizeof mentions: 6
+sizeof mentions: 2
+sizeof mentions: 3
+sizeof mentions: 4
+sizeof mentions: 23
+sizeof mentions: 3
+sizeof mentions: 3
+sizeof mentions: 11
+sizeof mentions: 2
+sizeof mentions: 4
+sizeof mentions: 3
+sizeof mentions: 5
+clts_: [edu.albany.ils.dsarmd0100.lu.LocalTopic@1b6101e, edu.albany.ils.dsarmd0100.lu.LocalTopic@1dc423f, edu.albany.ils.dsarmd0100.lu.LocalTopic@1815bfb, edu.albany.ils.dsarmd0100.lu.LocalTopic@b1aebf, edu.albany.ils.dsarmd0100.lu.LocalTopic@1bdc9d8, edu.albany.ils.dsarmd0100.lu.LocalTopic@10ea9ba, edu.albany.ils.dsarmd0100.lu.LocalTopic@1a918d5, edu.albany.ils.dsarmd0100.lu.LocalTopic@7a5a19, edu.albany.ils.dsarmd0100.lu.LocalTopic@9d6065, edu.albany.ils.dsarmd0100.lu.LocalTopic@238a47, edu.albany.ils.dsarmd0100.lu.LocalTopic@1033a6f, edu.albany.ils.dsarmd0100.lu.LocalTopic@955cd5, edu.albany.ils.dsarmd0100.lu.LocalTopic@14b5f4a, edu.albany.ils.dsarmd0100.lu.LocalTopic@701a27, edu.albany.ils.dsarmd0100.lu.LocalTopic@15d17d7, edu.albany.ils.dsarmd0100.lu.LocalTopic@c8376b, edu.albany.ils.dsarmd0100.lu.LocalTopic@1addb59, edu.albany.ils.dsarmd0100.lu.LocalTopic@59fb21, edu.albany.ils.dsarmd0100.lu.LocalTopic@1589e56, edu.albany.ils.dsarmd0100.lu.LocalTopic@3cc262, edu.albany.ils.dsarmd0100.lu.LocalTopic@ae533a, edu.albany.ils.dsarmd0100.lu.LocalTopic@da18ac, edu.albany.ils.dsarmd0100.lu.LocalTopic@11bed71, edu.albany.ils.dsarmd0100.lu.LocalTopic@56860b, edu.albany.ils.dsarmd0100.lu.LocalTopic@8a0544, edu.albany.ils.dsarmd0100.lu.LocalTopic@15fc40c, edu.albany.ils.dsarmd0100.lu.LocalTopic@401369, edu.albany.ils.dsarmd0100.lu.LocalTopic@f18e8e, edu.albany.ils.dsarmd0100.lu.LocalTopic@ba5bdb, edu.albany.ils.dsarmd0100.lu.LocalTopic@cbdb20, edu.albany.ils.dsarmd0100.lu.LocalTopic@1f64158, edu.albany.ils.dsarmd0100.lu.LocalTopic@e49dcd, edu.albany.ils.dsarmd0100.lu.LocalTopic@c623af, edu.albany.ils.dsarmd0100.lu.LocalTopic@1343ed0, edu.albany.ils.dsarmd0100.lu.LocalTopic@107f45d]
+==========================================
+speaker name: lance
+
+0.16731517509727625
+0.11280487804878049
+0.11522633744855967
+0.1930783242258652
+0.14114832535885166
+sizeof mentions: 58
+sizeof mentions: 83
+sizeof mentions: 9
+sizeof mentions: 9
+sizeof mentions: 19
+sizeof mentions: 14
+sizeof mentions: 16
+sizeof mentions: 12
+sizeof mentions: 6
+sizeof mentions: 3
+sizeof mentions: 4
+sizeof mentions: 8
+sizeof mentions: 10
+sizeof mentions: 2
+sizeof mentions: 11
+sizeof mentions: 3
+sizeof mentions: 8
+sizeof mentions: 2
+sizeof mentions: 4
+sizeof mentions: 2
+sizeof mentions: 3
+sizeof mentions: 2
+sizeof mentions: 12
+sizeof mentions: 7
+sizeof mentions: 23
+sizeof mentions: 2
+sizeof mentions: 4
+sizeof mentions: 3
+sizeof mentions: 2
+sizeof mentions: 2
+sizeof mentions: 14
+clts_: [edu.albany.ils.dsarmd0100.lu.LocalTopic@1eec35, edu.albany.ils.dsarmd0100.lu.LocalTopic@149b290, edu.albany.ils.dsarmd0100.lu.LocalTopic@c8376b, edu.albany.ils.dsarmd0100.lu.LocalTopic@68c26c, edu.albany.ils.dsarmd0100.lu.LocalTopic@16a38b5, edu.albany.ils.dsarmd0100.lu.LocalTopic@955cd5, edu.albany.ils.dsarmd0100.lu.LocalTopic@1a918d5, edu.albany.ils.dsarmd0100.lu.LocalTopic@11bed71, edu.albany.ils.dsarmd0100.lu.LocalTopic@14b5f4a, edu.albany.ils.dsarmd0100.lu.LocalTopic@fdb00d, edu.albany.ils.dsarmd0100.lu.LocalTopic@3c2378, edu.albany.ils.dsarmd0100.lu.LocalTopic@1b6101e, edu.albany.ils.dsarmd0100.lu.LocalTopic@55a338, edu.albany.ils.dsarmd0100.lu.LocalTopic@13c0b53, edu.albany.ils.dsarmd0100.lu.LocalTopic@1f64158, edu.albany.ils.dsarmd0100.lu.LocalTopic@15d17d7, edu.albany.ils.dsarmd0100.lu.LocalTopic@1766806, edu.albany.ils.dsarmd0100.lu.LocalTopic@10b9279, edu.albany.ils.dsarmd0100.lu.LocalTopic@b1074a, edu.albany.ils.dsarmd0100.lu.LocalTopic@bd6a5f, edu.albany.ils.dsarmd0100.lu.LocalTopic@192a848, edu.albany.ils.dsarmd0100.lu.LocalTopic@16614e7, edu.albany.ils.dsarmd0100.lu.LocalTopic@1bdc9d8, edu.albany.ils.dsarmd0100.lu.LocalTopic@701a27, edu.albany.ils.dsarmd0100.lu.LocalTopic@f18e8e, edu.albany.ils.dsarmd0100.lu.LocalTopic@e66f56, edu.albany.ils.dsarmd0100.lu.LocalTopic@1d5a0, edu.albany.ils.dsarmd0100.lu.LocalTopic@14835fb, edu.albany.ils.dsarmd0100.lu.LocalTopic@979e8b, edu.albany.ils.dsarmd0100.lu.LocalTopic@29ce8c, edu.albany.ils.dsarmd0100.lu.LocalTopic@1addb59]
+==========================================
+speaker name: kerri
+
+0.20622568093385213
+0.31402439024390244
+0.2222222222222222
+0.18579234972677597
+0.20574162679425836
+sizeof mentions: 83
+sizeof mentions: 4
+sizeof mentions: 58
+sizeof mentions: 4
+sizeof mentions: 14
+sizeof mentions: 8
+sizeof mentions: 19
+sizeof mentions: 11
+sizeof mentions: 7
+sizeof mentions: 12
+sizeof mentions: 23
+sizeof mentions: 2
+sizeof mentions: 2
+sizeof mentions: 3
+sizeof mentions: 4
+clts_: [edu.albany.ils.dsarmd0100.lu.LocalTopic@149b290, edu.albany.ils.dsarmd0100.lu.LocalTopic@9d6065, edu.albany.ils.dsarmd0100.lu.LocalTopic@1eec35, edu.albany.ils.dsarmd0100.lu.LocalTopic@b754b2, edu.albany.ils.dsarmd0100.lu.LocalTopic@955cd5, edu.albany.ils.dsarmd0100.lu.LocalTopic@1b6101e, edu.albany.ils.dsarmd0100.lu.LocalTopic@16a38b5, edu.albany.ils.dsarmd0100.lu.LocalTopic@1b446d1, edu.albany.ils.dsarmd0100.lu.LocalTopic@701a27, edu.albany.ils.dsarmd0100.lu.LocalTopic@11bed71, edu.albany.ils.dsarmd0100.lu.LocalTopic@f18e8e, edu.albany.ils.dsarmd0100.lu.LocalTopic@197bb7, edu.albany.ils.dsarmd0100.lu.LocalTopic@1094d48, edu.albany.ils.dsarmd0100.lu.LocalTopic@1b0bdc8, edu.albany.ils.dsarmd0100.lu.LocalTopic@7bc899]
+==========================================
+speaker name: chris
+
+0.05058365758754864
+0.053353658536585365
+0.04526748971193416
+0.052823315118397086
+0.05741626794258373
+sizeof mentions: 12
+sizeof mentions: 83
+sizeof mentions: 58
+sizeof mentions: 8
+sizeof mentions: 7
+sizeof mentions: 4
+sizeof mentions: 14
+sizeof mentions: 23
+sizeof mentions: 3
+sizeof mentions: 8
+sizeof mentions: 3
+sizeof mentions: 12
+sizeof mentions: 8
+sizeof mentions: 2
+sizeof mentions: 3
+sizeof mentions: 5
+clts_: [edu.albany.ils.dsarmd0100.lu.LocalTopic@11bed71, edu.albany.ils.dsarmd0100.lu.LocalTopic@149b290, edu.albany.ils.dsarmd0100.lu.LocalTopic@1eec35, edu.albany.ils.dsarmd0100.lu.LocalTopic@1766806, edu.albany.ils.dsarmd0100.lu.LocalTopic@1589e56, edu.albany.ils.dsarmd0100.lu.LocalTopic@aeea66, edu.albany.ils.dsarmd0100.lu.LocalTopic@1addb59, edu.albany.ils.dsarmd0100.lu.LocalTopic@f18e8e, edu.albany.ils.dsarmd0100.lu.LocalTopic@19eda2c, edu.albany.ils.dsarmd0100.lu.LocalTopic@1dc423f, edu.albany.ils.dsarmd0100.lu.LocalTopic@59a34, edu.albany.ils.dsarmd0100.lu.LocalTopic@1bdc9d8, edu.albany.ils.dsarmd0100.lu.LocalTopic@1b6101e, edu.albany.ils.dsarmd0100.lu.LocalTopic@1cef4f7, edu.albany.ils.dsarmd0100.lu.LocalTopic@da18ac, edu.albany.ils.dsarmd0100.lu.LocalTopic@107f45d]
+==========================================
+speaker name: jenny
+
+0.038910505836575876
+0.038109756097560975
+0.037037037037037035
+0.03825136612021858
+0.050239234449760764
+sizeof mentions: 83
+sizeof mentions: 5
+sizeof mentions: 3
+sizeof mentions: 19
+sizeof mentions: 14
+sizeof mentions: 4
+sizeof mentions: 11
+sizeof mentions: 5
+sizeof mentions: 10
+sizeof mentions: 8
+sizeof mentions: 14
+sizeof mentions: 10
+sizeof mentions: 4
+sizeof mentions: 2
+sizeof mentions: 58
+sizeof mentions: 3
+sizeof mentions: 4
+sizeof mentions: 3
+sizeof mentions: 2
+sizeof mentions: 4
+sizeof mentions: 4
+sizeof mentions: 2
+sizeof mentions: 3
+sizeof mentions: 23
+sizeof mentions: 2
+sizeof mentions: 12
+sizeof mentions: 16
+sizeof mentions: 3
+sizeof mentions: 3
+sizeof mentions: 9
+sizeof mentions: 6
+sizeof mentions: 6
+sizeof mentions: 2
+sizeof mentions: 2
+sizeof mentions: 2
+sizeof mentions: 11
+clts_: [edu.albany.ils.dsarmd0100.lu.LocalTopic@149b290, edu.albany.ils.dsarmd0100.lu.LocalTopic@2c35e, edu.albany.ils.dsarmd0100.lu.LocalTopic@349471, edu.albany.ils.dsarmd0100.lu.LocalTopic@16a38b5, edu.albany.ils.dsarmd0100.lu.LocalTopic@955cd5, edu.albany.ils.dsarmd0100.lu.LocalTopic@77ef83, edu.albany.ils.dsarmd0100.lu.LocalTopic@1b446d1, edu.albany.ils.dsarmd0100.lu.LocalTopic@1fdadcd, edu.albany.ils.dsarmd0100.lu.LocalTopic@1815bfb, edu.albany.ils.dsarmd0100.lu.LocalTopic@59fb21, edu.albany.ils.dsarmd0100.lu.LocalTopic@1addb59, edu.albany.ils.dsarmd0100.lu.LocalTopic@55a338, edu.albany.ils.dsarmd0100.lu.LocalTopic@aeea66, edu.albany.ils.dsarmd0100.lu.LocalTopic@19d75ee, edu.albany.ils.dsarmd0100.lu.LocalTopic@1eec35, edu.albany.ils.dsarmd0100.lu.LocalTopic@1b0bdc8, edu.albany.ils.dsarmd0100.lu.LocalTopic@a98932, edu.albany.ils.dsarmd0100.lu.LocalTopic@eac5a, edu.albany.ils.dsarmd0100.lu.LocalTopic@6e4365, edu.albany.ils.dsarmd0100.lu.LocalTopic@b754b2, edu.albany.ils.dsarmd0100.lu.LocalTopic@401369, edu.albany.ils.dsarmd0100.lu.LocalTopic@10ab09f, edu.albany.ils.dsarmd0100.lu.LocalTopic@d1c778, edu.albany.ils.dsarmd0100.lu.LocalTopic@f18e8e, edu.albany.ils.dsarmd0100.lu.LocalTopic@7eb366, edu.albany.ils.dsarmd0100.lu.LocalTopic@1bdc9d8, edu.albany.ils.dsarmd0100.lu.LocalTopic@1a918d5, edu.albany.ils.dsarmd0100.lu.LocalTopic@8ceeea, edu.albany.ils.dsarmd0100.lu.LocalTopic@10ea9ba, edu.albany.ils.dsarmd0100.lu.LocalTopic@c8376b, edu.albany.ils.dsarmd0100.lu.LocalTopic@b1aebf, edu.albany.ils.dsarmd0100.lu.LocalTopic@56860b, edu.albany.ils.dsarmd0100.lu.LocalTopic@33f0de, edu.albany.ils.dsarmd0100.lu.LocalTopic@ab444, edu.albany.ils.dsarmd0100.lu.LocalTopic@c0f1ec, edu.albany.ils.dsarmd0100.lu.LocalTopic@1f64158]
+==========================================
+speaker name: kara
+
+0.1867704280155642
+0.14634146341463414
+0.20987654320987653
+0.17486338797814208
+0.20813397129186603
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+++++++++++++++++++++++++++++++++
+calculate Involvement - NPI quintile
+qt_thrs:  0.20155642023346304 0.1828793774319066 0.154863813229572 0.045914396887159536 0.16731517509727625 0.06955860261055324
+The quintile score of kerri is: 5 --- actual score: 0.20622568093385213
+The quintile score jennifer is: 4 --- actual score: 0.19844357976653695
+The quintile score kara is: 4 --- actual score: 0.1867704280155642
+The quintile score lance is: 3 --- actual score: 0.16731517509727625
+The quintile score ken is: 2 --- actual score: 0.1517509727626459
+The quintile score chris is: 2 --- actual score: 0.05058365758754864
+The quintile score jenny is: 1 --- actual score: 0.038910505836575876
+
+++++++++++++++++++++++++++++++++
+calculate Involvement - TI quintile
+qt_thrs:  0.24908536585365856 0.14298780487804877 0.11615853658536586 0.04725609756097561 0.12957317073170732 0.09428126408570757
+The quintile score of kerri is: 5 --- actual score: 0.31402439024390244
+The quintile score jennifer is: 4 --- actual score: 0.20579268292682926
+The quintile score kara is: 4 --- actual score: 0.14634146341463414
+The quintile score ken is: 3 --- actual score: 0.12957317073170732
+The quintile score lance is: 2 --- actual score: 0.11280487804878049
+The quintile score chris is: 2 --- actual score: 0.053353658536585365
+The quintile score jenny is: 1 --- actual score: 0.038109756097560975
+
+++++++++++++++++++++++++++++++++
+calculate Involvement - TCI quintile: [0.25102880658436216, 0.2222222222222222, 0.20987654320987653, 0.11934156378600823, 0.11522633744855967, 0.04526748971193416, 0.037037037037037035]
+qt_thrs:  0.2337448559670782 0.19176954732510287 0.11604938271604938 0.04197530864197531 0.11934156378600823 0.08614871225883981
+The quintile score of jennifer is: 5 --- actual score: 0.25102880658436216
+The quintile score kerri is: 4 --- actual score: 0.2222222222222222
+The quintile score kara is: 4 --- actual score: 0.20987654320987653
+The quintile score ken is: 3 --- actual score: 0.11934156378600823
+The quintile score lance is: 2 --- actual score: 0.11522633744855967
+The quintile score chris is: 2 --- actual score: 0.04526748971193416
+The quintile score jenny is: 1 --- actual score: 0.037037037037037035
+
+++++++++++++++++++++++++++++++++
+calculate Involvement - ALLOTP quintile
+qt_thrs:  0.20813397129186603 0.192822966507177 0.13157894736842105 0.05454545454545455 0.14114832535885166 0.06897416275402668
+The quintile score jennifer is: 4 --- actual score: 0.20813397129186603
+The quintile score kara is: 4 --- actual score: 0.20813397129186603
+The quintile score kerri is: 4 --- actual score: 0.20574162679425836
+The quintile score lance is: 3 --- actual score: 0.14114832535885166
+The quintile score ken is: 2 --- actual score: 0.1291866028708134
+The quintile score chris is: 2 --- actual score: 0.05741626794258373
+The quintile score jenny is: 1 --- actual score: 0.050239234449760764
+
+++++++++++++++++++++++++++++++++
+calculate Involvement - ASMI quintile
+qt_thrs:  0.21129326047358837 0.18360655737704917 0.12823315118397086 0.046994535519125684 0.17486338797814208 0.07560739810289045
+The quintile score of jennifer is: 5 --- actual score: 0.23861566484517305
+The quintile score lance is: 4 --- actual score: 0.1930783242258652
+The quintile score kerri is: 4 --- actual score: 0.18579234972677597
+The quintile score kara is: 3 --- actual score: 0.17486338797814208
+The quintile score ken is: 2 --- actual score: 0.11657559198542805
+The quintile score chris is: 2 --- actual score: 0.052823315118397086
+The quintile score jenny is: 1 --- actual score: 0.03825136612021858
+++++++++++++++++++++++++++++++++
+calculate Merged quintile
+qt_thrs:  0.222962266243453 0.1773406486327866 0.1326113859490298 0.04733715863093813 0.14591460803586667 0.07505156655798811
+The quintile score of kerri is: 5 --- actual score: 0.22680125398420223
+The quintile score jennifer is: 4 --- actual score: 0.2204029410829535
+The quintile score kara is: 4 --- actual score: 0.1851971587820166
+The quintile score lance is: 3 --- actual score: 0.14591460803586667
+The quintile score ken is: 2 --- actual score: 0.12928558042732058
+The quintile score chris is: 2 --- actual score: 0.051888877779409794
+The quintile score jenny is: 1 --- actual score: 0.04050957990823064
