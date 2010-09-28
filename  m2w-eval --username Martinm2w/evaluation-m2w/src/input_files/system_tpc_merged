@@ -1,0 +1,1760 @@
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: session01_CA_DA_LT.xml
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control - LTI quintile
+qt_thrs:  0.2430493273542602 0.131390134529148 0.09192825112107623 0.06995515695067264 0.10089686098654709 0.1144941370598486
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.3923766816143498
+The quintile score Unit Nyn is: 4 --- actual score: 0.14349775784753363
+The quintile score Dark Lichlore is: 4 --- actual score: 0.13901345291479822
+The quintile score Charlee Rae is: 3 --- actual score: 0.10089686098654709
+The quintile score Nalani Sorrowsong is: 2 --- actual score: 0.08968609865470852
+The quintile score Soto Ling is: 2 --- actual score: 0.08071748878923767
+The quintile score Decatur Randall is: 1 --- actual score: 0.053811659192825115
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  SMT quintile: 
+qt_thrs:  0.2933687002652521 0.11511936339522545 0.06631299734748011 0.03872679045092839 0.09814323607427056 0.1604166355693076
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.4907161803713528
+The quintile score Unit Nyn is: 4 --- actual score: 0.16180371352785147
+The quintile score Dark Lichlore is: 4 --- actual score: 0.11936339522546419
+The quintile score Charlee Rae is: 3 --- actual score: 0.09814323607427056
+The quintile score Nalani Sorrowsong is: 2 --- actual score: 0.058355437665782495
+The quintile score Soto Ling is: 2 --- actual score: 0.050397877984084884
+The quintile score Decatur Randall is: 1 --- actual score: 0.021220159151193633
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  CS quintile
+qt_thrs:  0.2834123222748816 0.11563981042654028 0.07014218009478673 0.04834123222748815 0.10426540284360189 0.14680290367984336
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.4597156398104265
+The quintile score Dark Lichlore is: 4 --- actual score: 0.16587677725118483
+The quintile score Unit Nyn is: 4 --- actual score: 0.11848341232227488
+The quintile score Charlee Rae is: 3 --- actual score: 0.10426540284360189
+The quintile score Nalani Sorrowsong is: 2 --- actual score: 0.061611374407582936
+The quintile score Soto Ling is: 2 --- actual score: 0.061611374407582936
+The quintile score Decatur Randall is: 1 --- actual score: 0.02843601895734597
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  TL quintile
+qt_thrs:  9.703731025677401 6.820952380952381 5.004411027568922 4.447089947089947 5.190476190476191 2.398482539524096
+The quintile score of Unit Nyn is: 5 --- actual score: 9.981132075471699
+The quintile score Belladonna Kamala is: 4 --- actual score: 9.518796992481203
+The quintile score Decatur Randall is: 4 --- actual score: 7.228571428571429
+The quintile score Soto Ling is: 3 --- actual score: 5.190476190476191
+The quintile score Dark Lichlore is: 2 --- actual score: 4.957894736842105
+The quintile score Charlee Rae is: 2 --- actual score: 4.5476190476190474
+The quintile score Nalani Sorrowsong is: 1 --- actual score: 4.296296296296297
+++++++++++++++++++++++++++++++++
+calculate Merged quintile
+qt_thrs:  0.2514139232217081 0.12667695641140478 0.08138897874405474 0.07170018968848398 0.10069263039904308 0.11330986029557878
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.3877506446533967
+The quintile score Unit Nyn is: 4 --- actual score: 0.1605227756005822
+The quintile score Dark Lichlore is: 4 --- actual score: 0.1331730379144952
+The quintile score Charlee Rae is: 3 --- actual score: 0.10069263039904308
+The quintile score Soto Ling is: 2 --- actual score: 0.07656306583030764
+The quintile score Nalani Sorrowsong is: 2 --- actual score: 0.07590525723806946
+The quintile score Decatur Randall is: 1 --- actual score: 0.06539258836410575
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: session02_CA_DA_LT.xml
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control - LTI quintile
+qt_thrs:  0.25104895104895103 0.2020979020979021 0.11153846153846153 0.0979020979020979 0.15646853146853146 0.0739050896768558
+The quintile score of Eversky Aeon is: 5 --- actual score: 0.2762237762237762
+The quintile score Jean Restless is: 4 --- actual score: 0.21328671328671328
+The quintile score Belladonna Kamala is: 3 --- actual score: 0.1993006993006993
+The quintile score Gumby Roffo is: 3 --- actual score: 0.11363636363636363
+The quintile score Unit Nyn is: 2 --- actual score: 0.10314685314685315
+The quintile score Luvi Unplugged is: 1 --- actual score: 0.0944055944055944
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  SMT quintile: 
+qt_thrs:  0.26168831168831164 0.2113636363636364 0.11038961038961038 0.08051948051948052 0.1599025974025974 0.08557930799518561
+The quintile score of Jean Restless is: 5 --- actual score: 0.2857142857142857
+The quintile score Eversky Aeon is: 4 --- actual score: 0.22564935064935066
+The quintile score Belladonna Kamala is: 3 --- actual score: 0.2077922077922078
+The quintile score Gumby Roffo is: 3 --- actual score: 0.11201298701298701
+The quintile score Unit Nyn is: 2 --- actual score: 0.1038961038961039
+The quintile score Luvi Unplugged is: 1 --- actual score: 0.06493506493506493
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  CS quintile
+qt_thrs:  0.27220902612826603 0.20380047505938242 0.11401425178147268 0.07458432304038004 0.16152019002375295 0.09196316125372976
+The quintile score of Jean Restless is: 5 --- actual score: 0.30641330166270786
+The quintile score Belladonna Kamala is: 4 --- actual score: 0.2209026128266033
+The quintile score Eversky Aeon is: 3 --- actual score: 0.1995249406175772
+The quintile score Gumby Roffo is: 3 --- actual score: 0.12351543942992874
+The quintile score Luvi Unplugged is: 2 --- actual score: 0.07600950118764846
+The quintile score Unit Nyn is: 1 --- actual score: 0.07363420427553444
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  TL quintile
+qt_thrs:  9.956576774903686 6.104810126582279 4.839796889876229 3.8329211976761504 5.042391304347826 2.8830048267170323
+The quintile score of Unit Nyn is: 5 --- actual score: 9.978260869565217
+The quintile score Belladonna Kamala is: 4 --- actual score: 9.924050632911392
+The quintile score Eversky Aeon is: 3 --- actual score: 5.15
+The quintile score Gumby Roffo is: 3 --- actual score: 4.934782608695652
+The quintile score Jean Restless is: 2 --- actual score: 4.45985401459854
+The quintile score Luvi Unplugged is: 1 --- actual score: 3.4149659863945576
+++++++++++++++++++++++++++++++++
+calculate Merged quintile
+qt_thrs:  0.2274917597993537 0.21198909298993585 0.13281918524024516 0.09678192739811382 0.17270491356912138 0.06237812993782931
+The quintile score of Jean Restless is: 5 --- actual score: 0.2308017298563254
+The quintile score Belladonna Kamala is: 4 --- actual score: 0.2225268047138962
+The quintile score Eversky Aeon is: 3 --- actual score: 0.20935466505894576
+The quintile score Unit Nyn is: 3 --- actual score: 0.13605516207929702
+The quintile score Gumby Roffo is: 2 --- actual score: 0.11987527788403778
+The quintile score Luvi Unplugged is: 1 --- actual score: 0.08138636040749786
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: session07_CA_DA_LT.xml
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control - LTI quintile
+qt_thrs:  0.17856000000000002 0.15136 0.12832000000000002 0.10688 0.1488 0.0347082534441429
+The quintile score of Burnsand Allen is: 5 --- actual score: 0.2016
+The quintile score Torry Baar is: 4 --- actual score: 0.1632
+The quintile score Belladonna Kamala is: 4 --- actual score: 0.152
+The quintile score Solomon Flux is: 3 --- actual score: 0.1488
+The quintile score Javana Kohime is: 2 --- actual score: 0.1232
+The quintile score Verlia Bilavio is: 2 --- actual score: 0.112
+The quintile score Unit Nyn is: 1 --- actual score: 0.0992
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  SMT quintile: 
+qt_thrs:  0.17902621722846443 0.1540574282147316 0.1380774032459426 0.10486891385767791 0.14107365792759052 0.03682971950145583
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.1947565543071161
+The quintile score Solomon Flux is: 4 --- actual score: 0.16853932584269662
+The quintile score Javana Kohime is: 4 --- actual score: 0.15730337078651685
+The quintile score Torry Baar is: 3 --- actual score: 0.14107365792759052
+The quintile score Verlia Bilavio is: 2 --- actual score: 0.1373283395755306
+The quintile score Burnsand Allen is: 2 --- actual score: 0.12234706616729088
+The quintile score Unit Nyn is: 1 --- actual score: 0.07865168539325842
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  CS quintile
+qt_thrs:  0.21440000000000003 0.12586666666666665 0.11306666666666666 0.09653333333333333 0.11733333333333333 0.06857460310112037
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.288
+The quintile score Javana Kohime is: 4 --- actual score: 0.16533333333333333
+The quintile score Solomon Flux is: 4 --- actual score: 0.128
+The quintile score Burnsand Allen is: 3 --- actual score: 0.11733333333333333
+The quintile score Verlia Bilavio is: 2 --- actual score: 0.112
+The quintile score Torry Baar is: 2 --- actual score: 0.104
+The quintile score Unit Nyn is: 1 --- actual score: 0.08533333333333333
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  TL quintile
+qt_thrs:  13.587145877378436 11.74007326007326 9.847266775777415 7.901080432172869 10.938461538461539 2.6311014262766923
+The quintile score of Verlia Bilavio is: 5 --- actual score: 14.781818181818181
+The quintile score Unit Nyn is: 4 --- actual score: 12.790697674418604
+The quintile score Solomon Flux is: 4 --- actual score: 11.94047619047619
+The quintile score Belladonna Kamala is: 3 --- actual score: 10.938461538461539
+The quintile score Torry Baar is: 2 --- actual score: 9.574468085106384
+The quintile score Burnsand Allen is: 2 --- actual score: 8.372549019607844
+The quintile score Javana Kohime is: 1 --- actual score: 7.1938775510204085
+++++++++++++++++++++++++++++++++
+calculate Merged quintile
+qt_thrs:  0.16844070252518034 0.13897694605690436 0.13580266999110388 0.12347905886380843 0.13800990319005288 0.026313300195984064
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.19486496123941544
+The quintile score Solomon Flux is: 4 --- actual score: 0.15082453004902358
+The quintile score Verlia Bilavio is: 4 --- actual score: 0.13921870677361722
+The quintile score Burnsand Allen is: 3 --- actual score: 0.13800990319005288
+The quintile score Javana Kohime is: 2 --- actual score: 0.13525086169136663
+The quintile score Torry Baar is: 2 --- actual score: 0.1337332202059936
+The quintile score Unit Nyn is: 1 --- actual score: 0.10809781685053066
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: session08_CA_DA_LT.xml
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control - LTI quintile
+qt_thrs:  0.200672268907563 0.1515966386554622 0.13142857142857142 0.08739495798319329 0.146218487394958 0.04891304944825293
+The quintile score of Lale Pico is: 5 --- actual score: 0.20672268907563024
+The quintile score Belladonna Kamala is: 4 --- actual score: 0.19663865546218487
+The quintile score Quentin Foulsbane is: 4 --- actual score: 0.15294117647058825
+The quintile score Jameson Despres is: 3 --- actual score: 0.146218487394958
+The quintile score Softpaw Sommer is: 2 --- actual score: 0.12773109243697478
+The quintile score Unit Nyn is: 2 --- actual score: 0.09747899159663866
+The quintile score Josi Nebestanka is: 1 --- actual score: 0.07226890756302522
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  SMT quintile: 
+qt_thrs:  0.216283185840708 0.15398230088495576 0.1072566371681416 0.08849557522123894 0.1256637168141593 0.061121464608501125
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.2407079646017699
+The quintile score Lale Pico is: 4 --- actual score: 0.2
+The quintile score Jameson Despres is: 4 --- actual score: 0.16106194690265488
+The quintile score Unit Nyn is: 3 --- actual score: 0.1256637168141593
+The quintile score Quentin Foulsbane is: 2 --- actual score: 0.10265486725663717
+The quintile score Softpaw Sommer is: 2 --- actual score: 0.10265486725663717
+The quintile score Josi Nebestanka is: 1 --- actual score: 0.06725663716814159
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  CS quintile
+qt_thrs:  0.22094240837696336 0.16230366492146597 0.10157068062827226 0.07853403141361257 0.13089005235602094 0.06629219814559745
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.24607329842931938
+The quintile score Lale Pico is: 4 --- actual score: 0.20418848167539266
+The quintile score Jameson Despres is: 4 --- actual score: 0.17015706806282724
+The quintile score Unit Nyn is: 3 --- actual score: 0.13089005235602094
+The quintile score Softpaw Sommer is: 2 --- actual score: 0.09424083769633508
+The quintile score Quentin Foulsbane is: 2 --- actual score: 0.08376963350785341
+The quintile score Josi Nebestanka is: 1 --- actual score: 0.07068062827225131
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  TL quintile
+qt_thrs:  10.92625538020086 6.941102077687443 5.968071519795657 5.254646129064734 6.185185185185185 2.62494763856229
+The quintile score of Unit Nyn is: 5 --- actual score: 11.609756097560975
+The quintile score Belladonna Kamala is: 4 --- actual score: 10.470588235294118
+The quintile score Quentin Foulsbane is: 4 --- actual score: 7.130081300813008
+The quintile score Jameson Despres is: 3 --- actual score: 6.185185185185185
+The quintile score Softpaw Sommer is: 2 --- actual score: 5.913793103448276
+The quintile score Josi Nebestanka is: 2 --- actual score: 5.623376623376624
+The quintile score Lale Pico is: 1 --- actual score: 4.7015503875969
+++++++++++++++++++++++++++++++++
+calculate Merged quintile
+qt_thrs:  0.19391522381890086 0.14838906865504145 0.124434656605244 0.09778523648197276 0.14471960945345416 0.046416748456959415
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.22155084439991857
+The quintile score Lale Pico is: 4 --- actual score: 0.17549147676488902
+The quintile score Jameson Despres is: 4 --- actual score: 0.14930643345543826
+The quintile score Unit Nyn is: 3 --- actual score: 0.14471960945345416
+The quintile score Quentin Foulsbane is: 2 --- actual score: 0.11936341839319145
+The quintile score Softpaw Sommer is: 2 --- actual score: 0.10978974734364666
+The quintile score Josi Nebestanka is: 1 --- actual score: 0.07977847018946191
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: session09_CA_DA_LT.xml
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control - LTI quintile
+qt_thrs:  0.2583783783783784 0.13567567567567568 0.12270270270270271 0.041081081081081085 0.12702702702702703 0.09590379192526963
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.3054054054054054
+The quintile score Lei Amaranth is: 4 --- actual score: 0.22702702702702704
+The quintile score Unit Nyn is: 4 --- actual score: 0.13783783783783785
+The quintile score Brunnhilda Quonset is: 3 --- actual score: 0.12702702702702703
+The quintile score Toxic Menges is: 2 --- actual score: 0.12162162162162163
+The quintile score Jake911 Kenyon is: 2 --- actual score: 0.043243243243243246
+The quintile score catseye Fride is: 1 --- actual score: 0.03783783783783784
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  SMT quintile: 
+qt_thrs:  0.23194103194103202 0.1484029484029484 0.13071253071253072 0.03882063882063882 0.14250614250614252 0.10473699909615031
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.35135135135135137
+The quintile score Lei Amaranth is: 4 --- actual score: 0.15233415233415235
+The quintile score Unit Nyn is: 4 --- actual score: 0.14987714987714987
+The quintile score Brunnhilda Quonset is: 3 --- actual score: 0.14250614250614252
+The quintile score Toxic Menges is: 2 --- actual score: 0.12776412776412777
+The quintile score Jake911 Kenyon is: 2 --- actual score: 0.04176904176904177
+The quintile score catseye Fride is: 1 --- actual score: 0.0343980343980344
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  CS quintile
+qt_thrs:  0.2554687500000001 0.14765625 0.07890625000000001 0.0484375 0.14453125 0.11547924069555542
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.375
+The quintile score Brunnhilda Quonset is: 4 --- actual score: 0.17578125
+The quintile score Toxic Menges is: 4 --- actual score: 0.1484375
+The quintile score Unit Nyn is: 3 --- actual score: 0.14453125
+The quintile score Lei Amaranth is: 2 --- actual score: 0.0625
+The quintile score Jake911 Kenyon is: 2 --- actual score: 0.0546875
+The quintile score catseye Fride is: 1 --- actual score: 0.0390625
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  TL quintile
+qt_thrs:  10.362471042471043 7.065631469979296 4.796296296296296 3.8826980392156862 5.166666666666667 3.012634194530583
+The quintile score of Unit Nyn is: 5 --- actual score: 11.514285714285714
+The quintile score Belladonna Kamala is: 4 --- actual score: 9.594594594594595
+The quintile score Lei Amaranth is: 4 --- actual score: 7.540372670807454
+The quintile score Jake911 Kenyon is: 3 --- actual score: 5.166666666666667
+The quintile score Toxic Menges is: 2 --- actual score: 4.703703703703703
+The quintile score Brunnhilda Quonset is: 2 --- actual score: 3.896
+The quintile score catseye Fride is: 1 --- actual score: 3.8627450980392157
+++++++++++++++++++++++++++++++++
+calculate Merged quintile
+qt_thrs:  0.22606570193864445 0.14743429585707088 0.12636755266941807 0.05717805153416136 0.1323751549813662 0.08600846880152883
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.30977007106953913
+The quintile score Unit Nyn is: 4 --- actual score: 0.1702627891847146
+The quintile score Lei Amaranth is: 4 --- actual score: 0.15119908107599705
+The quintile score Brunnhilda Quonset is: 3 --- actual score: 0.1323751549813662
+The quintile score Toxic Menges is: 2 --- actual score: 0.12486565209143105
+The quintile score Jake911 Kenyon is: 2 --- actual score: 0.06283575447690291
+The quintile score catseye Fride is: 1 --- actual score: 0.048691497120049027
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: session10_CA_DA_LT.xml
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control - LTI quintile
+qt_thrs:  0.19441340782122907 0.16387337057728119 0.1355679702048417 0.0782122905027933 0.1564245810055866 0.05543715334561454
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.22346368715083798
+The quintile score s1rux Forsythe is: 4 --- actual score: 0.1750465549348231
+The quintile score Bruce Schmetterling is: 4 --- actual score: 0.16573556797020483
+The quintile score Harp Solo is: 3 --- actual score: 0.1564245810055866
+The quintile score Unit Nyn is: 2 --- actual score: 0.1303538175046555
+The quintile score fookinrockstar Gearhead is: 2 --- actual score: 0.0931098696461825
+The quintile score EarthAirFire Windlow is: 1 --- actual score: 0.055865921787709494
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  SMT quintile: 
+qt_thrs:  0.21710794297352343 0.15437881873727086 0.12342158859470469 0.07209775967413443 0.1446028513238289 0.06635499739272356
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.24643584521384929
+The quintile score s1rux Forsythe is: 4 --- actual score: 0.1975560081466395
+The quintile score Harp Solo is: 4 --- actual score: 0.15682281059063136
+The quintile score Bruce Schmetterling is: 3 --- actual score: 0.1446028513238289
+The quintile score Unit Nyn is: 2 --- actual score: 0.11812627291242363
+The quintile score fookinrockstar Gearhead is: 2 --- actual score: 0.08757637474541752
+The quintile score EarthAirFire Windlow is: 1 --- actual score: 0.048879837067209775
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  CS quintile
+qt_thrs:  0.21071428571428574 0.16999999999999998 0.11857142857142858 0.06428571428571428 0.15 0.06863588240666464
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.25357142857142856
+The quintile score Harp Solo is: 4 --- actual score: 0.18214285714285713
+The quintile score s1rux Forsythe is: 4 --- actual score: 0.175
+The quintile score Bruce Schmetterling is: 3 --- actual score: 0.15
+The quintile score fookinrockstar Gearhead is: 2 --- actual score: 0.11071428571428571
+The quintile score EarthAirFire Windlow is: 1 --- actual score: 0.06428571428571428
+The quintile score Unit Nyn is: 1 --- actual score: 0.06428571428571428
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  TL quintile
+qt_thrs:  10.42901064249113 8.041666666666668 5.414285714285715 4.613608374384237 7.25 2.6422061952809934
+The quintile score of Belladonna Kamala is: 5 --- actual score: 10.767441860465116
+The quintile score Unit Nyn is: 4 --- actual score: 10.203389830508474
+The quintile score Bruce Schmetterling is: 4 --- actual score: 8.239583333333334
+The quintile score Harp Solo is: 3 --- actual score: 7.25
+The quintile score fookinrockstar Gearhead is: 2 --- actual score: 4.955357142857143
+The quintile score EarthAirFire Windlow is: 2 --- actual score: 4.8125
+The quintile score s1rux Forsythe is: 1 --- actual score: 4.315270935960591
+++++++++++++++++++++++++++++++++
+calculate Merged quintile
+qt_thrs:  0.18947503333515792 0.1577638675739044 0.13409570916024274 0.08484092232272358 0.15583948085446853 0.05352310759666423
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.23412598648764124
+The quintile score Harp Solo is: 4 --- actual score: 0.15970773123350232
+The quintile score s1rux Forsythe is: 4 --- actual score: 0.15824496425376336
+The quintile score Bruce Schmetterling is: 3 --- actual score: 0.15583948085446853
+The quintile score Unit Nyn is: 2 --- actual score: 0.1286597662366863
+The quintile score fookinrockstar Gearhead is: 2 --- actual score: 0.09736046974574128
+The quintile score EarthAirFire Windlow is: 1 --- actual score: 0.06606160118819702
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: session11_CA_DA_LT.xml
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control - LTI quintile
+qt_thrs:  0.2501845018450184 0.17933579335793357 0.12546125461254612 0.10627306273062731 0.15313653136531363 0.07030141730641906
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.2915129151291513
+The quintile score Frew Lovenkraft is: 4 --- actual score: 0.1881918819188192
+The quintile score Unit Nyn is: 3 --- actual score: 0.17712177121771217
+The quintile score Raindance Broadfoot is: 3 --- actual score: 0.12915129151291513
+The quintile score Skye Morales is: 2 --- actual score: 0.11070110701107011
+The quintile score Fallon Ethaniel is: 1 --- actual score: 0.1033210332103321
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  SMT quintile: 
+qt_thrs:  0.2860465116279069 0.16511627906976745 0.1325581395348837 0.07790697674418605 0.15406976744186046 0.10359066453933355
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.36046511627906974
+The quintile score Unit Nyn is: 4 --- actual score: 0.1744186046511628
+The quintile score Frew Lovenkraft is: 3 --- actual score: 0.16279069767441862
+The quintile score Skye Morales is: 3 --- actual score: 0.14534883720930233
+The quintile score Raindance Broadfoot is: 2 --- actual score: 0.08139534883720931
+The quintile score Fallon Ethaniel is: 1 --- actual score: 0.0755813953488372
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  CS quintile
+qt_thrs:  0.28080808080808073 0.14545454545454548 0.12525252525252525 0.10101010101010101 0.13131313131313133 0.08960911158067422
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.3333333333333333
+The quintile score Skye Morales is: 4 --- actual score: 0.20202020202020202
+The quintile score Frew Lovenkraft is: 3 --- actual score: 0.13131313131313133
+The quintile score Unit Nyn is: 3 --- actual score: 0.13131313131313133
+The quintile score Fallon Ethaniel is: 1 --- actual score: 0.10101010101010101
+The quintile score Raindance Broadfoot is: 1 --- actual score: 0.10101010101010101
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  TL quintile
+qt_thrs:  14.609523809523807 7.436507936507938 4.6431063122923595 3.6350498338870434 5.4641934293097085 5.211434173757517
+The quintile score of Unit Nyn is: 5 --- actual score: 16.238095238095237
+The quintile score Belladonna Kamala is: 4 --- actual score: 12.166666666666666
+The quintile score Frew Lovenkraft is: 3 --- actual score: 6.253968253968254
+The quintile score Fallon Ethaniel is: 3 --- actual score: 4.674418604651163
+The quintile score Skye Morales is: 2 --- actual score: 4.517857142857143
+The quintile score Raindance Broadfoot is: 1 --- actual score: 3.046511627906977
+++++++++++++++++++++++++++++++++
+calculate Merged quintile
+qt_thrs:  0.2696213322429344 0.16458492200206745 0.12986024336111449 0.09443622551876313 0.14625680781219885 0.0823379746357859
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.3111855741016793
+The quintile score Unit Nyn is: 4 --- actual score: 0.2072749694548172
+The quintile score Frew Lovenkraft is: 3 --- actual score: 0.15391241013888002
+The quintile score Skye Morales is: 3 --- actual score: 0.13860120548551771
+The quintile score Fallon Ethaniel is: 2 --- actual score: 0.0948963948635016
+The quintile score Raindance Broadfoot is: 1 --- actual score: 0.09412944595560416
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: session12_CA_DA_LT.xml
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control - LTI quintile
+qt_thrs:  0.2477855477855478 0.13356643356643358 0.08181818181818182 0.032167832167832165 0.10606060606060606 0.09037332412162485
+The quintile score of Ice Brodie is: 5 --- actual score: 0.25990675990675993
+The quintile score Belladonna Kamala is: 4 --- actual score: 0.24475524475524477
+The quintile score Jamaris Pawpaw is: 4 --- actual score: 0.16433566433566432
+The quintile score Scott1 Yedmore is: 3 --- actual score: 0.11305361305361306
+The quintile score Unit Nyn is: 3 --- actual score: 0.09906759906759907
+The quintile score Black Fromund is: 2 --- actual score: 0.055944055944055944
+The quintile score Liam Bean is: 2 --- actual score: 0.03263403263403263
+The quintile score Artimus Drake is: 1 --- actual score: 0.030303030303030304
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  SMT quintile: 
+qt_thrs:  0.21097345132743364 0.14884955752212392 0.07964601769911504 0.0536283185840708 0.10309734513274336 0.08378185759535381
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.25486725663716814
+The quintile score Jamaris Pawpaw is: 4 --- actual score: 0.2
+The quintile score Ice Brodie is: 4 --- actual score: 0.19823008849557522
+The quintile score Scott1 Yedmore is: 3 --- actual score: 0.11592920353982301
+The quintile score Unit Nyn is: 3 --- actual score: 0.09026548672566372
+The quintile score Artimus Drake is: 2 --- actual score: 0.06371681415929203
+The quintile score Black Fromund is: 2 --- actual score: 0.06371681415929203
+The quintile score Liam Bean is: 1 --- actual score: 0.01327433628318584
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  CS quintile
+qt_thrs:  0.20860832137733143 0.14433285509325683 0.0817790530846485 0.059110473457675755 0.10760401721664276 0.07981348029099071
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.26255380200860834
+The quintile score Jamaris Pawpaw is: 4 --- actual score: 0.1951219512195122
+The quintile score Ice Brodie is: 4 --- actual score: 0.1649928263988522
+The quintile score Scott1 Yedmore is: 3 --- actual score: 0.13055954088952654
+The quintile score Black Fromund is: 3 --- actual score: 0.08464849354375897
+The quintile score Artimus Drake is: 2 --- actual score: 0.07747489239598278
+The quintile score Unit Nyn is: 2 --- actual score: 0.0703012912482066
+The quintile score Liam Bean is: 1 --- actual score: 0.014347202295552367
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  TL quintile
+qt_thrs:  10.076750700280114 7.870107358969354 6.895984475294821 5.0159656768352425 7.723891149202961 2.592551716328458
+The quintile score of Artimus Drake is: 5 --- actual score: 11.764705882352942
+The quintile score Unit Nyn is: 4 --- actual score: 9.654761904761905
+The quintile score Scott1 Yedmore is: 4 --- actual score: 7.981651376146789
+The quintile score Belladonna Kamala is: 3 --- actual score: 7.7957446808510635
+The quintile score Ice Brodie is: 3 --- actual score: 7.652037617554859
+The quintile score Liam Bean is: 2 --- actual score: 5.761904761904762
+The quintile score Jamaris Pawpaw is: 2 --- actual score: 5.411371237458194
+The quintile score Black Fromund is: 1 --- actual score: 3.4343434343434343
+++++++++++++++++++++++++++++++++
+calculate Merged quintile
+qt_thrs:  0.19503053078877183 0.1391150322977156 0.1002392393517608 0.06027258225342012 0.1144754749250022 0.06254070079737312
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.2233232587029204
+The quintile score Ice Brodie is: 4 --- actual score: 0.18795734881023468
+The quintile score Jamaris Pawpaw is: 4 --- actual score: 0.16261788473482539
+The quintile score Scott1 Yedmore is: 3 --- actual score: 0.12344646400630904
+The quintile score Unit Nyn is: 3 --- actual score: 0.10550448584369534
+The quintile score Artimus Drake is: 2 --- actual score: 0.09234136961385897
+The quintile score Black Fromund is: 2 --- actual score: 0.06551790765964814
+The quintile score Liam Bean is: 1 --- actual score: 0.03929128062850806
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: session13_CA_DA_LT.xml
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control - LTI quintile
+qt_thrs:  0.2721382289416847 0.14989200863930885 0.0980561555075594 0.038876889848812095 0.1101511879049676 0.10346473048194463
+The quintile score of Trevor Darkmatter is: 5 --- actual score: 0.31101511879049676
+The quintile score Belladonna Kamala is: 4 --- actual score: 0.24622030237580994
+The quintile score Unit Nyn is: 4 --- actual score: 0.15982721382289417
+The quintile score Jezebel Marlin is: 3 --- actual score: 0.1101511879049676
+The quintile score Cane Corryong is: 2 --- actual score: 0.09503239740820735
+The quintile score Winterspell Runo is: 1 --- actual score: 0.038876889848812095
+The quintile score Natalia Leonoase is: 1 --- actual score: 0.038876889848812095
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  SMT quintile: 
+qt_thrs:  0.30827740492170025 0.15436241610738255 0.06666666666666668 0.025503355704697986 0.09172259507829977 0.12973095383914493
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.3512304250559284
+The quintile score Trevor Darkmatter is: 4 --- actual score: 0.2796420581655481
+The quintile score Unit Nyn is: 4 --- actual score: 0.17002237136465326
+The quintile score Jezebel Marlin is: 3 --- actual score: 0.09172259507829977
+The quintile score Natalia Leonoase is: 2 --- actual score: 0.06040268456375839
+The quintile score Cane Corryong is: 2 --- actual score: 0.03355704697986577
+The quintile score Winterspell Runo is: 1 --- actual score: 0.013422818791946308
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  CS quintile
+qt_thrs:  0.2975806451612904 0.11612903225806451 0.0935483870967742 0.024193548387096774 0.11290322580645161 0.13996945167078695
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.42338709677419356
+The quintile score Trevor Darkmatter is: 4 --- actual score: 0.21370967741935484
+The quintile score Unit Nyn is: 4 --- actual score: 0.11693548387096774
+The quintile score Jezebel Marlin is: 3 --- actual score: 0.11290322580645161
+The quintile score Natalia Leonoase is: 2 --- actual score: 0.08870967741935484
+The quintile score Cane Corryong is: 2 --- actual score: 0.03225806451612903
+The quintile score Winterspell Runo is: 1 --- actual score: 0.012096774193548387
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  TL quintile
+qt_thrs:  10.145321637426902 6.362288194930682 4.548157248157248 3.7553398058252427 5.013513513513513 2.8892785052855245
+The quintile score of Belladonna Kamala is: 5 --- actual score: 10.652777777777779
+The quintile score Unit Nyn is: 4 --- actual score: 9.807017543859649
+The quintile score Trevor Darkmatter is: 4 --- actual score: 6.699481865284974
+The quintile score Cane Corryong is: 3 --- actual score: 5.013513513513513
+The quintile score Natalia Leonoase is: 2 --- actual score: 4.431818181818182
+The quintile score Jezebel Marlin is: 2 --- actual score: 3.941747572815534
+The quintile score Winterspell Runo is: 1 --- actual score: 3.4757281553398056
+++++++++++++++++++++++++++++++++
+calculate Merged quintile
+qt_thrs:  0.26976520825642164 0.1541278650415902 0.07794823441662195 0.05554514291516384 0.10107930965040796 0.10283178030073943
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.31570623779213475
+The quintile score Trevor Darkmatter is: 4 --- actual score: 0.23913785523261288
+The quintile score Unit Nyn is: 4 --- actual score: 0.1673900038893858
+The quintile score Jezebel Marlin is: 3 --- actual score: 0.10107930965040796
+The quintile score Natalia Leonoase is: 2 --- actual score: 0.07216546560817544
+The quintile score Cane Corryong is: 2 --- actual score: 0.0686834589212528
+The quintile score Winterspell Runo is: 1 --- actual score: 0.03583766890603039
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: session14_CA_DA_LT.xml
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control - LTI quintile
+qt_thrs:  0.22458628841607564 0.18132387706855793 0.141371158392435 0.11536643026004728 0.1566193853427896 0.05001550654036081
+The quintile score of Carlito Teardrop is: 5 --- actual score: 0.22695035460992907
+The quintile score Frankie Xaron is: 4 --- actual score: 0.22104018912529552
+The quintile score Shanna Karsin is: 3 --- actual score: 0.17139479905437352
+The quintile score Belladonna Kamala is: 3 --- actual score: 0.14184397163120568
+The quintile score kram2593 Footman is: 2 --- actual score: 0.13947990543735225
+The quintile score Unit Nyn is: 1 --- actual score: 0.09929078014184398
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  SMT quintile: 
+qt_thrs:  0.2043388429752066 0.1737603305785124 0.1574380165289256 0.13140495867768595 0.16735537190082644 0.034210700294820366
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.22417355371900827
+The quintile score kram2593 Footman is: 4 --- actual score: 0.17458677685950413
+The quintile score Frankie Xaron is: 3 --- actual score: 0.17355371900826447
+The quintile score Carlito Teardrop is: 3 --- actual score: 0.16115702479338842
+The quintile score Unit Nyn is: 2 --- actual score: 0.14256198347107438
+The quintile score Shanna Karsin is: 1 --- actual score: 0.12396694214876033
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  CS quintile
+qt_thrs:  0.23105022831050223 0.16073059360730593 0.15159817351598173 0.1187214611872146 0.1552511415525114 0.05357816173882767
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.2633181126331811
+The quintile score kram2593 Footman is: 4 --- actual score: 0.182648401826484
+The quintile score Frankie Xaron is: 3 --- actual score: 0.1552511415525114
+The quintile score Unit Nyn is: 3 --- actual score: 0.1552511415525114
+The quintile score Carlito Teardrop is: 2 --- actual score: 0.136986301369863
+The quintile score Shanna Karsin is: 1 --- actual score: 0.106544901065449
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  TL quintile
+qt_thrs:  10.260271317829458 7.490552325581396 5.659214903526281 4.9268909878986795 6.286892361111111 2.473889068486249
+The quintile score of Unit Nyn is: 5 --- actual score: 10.402777777777779
+The quintile score Belladonna Kamala is: 4 --- actual score: 10.046511627906977
+The quintile score Shanna Karsin is: 3 --- actual score: 6.8515625
+The quintile score Frankie Xaron is: 3 --- actual score: 5.722222222222222
+The quintile score Carlito Teardrop is: 2 --- actual score: 5.407185628742515
+The quintile score kram2593 Footman is: 1 --- actual score: 4.606694560669456
+++++++++++++++++++++++++++++++++
+calculate Merged quintile
+qt_thrs:  0.19769679558391826 0.16428712750732805 0.1579520236920471 0.14454182547598599 0.16119443064819858 0.026184067455561552
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.21569370625233097
+The quintile score Frankie Xaron is: 4 --- actual score: 0.1707014295812992
+The quintile score Carlito Teardrop is: 3 --- actual score: 0.16268355198883527
+The quintile score Unit Nyn is: 3 --- actual score: 0.15970530930756188
+The quintile score kram2593 Footman is: 2 --- actual score: 0.150938881229988
+The quintile score Shanna Karsin is: 1 --- actual score: 0.14027712163998463
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: session15_CA_DA_LT.xml
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control - LTI quintile
+qt_thrs:  0.22186948853615523 0.15696649029982362 0.10617283950617283 0.07407407407407407 0.12169312169312169 0.07625359373117442
+The quintile score of Pinko Koenkamp is: 5 --- actual score: 0.2874779541446208
+The quintile score Belladonna Kamala is: 4 --- actual score: 0.1781305114638448
+The quintile score Lisaine Raymaker is: 4 --- actual score: 0.1657848324514991
+The quintile score Unit Nyn is: 3 --- actual score: 0.12169312169312169
+The quintile score Raylyn Adamski is: 2 --- actual score: 0.10229276895943562
+The quintile score Pamela Bashir is: 2 --- actual score: 0.08112874779541446
+The quintile score Brianna Vintner is: 1 --- actual score: 0.06349206349206349
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  SMT quintile: 
+qt_thrs:  0.24192439862542955 0.1512027491408935 0.09484536082474228 0.06907216494845361 0.14432989690721648 0.07620056064085655
+The quintile score of Lisaine Raymaker is: 5 --- actual score: 0.24398625429553264
+The quintile score Pinko Koenkamp is: 4 --- actual score: 0.24054982817869416
+The quintile score Belladonna Kamala is: 4 --- actual score: 0.15292096219931273
+The quintile score Unit Nyn is: 3 --- actual score: 0.14432989690721648
+The quintile score Raylyn Adamski is: 2 --- actual score: 0.08247422680412371
+The quintile score Brianna Vintner is: 2 --- actual score: 0.07388316151202749
+The quintile score Pamela Bashir is: 1 --- actual score: 0.061855670103092786
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  CS quintile
+qt_thrs:  0.22138728323699425 0.15895953757225434 0.10578034682080925 0.07225433526011561 0.12427745664739884 0.08026598598729746
+The quintile score of Lisaine Raymaker is: 5 --- actual score: 0.2976878612716763
+The quintile score Pinko Koenkamp is: 4 --- actual score: 0.17052023121387283
+The quintile score Belladonna Kamala is: 4 --- actual score: 0.1676300578034682
+The quintile score Unit Nyn is: 3 --- actual score: 0.12427745664739884
+The quintile score Brianna Vintner is: 2 --- actual score: 0.10115606936416185
+The quintile score Raylyn Adamski is: 2 --- actual score: 0.0838150289017341
+The quintile score Pamela Bashir is: 1 --- actual score: 0.05491329479768786
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  TL quintile
+qt_thrs:  10.419265143992055 7.3471435268903615 4.070301850048686 3.162943722943723 5.582278481012659 3.279003601396283
+The quintile score of Belladonna Kamala is: 5 --- actual score: 10.736842105263158
+The quintile score Unit Nyn is: 4 --- actual score: 10.20754716981132
+The quintile score Pinko Koenkamp is: 4 --- actual score: 7.788359788359788
+The quintile score Lisaine Raymaker is: 3 --- actual score: 5.582278481012659
+The quintile score Raylyn Adamski is: 2 --- actual score: 3.6923076923076925
+The quintile score Brianna Vintner is: 2 --- actual score: 3.2636363636363637
+The quintile score Pamela Bashir is: 1 --- actual score: 3.011904761904762
+++++++++++++++++++++++++++++++++
+calculate Merged quintile
+qt_thrs:  0.21247031865426 0.1792687904798978 0.10143282389694193 0.07342593717404118 0.15520206182202317 0.06458424653805372
+The quintile score of Pinko Koenkamp is: 5 --- actual score: 0.21860636822771934
+The quintile score Lisaine Raymaker is: 4 --- actual score: 0.20837961893862045
+The quintile score Belladonna Kamala is: 4 --- actual score: 0.18528547264436646
+The quintile score Unit Nyn is: 3 --- actual score: 0.15520206182202317
+The quintile score Raylyn Adamski is: 2 --- actual score: 0.0879905144156716
+The quintile score Brianna Vintner is: 2 --- actual score: 0.07805775796700795
+The quintile score Pamela Bashir is: 1 --- actual score: 0.06647820598459103
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: session16_CA_DA_LT.xml
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control - LTI quintile
+qt_thrs:  0.22145214521452145 0.16369636963696368 0.12145214521452147 0.0702970297029703 0.13861386138613863 0.07018445682257698
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.23432343234323433
+The quintile score Tyisha Destiny is: 4 --- actual score: 0.21287128712871287
+The quintile score ChristopherJ Spore is: 4 --- actual score: 0.16996699669966997
+The quintile score Kitaro Foxtrot is: 3 --- actual score: 0.13861386138613863
+The quintile score Unit Nyn is: 2 --- actual score: 0.11716171617161716
+The quintile score Dominic Engel is: 2 --- actual score: 0.09735973597359736
+The quintile score Thom Serenity is: 1 --- actual score: 0.0297029702970297
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  SMT quintile: 
+qt_thrs:  0.25952380952380955 0.14523809523809522 0.09444444444444446 0.05753968253968254 0.13095238095238096 0.096931592383922
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.30357142857142855
+The quintile score Tyisha Destiny is: 4 --- actual score: 0.23015873015873015
+The quintile score ChristopherJ Spore is: 4 --- actual score: 0.1488095238095238
+The quintile score Unit Nyn is: 3 --- actual score: 0.13095238095238096
+The quintile score Dominic Engel is: 2 --- actual score: 0.08531746031746032
+The quintile score Kitaro Foxtrot is: 2 --- actual score: 0.08531746031746032
+The quintile score Thom Serenity is: 1 --- actual score: 0.015873015873015872
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  CS quintile
+qt_thrs:  0.23358778625954202 0.150381679389313 0.10763358778625955 0.06946564885496184 0.12595419847328243 0.08485701255162728
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.29770992366412213
+The quintile score Tyisha Destiny is: 4 --- actual score: 0.19083969465648856
+The quintile score ChristopherJ Spore is: 4 --- actual score: 0.15648854961832062
+The quintile score Unit Nyn is: 3 --- actual score: 0.12595419847328243
+The quintile score Dominic Engel is: 2 --- actual score: 0.10305343511450382
+The quintile score Kitaro Foxtrot is: 2 --- actual score: 0.09541984732824428
+The quintile score Thom Serenity is: 1 --- actual score: 0.030534351145038167
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  TL quintile
+qt_thrs:  10.423752577319588 5.173015873015873 4.9713574982231705 3.867208201892745 4.976190476190476 2.9578043708709396
+The quintile score of Unit Nyn is: 5 --- actual score: 10.58
+The quintile score Belladonna Kamala is: 4 --- actual score: 10.31958762886598
+The quintile score ChristopherJ Spore is: 4 --- actual score: 5.222222222222222
+The quintile score Dominic Engel is: 3 --- actual score: 4.976190476190476
+The quintile score Kitaro Foxtrot is: 2 --- actual score: 4.970149253731344
+The quintile score Thom Serenity is: 2 --- actual score: 4.275
+The quintile score Tyisha Destiny is: 1 --- actual score: 3.2555205047318614
+++++++++++++++++++++++++++++++++
+calculate Merged quintile
+qt_thrs:  0.2135109630646873 0.15309947275063024 0.11642200217773907 0.07739641698405508 0.14876111568866934 0.07060753449819604
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.2680749485124365
+The quintile score Tyisha Destiny is: 4 --- actual score: 0.17713497276618778
+The quintile score Unit Nyn is: 4 --- actual score: 0.15418406201612045
+The quintile score ChristopherJ Spore is: 3 --- actual score: 0.14876111568866934
+The quintile score Kitaro Foxtrot is: 2 --- actual score: 0.1083372238000065
+The quintile score Dominic Engel is: 2 --- actual score: 0.0999667304871165
+The quintile score Thom Serenity is: 1 --- actual score: 0.04354094672946293
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: session17_CA_DA_LT.xml
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control - LTI quintile
+qt_thrs:  0.26963906581740976 0.22038216560509555 0.17961783439490445 0.13036093418259023 0.21019108280254778 0.060934552474520405
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.2802547770700637
+The quintile score Lyrlyn Wrydan is: 4 --- actual score: 0.22717622080679406
+The quintile score Fatbottomedgirl Barbosa is: 3 --- actual score: 0.21019108280254778
+The quintile score Chandler Olinger is: 2 --- actual score: 0.1592356687898089
+The quintile score Unit Nyn is: 1 --- actual score: 0.12314225053078556
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  SMT quintile: 
+qt_thrs:  0.27645687645687644 0.1972027972027972 0.17762237762237762 0.14871794871794872 0.18181818181818182 0.05732085927529811
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.2937062937062937
+The quintile score Lyrlyn Wrydan is: 4 --- actual score: 0.20745920745920746
+The quintile score Fatbottomedgirl Barbosa is: 3 --- actual score: 0.18181818181818182
+The quintile score Unit Nyn is: 2 --- actual score: 0.17482517482517482
+The quintile score Chandler Olinger is: 1 --- actual score: 0.14219114219114218
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  CS quintile
+qt_thrs:  0.27068273092369477 0.22730923694779115 0.1646586345381526 0.13734939759036144 0.20080321285140562 0.06230726641781445
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.27710843373493976
+The quintile score Lyrlyn Wrydan is: 4 --- actual score: 0.24497991967871485
+The quintile score Fatbottomedgirl Barbosa is: 3 --- actual score: 0.20080321285140562
+The quintile score Unit Nyn is: 2 --- actual score: 0.14056224899598393
+The quintile score Chandler Olinger is: 1 --- actual score: 0.13654618473895583
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  TL quintile
+qt_thrs:  11.204568273092368 8.371036585365854 5.575696348679463 4.666047119468545 6.146341463414634 3.0746412931254796
+The quintile score of Belladonna Kamala is: 5 --- actual score: 11.542168674698795
+The quintile score Unit Nyn is: 4 --- actual score: 9.854166666666666
+The quintile score Lyrlyn Wrydan is: 3 --- actual score: 6.146341463414634
+The quintile score Fatbottomedgirl Barbosa is: 2 --- actual score: 5.195266272189349
+The quintile score Chandler Olinger is: 1 --- actual score: 4.533742331288344
+++++++++++++++++++++++++++++++++
+calculate Merged quintile
+qt_thrs:  0.274375310238777 0.19989842688483345 0.17865772853087725 0.14706853434551237 0.1830503916021887 0.056447898095028017
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.2901865251968221
+The quintile score Lyrlyn Wrydan is: 4 --- actual score: 0.2111304504065966
+The quintile score Fatbottomedgirl Barbosa is: 3 --- actual score: 0.1830503916021887
+The quintile score Unit Nyn is: 2 --- actual score: 0.1757292864833363
+The quintile score Chandler Olinger is: 1 --- actual score: 0.1399033463110564
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: session19_CA_DA_LT.xml
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control - LTI quintile
+qt_thrs:  0.2617224880382775 0.16363636363636364 0.09856459330143541 0.04019138755980862 0.1291866028708134 0.10271969061444418
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.3062200956937799
+The quintile score Dahlea Milena is: 4 --- actual score: 0.23205741626794257
+The quintile score Jupiter Firelyte is: 4 --- actual score: 0.1722488038277512
+The quintile score Unit Nyn is: 3 --- actual score: 0.1291866028708134
+The quintile score Taby Oh is: 2 --- actual score: 0.09090909090909091
+The quintile score MadameDivaChocolate Richez is: 2 --- actual score: 0.06220095693779904
+The quintile score Savanna Miles is: 1 --- actual score: 0.007177033492822967
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  SMT quintile: 
+qt_thrs:  0.24315545243619494 0.15081206496519722 0.11554524361948956 0.055684454756380515 0.13225058004640372 0.09561545764456238
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.308584686774942
+The quintile score Jupiter Firelyte is: 4 --- actual score: 0.19953596287703015
+The quintile score Dahlea Milena is: 4 --- actual score: 0.1554524361948956
+The quintile score Unit Nyn is: 3 --- actual score: 0.13225058004640372
+The quintile score Taby Oh is: 2 --- actual score: 0.11136890951276102
+The quintile score MadameDivaChocolate Richez is: 2 --- actual score: 0.09280742459396751
+The quintile score Savanna Miles is: 1 --- actual score: 0.0
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  CS quintile
+qt_thrs:  0.25517241379310346 0.1417624521072797 0.12337164750957855 0.055172413793103454 0.12643678160919541 0.09103721023006806
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.26436781609195403
+The quintile score Jupiter Firelyte is: 4 --- actual score: 0.24904214559386972
+The quintile score Taby Oh is: 4 --- actual score: 0.14559386973180077
+The quintile score MadameDivaChocolate Richez is: 3 --- actual score: 0.12643678160919541
+The quintile score Unit Nyn is: 2 --- actual score: 0.12260536398467432
+The quintile score Dahlea Milena is: 2 --- actual score: 0.09195402298850575
+The quintile score Savanna Miles is: 1 --- actual score: 0.0
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  TL quintile
+qt_thrs:  12.620000000000001 6.673878406708595 6.042767295597485 3.395918367346939 6.213836477987422 4.0545563660169766
+The quintile score of Unit Nyn is: 5 --- actual score: 14.0
+The quintile score Belladonna Kamala is: 4 --- actual score: 11.7
+The quintile score Jupiter Firelyte is: 4 --- actual score: 6.788888888888889
+The quintile score Dahlea Milena is: 3 --- actual score: 6.213836477987422
+The quintile score Taby Oh is: 2 --- actual score: 6.0
+The quintile score Savanna Miles is: 2 --- actual score: 3.5714285714285716
+The quintile score MadameDivaChocolate Richez is: 1 --- actual score: 3.13265306122449
+++++++++++++++++++++++++++++++++
+calculate Merged quintile
+qt_thrs:  0.22361023768475807 0.16129298571379097 0.12293456754271362 0.05902263549055971 0.1500849069795542 0.08141017698258958
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.276692229173095
+The quintile score Jupiter Firelyte is: 4 --- actual score: 0.1882222433592001
+The quintile score Unit Nyn is: 4 --- actual score: 0.16409500539735017
+The quintile score Dahlea Milena is: 3 --- actual score: 0.1500849069795542
+The quintile score Taby Oh is: 2 --- actual score: 0.11614698268350346
+The quintile score MadameDivaChocolate Richez is: 2 --- actual score: 0.08559591263820429
+The quintile score Savanna Miles is: 1 --- actual score: 0.01916271976909281
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: session20_CA_DA_LT.xml
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control - LTI quintile
+qt_thrs:  0.22522255192878338 0.1682492581602374 0.13382789317507418 0.05252225519287834 0.16468842729970326 0.08050113090090923
+The quintile score of Digital Haiku is: 5 --- actual score: 0.2314540059347181
+The quintile score Belladonna Kamala is: 4 --- actual score: 0.22106824925816024
+The quintile score MissMissy Moonbeam is: 4 --- actual score: 0.16913946587537093
+The quintile score Conchobar Direwytch is: 3 --- actual score: 0.16468842729970326
+The quintile score Vesper Requiem is: 2 --- actual score: 0.1261127596439169
+The quintile score Unit Nyn is: 2 --- actual score: 0.08753709198813056
+The quintile score Fox Moonites is: 1 --- actual score: 0.0
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  SMT quintile: 
+qt_thrs:  0.22777777777777777 0.16464646464646462 0.12525252525252525 0.06515151515151517 0.1414141414141414 0.07938304652542615
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.2361111111111111
+The quintile score Digital Haiku is: 4 --- actual score: 0.2222222222222222
+The quintile score MissMissy Moonbeam is: 4 --- actual score: 0.17045454545454544
+The quintile score Conchobar Direwytch is: 3 --- actual score: 0.1414141414141414
+The quintile score Vesper Requiem is: 2 --- actual score: 0.12121212121212122
+The quintile score Unit Nyn is: 2 --- actual score: 0.10858585858585859
+The quintile score Fox Moonites is: 1 --- actual score: 0.0
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  CS quintile
+qt_thrs:  0.21464530892448513 0.18810068649885583 0.13135011441647598 0.05629290617848971 0.14416475972540047 0.07924646405145287
+The quintile score of Digital Haiku is: 5 --- actual score: 0.2311212814645309
+The quintile score MissMissy Moonbeam is: 4 --- actual score: 0.2036613272311213
+The quintile score Belladonna Kamala is: 4 --- actual score: 0.19908466819221968
+The quintile score Conchobar Direwytch is: 3 --- actual score: 0.14416475972540047
+The quintile score Vesper Requiem is: 2 --- actual score: 0.12814645308924486
+The quintile score Unit Nyn is: 2 --- actual score: 0.09382151029748284
+The quintile score Fox Moonites is: 1 --- actual score: 0.0
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  TL quintile
+qt_thrs:  10.494294294294294 8.519593450028234 6.375043669780512 3.2371079564212613 8.03896103896104 3.360459313060673
+The quintile score of Unit Nyn is: 5 --- actual score: 10.722222222222221
+The quintile score Belladonna Kamala is: 4 --- actual score: 10.342342342342342
+The quintile score Digital Haiku is: 4 --- actual score: 8.639751552795031
+The quintile score Conchobar Direwytch is: 3 --- actual score: 8.03896103896104
+The quintile score MissMissy Moonbeam is: 2 --- actual score: 5.95906432748538
+The quintile score Vesper Requiem is: 2 --- actual score: 4.472103004291846
+The quintile score Fox Moonites is: 1 --- actual score: 1.3846153846153846
+++++++++++++++++++++++++++++++++
+calculate Merged quintile
+qt_thrs:  0.21536461627697454 0.1633232547723845 0.13188322714030518 0.0726502469230651 0.15311926116924152 0.07143537216197854
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.21623781169490558
+The quintile score Digital Haiku is: 4 --- actual score: 0.21478248599835384
+The quintile score MissMissy Moonbeam is: 4 --- actual score: 0.16587425317317023
+The quintile score Conchobar Direwytch is: 3 --- actual score: 0.15311926116924152
+The quintile score Unit Nyn is: 2 --- actual score: 0.12657421863307108
+The quintile score Vesper Requiem is: 2 --- actual score: 0.11642729595280987
+The quintile score Fox Moonites is: 1 --- actual score: 0.006984673378447908
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: session21_CA_DA_LT.xml
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control - LTI quintile
+qt_thrs:  0.2258426966292135 0.10861423220973784 0.08614232209737828 0.07378277153558052 0.09176029962546817 0.06947792681306796
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.24531835205992508
+The quintile score Titanna Charron is: 4 --- actual score: 0.2209737827715356
+The quintile score Unit Nyn is: 4 --- actual score: 0.1254681647940075
+The quintile score kittii Jinx is: 3 --- actual score: 0.09737827715355805
+The quintile score ChocolateSplitz Topaz is: 2 --- actual score: 0.08614232209737828
+The quintile score Buffy Ubble is: 2 --- actual score: 0.08614232209737828
+The quintile score Cherry Kirktown is: 2 --- actual score: 0.07677902621722846
+The quintile score Carrotcake Sweetwater is: 1 --- actual score: 0.06179775280898876
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  SMT quintile: 
+qt_thrs:  0.1703846153846154 0.13384615384615384 0.0926923076923077 0.06999999999999999 0.11634615384615385 0.06610782963821993
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.2673076923076923
+The quintile score kittii Jinx is: 4 --- actual score: 0.14615384615384616
+The quintile score Titanna Charron is: 4 --- actual score: 0.14423076923076922
+The quintile score Unit Nyn is: 3 --- actual score: 0.12692307692307692
+The quintile score Buffy Ubble is: 3 --- actual score: 0.10576923076923077
+The quintile score ChocolateSplitz Topaz is: 2 --- actual score: 0.07307692307692308
+The quintile score Cherry Kirktown is: 2 --- actual score: 0.07115384615384615
+The quintile score Carrotcake Sweetwater is: 1 --- actual score: 0.06538461538461539
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  CS quintile
+qt_thrs:  0.1840255591054313 0.13610223642172525 0.08817891373801917 0.07603833865814696 0.10383386581469647 0.05388013050603846
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.21725239616613418
+The quintile score kittii Jinx is: 4 --- actual score: 0.1757188498402556
+The quintile score Titanna Charron is: 4 --- actual score: 0.16293929712460065
+The quintile score Unit Nyn is: 3 --- actual score: 0.1182108626198083
+The quintile score Buffy Ubble is: 3 --- actual score: 0.08945686900958466
+The quintile score Cherry Kirktown is: 2 --- actual score: 0.08626198083067092
+The quintile score Carrotcake Sweetwater is: 2 --- actual score: 0.07667731629392971
+The quintile score ChocolateSplitz Topaz is: 1 --- actual score: 0.07348242811501597
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  TL quintile
+qt_thrs:  11.138767507002802 6.702777777777778 5.96404255319149 4.904295704295705 6.382535460992909 2.7589252058373925
+The quintile score of Unit Nyn is: 5 --- actual score: 11.976190476190476
+The quintile score Belladonna Kamala is: 4 --- actual score: 10.929411764705883
+The quintile score Cherry Kirktown is: 4 --- actual score: 6.944444444444445
+The quintile score Buffy Ubble is: 3 --- actual score: 6.541666666666667
+The quintile score kittii Jinx is: 3 --- actual score: 6.223404255319149
+The quintile score Titanna Charron is: 2 --- actual score: 5.575
+The quintile score Carrotcake Sweetwater is: 2 --- actual score: 5.025974025974026
+The quintile score ChocolateSplitz Topaz is: 1 --- actual score: 4.417582417582418
+++++++++++++++++++++++++++++++++
+calculate Merged quintile
+qt_thrs:  0.17095081387615535 0.1369250181261792 0.09469966829117647 0.07642346016688722 0.11526321556733896 0.052664932627619135
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.22987857696009129
+The quintile score Titanna Charron is: 4 --- actual score: 0.15621887310517135
+The quintile score Unit Nyn is: 4 --- actual score: 0.14460014873719274
+The quintile score kittii Jinx is: 3 --- actual score: 0.13180826438550347
+The quintile score Buffy Ubble is: 3 --- actual score: 0.09871816674917445
+The quintile score Cherry Kirktown is: 2 --- actual score: 0.08867192060417951
+The quintile score ChocolateSplitz Topaz is: 2 --- actual score: 0.07733775045858299
+The quintile score Carrotcake Sweetwater is: 1 --- actual score: 0.0727662990001042
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: session23_CA_DA_LT.xml
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control - LTI quintile
+qt_thrs:  0.291362763915547 0.19001919385796548 0.1021113243761996 0.07178502879078695 0.1381957773512476 0.10165438774852179
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.29750479846449135
+The quintile score Natasiaa Nightfire is: 4 --- actual score: 0.2821497120921305
+The quintile score Shiva Draconia is: 3 --- actual score: 0.16698656429942418
+The quintile score Unit Nyn is: 3 --- actual score: 0.10940499040307101
+The quintile score Luluk Zenovka is: 2 --- actual score: 0.07293666026871401
+The quintile score Melly Winslet is: 1 --- actual score: 0.0710172744721689
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  SMT quintile: 
+qt_thrs:  0.34011299435028247 0.176271186440678 0.09529190207156307 0.03879472693032015 0.12617702448210924 0.13694010896656297
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.3709981167608286
+The quintile score Natasiaa Nightfire is: 4 --- actual score: 0.2937853107344633
+The quintile score Shiva Draconia is: 3 --- actual score: 0.14689265536723164
+The quintile score Unit Nyn is: 3 --- actual score: 0.10546139359698682
+The quintile score Luluk Zenovka is: 2 --- actual score: 0.054613935969868174
+The quintile score Melly Winslet is: 1 --- actual score: 0.02824858757062147
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  CS quintile
+qt_thrs:  0.31554054054054054 0.17364864864864865 0.0972972972972973 0.062162162162162166 0.12162162162162161 0.11743287303331232
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.3344594594594595
+The quintile score Natasiaa Nightfire is: 4 --- actual score: 0.28716216216216217
+The quintile score Shiva Draconia is: 3 --- actual score: 0.14527027027027026
+The quintile score Unit Nyn is: 3 --- actual score: 0.09797297297297297
+The quintile score Luluk Zenovka is: 2 --- actual score: 0.0945945945945946
+The quintile score Melly Winslet is: 1 --- actual score: 0.04054054054054054
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  TL quintile
+qt_thrs:  9.907755102040817 7.42909090909091 5.384549689440994 3.5812043795620436 6.213212874082439 2.841768607231686
+The quintile score of Unit Nyn is: 5 --- actual score: 9.979591836734693
+The quintile score Belladonna Kamala is: 4 --- actual score: 9.8
+The quintile score Natasiaa Nightfire is: 3 --- actual score: 6.836363636363636
+The quintile score Shiva Draconia is: 3 --- actual score: 5.590062111801243
+The quintile score Luluk Zenovka is: 2 --- actual score: 4.5625
+The quintile score Melly Winslet is: 1 --- actual score: 2.927007299270073
+++++++++++++++++++++++++++++++++
+calculate Merged quintile
+qt_thrs:  0.29100795772544996 0.17176045445806326 0.1297026900587764 0.06573968671465583 0.14552697239236376 0.10030464553529163
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.3124603972800154
+The quintile score Natasiaa Nightfire is: 4 --- actual score: 0.25882929839360186
+The quintile score Shiva Draconia is: 3 --- actual score: 0.14999324347417858
+The quintile score Unit Nyn is: 3 --- actual score: 0.14106070131054893
+The quintile score Luluk Zenovka is: 2 --- actual score: 0.08427064505168641
+The quintile score Melly Winslet is: 1 --- actual score: 0.053385714489968775
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: session24_CA_DA_LT.xml
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control - LTI quintile
+qt_thrs:  0.23304647160068845 0.225473321858864 0.2172117039586919 0.12426850258175559 0.22030981067125646 0.05552475422866183
+The quintile score of Maxx Abonwood is: 5 --- actual score: 0.23407917383820998
+The quintile score Valaveria Landar is: 4 --- actual score: 0.2289156626506024
+The quintile score Belladonna Kamala is: 3 --- actual score: 0.22030981067125646
+The quintile score Rhiamon Nitely is: 2 --- actual score: 0.21514629948364888
+The quintile score Unit Nyn is: 1 --- actual score: 0.10154905335628227
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  SMT quintile: 
+qt_thrs:  0.293609022556391 0.23646616541353382 0.1800751879699248 0.08984962406015037 0.20488721804511278 0.08905887290126939
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.3026315789473684
+The quintile score Valaveria Landar is: 4 --- actual score: 0.2575187969924812
+The quintile score Maxx Abonwood is: 3 --- actual score: 0.20488721804511278
+The quintile score Rhiamon Nitely is: 2 --- actual score: 0.16353383458646617
+The quintile score Unit Nyn is: 1 --- actual score: 0.07142857142857142
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  CS quintile
+qt_thrs:  0.30033222591362124 0.2445182724252492 0.15880398671096346 0.09634551495016612 0.17275747508305647 0.09482707672026162
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.3023255813953488
+The quintile score Valaveria Landar is: 4 --- actual score: 0.292358803986711
+The quintile score Maxx Abonwood is: 3 --- actual score: 0.17275747508305647
+The quintile score Rhiamon Nitely is: 2 --- actual score: 0.14950166112956811
+The quintile score Unit Nyn is: 1 --- actual score: 0.08305647840531562
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  TL quintile
+qt_thrs:  10.640993788819875 8.669897837966264 5.82120218579235 4.551501831501831 6.1530054644808745 2.9215986048697284
+The quintile score of Belladonna Kamala is: 5 --- actual score: 10.714285714285714
+The quintile score Unit Nyn is: 4 --- actual score: 10.347826086956522
+The quintile score Valaveria Landar is: 3 --- actual score: 6.1530054644808745
+The quintile score Maxx Abonwood is: 2 --- actual score: 5.6
+The quintile score Rhiamon Nitely is: 1 --- actual score: 4.289377289377289
+++++++++++++++++++++++++++++++++
+calculate Merged quintile
+qt_thrs:  0.2700364692529509 0.2179582545789845 0.1728325622278675 0.1391727139401971 0.1906622447656356 0.058040339979197414
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.278506687952551
+The quintile score Valaveria Landar is: 4 --- actual score: 0.23615559445455042
+The quintile score Maxx Abonwood is: 3 --- actual score: 0.1906622447656356
+The quintile score Rhiamon Nitely is: 2 --- actual score: 0.1609461072026888
+The quintile score Unit Nyn is: 1 --- actual score: 0.13372936562457416
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: session25_CA_DA_LT.xml
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control - LTI quintile
+qt_thrs:  0.22559055118110233 0.1779527559055118 0.1625984251968504 0.10275590551181102 0.17224409448818898 0.056323526860564126
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.25
+The quintile score Danny Dwyer is: 4 --- actual score: 0.1889763779527559
+The quintile score Aviano Gearz is: 3 --- actual score: 0.17519685039370078
+The quintile score Yakumo Fujin is: 3 --- actual score: 0.16929133858267717
+The quintile score Unit Nyn is: 2 --- actual score: 0.13582677165354332
+The quintile score Tig Tolwen is: 1 --- actual score: 0.08070866141732283
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  SMT quintile: 
+qt_thrs:  0.23241379310344823 0.15379310344827585 0.13793103448275862 0.13379310344827586 0.14482758620689656 0.05631010902949835
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.2793103448275862
+The quintile score Yakumo Fujin is: 4 --- actual score: 0.16206896551724137
+The quintile score Aviano Gearz is: 3 --- actual score: 0.15172413793103448
+The quintile score Tig Tolwen is: 2 --- actual score: 0.13793103448275862
+The quintile score Danny Dwyer is: 2 --- actual score: 0.13793103448275862
+The quintile score Unit Nyn is: 1 --- actual score: 0.1310344827586207
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  CS quintile
+qt_thrs:  0.2296296296296296 0.16296296296296298 0.14529914529914528 0.12364672364672365 0.15384615384615385 0.052370531248425806
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.26495726495726496
+The quintile score Tig Tolwen is: 4 --- actual score: 0.17663817663817663
+The quintile score Aviano Gearz is: 3 --- actual score: 0.15954415954415954
+The quintile score Yakumo Fujin is: 3 --- actual score: 0.14814814814814814
+The quintile score Danny Dwyer is: 2 --- actual score: 0.1339031339031339
+The quintile score Unit Nyn is: 1 --- actual score: 0.1168091168091168
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  TL quintile
+qt_thrs:  10.155182072829131 8.035419607843137 5.451498127340823 4.278788396633486 6.626916666666666 2.676204067634749
+The quintile score of Unit Nyn is: 5 --- actual score: 10.428571428571429
+The quintile score Belladonna Kamala is: 4 --- actual score: 9.745098039215685
+The quintile score Yakumo Fujin is: 3 --- actual score: 7.608
+The quintile score Danny Dwyer is: 3 --- actual score: 5.645833333333333
+The quintile score Tig Tolwen is: 2 --- actual score: 4.674157303370786
+The quintile score Aviano Gearz is: 1 --- actual score: 4.015209125475285
+++++++++++++++++++++++++++++++++
+calculate Merged quintile
+qt_thrs:  0.21986235233575688 0.15926357105075045 0.14806243179578268 0.1341187862056496 0.1532678534698491 0.0458601980647546
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.2564124772561868
+The quintile score Yakumo Fujin is: 4 --- actual score: 0.16503716495511206
+The quintile score Unit Nyn is: 3 --- actual score: 0.15782017257466005
+The quintile score Danny Dwyer is: 3 --- actual score: 0.14871553436503815
+The quintile score Aviano Gearz is: 2 --- actual score: 0.14545002151876077
+The quintile score Tig Tolwen is: 1 --- actual score: 0.12656462933024215
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: session28_CA_DA_LT.xml
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control - LTI quintile
+qt_thrs:  0.2653927813163482 0.20339702760084927 0.17791932059447982 0.1532908704883227 0.19957537154989385 0.05058695516807584
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.2802547770700637
+The quintile score Cheli Sands is: 4 --- actual score: 0.2059447983014862
+The quintile score Emmeline Pankhurst is: 3 --- actual score: 0.19957537154989385
+The quintile score Unit Nyn is: 2 --- actual score: 0.16348195329087048
+The quintile score Marissa Beres is: 1 --- actual score: 0.15074309978768577
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  SMT quintile: 
+qt_thrs:  0.3021176470588235 0.20800000000000002 0.15576470588235294 0.13411764705882354 0.18823529411764706 0.07784289030434478
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.32235294117647056
+The quintile score Emmeline Pankhurst is: 4 --- actual score: 0.2211764705882353
+The quintile score Unit Nyn is: 3 --- actual score: 0.18823529411764706
+The quintile score Cheli Sands is: 1 --- actual score: 0.13411764705882354
+The quintile score Marissa Beres is: 1 --- actual score: 0.13411764705882354
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  CS quintile
+qt_thrs:  0.3038461538461539 0.2076923076923077 0.16153846153846155 0.12692307692307692 0.17307692307692307 0.07918839886494043
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.32211538461538464
+The quintile score Emmeline Pankhurst is: 4 --- actual score: 0.23076923076923078
+The quintile score Unit Nyn is: 3 --- actual score: 0.17307692307692307
+The quintile score Cheli Sands is: 2 --- actual score: 0.15384615384615385
+The quintile score Marissa Beres is: 1 --- actual score: 0.1201923076923077
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  TL quintile
+qt_thrs:  10.836065573770492 8.263625292740047 5.083837662337663 4.670518386108274 5.388571428571429 3.1084076194709405
+The quintile score of Belladonna Kamala is: 5 --- actual score: 11.0
+The quintile score Unit Nyn is: 4 --- actual score: 10.180327868852459
+The quintile score Emmeline Pankhurst is: 3 --- actual score: 5.388571428571429
+The quintile score Marissa Beres is: 2 --- actual score: 4.880681818181818
+The quintile score Cheli Sands is: 1 --- actual score: 4.617977528089888
+++++++++++++++++++++++++++++++++
+calculate Merged quintile
+qt_thrs:  0.28629383179974893 0.20115002857006772 0.1733841452728428 0.1391719943573406 0.20023081003786247 0.06659196809635134
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.30742657951846836
+The quintile score Unit Nyn is: 4 --- actual score: 0.20176284092487123
+The quintile score Emmeline Pankhurst is: 3 --- actual score: 0.20023081003786247
+The quintile score Cheli Sands is: 2 --- actual score: 0.1554863687628297
+The quintile score Marissa Beres is: 1 --- actual score: 0.13509340075596832
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: session29_CA_DA_LT.xml
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control - LTI quintile
+qt_thrs:  0.2886877828054299 0.2316742081447964 0.14886877828054298 0.13076923076923078 0.1515837104072398 0.08028646424385162
+The quintile score of Yuki Quan is: 5 --- actual score: 0.2895927601809955
+The quintile score Belladonna Kamala is: 4 --- actual score: 0.2850678733031674
+The quintile score Vascone Zapatero is: 3 --- actual score: 0.1515837104072398
+The quintile score Unit Nyn is: 2 --- actual score: 0.14705882352941177
+The quintile score reaper2666 Wobbit is: 1 --- actual score: 0.12669683257918551
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  SMT quintile: 
+qt_thrs:  0.35027932960893854 0.23631284916201117 0.13910614525139664 0.07430167597765364 0.1424581005586592 0.1261568298074378
+The quintile score of Yuki Quan is: 5 --- actual score: 0.36312849162011174
+The quintile score Belladonna Kamala is: 4 --- actual score: 0.2988826815642458
+The quintile score Unit Nyn is: 3 --- actual score: 0.1424581005586592
+The quintile score Vascone Zapatero is: 2 --- actual score: 0.13687150837988826
+The quintile score reaper2666 Wobbit is: 1 --- actual score: 0.05865921787709497
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  CS quintile
+qt_thrs:  0.3229050279329609 0.23798882681564248 0.14078212290502792 0.09832402234636872 0.15083798882681565 0.10610113755472202
+The quintile score of Yuki Quan is: 5 --- actual score: 0.329608938547486
+The quintile score Belladonna Kamala is: 4 --- actual score: 0.29608938547486036
+The quintile score Vascone Zapatero is: 3 --- actual score: 0.15083798882681565
+The quintile score Unit Nyn is: 2 --- actual score: 0.1340782122905028
+The quintile score reaper2666 Wobbit is: 1 --- actual score: 0.0893854748603352
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  TL quintile
+qt_thrs:  11.582417582417582 10.353846153846154 6.9911840968020735 4.528529897069222 8.73076923076923 3.3126942465240075
+The quintile score of Unit Nyn is: 5 --- actual score: 11.619047619047619
+The quintile score Belladonna Kamala is: 4 --- actual score: 11.435897435897436
+The quintile score Yuki Quan is: 3 --- actual score: 8.73076923076923
+The quintile score Vascone Zapatero is: 2 --- actual score: 5.831460674157303
+The quintile score reaper2666 Wobbit is: 1 --- actual score: 4.2027972027972025
+++++++++++++++++++++++++++++++++
+calculate Merged quintile
+qt_thrs:  0.2958948705933817 0.24316730508489146 0.15695328480148268 0.10398453952024411 0.17535750810964607 0.08987966915622767
+The quintile score of Yuki Quan is: 5 --- actual score: 0.2977751291412967
+The quintile score Belladonna Kamala is: 4 --- actual score: 0.2883738364017217
+The quintile score Unit Nyn is: 3 --- actual score: 0.17535750810964607
+The quintile score Vascone Zapatero is: 2 --- actual score: 0.14468380259604044
+The quintile score reaper2666 Wobbit is: 1 --- actual score: 0.09380972375129504
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: session30_CA_DA_Lt.xml
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control - LTI quintile
+qt_thrs:  0.2577272727272727 0.1622727272727273 0.13499999999999998 0.10363636363636364 0.1465909090909091 0.07587869106393282
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.3068181818181818
+The quintile score Doubledown Tandino is: 4 --- actual score: 0.18409090909090908
+The quintile score Unit Nyn is: 3 --- actual score: 0.15681818181818183
+The quintile score CyberSleuth Nakamura is: 3 --- actual score: 0.13636363636363635
+The quintile score McCarty Boomhauer is: 2 --- actual score: 0.12954545454545455
+The quintile score James Kesslinger is: 1 --- actual score: 0.08636363636363636
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  SMT quintile: 
+qt_thrs:  0.2773333333333333 0.16960000000000003 0.13706666666666664 0.07573333333333333 0.14933333333333332 0.09063136567681436
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.30933333333333335
+The quintile score Doubledown Tandino is: 4 --- actual score: 0.22933333333333333
+The quintile score McCarty Boomhauer is: 3 --- actual score: 0.15466666666666667
+The quintile score Unit Nyn is: 3 --- actual score: 0.144
+The quintile score CyberSleuth Nakamura is: 2 --- actual score: 0.10933333333333334
+The quintile score James Kesslinger is: 1 --- actual score: 0.05333333333333334
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  CS quintile
+qt_thrs:  0.2645161290322581 0.1655913978494624 0.12903225806451613 0.0967741935483871 0.13978494623655913 0.0777620848678045
+The quintile score of Doubledown Tandino is: 5 --- actual score: 0.2903225806451613
+The quintile score Belladonna Kamala is: 4 --- actual score: 0.22580645161290322
+The quintile score McCarty Boomhauer is: 3 --- actual score: 0.15053763440860216
+The quintile score CyberSleuth Nakamura is: 2 --- actual score: 0.12903225806451613
+The quintile score Unit Nyn is: 2 --- actual score: 0.12903225806451613
+The quintile score James Kesslinger is: 1 --- actual score: 0.07526881720430108
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  TL quintile
+qt_thrs:  11.591925465838509 7.55072463768116 5.590960451977401 5.04858757062147 6.229166666666667 3.089953142579173
+The quintile score of Unit Nyn is: 5 --- actual score: 12.261904761904763
+The quintile score Belladonna Kamala is: 4 --- actual score: 10.58695652173913
+The quintile score McCarty Boomhauer is: 3 --- actual score: 6.791666666666667
+The quintile score CyberSleuth Nakamura is: 3 --- actual score: 5.666666666666667
+The quintile score Doubledown Tandino is: 2 --- actual score: 5.288135593220339
+The quintile score James Kesslinger is: 1 --- actual score: 4.888888888888889
+++++++++++++++++++++++++++++++++
+calculate Merged quintile
+qt_thrs:  0.24320884958894867 0.1808877660656292 0.14177951687200424 0.09829913233482399 0.16043816215351536 0.06561327732057225
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.2686797647761259
+The quintile score Doubledown Tandino is: 4 --- actual score: 0.20500247680818293
+The quintile score Unit Nyn is: 3 --- actual score: 0.17485908837999076
+The quintile score McCarty Boomhauer is: 3 --- actual score: 0.14601723592704
+The quintile score CyberSleuth Nakamura is: 2 --- actual score: 0.12482864065186129
+The quintile score James Kesslinger is: 1 --- actual score: 0.08061279345679913
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: session35_CA_DA_LT.xml
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control - LTI quintile
+qt_thrs:  0.29264705882352937 0.225 0.15661764705882353 0.12573529411764706 0.16544117647058823 0.07780970112460493
+The quintile score of Ky Tsuki is: 5 --- actual score: 0.29963235294117646
+The quintile score Belladonna Kamala is: 4 --- actual score: 0.2647058823529412
+The quintile score Fyrebug Ectonite is: 3 --- actual score: 0.16544117647058823
+The quintile score Seamus Monigal is: 2 --- actual score: 0.15073529411764705
+The quintile score Unit Nyn is: 1 --- actual score: 0.11948529411764706
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  SMT quintile: 
+qt_thrs:  0.2701183431952663 0.228698224852071 0.17455621301775148 0.12662721893491125 0.19674556213017752 0.06411830333251277
+The quintile score of Ky Tsuki is: 5 --- actual score: 0.27514792899408286
+The quintile score Belladonna Kamala is: 4 --- actual score: 0.25
+The quintile score Fyrebug Ectonite is: 3 --- actual score: 0.19674556213017752
+The quintile score Seamus Monigal is: 2 --- actual score: 0.15976331360946747
+The quintile score Unit Nyn is: 1 --- actual score: 0.11834319526627218
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  CS quintile
+qt_thrs:  0.24293193717277486 0.21465968586387435 0.1973821989528796 0.1450261780104712 0.20680628272251309 0.042759197882922345
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.2486910994764398
+The quintile score Ky Tsuki is: 4 --- actual score: 0.2198952879581152
+The quintile score Seamus Monigal is: 3 --- actual score: 0.20680628272251309
+The quintile score Fyrebug Ectonite is: 2 --- actual score: 0.19109947643979058
+The quintile score Unit Nyn is: 1 --- actual score: 0.13350785340314136
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  TL quintile
+qt_thrs:  10.155902360944378 8.453427163969035 5.509753694581281 4.72967032967033 6.317241379310345 2.667991468482741
+The quintile score of Belladonna Kamala is: 5 --- actual score: 10.22549019607843
+The quintile score Unit Nyn is: 4 --- actual score: 9.877551020408163
+The quintile score Ky Tsuki is: 3 --- actual score: 6.317241379310345
+The quintile score Seamus Monigal is: 2 --- actual score: 4.9714285714285715
+The quintile score Fyrebug Ectonite is: 1 --- actual score: 4.6692307692307695
+++++++++++++++++++++++++++++++++
+calculate Merged quintile
+qt_thrs:  0.2578845680465992 0.213755479336096 0.16655180065442923 0.16180815196287557 0.17069196977324905 0.048170926035291675
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.2617395886304172
+The quintile score Ky Tsuki is: 4 --- actual score: 0.2424644857113273
+The quintile score Fyrebug Ectonite is: 3 --- actual score: 0.17069196977324905
+The quintile score Seamus Monigal is: 2 --- actual score: 0.16379168790854937
+The quintile score Unit Nyn is: 1 --- actual score: 0.16131226797645712
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: session36_CA_DA_LT.xml
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control - LTI quintile
+qt_thrs:  0.2366197183098592 0.16096579476861167 0.12394366197183099 0.04668008048289739 0.13682092555331993 0.08685381270653078
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.2837022132796781
+The quintile score Alaria Kamala is: 4 --- actual score: 0.2052313883299799
+The quintile score Angel Slocombe is: 4 --- actual score: 0.16700201207243462
+The quintile score Whisper Dallagio is: 3 --- actual score: 0.13682092555331993
+The quintile score Unit Nyn is: 2 --- actual score: 0.12072434607645875
+The quintile score Fox Moonites is: 2 --- actual score: 0.060362173038229376
+The quintile score Helder Skytower is: 1 --- actual score: 0.026156941649899398
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  SMT quintile: 
+qt_thrs:  0.2585170340681363 0.15751503006012024 0.09178356713426854 0.047695390781563124 0.1062124248496994 0.10647498009145345
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.342685370741483
+The quintile score Angel Slocombe is: 4 --- actual score: 0.20240480961923848
+The quintile score Alaria Kamala is: 4 --- actual score: 0.17034068136272545
+The quintile score Unit Nyn is: 3 --- actual score: 0.1062124248496994
+The quintile score Whisper Dallagio is: 2 --- actual score: 0.08817635270541083
+The quintile score Fox Moonites is: 2 --- actual score: 0.05811623246492986
+The quintile score Helder Skytower is: 1 --- actual score: 0.03206412825651302
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  CS quintile
+qt_thrs:  0.2656370656370657 0.1498069498069498 0.08803088803088803 0.05250965250965251 0.10038610038610038 0.10006383277953752
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.3166023166023166
+The quintile score Angel Slocombe is: 4 --- actual score: 0.23166023166023167
+The quintile score Alaria Kamala is: 4 --- actual score: 0.16216216216216217
+The quintile score Whisper Dallagio is: 3 --- actual score: 0.10038610038610038
+The quintile score Unit Nyn is: 2 --- actual score: 0.08494208494208494
+The quintile score Fox Moonites is: 2 --- actual score: 0.05405405405405406
+The quintile score Helder Skytower is: 1 --- actual score: 0.05019305019305019
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  TL quintile
+qt_thrs:  10.28716577540107 8.81579319727891 5.124751439037153 3.268646487721302 6.414965986394558 3.332821619187876
+The quintile score of Unit Nyn is: 5 --- actual score: 10.659090909090908
+The quintile score Whisper Dallagio is: 4 --- actual score: 10.03921568627451
+The quintile score Belladonna Kamala is: 4 --- actual score: 9.416
+The quintile score Angel Slocombe is: 3 --- actual score: 6.414965986394558
+The quintile score Alaria Kamala is: 2 --- actual score: 4.802197802197802
+The quintile score Helder Skytower is: 2 --- actual score: 4.117647058823529
+The quintile score Fox Moonites is: 1 --- actual score: 1.9951456310679612
+++++++++++++++++++++++++++++++++
+calculate Merged quintile
+qt_thrs:  0.22458707987786836 0.1546395596056524 0.13415805793074295 0.05170805709886203 0.13424589535146716 0.0808773686633947
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.28536358988687255
+The quintile score Angel Slocombe is: 4 --- actual score: 0.18406940653853215
+The quintile score Alaria Kamala is: 4 --- actual score: 0.15973797566919873
+The quintile score Whisper Dallagio is: 3 --- actual score: 0.13424589535146716
+The quintile score Unit Nyn is: 2 --- actual score: 0.1341360985755619
+The quintile score Fox Moonites is: 2 --- actual score: 0.05364621753757516
+The quintile score Helder Skytower is: 1 --- actual score: 0.048800816440792344
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: session39_CA_DA_LT.xml
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control - LTI quintile
+qt_thrs:  0.23536121673003801 0.17110266159695817 0.16083650190114068 0.0988593155893536 0.16539923954372623 0.0653579614478411
+The quintile score of Morgance Firecaster is: 5 --- actual score: 0.26806083650190116
+The quintile score Dulcie Mills is: 4 --- actual score: 0.18631178707224336
+The quintile score Enerji Sweetwater is: 3 --- actual score: 0.16730038022813687
+The quintile score CeraDestiny Wilder is: 3 --- actual score: 0.1634980988593156
+The quintile score Unit Nyn is: 2 --- actual score: 0.15019011406844107
+The quintile score Daarc Dagger is: 1 --- actual score: 0.06463878326996197
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  SMT quintile: 
+qt_thrs:  0.23008474576271185 0.20169491525423727 0.15593220338983052 0.08516949152542372 0.1822033898305085 0.06738043165595393
+The quintile score of Unit Nyn is: 5 --- actual score: 0.2478813559322034
+The quintile score Morgance Firecaster is: 4 --- actual score: 0.2033898305084746
+The quintile score Dulcie Mills is: 3 --- actual score: 0.20127118644067796
+The quintile score Enerji Sweetwater is: 3 --- actual score: 0.163135593220339
+The quintile score CeraDestiny Wilder is: 2 --- actual score: 0.1271186440677966
+The quintile score Daarc Dagger is: 1 --- actual score: 0.057203389830508475
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  CS quintile
+qt_thrs:  0.23787878787878786 0.1840909090909091 0.15833333333333333 0.08939393939393939 0.17424242424242425 0.06578270710937094
+The quintile score of Unit Nyn is: 5 --- actual score: 0.25757575757575757
+The quintile score Dulcie Mills is: 4 --- actual score: 0.20833333333333334
+The quintile score Enerji Sweetwater is: 3 --- actual score: 0.17803030303030304
+The quintile score Morgance Firecaster is: 3 --- actual score: 0.17045454545454544
+The quintile score CeraDestiny Wilder is: 2 --- actual score: 0.10984848484848485
+The quintile score Daarc Dagger is: 1 --- actual score: 0.07575757575757576
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  TL quintile
+qt_thrs:  8.518944844124698 5.737250199840128 5.359435715922691 4.196593946174405 5.60900024473813 2.209076965108447
+The quintile score of Unit Nyn is: 5 --- actual score: 10.222222222222221
+The quintile score Dulcie Mills is: 4 --- actual score: 5.9640287769784175
+The quintile score Daarc Dagger is: 3 --- actual score: 5.680555555555555
+The quintile score Morgance Firecaster is: 3 --- actual score: 5.537444933920705
+The quintile score CeraDestiny Wilder is: 2 --- actual score: 4.6473988439306355
+The quintile score Enerji Sweetwater is: 1 --- actual score: 3.8960573476702507
+++++++++++++++++++++++++++++++++
+calculate Merged quintile
+qt_thrs:  0.2205963234878192 0.19216229725747827 0.14985687602893888 0.10631811762754848 0.1723340360044622 0.052256914436869945
+The quintile score of Unit Nyn is: 5 --- actual score: 0.23500272535501882
+The quintile score Morgance Firecaster is: 4 --- actual score: 0.19898672068701984
+The quintile score Dulcie Mills is: 3 --- actual score: 0.19045619140009287
+The quintile score Enerji Sweetwater is: 3 --- actual score: 0.15421188060883154
+The quintile score CeraDestiny Wilder is: 2 --- actual score: 0.1324368577093683
+The quintile score Daarc Dagger is: 1 --- actual score: 0.08890562423966861
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: session41_CA_DA_LT.xml
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control - LTI quintile
+qt_thrs:  0.2112201963534362 0.1820476858345021 0.1023842917251052 0.0664796633941094 0.1697054698457223 0.07242799598772165
+The quintile score of treto Priestly is: 5 --- actual score: 0.24403927068723702
+The quintile score Johan Neddings is: 4 --- actual score: 0.18934081346423562
+The quintile score Belladonna Kamala is: 4 --- actual score: 0.18513323983169705
+The quintile score Stokley Constantine is: 3 --- actual score: 0.1697054698457223
+The quintile score Unit Nyn is: 2 --- actual score: 0.08555399719495091
+The quintile score Elilka Sieyes is: 2 --- actual score: 0.07994389901823282
+The quintile score xjj Hax is: 1 --- actual score: 0.04628330995792426
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  SMT quintile: 
+qt_thrs:  0.22764397905759162 0.17109947643979057 0.10659685863874346 0.0718324607329843 0.12670157068062826 0.0729081034407604
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.23455497382198953
+The quintile score treto Priestly is: 4 --- actual score: 0.22303664921465968
+The quintile score Johan Neddings is: 4 --- actual score: 0.18219895287958116
+The quintile score Stokley Constantine is: 3 --- actual score: 0.12670157068062826
+The quintile score Unit Nyn is: 2 --- actual score: 0.10157068062827225
+The quintile score Elilka Sieyes is: 2 --- actual score: 0.09528795811518324
+The quintile score xjj Hax is: 1 --- actual score: 0.03664921465968586
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  CS quintile
+qt_thrs:  0.20000000000000004 0.14899817850637523 0.13005464480874318 0.08561020036429873 0.14025500910746813 0.06348157588468868
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.26229508196721313
+The quintile score treto Priestly is: 4 --- actual score: 0.15846994535519127
+The quintile score Johan Neddings is: 4 --- actual score: 0.151183970856102
+The quintile score Elilka Sieyes is: 3 --- actual score: 0.14025500910746813
+The quintile score Stokley Constantine is: 2 --- actual score: 0.12750455373406194
+The quintile score Unit Nyn is: 2 --- actual score: 0.10746812386156648
+The quintile score xjj Hax is: 1 --- actual score: 0.052823315118397086
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  TL quintile
+qt_thrs:  10.431936758893281 7.932451499118166 7.779751552795031 6.57307446127587 7.785714285714286 1.7871499918264468
+The quintile score of Unit Nyn is: 5 --- actual score: 11.543478260869565
+The quintile score Belladonna Kamala is: 4 --- actual score: 9.690909090909091
+The quintile score Stokley Constantine is: 4 --- actual score: 7.969135802469136
+The quintile score Elilka Sieyes is: 3 --- actual score: 7.785714285714286
+The quintile score treto Priestly is: 2 --- actual score: 7.778260869565218
+The quintile score xjj Hax is: 2 --- actual score: 6.627906976744186
+The quintile score Johan Neddings is: 1 --- actual score: 6.490825688073395
+++++++++++++++++++++++++++++++++
+calculate Merged quintile
+qt_thrs:  0.1989272400188321 0.15504992114764668 0.126880916824531 0.09252354111121074 0.1403951324579137 0.05008413059458379
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.2123490804041845
+The quintile score treto Priestly is: 4 --- actual score: 0.18997934642859718
+The quintile score Johan Neddings is: 4 --- actual score: 0.15871361832007994
+The quintile score Stokley Constantine is: 3 --- actual score: 0.1403951324579137
+The quintile score Unit Nyn is: 2 --- actual score: 0.12350236291618531
+The quintile score Elilka Sieyes is: 2 --- actual score: 0.1124967866099748
+The quintile score xjj Hax is: 1 --- actual score: 0.06256367286306463
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: session43_CA_DA_LT.xml
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control - LTI quintile
+qt_thrs:  0.23786407766990297 0.14271844660194172 0.09611650485436893 0.07184466019417476 0.10194174757281553 0.09790742440946021
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.3470873786407767
+The quintile score Unit Nyn is: 4 --- actual score: 0.1650485436893204
+The quintile score Jamesy Souther is: 4 --- actual score: 0.1529126213592233
+The quintile score Jadelicious Crystal is: 3 --- actual score: 0.10194174757281553
+The quintile score Dante Baudin is: 2 --- actual score: 0.09466019417475728
+The quintile score Sophia Valeeva is: 2 --- actual score: 0.0825242718446602
+The quintile score Iolanthe Akros is: 1 --- actual score: 0.055825242718446605
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  SMT quintile: 
+qt_thrs:  0.2580335731414869 0.12422062350119903 0.0973621103117506 0.05227817745803357 0.11270983213429256 0.12046119287524956
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.40047961630695444
+The quintile score Jamesy Souther is: 4 --- actual score: 0.1630695443645084
+The quintile score Unit Nyn is: 4 --- actual score: 0.12709832134292565
+The quintile score Dante Baudin is: 3 --- actual score: 0.11270983213429256
+The quintile score Sophia Valeeva is: 2 --- actual score: 0.09352517985611511
+The quintile score Jadelicious Crystal is: 2 --- actual score: 0.05515587529976019
+The quintile score Iolanthe Akros is: 1 --- actual score: 0.047961630695443645
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  CS quintile
+qt_thrs:  0.22314049586776866 0.15289256198347106 0.10991735537190084 0.06859504132231405 0.11983471074380166 0.08335975526045651
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.30991735537190085
+The quintile score Dante Baudin is: 4 --- actual score: 0.1652892561983471
+The quintile score Jamesy Souther is: 4 --- actual score: 0.16115702479338842
+The quintile score Sophia Valeeva is: 3 --- actual score: 0.11983471074380166
+The quintile score Unit Nyn is: 2 --- actual score: 0.10743801652892562
+The quintile score Iolanthe Akros is: 2 --- actual score: 0.07024793388429752
+The quintile score Jadelicious Crystal is: 1 --- actual score: 0.06611570247933884
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  TL quintile
+qt_thrs:  10.88723640399556 9.199386973180076 4.834322373696874 3.485116964450175 7.241379310344827 3.4341909828441195
+The quintile score of Belladonna Kamala is: 5 --- actual score: 11.18867924528302
+The quintile score Unit Nyn is: 4 --- actual score: 10.686274509803921
+The quintile score Jamesy Souther is: 4 --- actual score: 9.688888888888888
+The quintile score Iolanthe Akros is: 3 --- actual score: 7.241379310344827
+The quintile score Dante Baudin is: 2 --- actual score: 4.232558139534884
+The quintile score Jadelicious Crystal is: 2 --- actual score: 3.5163934426229506
+The quintile score Sophia Valeeva is: 1 --- actual score: 3.438202247191011
+++++++++++++++++++++++++++++++++
+calculate Merged quintile
+qt_thrs:  0.22877118437062982 0.14553476106508903 0.09579790664742957 0.07718786409525873 0.11433083881055342 0.08614030150962347
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.32032301559838955
+The quintile score Jamesy Souther is: 4 --- actual score: 0.16773663021878993
+The quintile score Unit Nyn is: 4 --- actual score: 0.15333574162872293
+The quintile score Dante Baudin is: 3 --- actual score: 0.11433083881055342
+The quintile score Sophia Valeeva is: 2 --- actual score: 0.0911646736066486
+The quintile score Iolanthe Akros is: 2 --- actual score: 0.07972112020250235
+The quintile score Jadelicious Crystal is: 1 --- actual score: 0.07338797993439329
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: session44_CA_DA_LT.xml
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control - LTI quintile
+qt_thrs:  0.18556701030927836 0.15945017182130586 0.12233676975945017 0.1013745704467354 0.15120274914089346 0.03978480901101649
+The quintile score of Valhala Vollmar is: 5 --- actual score: 0.1958762886597938
+The quintile score WencheeePookie Bigboots is: 4 --- actual score: 0.17869415807560138
+The quintile score Rebecca Rhiannyr is: 4 --- actual score: 0.16151202749140894
+The quintile score Belladonna Kamala is: 3 --- actual score: 0.15120274914089346
+The quintile score Unit Nyn is: 2 --- actual score: 0.11512027491408934
+The quintile score Elizabeth35 Shepherd is: 2 --- actual score: 0.11168384879725086
+The quintile score Bosskwar Winterwolf is: 1 --- actual score: 0.0859106529209622
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  SMT quintile: 
+qt_thrs:  0.19710144927536233 0.1626086956521739 0.1382608695652174 0.0855072463768116 0.15797101449275364 0.0606093884197265
+The quintile score of Valhala Vollmar is: 5 --- actual score: 0.20144927536231885
+The quintile score Belladonna Kamala is: 4 --- actual score: 0.19420289855072465
+The quintile score WencheeePookie Bigboots is: 4 --- actual score: 0.16376811594202897
+The quintile score Elizabeth35 Shepherd is: 3 --- actual score: 0.15797101449275364
+The quintile score Rebecca Rhiannyr is: 2 --- actual score: 0.13333333333333333
+The quintile score Unit Nyn is: 2 --- actual score: 0.1289855072463768
+The quintile score Bosskwar Winterwolf is: 1 --- actual score: 0.020289855072463767
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  CS quintile
+qt_thrs:  0.20689655172413793 0.15689655172413794 0.13793103448275862 0.07844827586206897 0.15517241379310345 0.06377167294141577
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.21336206896551724
+The quintile score Valhala Vollmar is: 4 --- actual score: 0.2025862068965517
+The quintile score Elizabeth35 Shepherd is: 4 --- actual score: 0.15732758620689655
+The quintile score WencheeePookie Bigboots is: 3 --- actual score: 0.15517241379310345
+The quintile score Rebecca Rhiannyr is: 2 --- actual score: 0.1336206896551724
+The quintile score Unit Nyn is: 2 --- actual score: 0.11637931034482758
+The quintile score Bosskwar Winterwolf is: 1 --- actual score: 0.021551724137931036
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  TL quintile
+qt_thrs:  9.491969991664352 6.190524486683924 4.1434363742984 3.795639134311421 4.572254335260116 2.635835048136998
+The quintile score of Belladonna Kamala is: 5 --- actual score: 9.76271186440678
+The quintile score Unit Nyn is: 4 --- actual score: 9.311475409836065
+The quintile score WencheeePookie Bigboots is: 4 --- actual score: 6.595092024539877
+The quintile score Elizabeth35 Shepherd is: 3 --- actual score: 4.572254335260116
+The quintile score Bosskwar Winterwolf is: 2 --- actual score: 4.036231884057971
+The quintile score Rebecca Rhiannyr is: 2 --- actual score: 4.004566210045662
+The quintile score Valhala Vollmar is: 1 --- actual score: 3.4822485207100593
+++++++++++++++++++++++++++++++++
+calculate Merged quintile
+qt_thrs:  0.1817458197451814 0.16028099252938038 0.13646368735612732 0.10109201725994013 0.14585914571089825 0.04477810182981591
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.1981308731584239
+The quintile score Valhala Vollmar is: 4 --- actual score: 0.1708224508030197
+The quintile score WencheeePookie Bigboots is: 4 --- actual score: 0.16388645423400092
+The quintile score Unit Nyn is: 3 --- actual score: 0.14585914571089825
+The quintile score Elizabeth35 Shepherd is: 2 --- actual score: 0.13411482276743458
+The quintile score Rebecca Rhiannyr is: 2 --- actual score: 0.13108757964725534
+The quintile score Bosskwar Winterwolf is: 1 --- actual score: 0.05609867367896727
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: session45_CA_DA_LT.xml
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control - LTI quintile
+qt_thrs:  0.27519582245430807 0.19425587467362923 0.14778067885117493 0.053785900783289806 0.17754569190600522 0.10192024535323885
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.3263707571801567
+The quintile score Michael Takakura is: 4 --- actual score: 0.19843342036553524
+The quintile score Unit Nyn is: 3 --- actual score: 0.19321148825065274
+The quintile score Bongo Ragu is: 3 --- actual score: 0.1618798955613577
+The quintile score Knight Ghostraven is: 2 --- actual score: 0.09138381201044386
+The quintile score WolfBlade Faith is: 1 --- actual score: 0.028720626631853787
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  SMT quintile: 
+qt_thrs:  0.27721822541966423 0.17505995203836933 0.15299760191846523 0.06043165467625898 0.1642685851318945 0.1005680031117716
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.3261390887290168
+The quintile score Michael Takakura is: 4 --- actual score: 0.2038369304556355
+The quintile score Bongo Ragu is: 3 --- actual score: 0.16786570743405277
+The quintile score Unit Nyn is: 3 --- actual score: 0.1606714628297362
+The quintile score Knight Ghostraven is: 2 --- actual score: 0.1223021582733813
+The quintile score WolfBlade Faith is: 1 --- actual score: 0.019184652278177457
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  CS quintile
+qt_thrs:  0.29107981220657275 0.1643192488262911 0.1408450704225352 0.06291079812206572 0.14788732394366197 0.10534650550383509
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.3380281690140845
+The quintile score Michael Takakura is: 4 --- actual score: 0.22065727699530516
+The quintile score Bongo Ragu is: 3 --- actual score: 0.15023474178403756
+The quintile score Knight Ghostraven is: 3 --- actual score: 0.14553990610328638
+The quintile score Unit Nyn is: 2 --- actual score: 0.12206572769953052
+The quintile score WolfBlade Faith is: 1 --- actual score: 0.023474178403755867
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  TL quintile
+qt_thrs:  10.854873294346978 8.856296296296296 5.1137022397891965 4.149068322981367 6.838636363636364 3.1561512443638473
+The quintile score of Belladonna Kamala is: 5 --- actual score: 10.881578947368421
+The quintile score Unit Nyn is: 4 --- actual score: 10.814814814814815
+The quintile score Knight Ghostraven is: 3 --- actual score: 8.366666666666667
+The quintile score Michael Takakura is: 3 --- actual score: 5.3106060606060606
+The quintile score WolfBlade Faith is: 2 --- actual score: 4.326086956521739
+The quintile score Bongo Ragu is: 1 --- actual score: 4.031055900621118
+++++++++++++++++++++++++++++++++
+calculate Merged quintile
+qt_thrs:  0.2603419628707053 0.18186889374706838 0.14195923449346887 0.08060051505865774 0.1619265154247509 0.08703572828718832
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.30984224187901516
+The quintile score Michael Takakura is: 4 --- actual score: 0.18609154435824066
+The quintile score Unit Nyn is: 3 --- actual score: 0.18081323109427533
+The quintile score Bongo Ragu is: 3 --- actual score: 0.1430397997552265
+The quintile score Knight Ghostraven is: 2 --- actual score: 0.13763697344643833
+The quintile score WolfBlade Faith is: 1 --- actual score: 0.04257620946680403
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: session46_CA_DA_LT.xml
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control - LTI quintile
+qt_thrs:  0.2666666666666666 0.18621659634317864 0.11251758087201125 0.09451476793248945 0.14978902953586498 0.0846958760036661
+The quintile score of Flux Blackheart is: 5 --- actual score: 0.3150492264416315
+The quintile score Angelos Nemeth is: 4 --- actual score: 0.1940928270042194
+The quintile score Belladonna Kamala is: 3 --- actual score: 0.18424753867791843
+The quintile score Vince Kamenev is: 3 --- actual score: 0.11533052039381153
+The quintile score CaptainJack Delcon is: 2 --- actual score: 0.10126582278481013
+The quintile score Unit Nyn is: 1 --- actual score: 0.090014064697609
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  SMT quintile: 
+qt_thrs:  0.28942598187311175 0.15991943605236655 0.13011077542799598 0.07995971802618328 0.148539778449144 0.10787139168658919
+The quintile score of Flux Blackheart is: 5 --- actual score: 0.37361530715005037
+The quintile score Angelos Nemeth is: 4 --- actual score: 0.16314199395770393
+The quintile score Belladonna Kamala is: 3 --- actual score: 0.15911379657603222
+The quintile score CaptainJack Delcon is: 3 --- actual score: 0.1379657603222558
+The quintile score Unit Nyn is: 2 --- actual score: 0.0986908358509567
+The quintile score Vince Kamenev is: 1 --- actual score: 0.06747230614300101
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  CS quintile
+qt_thrs:  0.2486133768352365 0.17911908646003263 0.15562805872756932 0.08613376835236541 0.1737357259380098 0.07466689369282932
+The quintile score of Flux Blackheart is: 5 --- actual score: 0.28711256117455136
+The quintile score CaptainJack Delcon is: 4 --- actual score: 0.19086460032626426
+The quintile score Angelos Nemeth is: 3 --- actual score: 0.1761827079934747
+The quintile score Belladonna Kamala is: 3 --- actual score: 0.17128874388254486
+The quintile score Unit Nyn is: 2 --- actual score: 0.0929853181076672
+The quintile score Vince Kamenev is: 1 --- actual score: 0.08156606851549755
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  TL quintile
+qt_thrs:  10.258571428571429 6.231596638655463 4.727284152318713 4.239494204425712 5.041766247783517 2.9199769691525748
+The quintile score of Belladonna Kamala is: 5 --- actual score: 10.297619047619047
+The quintile score Unit Nyn is: 4 --- actual score: 10.2
+The quintile score Flux Blackheart is: 3 --- actual score: 5.239495798319328
+The quintile score Angelos Nemeth is: 3 --- actual score: 4.844036697247707
+The quintile score CaptainJack Delcon is: 2 --- actual score: 4.260273972602739
+The quintile score Vince Kamenev is: 1 --- actual score: 4.225641025641026
+++++++++++++++++++++++++++++++++
+calculate Merged quintile
+qt_thrs:  0.24430770753497094 0.17039399026141624 0.13551326171747974 0.10979454396638873 0.15002375870063922 0.06394404379995695
+The quintile score of Flux Blackheart is: 5 --- actual score: 0.2774731271618012
+The quintile score Belladonna Kamala is: 4 --- actual score: 0.19455957809472563
+The quintile score Angelos Nemeth is: 3 --- actual score: 0.1643525933030889
+The quintile score Unit Nyn is: 3 --- actual score: 0.13569492409818956
+The quintile score CaptainJack Delcon is: 2 --- actual score: 0.13478661219464044
+The quintile score Vince Kamenev is: 1 --- actual score: 0.09313316514755425
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: session48_CA_DA_LT.xml
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control - LTI quintile
+qt_thrs:  0.23005565862708718 0.18849721706864567 0.13617810760667903 0.10983302411873841 0.1614100185528757 0.05490418387755427
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.24489795918367346
+The quintile score SilenceDoGood Lyvingstone is: 4 --- actual score: 0.2077922077922078
+The quintile score Idny Ansome is: 3 --- actual score: 0.1836734693877551
+The quintile score Nnod Silvercloud is: 3 --- actual score: 0.1391465677179963
+The quintile score Unit Nyn is: 2 --- actual score: 0.12430426716141002
+The quintile score Katie Tuque is: 1 --- actual score: 0.10018552875695733
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  SMT quintile: 
+qt_thrs:  0.26151079136690647 0.17733812949640287 0.13741007194244603 0.08669064748201438 0.15737410071942445 0.07817157294940089
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.28597122302158273
+The quintile score Unit Nyn is: 4 --- actual score: 0.22482014388489208
+The quintile score SilenceDoGood Lyvingstone is: 3 --- actual score: 0.16546762589928057
+The quintile score Nnod Silvercloud is: 3 --- actual score: 0.14928057553956833
+The quintile score Idny Ansome is: 2 --- actual score: 0.08992805755395683
+The quintile score Katie Tuque is: 1 --- actual score: 0.08453237410071943
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  CS quintile
+qt_thrs:  0.2430517711171662 0.2010899182561308 0.14822888283378743 0.07901907356948229 0.1784741144414169 0.07346681031577287
+The quintile score of Unit Nyn is: 5 --- actual score: 0.2506811989100817
+The quintile score Belladonna Kamala is: 4 --- actual score: 0.23160762942779292
+The quintile score SilenceDoGood Lyvingstone is: 3 --- actual score: 0.19346049046321526
+The quintile score Nnod Silvercloud is: 3 --- actual score: 0.16348773841961853
+The quintile score Katie Tuque is: 2 --- actual score: 0.08719346049046321
+The quintile score Idny Ansome is: 1 --- actual score: 0.07356948228882834
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  TL quintile
+qt_thrs:  10.005174825174825 6.692549889135256 5.639733090688504 3.56402104680144 5.934088269454124 2.872287008701239
+The quintile score of Unit Nyn is: 5 --- actual score: 10.26923076923077
+The quintile score Belladonna Kamala is: 4 --- actual score: 9.60909090909091
+The quintile score Idny Ansome is: 3 --- actual score: 5.963414634146342
+The quintile score Nnod Silvercloud is: 3 --- actual score: 5.904761904761905
+The quintile score SilenceDoGood Lyvingstone is: 2 --- actual score: 4.579617834394904
+The quintile score Katie Tuque is: 1 --- actual score: 2.8869565217391306
+++++++++++++++++++++++++++++++++
+calculate Merged quintile
+qt_thrs:  0.23729758920833763 0.1797860950014303 0.14546168019459396 0.10175487105522843 0.16075058864897582 0.060184579598072684
+The quintile score of Belladonna Kamala is: 5 --- actual score: 0.25188124053049404
+The quintile score Unit Nyn is: 4 --- actual score: 0.21542211222510305
+The quintile score SilenceDoGood Lyvingstone is: 3 --- actual score: 0.1708770906955121
+The quintile score Nnod Silvercloud is: 3 --- actual score: 0.15062408660243953
+The quintile score Idny Ansome is: 2 --- actual score: 0.12481205456321166
+The quintile score Katie Tuque is: 1 --- actual score: 0.08638341538323963
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: session50_CA_DA_LT.xml
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control - LTI quintile
+qt_thrs:  0.2037037037037037 0.18253968253968253 0.1574074074074074 0.12407407407407407 0.1693121693121693 0.03820897190450965
+The quintile score of Carrie McAndrews is: 5 --- actual score: 0.21428571428571427
+The quintile score dav Darkfold is: 4 --- actual score: 0.18783068783068782
+The quintile score Schrix Gothly is: 3 --- actual score: 0.18121693121693122
+The quintile score Macie Thirdborn is: 2 --- actual score: 0.1574074074074074
+The quintile score Belladonna Kamala is: 2 --- actual score: 0.1574074074074074
+The quintile score Unit Nyn is: 1 --- actual score: 0.10185185185185185
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  SMT quintile: 
+qt_thrs:  0.21964497041420117 0.1893491124260355 0.15881656804733726 0.1034319526627219 0.17810650887573964 0.0525924225511186
+The quintile score of dav Darkfold is: 5 --- actual score: 0.23668639053254437
+The quintile score Belladonna Kamala is: 4 --- actual score: 0.1940828402366864
+The quintile score Carrie McAndrews is: 3 --- actual score: 0.1881656804733728
+The quintile score Schrix Gothly is: 3 --- actual score: 0.1680473372781065
+The quintile score Macie Thirdborn is: 2 --- actual score: 0.12189349112426036
+The quintile score Unit Nyn is: 1 --- actual score: 0.09112426035502959
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  CS quintile
+qt_thrs:  0.22133333333333333 0.19085714285714286 0.15466666666666667 0.10247619047619047 0.17333333333333334 0.05383101130183026
+The quintile score of dav Darkfold is: 5 --- actual score: 0.23047619047619047
+The quintile score Belladonna Kamala is: 4 --- actual score: 0.20761904761904762
+The quintile score Carrie McAndrews is: 3 --- actual score: 0.18666666666666668
+The quintile score Schrix Gothly is: 3 --- actual score: 0.16
+The quintile score Macie Thirdborn is: 2 --- actual score: 0.13333333333333333
+The quintile score Unit Nyn is: 1 --- actual score: 0.08190476190476191
+
+++++++++++++++++++++++++++++++++
+calculate Topic Control -  TL quintile
+qt_thrs:  8.987117365443202 7.826970080067426 6.693452652725778 5.515396379063687 7.246073961499493 1.5859953519484644
+The quintile score of Unit Nyn is: 5 --- actual score: 9.491803278688524
+The quintile score Belladonna Kamala is: 4 --- actual score: 8.230088495575222
+The quintile score dav Darkfold is: 3 --- actual score: 7.726190476190476
+The quintile score Schrix Gothly is: 3 --- actual score: 6.76595744680851
+The quintile score Carrie McAndrews is: 2 --- actual score: 6.4034334763948495
+The quintile score Macie Thirdborn is: 1 --- actual score: 4.923371647509579
+++++++++++++++++++++++++++++++++
+calculate Merged quintile
+qt_thrs:  0.1996789590239844 0.1846435301154904 0.1592169731797513 0.12650268518056781 0.1751053687494848 0.033358895741057396
+The quintile score of dav Darkfold is: 5 --- actual score: 0.20811005678980538
+The quintile score Belladonna Kamala is: 4 --- actual score: 0.18703231237525292
+The quintile score Carrie McAndrews is: 3 --- actual score: 0.18404633455054978
+The quintile score Schrix Gothly is: 3 --- actual score: 0.16616440294841983
+The quintile score Macie Thirdborn is: 2 --- actual score: 0.1314272541050773
+The quintile score Unit Nyn is: 1 --- actual score: 0.12321963923089484
