@@ -55,10 +55,10 @@ public class topic_control {
 
        // for(int i = 0; i < annotators.length; i++){
 
-        String human_annotation = "D:/m2w cs/evaluation-m2w/src/input_files/topic_control_6_lauren_annotated_ymca_training_cheney";
-        String auto_annotation = "D:/m2w cs/evaluation-m2w/src/input_files/topic_control_6_automated_ymca_training_cheney_1";
+        String human_annotation = "D:/m2w cs/evaluation-m2w/src/input_files/Assertion_output";
+        String auto_annotation = "D:/m2w cs/evaluation-m2w/src/input_files/system_tpc";
 
-        String evaluation_file = "D:/m2w cs/evaluation-m2w/src/output_files/topic_control_6_1_result_me";
+        String evaluation_file = "D:/m2w cs/evaluation-m2w/src/output_files/reynard_sessions(2)tpc_LTI_result_me";
 
             try { //extract names/topics
                 BufferedReader br = new BufferedReader(new FileReader(human_annotation));
