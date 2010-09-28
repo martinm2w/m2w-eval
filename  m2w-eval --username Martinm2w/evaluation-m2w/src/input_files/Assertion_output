@@ -2,7 +2,7 @@
 
 ++++++++++++++++++++++++++++++++
 
-processing session (1): 
+processing lti session (1): 
 qt_thrs:  0.13139013459999999 0.0964125562 0.084304933 0.059192825 0.089686099 0.03113283406854727
 The quintile score nalani sorrowsong is: 3 --- actual score: 0.089686099
 The quintile score charlee rae is: 4 --- actual score: 0.100896861
@@ -13,7 +13,7 @@ The quintile score soto ling is: 2 --- actual score: 0.080717489
 
 ++++++++++++++++++++++++++++++++
 
-processing session (2): 
+processing lti session (2): 
 qt_thrs:  0.276223776 0.213286713 0.113636364 0.094405594 0.1634615385 0.08557955692951037
 The quintile score jean restless is: 3 --- actual score: 0.213286713
 The quintile score eversky aeon is: 4 --- actual score: 0.276223776
@@ -23,7 +23,7 @@ The quintile score luvi unplugged is: 1 --- actual score: 0.094405594
 
 ++++++++++++++++++++++++++++++++
 
-processing session (7): 
+processing lti session (7): 
 qt_thrs:  0.19391999999999998 0.15744 0.13344 0.11424000000000001 0.1488 0.03535601787532074
 The quintile score solomon flux is: 3 --- actual score: 0.1488
 The quintile score torry baar is: 4 --- actual score: 0.1632
@@ -34,7 +34,7 @@ The quintile score of burnsand allen is: 5 --- actual score: 0.2016
 
 ++++++++++++++++++++++++++++++++
 
-processing session (8): 
+processing lti session (8): 
 qt_thrs:  0.19596638639999997 0.1502521004 0.13512605 0.0833613448 0.146218487 0.04844885797992923
 The quintile score jameson despres is: 3 --- actual score: 0.146218487
 The quintile score of lale pico is: 5 --- actual score: 0.206722689
@@ -45,7 +45,7 @@ The quintile score softpaw sommer is: 2 --- actual score: 0.127731092
 
 ++++++++++++++++++++++++++++++++
 
-processing session (9): 
+processing lti session (9): 
 qt_thrs:  0.20702702699999997 0.12486486499999999 0.0745945946 0.038918918999999996 0.121621622 0.07709574935018827
 The quintile score catseye fride is: 1 --- actual score: 0.037837838
 The quintile score of lei amaranth is: 5 --- actual score: 0.227027027
@@ -56,7 +56,7 @@ The quintile score toxic menges is: 3 --- actual score: 0.121621622
 
 ++++++++++++++++++++++++++++++++
 
-processing session (10): 
+processing lti session (10): 
 qt_thrs:  0.1731843576 0.1620111732 0.1184357544 0.06331471159999999 0.156424581 0.052101607373585865
 The quintile score fookinrockstar gearhead is: 2 --- actual score: 0.09310987
 The quintile score earthairfire windlow is: 1 --- actual score: 0.055865922
@@ -67,7 +67,7 @@ The quintile score harp solo is: 3 --- actual score: 0.156424581
 
 ++++++++++++++++++++++++++++++++
 
-processing session (11): 
+processing lti session (11): 
 qt_thrs:  0.188191882 0.129151292 0.110701107 0.103321033 0.1199261995 0.03846616433787005
 The quintile score fallon ethaniel is: 1 --- actual score: 0.103321033
 The quintile score raindance broadfoot is: 3 --- actual score: 0.129151292
@@ -77,7 +77,7 @@ The quintile score skye morales is: 2 --- actual score: 0.110701107
 
 ++++++++++++++++++++++++++++++++
 
-processing session (12): 
+processing lti session (12): 
 qt_thrs:  0.22167832159999998 0.12331002320000001 0.051282051399999994 0.0312354312 0.0844988345 0.09021134617968482
 The quintile score artimus drake is: 1 --- actual score: 0.03030303
 The quintile score of ice brodie is: 5 --- actual score: 0.25990676
@@ -89,7 +89,7 @@ The quintile score scott1 yedmore is: 3 --- actual score: 0.113053613
 
 ++++++++++++++++++++++++++++++++
 
-processing session (13): 
+processing lti session (13): 
 qt_thrs:  0.2708423328 0.1041036716 0.061339092799999995 0.03887689 0.095032397 0.11220712928124406
 The quintile score jezebel marlin is: 4 --- actual score: 0.110151188
 The quintile score cane corryong is: 3 --- actual score: 0.095032397
@@ -100,7 +100,7 @@ The quintile score of trevor darkmatter is: 5 --- actual score: 0.311015119
 
 ++++++++++++++++++++++++++++++++
 
-processing session (14): 
+processing lti session (14): 
 qt_thrs:  0.226950355 0.221040189 0.171394799 0.139479905 0.196217494 0.04174100164632611
 The quintile score shanna karsin is: 2 --- actual score: 0.171394799
 The quintile score frankie xaron is: 3 --- actual score: 0.221040189
@@ -110,7 +110,7 @@ The quintile score carlito teardrop is: 4 --- actual score: 0.226950355
 
 ++++++++++++++++++++++++++++++++
 
-processing session (15): 
+processing lti session (15): 
 qt_thrs:  0.26313932959999997 0.14038800680000002 0.0895943564 0.0670194 0.102292769 0.09104356410811253
 The quintile score lisaine raymaker is: 4 --- actual score: 0.165784832
 The quintile score brianna vintner is: 1 --- actual score: 0.063492063
@@ -121,7 +121,7 @@ The quintile score pamela bashir is: 2 --- actual score: 0.081128748
 
 ++++++++++++++++++++++++++++++++
 
-processing session (16): 
+processing lti session (16): 
 qt_thrs:  0.204290429 0.1574257426 0.113861386 0.043234323199999994 0.138613861 0.0701135678504201
 The quintile score of tyisha destiny is: 5 --- actual score: 0.212871287
 The quintile score christopherj spore is: 4 --- actual score: 0.169966997
@@ -132,7 +132,7 @@ The quintile score kitaro foxtrot is: 3 --- actual score: 0.138613861
 
 ++++++++++++++++++++++++++++++++
 
-processing session (17): 
+processing lti session (17): 
 qt_thrs:  0.227176221 0.2169851382 0.1898089174 0.159235669 0.210191083 0.035357384270840196
 The quintile score chandler olinger is: 1 --- actual score: 0.159235669
 The quintile score fatbottomedgirl barbosa is: 3 --- actual score: 0.210191083
@@ -141,7 +141,7 @@ The quintile score lyrlyn wrydan is: 4 --- actual score: 0.227176221
 
 ++++++++++++++++++++++++++++++++
 
-processing session (19): 
+processing lti session (19): 
 qt_thrs:  0.22009569359999998 0.1397129188 0.0736842106 0.0181818178 0.090909091 0.08937576205836983
 The quintile score madamedivachocolate richez is: 2 --- actual score: 0.062200957
 The quintile score taby oh is: 3 --- actual score: 0.090909091
@@ -152,7 +152,7 @@ The quintile score savanna miles is: 1 --- actual score: 0.007177033
 
 ++++++++++++++++++++++++++++++++
 
-processing session (20): 
+processing lti session (20): 
 qt_thrs:  0.218991098 0.1673590504 0.1415430268 0.025222551999999992 0.164688427 0.0860239896424536
 The quintile score of digital haiku is: 5 --- actual score: 0.231454006
 The quintile score vesper requiem is: 2 --- actual score: 0.12611276
@@ -163,7 +163,7 @@ The quintile score conchobar direwytch is: 3 --- actual score: 0.164688427
 
 ++++++++++++++++++++++++++++++++
 
-processing session (21): 
+processing lti session (21): 
 qt_thrs:  0.17153558059999996 0.088389513 0.08426966279999999 0.06779026219999999 0.086142322 0.05810677664744849
 The quintile score chocolatesplitz topaz is: 3 --- actual score: 0.086142322
 The quintile score buffy ubble is: 3 --- actual score: 0.086142322
@@ -175,7 +175,7 @@ The quintile score cherry kirktown is: 2 --- actual score: 0.076779026
 
 ++++++++++++++++++++++++++++++++
 
-processing session (23): 
+processing lti session (23): 
 qt_thrs:  0.282149712 0.166986564 0.07293666 0.071017274 0.119961612 0.09986187597058697
 The quintile score luluk zenovka is: 2 --- actual score: 0.07293666
 The quintile score shiva draconia is: 3 --- actual score: 0.166986564
@@ -185,7 +185,7 @@ The quintile score natasiaa nightfire is: 4 --- actual score: 0.282149712
 
 ++++++++++++++++++++++++++++++++
 
-processing session (24): 
+processing lti session (24): 
 qt_thrs:  0.234079174 0.2309810674 0.2234079174 0.215146299 0.228915663 0.009786989548862314
 The quintile score valaveria landar is: 3 --- actual score: 0.228915663
 The quintile score rhiamon nitely is: 1 --- actual score: 0.215146299
@@ -194,7 +194,7 @@ The quintile score maxx abonwood is: 4 --- actual score: 0.234079174
 
 ++++++++++++++++++++++++++++++++
 
-processing session (25): 
+processing lti session (25): 
 qt_thrs:  0.188976378 0.17519685 0.169291339 0.080708661 0.1722440945 0.04925195297231786
 The quintile score danny dwyer is: 4 --- actual score: 0.188976378
 The quintile score aviano gearz is: 3 --- actual score: 0.17519685
@@ -204,7 +204,7 @@ The quintile score yakumo fujin is: 2 --- actual score: 0.169291339
 
 ++++++++++++++++++++++++++++++++
 
-processing session (28): 
+processing lti session (28): 
 qt_thrs:  0.205944798 0.2021231424 0.1800424632 0.1507431 0.199575372 0.030200407939669365
 The quintile score emmeline pankhurst is: 3 --- actual score: 0.199575372
 The quintile score cheli sands is: 4 --- actual score: 0.205944798
@@ -213,7 +213,7 @@ The quintile score marissa beres is: 1 --- actual score: 0.1507431
 
 ++++++++++++++++++++++++++++++++
 
-processing session (29): 
+processing lti session (29): 
 qt_thrs:  0.28959276 0.20678733 0.14162895920000002 0.126696833 0.15158371 0.087750534245197
 The quintile score reaper2666 wobbit is: 1 --- actual score: 0.126696833
 The quintile score vascone zapatero is: 3 --- actual score: 0.15158371
@@ -222,7 +222,7 @@ The quintile score yuki quan is: 4 --- actual score: 0.28959276
 
 ++++++++++++++++++++++++++++++++
 
-processing session (30): 
+processing lti session (30): 
 qt_thrs:  0.184090909 0.136363636 0.129545455 0.086363636 0.13295454550000002 0.04001549295001947
 The quintile score james kesslinger is: 1 --- actual score: 0.086363636
 The quintile score mccarty boomhauer is: 2 --- actual score: 0.129545455
@@ -232,7 +232,7 @@ The quintile score cybersleuth nakamura is: 3 --- actual score: 0.136363636
 
 ++++++++++++++++++++++++++++++++
 
-processing session (35): 
+processing lti session (35): 
 qt_thrs:  0.299632353 0.21911764679999998 0.1595588232 0.150735294 0.165441176 0.08205066435734767
 The quintile score ky tsuki is: 4 --- actual score: 0.299632353
 The quintile score seamus monigal is: 1 --- actual score: 0.150735294
@@ -241,7 +241,7 @@ The quintile score fyrebug ectonite is: 3 --- actual score: 0.165441176
 
 ++++++++++++++++++++++++++++++++
 
-processing session (36): 
+processing lti lti session (36): 
 qt_thrs:  0.19758551279999997 0.1549295776 0.09094567419999999 0.032997988199999995 0.136820926 0.07435689820573031
 The quintile score helder skytower is: 1 --- actual score: 0.026156942
 The quintile score fox moonites is: 2 --- actual score: 0.060362173
@@ -252,7 +252,7 @@ The quintile score of alaria kamala is: 5 --- actual score: 0.205231388
 
 ++++++++++++++++++++++++++++++++
 
-processing session (39): 
+processing lti lti session (39): 
 qt_thrs:  0.251711027 0.17870722420000001 0.1650190114 0.0844106462 0.16730038 0.07251300509578718
 The quintile score daarc dagger is: 1 --- actual score: 0.064638783
 The quintile score dulcie mills is: 4 --- actual score: 0.186311787
@@ -263,7 +263,7 @@ The quintile score ceradestiny wilder is: 2 --- actual score: 0.163498099
 
 ++++++++++++++++++++++++++++++++
 
-processing session (41): 
+processing lti session (41): 
 qt_thrs:  0.23309957939999998 0.1814866758 0.11584852739999998 0.0530154278 0.16970547 0.08117697691244233
 The quintile score of treto priestly is: 5 --- actual score: 0.244039271
 The quintile score elilka sieyes is: 2 --- actual score: 0.079943899
@@ -274,7 +274,7 @@ The quintile score stokley constantine is: 3 --- actual score: 0.16970547
 
 ++++++++++++++++++++++++++++++++
 
-processing session (43): 
+processing lti session (43): 
 qt_thrs:  0.14271844639999998 0.0990291264 0.08737864079999999 0.061165048799999996 0.094660194 0.0355646716527926
 The quintile score of jamesy souther is: 5 --- actual score: 0.152912621
 The quintile score iolanthe akros is: 1 --- actual score: 0.055825243
@@ -285,7 +285,7 @@ The quintile score dante baudin is: 3 --- actual score: 0.094660194
 
 ++++++++++++++++++++++++++++++++
 
-processing session (44): 
+processing lti session (44): 
 qt_thrs:  0.1924398628 0.1718213056 0.1316151202 0.09106529220000001 0.161512027 0.046321698385393614
 The quintile score wencheeepookie bigboots is: 4 --- actual score: 0.178694158
 The quintile score bosskwar winterwolf is: 1 --- actual score: 0.085910653
@@ -296,7 +296,7 @@ The quintile score rebecca rhiannyr is: 3 --- actual score: 0.161512027
 
 ++++++++++++++++++++++++++++++++
 
-processing session (45): 
+processing lti session (45): 
 qt_thrs:  0.19843342 0.161879896 0.091383812 0.028720627 0.126631854 0.07540224042423338
 The quintile score wolfblade faith is: 1 --- actual score: 0.028720627
 The quintile score bongo ragu is: 3 --- actual score: 0.161879896
@@ -306,7 +306,7 @@ The quintile score michael takakura is: 4 --- actual score: 0.19843342
 
 ++++++++++++++++++++++++++++++++
 
-processing session (46): 
+processing lti session (46): 
 qt_thrs:  0.315049226 0.194092827 0.11533052 0.101265823 0.1547116735 0.09799639651576572
 The quintile score flux blackheart is: 4 --- actual score: 0.315049226
 The quintile score angelos nemeth is: 3 --- actual score: 0.194092827
@@ -316,7 +316,7 @@ The quintile score vince kamenev is: 2 --- actual score: 0.11533052
 
 ++++++++++++++++++++++++++++++++
 
-processing session (48): 
+processing lti session (48): 
 qt_thrs:  0.207792208 0.183673469 0.139146568 0.100185529 0.1614100185 0.047735362874773535
 The quintile score silencedogood lyvingstone is: 4 --- actual score: 0.207792208
 The quintile score nnod silvercloud is: 2 --- actual score: 0.139146568
@@ -326,7 +326,7 @@ The quintile score katie tuque is: 1 --- actual score: 0.100185529
 
 ++++++++++++++++++++++++++++++++
 
-processing session (50): 
+processing lti session (50): 
 qt_thrs:  0.214285714 0.187830688 0.181216931 0.157407407 0.1845238095 0.023389395493318827
 The quintile score dav darkfold is: 3 --- actual score: 0.187830688
 The quintile score macie thirdborn is: 1 --- actual score: 0.157407407

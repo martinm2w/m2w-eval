@@ -5,7 +5,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 /**
- * 
+ * this method is
+ * known as the SCIL evaluation method
  * @author m2w
  *
  */
