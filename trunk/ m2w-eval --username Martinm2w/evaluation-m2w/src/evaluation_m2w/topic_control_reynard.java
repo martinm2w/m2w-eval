@@ -57,10 +57,10 @@ public class topic_control_reynard {
 
        // for(int i = 0; i < annotators.length; i++){
 
-        String human_annotation = "D:/m2w cs/evaluation-m2w/src/input_files/reynard_human_rank_lti";
-        String auto_annotation = "D:/m2w cs/evaluation-m2w/src/input_files/reynard_lti_rank";
+        String human_annotation = "D:/m2w cs/evaluation-m2w/src/input_files/reynard_human_rank_merged";
+        String auto_annotation = "D:/m2w cs/evaluation-m2w/src/input_files/reynard_merged_rank";
 
-        String evaluation_file = "D:/m2w cs/evaluation-m2w/src/output_files/reynard_lti_rank_result_SCIL";
+        String evaluation_file = "D:/m2w cs/evaluation-m2w/src/output_files/reynard_merged_rank_result_SCIL";
 
             try { //extract names/topics
                 BufferedReader br = new BufferedReader(new FileReader(human_annotation));
@@ -245,8 +245,8 @@ public class topic_control_reynard {
                        }
                    }
 
-//                   extract_info_auto_merged(evaluation_file, file, auto_annotation, curtopic, isnew);
-                   extract_info_auto_lti(evaluation_file, file, auto_annotation, curtopic, isnew);
+                   extract_info_auto_merged(evaluation_file, file, auto_annotation, curtopic, isnew);
+//                   extract_info_auto_lti(evaluation_file, file, auto_annotation, curtopic, isnew);
                    
                    isnew=false;
 
