@@ -1,0 +1,511 @@
+---------------- Topic Control Evaluation --------------------- 
+session: (1)
+--------------------------------------------------------------- 
+-----------------------------merged---------------------------- 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+decatur randall < nalani sorrowsong		decatur randall < nalani sorrowsong
+decatur randall < charlee rae		decatur randall < charlee rae
+decatur randall < dark lichlore		decatur randall < dark lichlore
+decatur randall < soto ling		decatur randall < soto ling
+nalani sorrowsong < charlee rae		nalani sorrowsong < charlee rae
+nalani sorrowsong < dark lichlore		nalani sorrowsong < dark lichlore
+nalani sorrowsong = soto ling		nalani sorrowsong > soto ling
+charlee rae < dark lichlore		charlee rae < dark lichlore
+charlee rae > soto ling		charlee rae > soto ling
+dark lichlore > soto ling		dark lichlore > soto ling
+::Equalcount		Totalcount		Accuracy
+::9		10		0.9
+---------------- Topic Control Evaluation --------------------- 
+session: (2)
+--------------------------------------------------------------- 
+-----------------------------merged---------------------------- 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+luvi unplugged < jean restless		luvi unplugged < jean restless
+luvi unplugged < gumby roffo		luvi unplugged < gumby roffo
+luvi unplugged < eversky aeon		luvi unplugged < eversky aeon
+jean restless > gumby roffo		jean restless > gumby roffo
+jean restless > eversky aeon		jean restless < eversky aeon
+gumby roffo < eversky aeon		gumby roffo < eversky aeon
+::Equalcount		Totalcount		Accuracy
+::5		6		0.8333333333333334
+---------------- Topic Control Evaluation --------------------- 
+session: (7)
+--------------------------------------------------------------- 
+-----------------------------merged---------------------------- 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+burnsand allen > torry baar		burnsand allen > torry baar
+burnsand allen < solomon flux		burnsand allen > solomon flux
+burnsand allen > javana kohime		burnsand allen > javana kohime
+burnsand allen < verlia bilavio		burnsand allen > verlia bilavio
+torry baar < solomon flux		torry baar > solomon flux
+torry baar = javana kohime		torry baar > javana kohime
+torry baar < verlia bilavio		torry baar > verlia bilavio
+solomon flux > javana kohime		solomon flux > javana kohime
+solomon flux = verlia bilavio		solomon flux > verlia bilavio
+javana kohime < verlia bilavio		javana kohime > verlia bilavio
+::Equalcount		Totalcount		Accuracy
+::3		10		0.3
+---------------- Topic Control Evaluation --------------------- 
+session: (8)
+--------------------------------------------------------------- 
+-----------------------------merged---------------------------- 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+josi nebestanka < lale pico		josi nebestanka < lale pico
+josi nebestanka < jameson despres		josi nebestanka < jameson despres
+josi nebestanka < softpaw sommer		josi nebestanka < softpaw sommer
+josi nebestanka < quentin foulsbane		josi nebestanka < quentin foulsbane
+lale pico = jameson despres		lale pico > jameson despres
+lale pico > softpaw sommer		lale pico > softpaw sommer
+lale pico > quentin foulsbane		lale pico > quentin foulsbane
+jameson despres > softpaw sommer		jameson despres > softpaw sommer
+jameson despres > quentin foulsbane		jameson despres < quentin foulsbane
+softpaw sommer = quentin foulsbane		softpaw sommer < quentin foulsbane
+::Equalcount		Totalcount		Accuracy
+::7		10		0.7
+---------------- Topic Control Evaluation --------------------- 
+session: (9)
+--------------------------------------------------------------- 
+-----------------------------merged---------------------------- 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+brunnhilda quonset > catseye fride		brunnhilda quonset > catseye fride
+brunnhilda quonset > toxic menges		brunnhilda quonset > toxic menges
+brunnhilda quonset < lei amaranth		brunnhilda quonset < lei amaranth
+brunnhilda quonset > jake911 kenyon		brunnhilda quonset > jake911 kenyon
+catseye fride < toxic menges		catseye fride < toxic menges
+catseye fride < lei amaranth		catseye fride < lei amaranth
+catseye fride < jake911 kenyon		catseye fride < jake911 kenyon
+toxic menges < lei amaranth		toxic menges < lei amaranth
+toxic menges = jake911 kenyon		toxic menges > jake911 kenyon
+lei amaranth > jake911 kenyon		lei amaranth > jake911 kenyon
+::Equalcount		Totalcount		Accuracy
+::9		10		0.9
+---------------- Topic Control Evaluation --------------------- 
+session: (10)
+--------------------------------------------------------------- 
+-----------------------------merged---------------------------- 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+bruce schmetterling > fookinrockstar gearhead		bruce schmetterling > fookinrockstar gearhead
+bruce schmetterling < s1rux forsythe		bruce schmetterling < s1rux forsythe
+bruce schmetterling > earthairfire windlow		bruce schmetterling > earthairfire windlow
+bruce schmetterling < harp solo		bruce schmetterling > harp solo
+fookinrockstar gearhead < s1rux forsythe		fookinrockstar gearhead < s1rux forsythe
+fookinrockstar gearhead > earthairfire windlow		fookinrockstar gearhead > earthairfire windlow
+fookinrockstar gearhead < harp solo		fookinrockstar gearhead < harp solo
+s1rux forsythe > earthairfire windlow		s1rux forsythe > earthairfire windlow
+s1rux forsythe = harp solo		s1rux forsythe > harp solo
+earthairfire windlow < harp solo		earthairfire windlow < harp solo
+::Equalcount		Totalcount		Accuracy
+::8		10		0.8
+---------------- Topic Control Evaluation --------------------- 
+session: (11)
+--------------------------------------------------------------- 
+-----------------------------merged---------------------------- 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+raindance broadfoot < fallon ethaniel		raindance broadfoot > fallon ethaniel
+raindance broadfoot < skye morales		raindance broadfoot > skye morales
+raindance broadfoot < frew lovenkraft		raindance broadfoot < frew lovenkraft
+fallon ethaniel < skye morales		fallon ethaniel < skye morales
+fallon ethaniel < frew lovenkraft		fallon ethaniel < frew lovenkraft
+skye morales = frew lovenkraft		skye morales < frew lovenkraft
+::Equalcount		Totalcount		Accuracy
+::3		6		0.5
+---------------- Topic Control Evaluation --------------------- 
+session: (12)
+--------------------------------------------------------------- 
+-----------------------------merged---------------------------- 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+ice brodie > liam bean		ice brodie > liam bean
+ice brodie = jamaris pawpaw		ice brodie > jamaris pawpaw
+ice brodie > black fromund		ice brodie > black fromund
+ice brodie > artimus drake		ice brodie > artimus drake
+ice brodie > scott1 yedmore		ice brodie > scott1 yedmore
+liam bean < jamaris pawpaw		liam bean < jamaris pawpaw
+liam bean < black fromund		liam bean < black fromund
+liam bean < artimus drake		liam bean > artimus drake
+liam bean < scott1 yedmore		liam bean < scott1 yedmore
+jamaris pawpaw > black fromund		jamaris pawpaw > black fromund
+jamaris pawpaw > artimus drake		jamaris pawpaw > artimus drake
+jamaris pawpaw > scott1 yedmore		jamaris pawpaw > scott1 yedmore
+black fromund = artimus drake		black fromund > artimus drake
+black fromund < scott1 yedmore		black fromund = scott1 yedmore
+artimus drake < scott1 yedmore		artimus drake < scott1 yedmore
+::Equalcount		Totalcount		Accuracy
+::11		15		0.7333333333333333
+---------------- Topic Control Evaluation --------------------- 
+session: (13)
+--------------------------------------------------------------- 
+-----------------------------merged---------------------------- 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+winterspell runo < cane corryong		winterspell runo < cane corryong
+winterspell runo < jezebel marlin		winterspell runo < jezebel marlin
+winterspell runo < natalia leonoase		winterspell runo = natalia leonoase
+winterspell runo < trevor darkmatter		winterspell runo < trevor darkmatter
+cane corryong < jezebel marlin		cane corryong < jezebel marlin
+cane corryong = natalia leonoase		cane corryong > natalia leonoase
+cane corryong < trevor darkmatter		cane corryong < trevor darkmatter
+jezebel marlin > natalia leonoase		jezebel marlin > natalia leonoase
+jezebel marlin < trevor darkmatter		jezebel marlin < trevor darkmatter
+natalia leonoase < trevor darkmatter		natalia leonoase < trevor darkmatter
+::Equalcount		Totalcount		Accuracy
+::8		10		0.8
+---------------- Topic Control Evaluation --------------------- 
+session: (14)
+--------------------------------------------------------------- 
+-----------------------------merged---------------------------- 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+frankie xaron > kram2593 footman		frankie xaron > kram2593 footman
+frankie xaron > carlito teardrop		frankie xaron < carlito teardrop
+frankie xaron > shanna karsin		frankie xaron > shanna karsin
+kram2593 footman < carlito teardrop		kram2593 footman < carlito teardrop
+kram2593 footman > shanna karsin		kram2593 footman < shanna karsin
+carlito teardrop > shanna karsin		carlito teardrop > shanna karsin
+::Equalcount		Totalcount		Accuracy
+::4		6		0.6666666666666666
+---------------- Topic Control Evaluation --------------------- 
+session: (15)
+--------------------------------------------------------------- 
+-----------------------------merged---------------------------- 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+brianna vintner = raylyn adamski		brianna vintner < raylyn adamski
+brianna vintner > pamela bashir		brianna vintner < pamela bashir
+brianna vintner < pinko koenkamp		brianna vintner < pinko koenkamp
+brianna vintner < lisaine raymaker		brianna vintner < lisaine raymaker
+raylyn adamski > pamela bashir		raylyn adamski > pamela bashir
+raylyn adamski < pinko koenkamp		raylyn adamski < pinko koenkamp
+raylyn adamski < lisaine raymaker		raylyn adamski < lisaine raymaker
+pamela bashir < pinko koenkamp		pamela bashir < pinko koenkamp
+pamela bashir < lisaine raymaker		pamela bashir < lisaine raymaker
+pinko koenkamp > lisaine raymaker		pinko koenkamp > lisaine raymaker
+::Equalcount		Totalcount		Accuracy
+::8		10		0.8
+---------------- Topic Control Evaluation --------------------- 
+session: (16)
+--------------------------------------------------------------- 
+-----------------------------merged---------------------------- 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+dominic engel < tyisha destiny		dominic engel < tyisha destiny
+dominic engel < christopherj spore		dominic engel < christopherj spore
+dominic engel = kitaro foxtrot		dominic engel < kitaro foxtrot
+dominic engel > thom serenity		dominic engel > thom serenity
+tyisha destiny > christopherj spore		tyisha destiny > christopherj spore
+tyisha destiny > kitaro foxtrot		tyisha destiny > kitaro foxtrot
+tyisha destiny > thom serenity		tyisha destiny > thom serenity
+christopherj spore > kitaro foxtrot		christopherj spore > kitaro foxtrot
+christopherj spore > thom serenity		christopherj spore > thom serenity
+kitaro foxtrot > thom serenity		kitaro foxtrot > thom serenity
+::Equalcount		Totalcount		Accuracy
+::9		10		0.9
+---------------- Topic Control Evaluation --------------------- 
+session: (17)
+--------------------------------------------------------------- 
+-----------------------------merged---------------------------- 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+fatbottomedgirl barbosa < lyrlyn wrydan		fatbottomedgirl barbosa < lyrlyn wrydan
+fatbottomedgirl barbosa > chandler olinger		fatbottomedgirl barbosa > chandler olinger
+lyrlyn wrydan > chandler olinger		lyrlyn wrydan > chandler olinger
+::Equalcount		Totalcount		Accuracy
+::3		3		1.0
+---------------- Topic Control Evaluation --------------------- 
+session: (19)
+--------------------------------------------------------------- 
+-----------------------------merged---------------------------- 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+savanna miles < jupiter firelyte		savanna miles < jupiter firelyte
+savanna miles < madamedivachocolate richez		savanna miles < madamedivachocolate richez
+savanna miles < dahlea milena		savanna miles < dahlea milena
+savanna miles < taby oh		savanna miles < taby oh
+jupiter firelyte > madamedivachocolate richez		jupiter firelyte > madamedivachocolate richez
+jupiter firelyte > dahlea milena		jupiter firelyte < dahlea milena
+jupiter firelyte > taby oh		jupiter firelyte > taby oh
+madamedivachocolate richez < dahlea milena		madamedivachocolate richez < dahlea milena
+madamedivachocolate richez = taby oh		madamedivachocolate richez < taby oh
+dahlea milena > taby oh		dahlea milena > taby oh
+::Equalcount		Totalcount		Accuracy
+::8		10		0.8
+---------------- Topic Control Evaluation --------------------- 
+session: (20)
+--------------------------------------------------------------- 
+-----------------------------merged---------------------------- 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+digital haiku = missmissy moonbeam		digital haiku > missmissy moonbeam
+digital haiku > conchobar direwytch		digital haiku > conchobar direwytch
+digital haiku > vesper requiem		digital haiku > vesper requiem
+digital haiku > fox moonites		digital haiku > fox moonites
+missmissy moonbeam > conchobar direwytch		missmissy moonbeam > conchobar direwytch
+missmissy moonbeam > vesper requiem		missmissy moonbeam > vesper requiem
+missmissy moonbeam > fox moonites		missmissy moonbeam > fox moonites
+conchobar direwytch > vesper requiem		conchobar direwytch > vesper requiem
+conchobar direwytch > fox moonites		conchobar direwytch > fox moonites
+vesper requiem > fox moonites		vesper requiem > fox moonites
+::Equalcount		Totalcount		Accuracy
+::9		10		0.9
+---------------- Topic Control Evaluation --------------------- 
+session: (21)
+--------------------------------------------------------------- 
+-----------------------------merged---------------------------- 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+titanna charron > cherry kirktown		titanna charron > cherry kirktown
+titanna charron > carrotcake sweetwater		titanna charron > carrotcake sweetwater
+titanna charron > kittii jinx		titanna charron > kittii jinx
+titanna charron > buffy ubble		titanna charron > buffy ubble
+titanna charron > chocolatesplitz topaz		titanna charron > chocolatesplitz topaz
+cherry kirktown > carrotcake sweetwater		cherry kirktown > carrotcake sweetwater
+cherry kirktown < kittii jinx		cherry kirktown < kittii jinx
+cherry kirktown < buffy ubble		cherry kirktown < buffy ubble
+cherry kirktown = chocolatesplitz topaz		cherry kirktown < chocolatesplitz topaz
+carrotcake sweetwater < kittii jinx		carrotcake sweetwater < kittii jinx
+carrotcake sweetwater < buffy ubble		carrotcake sweetwater < buffy ubble
+carrotcake sweetwater < chocolatesplitz topaz		carrotcake sweetwater < chocolatesplitz topaz
+kittii jinx = buffy ubble		kittii jinx > buffy ubble
+kittii jinx > chocolatesplitz topaz		kittii jinx > chocolatesplitz topaz
+buffy ubble > chocolatesplitz topaz		buffy ubble = chocolatesplitz topaz
+::Equalcount		Totalcount		Accuracy
+::12		15		0.8
+---------------- Topic Control Evaluation --------------------- 
+session: (23)
+--------------------------------------------------------------- 
+-----------------------------merged---------------------------- 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+natasiaa nightfire > melly winslet		natasiaa nightfire > melly winslet
+natasiaa nightfire > luluk zenovka		natasiaa nightfire > luluk zenovka
+natasiaa nightfire > shiva draconia		natasiaa nightfire > shiva draconia
+melly winslet < luluk zenovka		melly winslet < luluk zenovka
+melly winslet < shiva draconia		melly winslet < shiva draconia
+luluk zenovka < shiva draconia		luluk zenovka < shiva draconia
+::Equalcount		Totalcount		Accuracy
+::6		6		1.0
+---------------- Topic Control Evaluation --------------------- 
+session: (24)
+--------------------------------------------------------------- 
+-----------------------------merged---------------------------- 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+rhiamon nitely < valaveria landar		rhiamon nitely < valaveria landar
+rhiamon nitely < maxx abonwood		rhiamon nitely < maxx abonwood
+valaveria landar > maxx abonwood		valaveria landar < maxx abonwood
+::Equalcount		Totalcount		Accuracy
+::2		3		0.6666666666666666
+---------------- Topic Control Evaluation --------------------- 
+session: (25)
+--------------------------------------------------------------- 
+-----------------------------merged---------------------------- 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+yakumo fujin > tig tolwen		yakumo fujin > tig tolwen
+yakumo fujin > aviano gearz		yakumo fujin < aviano gearz
+yakumo fujin > danny dwyer		yakumo fujin < danny dwyer
+tig tolwen < aviano gearz		tig tolwen < aviano gearz
+tig tolwen < danny dwyer		tig tolwen < danny dwyer
+aviano gearz < danny dwyer		aviano gearz < danny dwyer
+::Equalcount		Totalcount		Accuracy
+::4		6		0.6666666666666666
+---------------- Topic Control Evaluation --------------------- 
+session: (28)
+--------------------------------------------------------------- 
+-----------------------------merged---------------------------- 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+emmeline pankhurst > cheli sands		emmeline pankhurst < cheli sands
+emmeline pankhurst > marissa beres		emmeline pankhurst > marissa beres
+cheli sands > marissa beres		cheli sands > marissa beres
+::Equalcount		Totalcount		Accuracy
+::2		3		0.6666666666666666
+---------------- Topic Control Evaluation --------------------- 
+session: (29)
+--------------------------------------------------------------- 
+-----------------------------merged---------------------------- 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+vascone zapatero > reaper2666 wobbit		vascone zapatero > reaper2666 wobbit
+vascone zapatero < yuki quan		vascone zapatero < yuki quan
+reaper2666 wobbit < yuki quan		reaper2666 wobbit < yuki quan
+::Equalcount		Totalcount		Accuracy
+::3		3		1.0
+---------------- Topic Control Evaluation --------------------- 
+session: (30)
+--------------------------------------------------------------- 
+-----------------------------merged---------------------------- 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+mccarty boomhauer > cybersleuth nakamura		mccarty boomhauer < cybersleuth nakamura
+mccarty boomhauer < doubledown tandino		mccarty boomhauer < doubledown tandino
+mccarty boomhauer > james kesslinger		mccarty boomhauer > james kesslinger
+cybersleuth nakamura < doubledown tandino		cybersleuth nakamura < doubledown tandino
+cybersleuth nakamura > james kesslinger		cybersleuth nakamura > james kesslinger
+doubledown tandino > james kesslinger		doubledown tandino > james kesslinger
+::Equalcount		Totalcount		Accuracy
+::5		6		0.8333333333333334
+---------------- Topic Control Evaluation --------------------- 
+session: (35)
+--------------------------------------------------------------- 
+-----------------------------merged---------------------------- 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+fyrebug ectonite > seamus monigal		fyrebug ectonite > seamus monigal
+fyrebug ectonite < ky tsuki		fyrebug ectonite < ky tsuki
+seamus monigal < ky tsuki		seamus monigal < ky tsuki
+::Equalcount		Totalcount		Accuracy
+::3		3		1.0
+---------------- Topic Control Evaluation --------------------- 
+session: session
+--------------------------------------------------------------- 
+-----------------------------merged---------------------------- 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+alaria kamala > helder skytower		alaria kamala > helder skytower
+alaria kamala > whisper dallagio		alaria kamala > whisper dallagio
+alaria kamala = angel slocombe		alaria kamala > angel slocombe
+alaria kamala > fox moonites		alaria kamala > fox moonites
+helder skytower < whisper dallagio		helder skytower < whisper dallagio
+helder skytower < angel slocombe		helder skytower < angel slocombe
+helder skytower < fox moonites		helder skytower < fox moonites
+whisper dallagio < angel slocombe		whisper dallagio < angel slocombe
+whisper dallagio > fox moonites		whisper dallagio > fox moonites
+angel slocombe > fox moonites		angel slocombe > fox moonites
+::Equalcount		Totalcount		Accuracy
+::9		10		0.9
+---------------- Topic Control Evaluation --------------------- 
+session: session
+--------------------------------------------------------------- 
+-----------------------------merged---------------------------- 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+enerji sweetwater < morgance firecaster		enerji sweetwater < morgance firecaster
+enerji sweetwater > daarc dagger		enerji sweetwater > daarc dagger
+enerji sweetwater = dulcie mills		enerji sweetwater < dulcie mills
+enerji sweetwater > ceradestiny wilder		enerji sweetwater > ceradestiny wilder
+morgance firecaster > daarc dagger		morgance firecaster > daarc dagger
+morgance firecaster > dulcie mills		morgance firecaster > dulcie mills
+morgance firecaster > ceradestiny wilder		morgance firecaster > ceradestiny wilder
+daarc dagger < dulcie mills		daarc dagger < dulcie mills
+daarc dagger < ceradestiny wilder		daarc dagger < ceradestiny wilder
+dulcie mills > ceradestiny wilder		dulcie mills > ceradestiny wilder
+::Equalcount		Totalcount		Accuracy
+::9		10		0.9
+---------------- Topic Control Evaluation --------------------- 
+session: (41)
+--------------------------------------------------------------- 
+-----------------------------merged---------------------------- 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+xjj hax < treto priestly		xjj hax < treto priestly
+xjj hax < stokley constantine		xjj hax < stokley constantine
+xjj hax < elilka sieyes		xjj hax < elilka sieyes
+xjj hax < johan neddings		xjj hax < johan neddings
+treto priestly > stokley constantine		treto priestly > stokley constantine
+treto priestly > elilka sieyes		treto priestly > elilka sieyes
+treto priestly = johan neddings		treto priestly > johan neddings
+stokley constantine > elilka sieyes		stokley constantine > elilka sieyes
+stokley constantine < johan neddings		stokley constantine < johan neddings
+elilka sieyes < johan neddings		elilka sieyes < johan neddings
+::Equalcount		Totalcount		Accuracy
+::9		10		0.9
+---------------- Topic Control Evaluation --------------------- 
+session: (43)
+--------------------------------------------------------------- 
+-----------------------------merged---------------------------- 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+iolanthe akros < jamesy souther		iolanthe akros < jamesy souther
+iolanthe akros = sophia valeeva		iolanthe akros < sophia valeeva
+iolanthe akros < dante baudin		iolanthe akros < dante baudin
+iolanthe akros > jadelicious crystal		iolanthe akros < jadelicious crystal
+jamesy souther > sophia valeeva		jamesy souther > sophia valeeva
+jamesy souther > dante baudin		jamesy souther > dante baudin
+jamesy souther > jadelicious crystal		jamesy souther > jadelicious crystal
+sophia valeeva < dante baudin		sophia valeeva < dante baudin
+sophia valeeva > jadelicious crystal		sophia valeeva < jadelicious crystal
+dante baudin > jadelicious crystal		dante baudin < jadelicious crystal
+::Equalcount		Totalcount		Accuracy
+::6		10		0.6
+---------------- Topic Control Evaluation --------------------- 
+session: (44)
+--------------------------------------------------------------- 
+-----------------------------merged---------------------------- 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+rebecca rhiannyr < wencheeepookie bigboots		rebecca rhiannyr < wencheeepookie bigboots
+rebecca rhiannyr = elizabeth35 shepherd		rebecca rhiannyr > elizabeth35 shepherd
+rebecca rhiannyr > bosskwar winterwolf		rebecca rhiannyr > bosskwar winterwolf
+rebecca rhiannyr < valhala vollmar		rebecca rhiannyr < valhala vollmar
+wencheeepookie bigboots > elizabeth35 shepherd		wencheeepookie bigboots > elizabeth35 shepherd
+wencheeepookie bigboots > bosskwar winterwolf		wencheeepookie bigboots > bosskwar winterwolf
+wencheeepookie bigboots = valhala vollmar		wencheeepookie bigboots < valhala vollmar
+elizabeth35 shepherd > bosskwar winterwolf		elizabeth35 shepherd > bosskwar winterwolf
+elizabeth35 shepherd < valhala vollmar		elizabeth35 shepherd < valhala vollmar
+bosskwar winterwolf < valhala vollmar		bosskwar winterwolf < valhala vollmar
+::Equalcount		Totalcount		Accuracy
+::8		10		0.8
+---------------- Topic Control Evaluation --------------------- 
+session: (45)
+--------------------------------------------------------------- 
+-----------------------------merged---------------------------- 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+michael takakura > knight ghostraven		michael takakura > knight ghostraven
+michael takakura > wolfblade faith		michael takakura > wolfblade faith
+michael takakura > bongo ragu		michael takakura > bongo ragu
+knight ghostraven > wolfblade faith		knight ghostraven > wolfblade faith
+knight ghostraven < bongo ragu		knight ghostraven < bongo ragu
+wolfblade faith < bongo ragu		wolfblade faith < bongo ragu
+::Equalcount		Totalcount		Accuracy
+::6		6		1.0
+---------------- Topic Control Evaluation --------------------- 
+session: (46)
+--------------------------------------------------------------- 
+-----------------------------merged---------------------------- 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+flux blackheart > vince kamenev		flux blackheart > vince kamenev
+flux blackheart > angelos nemeth		flux blackheart > angelos nemeth
+flux blackheart > captainjack delcon		flux blackheart > captainjack delcon
+vince kamenev < angelos nemeth		vince kamenev < angelos nemeth
+vince kamenev < captainjack delcon		vince kamenev > captainjack delcon
+angelos nemeth > captainjack delcon		angelos nemeth > captainjack delcon
+::Equalcount		Totalcount		Accuracy
+::5		6		0.8333333333333334
+---------------- Topic Control Evaluation --------------------- 
+session: (48)
+--------------------------------------------------------------- 
+-----------------------------merged---------------------------- 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+silencedogood lyvingstone > katie tuque		silencedogood lyvingstone > katie tuque
+silencedogood lyvingstone > idny ansome		silencedogood lyvingstone > idny ansome
+silencedogood lyvingstone = nnod silvercloud		silencedogood lyvingstone > nnod silvercloud
+katie tuque < idny ansome		katie tuque < idny ansome
+katie tuque < nnod silvercloud		katie tuque < nnod silvercloud
+idny ansome < nnod silvercloud		idny ansome > nnod silvercloud
+::Equalcount		Totalcount		Accuracy
+::4		6		0.6666666666666666
+---------------- Topic Control Evaluation --------------------- 
+session: (50)
+--------------------------------------------------------------- 
+-----------------------------merged---------------------------- 
+||||||||||||||||| Relations ||||||||||||||||||||
+Auto_file		Human_file
+macie thirdborn < schrix gothly		macie thirdborn < schrix gothly
+macie thirdborn < carrie mcandrews		macie thirdborn < carrie mcandrews
+macie thirdborn < dav darkfold		macie thirdborn < dav darkfold
+schrix gothly = carrie mcandrews		schrix gothly < carrie mcandrews
+schrix gothly < dav darkfold		schrix gothly < dav darkfold
+carrie mcandrews < dav darkfold		carrie mcandrews > dav darkfold
+::Equalcount		Totalcount		Accuracy
+::4		6		0.6666666666666666
