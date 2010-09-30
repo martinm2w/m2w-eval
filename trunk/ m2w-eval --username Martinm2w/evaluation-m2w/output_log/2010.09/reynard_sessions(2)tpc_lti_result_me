@@ -1,0 +1,334 @@
+---------------- Topic Control Evaluation --------------------- 
+session: (1)
+--------------------------------------------------------------- 
+-----------------------------lti---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+decatur randall	1	1	Rest	Low	yes	1	
+nalani sorrowsong	2	3	Rest	Low	no	0.5	
+charlee rae	3	4	Rest	Mismatch	no	0	
+dark lichlore	4	5	Mismatch	High	no	0	
+soto ling	2	2	Rest	Low	yes	1	
+Precision: 	0.8(Highest/Rest/Mismatch)	0.8(High/Low/Mismatch)	0.4(Exact-match)	0.5(Partial-match)	
+---------------- Topic Control Evaluation --------------------- 
+session: (2)
+--------------------------------------------------------------- 
+-----------------------------lti---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+luvi unplugged	1	1	Rest	Low	yes	1	
+jean restless	4	3	Rest	Mismatch	no	0.5	
+gumby roffo	3	2	Rest	Low	no	0.5	
+eversky aeon	5	4	Mismatch	High	no	0.5	
+Precision: 	0.75(Highest/Rest/Mismatch)	0.75(High/Low/Mismatch)	0.25(Exact-match)	0.625(Partial-match)	
+---------------- Topic Control Evaluation --------------------- 
+session: (7)
+--------------------------------------------------------------- 
+-----------------------------lti---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+burnsand allen	5	5	Highest	High	yes	1	
+torry baar	4	4	Rest	High	yes	1	
+solomon flux	3	3	Rest	Low	yes	1	
+javana kohime	2	2	Rest	Low	yes	1	
+verlia bilavio	2	1	Rest	Low	no	0.5	
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.8(Exact-match)	0.9(Partial-match)	
+---------------- Topic Control Evaluation --------------------- 
+session: (8)
+--------------------------------------------------------------- 
+-----------------------------lti---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+josi nebestanka	1	1	Rest	Low	yes	1	
+lale pico	5	5	Highest	High	yes	1	
+jameson despres	3	3	Rest	Low	yes	1	
+softpaw sommer	2	2	Rest	Low	yes	1	
+quentin foulsbane	4	4	Rest	High	yes	1	
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	1.0(Exact-match)	1.0(Partial-match)	
+---------------- Topic Control Evaluation --------------------- 
+session: (9)
+--------------------------------------------------------------- 
+-----------------------------lti---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+brunnhilda quonset	3	4	Rest	Mismatch	no	0	
+catseye fride	1	1	Rest	Low	yes	1	
+toxic menges	2	3	Rest	Low	no	0.5	
+lei amaranth	4	5	Mismatch	High	no	0.5	
+jake911 kenyon	2	2	Rest	Low	yes	1	
+Precision: 	0.8(Highest/Rest/Mismatch)	0.8(High/Low/Mismatch)	0.4(Exact-match)	0.6(Partial-match)	
+---------------- Topic Control Evaluation --------------------- 
+session: (10)
+--------------------------------------------------------------- 
+-----------------------------lti---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+bruce schmetterling	4	4	Rest	High	yes	1	
+fookinrockstar gearhead	2	2	Rest	Low	yes	1	
+s1rux forsythe	4	5	Mismatch	High	no	0	
+earthairfire windlow	1	1	Rest	Low	yes	1	
+harp solo	3	3	Rest	Low	yes	1	
+Precision: 	0.8(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.8(Exact-match)	0.8(Partial-match)	
+---------------- Topic Control Evaluation --------------------- 
+session: (11)
+--------------------------------------------------------------- 
+-----------------------------lti---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+raindance broadfoot	3	3	Rest	Low	yes	1	
+fallon ethaniel	1	1	Rest	Low	yes	1	
+skye morales	2	2	Rest	Low	yes	1	
+frew lovenkraft	4	4	Rest	High	yes	1	
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	1.0(Exact-match)	1.0(Partial-match)	
+---------------- Topic Control Evaluation --------------------- 
+session: (12)
+--------------------------------------------------------------- 
+-----------------------------lti---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+ice brodie	5	5	Highest	High	yes	1	
+liam bean	2	2	Rest	Low	yes	1	
+jamaris pawpaw	4	4	Rest	High	yes	1	
+black fromund	2	3	Rest	Low	no	0	
+artimus drake	1	1	Rest	Low	yes	1	
+scott1 yedmore	3	3	Rest	Low	yes	1	
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.8333333333333334(Exact-match)	0.8333333333333334(Partial-match)	
+---------------- Topic Control Evaluation --------------------- 
+session: (13)
+--------------------------------------------------------------- 
+-----------------------------lti---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+winterspell runo	1	1	Rest	Low	yes	1	
+cane corryong	2	3	Rest	Low	no	0.5	
+jezebel marlin	3	4	Rest	Mismatch	no	0	
+natalia leonoase	1	1	Rest	Low	yes	1	
+trevor darkmatter	5	5	Highest	High	yes	1	
+Precision: 	1.0(Highest/Rest/Mismatch)	0.8(High/Low/Mismatch)	0.6(Exact-match)	0.7(Partial-match)	
+---------------- Topic Control Evaluation --------------------- 
+session: (14)
+--------------------------------------------------------------- 
+-----------------------------lti---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+frankie xaron	4	3	Rest	Mismatch	no	0.5	
+kram2593 footman	2	1	Rest	Low	no	0	
+carlito teardrop	5	4	Mismatch	High	no	0.5	
+shanna karsin	3	2	Rest	Low	no	0.5	
+Precision: 	0.75(Highest/Rest/Mismatch)	0.75(High/Low/Mismatch)	0.0(Exact-match)	0.375(Partial-match)	
+---------------- Topic Control Evaluation --------------------- 
+session: (15)
+--------------------------------------------------------------- 
+-----------------------------lti---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+brianna vintner	1	1	Rest	Low	yes	1	
+raylyn adamski	2	3	Rest	Low	no	0.5	
+pamela bashir	2	2	Rest	Low	yes	1	
+pinko koenkamp	5	5	Highest	High	yes	1	
+lisaine raymaker	4	4	Rest	High	yes	1	
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.8(Exact-match)	0.9(Partial-match)	
+---------------- Topic Control Evaluation --------------------- 
+session: (16)
+--------------------------------------------------------------- 
+-----------------------------lti---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+dominic engel	2	2	Rest	Low	yes	1	
+tyisha destiny	4	5	Mismatch	High	no	0.5	
+christopherj spore	4	4	Rest	High	yes	1	
+kitaro foxtrot	3	3	Rest	Low	yes	1	
+thom serenity	1	1	Rest	Low	yes	1	
+Precision: 	0.8(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.8(Exact-match)	0.9(Partial-match)	
+---------------- Topic Control Evaluation --------------------- 
+session: (17)
+--------------------------------------------------------------- 
+-----------------------------lti---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+fatbottomedgirl barbosa	3	3	Rest	Low	yes	1	
+lyrlyn wrydan	4	4	Rest	High	yes	1	
+chandler olinger	2	1	Rest	Low	no	0	
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.6666666666666666(Exact-match)	0.6666666666666666(Partial-match)	
+---------------- Topic Control Evaluation --------------------- 
+session: (19)
+--------------------------------------------------------------- 
+-----------------------------lti---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+savanna miles	1	1	Rest	Low	yes	1	
+jupiter firelyte	4	4	Rest	High	yes	1	
+madamedivachocolate richez	2	2	Rest	Low	yes	1	
+dahlea milena	4	5	Mismatch	High	no	0.5	
+taby oh	2	3	Rest	Low	no	0.5	
+Precision: 	0.8(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.6(Exact-match)	0.8(Partial-match)	
+---------------- Topic Control Evaluation --------------------- 
+session: (20)
+--------------------------------------------------------------- 
+-----------------------------lti---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+digital haiku	5	5	Highest	High	yes	1	
+missmissy moonbeam	4	4	Rest	High	yes	1	
+conchobar direwytch	3	3	Rest	Low	yes	1	
+vesper requiem	2	2	Rest	Low	yes	1	
+fox moonites	1	1	Rest	Low	yes	1	
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	1.0(Exact-match)	1.0(Partial-match)	
+---------------- Topic Control Evaluation --------------------- 
+session: (21)
+--------------------------------------------------------------- 
+-----------------------------lti---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+titanna charron	4	5	Mismatch	High	no	0.5	
+cherry kirktown	2	2	Rest	Low	yes	1	
+carrotcake sweetwater	1	1	Rest	Low	yes	1	
+kittii jinx	3	4	Rest	Mismatch	no	0	
+buffy ubble	2	3	Rest	Low	no	0.5	
+chocolatesplitz topaz	2	3	Rest	Low	no	0.5	
+Precision: 	0.8333333333333334(Highest/Rest/Mismatch)	0.8333333333333334(High/Low/Mismatch)	0.3333333333333333(Exact-match)	0.5833333333333334(Partial-match)	
+---------------- Topic Control Evaluation --------------------- 
+session: (23)
+--------------------------------------------------------------- 
+-----------------------------lti---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+natasiaa nightfire	4	4	Rest	High	yes	1	
+melly winslet	1	1	Rest	Low	yes	1	
+luluk zenovka	2	2	Rest	Low	yes	1	
+shiva draconia	3	3	Rest	Low	yes	1	
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	1.0(Exact-match)	1.0(Partial-match)	
+---------------- Topic Control Evaluation --------------------- 
+session: (24)
+--------------------------------------------------------------- 
+-----------------------------lti---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+rhiamon nitely	2	1	Rest	Low	no	0	
+valaveria landar	4	3	Rest	Mismatch	no	0.5	
+maxx abonwood	5	4	Mismatch	High	no	0.5	
+Precision: 	0.6666666666666666(Highest/Rest/Mismatch)	0.6666666666666666(High/Low/Mismatch)	0.0(Exact-match)	0.3333333333333333(Partial-match)	
+---------------- Topic Control Evaluation --------------------- 
+session: (25)
+--------------------------------------------------------------- 
+-----------------------------lti---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+yakumo fujin	3	2	Rest	Low	no	0.5	
+tig tolwen	1	1	Rest	Low	yes	1	
+aviano gearz	3	3	Rest	Low	yes	1	
+danny dwyer	4	4	Rest	High	yes	1	
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.75(Exact-match)	0.875(Partial-match)	
+---------------- Topic Control Evaluation --------------------- 
+session: (28)
+--------------------------------------------------------------- 
+-----------------------------lti---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+emmeline pankhurst	3	3	Rest	Low	yes	1	
+cheli sands	4	4	Rest	High	yes	1	
+marissa beres	1	1	Rest	Low	yes	1	
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	1.0(Exact-match)	1.0(Partial-match)	
+---------------- Topic Control Evaluation --------------------- 
+session: (29)
+--------------------------------------------------------------- 
+-----------------------------lti---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+vascone zapatero	3	3	Rest	Low	yes	1	
+reaper2666 wobbit	1	1	Rest	Low	yes	1	
+yuki quan	5	4	Mismatch	High	no	0.5	
+Precision: 	0.6666666666666666(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.6666666666666666(Exact-match)	0.8333333333333334(Partial-match)	
+---------------- Topic Control Evaluation --------------------- 
+session: (30)
+--------------------------------------------------------------- 
+-----------------------------lti---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+mccarty boomhauer	2	2	Rest	Low	yes	1	
+cybersleuth nakamura	3	3	Rest	Low	yes	1	
+doubledown tandino	4	4	Rest	High	yes	1	
+james kesslinger	1	1	Rest	Low	yes	1	
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	1.0(Exact-match)	1.0(Partial-match)	
+---------------- Topic Control Evaluation --------------------- 
+session: (35)
+--------------------------------------------------------------- 
+-----------------------------lti---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+fyrebug ectonite	3	3	Rest	Low	yes	1	
+seamus monigal	2	1	Rest	Low	no	0	
+ky tsuki	5	4	Mismatch	High	no	0.5	
+Precision: 	0.6666666666666666(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.3333333333333333(Exact-match)	0.5(Partial-match)	
+---------------- Topic Control Evaluation --------------------- 
+session: session
+--------------------------------------------------------------- 
+-----------------------------lti---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+alaria kamala	4	5	Mismatch	High	no	0.5	
+helder skytower	1	1	Rest	Low	yes	1	
+whisper dallagio	3	3	Rest	Low	yes	1	
+angel slocombe	4	4	Rest	High	yes	1	
+fox moonites	2	2	Rest	Low	yes	1	
+Precision: 	0.8(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.8(Exact-match)	0.9(Partial-match)	
+---------------- Topic Control Evaluation --------------------- 
+session: session
+--------------------------------------------------------------- 
+-----------------------------lti---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+enerji sweetwater	3	3	Rest	Low	yes	1	
+morgance firecaster	5	5	Highest	High	yes	1	
+daarc dagger	1	1	Rest	Low	yes	1	
+dulcie mills	4	4	Rest	High	yes	1	
+ceradestiny wilder	3	2	Rest	Low	no	0.5	
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.8(Exact-match)	0.9(Partial-match)	
+---------------- Topic Control Evaluation --------------------- 
+session: (41)
+--------------------------------------------------------------- 
+-----------------------------lti---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+xjj hax	1	1	Rest	Low	yes	1	
+treto priestly	5	5	Highest	High	yes	1	
+stokley constantine	3	3	Rest	Low	yes	1	
+elilka sieyes	2	2	Rest	Low	yes	1	
+johan neddings	4	4	Rest	High	yes	1	
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	1.0(Exact-match)	1.0(Partial-match)	
+---------------- Topic Control Evaluation --------------------- 
+session: (43)
+--------------------------------------------------------------- 
+-----------------------------lti---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+iolanthe akros	1	1	Rest	Low	yes	1	
+jamesy souther	4	5	Mismatch	High	no	0	
+sophia valeeva	2	2	Rest	Low	yes	1	
+dante baudin	2	3	Rest	Low	no	0.5	
+jadelicious crystal	3	4	Rest	Mismatch	no	0	
+Precision: 	0.8(Highest/Rest/Mismatch)	0.8(High/Low/Mismatch)	0.4(Exact-match)	0.5(Partial-match)	
+---------------- Topic Control Evaluation --------------------- 
+session: (44)
+--------------------------------------------------------------- 
+-----------------------------lti---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+rebecca rhiannyr	4	3	Rest	Mismatch	no	0.5	
+wencheeepookie bigboots	4	4	Rest	High	yes	1	
+elizabeth35 shepherd	2	2	Rest	Low	yes	1	
+bosskwar winterwolf	1	1	Rest	Low	yes	1	
+valhala vollmar	5	5	Highest	High	yes	1	
+Precision: 	1.0(Highest/Rest/Mismatch)	0.8(High/Low/Mismatch)	0.8(Exact-match)	0.9(Partial-match)	
+---------------- Topic Control Evaluation --------------------- 
+session: (45)
+--------------------------------------------------------------- 
+-----------------------------lti---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+michael takakura	4	4	Rest	High	yes	1	
+knight ghostraven	2	2	Rest	Low	yes	1	
+wolfblade faith	1	1	Rest	Low	yes	1	
+bongo ragu	3	3	Rest	Low	yes	1	
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	1.0(Exact-match)	1.0(Partial-match)	
+---------------- Topic Control Evaluation --------------------- 
+session: (46)
+--------------------------------------------------------------- 
+-----------------------------lti---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+flux blackheart	5	4	Mismatch	High	no	0.5	
+vince kamenev	3	2	Rest	Low	no	0.5	
+angelos nemeth	4	3	Rest	Mismatch	no	0.5	
+captainjack delcon	2	1	Rest	Low	no	0.5	
+Precision: 	0.75(Highest/Rest/Mismatch)	0.75(High/Low/Mismatch)	0.0(Exact-match)	0.5(Partial-match)	
+---------------- Topic Control Evaluation --------------------- 
+session: (48)
+--------------------------------------------------------------- 
+-----------------------------lti---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+silencedogood lyvingstone	4	4	Rest	High	yes	1	
+katie tuque	1	1	Rest	Low	yes	1	
+idny ansome	3	3	Rest	Low	yes	1	
+nnod silvercloud	3	2	Rest	Low	no	0.5	
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.75(Exact-match)	0.875(Partial-match)	
+---------------- Topic Control Evaluation --------------------- 
+session: (50)
+--------------------------------------------------------------- 
+-----------------------------lti---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+macie thirdborn	2	1	Rest	Low	no	0	
+schrix gothly	3	2	Rest	Low	no	0.5	
+carrie mcandrews	5	4	Mismatch	High	no	0.5	
+dav darkfold	4	3	Rest	Mismatch	no	0.5	
+Precision: 	0.75(Highest/Rest/Mismatch)	0.75(High/Low/Mismatch)	0.0(Exact-match)	0.375(Partial-match)	
