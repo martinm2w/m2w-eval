@@ -22,13 +22,13 @@ public class CompareEval {
 		
 		/*checking input*/
 		for (int k = 0; k < auto_qscore.length; k ++ ){
-			System.out.println("auto qscore : " + auto_qscore[k]);
+			System.out.println("input auto qscore in auto_qscore: " + auto_qscore[k]);
 		}
 		
 		System.out.println("----------------------------------------");
 		
 		for (int k = 0; k < human_qscore.length; k ++ ){
-			System.out.println("human qscore : " + human_qscore[k]);
+			System.out.println("input human qscore in human_qsore: " + human_qscore[k]);
 		}
 		
 		System.out.println("========================================");
@@ -36,7 +36,7 @@ public class CompareEval {
 		 /*Relations*/
         try {
         	
-			bw.write("||||||||||||||||| Relations ||||||||||||||||||||");
+			bw.write("          -=        Relations      =-             ");
 			bw.newLine();
 	        bw.write("Auto_file\t\t" + "Human_file");
 	        bw.newLine();
