@@ -1,0 +1,1052 @@
+
+---------------- NIST Evaluation --------------------- 
+Calculating File... feb19a
+-----------------------------TPC---------------------------- 
+          -=        Relations      =-             
+Auto_file		Human_file
+kerri > jessicad		kerri > jessicad
+kerri > eugenia		kerri > eugenia
+kerri > laura		kerri > laura
+kerri < jennifer		kerri > jennifer
+kerri > lisa		kerri < lisa
+jessicad > eugenia		jessicad < eugenia
+jessicad > laura		jessicad < laura
+jessicad < jennifer		jessicad < jennifer
+jessicad > lisa		jessicad < lisa
+eugenia > laura		eugenia < laura
+eugenia < jennifer		eugenia < jennifer
+eugenia < lisa		eugenia < lisa
+laura < jennifer		laura > jennifer
+laura < lisa		laura < lisa
+jennifer > lisa		jennifer < lisa
+::Equalcount		Totalcount		Accuracy
+::7		15		0.4666666666666667
+
+---------------- NIST Evaluation --------------------- 
+Calculating File... feb19a
+-----------------------------TKC---------------------------- 
+          -=        Relations      =-             
+Auto_file		Human_file
+kerri > jessicad		kerri > jessicad
+kerri = eugenia		kerri > eugenia
+kerri > laura		kerri > laura
+kerri < jennifer		kerri > jennifer
+kerri = lisa		kerri < lisa
+jessicad < eugenia		jessicad < eugenia
+jessicad = laura		jessicad < laura
+jessicad < jennifer		jessicad < jennifer
+jessicad < lisa		jessicad < lisa
+eugenia > laura		eugenia < laura
+eugenia < jennifer		eugenia < jennifer
+eugenia = lisa		eugenia < lisa
+laura < jennifer		laura < jennifer
+laura < lisa		laura < lisa
+jennifer > lisa		jennifer < lisa
+::Equalcount		Totalcount		Accuracy
+::8		15		0.5333333333333333
+
+---------------- NIST Evaluation --------------------- 
+Calculating File... feb19a
+-----------------------------INV---------------------------- 
+          -=        Relations      =-             
+Auto_file		Human_file
+kerri > jessicad		kerri > jessicad
+kerri > eugenia		kerri > eugenia
+kerri > laura		kerri > laura
+kerri < jennifer		kerri > jennifer
+kerri > lisa		kerri < lisa
+jessicad < eugenia		jessicad < eugenia
+jessicad < laura		jessicad < laura
+jessicad < jennifer		jessicad < jennifer
+jessicad < lisa		jessicad < lisa
+eugenia < laura		eugenia < laura
+eugenia < jennifer		eugenia < jennifer
+eugenia < lisa		eugenia < lisa
+laura < jennifer		laura < jennifer
+laura < lisa		laura < lisa
+jennifer > lisa		jennifer < lisa
+::Equalcount		Totalcount		Accuracy
+::12		15		0.8
+
+---------------- NIST Evaluation --------------------- 
+Calculating File... feb19b
+-----------------------------TPC---------------------------- 
+          -=        Relations      =-             
+Auto_file		Human_file
+danielle < nicole		danielle < nicole
+danielle < dk		danielle < dk
+danielle < carol		danielle < carol
+danielle > jessamyn		danielle > jessamyn
+danielle > jessicaf		danielle < jessicaf
+nicole < dk		nicole < dk
+nicole < carol		nicole < carol
+nicole > jessamyn		nicole > jessamyn
+nicole > jessicaf		nicole > jessicaf
+dk < carol		dk > carol
+dk > jessamyn		dk > jessamyn
+dk > jessicaf		dk > jessicaf
+carol > jessamyn		carol > jessamyn
+carol > jessicaf		carol > jessicaf
+jessamyn < jessicaf		jessamyn < jessicaf
+::Equalcount		Totalcount		Accuracy
+::13		15		0.8666666666666667
+
+---------------- NIST Evaluation --------------------- 
+Calculating File... feb19b
+-----------------------------TKC---------------------------- 
+          -=        Relations      =-             
+Auto_file		Human_file
+danielle = nicole		danielle < nicole
+danielle = dk		danielle < dk
+danielle = carol		danielle < carol
+danielle = jessamyn		danielle > jessamyn
+danielle = jessicaf		danielle > jessicaf
+nicole = dk		nicole < dk
+nicole = carol		nicole < carol
+nicole = jessamyn		nicole > jessamyn
+nicole = jessicaf		nicole > jessicaf
+dk = carol		dk > carol
+dk = jessamyn		dk > jessamyn
+dk = jessicaf		dk > jessicaf
+carol = jessamyn		carol > jessamyn
+carol = jessicaf		carol > jessicaf
+jessamyn = jessicaf		jessamyn < jessicaf
+::Equalcount		Totalcount		Accuracy
+::0		15		0.0
+
+---------------- NIST Evaluation --------------------- 
+Calculating File... feb19b
+-----------------------------INV---------------------------- 
+          -=        Relations      =-             
+Auto_file		Human_file
+danielle < nicole		danielle < nicole
+danielle < dk		danielle < dk
+danielle < carol		danielle < carol
+danielle > jessamyn		danielle < jessamyn
+danielle < jessicaf		danielle < jessicaf
+nicole < dk		nicole < dk
+nicole < carol		nicole < carol
+nicole > jessamyn		nicole > jessamyn
+nicole > jessicaf		nicole > jessicaf
+dk < carol		dk = carol
+dk > jessamyn		dk > jessamyn
+dk > jessicaf		dk > jessicaf
+carol > jessamyn		carol > jessamyn
+carol > jessicaf		carol > jessicaf
+jessamyn < jessicaf		jessamyn < jessicaf
+::Equalcount		Totalcount		Accuracy
+::13		15		0.8666666666666667
+
+---------------- NIST Evaluation --------------------- 
+Calculating File... feb26a
+-----------------------------TPC---------------------------- 
+          -=        Relations      =-             
+Auto_file		Human_file
+lauren > ashley		lauren > ashley
+lauren > danielle		lauren > danielle
+lauren > nicole		lauren > nicole
+lauren > tony		lauren > tony
+lauren > john		lauren > john
+lauren < carol		lauren < carol
+ashley > danielle		ashley < danielle
+ashley > nicole		ashley < nicole
+ashley > tony		ashley > tony
+ashley > john		ashley > john
+ashley < carol		ashley < carol
+danielle < nicole		danielle = nicole
+danielle < tony		danielle > tony
+danielle < john		danielle > john
+danielle < carol		danielle < carol
+nicole > tony		nicole > tony
+nicole > john		nicole > john
+nicole < carol		nicole < carol
+tony > john		tony < john
+tony < carol		tony < carol
+john < carol		john < carol
+::Equalcount		Totalcount		Accuracy
+::15		21		0.7142857142857143
+
+---------------- NIST Evaluation --------------------- 
+Calculating File... feb26a
+-----------------------------TKC---------------------------- 
+          -=        Relations      =-             
+Auto_file		Human_file
+lauren = ashley		lauren > ashley
+lauren = danielle		lauren > danielle
+lauren = nicole		lauren > nicole
+lauren = tony		lauren > tony
+lauren = john		lauren > john
+lauren = carol		lauren < carol
+ashley = danielle		ashley < danielle
+ashley = nicole		ashley > nicole
+ashley = tony		ashley > tony
+ashley = john		ashley > john
+ashley = carol		ashley < carol
+danielle = nicole		danielle > nicole
+danielle = tony		danielle > tony
+danielle = john		danielle > john
+danielle = carol		danielle < carol
+nicole = tony		nicole > tony
+nicole = john		nicole = john
+nicole = carol		nicole < carol
+tony = john		tony < john
+tony = carol		tony < carol
+john = carol		john < carol
+::Equalcount		Totalcount		Accuracy
+::1		21		0.047619047619047616
+
+---------------- NIST Evaluation --------------------- 
+Calculating File... feb26a
+-----------------------------INV---------------------------- 
+          -=        Relations      =-             
+Auto_file		Human_file
+lauren < ashley		lauren < ashley
+lauren > danielle		lauren > danielle
+lauren < nicole		lauren < nicole
+lauren > tony		lauren > tony
+lauren > john		lauren < john
+lauren < carol		lauren < carol
+ashley > danielle		ashley > danielle
+ashley < nicole		ashley > nicole
+ashley > tony		ashley > tony
+ashley > john		ashley > john
+ashley < carol		ashley > carol
+danielle < nicole		danielle < nicole
+danielle < tony		danielle = tony
+danielle < john		danielle < john
+danielle < carol		danielle < carol
+nicole > tony		nicole > tony
+nicole > john		nicole > john
+nicole > carol		nicole > carol
+tony < john		tony < john
+tony < carol		tony < carol
+john < carol		john < carol
+::Equalcount		Totalcount		Accuracy
+::17		21		0.8095238095238095
+
+---------------- NIST Evaluation --------------------- 
+Calculating File... feb27a
+-----------------------------TPC---------------------------- 
+          -=        Relations      =-             
+Auto_file		Human_file
+ashley < nate		ashley > nate
+ashley > tony		ashley < tony
+ashley > samantha		ashley > samantha
+ashley < sarah		ashley > sarah
+nate > tony		nate < tony
+nate > samantha		nate < samantha
+nate > sarah		nate < sarah
+tony > samantha		tony > samantha
+tony < sarah		tony > sarah
+samantha < sarah		samantha < sarah
+::Equalcount		Totalcount		Accuracy
+::3		10		0.3
+
+---------------- NIST Evaluation --------------------- 
+Calculating File... feb27a
+-----------------------------TKC---------------------------- 
+          -=        Relations      =-             
+Auto_file		Human_file
+ashley = nate		ashley > nate
+ashley = tony		ashley < tony
+ashley = samantha		ashley > samantha
+ashley = sarah		ashley > sarah
+nate = tony		nate < tony
+nate = samantha		nate < samantha
+nate = sarah		nate = sarah
+tony = samantha		tony > samantha
+tony = sarah		tony > sarah
+samantha = sarah		samantha > sarah
+::Equalcount		Totalcount		Accuracy
+::1		10		0.1
+
+---------------- NIST Evaluation --------------------- 
+Calculating File... feb27a
+-----------------------------INV---------------------------- 
+          -=        Relations      =-             
+Auto_file		Human_file
+ashley < nate		ashley = nate
+ashley < tony		ashley = tony
+ashley > samantha		ashley = samantha
+ashley < sarah		ashley = sarah
+nate > tony		nate = tony
+nate > samantha		nate = samantha
+nate > sarah		nate = sarah
+tony > samantha		tony = samantha
+tony < sarah		tony = sarah
+samantha < sarah		samantha = sarah
+::Equalcount		Totalcount		Accuracy
+::0		10		0.0
+
+---------------- NIST Evaluation --------------------- 
+Calculating File... feb27b
+-----------------------------TPC---------------------------- 
+          -=        Relations      =-             
+Auto_file		Human_file
+lauren < jessicad		lauren < jessicad
+lauren < laura		lauren < laura
+lauren < jennifer		lauren < jennifer
+lauren > john		lauren > john
+jessicad < laura		jessicad > laura
+jessicad < jennifer		jessicad > jennifer
+jessicad > john		jessicad > john
+laura < jennifer		laura < jennifer
+laura > john		laura > john
+jennifer > john		jennifer > john
+::Equalcount		Totalcount		Accuracy
+::8		10		0.8
+
+---------------- NIST Evaluation --------------------- 
+Calculating File... feb27b
+-----------------------------TKC---------------------------- 
+          -=        Relations      =-             
+Auto_file		Human_file
+lauren = jessicad		lauren < jessicad
+lauren = laura		lauren < laura
+lauren = jennifer		lauren < jennifer
+lauren = john		lauren > john
+jessicad = laura		jessicad < laura
+jessicad = jennifer		jessicad < jennifer
+jessicad = john		jessicad > john
+laura = jennifer		laura = jennifer
+laura = john		laura > john
+jennifer = john		jennifer > john
+::Equalcount		Totalcount		Accuracy
+::1		10		0.1
+
+---------------- NIST Evaluation --------------------- 
+Calculating File... feb27b
+-----------------------------INV---------------------------- 
+          -=        Relations      =-             
+Auto_file		Human_file
+lauren < jessicad		lauren < jessicad
+lauren < laura		lauren < laura
+lauren < jennifer		lauren < jennifer
+lauren > john		lauren < john
+jessicad < laura		jessicad > laura
+jessicad < jennifer		jessicad > jennifer
+jessicad > john		jessicad > john
+laura > jennifer		laura = jennifer
+laura > john		laura > john
+jennifer > john		jennifer > john
+::Equalcount		Totalcount		Accuracy
+::6		10		0.6
+
+---------------- NIST Evaluation --------------------- 
+Calculating File... feb28a
+-----------------------------TPC---------------------------- 
+          -=        Relations      =-             
+Auto_file		Human_file
+laura < jennifer		laura > jennifer
+laura > nicole		laura > nicole
+laura > john		laura > john
+laura > jessamyn		laura > jessamyn
+laura > jessicaf		laura > jessicaf
+jennifer > nicole		jennifer < nicole
+jennifer > john		jennifer < john
+jennifer > jessamyn		jennifer > jessamyn
+jennifer > jessicaf		jennifer < jessicaf
+nicole > john		nicole > john
+nicole > jessamyn		nicole > jessamyn
+nicole < jessicaf		nicole > jessicaf
+john < jessamyn		john > jessamyn
+john < jessicaf		john > jessicaf
+jessamyn < jessicaf		jessamyn < jessicaf
+::Equalcount		Totalcount		Accuracy
+::8		15		0.5333333333333333
+
+---------------- NIST Evaluation --------------------- 
+Calculating File... feb28a
+-----------------------------TKC---------------------------- 
+          -=        Relations      =-             
+Auto_file		Human_file
+laura = jennifer		laura < jennifer
+laura = nicole		laura < nicole
+laura = john		laura < john
+laura = jessamyn		laura < jessamyn
+laura = jessicaf		laura < jessicaf
+jennifer = nicole		jennifer > nicole
+jennifer = john		jennifer > john
+jennifer = jessamyn		jennifer > jessamyn
+jennifer = jessicaf		jennifer > jessicaf
+nicole = john		nicole > john
+nicole = jessamyn		nicole > jessamyn
+nicole = jessicaf		nicole > jessicaf
+john = jessamyn		john > jessamyn
+john = jessicaf		john > jessicaf
+jessamyn = jessicaf		jessamyn < jessicaf
+::Equalcount		Totalcount		Accuracy
+::0		15		0.0
+
+---------------- NIST Evaluation --------------------- 
+Calculating File... feb28a
+-----------------------------INV---------------------------- 
+          -=        Relations      =-             
+Auto_file		Human_file
+laura > jennifer		laura > jennifer
+laura > nicole		laura > nicole
+laura > john		laura > john
+laura > jessamyn		laura > jessamyn
+laura > jessicaf		laura > jessicaf
+jennifer > nicole		jennifer < nicole
+jennifer > john		jennifer > john
+jennifer > jessamyn		jennifer > jessamyn
+jennifer > jessicaf		jennifer > jessicaf
+nicole > john		nicole > john
+nicole > jessamyn		nicole > jessamyn
+nicole > jessicaf		nicole > jessicaf
+john < jessamyn		john > jessamyn
+john > jessicaf		john > jessicaf
+jessamyn > jessicaf		jessamyn < jessicaf
+::Equalcount		Totalcount		Accuracy
+::12		15		0.8
+
+---------------- NIST Evaluation --------------------- 
+Calculating File... feb28b
+-----------------------------TPC---------------------------- 
+          -=        Relations      =-             
+Auto_file		Human_file
+ashley < jessicad		ashley > jessicad
+ashley > jorge		ashley < jorge
+ashley < lisa		ashley < lisa
+ashley > tony		ashley > tony
+jessicad > jorge		jessicad < jorge
+jessicad < lisa		jessicad < lisa
+jessicad > tony		jessicad > tony
+jorge < lisa		jorge < lisa
+jorge > tony		jorge > tony
+lisa > tony		lisa > tony
+::Equalcount		Totalcount		Accuracy
+::7		10		0.7
+
+---------------- NIST Evaluation --------------------- 
+Calculating File... feb28b
+-----------------------------TKC---------------------------- 
+          -=        Relations      =-             
+Auto_file		Human_file
+ashley = jessicad		ashley > jessicad
+ashley = jorge		ashley < jorge
+ashley = lisa		ashley < lisa
+ashley = tony		ashley > tony
+jessicad = jorge		jessicad < jorge
+jessicad = lisa		jessicad < lisa
+jessicad = tony		jessicad > tony
+jorge = lisa		jorge < lisa
+jorge = tony		jorge > tony
+lisa = tony		lisa > tony
+::Equalcount		Totalcount		Accuracy
+::0		10		0.0
+
+---------------- NIST Evaluation --------------------- 
+Calculating File... feb28b
+-----------------------------INV---------------------------- 
+          -=        Relations      =-             
+Auto_file		Human_file
+ashley < jessicad		ashley = jessicad
+ashley < jorge		ashley < jorge
+ashley < lisa		ashley < lisa
+ashley < tony		ashley > tony
+jessicad > jorge		jessicad < jorge
+jessicad < lisa		jessicad < lisa
+jessicad > tony		jessicad > tony
+jorge < lisa		jorge = lisa
+jorge > tony		jorge > tony
+lisa > tony		lisa > tony
+::Equalcount		Totalcount		Accuracy
+::6		10		0.6
+
+---------------- NIST Evaluation --------------------- 
+Calculating File... mar06a
+-----------------------------TPC---------------------------- 
+          -=        Relations      =-             
+Auto_file		Human_file
+ashley > jessicad		ashley > jessicad
+ashley < eugenia		ashley > eugenia
+ashley > danielle		ashley < danielle
+ashley < jodie		ashley < jodie
+ashley < nicole		ashley < nicole
+ashley > tony		ashley < tony
+ashley > jessamyn		ashley < jessamyn
+jessicad < eugenia		jessicad < eugenia
+jessicad < danielle		jessicad < danielle
+jessicad < jodie		jessicad < jodie
+jessicad < nicole		jessicad < nicole
+jessicad < tony		jessicad < tony
+jessicad < jessamyn		jessicad < jessamyn
+eugenia > danielle		eugenia < danielle
+eugenia < jodie		eugenia < jodie
+eugenia < nicole		eugenia < nicole
+eugenia > tony		eugenia < tony
+eugenia > jessamyn		eugenia < jessamyn
+danielle < jodie		danielle < jodie
+danielle < nicole		danielle < nicole
+danielle < tony		danielle < tony
+danielle < jessamyn		danielle < jessamyn
+jodie > nicole		jodie = nicole
+jodie > tony		jodie > tony
+jodie > jessamyn		jodie > jessamyn
+nicole > tony		nicole > tony
+nicole > jessamyn		nicole > jessamyn
+tony < jessamyn		tony < jessamyn
+::Equalcount		Totalcount		Accuracy
+::20		28		0.7142857142857143
+
+---------------- NIST Evaluation --------------------- 
+Calculating File... mar06a
+-----------------------------TKC---------------------------- 
+          -=        Relations      =-             
+Auto_file		Human_file
+ashley = jessicad		ashley > jessicad
+ashley = eugenia		ashley > eugenia
+ashley = danielle		ashley > danielle
+ashley = jodie		ashley < jodie
+ashley = nicole		ashley < nicole
+ashley = tony		ashley > tony
+ashley = jessamyn		ashley < jessamyn
+jessicad = eugenia		jessicad < eugenia
+jessicad = danielle		jessicad < danielle
+jessicad = jodie		jessicad < jodie
+jessicad = nicole		jessicad < nicole
+jessicad = tony		jessicad < tony
+jessicad = jessamyn		jessicad < jessamyn
+eugenia = danielle		eugenia < danielle
+eugenia = jodie		eugenia < jodie
+eugenia = nicole		eugenia < nicole
+eugenia = tony		eugenia < tony
+eugenia = jessamyn		eugenia < jessamyn
+danielle = jodie		danielle < jodie
+danielle = nicole		danielle < nicole
+danielle = tony		danielle = tony
+danielle = jessamyn		danielle < jessamyn
+jodie = nicole		jodie < nicole
+jodie = tony		jodie > tony
+jodie = jessamyn		jodie > jessamyn
+nicole = tony		nicole > tony
+nicole = jessamyn		nicole > jessamyn
+tony = jessamyn		tony < jessamyn
+::Equalcount		Totalcount		Accuracy
+::1		28		0.03571428571428571
+
+---------------- NIST Evaluation --------------------- 
+Calculating File... mar06a
+-----------------------------INV---------------------------- 
+          -=        Relations      =-             
+Auto_file		Human_file
+ashley > jessicad		ashley > jessicad
+ashley > eugenia		ashley > eugenia
+ashley < danielle		ashley < danielle
+ashley < jodie		ashley < jodie
+ashley < nicole		ashley < nicole
+ashley < tony		ashley < tony
+ashley > jessamyn		ashley < jessamyn
+jessicad < eugenia		jessicad = eugenia
+jessicad < danielle		jessicad < danielle
+jessicad < jodie		jessicad < jodie
+jessicad < nicole		jessicad < nicole
+jessicad < tony		jessicad < tony
+jessicad > jessamyn		jessicad < jessamyn
+eugenia < danielle		eugenia < danielle
+eugenia < jodie		eugenia < jodie
+eugenia < nicole		eugenia < nicole
+eugenia < tony		eugenia < tony
+eugenia > jessamyn		eugenia < jessamyn
+danielle < jodie		danielle < jodie
+danielle < nicole		danielle < nicole
+danielle < tony		danielle > tony
+danielle > jessamyn		danielle < jessamyn
+jodie < nicole		jodie < nicole
+jodie > tony		jodie > tony
+jodie > jessamyn		jodie > jessamyn
+nicole > tony		nicole > tony
+nicole > jessamyn		nicole > jessamyn
+tony > jessamyn		tony < jessamyn
+::Equalcount		Totalcount		Accuracy
+::21		28		0.75
+
+---------------- NIST Evaluation --------------------- 
+Calculating File... mar07a
+-----------------------------TPC---------------------------- 
+          -=        Relations      =-             
+Auto_file		Human_file
+ashley < eugenia		ashley < eugenia
+ashley < danielle		ashley < danielle
+ashley < nicole		ashley < nicole
+ashley < tony		ashley < tony
+ashley > jessamyn		ashley < jessamyn
+eugenia > danielle		eugenia < danielle
+eugenia < nicole		eugenia < nicole
+eugenia > tony		eugenia < tony
+eugenia > jessamyn		eugenia < jessamyn
+danielle < nicole		danielle < nicole
+danielle < tony		danielle > tony
+danielle > jessamyn		danielle < jessamyn
+nicole > tony		nicole > tony
+nicole > jessamyn		nicole > jessamyn
+tony > jessamyn		tony < jessamyn
+::Equalcount		Totalcount		Accuracy
+::8		15		0.5333333333333333
+
+---------------- NIST Evaluation --------------------- 
+Calculating File... mar07a
+-----------------------------TKC---------------------------- 
+          -=        Relations      =-             
+Auto_file		Human_file
+ashley = eugenia		ashley < eugenia
+ashley = danielle		ashley < danielle
+ashley = nicole		ashley < nicole
+ashley = tony		ashley < tony
+ashley = jessamyn		ashley < jessamyn
+eugenia = danielle		eugenia < danielle
+eugenia = nicole		eugenia < nicole
+eugenia = tony		eugenia < tony
+eugenia = jessamyn		eugenia < jessamyn
+danielle = nicole		danielle < nicole
+danielle = tony		danielle > tony
+danielle = jessamyn		danielle > jessamyn
+nicole = tony		nicole > tony
+nicole = jessamyn		nicole > jessamyn
+tony = jessamyn		tony > jessamyn
+::Equalcount		Totalcount		Accuracy
+::0		15		0.0
+
+---------------- NIST Evaluation --------------------- 
+Calculating File... mar07a
+-----------------------------INV---------------------------- 
+          -=        Relations      =-             
+Auto_file		Human_file
+ashley < eugenia		ashley > eugenia
+ashley > danielle		ashley = danielle
+ashley < nicole		ashley > nicole
+ashley < tony		ashley > tony
+ashley < jessamyn		ashley = jessamyn
+eugenia > danielle		eugenia < danielle
+eugenia > nicole		eugenia < nicole
+eugenia > tony		eugenia = tony
+eugenia > jessamyn		eugenia < jessamyn
+danielle < nicole		danielle > nicole
+danielle < tony		danielle > tony
+danielle < jessamyn		danielle = jessamyn
+nicole > tony		nicole > tony
+nicole < jessamyn		nicole < jessamyn
+tony < jessamyn		tony < jessamyn
+::Equalcount		Totalcount		Accuracy
+::3		15		0.2
+
+---------------- NIST Evaluation --------------------- 
+Calculating File... mar07b
+-----------------------------TPC---------------------------- 
+          -=        Relations      =-             
+Auto_file		Human_file
+laura > jorge		laura > jorge
+laura > lisa		laura < lisa
+laura > john		laura > john
+laura > jessicaf		laura > jessicaf
+laura > sarah		laura = sarah
+jorge < lisa		jorge < lisa
+jorge > john		jorge > john
+jorge < jessicaf		jorge < jessicaf
+jorge < sarah		jorge < sarah
+lisa > john		lisa > john
+lisa > jessicaf		lisa > jessicaf
+lisa > sarah		lisa > sarah
+john < jessicaf		john < jessicaf
+john < sarah		john < sarah
+jessicaf < sarah		jessicaf < sarah
+::Equalcount		Totalcount		Accuracy
+::13		15		0.8666666666666667
+
+---------------- NIST Evaluation --------------------- 
+Calculating File... mar07b
+-----------------------------TKC---------------------------- 
+          -=        Relations      =-             
+Auto_file		Human_file
+laura = jorge		laura > jorge
+laura = lisa		laura > lisa
+laura = john		laura > john
+laura = jessicaf		laura > jessicaf
+laura = sarah		laura > sarah
+jorge = lisa		jorge < lisa
+jorge = john		jorge > john
+jorge = jessicaf		jorge < jessicaf
+jorge = sarah		jorge < sarah
+lisa = john		lisa > john
+lisa = jessicaf		lisa > jessicaf
+lisa = sarah		lisa > sarah
+john = jessicaf		john < jessicaf
+john = sarah		john < sarah
+jessicaf = sarah		jessicaf < sarah
+::Equalcount		Totalcount		Accuracy
+::0		15		0.0
+
+---------------- NIST Evaluation --------------------- 
+Calculating File... mar07b
+-----------------------------INV---------------------------- 
+          -=        Relations      =-             
+Auto_file		Human_file
+laura > jorge		laura > jorge
+laura < lisa		laura < lisa
+laura > john		laura > john
+laura > jessicaf		laura > jessicaf
+laura < sarah		laura = sarah
+jorge < lisa		jorge < lisa
+jorge > john		jorge > john
+jorge > jessicaf		jorge < jessicaf
+jorge < sarah		jorge < sarah
+lisa > john		lisa > john
+lisa > jessicaf		lisa > jessicaf
+lisa < sarah		lisa > sarah
+john < jessicaf		john < jessicaf
+john < sarah		john < sarah
+jessicaf < sarah		jessicaf < sarah
+::Equalcount		Totalcount		Accuracy
+::12		15		0.8
+
+---------------- NIST Evaluation --------------------- 
+Calculating File... mar10a
+-----------------------------TPC---------------------------- 
+          -=        Relations      =-             
+Auto_file		Human_file
+ashley > jennifer		ashley < jennifer
+ashley < jorge		ashley < jorge
+ashley > samantha		ashley < samantha
+ashley < carol		ashley < carol
+ashley < sarah		ashley > sarah
+jennifer < jorge		jennifer < jorge
+jennifer > samantha		jennifer > samantha
+jennifer < carol		jennifer < carol
+jennifer < sarah		jennifer > sarah
+jorge > samantha		jorge > samantha
+jorge < carol		jorge < carol
+jorge < sarah		jorge > sarah
+samantha < carol		samantha < carol
+samantha < sarah		samantha > sarah
+carol > sarah		carol > sarah
+::Equalcount		Totalcount		Accuracy
+::9		15		0.6
+
+---------------- NIST Evaluation --------------------- 
+Calculating File... mar10a
+-----------------------------TKC---------------------------- 
+          -=        Relations      =-             
+Auto_file		Human_file
+ashley = jennifer		ashley < jennifer
+ashley = jorge		ashley < jorge
+ashley = samantha		ashley > samantha
+ashley = carol		ashley < carol
+ashley = sarah		ashley > sarah
+jennifer = jorge		jennifer < jorge
+jennifer = samantha		jennifer > samantha
+jennifer = carol		jennifer < carol
+jennifer = sarah		jennifer > sarah
+jorge = samantha		jorge > samantha
+jorge = carol		jorge > carol
+jorge = sarah		jorge > sarah
+samantha = carol		samantha < carol
+samantha = sarah		samantha > sarah
+carol = sarah		carol > sarah
+::Equalcount		Totalcount		Accuracy
+::0		15		0.0
+
+---------------- NIST Evaluation --------------------- 
+Calculating File... mar10a
+-----------------------------INV---------------------------- 
+          -=        Relations      =-             
+Auto_file		Human_file
+ashley < jennifer		ashley = jennifer
+ashley < jorge		ashley < jorge
+ashley > samantha		ashley > samantha
+ashley < carol		ashley < carol
+ashley < sarah		ashley < sarah
+jennifer < jorge		jennifer < jorge
+jennifer > samantha		jennifer > samantha
+jennifer < carol		jennifer < carol
+jennifer < sarah		jennifer < sarah
+jorge > samantha		jorge > samantha
+jorge < carol		jorge < carol
+jorge < sarah		jorge < sarah
+samantha < carol		samantha < carol
+samantha < sarah		samantha < sarah
+carol > sarah		carol > sarah
+::Equalcount		Totalcount		Accuracy
+::14		15		0.9333333333333333
+
+---------------- NIST Evaluation --------------------- 
+Calculating File... mar10b
+-----------------------------TPC---------------------------- 
+          -=        Relations      =-             
+Auto_file		Human_file
+kerri > nate		kerri < nate
+kerri > laura		kerri < laura
+kerri > jenniferb		kerri = jenniferb
+kerri > lisa		kerri < lisa
+kerri > john		kerri > john
+nate > laura		nate < laura
+nate > jenniferb		nate > jenniferb
+nate < lisa		nate < lisa
+nate > john		nate > john
+laura < jenniferb		laura > jenniferb
+laura < lisa		laura < lisa
+laura > john		laura > john
+jenniferb < lisa		jenniferb < lisa
+jenniferb > john		jenniferb > john
+lisa > john		lisa > john
+::Equalcount		Totalcount		Accuracy
+::9		15		0.6
+
+---------------- NIST Evaluation --------------------- 
+Calculating File... mar10b
+-----------------------------TKC---------------------------- 
+          -=        Relations      =-             
+Auto_file		Human_file
+kerri = nate		kerri < nate
+kerri = laura		kerri < laura
+kerri = jenniferb		kerri > jenniferb
+kerri = lisa		kerri < lisa
+kerri = john		kerri > john
+nate = laura		nate < laura
+nate = jenniferb		nate > jenniferb
+nate = lisa		nate < lisa
+nate = john		nate > john
+laura = jenniferb		laura > jenniferb
+laura = lisa		laura > lisa
+laura = john		laura > john
+jenniferb = lisa		jenniferb < lisa
+jenniferb = john		jenniferb > john
+lisa = john		lisa > john
+::Equalcount		Totalcount		Accuracy
+::0		15		0.0
+
+---------------- NIST Evaluation --------------------- 
+Calculating File... mar10b
+-----------------------------INV---------------------------- 
+          -=        Relations      =-             
+Auto_file		Human_file
+kerri < nate		kerri < nate
+kerri < laura		kerri < laura
+kerri > jenniferb		kerri < jenniferb
+kerri < lisa		kerri < lisa
+kerri > john		kerri > john
+nate > laura		nate < laura
+nate > jenniferb		nate < jenniferb
+nate < lisa		nate < lisa
+nate > john		nate > john
+laura > jenniferb		laura > jenniferb
+laura < lisa		laura < lisa
+laura > john		laura > john
+jenniferb < lisa		jenniferb < lisa
+jenniferb > john		jenniferb > john
+lisa > john		lisa > john
+::Equalcount		Totalcount		Accuracy
+::12		15		0.8
+
+---------------- NIST Evaluation --------------------- 
+Calculating File... mar11a
+-----------------------------TPC---------------------------- 
+          -=        Relations      =-             
+Auto_file		Human_file
+ashley > jessicad		ashley > jessicad
+ashley > eugenia		ashley > eugenia
+ashley > nicole		ashley > nicole
+ashley > tony		ashley > tony
+ashley > john		ashley > john
+jessicad < eugenia		jessicad > eugenia
+jessicad > nicole		jessicad > nicole
+jessicad > tony		jessicad < tony
+jessicad > john		jessicad > john
+eugenia > nicole		eugenia > nicole
+eugenia > tony		eugenia < tony
+eugenia > john		eugenia > john
+nicole < tony		nicole < tony
+nicole < john		nicole < john
+tony > john		tony > john
+::Equalcount		Totalcount		Accuracy
+::12		15		0.8
+
+---------------- NIST Evaluation --------------------- 
+Calculating File... mar11a
+-----------------------------TKC---------------------------- 
+          -=        Relations      =-             
+Auto_file		Human_file
+ashley = jessicad		ashley > jessicad
+ashley = eugenia		ashley > eugenia
+ashley = nicole		ashley > nicole
+ashley = tony		ashley < tony
+ashley = john		ashley > john
+jessicad = eugenia		jessicad < eugenia
+jessicad = nicole		jessicad > nicole
+jessicad = tony		jessicad < tony
+jessicad = john		jessicad < john
+eugenia = nicole		eugenia > nicole
+eugenia = tony		eugenia < tony
+eugenia = john		eugenia < john
+nicole = tony		nicole < tony
+nicole = john		nicole < john
+tony = john		tony > john
+::Equalcount		Totalcount		Accuracy
+::0		15		0.0
+
+---------------- NIST Evaluation --------------------- 
+Calculating File... mar11a
+-----------------------------INV---------------------------- 
+          -=        Relations      =-             
+Auto_file		Human_file
+ashley > jessicad		ashley > jessicad
+ashley > eugenia		ashley > eugenia
+ashley > nicole		ashley > nicole
+ashley > tony		ashley > tony
+ashley > john		ashley > john
+jessicad > eugenia		jessicad < eugenia
+jessicad > nicole		jessicad > nicole
+jessicad > tony		jessicad < tony
+jessicad > john		jessicad < john
+eugenia > nicole		eugenia > nicole
+eugenia > tony		eugenia < tony
+eugenia > john		eugenia < john
+nicole < tony		nicole < tony
+nicole < john		nicole < john
+tony > john		tony = john
+::Equalcount		Totalcount		Accuracy
+::9		15		0.6
+
+---------------- NIST Evaluation --------------------- 
+Calculating File... mar11b
+-----------------------------TPC---------------------------- 
+          -=        Relations      =-             
+Auto_file		Human_file
+kerri < nate		kerri > nate
+kerri > laura		kerri > laura
+kerri < jennifer		kerri > jennifer
+kerri > lisa		kerri < lisa
+nate > laura		nate < laura
+nate > jennifer		nate < jennifer
+nate > lisa		nate < lisa
+laura < jennifer		laura > jennifer
+laura < lisa		laura < lisa
+jennifer > lisa		jennifer < lisa
+::Equalcount		Totalcount		Accuracy
+::2		10		0.2
+
+---------------- NIST Evaluation --------------------- 
+Calculating File... mar11b
+-----------------------------TKC---------------------------- 
+          -=        Relations      =-             
+Auto_file		Human_file
+kerri = nate		kerri > nate
+kerri = laura		kerri > laura
+kerri = jennifer		kerri > jennifer
+kerri > lisa		kerri < lisa
+kerri = john		kerri > john
+nate = laura		nate < laura
+nate = jennifer		nate < jennifer
+nate > lisa		nate < lisa
+nate = john		nate > john
+laura = jennifer		laura < jennifer
+laura > lisa		laura < lisa
+laura = john		laura > john
+jennifer > lisa		jennifer < lisa
+jennifer = john		jennifer > john
+lisa < john		lisa > john
+::Equalcount		Totalcount		Accuracy
+::0		15		0.0
+
+---------------- NIST Evaluation --------------------- 
+Calculating File... mar11b
+-----------------------------INV---------------------------- 
+          -=        Relations      =-             
+Auto_file		Human_file
+kerri < nate		kerri < nate
+kerri > laura		kerri < laura
+kerri < jennifer		kerri < jennifer
+kerri < lisa		kerri < lisa
+nate > laura		nate > laura
+nate > jennifer		nate > jennifer
+nate > lisa		nate > lisa
+laura < jennifer		laura = jennifer
+laura < lisa		laura < lisa
+jennifer < lisa		jennifer < lisa
+::Equalcount		Totalcount		Accuracy
+::8		10		0.8
+
+---------------- NIST Evaluation --------------------- 
+Calculating File... mar14a
+-----------------------------TPC---------------------------- 
+          -=        Relations      =-             
+Auto_file		Human_file
+ashley < jorge		ashley < jorge
+ashley > tony		ashley > tony
+ashley < sarah		ashley > sarah
+jorge > tony		jorge > tony
+jorge < sarah		jorge > sarah
+tony < sarah		tony > sarah
+::Equalcount		Totalcount		Accuracy
+::3		6		0.5
+
+---------------- NIST Evaluation --------------------- 
+Calculating File... mar14a
+-----------------------------TKC---------------------------- 
+          -=        Relations      =-             
+Auto_file		Human_file
+ashley = jorge		ashley > jorge
+ashley = tony		ashley > tony
+ashley = sarah		ashley > sarah
+jorge = tony		jorge > tony
+jorge = sarah		jorge > sarah
+tony = sarah		tony > sarah
+::Equalcount		Totalcount		Accuracy
+::0		6		0.0
+
+---------------- NIST Evaluation --------------------- 
+Calculating File... mar14a
+-----------------------------INV---------------------------- 
+          -=        Relations      =-             
+Auto_file		Human_file
+ashley < jorge		ashley < jorge
+ashley > tony		ashley > tony
+ashley < sarah		ashley < sarah
+jorge > tony		jorge > tony
+jorge > sarah		jorge > sarah
+tony < sarah		tony < sarah
+::Equalcount		Totalcount		Accuracy
+::6		6		1.0
+
+---------------- NIST Evaluation --------------------- 
+Calculating File... mar14b
+-----------------------------TPC---------------------------- 
+          -=        Relations      =-             
+Auto_file		Human_file
+jodie > laura		jodie > laura
+jodie > jenniferb		jodie = jenniferb
+jodie > lisa		jodie < lisa
+laura < jenniferb		laura < jenniferb
+laura < lisa		laura < lisa
+jenniferb > lisa		jenniferb < lisa
+::Equalcount		Totalcount		Accuracy
+::3		6		0.5
+
+---------------- NIST Evaluation --------------------- 
+Calculating File... mar14b
+-----------------------------TKC---------------------------- 
+          -=        Relations      =-             
+Auto_file		Human_file
+jodie = laura		jodie = laura
+jodie = jenniferb		jodie < jenniferb
+jodie = lisa		jodie < lisa
+laura = jenniferb		laura < jenniferb
+laura = lisa		laura < lisa
+jenniferb = lisa		jenniferb = lisa
+::Equalcount		Totalcount		Accuracy
+::2		6		0.3333333333333333
+
+---------------- NIST Evaluation --------------------- 
+Calculating File... mar14b
+-----------------------------INV---------------------------- 
+          -=        Relations      =-             
+Auto_file		Human_file
+jodie > laura		jodie > laura
+jodie < jenniferb		jodie = jenniferb
+jodie < lisa		jodie = lisa
+laura < jenniferb		laura < jenniferb
+laura < lisa		laura < lisa
+jenniferb < lisa		jenniferb = lisa
+::Equalcount		Totalcount		Accuracy
+::3		6		0.5
