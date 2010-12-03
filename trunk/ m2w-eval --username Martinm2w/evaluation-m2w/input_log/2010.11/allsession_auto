@@ -1,0 +1,417 @@
+		
+		
+feb19a	tpc	%
+jennifer	6	$
+kerri	5	$
+jessicad	4	$
+lisa	3	$
+eugenia	2	$
+laura	1	$
+		
+		
+feb19a	tkc	%
+jennifer	6	$
+eugenia	3	$
+lisa	3	$
+kerri	3	$
+laura	1	$
+jessicad	1	$
+		
+		
+feb19a	inv	%
+jennifer	6	$
+kerri	5	$
+lisa	4	$
+laura	3	$
+eugenia	2	$
+jessicad	1	$
+		
+		
+feb19b	tpc	%
+carol	6	$
+dk	5	$
+nicole	4	$
+danielle	3	$
+jessicaf	2	$
+jessamyn	1	$
+		
+		
+feb19b	tkc	%
+jessamyn	1	$
+danielle	1	$
+dk	1	$
+jessicaf	1	$
+carol	1	$
+nicole	1	$
+		
+		
+feb19b	inv	%
+carol	6	$
+dk	5	$
+nicole	4	$
+jessicaf	3	$
+danielle	2	$
+jessamyn	1	$
+		
+		
+feb26a	tpc	%
+carol	7	$
+lauren	6	$
+ashley	5	$
+nicole	4	$
+tony	3	$
+john	2	$
+danielle	1	$
+		
+		
+feb26a	tkc	%
+danielle	1	$
+lauren	1	$
+tony	1	$
+ashley	1	$
+john	1	$
+nicole	1	$
+carol	1	$
+		
+		
+feb26a	inv	%
+nicole	7	$
+carol	6	$
+ashley	5	$
+lauren	4	$
+john	3	$
+tony	2	$
+danielle	1	$
+		
+		
+feb27a	tpc	%
+nate	5	$
+sarah	4	$
+ashley	3	$
+tony	2	$
+samantha	1	$
+		
+		
+feb27a	tkc	%
+samantha	1	$
+nate	1	$
+tony	1	$
+ashley	1	$
+sarah	1	$
+		
+		
+feb27a	inv	%
+nate	5	$
+sarah	4	$
+tony	3	$
+ashley	2	$
+samantha	1	$
+		
+		
+feb27b	tpc	%
+jennifer	5	$
+laura	4	$
+jessicad	3	$
+lauren	2	$
+john	1	$
+		
+		
+feb27b	tkc	%
+jennifer	1	$
+jessicad	1	$
+lauren	1	$
+laura	1	$
+john	1	$
+		
+		
+feb27b	inv	%
+laura	5	$
+jennifer	4	$
+jessicad	3	$
+lauren	2	$
+john	1	$
+		
+		
+feb28a	tpc	%
+jennifer	6	$
+laura	5	$
+jessicaf	4	$
+nicole	3	$
+jessamyn	2	$
+john	1	$
+		
+		
+feb28a	tkc	%
+laura	1	$
+jessamyn	1	$
+john	1	$
+jessicaf	1	$
+jennifer	1	$
+nicole	1	$
+		
+		
+feb28a	inv	%
+laura	6	$
+jennifer	5	$
+nicole	4	$
+jessamyn	3	$
+john	2	$
+jessicaf	1	$
+		
+		
+feb28b	tpc	%
+lisa	5	$
+jessicad	4	$
+ashley	3	$
+jorge	2	$
+tony	1	$
+		
+		
+feb28b	tkc	%
+tony	1	$
+lisa	1	$
+jorge	1	$
+ashley	1	$
+jessicad	1	$
+		
+		
+feb28b	inv	%
+lisa	5	$
+jessicad	4	$
+jorge	3	$
+tony	2	$
+ashley	1	$
+		
+		
+mar06a	tpc	%
+jodie	8	$
+nicole	7	$
+eugenia	6	$
+ashley	5	$
+jessamyn	4	$
+tony	3	$
+danielle	2	$
+jessicad	1	$
+		
+		
+mar06a	tkc	%
+jessamyn	1	$
+eugenia	1	$
+ashley	1	$
+jessicad	1	$
+nicole	1	$
+danielle	1	$
+jodie	1	$
+tony	1	$
+		
+		
+mar06a	inv	%
+nicole	8	$
+jodie	7	$
+tony	6	$
+danielle	5	$
+ashley	4	$
+eugenia	3	$
+jessicad	2	$
+jessamyn	1	$
+		
+		
+mar07a	tpc	%
+nicole	6	$
+eugenia	5	$
+tony	4	$
+danielle	3	$
+ashley	2	$
+jessamyn	1	$
+		
+		
+mar07a	tkc	%
+jessamyn	1	$
+eugenia	1	$
+tony	1	$
+danielle	1	$
+ashley	1	$
+nicole	1	$
+		
+		
+mar07a	inv	%
+eugenia	6	$
+jessamyn	5	$
+nicole	4	$
+tony	3	$
+ashley	2	$
+danielle	1	$
+		
+		
+mar07b	tpc	%
+laura	6	$
+lisa	5	$
+sarah	4	$
+jessicaf	3	$
+jorge	2	$
+john	1	$
+		
+		
+mar07b	tkc	%
+jorge	1	$
+sarah	1	$
+laura	1	$
+john	1	$
+jessicaf	1	$
+lisa	1	$
+		
+		
+mar07b	inv	%
+sarah	6	$
+lisa	5	$
+laura	4	$
+jorge	3	$
+jessicaf	2	$
+john	1	$
+		
+		
+mar10a	tpc	%
+carol	6	$
+sarah	5	$
+jorge	4	$
+ashley	3	$
+jennifer	2	$
+samantha	1	$
+		
+		
+mar10a	tkc	%
+jorge	1	$
+samantha	1	$
+ashley	1	$
+sarah	1	$
+jennifer	1	$
+carol	1	$
+		
+		
+mar10a	inv	%
+carol	6	$
+sarah	5	$
+jorge	4	$
+jennifer	3	$
+ashley	2	$
+samantha	1	$
+		
+		
+mar10b	tpc	%
+kerri	6	$
+lisa	5	$
+nate	4	$
+jenniferb	3	$
+laura	2	$
+john	1	$
+		
+		
+mar10b	tkc	%
+nate	1	$
+jenniferb	1	$
+laura	1	$
+john	1	$
+kerri	1	$
+lisa	1	$
+		
+		
+mar10b	inv	%
+lisa	6	$
+nate	5	$
+laura	4	$
+kerri	3	$
+jenniferb	2	$
+john	1	$
+		
+		
+mar11a	tpc	%
+ashley	6	$
+eugenia	5	$
+jessicad	4	$
+tony	3	$
+john	2	$
+nicole	1	$
+		
+		
+mar11a	tkc	%
+eugenia	1	$
+tony	1	$
+ashley	1	$
+john	1	$
+jessicad	1	$
+nicole	1	$
+		
+		
+mar11a	inv	%
+ashley	6	$
+jessicad	5	$
+eugenia	4	$
+tony	3	$
+john	2	$
+nicole	1	$
+		
+		
+mar11b	tpc	%
+nate	5	$
+jennifer	4	$
+kerri	3	$
+lisa	2	$
+laura	1	$
+		
+		
+mar11b	tkc	%
+nate	1	$
+jennifer	1	$
+john	1	$
+laura	1	$
+kerri	1	$
+		
+		
+mar11b	inv	%
+nate	5	$
+lisa	4	$
+jennifer	3	$
+kerri	2	$
+laura	1	$
+		
+		
+mar14a	tpc	%
+sarah	4	$
+jorge	3	$
+ashley	2	$
+tony	1	$
+		
+		
+mar14a	tkc	%
+jorge	1	$
+tony	1	$
+ashley	1	$
+sarah	1	$
+		
+		
+mar14a	inv	%
+jorge	4	$
+sarah	3	$
+ashley	2	$
+tony	1	$
+		
+		
+mar14b	tpc	%
+jodie	4	$
+jenniferb	3	$
+lisa	2	$
+laura	1	$
+		
+		
+mar14b	tkc	%
+jodie	1	$
+jenniferb	1	$
+laura	1	$
+lisa	1	$
+		
+		
+mar14b	inv	%
+lisa	4	$
+jenniferb	3	$
+jodie	2	$
+laura	1	$
