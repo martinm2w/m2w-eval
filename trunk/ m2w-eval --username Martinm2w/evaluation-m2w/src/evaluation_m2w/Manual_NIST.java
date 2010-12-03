@@ -40,10 +40,10 @@ public class Manual_NIST {
 
     public static void main(String[] args){
 
-        String human_annotation = "D:/m2w cs/evaluation-m2w/src/input_files/annotated_qtscore";
-        String auto_annotation = "D:/m2w cs/evaluation-m2w/src/input_files/automated_qtscore";
+        String human_annotation = "D:/m2w cs/evaluation-m2w/src/input_files/allsession_anno";
+        String auto_annotation = "D:/m2w cs/evaluation-m2w/src/input_files/allsession_auto";
 
-        String evaluation_file = "D:/m2w cs/evaluation-m2w/src/output_files/result11-1_qtscore";
+        String evaluation_file = "D:/m2w cs/evaluation-m2w/src/output_files/all_session_result";
 
             try { //extract names/topics
                 BufferedReader br = new BufferedReader(new FileReader(human_annotation));
@@ -311,7 +311,7 @@ public class Manual_NIST {
         try {
                 BufferedWriter bw = new BufferedWriter(new FileWriter(filePath, true));
                	
-                	bw.write("---------------- NIST Evaluation --------------------- \n");
+                	bw.write("\n---------------- NIST Evaluation --------------------- \n");
                 	
                 	bw.write("Calculating File... " + curFile +"\n");
                 	
