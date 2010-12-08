@@ -1,0 +1,41 @@
+
+---------------- NIST Evaluation --------------------- 
+Calculating File... feb19b
+-----------------------------LEADER---------------------------- 
+          -=        Relations      =-             
+Auto_file		Human_file
+nicole < dk		nicole < dk
+nicole < danielle		nicole > danielle
+nicole < carol		nicole < carol
+nicole = jessamyn		nicole > jessamyn
+nicole < jessicaf		nicole > jessicaf
+dk > danielle		dk > danielle
+dk > carol		dk > carol
+dk > jessamyn		dk > jessamyn
+dk > jessicaf		dk > jessicaf
+danielle > carol		danielle < carol
+danielle > jessamyn		danielle > jessamyn
+danielle > jessicaf		danielle > jessicaf
+carol > jessamyn		carol > jessamyn
+carol = jessicaf		carol > jessicaf
+jessamyn < jessicaf		jessamyn < jessicaf
+::Equalcount		Totalcount		Accuracy
+::10		15		0.6666666666666666
+
+---------------- NIST Evaluation --------------------- 
+Calculating File... mar11b
+-----------------------------LEADER---------------------------- 
+          -=        Relations      =-             
+Auto_file		Human_file
+lisa < kerri		lisa < kerri
+lisa < laura		lisa > laura
+lisa < nate		lisa > nate
+lisa < jennifer		lisa > jennifer
+kerri < laura		kerri > laura
+kerri < nate		kerri > nate
+kerri < jennifer		kerri > jennifer
+laura < nate		laura > nate
+laura > jennifer		laura = jennifer
+nate > jennifer		nate < jennifer
+::Equalcount		Totalcount		Accuracy
+::1		10		0.1
