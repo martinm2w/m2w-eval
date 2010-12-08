@@ -1,0 +1,158 @@
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: Feb19_GroupB_danielle.xml
+total_ac_oc_: 38
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Task Control - DI quintile
+The di of ilspersonnel2 is: 0.13157894736842105
+The di of jessamyn is: 0.02631578947368421
+The di of danielle is: 0.13157894736842105
+The di of dk is: 0.2631578947368421
+The di of jessicaf is: 0.10526315789473684
+The di of carol is: 0.23684210526315788
+The di of Nicole is: 0.10526315789473684
+The quintile score of dk is: 5 --- actual score: (10)0.2631578947368421
+The quintile score of carol is: 4 --- actual score: (9)0.23684210526315788
+The quintile score of ilspersonnel2 is: 3 --- actual score: (5)0.13157894736842105
+The quintile score of danielle is: 3 --- actual score: (5)0.13157894736842105
+The quintile score of jessicaf is: 2 --- actual score: (4)0.10526315789473684
+The quintile score of Nicole is: 2 --- actual score: (4)0.10526315789473684
+The quintile score of jessamyn is: 1 --- actual score: (1)0.02631578947368421
+total_ac_oc_: 29
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Task Control - PMI quintile
+The pmi of ilspersonnel2 is: 0.13793103448275862
+The pmi of jessamyn is: 0.034482758620689655
+The pmi of danielle is: 0.06896551724137931
+The pmi of dk is: 0.27586206896551724
+The pmi of jessicaf is: 0.10344827586206896
+The pmi of carol is: 0.27586206896551724
+The pmi of Nicole is: 0.10344827586206896
+The quintile score of dk is: 4 --- actual score: 0.27586206896551724
+The quintile score of carol is: 4 --- actual score: 0.27586206896551724
+The quintile score of ilspersonnel2 is: 4 --- actual score: 0.13793103448275862
+The quintile score of jessicaf is: 2 --- actual score: 0.10344827586206896
+The quintile score of Nicole is: 2 --- actual score: 0.10344827586206896
+The quintile score of danielle is: 2 --- actual score: 0.06896551724137931
+The quintile score of jessamyn is: 1 --- actual score: 0.034482758620689655
+total_ac_oc_: 17
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Task Control - PMSI quintile
+The di of ilspersonnel2 is: 0.17647058823529413
+The di of jessamyn is: 0.058823529411764705
+The di of danielle is: 0.0
+The di of dk is: 0.35294117647058826
+The di of jessicaf is: 0.11764705882352941
+The di of carol is: 0.17647058823529413
+The di of Nicole is: 0.11764705882352941
+The quintile score of dk is: 5 --- actual score: 0.35294117647058826
+The quintile score of ilspersonnel2 is: 4 --- actual score: 0.17647058823529413
+The quintile score of carol is: 4 --- actual score: 0.17647058823529413
+The quintile score of jessicaf is: 2 --- actual score: 0.11764705882352941
+The quintile score of Nicole is: 2 --- actual score: 0.11764705882352941
+The quintile score of jessamyn is: 2 --- actual score: 0.058823529411764705
+The quintile score of danielle is: 1 --- actual score: 0.0
+total_ac_oc_: 20
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Task Control - DTSI quintile
+The di of ilspersonnel2 is: 0.15
+The di of jessamyn is: 0.0
+The di of danielle is: 0.1
+The di of dk is: 0.15
+The di of jessicaf is: 0.05
+The di of carol is: 0.05
+The di of Nicole is: 0.0
+The quintile score of ilspersonnel2 is: 4 --- actual score: 0.15
+The quintile score of dk is: 4 --- actual score: 0.15
+The quintile score of danielle is: 4 --- actual score: 0.1
+The quintile score of jessicaf is: 2 --- actual score: 0.05
+The quintile score of carol is: 2 --- actual score: 0.05
+The quintile score of jessamyn is: 1 --- actual score: 0.0
+The quintile score of Nicole is: 1 --- actual score: 0.0
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+processing: Mar11_GroupB_danielle.xml
+total_ac_oc_: 65
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Task Control - DI quintile
+The di of nate is: 0.3076923076923077
+The di of ilspersonnel is: 0.12307692307692308
+The di of jenifer is: 0.18461538461538463
+The di of johnw is: 0.0
+The di of laura is: 0.16923076923076924
+The di of kerri is: 0.12307692307692308
+The di of jessicad is: 0.0
+The di of lisa is: 0.09230769230769231
+The quintile score of nate is: 5 --- actual score: (20)0.3076923076923077
+The quintile score of jenifer is: 4 --- actual score: (12)0.18461538461538463
+The quintile score of laura is: 4 --- actual score: (11)0.16923076923076924
+The quintile score of ilspersonnel is: 3 --- actual score: (8)0.12307692307692308
+The quintile score of kerri is: 3 --- actual score: (8)0.12307692307692308
+The quintile score of lisa is: 2 --- actual score: (6)0.09230769230769231
+The quintile score of johnw is: 1 --- actual score: (0)0.0
+The quintile score of jessicad is: 1 --- actual score: (0)0.0
+total_ac_oc_: 60
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Task Control - PMI quintile
+The pmi of nate is: 0.31666666666666665
+The pmi of ilspersonnel is: 0.1
+The pmi of jenifer is: 0.18333333333333332
+The pmi of johnw is: 0.0
+The pmi of laura is: 0.16666666666666666
+The pmi of kerri is: 0.13333333333333333
+The pmi of jessicad is: 0.0
+The pmi of lisa is: 0.1
+The quintile score of nate is: 5 --- actual score: 0.31666666666666665
+The quintile score of jenifer is: 4 --- actual score: 0.18333333333333332
+The quintile score of laura is: 4 --- actual score: 0.16666666666666666
+The quintile score of kerri is: 3 --- actual score: 0.13333333333333333
+The quintile score of ilspersonnel is: 2 --- actual score: 0.1
+The quintile score of lisa is: 2 --- actual score: 0.1
+The quintile score of johnw is: 1 --- actual score: 0.0
+The quintile score of jessicad is: 1 --- actual score: 0.0
+total_ac_oc_: 24
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Task Control - PMSI quintile
+The di of nate is: 0.2916666666666667
+The di of ilspersonnel is: 0.25
+The di of jenifer is: 0.125
+The di of johnw is: 0.0
+The di of laura is: 0.20833333333333334
+The di of kerri is: 0.08333333333333333
+The di of jessicad is: 0.0
+The di of lisa is: 0.041666666666666664
+The quintile score of nate is: 5 --- actual score: 0.2916666666666667
+The quintile score of ilspersonnel is: 4 --- actual score: 0.25
+The quintile score of laura is: 4 --- actual score: 0.20833333333333334
+The quintile score of jenifer is: 3 --- actual score: 0.125
+The quintile score of kerri is: 3 --- actual score: 0.08333333333333333
+The quintile score of lisa is: 2 --- actual score: 0.041666666666666664
+The quintile score of johnw is: 1 --- actual score: 0.0
+The quintile score of jessicad is: 1 --- actual score: 0.0
+total_ac_oc_: 43
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+++++++++++++++++++++++++++++++++
+calculate Task Control - DTSI quintile
+The di of nate is: 0.11627906976744186
+The di of ilspersonnel is: 0.16279069767441862
+The di of jenifer is: 0.023255813953488372
+The di of johnw is: 0.0
+The di of laura is: 0.09302325581395349
+The di of kerri is: 0.0
+The di of jessicad is: 0.0
+The di of lisa is: 0.0
+The quintile score of ilspersonnel is: 5 --- actual score: 0.16279069767441862
+The quintile score of nate is: 4 --- actual score: 0.11627906976744186
+The quintile score of laura is: 4 --- actual score: 0.09302325581395349
+The quintile score of jenifer is: 3 --- actual score: 0.023255813953488372
+The quintile score of johnw is: 1 --- actual score: 0.0
+The quintile score of kerri is: 1 --- actual score: 0.0
+The quintile score of jessicad is: 1 --- actual score: 0.0
+The quintile score of lisa is: 1 --- actual score: 0.0
