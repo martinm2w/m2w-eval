@@ -41,9 +41,9 @@ public class Manual_NIST {
     public static void main(String[] args){
 
         String human_annotation = "D:/m2w cs/evaluation-m2w/src/input_files/post_session_leader_rank";
-        String auto_annotation = "D:/m2w cs/evaluation-m2w/src/input_files/pmsi_act_rank";
+        String auto_annotation = "D:/m2w cs/evaluation-m2w/src/input_files/danielle_dtsi_qt_rank";
 
-        String evaluation_file = "D:/m2w cs/evaluation-m2w/src/output_files/leader_pmsi_act_result.txt";
+        String evaluation_file = "D:/m2w cs/evaluation-m2w/src/output_files/leader_danielle_dtsi_qt_rank_result.txt";
 
             try { //extract names/topics
                 BufferedReader br = new BufferedReader(new FileReader(human_annotation));

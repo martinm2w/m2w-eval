@@ -49,6 +49,23 @@ public class Preprocessing {
 //			"D:/m2w cs/evaluation-m2w/src/preprocessed/expressive_disagreement_auto_3_pp_me");
 
 }
+	
+	/*this method is for parsing the data out of the file to do NIST MANUAL eval*/
+	
+	public void parseManualEval(String inputFile, String outputFile){
+		
+		String input = inputFile;
+		String output = outputFile;
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	
 	public void parseExpDisForMatch (String input1, String input2, String input3, String input4) {
 		
 		String human_file = input1; // "D:/m2w cs/evaldata/input_log/older/expressive_disagreement_lauren_3"
