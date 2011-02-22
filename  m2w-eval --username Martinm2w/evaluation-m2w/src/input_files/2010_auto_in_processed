@@ -1,0 +1,420 @@
+		
+		
+Feb19A	tpc_lti	%
+jenniferb	6	$
+kerri	5	$
+eugenia	4	$
+lisa	3	$
+jessicad	2	$
+laura	1	$
+		
+		
+Feb19A	tpc_smt	%
+jessicad	6	$
+jenniferb	5	$
+lisa	4	$
+eugenia	3	$
+kerri	2	$
+laura	1	$
+		
+		
+Feb19A	tpc_cs	%
+jessicad	6	$
+jenniferb	5	$
+eugenia	4	$
+lisa	3	$
+kerri	2	$
+laura	1	$
+		
+		
+Feb19A	tpc_tl	%
+jenniferb	6	$
+lisa	5	$
+eugenia	4	$
+jessicad	3	$
+kerri	2	$
+laura	1	$
+		
+		
+Feb19A	tpc_merge	%
+jenniferb	6	$
+jessicad	5	$
+eugenia	4	$
+lisa	3	$
+kerri	2	$
+laura	1	$
+		
+		
+Feb19A	tsk	%
+jenniferb	6	$
+lisa	5	$
+eugenia	2	$
+kerri	2	$
+laura	2	$
+jessicad	1	$
+		
+		
+Feb19A	inv_npi	%
+jenniferb	6	$
+laura	4	$
+lisa	4	$
+kerri	3	$
+eugenia	2	$
+jessicad	1	$
+		
+		
+Feb19A	inv_ti	%
+jenniferb	6	$
+laura	5	$
+kerri	4	$
+eugenia	3	$
+lisa	2	$
+jessicad	1	$
+		
+		
+Feb19A	inv_tci	%
+jenniferb	6	$
+lisa	5	$
+kerri	3	$
+laura	3	$
+eugenia	2	$
+jessicad	1	$
+		
+		
+Feb19A	inv_allotp	%
+jenniferb	3	$
+kerri	3	$
+laura	3	$
+lisa	3	$
+eugenia	2	$
+jessicad	1	$
+		
+		
+Feb19A	inv_asmi	%
+jenniferb	6	$
+lisa	5	$
+kerri	4	$
+laura	3	$
+eugenia	2	$
+jessicad	1	$
+		
+		
+Feb19A	inv_merge	%
+jenniferb	6	$
+lisa	5	$
+laura	4	$
+kerri	3	$
+eugenia	2	$
+jessicad	1	$
+		
+		
+Feb28A	tpc_lti	%
+jenifer	6	$
+laura	5	$
+nicole	4	$
+jessamyn	3	$
+johnw	2	$
+jessicaf	1	$
+		
+		
+Feb28A	tpc_smt	%
+jenifer	6	$
+laura	5	$
+jessicaf	4	$
+nicole	3	$
+jessamyn	2	$
+johnw	1	$
+		
+		
+Feb28A	tpc_cs	%
+jenifer	6	$
+laura	5	$
+jessicaf	4	$
+jessamyn	2	$
+nicole	2	$
+johnw	1	$
+		
+		
+Feb28A	tpc_tl	%
+jenifer	6	$
+johnw	5	$
+jessicaf	4	$
+laura	3	$
+jessamyn	2	$
+nicole	1	$
+		
+		
+Feb28A	tpc_merge	%
+jenifer	6	$
+laura	5	$
+jessicaf	4	$
+nicole	3	$
+jessamyn	2	$
+johnw	1	$
+		
+		
+Feb28A	tsk	%
+jenifer	6	$
+laura	5	$
+jessamyn	3	$
+nicole	3	$
+jessicaf	2	$
+johnw	1	$
+		
+		
+Feb28A	inv_npi	%
+jenifer	6	$
+laura	5	$
+nicole	4	$
+jessamyn	3	$
+jessicaf	2	$
+johnw	1	$
+		
+		
+Feb28A	inv_ti	%
+laura	6	$
+nicole	5	$
+jenifer	4	$
+jessamyn	3	$
+johnw	2	$
+jessicaf	1	$
+		
+		
+Feb28A	inv_tci	%
+laura	6	$
+jenifer	5	$
+nicole	4	$
+johnw	2	$
+jessicaf	2	$
+jessamyn	1	$
+		
+		
+Feb28A	inv_allotp	%
+laura	6	$
+nicole	4	$
+jenifer	4	$
+jessamyn	1	$
+johnw	1	$
+jessicaf	1	$
+		
+		
+Feb28A	inv_asmi	%
+jenifer	6	$
+laura	5	$
+nicole	4	$
+jessamyn	3	$
+johnw	2	$
+jessicaf	1	$
+		
+		
+Feb28A	inv_merge	%
+laura	6	$
+jenifer	5	$
+nicole	4	$
+jessamyn	3	$
+johnw	2	$
+jessicaf	1	$
+		
+		
+Feb28B	tpc_lti	%
+lisa	5	$
+jessicad	4	$
+ashley	3	$
+jorge1	2	$
+tony	1	$
+		
+		
+Feb28B	tpc_smt	%
+lisa	5	$
+jessicad	4	$
+jorge1	2	$
+ashley	2	$
+tony	1	$
+		
+		
+Feb28B	tpc_cs	%
+lisa	5	$
+jessicad	4	$
+ashley	3	$
+jorge1	2	$
+tony	1	$
+		
+		
+Feb28B	tpc_tl	%
+lisa	5	$
+jorge1	4	$
+tony	3	$
+ashley	2	$
+jessicad	1	$
+		
+		
+Feb28B	tpc_merge	%
+lisa	5	$
+jessicad	4	$
+ashley	3	$
+jorge1	2	$
+tony	1	$
+		
+		
+Feb28B	tsk	%
+lisa	5	$
+ashley	4	$
+jorge1	2	$
+jessicad	2	$
+tony	1	$
+		
+		
+Feb28B	inv_npi	%
+lisa	5	$
+jorge1	4	$
+jessicad	3	$
+tony	2	$
+ashley	1	$
+		
+		
+Feb28B	inv_ti	%
+jessicad	5	$
+lisa	4	$
+jorge1	2	$
+ashley	2	$
+tony	1	$
+		
+		
+Feb28B	inv_tci	%
+lisa	5	$
+jorge1	4	$
+jessicad	3	$
+tony	2	$
+ashley	1	$
+		
+		
+Feb28B	inv_allotp	%
+jorge1	4	$
+jessicad	4	$
+tony	2	$
+lisa	2	$
+ashley	1	$
+		
+		
+Feb28B	inv_asmi	%
+lisa	5	$
+jessicad	4	$
+jorge1	3	$
+tony	2	$
+ashley	1	$
+		
+		
+Feb28B	inv_merge	%
+lisa	5	$
+jessicad	4	$
+jorge1	3	$
+tony	2	$
+ashley	1	$
+		
+		
+Mar7A	tcp_lti	%
+eugenia	6	$
+ashley	5	$
+jessamyn	4	$
+tony	3	$
+nicole	2	$
+danielle	1	$
+		
+		
+Mar7A	tpc_smt	%
+nicole	6	$
+tony	5	$
+eugenia	4	$
+danielle	3	$
+ashley	2	$
+jessamyn	1	$
+		
+		
+Mar7A	tpc_cs	%
+nicole	6	$
+tony	5	$
+eugenia	4	$
+danielle	3	$
+ashley	2	$
+jessamyn	1	$
+		
+		
+Mar7A	tpc_tl	%
+jessamyn	6	$
+tony	5	$
+ashley	4	$
+eugenia	3	$
+danielle	2	$
+nicole	1	$
+		
+		
+Mar7A	tpc_merge	%
+nicole	6	$
+eugenia	5	$
+tony	4	$
+ashley	3	$
+danielle	2	$
+jessamyn	1	$
+		
+		
+Mar7A	tsk	%
+eugenia	6	$
+ashley	5	$
+jessamyn	4	$
+danielle	1	$
+nicole	1	$
+tony	1	$
+		
+		
+Mar7A	inv_npi	%
+jessamyn	5	$
+nicole	5	$
+eugenia	4	$
+danielle	2	$
+ashley	2	$
+tony	1	$
+		
+		
+Mar7A	inv_ti	%
+eugenia	6	$
+nicole	5	$
+tony	4	$
+ashley	3	$
+jessamyn	2	$
+danielle	1	$
+		
+		
+Mar7A	inv_tci	%
+nicole	6	$
+jessamyn	4	$
+tony	4	$
+eugenia	3	$
+danielle	2	$
+ashley	1	$
+		
+		
+Mar7A	inv_allotp	%
+jessamyn	6	$
+danielle	1	$
+nicole	1	$
+eugenia	1	$
+tony	1	$
+ashley	1	$
+		
+		
+Mar7A	inv_asmi	%
+jessamyn	6	$
+nicole	4	$
+eugenia	4	$
+tony	3	$
+ashley	2	$
+danielle	1	$
+		
+		
+Mar7A	inv_merge	%
+nicole	6	$
+jessamyn	5	$
+eugenia	4	$
+tony	3	$
+ashley	2	$
+danielle	1	$
