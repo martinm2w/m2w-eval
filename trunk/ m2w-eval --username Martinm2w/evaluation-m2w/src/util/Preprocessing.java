@@ -14,23 +14,24 @@ import java.util.ArrayList;
 /**
  * 
  * @author m2w
- *
+ * @date 2011.02.17
  */
-
 public class Preprocessing {
 
 	public static void main(String[] args) throws IOException{
 		
 		Preprocessing p = new Preprocessing();
 		
+		p.parseManualEval(
+				"D:/m2w cs/evaluation-m2w/src/input_files/scil_automated_withDGR_jessamyn_leadership_4_ngt.txt", 
+				"D:/m2w cs/evaluation-m2w/src/preprocessed/jessa_pre.txt");
 		
-		
-		p.parseTskCtrl(
-				"D:/m2w cs/evaluation-m2w/src/input_files/task_control_6_lauren_annonated_ymca_training_cheney",
-				"D:/m2w cs/evaluation-m2w/src/input_files/task_control_6_automated_ymca_training_cheney",
-				"D:/m2w cs/evaluation-m2w/src/preprocessed/task_control_6_lauren_annonated_ymca_training_cheney_pp",
-				"D:/m2w cs/evaluation-m2w/src/preprocessed/task_control_6_automated_ymca_training_cheney_pp");
-//		
+//		p.parseTskCtrl(
+//				"D:/m2w cs/evaluation-m2w/src/input_files/task_control_6_lauren_annonated_ymca_training_cheney",
+//				"D:/m2w cs/evaluation-m2w/src/input_files/task_control_6_automated_ymca_training_cheney",
+//				"D:/m2w cs/evaluation-m2w/src/preprocessed/task_control_6_lauren_annonated_ymca_training_cheney_pp",
+//				"D:/m2w cs/evaluation-m2w/src/preprocessed/task_control_6_automated_ymca_training_cheney_pp");
+////		
 		
 		
 		
@@ -50,13 +51,99 @@ public class Preprocessing {
 
 }
 	
-	/*this method is for parsing the data out of the file to do NIST MANUAL eval*/
 	
+	/**
+	 * m2w :this method is for parsing the data out of the file to do NIST MANUAL eval
+	 *
+	 * @param inputFile
+	 * @param outputFile
+	 */
 	public void parseManualEval(String inputFile, String outputFile){
 		
 		String input = inputFile;
 		String output = outputFile;
+		ArrayList<String> theList = new ArrayList<String>();
 		
+		try {
+			BufferedReader br = new BufferedReader(new FileReader(inputFile));
+			PrintWriter pr = new PrintWriter(outputFile);
+			
+			
+			String tempStr = null;
+			while((tempStr = br.readLine()) != null ) {//1st. whole file
+				theList.add(tempStr);
+				
+				
+				
+				
+				
+				/*if (tempStr.contains("processing:")){
+					if (tempStr.contains("processing: daLog_2009_05_05.xml")){// this file is not in the post session
+						break;
+					}
+					String fileName = (tempStr.split(" ")[1].split("_")[0] + tempStr.split(" ")[1].split("_",-2)[1].split("p")[1]); //get file name like March13B
+					String tempSubStr = null;//for substring in title
+					
+					while((tempSubStr = br.readLine()) != null){//2nd. in each file
+						br.mark(1000);
+						if(tempSubStr.toLowerCase().contains("processing ")){
+							String tempCatName = tempSubStr.toLowerCase().split(" ")[1].split("...")[0];
+							String catName = null;
+							if (tempCatName.equals("task control")){
+								catName = "tsk";
+							}
+							if (tempCatName.equals("topic control")){
+								catName = "tpc";
+							}
+							if (tempCatName.equals("involvement")){
+								catName = "inv";
+							}
+							else catName = "bad";
+							
+							if (tempCatName.equals("task control") || tempCatName.equals("topic control") || tempCatName.equals("involvement")){
+								while((tempSubStr = br.readLine()) != null){// in each category
+									br.mark(1000);
+									if (tempSubStr.contains(s)){
+										
+									}
+									
+									
+									
+								}//3rd 
+								br.reset();
+							}
+						}
+						
+						fileName = null;
+					}//2nd
+					br.reset();
+					
+				}//if*/
+			}//1st
+			br.close();
+			
+			for(int i = 0; i < theList.size(); i ++){
+				
+				if (theList.get(i).contains("_")){
+					String tempListStr = theList.get(i);
+					tempListStr = tempListStr.split("_")[0] + "\t" + tempListStr.split("_")[1];
+					theList.set(i, tempListStr);
+				}
+			}
+			
+			for(int i = 0; i < theList.size(); i ++){
+				pr.println(theList.get(i));
+			}
+			
+			pr.close();
+			
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
 		
 		
