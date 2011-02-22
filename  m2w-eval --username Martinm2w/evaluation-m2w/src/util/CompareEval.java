@@ -14,6 +14,13 @@ import java.util.ArrayList;
 
 public class CompareEval {
 	
+	/**
+	 * m2w: this method is for the NIST evaluation.
+	 * @param bw
+	 * @param speakers
+	 * @param auto_qscore
+	 * @param human_qscore
+	 */
 	public void compareEval(BufferedWriter bw, String[] speakers, int[] auto_qscore, int[] human_qscore){
 		
 		ArrayList<String> compListH = new ArrayList<String>();
@@ -120,6 +127,122 @@ public class CompareEval {
 		}
         
 	}
+	
+	/**
+	 * m2w: this is for simple output
+	 * @date 2011-02-22
+	 * @param bw
+	 * @param speakers
+	 * @param auto_qscore
+	 * @param human_qscore
+	 */
+	public void nistEval_simple(BufferedWriter bw, String[] speakers, int[] auto_qscore, int[] human_qscore){
+		
+		ArrayList<String> compListH = new ArrayList<String>();
+		ArrayList<String> compListA = new ArrayList<String>();
+		int equalCount = 0;
+		
+		/*checking input*/
+		for (int k = 0; k < auto_qscore.length; k ++ ){
+			System.out.println("input auto qscore in auto_qscore: " + auto_qscore[k]);
+		}
+		
+		System.out.println("----------------------------------------");
+		
+		for (int k = 0; k < human_qscore.length; k ++ ){
+			System.out.println("input human qscore in human_qsore: " + human_qscore[k]);
+		}
+		
+		System.out.println("========================================");
+		
+		 /*Relations*/
+        try {
+        	
+//			bw.write("          -=        Relations      =-             ");
+//			bw.newLine();
+//	        bw.write("Auto_file\t\t" + "Human_file");
+//	        bw.newLine();
+			
+	        for(int i = 0; i < (speakers.length - 1); i++){
+	        
+	        	/*1st round check*/
+	        	if(auto_qscore == null || human_qscore == null){
+	                continue;
+	            }
+	            if(auto_qscore[i] == 0 && human_qscore[i] == 0){
+	                continue;
+	            }
+	            
+	        	for(int j = i+1; j < speakers.length; j++){
+	        		
+	        		
+	        		 /*2 if discard speaker not in subfile*/
+	        		if(auto_qscore == null || human_qscore == null){
+                        continue;
+                    }
+                    if(auto_qscore[j] == 0 && human_qscore[j] == 0){ //maybe -1
+                        continue;
+                    }
+                                   
+	        		String tempStra = null;
+	        		String tempStrh = null;
+	        		
+	        		/*auto_file logic*/
+	        		if(auto_qscore[i] < auto_qscore[j]){
+	        			tempStra = speakers[i] + " < " + speakers[j];
+	        		}
+	        		
+	        		if(auto_qscore[i] > auto_qscore[j]){
+	        			tempStra = speakers[i] + " > " + speakers[j];
+	        		}
+	        		
+	        		if(auto_qscore[i] == auto_qscore[j]){
+	        			tempStra = speakers[i] + " = " + speakers[j];
+	        		}
+	        		
+	        		/*human_file logic*/
+	        		if (human_qscore[i] < human_qscore[j]){
+	        			tempStrh = speakers[i] + " < " + speakers[j];
+	        		
+	        		}
+	        		if (human_qscore[i] > human_qscore[j]){
+	        			tempStrh = speakers[i] + " > " + speakers[j];
+	        		}
+	        		if (human_qscore[i] == human_qscore[j]){
+	        			tempStrh = speakers[i] + " = " + speakers[j];
+	        		}
+	        		
+	        		
+	        		compListA.add(tempStra);// use to print result
+	        		compListH.add(tempStrh);
+	        		
+	        		/*calculate equalcount*/
+	        		if(tempStra.equals(tempStrh)){
+	        			equalCount++;
+	        		}
+	        		
+//	        		bw.write(tempStra + "\t\t" + tempStrh);
+//	        		bw.newLine();
+	        	}
+	        	
+	        } // for all speakers
+	        
+	        /*result eval line*/
+	        bw.write("match\ttotal\tacc");
+	        bw.newLine();
+	        bw.write(equalCount + "\t" + compListA.size() + "\t" + ((double)equalCount / (double)compListA.size()));
+	        bw.newLine();
+	        
+	        compListA.clear();
+	        compListH.clear();
+	        
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+        
+	}
+	
 //	
 //	public void compareEval_tsk_ctrl(BufferedWriter bw, String[] speakers, int[] auto_qscore, int[] human_qscore){ArrayList<String> compListH = new ArrayList<String>();
 //	ArrayList<String> compListA = new ArrayList<String>();

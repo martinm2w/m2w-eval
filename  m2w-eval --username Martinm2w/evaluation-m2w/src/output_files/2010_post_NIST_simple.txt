@@ -1,0 +1,192 @@
+
+Feb19A	tpc_lti
+match	total	acc
+8	15	0.5333333333333333
+
+Feb19A	tpc_smt
+match	total	acc
+5	15	0.3333333333333333
+
+Feb19A	tpc_cs
+match	total	acc
+4	15	0.26666666666666666
+
+Feb19A	tpc_tl
+match	total	acc
+8	15	0.5333333333333333
+
+Feb19A	tpc_merge
+match	total	acc
+5	15	0.3333333333333333
+
+Feb19A	tsk
+match	total	acc
+10	15	0.6666666666666666
+
+Feb19A	inv_npi
+match	total	acc
+11	15	0.7333333333333333
+
+Feb19A	inv_ti
+match	total	acc
+9	15	0.6
+
+Feb19A	inv_tci
+match	total	acc
+12	15	0.8
+
+Feb19A	inv_allotp
+match	total	acc
+9	15	0.6
+
+Feb19A	inv_asmi
+match	total	acc
+13	15	0.8666666666666667
+
+Feb19A	inv_merge
+match	total	acc
+12	15	0.8
+
+Feb28A	tpc_lti
+match	total	acc
+9	15	0.6
+
+Feb28A	tpc_smt
+match	total	acc
+8	15	0.5333333333333333
+
+Feb28A	tpc_cs
+match	total	acc
+7	15	0.4666666666666667
+
+Feb28A	tpc_tl
+match	total	acc
+6	15	0.4
+
+Feb28A	tpc_merge
+match	total	acc
+8	15	0.5333333333333333
+
+Feb28A	tsk
+match	total	acc
+7	15	0.4666666666666667
+
+Feb28A	inv_npi
+match	total	acc
+10	15	0.6666666666666666
+
+Feb28A	inv_ti
+match	total	acc
+13	15	0.8666666666666667
+
+Feb28A	inv_tci
+match	total	acc
+13	15	0.8666666666666667
+
+Feb28A	inv_allotp
+match	total	acc
+11	15	0.7333333333333333
+
+Feb28A	inv_asmi
+match	total	acc
+11	15	0.7333333333333333
+
+Feb28A	inv_merge
+match	total	acc
+12	15	0.8
+
+Feb28B	tpc_lti
+match	total	acc
+7	10	0.7
+
+Feb28B	tpc_smt
+match	total	acc
+7	10	0.7
+
+Feb28B	tpc_cs
+match	total	acc
+7	10	0.7
+
+Feb28B	tpc_tl
+match	total	acc
+8	10	0.8
+
+Feb28B	tpc_merge
+match	total	acc
+7	10	0.7
+
+Feb28B	tsk
+match	total	acc
+8	10	0.8
+
+Feb28B	inv_npi
+match	total	acc
+7	10	0.7
+
+Feb28B	inv_ti
+match	total	acc
+5	10	0.5
+
+Feb28B	inv_tci
+match	total	acc
+7	10	0.7
+
+Feb28B	inv_allotp
+match	total	acc
+4	10	0.4
+
+Feb28B	inv_asmi
+match	total	acc
+6	10	0.6
+
+Feb28B	inv_merge
+match	total	acc
+6	10	0.6
+
+Mar7A	tcp_lti
+match	total	acc
+4	15	0.26666666666666666
+
+Mar7A	tpc_smt
+match	total	acc
+9	15	0.6
+
+Mar7A	tpc_cs
+match	total	acc
+9	15	0.6
+
+Mar7A	tpc_tl
+match	total	acc
+6	15	0.4
+
+Mar7A	tpc_merge
+match	total	acc
+7	15	0.4666666666666667
+
+Mar7A	tsk
+match	total	acc
+1	15	0.06666666666666667
+
+Mar7A	inv_npi
+match	total	acc
+7	15	0.4666666666666667
+
+Mar7A	inv_ti
+match	total	acc
+1	15	0.06666666666666667
+
+Mar7A	inv_tci
+match	total	acc
+3	15	0.2
+
+Mar7A	inv_allotp
+match	total	acc
+5	15	0.3333333333333333
+
+Mar7A	inv_asmi
+match	total	acc
+4	15	0.26666666666666666
+
+Mar7A	inv_merge
+match	total	acc
+4	15	0.26666666666666666

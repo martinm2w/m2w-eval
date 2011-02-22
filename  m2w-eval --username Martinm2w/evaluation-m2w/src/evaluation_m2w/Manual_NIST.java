@@ -43,7 +43,7 @@ public class Manual_NIST {
         String human_annotation = "D:/m2w cs/evaluation-m2w/src/input_files/2010_post_in_processed";
         String auto_annotation = "D:/m2w cs/evaluation-m2w/src/input_files/2010_auto_in_processed";
 
-        String evaluation_file = "D:/m2w cs/evaluation-m2w/src/output_files/2010_post_NIST.txt";
+        String evaluation_file = "D:/m2w cs/evaluation-m2w/src/output_files/2010_post_NIST_simple.txt";
 
             try { //extract names/topics
                 BufferedReader br = new BufferedReader(new FileReader(human_annotation));
@@ -311,12 +311,13 @@ public class Manual_NIST {
         try {
                 BufferedWriter bw = new BufferedWriter(new FileWriter(filePath, true));
                	
-                	bw.write("\n---------------- NIST Evaluation --------------------- \n");
+//                	bw.write("\n---------------- NIST --------------------- \n");
                 	
-                	bw.write("Calculating File... " + curFile +"\n");
+//                	bw.write("File: " + curFile +"\n");
                 	
                 	//bw.write("--------------------------------------------------------------- \n");
-
+                
+                //m2w: edited, for simple output, 2011-02-22 
 
                 for(int i = 0; i < categories.length; i++){
 
@@ -328,8 +329,8 @@ public class Manual_NIST {
                     }
 
                     String category = categories[i];
-                    
-                    bw.write("-----------------------------" + category.toUpperCase() + "---------------------------- \n");
+                    bw.write("\n");
+                    bw.write(curFile +"\t" + category + "\n");
 	   			
 		   			 int[] auto_qscore = auto_quintile_scores.get(category);
 		   			 int[] human_qscore = human_quintile_scores.get(category);
@@ -338,8 +339,11 @@ public class Manual_NIST {
    			
                     /*new compare evaluation method*/
                     CompareEval CpEval = new CompareEval();
-                    CpEval.compareEval(bw, speakers, auto_qscore, human_qscore);
+//                  CpEval.compareEval(bw, speakers, auto_qscore, human_qscore);                    
+                    /*simple NIST evaluation method*/
+                    CpEval.nistEval_simple(bw, speakers, auto_qscore, human_qscore);
 
+                    
                     
                 }  
 
