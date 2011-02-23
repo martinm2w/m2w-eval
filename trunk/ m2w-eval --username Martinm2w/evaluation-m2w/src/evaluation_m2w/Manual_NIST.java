@@ -40,10 +40,10 @@ public class Manual_NIST {
 
     public static void main(String[] args){
 
-        String human_annotation = "D:/m2w cs/evaluation-m2w/src/input_files/2010_post_in_processed";
-        String auto_annotation = "D:/m2w cs/evaluation-m2w/src/input_files/2010_auto_in_processed";
+        String human_annotation = "/home/ruobo/NetBeansProjects/evaluation-m2w/src/input_files/2010_post_in_processed";
+        String auto_annotation = "/home/ruobo/NetBeansProjects/evaluation-m2w/src/input_files/2010_auto_in_processed";
 
-        String evaluation_file = "D:/m2w cs/evaluation-m2w/src/output_files/2010_post_NIST_simple.txt";
+        String evaluation_file = "/home/ruobo/NetBeansProjects/evaluation-m2w/src/output_files/2010_post_NIST_simple_1.txt";
 
             try { //extract names/topics
                 BufferedReader br = new BufferedReader(new FileReader(human_annotation));
