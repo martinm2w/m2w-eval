@@ -19,7 +19,7 @@ import util.Filenames;
  *
  * @author m2w
  */
-public class expressive_disagreementooo {
+public class Exp_dis_m2w {
 
 
     //static String[] categories = {"DRX"};
@@ -55,11 +55,11 @@ public class expressive_disagreementooo {
        // String[] annotators = {"brian", "kerri", "lauren"};
     	
         //for(int i = 0; i < annotators.length; i++){
-        String human_annotation = "D:/m2w cs/evaluation-m2w/preprocess_log/2010.08/expressive_disagreement_Lauren_3_pp_ce" ;
-        String auto_annotation = "D:/m2w cs/evaluation-m2w/preprocess_log/2010.08/expressive_disagreement_auto_3_pp_ce" ;
+        String human_annotation = "/home/ruobo/NetBeansProjects/evaluation-m2w/src/input_files/scil_annotated_withHalfDGR_jessamyn_leadership_4_ngt.txt" ;
+        String auto_annotation = "/home/ruobo/NetBeansProjects/evaluation-m2w/src/input_files/scil_automated_withHalfDGR_jessamyn_leadership_4_ngt.txt" ;
 
 
-        String evaluation_file = "D:/m2w cs/evaluation-m2w/src/output_files/expressive_disagreement_Lauren_3_result_ce";
+        String evaluation_file = "/home/ruobo/NetBeansProjects/evaluation-m2w/src/output_files/nist_simple_exp_dis_scil_withHalfDGR_jessamyn_leadership_4_ngt.txt";
 
 
 
@@ -233,7 +233,7 @@ public class expressive_disagreementooo {
            br = new BufferedReader(new FileReader(file));
            while ((tempStr = br.readLine()) != null){
         	   
-        	   if(tempStr.contains("processing:")){// isnew value set to $$$$$
+        	   if(tempStr.contains("processing:")){
 
                    isnew=true;
 
@@ -438,9 +438,7 @@ public class expressive_disagreementooo {
         for(int i = 0; i < category.length; i++){
             int[] quintile_score_array = new int[speakers.length];
             String[] scores = human_scores.get(category[i].toString());
-            //System.out.println(scores.length + " length");
             for(int j = 0; j < scores.length; j++){
-                //System.out.println(scores[j]);
                 for(int k = 0; k < speakers.length; k++){
                     /*String[] speakers_order = speakers[k].split("_");*/
                     if(scores[j] == null || scores[j].equals("")){
@@ -561,12 +559,16 @@ public class expressive_disagreementooo {
                 BufferedWriter bw = new BufferedWriter(new FileWriter(filePath, true));
                 
                 if(isnew){ //only print for new section
-		                bw.write("---------------- Expressive Disagreement Evaluation --------------------- \n");
+                    
+                                bw.write("\n");
+		                bw.write("---------- exp_dis ----------- \n");
 		                
 		                /*print file names*/
-		                filename.printFileNames(bw);
+//		                filename.printFileNames(bw);
+                                filename.printSimpleFileNames(bw);
 		                
-		                bw.write("--------------------------------------------------------------- \n");
+//		                bw.write("--------------------------------------------------------------- \n");
+
                 }
                 
                 for(int i = 0; i < categories.length; i++){
@@ -578,7 +580,8 @@ public class expressive_disagreementooo {
                     }
                 	
                     String category = categories[i];
-                    bw.write("-----------------------------" + category + "---------------------------- \n");
+//                    bw.write("-----------------------------" + category + "---------------------------- \n");
+                    bw.write("-------------" + category + "------------- \n");
 //                    bw.write("Speaker \t Auto_annotated \t Human_annotated \t Highest/Rest/Mismatch \t " +
 //					"High/Low/Mismatch \t Exact-match \t Partial-match \n");
 				
@@ -604,12 +607,14 @@ public class expressive_disagreementooo {
 					
 					int counter = 0;
                     /*old match evaluation method*/
-                    MatchEval me = new MatchEval();
-                    me.matchEval_expdis(bw, auto_qscore, human_qscore, auto_qt, human_qt, speakers, category, human_actual_scores, auto_actual_scores, counter);
+//                    MatchEval me = new MatchEval();
+//                    me.matchEval_expdis(bw, auto_qscore, human_qscore, auto_qt, human_qt, speakers, category, human_actual_scores, auto_actual_scores, counter);
 
                     /*compare_evaluation*/
-//                    CompareEval CpEval = new CompareEval();
+                    CompareEval CpEval = new CompareEval();
 //                    CpEval.compareEval(bw, speakers, auto_qscore, human_qscore);
+                    //simple eval
+                    CpEval.nistEval_simple(bw, speakers, auto_qscore, human_qscore);;
 
                 }
 
