@@ -29,15 +29,15 @@ public class CompareEval {
 		
 		/*checking input*/
 		for (int k = 0; k < auto_qscore.length; k ++ ){
-			System.out.println("input auto qscore in auto_qscore: " + auto_qscore[k]);
+			System.out.println("auto_qscore: " + auto_qscore[k]);
 		}
-		
+
 		System.out.println("----------------------------------------");
-		
+
 		for (int k = 0; k < human_qscore.length; k ++ ){
-			System.out.println("input human qscore in human_qsore: " + human_qscore[k]);
+			System.out.println("human_qsore: " + human_qscore[k]);
 		}
-		
+
 		System.out.println("========================================");
 		
 		 /*Relations*/
@@ -144,15 +144,15 @@ public class CompareEval {
 		
 		/*checking input*/
 		for (int k = 0; k < auto_qscore.length; k ++ ){
-			System.out.println("input auto qscore in auto_qscore: " + auto_qscore[k]);
+			System.out.println("auto_qscore: " + auto_qscore[k]);
 		}
-		
+
 		System.out.println("----------------------------------------");
-		
+
 		for (int k = 0; k < human_qscore.length; k ++ ){
-			System.out.println("input human qscore in human_qsore: " + human_qscore[k]);
+			System.out.println("human_qsore: " + human_qscore[k]);
 		}
-		
+
 		System.out.println("========================================");
 		
 		 /*Relations*/

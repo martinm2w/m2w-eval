@@ -1,0 +1,24 @@
+
+---------- exp_dis ----------- 
+Feb19_GroupB_lauren.xml
+-------------cdxi------------- 
+match	total	acc
+9	21	0.42857142857142855
+
+---------- exp_dis ----------- 
+Mar07_GroupB_jessamyn.xml
+-------------cdxi------------- 
+match	total	acc
+16	21	0.7619047619047619
+
+---------- exp_dis ----------- 
+Mar14_GroupA
+-------------cdxi------------- 
+match	total	acc
+7	10	0.7
+
+---------- exp_dis ----------- 
+Mar14_GroupB
+-------------cdxi------------- 
+match	total	acc
+12	15	0.8

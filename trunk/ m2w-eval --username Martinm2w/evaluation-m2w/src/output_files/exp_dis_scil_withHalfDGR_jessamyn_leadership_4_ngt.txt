@@ -1,0 +1,54 @@
+---------------- Expressive Disagreement Evaluation --------------------- 
+Human annotated file: Feb19_GroupB_lauren.xml
+Auto annotated file: Feb19_GroupB_lauren.xml
+--------------------------------------------------------------- 
+-----------------------------cdxi---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+ilspersonnel2	1	1	Rest	Low	yes	1	
+jessamyn	1	2	Rest	Low	no	
+jessicaf	4	2	Rest	Mismatch	no	0	
+carol	1	4	Rest	Mismatch	no	0	
+danielle	1	2	Rest	Low	no	
+dk	5	4	Mismatch	High	no	
+nicole	4	4	Rest	High	yes	1	
+ilspersonnel	1	1	Rest	Low	yes	1	
+Precision: 	0.875(Highest/Rest/Mismatch)	0.75(High/Low/Mismatch)	0.375(Exact-match)	0.375(Partial-match)	
+---------------- Expressive Disagreement Evaluation --------------------- 
+Human annotated file: Topic
+Auto annotated file: Topic
+--------------------------------------------------------------- 
+-----------------------------cdxi---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+jessicaf	5	4	Mismatch	High	no	
+jorge1	3	3	Rest	Low	yes	1	
+ilspersonnel	1	1	Rest	Low	yes	1	
+laura	1	2	Rest	Low	no	
+johnw	1	2	Rest	Low	no	
+sarah	4	5	Mismatch	High	no	
+lisa	4	4	Rest	High	yes	1	
+Precision: 	0.7142857142857143(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.42857142857142855(Exact-match)	0.42857142857142855(Partial-match)	
+---------------- Expressive Disagreement Evaluation --------------------- 
+Human annotated file: Involvement...
+Auto annotated file: Involvement...
+--------------------------------------------------------------- 
+-----------------------------cdxi---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+ashley	3	5	Mismatch	Mismatch	no	0	
+jorge1	3	4	Rest	Mismatch	no	
+tony	2	2	Rest	Low	yes	1	
+ilspersonnel	1	1	Rest	Low	yes	1	
+sarah	3	3	Rest	Low	yes	1	
+Precision: 	0.8(Highest/Rest/Mismatch)	0.6(High/Low/Mismatch)	0.6(Exact-match)	0.6(Partial-match)	
+---------------- Expressive Disagreement Evaluation --------------------- 
+Human annotated file: Task
+Auto annotated file: Task
+--------------------------------------------------------------- 
+-----------------------------cdxi---------------------------- 
+Speaker 	 Auto_annotated 	 Human_annotated 	 Highest/Rest/Mismatch 	 High/Low/Mismatch 	 Exact-match 	 Partial-match 
+jenniferb	5	5	Highest	High	yes	1	
+jodie	1	3	Rest	Low	no	0	
+ilspersonnel	1	1	Rest	Low	yes	1	
+laura	1	1	Rest	Low	yes	1	
+sarah	1	1	Rest	Low	yes	1	
+lisa	4	4	Rest	High	yes	1	
+Precision: 	1.0(Highest/Rest/Mismatch)	1.0(High/Low/Mismatch)	0.8333333333333334(Exact-match)	0.8333333333333334(Partial-match)	

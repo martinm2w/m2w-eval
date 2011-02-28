@@ -35,7 +35,7 @@ public class Filenames {
     
     while((hfileStr = hfbr.readLine()) != null){
     	
-    	if(hfileStr != null && hfileStr.contains("processing") ){
+    	if(hfileStr != null && hfileStr.contains("processing:") ){
     		
     		if(human_files.get(hfileStr.split(" ")[1]) == null){
     			
@@ -50,7 +50,7 @@ public class Filenames {
     
     while((afileStr = afbr.readLine()) != null){
     	
-    	if(afileStr != null && afileStr.contains("processing") ){
+    	if(afileStr != null && afileStr.contains("processing:") ){
     		
     		if(auto_files.get(afileStr.split(" ")[1]) == null){
     			
@@ -103,7 +103,28 @@ public class Filenames {
 
     fileIndex ++;
     }
-    
+
+    /**
+     * m2w : simple out put
+     * @param bw
+     */
+    public void printSimpleFileNames(BufferedWriter bw){
+
+    try {
+		//bw.write("---------------- Topic Control Evaluation --------------------- \n");
+		bw.write( human_file_list.get(fileIndex) + "\n");		
+		//bw.write("--------------------------------------------------------------- \n");
+	} catch (IOException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+
+    fileIndex ++;
+    }
+
+
+
+
     public void printFileNamesSurveyHuman(BufferedWriter bw){
     	
         try {

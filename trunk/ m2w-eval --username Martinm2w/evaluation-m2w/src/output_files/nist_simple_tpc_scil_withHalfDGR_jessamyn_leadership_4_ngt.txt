@@ -1,0 +1,72 @@
+
+------------ TPC ------------- 
+Feb19_GroupB_lauren.xml
+-------------lti------------- 
+match	total	acc
+15	15	1.0
+-------------smt------------- 
+match	total	acc
+14	15	0.9333333333333333
+-------------cs------------- 
+match	total	acc
+15	15	1.0
+-------------tl------------- 
+match	total	acc
+15	15	1.0
+-------------merged------------- 
+match	total	acc
+12	15	0.8
+
+------------ TPC ------------- 
+Mar07_GroupB_jessamyn.xml
+-------------lti------------- 
+match	total	acc
+15	15	1.0
+-------------smt------------- 
+match	total	acc
+12	15	0.8
+-------------cs------------- 
+match	total	acc
+15	15	1.0
+-------------tl------------- 
+match	total	acc
+15	15	1.0
+-------------merged------------- 
+match	total	acc
+12	15	0.8
+
+------------ TPC ------------- 
+Mar14_GroupA
+-------------lti------------- 
+match	total	acc
+6	6	1.0
+-------------smt------------- 
+match	total	acc
+4	6	0.6666666666666666
+-------------cs------------- 
+match	total	acc
+5	6	0.8333333333333334
+-------------tl------------- 
+match	total	acc
+6	6	1.0
+-------------merged------------- 
+match	total	acc
+4	6	0.6666666666666666
+
+------------ TPC ------------- 
+Mar14_GroupB
+-------------lti------------- 
+match	total	acc
+9	10	0.9
+-------------smt------------- 
+match	total	acc
+8	10	0.8
+-------------cs------------- 
+match	total	acc
+8	10	0.8
+-------------tl------------- 
+match	total	acc
+10	10	1.0
+-------------merged------------- 
+match	total	acc
+8	10	0.8

@@ -1,0 +1,103 @@
+---------------- Expressive Disagreement Evaluation --------------------- 
+Human annotated file: Feb19_GroupB_lauren.xml
+Auto annotated file: Feb19_GroupB_lauren.xml
+--------------------------------------------------------------- 
+-----------------------------cdxi---------------------------- 
+          -=        Relations      =-             
+Auto_file		Human_file
+jessamyn < jessicaf		jessamyn = jessicaf
+jessamyn = carol		jessamyn < carol
+jessamyn = danielle		jessamyn = danielle
+jessamyn < dk		jessamyn < dk
+jessamyn < nicole		jessamyn < nicole
+jessamyn = ilspersonnel		jessamyn > ilspersonnel
+jessicaf > carol		jessicaf < carol
+jessicaf > danielle		jessicaf = danielle
+jessicaf < dk		jessicaf < dk
+jessicaf = nicole		jessicaf < nicole
+jessicaf > ilspersonnel		jessicaf > ilspersonnel
+carol = danielle		carol > danielle
+carol < dk		carol = dk
+carol < nicole		carol = nicole
+carol = ilspersonnel		carol > ilspersonnel
+danielle < dk		danielle < dk
+danielle < nicole		danielle < nicole
+danielle = ilspersonnel		danielle > ilspersonnel
+dk > nicole		dk = nicole
+dk > ilspersonnel		dk > ilspersonnel
+nicole > ilspersonnel		nicole > ilspersonnel
+::Equalcount		Totalcount		Accuracy
+::9		21		0.42857142857142855
+---------------- Expressive Disagreement Evaluation --------------------- 
+Human annotated file: Mar07_GroupB_jessamyn.xml
+Auto annotated file: Mar07_GroupB_jessamyn.xml
+--------------------------------------------------------------- 
+-----------------------------cdxi---------------------------- 
+          -=        Relations      =-             
+Auto_file		Human_file
+jessicaf > jorge1		jessicaf > jorge1
+jessicaf > ilspersonnel		jessicaf > ilspersonnel
+jessicaf > laura		jessicaf > laura
+jessicaf > johnw		jessicaf > johnw
+jessicaf > sarah		jessicaf < sarah
+jessicaf > lisa		jessicaf = lisa
+jorge1 > ilspersonnel		jorge1 > ilspersonnel
+jorge1 > laura		jorge1 > laura
+jorge1 > johnw		jorge1 > johnw
+jorge1 < sarah		jorge1 < sarah
+jorge1 < lisa		jorge1 < lisa
+ilspersonnel = laura		ilspersonnel < laura
+ilspersonnel = johnw		ilspersonnel < johnw
+ilspersonnel < sarah		ilspersonnel < sarah
+ilspersonnel < lisa		ilspersonnel < lisa
+laura = johnw		laura = johnw
+laura < sarah		laura < sarah
+laura < lisa		laura < lisa
+johnw < sarah		johnw < sarah
+johnw < lisa		johnw < lisa
+sarah = lisa		sarah > lisa
+::Equalcount		Totalcount		Accuracy
+::16		21		0.7619047619047619
+---------------- Expressive Disagreement Evaluation --------------------- 
+Human annotated file: Mar14_GroupA
+Auto annotated file: Mar14_GroupA
+--------------------------------------------------------------- 
+-----------------------------cdxi---------------------------- 
+          -=        Relations      =-             
+Auto_file		Human_file
+ashley = jorge1		ashley > jorge1
+ashley > tony		ashley > tony
+ashley > ilspersonnel		ashley > ilspersonnel
+ashley = sarah		ashley > sarah
+jorge1 > tony		jorge1 > tony
+jorge1 > ilspersonnel		jorge1 > ilspersonnel
+jorge1 = sarah		jorge1 > sarah
+tony > ilspersonnel		tony > ilspersonnel
+tony < sarah		tony < sarah
+ilspersonnel < sarah		ilspersonnel < sarah
+::Equalcount		Totalcount		Accuracy
+::7		10		0.7
+---------------- Expressive Disagreement Evaluation --------------------- 
+Human annotated file: Mar14_GroupB
+Auto annotated file: Mar14_GroupB
+--------------------------------------------------------------- 
+-----------------------------cdxi---------------------------- 
+          -=        Relations      =-             
+Auto_file		Human_file
+jenniferb > jodie		jenniferb > jodie
+jenniferb > ilspersonnel		jenniferb > ilspersonnel
+jenniferb > laura		jenniferb > laura
+jenniferb > sarah		jenniferb > sarah
+jenniferb > lisa		jenniferb > lisa
+jodie = ilspersonnel		jodie > ilspersonnel
+jodie = laura		jodie > laura
+jodie = sarah		jodie > sarah
+jodie < lisa		jodie < lisa
+ilspersonnel = laura		ilspersonnel = laura
+ilspersonnel = sarah		ilspersonnel = sarah
+ilspersonnel < lisa		ilspersonnel < lisa
+laura = sarah		laura = sarah
+laura < lisa		laura < lisa
+sarah < lisa		sarah < lisa
+::Equalcount		Totalcount		Accuracy
+::12		15		0.8

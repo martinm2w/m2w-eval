@@ -12,53 +12,162 @@ import java.io.PrintWriter;
 import java.util.ArrayList;
 
 /**
- * 
+ * m2w: things to do before preprocessing: replace all the " of " string in file with " ";
  * @author m2w
  * @date 2011.02.17
  */
 public class Preprocessing {
+    
+    private String input;
+    private String output;
+    private String pre_input;
+//    private String pre_input2;
 
 	public static void main(String[] args) throws IOException{
 		
 		Preprocessing p = new Preprocessing();
+                p.setInput("/home/ruobo/NetBeansProjects/evaluation-m2w/src/input_files/scil_annotated_withHalfDGR_jessamyn_leadership_4_ngt.txt");
+                p.setOutput("/home/ruobo/NetBeansProjects/evaluation-m2w/src/preprocessed/MANUAL_inv_scil_annotated_withHalfDGR_jessamyn_leadership_4_ngt");
+                p.setPre_input("/home/ruobo/NetBeansProjects/evaluation-m2w/src/preprocessed/pre_input");
+
+                p.parseInvQt();
 		
-		p.parseManualEval(
-				"D:/m2w cs/evaluation-m2w/src/input_files/scil_automated_withDGR_jessamyn_leadership_4_ngt.txt", 
-				"D:/m2w cs/evaluation-m2w/src/preprocessed/jessa_pre.txt");
-		
-//		p.parseTskCtrl(
-//				"D:/m2w cs/evaluation-m2w/src/input_files/task_control_6_lauren_annonated_ymca_training_cheney",
-//				"D:/m2w cs/evaluation-m2w/src/input_files/task_control_6_automated_ymca_training_cheney",
-//				"D:/m2w cs/evaluation-m2w/src/preprocessed/task_control_6_lauren_annonated_ymca_training_cheney_pp",
-//				"D:/m2w cs/evaluation-m2w/src/preprocessed/task_control_6_automated_ymca_training_cheney_pp");
-////		
-		
-		
-		
-//		p.parseExpDisForCompare(
-//				"D:/m2w cs/evaluation-m2w/input_log/older/expressive_disagreement_Lauren_3",  
-//				"D:/m2w cs/evaluation-m2w/input_log/older/expressive_disagreement_auto_3", 
-//				"D:/m2w cs/evaluation-m2w/src/preprocessed/expressive_disagreement_Lauren_3_pp_ce",
-//				"D:/m2w cs/evaluation-m2w/src/preprocessed/expressive_disagreement_auto_3_pp_ce");
-	
-	
-	
-//		p.parseExpDisForMatch(	
-//			"D:/m2w cs/evaluation-m2w/input_log/older/expressive_disagreement_Lauren_3",  
-//			"D:/m2w cs/evaluation-m2w/input_log/older/expressive_disagreement_auto_3", 
-//			"D:/m2w cs/evaluation-m2w/src/preprocessed/expressive_disagreement_Lauren_3_pp_me",
-//			"D:/m2w cs/evaluation-m2w/src/preprocessed/expressive_disagreement_auto_3_pp_me");
+
 
 }
-	
-	
+
+//        ==============================================new methods===============================================
+
+        /**
+         * m2w: this method parses the qt of involvment. make it ready for manual eval
+         */
+        public void parseInvQt(){
+
+            ArrayList<String> theList = this.parseUsePart("processing Involvement...");
+//            String pre_input = this.getPre_input();
+            String output = this.getOutput();
+            String tempStr = null;
+            String tempFileName = null;
+            
+                for(int i = 0; i < theList.size(); i++){
+                    tempStr = theList.get(i);
+
+                    if(tempStr.startsWith("processing:")){// if starts with "processing:" then get the file name and make it looks like Feb19B
+                        
+                    }
+
+                    if(tempStr.length() < 6){// if length < 6 , get the cat name , and make the line, add % , so we will only print lines ends with $ or % to the file.
+                        
+                    }
+
+                    if(tempStr.startsWith("The")){// if starts with "The", then split " " and get [3] and [5], and add $
+                        theList.set(i, (tempStr.split(" ", -1)[3] + "\t" + tempStr.split(" ", -1)[5]) + "\t$")  ;
+                    }
+
+                    
+                    // parse the other stuff, and then , make the empty lines when writing to a file.
+                    // keep the arraylist simple.
+                }
+            System.out.println(theList);
+            
+            
+        }
+
+        public void parseTskQt(String input, String output){
+            
+        }
+
+
+
+
+//         ===============================================util methods============================================
+
+        /**
+         * m2w : this method is for parsing the useful lines for certain category preprocessing. cuz different category has different formats.
+         * @param CatgString : this string is the line that indicates the beginning of a category.
+         */
+        public ArrayList<String> parseUsePart(String CatgString){
+
+            String input = this.getInput();
+            String pre_input = this.getPre_input();
+            String cat = CatgString;
+            
+		ArrayList<String> theList = new ArrayList<String>();
+
+		try {
+			BufferedReader br = new BufferedReader(new FileReader(input));
+			PrintWriter pr = new PrintWriter(pre_input);
+
+			String tempStr = null;
+			while((tempStr = br.readLine()) != null ) {//1st. whole file
+
+                            if(tempStr.contains("processing:")){// if temp string contains processing:, then save the file name to list;
+                                theList.add(tempStr);
+                            }
+
+                            if(tempStr.equals(cat)){//if tempStr equals CatgString, start saving to list
+                                theList.add(tempStr);
+                                String thisLine = null;
+
+                                while(!(thisLine = br.readLine()).equals(null) && !thisLine.contains("processing") ){//while temp string not reaches next processing, mark, save to list
+                                    br.mark(1000);
+//                                    thisLine
+                                    if(!thisLine.equals("")//blank lines
+                                    && !thisLine.contains("=")//inv
+                                    && !thisLine.contains("+")//inv
+                                    && !thisLine.contains("set")//tpc
+                                    && !thisLine.contains("%")//tsk
+                                    && !thisLine.contains("total")){// tsk
+                                    theList.add(thisLine);
+                                    }
+                                }
+                                
+                                br.reset();
+                            }
+			}//1st
+			br.close();
+
+			for(int i = 0; i < theList.size(); i ++){// print to pre_in file
+                                pr.println(theList.get(i));
+			}
+
+			pr.close();
+
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+                return theList;
+            
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	//	========================================old methods===============================================
 	/**
-	 * m2w :this method is for parsing the data out of the file to do NIST MANUAL eval
+	 * m2w :this method is for parsing the data out of the file to do NIST MANUAL eval, it's topic control, actual data
 	 *
 	 * @param inputFile
 	 * @param outputFile
 	 */
-	public void parseManualEval(String inputFile, String outputFile){
+	public void parseManualEvalActTpc(String inputFile, String outputFile){
 		
 		String input = inputFile;
 		String output = outputFile;
@@ -150,7 +259,7 @@ public class Preprocessing {
 		
 	}
 	
-	
+
 	
 	
 	public void parseExpDisForMatch (String input1, String input2, String input3, String input4) {
@@ -648,7 +757,7 @@ public class Preprocessing {
 					
 					if (tempStr.contains("-1")){//add qt_thrs
 						
-						AList.get(catNum).add(j, "qt_thrs:  0.0 0.0 0.0 0.0 0.0"); // ²»ÊÇ j - 1 , ÊÇ j, ²åÈëµ½ÓÐ-1 µÄÄÇÒ»ÐÐ
+						AList.get(catNum).add(j, "qt_thrs:  0.0 0.0 0.0 0.0 0.0"); // ï¿½ï¿½ï¿½ï¿½ j - 1 , ï¿½ï¿½ j, ï¿½ï¿½ï¿½ëµ½ï¿½ï¿½-1 ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½
 						break;
 						
 					}
@@ -730,7 +839,7 @@ public class Preprocessing {
 	                        tempStrh=hbr.readLine();
 	                        templist.add(tempStrh);
 
-	                   }while(tempStrh!=null && !tempStrh.contains("$$$$$$")); //¸Ä³ÉÁËÕû¸öblock¶ÁÈ¡
+	                   }while(tempStrh!=null && !tempStrh.contains("$$$$$$")); //ï¿½Ä³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½blockï¿½ï¿½È¡
 						
 	                   hbr.reset();
 	                   
@@ -938,6 +1047,48 @@ public class Preprocessing {
 					
 					
 			}
+
+    /**
+     * @return the input
+     */
+    public String getInput() {
+        return input;
+    }
+
+    /**
+     * @param input the input to set
+     */
+    public void setInput(String input) {
+        this.input = input;
+    }
+
+    /**
+     * @return the output
+     */
+    public String getOutput() {
+        return output;
+    }
+
+    /**
+     * @param output the output to set
+     */
+    public void setOutput(String output) {
+        this.output = output;
+    }
+
+    /**
+     * @return the pre_input
+     */
+    public String getPre_input() {
+        return pre_input;
+    }
+
+    /**
+     * @param pre_input the pre_input to set
+     */
+    public void setPre_input(String pre_input) {
+        this.pre_input = pre_input;
+    }
 		
 		
 		
