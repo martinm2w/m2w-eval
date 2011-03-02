@@ -6,7 +6,7 @@ import java.util.logging.*;
 //import jsc.util.Rank;
 
 /**
- * m2w: things to do before preprocessing: replace all the " of " string in file with " ";
+ * m2w: things to do before preprocessing: replace all the " of " string in file with " "; last edited : 2011-3-2
  * @author m2w
  * @date 2011.02.17
  */
