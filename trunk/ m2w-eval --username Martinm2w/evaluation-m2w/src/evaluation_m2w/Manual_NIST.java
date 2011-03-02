@@ -2,14 +2,10 @@ package evaluation_m2w;
 
 
 import java.io.*;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.logging.Level;
-import java.util.logging.Logger;
+import java.util.*;
+import java.util.logging.*;
 
-import util.CompareEval;
-import util.Filenames;
-import util.MatchEval;
+import util.*;
 
 /**
  *
