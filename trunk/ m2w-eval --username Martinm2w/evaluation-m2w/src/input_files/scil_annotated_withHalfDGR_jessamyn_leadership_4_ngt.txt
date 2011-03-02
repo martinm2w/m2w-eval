@@ -244,7 +244,7 @@ The quintile score jorge1 is: 2 --- actual score: 0.09693877551020408
 The quintile score johnw is: 1 --- actual score: 0.05612244897959184
 
 ++++++++++++++++++++++++++++++++
-calculate Topic Control -  SMT quintile: 
+calculate Topic Control - SMT quintile:
 
 =====================================
 
@@ -256,7 +256,7 @@ The quintile score jorge1 is: 2 --- actual score: 0.05867970660146699
 The quintile score johnw is: 1 --- actual score: 0.004889975550122249
 
 ++++++++++++++++++++++++++++++++
-calculate Topic Control -  CS quintile
+calculate Topic Control - CS quintile
 
 =====================================
 
@@ -274,7 +274,7 @@ set tpc cs rank on johnw with 6
 The quintile score johnw is: 1 --- actual score: 0.006172839506172839
 
 ++++++++++++++++++++++++++++++++
-calculate Topic Control -  TL quintile
+calculate Topic Control - TL quintile
 
 =====================================
 
@@ -458,7 +458,7 @@ The quintile score ashley is: 2 --- actual score: 0.21808510638297873
 The quintile score tony is: 1 --- actual score: 0.0851063829787234
 
 ++++++++++++++++++++++++++++++++
-calculate Topic Control -  SMT quintile: 
+calculate Topic Control - SMT quintile:
 
 =====================================
 
@@ -468,7 +468,7 @@ The quintile score tony is: 2 --- actual score: 0.14563106796116504
 The quintile score ashley is: 1 --- actual score: 0.07766990291262135
 
 ++++++++++++++++++++++++++++++++
-calculate Topic Control -  CS quintile
+calculate Topic Control - CS quintile
 
 =====================================
 
@@ -482,7 +482,7 @@ set tpc cs rank on ashley with 4
 The quintile score ashley is: 1 --- actual score: 0.08148148148148149
 
 ++++++++++++++++++++++++++++++++
-calculate Topic Control -  TL quintile
+calculate Topic Control - TL quintile
 
 =====================================
 
@@ -632,7 +632,7 @@ The quintile score laura is: 2 --- actual score: 0.13513513513513514
 The quintile score sarah is: 1 --- actual score: 0.0
 
 ++++++++++++++++++++++++++++++++
-calculate Topic Control -  SMT quintile: 
+calculate Topic Control - SMT quintile:
 
 =====================================
 
@@ -643,7 +643,7 @@ The quintile score laura is: 2 --- actual score: 0.0262582056892779
 The quintile score sarah is: 1 --- actual score: 0.0
 
 ++++++++++++++++++++++++++++++++
-calculate Topic Control -  CS quintile
+calculate Topic Control - CS quintile
 
 =====================================
 
@@ -659,7 +659,7 @@ set tpc cs rank on sarah with 5
 The quintile score sarah is: 1 --- actual score: 0.0
 
 ++++++++++++++++++++++++++++++++
-calculate Topic Control -  TL quintile
+calculate Topic Control - TL quintile
 
 =====================================
 

@@ -1,15 +1,17 @@
 package util;
 
 import java.io.BufferedReader;
-//import java.io.BufferedWriter;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
-//import java.io.FileWriter;
+import java.io.FileWriter;
 import java.io.IOException;
-//import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
-//import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+//import jsc.util.Rank;
 
 /**
  * m2w: things to do before preprocessing: replace all the " of " string in file with " ";
@@ -26,12 +28,14 @@ public class Preprocessing {
 	public static void main(String[] args) throws IOException{
 		
 		Preprocessing p = new Preprocessing();
-                p.setInput("/home/ruobo/NetBeansProjects/evaluation-m2w/src/input_files/scil_annotated_withHalfDGR_jessamyn_leadership_4_ngt.txt");
-                p.setOutput("/home/ruobo/NetBeansProjects/evaluation-m2w/src/preprocessed/MANUAL_inv_scil_annotated_withHalfDGR_jessamyn_leadership_4_ngt");
+                p.setInput("/home/ruobo/NetBeansProjects/evaluation-m2w/src/input_files/scil_automated_withHalfDGR_jessamyn_leadership_4_ngt.txt");
+                p.setOutput("/home/ruobo/NetBeansProjects/evaluation-m2w/src/preprocessed/_MANUAL_tpc_scil_automated_withHalfDGR_jessamyn_leadership_4_ngt");
                 p.setPre_input("/home/ruobo/NetBeansProjects/evaluation-m2w/src/preprocessed/pre_input");
 
-                p.parseInvQt();
-		
+//                p.parseInvQt();
+//                p.parseTskQt();
+//		  p.parseAgrQt();
+                p.parseTcpQt();
 
 
 }
@@ -39,7 +43,8 @@ public class Preprocessing {
 //        ==============================================new methods===============================================
 
         /**
-         * m2w: this method parses the qt of involvment. make it ready for manual eval
+         * m2w: this method parses the qt of involvment. PS: must replace calculate merged quintle to MERGE
+         *
          */
         public void parseInvQt(){
 
@@ -53,31 +58,144 @@ public class Preprocessing {
                     tempStr = theList.get(i);
 
                     if(tempStr.startsWith("processing:")){// if starts with "processing:" then get the file name and make it looks like Feb19B
-                        
+                        tempFileName = tempStr.split(" ", -1)[1].split("_")[0] + "" +tempStr.split(" ", -1)[1].split("_")[1].split("Group")[1];
+//                        theList.set(i, tempFileName);
                     }
 
-                    if(tempStr.length() < 6){// if length < 6 , get the cat name , and make the line, add % , so we will only print lines ends with $ or % to the file.
-                        
+                    if(tempStr.length() < 7){// if length < 6 , get the cat name , and make the line, add % , so we will only print lines ends with $ or % to the file.
+                        theList.set(i, tempFileName + "\t"+ "inv_" + tempStr.toLowerCase() + "\t%");
                     }
 
                     if(tempStr.startsWith("The")){// if starts with "The", then split " " and get [3] and [5], and add $
                         theList.set(i, (tempStr.split(" ", -1)[3] + "\t" + tempStr.split(" ", -1)[5]) + "\t$")  ;
                     }
 
-                    
                     // parse the other stuff, and then , make the empty lines when writing to a file.
                     // keep the arraylist simple.
                 }
+
             System.out.println(theList);
-            
-            
-        }
-
-        public void parseTskQt(String input, String output){
+            this.writeToFile(theList);
             
         }
 
+        /**
+         * m2w: parsing task control qt. PS: nothing 
+         *
+         */
+        public void parseTskQt(){
 
+            ArrayList<String> theList = this.parseUsePart("processing Task Control...");
+            String output = this.getOutput();
+            String tempStr = null;
+            String tempFileName = null;
+
+                for(int i = 0; i < theList.size(); i++){
+                    tempStr = theList.get(i);
+
+                    //file
+                    if(tempStr.startsWith("processing:")){// if starts with "processing:" then get the file name and make it looks like Feb19B
+                        tempFileName = tempStr.split(" ", -1)[1].split("_")[0] + "" +tempStr.split(" ", -1)[1].split("_")[1].split("Group")[1];
+
+                    }
+
+                    //cat
+                    if(tempStr.contains("calculate Task Control")){// if equals calculate Task Control,
+                        theList.set(i, tempFileName + "\t"+ "tsk" + "\t%");
+                    }
+
+                    //entries
+                    if(tempStr.startsWith("The")){// if starts with "The", then split " " and get [3] and [5], and add $
+                        theList.set(i, (tempStr.split(" ", -1)[3] + "\t" + tempStr.split(" ", -1)[5]) + "\t$")  ;
+                    }
+
+                }
+
+            System.out.println(theList);
+            this.writeToFile(theList);
+
+        }
+
+
+        /**
+         * m2w: this method parses the qt of agreement. PS: nothing
+         *
+         */
+        public void parseAgrQt(){
+
+            ArrayList<String> theList = this.parseUsePart("Processing Agreement...");
+            ArrayList<ArrayList<String>> tempList = null;//is a arraylist of arraylist of entries. each cat is a list
+            String output = this.getOutput();
+            String tempStr = null;
+            String tempFileName = null;
+
+                for(int i = 0; i < theList.size(); i++){
+                    tempStr = theList.get(i);
+
+                    if(tempStr.startsWith("processing:")){// if starts with "processing:" then get the file name and make it looks like Feb19B
+                        tempFileName = tempStr.split(" ", -1)[1].split("_")[0] + "" +tempStr.split(" ", -1)[1].split("_")[1].split("Group")[1];
+//                        theList.set(i, tempFileName);
+                    }
+
+                    if(tempStr.contains("Processing Agreement...")){//if this the topic line, then put in topic
+                        theList.set(i, tempFileName + "\t"+ "agr" + "\t%");
+                    }
+
+                    if(tempStr.startsWith("The")){// if starts with "The", then split " " and get [3] and [5], and add $
+                        theList.set(i, (tempStr.split(" ", -1)[4] + "\t" + tempStr.split(" ", -1)[6]) + "\t$")  ;
+                    }
+                }
+
+//            System.out.println("thelist: " + theList);
+
+            tempList = this.writeToTempList(theList);
+
+//            System.out.println("templist: " + tempList);
+            
+            theList.clear();
+
+            theList = this.calRank(tempList);
+            this.writeToFile(theList);
+
+
+        }
+
+
+        /**
+         * m2w: this method parses the qt of topic control. PS: replace all "-  " with "- " ,since like "calculate Topic Control -  CS quintile" has 2 spaces after the "-"
+         */
+        public void parseTcpQt(){
+
+            ArrayList<String> theList = this.parseUsePart("processing Topic Control...");
+            String output = this.getOutput();
+            String tempStr = null;
+            String tempFileName = null;
+
+                for(int i = 0; i < theList.size(); i++){
+                    tempStr = theList.get(i);
+
+                    //file
+                    if(tempStr.startsWith("processing:")){// if starts with "processing:" then get the file name and make it looks like Feb19B
+                        tempFileName = tempStr.split(" ", -1)[1].split("_")[0] + "" +tempStr.split(" ", -1)[1].split("_")[1].split("Group")[1];
+
+                    }
+
+                    //cat
+                    if(tempStr.contains("calculate Topic Control -")){// if equals calculate Task Control,
+                        theList.set(i, tempFileName + "\t"+ "tpc_" + tempStr.toLowerCase().split(" ", -1)[4] + "\t%");
+                    }
+
+                    //entries
+                    if(tempStr.startsWith("The")){// if starts with "The", then split " " and get [3] and [5], and add $
+                        theList.set(i, (tempStr.split(" ", -1)[3] + "\t" + tempStr.split(" ", -1)[5]) + "\t$")  ;
+                    }
+
+                }
+
+            System.out.println(theList);
+            this.writeToFile(theList);
+
+        }
 
 
 //         ===============================================util methods============================================
@@ -109,7 +227,9 @@ public class Preprocessing {
                                 theList.add(tempStr);
                                 String thisLine = null;
 
-                                while(!(thisLine = br.readLine()).equals(null) && !thisLine.contains("processing") ){//while temp string not reaches next processing, mark, save to list
+                                while(!(thisLine = br.readLine()).equals(null)//while temp string not reaches next processing, mark, save to list
+                                        && !thisLine.toLowerCase().contains("processing ")
+                                        && !thisLine.toLowerCase().contains("leadership: ")){//agreement, followed by leadership.
                                     br.mark(1000);
 //                                    thisLine
                                     if(!thisLine.equals("")//blank lines
@@ -145,11 +265,149 @@ public class Preprocessing {
             
         }
 
+        /**
+         * m2w: this method just write the whole list to the final preprocessed output file. with 2 empty lines in between each category.
+         * @param theList the preprocessed list
+         */
+        public void writeToFile(ArrayList<String> theList){
+
+            PrintWriter pr = null;
+            ArrayList<String> FileList = theList;
+            String tempStr = null;
+        try {
+            
+            pr = new PrintWriter(new FileWriter(this.getOutput()));
+
+            for (int i = 0; i < FileList.size(); i++){
+                tempStr = FileList.get(i);
+
+                if (tempStr.contains("%")){ // if curr entry has % print 2 empty lines then print the line
+                    pr.println();
+                    pr.println();
+                    pr.println(tempStr);
+                }
+
+                if (tempStr.contains("$")){ // if curr entry has $ then just print the line
+                    pr.println(tempStr);
+                }
+                
+            }
 
 
 
+        } catch (IOException ex) {
+            Logger.getLogger(Preprocessing.class.getName()).log(Level.SEVERE, null, ex);
+        } finally {
+            pr.close();
+        }
+        }
+
+        /**
+         * m2w: return a ArrayList<ArrayList<String>> structure list, for next step ranking.
+         * @param theList
+         * @return a ArrayList<ArrayList<String>> 
+         */
+        public ArrayList<ArrayList<String>> writeToTempList(ArrayList<String> theList){
+
+            PrintWriter pr = null;
+            ArrayList<String> FileList = theList;
+            String tempStr = null;
+            ArrayList<ArrayList<String>> tList = new ArrayList<ArrayList<String>>();
+//            ArrayList<String> tempList = new ArrayList<String>();
+        
+
+            for (int i = 0; i < FileList.size(); i++){
+                int j = 0;
+                ArrayList<String> tempList = new ArrayList<String>(); // each time assign tempList to a new object
+                tempStr = FileList.get(i);
+//                System.out.println(tempStr);
+                if (tempStr.contains("processing:")){
+                    tempList.add(tempStr);
+                    
+                    for (j = 1; j < 10 && i + j < FileList.size(); j ++){
+                        String tempStr2 = FileList.get(i + j);
+//                        System.out.println("2: " + tempStr2);
+                        if (tempStr2.contains("$") || tempStr2.contains("%")){
+                            tempList.add(tempStr2);                            
+                        }else if(tempStr2.contains("processing:")){
+                            break;
+                        }
+                    }
+                    i = i + j -1;
+                    j = 0;
+//                    System.out.println(tempList);
+                    if (!tList.contains(tempList)){
+                        tList.add(tempList);
+                    }
+                    
+//                    System.out.println(tList);
+                }else if(tempStr.contains("%") || tempStr.contains("$")){
+                    continue;
+                }
+                    
+                    
+                    
+                    
+            
+            }
+            return tList;
+        }
+
+        /**
+         * m2w: input  ArrayList<ArrayList<String>> list from the writeToTempList() method (which contains double inputs) , getting back a list of entries, replaced the doubles into ranks(ints);
+         * @param inputList  ArrayList<ArrayList<String>> 
+         * @return
+         */
+        public ArrayList<String> calRank(ArrayList<ArrayList<String>> inputList){
+
+            ArrayList<String> theList = new ArrayList<String>();
+            ArrayList<ArrayList<String>> tempList = inputList;
+            
+            for (int i = 0; i < tempList.size(); i++){
+
+                ArrayList<String> iList = tempList.get(i);
+//                iList.remove(0);
+//                System.out.println("iList: " + iList);
+                double[] dList = new double[iList.size() - 2];
+
+                for(int j = 2; j < iList.size(); j++){
+                    String tempD = iList.get(j).split("\t", -1)[1];
+//                    System.out.println("tempD: " +tempD);
+                    dList[j - 2] = (Double.parseDouble(iList.get(j).split("\t", -1)[1]));
+                }
+                Arrays.sort(dList);
 
 
+                for (int k = 0; k < dList.length; k++){
+
+                    for (int l = 0; l < iList.size(); l ++){
+
+                        if(iList.get(l).contains(String.valueOf(dList[k]))){
+
+                            String tempSt = iList.get(l);
+                            tempSt = tempSt.split("\t", -1)[0] + "\t"+ String.valueOf(k + 1) +"\t" + tempSt.split("\t", -1)[2];
+                            iList.set(l, tempSt);
+
+                        }
+
+                    }
+
+                }
+                System.out.println(iList);
+                tempList.set(i, iList);
+
+            }
+
+
+            for(int i = 0; i < tempList.size(); i ++){
+                for(int j = 0; j < tempList.get(i).size(); j ++){
+                    theList.add(tempList.get(i).get(j));
+                }
+            }
+
+            return theList;
+        }
+        
 
 
 

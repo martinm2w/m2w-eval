@@ -12,8 +12,9 @@ import util.Filenames;
 import util.MatchEval;
 
 /**
- *
- * @author jgh
+ *  m2w: this is the new topic control class
+ * @author m2w
+ * @date 2011-3-2
  */
 
 public class Tpc_m2w {

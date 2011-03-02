@@ -31,6 +31,12 @@ public class Manual_NIST {
     static HashMap<String, String[]> auto_scores = new HashMap<String, String[]>(); // key: category; value: score, order by speakers
     static HashMap<String, int[]> human_quintile_scores = new HashMap<String, int[]>(); // key: category; value: quintile scores, order by speakers
     static HashMap<String, int[]> auto_quintile_scores = new HashMap<String, int[]>(); // key: category; value: quintile scores, order by speakers
+    static HashMap<String, String[]> human_actual_scores = new HashMap<String, String[]>(); // key: category; value: actual scores, order by speakers
+    static HashMap<String, String[]> auto_actual_scores = new HashMap<String, String[]>(); // key: category; value: actual scores, order by speakers
+
+    static boolean ifDouble = false;
+
+
 
     private static boolean readerOpened=false;
     private static BufferedReader eia_br;
@@ -40,10 +46,10 @@ public class Manual_NIST {
 
     public static void main(String[] args){
 
-        String human_annotation = "/home/ruobo/NetBeansProjects/evaluation-m2w/src/input_files/2010_post_in_processed";
-        String auto_annotation = "/home/ruobo/NetBeansProjects/evaluation-m2w/src/input_files/2010_auto_in_processed";
+        String human_annotation = "/home/ruobo/NetBeansProjects/evaluation-m2w/src/preprocessed/_MANUAL_tpc_scil_annotated_withHalfDGR_jessamyn_leadership_4_ngt";
+        String auto_annotation = "/home/ruobo/NetBeansProjects/evaluation-m2w/src/preprocessed/_MANUAL_tpc_scil_automated_withHalfDGR_jessamyn_leadership_4_ngt";
 
-        String evaluation_file = "/home/ruobo/NetBeansProjects/evaluation-m2w/src/output_files/2010_post_NIST_simple_1.txt";
+        String evaluation_file = "/home/ruobo/NetBeansProjects/evaluation-m2w/src/output_files/_MANUAL_tpc_scil_withHalfDGR_jessamyn_leadership_4_ngt.txt";
 
             try { //extract names/topics
                 BufferedReader br = new BufferedReader(new FileReader(human_annotation));
@@ -233,9 +239,13 @@ public class Manual_NIST {
                            String[] score_array = new String[speakers.length];
                            while((speaker = eia_br.readLine()) != null &&
                                    speaker.endsWith("$")) {
+                               if(speaker.contains(".")){
+                                   ifDouble = true;
+                               }
                                for(int k = 0; k < speakers.length; k++){
                                    if(speaker.toLowerCase().contains(speakers[k] + "\t")){
                                         score_array[k] = speaker.toLowerCase();
+
                                         //System.err.println("score_array[" + k + "]: " + score_array[k]);
                                    }
                                }
@@ -243,8 +253,14 @@ public class Manual_NIST {
                        auto_scores.put(categories[i], score_array);
                        }
                    }
-                   save_human_rank();
-                   save_auto_rank();
+//                   System.out.println(auto_scores.get(categories[0])..contains("."));
+                   if(ifDouble){// check if has double entry type
+                       save_human_actual_scores();
+                       save_auto_actual_scores();
+                   }else{
+                       save_human_rank();
+                       save_auto_rank();
+                   }
 
                      writeToEvaluation(evaluation_file, file, auto_annotation, curtopic, isnew);
                         init();
@@ -270,9 +286,7 @@ public class Manual_NIST {
 
                     if(scores[j] != null && scores[j].contains(speakers[k] + "\t")){
                         String speaker_scores = scores[j];
-
                         String quintile_score = speaker_scores.split("\t")[1];
-
                         quintile_score_array[k] = Integer.parseInt(quintile_score);
 //                        System.out.println("human score of" + speakers[k] + " : " + quintile_score_array[k]);
 
@@ -305,6 +319,50 @@ public class Manual_NIST {
               auto_quintile_scores.put(category[i].toString(), quintile_score_array);
           }
     }
+
+    public static void save_human_actual_scores(){
+        Object[] category = human_scores.keySet().toArray();
+        for(int i = 0; i < category.length; i++){
+            String[] actual_score_array = new String[speakers.length];
+            String[] scores = human_scores.get(category[i].toString());
+            for(int j = 0; j < scores.length; j++){
+                if(scores[j] == null || scores[j].equals("")){
+                    continue;
+                }
+                for(int k = 0; k < speakers.length; k++){
+                    if(scores[j].contains(speakers[k] + "\t")){
+                        String speaker_scores = scores[j];
+                        String actual_score = speaker_scores.split("\t")[1];
+                        actual_score_array[k] = actual_score;
+//                         System.out.println("human score of " + speakers[k] + " : " + actual_score_array[k]);
+                    }
+                }
+            }
+            human_actual_scores.put(category[i].toString(), actual_score_array);
+        }
+    }
+
+    public static void save_auto_actual_scores(){
+        Object[] category = auto_scores.keySet().toArray();
+        for(int i = 0; i < category.length; i++){
+            String[] actual_score_array = new String[speakers.length];
+            String[] scores = auto_scores.get(category[i].toString());
+            for(int j = 0; j < scores.length; j++){
+                if(scores[j] == null || scores[j].equals("")){
+                    continue;
+                }
+                for(int k = 0; k < speakers.length; k++){
+                   if(scores[j].contains(speakers[k] + "\t")){
+                        String speaker_scores = scores[j];
+                        String actual_score = speaker_scores.split("\t")[1];
+                        actual_score_array[k] = actual_score;
+//                         System.out.println("auto score of " + speakers[k] + " : " + actual_score_array[k]);
+                    }
+                }
+            }
+            auto_actual_scores.put(category[i].toString(), actual_score_array);
+        }
+    }
     
     public static void writeToEvaluation(String filePath, String human_annotation, String auto_annotation, String curtopic, boolean isnew){
 
@@ -332,16 +390,27 @@ public class Manual_NIST {
                     bw.write("\n");
                     bw.write(curFile +"\t" + category + "\n");
 	   			
-		   			 int[] auto_qscore = auto_quintile_scores.get(category);
-		   			 int[] human_qscore = human_quintile_scores.get(category);
-		   		
-//		   			 int counter = 0;
-   			
+                    int[] auto_qscore = auto_quintile_scores.get(category);
+                    int[] human_qscore = human_quintile_scores.get(category);
+                    String[] auto_ascore = auto_actual_scores.get(category);
+                    String[] human_ascore = human_actual_scores.get(category);
+//                    System.out.println(Arrays.asList(auto_ascore));
+//                    System.out.println(Arrays.asList(human_ascore));
+
                     /*new compare evaluation method*/
                     CompareEval CpEval = new CompareEval();
 //                  CpEval.compareEval(bw, speakers, auto_qscore, human_qscore);                    
                     /*simple NIST evaluation method*/
-                    CpEval.nistEval_simple(bw, speakers, auto_qscore, human_qscore);
+
+
+
+                    if(ifDouble){//if entries in auto score contains a dot, then use the nist simple double method
+//                                 doesn't work right now, just preprocess the double into int, using the ranking in
+                        CpEval.nistEval_simple(bw, speakers, auto_ascore, human_ascore);
+                    }else{
+                        CpEval.nistEval_simple(bw, speakers, auto_qscore, human_qscore);
+                    }
+                    
 
                     
                     

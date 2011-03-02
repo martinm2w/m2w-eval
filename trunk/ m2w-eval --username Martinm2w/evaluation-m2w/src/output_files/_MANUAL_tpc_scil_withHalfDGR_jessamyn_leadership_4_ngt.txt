@@ -1,0 +1,80 @@
+
+Feb19B	tpc_lti
+match	total	acc
+15	15	1.0
+
+Feb19B	tpc_smt
+match	total	acc
+14	15	0.9333333333333333
+
+Feb19B	tpc_cs
+match	total	acc
+15	15	1.0
+
+Feb19B	tpc_tl
+match	total	acc
+15	15	1.0
+
+Feb19B	tpc_merged
+match	total	acc
+12	15	0.8
+
+Mar07B	tpc_lti
+match	total	acc
+15	15	1.0
+
+Mar07B	tpc_smt
+match	total	acc
+12	15	0.8
+
+Mar07B	tpc_cs
+match	total	acc
+15	15	1.0
+
+Mar07B	tpc_tl
+match	total	acc
+15	15	1.0
+
+Mar07B	tpc_merged
+match	total	acc
+12	15	0.8
+
+Mar14A	tpc_lti
+match	total	acc
+6	6	1.0
+
+Mar14A	tpc_smt
+match	total	acc
+4	6	0.6666666666666666
+
+Mar14A	tpc_cs
+match	total	acc
+5	6	0.8333333333333334
+
+Mar14A	tpc_tl
+match	total	acc
+6	6	1.0
+
+Mar14A	tpc_merged
+match	total	acc
+4	6	0.6666666666666666
+
+Mar14B	tpc_lti
+match	total	acc
+9	10	0.9
+
+Mar14B	tpc_smt
+match	total	acc
+8	10	0.8
+
+Mar14B	tpc_cs
+match	total	acc
+8	10	0.8
+
+Mar14B	tpc_tl
+match	total	acc
+10	10	1.0
+
+Mar14B	tpc_merged
+match	total	acc
+8	10	0.8
