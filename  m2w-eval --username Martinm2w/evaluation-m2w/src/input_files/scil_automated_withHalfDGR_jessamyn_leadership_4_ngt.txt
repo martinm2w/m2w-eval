@@ -11,33 +11,33 @@ utt_ information level tag: comm-mgmt
 go into processFeatures...
 
 ****************** Corpus: *****************
-Tag quantity of corpus: {acknowledge=251, conventional-opening=78, correct-misspelling=64, action-directive=88, information-request=443, assertion-opinion=1602, unknown=14, signal-non-understanding=10, conventional-closing=46, offer-commit=8, confirmation-request=130, response-non-answer=108, other-conventional-phrase=87, agree-accept=724, response-answer=493, disagree-reject=329}
+Tag quantity corpus: {acknowledge=251, conventional-opening=78, correct-misspelling=64, action-directive=88, information-request=443, assertion-opinion=1602, unknown=14, signal-non-understanding=10, conventional-closing=46, offer-commit=8, confirmation-request=130, response-non-answer=108, other-conventional-phrase=87, agree-accept=724, response-answer=493, disagree-reject=329}
 *****************************************************
-Tag percentage of corpus: {acknowledge=0.05608938547486034, conventional-opening=0.01743016759776536, correct-misspelling=0.014301675977653631, action-directive=0.019664804469273742, information-request=0.09899441340782122, assertion-opinion=0.3579888268156425, unknown=0.0031284916201117317, signal-non-understanding=0.0022346368715083797, conventional-closing=0.010279329608938547, offer-commit=0.001787709497206704, confirmation-request=0.02905027932960894, response-non-answer=0.024134078212290504, other-conventional-phrase=0.019441340782122906, agree-accept=0.1617877094972067, response-answer=0.11016759776536313, disagree-reject=0.0735195530726257}
+Tag percentage corpus: {acknowledge=0.05608938547486034, conventional-opening=0.01743016759776536, correct-misspelling=0.014301675977653631, action-directive=0.019664804469273742, information-request=0.09899441340782122, assertion-opinion=0.3579888268156425, unknown=0.0031284916201117317, signal-non-understanding=0.0022346368715083797, conventional-closing=0.010279329608938547, offer-commit=0.001787709497206704, confirmation-request=0.02905027932960894, response-non-answer=0.024134078212290504, other-conventional-phrase=0.019441340782122906, agree-accept=0.1617877094972067, response-answer=0.11016759776536313, disagree-reject=0.0735195530726257}
 ******************************************************
 
 ****************** Training set: *****************
-Tag quantity of training set: {acknowledge=225, conventional-opening=73, correct-misspelling=58, action-directive=87, information-request=370, assertion-opinion=1299, unknown=14, signal-non-understanding=8, conventional-closing=42, offer-commit=8, confirmation-request=122, response-non-answer=96, other-conventional-phrase=77, agree-accept=641, response-answer=438, disagree-reject=320}
+Tag quantity training set: {acknowledge=225, conventional-opening=73, correct-misspelling=58, action-directive=87, information-request=370, assertion-opinion=1299, unknown=14, signal-non-understanding=8, conventional-closing=42, offer-commit=8, confirmation-request=122, response-non-answer=96, other-conventional-phrase=77, agree-accept=641, response-answer=438, disagree-reject=320}
 ****************************************************
-Tag percentage of training set: {acknowledge=0.05801959773078907, conventional-opening=0.018824136152656008, correct-misspelling=0.014956162970603403, action-directive=0.022434244455905104, information-request=0.09541000515729757, assertion-opinion=0.33496647756575554, unknown=0.0036101083032490976, signal-non-understanding=0.0020629190304280558, conventional-closing=0.010830324909747292, offer-commit=0.0020629190304280558, confirmation-request=0.03145951521402785, response-non-answer=0.02475502836513667, other-conventional-phrase=0.019855595667870037, agree-accept=0.16529138731304796, response-answer=0.11294481691593605, disagree-reject=0.08251676121712223}
+Tag percentage training set: {acknowledge=0.05801959773078907, conventional-opening=0.018824136152656008, correct-misspelling=0.014956162970603403, action-directive=0.022434244455905104, information-request=0.09541000515729757, assertion-opinion=0.33496647756575554, unknown=0.0036101083032490976, signal-non-understanding=0.0020629190304280558, conventional-closing=0.010830324909747292, offer-commit=0.0020629190304280558, confirmation-request=0.03145951521402785, response-non-answer=0.02475502836513667, other-conventional-phrase=0.019855595667870037, agree-accept=0.16529138731304796, response-answer=0.11294481691593605, disagree-reject=0.08251676121712223}
 *****************************************************
 
 ****************** Testing set: *****************
-Tag quantity of testing set: {acknowledge=26, conventional-opening=5, correct-misspelling=6, action-directive=1, information-request=73, assertion-opinion=303, conventional-closing=4, signal-non-understanding=2, response-non-answer=12, confirmation-request=8, other-conventional-phrase=10, agree-accept=83, response-answer=55, disagree-reject=9}
+Tag quantity testing set: {acknowledge=26, conventional-opening=5, correct-misspelling=6, action-directive=1, information-request=73, assertion-opinion=303, conventional-closing=4, signal-non-understanding=2, response-non-answer=12, confirmation-request=8, other-conventional-phrase=10, agree-accept=83, response-answer=55, disagree-reject=9}
 ********************************************************
-Tag percentage of testing set: {acknowledge=0.04355108877721943, conventional-opening=0.008375209380234505, correct-misspelling=0.010050251256281407, action-directive=0.0016750418760469012, information-request=0.12227805695142378, assertion-opinion=0.507537688442211, conventional-closing=0.006700167504187605, signal-non-understanding=0.0033500837520938024, response-non-answer=0.020100502512562814, confirmation-request=0.01340033500837521, other-conventional-phrase=0.01675041876046901, agree-accept=0.1390284757118928, response-answer=0.09212730318257957, disagree-reject=0.01507537688442211}
+Tag percentage testing set: {acknowledge=0.04355108877721943, conventional-opening=0.008375209380234505, correct-misspelling=0.010050251256281407, action-directive=0.0016750418760469012, information-request=0.12227805695142378, assertion-opinion=0.507537688442211, conventional-closing=0.006700167504187605, signal-non-understanding=0.0033500837520938024, response-non-answer=0.020100502512562814, confirmation-request=0.01340033500837521, other-conventional-phrase=0.01675041876046901, agree-accept=0.1390284757118928, response-answer=0.09212730318257957, disagree-reject=0.01507537688442211}
 ********************************************************
 
 ******************** Training set terms **********************
-Size of terms in training set: 80676
+Size terms in training set: 80676
 ********************************************************
 
 ******************* Testing set terms *************************
-Size of terms in testing set: 12206
+Size terms in testing set: 12206
 **********************************************************
 
 ************************* Training set tagF/tf *********************
-Size of tagF/tf in training set: 80676
+Size tagF/tf in training set: 80676
 ****************************************************************
 utt_ DA tag: --Agree-Accept
 pre_turn_no: 5
@@ -490,7 +490,7 @@ calculate Topic Control - LTI quintile
 
 =====================================
 
-The quintile score of carol is: 5 --- actual score: 0.37320574162679426
+The quintile score carol is: 5 --- actual score: 0.37320574162679426
 The quintile score dk is: 4 --- actual score: 0.24401913875598086
 The quintile score nicole is: 3 --- actual score: 0.11961722488038277
 The quintile score danielle is: 3 --- actual score: 0.09090909090909091
@@ -498,11 +498,11 @@ The quintile score jessicaf is: 2 --- actual score: 0.07655502392344497
 The quintile score jessamyn is: 1 --- actual score: 0.05741626794258373
 
 ++++++++++++++++++++++++++++++++
-calculate Topic Control -  SMT quintile: 
+calculate Topic Control - SMT quintile:
 
 =====================================
 
-The quintile score of carol is: 5 --- actual score: 0.2938775510204082
+The quintile score carol is: 5 --- actual score: 0.2938775510204082
 The quintile score nicole is: 4 --- actual score: 0.22244897959183674
 The quintile score dk is: 3 --- actual score: 0.1836734693877551
 The quintile score danielle is: 3 --- actual score: 0.12244897959183673
@@ -510,12 +510,12 @@ The quintile score jessicaf is: 2 --- actual score: 0.10612244897959183
 The quintile score jessamyn is: 1 --- actual score: 0.04693877551020408
 
 ++++++++++++++++++++++++++++++++
-calculate Topic Control -  CS quintile
+calculate Topic Control - CS quintile
 
 =====================================
 
 set tpc cs rank on carol with 1
-The quintile score of carol is: 5 --- actual score: 0.2646239554317549
+The quintile score carol is: 5 --- actual score: 0.2646239554317549
 set tpc cs rank on nicole with 2
 The quintile score nicole is: 4 --- actual score: 0.23676880222841226
 set tpc cs rank on dk with 3
@@ -528,11 +528,11 @@ set tpc cs rank on jessamyn with 6
 The quintile score jessamyn is: 1 --- actual score: 0.03899721448467967
 
 ++++++++++++++++++++++++++++++++
-calculate Topic Control -  TL quintile
+calculate Topic Control - TL quintile
 
 =====================================
 
-The quintile score of carol is: 5 --- actual score: 10.228571428571428
+The quintile score carol is: 5 --- actual score: 10.228571428571428
 The quintile score danielle is: 4 --- actual score: 9.62962962962963
 The quintile score jessicaf is: 3 --- actual score: 7.222222222222222
 The quintile score jessamyn is: 3 --- actual score: 6.018867924528302
@@ -543,7 +543,7 @@ calculate Topic Control - Merged quintile
 
 =====================================
 
-The quintile score of carol is: 5 --- actual score: 0.2823813780372248
+The quintile score carol is: 5 --- actual score: 0.2823813780372248
 The quintile score dk is: 4 --- actual score: 0.18152235497648914
 The quintile score nicole is: 3 --- actual score: 0.17127747090297124
 The quintile score danielle is: 3 --- actual score: 0.13262803883604732
@@ -555,7 +555,7 @@ processing Involvement...
 NPI
 =====================================
 
-The quintile score of carol is: 5 --- actual score: 0.28865979381443296
+The quintile score carol is: 5 --- actual score: 0.28865979381443296
 The quintile score dk is: 4 --- actual score: 0.17525773195876287
 The quintile score nicole is: 3 --- actual score: 0.15463917525773196
 The quintile score danielle is: 2 --- actual score: 0.12371134020618557
@@ -564,7 +564,7 @@ The quintile score jessamyn is: 1 --- actual score: 0.1134020618556701
 TI
 =====================================
 
-The quintile score of dk is: 5 --- actual score: 0.2730318257956449
+The quintile score dk is: 5 --- actual score: 0.2730318257956449
 The quintile score carol is: 4 --- actual score: 0.23450586264656617
 The quintile score nicole is: 3 --- actual score: 0.17252931323283083
 The quintile score jessicaf is: 3 --- actual score: 0.12060301507537688
@@ -573,7 +573,7 @@ The quintile score jessamyn is: 1 --- actual score: 0.08877721943048576
 TCI
 =====================================
 
-The quintile score of carol is: 5 --- actual score: 0.3917525773195876
+The quintile score carol is: 5 --- actual score: 0.3917525773195876
 The quintile score nicole is: 4 --- actual score: 0.16494845360824742
 The quintile score dk is: 3 --- actual score: 0.15979381443298968
 The quintile score danielle is: 3 --- actual score: 0.13402061855670103
@@ -582,7 +582,7 @@ The quintile score jessamyn is: 1 --- actual score: 0.061855670103092786
 ALLOTP
 =====================================
 
-The quintile score of carol is: 5 --- actual score: 0.011142061281337047
+The quintile score carol is: 5 --- actual score: 0.011142061281337047
 The quintile score jessamyn is: 3 --- actual score: 0.002785515320334262
 The quintile score danielle is: 3 --- actual score: 0.002785515320334262
 The quintile score dk is: 3 --- actual score: 0.002785515320334262
@@ -591,18 +591,18 @@ The quintile score jessicaf is: 1 --- actual score: 0.0
 ASMI
 =====================================
 
-The quintile score of carol is: 5 --- actual score: 0.32040816326530613
+The quintile score carol is: 5 --- actual score: 0.32040816326530613
 The quintile score dk is: 4 --- actual score: 0.19387755102040816
 The quintile score nicole is: 3 --- actual score: 0.15306122448979592
 The quintile score jessicaf is: 3 --- actual score: 0.12244897959183673
 The quintile score danielle is: 2 --- actual score: 0.12040816326530612
 The quintile score jessamyn is: 1 --- actual score: 0.0836734693877551
 ++++++++++++++++++++++++++++++++
-calculate Merged quintile
+MERGE
 
 =====================================
 
-The quintile score of carol is: 5 --- actual score: 0.24929369166544602
+The quintile score carol is: 5 --- actual score: 0.24929369166544602
 The quintile score dk is: 4 --- actual score: 0.16094928770562797
 The quintile score nicole is: 3 --- actual score: 0.12903563331772122
 The quintile score danielle is: 3 --- actual score: 0.09427557973101194
@@ -615,13 +615,13 @@ total_ac_oc_: 65
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 ++++++++++++++++++++++++++++++++
 calculate Task Control
-The quintile score of dk is: 5 --- actual score: (12)0.18461538461538463
-The quintile score of carol is: 4 --- actual score: (9)0.13846153846153847
-The quintile score of danielle is: 4 --- actual score: (6)0.09230769230769231
-The quintile score of jessamyn is: 2 --- actual score: (1)0.015384615384615385
-The quintile score of jessicaf is: 2 --- actual score: (1)0.015384615384615385
-The quintile score of ilspersonnel is: 1 --- actual score: (0)0.0
-The quintile score of nicole is: 1 --- actual score: (0)0.0
+The quintile score dk is: 5 --- actual score: (12)0.18461538461538463
+The quintile score carol is: 4 --- actual score: (9)0.13846153846153847
+The quintile score danielle is: 4 --- actual score: (6)0.09230769230769231
+The quintile score jessamyn is: 2 --- actual score: (1)0.015384615384615385
+The quintile score jessicaf is: 2 --- actual score: (1)0.015384615384615385
+The quintile score ilspersonnel is: 1 --- actual score: (0)0.0
+The quintile score nicole is: 1 --- actual score: (0)0.0
 
 
 Processing Expressive Disagreement...
@@ -632,22 +632,22 @@ calculate Expressive Disagreement - CDXI quintile
 =====================================
 
 
-The quintile score of dk is: 5 --- actual score: 0.5
-The quintile score of nicole is: 4 --- actual score: 0.25
-The quintile score of jessicaf is: 4 --- actual score: 0.25
-The quintile score of ilspersonnel is: 1 --- actual score: 0.0
-The quintile score of jessamyn is: 1 --- actual score: 0.0
-The quintile score of danielle is: 1 --- actual score: 0.0
-The quintile score of carol is: 1 --- actual score: 0.0
+The quintile score dk is: 5 --- actual score: 0.5
+The quintile score nicole is: 4 --- actual score: 0.25
+The quintile score jessicaf is: 4 --- actual score: 0.25
+The quintile score ilspersonnel is: 1 --- actual score: 0.0
+The quintile score jessamyn is: 1 --- actual score: 0.0
+The quintile score danielle is: 1 --- actual score: 0.0
+The quintile score carol is: 1 --- actual score: 0.0
 
 
 Processing Agreement...
-The actural score of ATX of jessamyn is: 0.24242424242424243
-The actural score of ATX of danielle is: 0.045454545454545456
-The actural score of ATX of dk is: 0.22727272727272727
-The actural score of ATX of nicole is: 0.2878787878787879
-The actural score of ATX of jessicaf is: 0.15151515151515152
-The actural score of ATX of carol is: 0.045454545454545456
+The actural score ATX jessamyn is: 0.24242424242424243
+The actural score ATX danielle is: 0.045454545454545456
+The actural score ATX dk is: 0.22727272727272727
+The actural score ATX nicole is: 0.2878787878787879
+The actural score ATX jessicaf is: 0.15151515151515152
+The actural score ATX carol is: 0.045454545454545456
 leadership: 
 key: jessamyn
 ======================jessamyn: 
@@ -700,33 +700,33 @@ utt_ information level tag: task
 go into processFeatures...
 
 ****************** Corpus: *****************
-Tag quantity of corpus: {acknowledge=242, conventional-opening=79, correct-misspelling=66, action-directive=101, information-request=396, assertion-opinion=1483, unknown=15, signal-non-understanding=13, conventional-closing=48, offer-commit=8, confirmation-request=124, response-non-answer=108, other-conventional-phrase=103, agree-accept=711, response-answer=461, disagree-reject=354}
+Tag quantity corpus: {acknowledge=242, conventional-opening=79, correct-misspelling=66, action-directive=101, information-request=396, assertion-opinion=1483, unknown=15, signal-non-understanding=13, conventional-closing=48, offer-commit=8, confirmation-request=124, response-non-answer=108, other-conventional-phrase=103, agree-accept=711, response-answer=461, disagree-reject=354}
 *****************************************************
-Tag percentage of corpus: {acknowledge=0.05612244897959184, conventional-opening=0.018320964749536178, correct-misspelling=0.015306122448979591, action-directive=0.023423005565862708, information-request=0.09183673469387756, assertion-opinion=0.3439239332096475, unknown=0.003478664192949907, signal-non-understanding=0.0030148423005565863, conventional-closing=0.011131725417439703, offer-commit=0.0018552875695732839, confirmation-request=0.0287569573283859, response-non-answer=0.02504638218923933, other-conventional-phrase=0.02388682745825603, agree-accept=0.1648886827458256, response-answer=0.10691094619666049, disagree-reject=0.08209647495361781}
+Tag percentage corpus: {acknowledge=0.05612244897959184, conventional-opening=0.018320964749536178, correct-misspelling=0.015306122448979591, action-directive=0.023423005565862708, information-request=0.09183673469387756, assertion-opinion=0.3439239332096475, unknown=0.003478664192949907, signal-non-understanding=0.0030148423005565863, conventional-closing=0.011131725417439703, offer-commit=0.0018552875695732839, confirmation-request=0.0287569573283859, response-non-answer=0.02504638218923933, other-conventional-phrase=0.02388682745825603, agree-accept=0.1648886827458256, response-answer=0.10691094619666049, disagree-reject=0.08209647495361781}
 ******************************************************
 
 ****************** Training set: *****************
-Tag quantity of training set: {acknowledge=225, conventional-opening=73, correct-misspelling=58, action-directive=87, information-request=370, assertion-opinion=1299, unknown=14, signal-non-understanding=8, conventional-closing=42, offer-commit=8, confirmation-request=122, response-non-answer=96, other-conventional-phrase=77, agree-accept=641, response-answer=438, disagree-reject=320}
+Tag quantity training set: {acknowledge=225, conventional-opening=73, correct-misspelling=58, action-directive=87, information-request=370, assertion-opinion=1299, unknown=14, signal-non-understanding=8, conventional-closing=42, offer-commit=8, confirmation-request=122, response-non-answer=96, other-conventional-phrase=77, agree-accept=641, response-answer=438, disagree-reject=320}
 ****************************************************
-Tag percentage of training set: {acknowledge=0.05801959773078907, conventional-opening=0.018824136152656008, correct-misspelling=0.014956162970603403, action-directive=0.022434244455905104, information-request=0.09541000515729757, assertion-opinion=0.33496647756575554, unknown=0.0036101083032490976, signal-non-understanding=0.0020629190304280558, conventional-closing=0.010830324909747292, offer-commit=0.0020629190304280558, confirmation-request=0.03145951521402785, response-non-answer=0.02475502836513667, other-conventional-phrase=0.019855595667870037, agree-accept=0.16529138731304796, response-answer=0.11294481691593605, disagree-reject=0.08251676121712223}
+Tag percentage training set: {acknowledge=0.05801959773078907, conventional-opening=0.018824136152656008, correct-misspelling=0.014956162970603403, action-directive=0.022434244455905104, information-request=0.09541000515729757, assertion-opinion=0.33496647756575554, unknown=0.0036101083032490976, signal-non-understanding=0.0020629190304280558, conventional-closing=0.010830324909747292, offer-commit=0.0020629190304280558, confirmation-request=0.03145951521402785, response-non-answer=0.02475502836513667, other-conventional-phrase=0.019855595667870037, agree-accept=0.16529138731304796, response-answer=0.11294481691593605, disagree-reject=0.08251676121712223}
 *****************************************************
 
 ****************** Testing set: *****************
-Tag quantity of testing set: {acknowledge=17, conventional-opening=6, correct-misspelling=8, action-directive=14, information-request=26, assertion-opinion=184, unknown=1, conventional-closing=6, signal-non-understanding=5, confirmation-request=2, response-non-answer=12, other-conventional-phrase=26, agree-accept=70, response-answer=23, disagree-reject=34}
+Tag quantity testing set: {acknowledge=17, conventional-opening=6, correct-misspelling=8, action-directive=14, information-request=26, assertion-opinion=184, unknown=1, conventional-closing=6, signal-non-understanding=5, confirmation-request=2, response-non-answer=12, other-conventional-phrase=26, agree-accept=70, response-answer=23, disagree-reject=34}
 ********************************************************
-Tag percentage of testing set: {acknowledge=0.03917050691244239, conventional-opening=0.013824884792626729, correct-misspelling=0.018433179723502304, action-directive=0.03225806451612903, information-request=0.059907834101382486, assertion-opinion=0.423963133640553, unknown=0.002304147465437788, conventional-closing=0.013824884792626729, signal-non-understanding=0.01152073732718894, confirmation-request=0.004608294930875576, response-non-answer=0.027649769585253458, other-conventional-phrase=0.059907834101382486, agree-accept=0.16129032258064516, response-answer=0.052995391705069124, disagree-reject=0.07834101382488479}
+Tag percentage testing set: {acknowledge=0.03917050691244239, conventional-opening=0.013824884792626729, correct-misspelling=0.018433179723502304, action-directive=0.03225806451612903, information-request=0.059907834101382486, assertion-opinion=0.423963133640553, unknown=0.002304147465437788, conventional-closing=0.013824884792626729, signal-non-understanding=0.01152073732718894, confirmation-request=0.004608294930875576, response-non-answer=0.027649769585253458, other-conventional-phrase=0.059907834101382486, agree-accept=0.16129032258064516, response-answer=0.052995391705069124, disagree-reject=0.07834101382488479}
 ********************************************************
 
 ******************** Training set terms **********************
-Size of terms in training set: 80676
+Size terms in training set: 80676
 ********************************************************
 
 ******************* Testing set terms *************************
-Size of terms in testing set: 9065
+Size terms in testing set: 9065
 **********************************************************
 
 ************************* Training set tagF/tf *********************
-Size of tagF/tf in training set: 80676
+Size tagF/tf in training set: 80676
 ****************************************************************
 utt_ DA tag: Other-Conventional-Phrase
 pre_turn_no: 14
@@ -1275,7 +1275,7 @@ calculate Topic Control - LTI quintile
 
 =====================================
 
-The quintile score of sarah is: 5 --- actual score: 0.24907063197026022
+The quintile score sarah is: 5 --- actual score: 0.24907063197026022
 The quintile score laura is: 4 --- actual score: 0.2379182156133829
 The quintile score lisa is: 3 --- actual score: 0.1821561338289963
 The quintile score jessicaf is: 3 --- actual score: 0.11152416356877323
@@ -1283,11 +1283,11 @@ The quintile score jorge1 is: 2 --- actual score: 0.10037174721189591
 The quintile score johnw is: 1 --- actual score: 0.06691449814126393
 
 ++++++++++++++++++++++++++++++++
-calculate Topic Control -  SMT quintile: 
+calculate Topic Control - SMT quintile:
 
 =====================================
 
-The quintile score of laura is: 5 --- actual score: 0.3756345177664975
+The quintile score laura is: 5 --- actual score: 0.3756345177664975
 The quintile score lisa is: 4 --- actual score: 0.25888324873096447
 The quintile score jorge1 is: 3 --- actual score: 0.13959390862944163
 The quintile score jessicaf is: 3 --- actual score: 0.09644670050761421
@@ -1295,12 +1295,12 @@ The quintile score sarah is: 2 --- actual score: 0.06091370558375635
 The quintile score johnw is: 1 --- actual score: 0.03553299492385787
 
 ++++++++++++++++++++++++++++++++
-calculate Topic Control -  CS quintile
+calculate Topic Control - CS quintile
 
 =====================================
 
 set tpc cs rank on laura with 1
-The quintile score of laura is: 5 --- actual score: 0.375
+The quintile score laura is: 5 --- actual score: 0.375
 set tpc cs rank on lisa with 2
 The quintile score lisa is: 4 --- actual score: 0.25
 set tpc cs rank on jorge1 with 3
@@ -1313,11 +1313,11 @@ set tpc cs rank on johnw with 6
 The quintile score johnw is: 1 --- actual score: 0.030405405405405407
 
 ++++++++++++++++++++++++++++++++
-calculate Topic Control -  TL quintile
+calculate Topic Control - TL quintile
 
 =====================================
 
-The quintile score of lisa is: 5 --- actual score: 8.714285714285714
+The quintile score lisa is: 5 --- actual score: 8.714285714285714
 The quintile score sarah is: 4 --- actual score: 8.712765957446809
 The quintile score johnw is: 3 --- actual score: 7.916666666666667
 The quintile score jessicaf is: 3 --- actual score: 7.125
@@ -1328,7 +1328,7 @@ calculate Topic Control - Merged quintile
 
 =====================================
 
-The quintile score of laura is: 5 --- actual score: 0.2734960522610688
+The quintile score laura is: 5 --- actual score: 0.2734960522610688
 The quintile score lisa is: 4 --- actual score: 0.2125281790693421
 The quintile score sarah is: 3 --- actual score: 0.1282372120168168
 The quintile score jorge1 is: 3 --- actual score: 0.1276382854857178
@@ -1340,7 +1340,7 @@ processing Involvement...
 NPI
 =====================================
 
-The quintile score of sarah is: 5 --- actual score: 0.2570093457943925
+The quintile score sarah is: 5 --- actual score: 0.2570093457943925
 The quintile score lisa is: 4 --- actual score: 0.2336448598130841
 The quintile score laura is: 3 --- actual score: 0.22429906542056074
 The quintile score jorge1 is: 3 --- actual score: 0.12149532710280374
@@ -1349,7 +1349,7 @@ The quintile score johnw is: 1 --- actual score: 0.07476635514018691
 TI
 =====================================
 
-The quintile score of laura is: 5 --- actual score: 0.2465437788018433
+The quintile score laura is: 5 --- actual score: 0.2465437788018433
 The quintile score sarah is: 4 --- actual score: 0.21658986175115208
 The quintile score lisa is: 3 --- actual score: 0.1935483870967742
 The quintile score jessicaf is: 3 --- actual score: 0.12903225806451613
@@ -1358,7 +1358,7 @@ The quintile score johnw is: 1 --- actual score: 0.08294930875576037
 TCI
 =====================================
 
-The quintile score of sarah is: 5 --- actual score: 0.2565217391304348
+The quintile score sarah is: 5 --- actual score: 0.2565217391304348
 The quintile score lisa is: 4 --- actual score: 0.2391304347826087
 The quintile score laura is: 3 --- actual score: 0.20434782608695654
 The quintile score jorge1 is: 3 --- actual score: 0.1391304347826087
@@ -1376,18 +1376,18 @@ The quintile score johnw is: 1 --- actual score: 0.0
 ASMI
 =====================================
 
-The quintile score of sarah is: 5 --- actual score: 0.25888324873096447
+The quintile score sarah is: 5 --- actual score: 0.25888324873096447
 The quintile score lisa is: 4 --- actual score: 0.24619289340101522
 The quintile score laura is: 3 --- actual score: 0.1751269035532995
 The quintile score jorge1 is: 3 --- actual score: 0.12944162436548223
 The quintile score jessicaf is: 2 --- actual score: 0.10406091370558376
 The quintile score johnw is: 1 --- actual score: 0.08121827411167512
 ++++++++++++++++++++++++++++++++
-calculate Merged quintile
+MERGE
 
 =====================================
 
-The quintile score of sarah is: 5 --- actual score: 0.20050354178409147
+The quintile score sarah is: 5 --- actual score: 0.20050354178409147
 The quintile score lisa is: 4 --- actual score: 0.18520601772139914
 The quintile score laura is: 3 --- actual score: 0.17006351477253204
 The quintile score jorge1 is: 3 --- actual score: 0.10105495190455682
@@ -1400,13 +1400,13 @@ total_ac_oc_: 32
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 ++++++++++++++++++++++++++++++++
 calculate Task Control
-The quintile score of laura is: 5 --- actual score: (10)0.3125
-The quintile score of lisa is: 4 --- actual score: (8)0.25
-The quintile score of ilspersonnel is: 3 --- actual score: (3)0.09375
-The quintile score of sarah is: 3 --- actual score: (3)0.09375
-The quintile score of jessicaf is: 2 --- actual score: (2)0.0625
-The quintile score of jorge1 is: 1 --- actual score: (1)0.03125
-The quintile score of johnw is: 1 --- actual score: (1)0.03125
+The quintile score laura is: 5 --- actual score: (10)0.3125
+The quintile score lisa is: 4 --- actual score: (8)0.25
+The quintile score ilspersonnel is: 3 --- actual score: (3)0.09375
+The quintile score sarah is: 3 --- actual score: (3)0.09375
+The quintile score jessicaf is: 2 --- actual score: (2)0.0625
+The quintile score jorge1 is: 1 --- actual score: (1)0.03125
+The quintile score johnw is: 1 --- actual score: (1)0.03125
 
 
 Processing Expressive Disagreement...
@@ -1417,22 +1417,22 @@ calculate Expressive Disagreement - CDXI quintile
 =====================================
 
 
-The quintile score of jessicaf is: 5 --- actual score: 0.3333333333333333
-The quintile score of sarah is: 4 --- actual score: 0.26666666666666666
-The quintile score of lisa is: 4 --- actual score: 0.26666666666666666
-The quintile score of jorge1 is: 3 --- actual score: 0.13333333333333333
-The quintile score of ilspersonnel is: 1 --- actual score: 0.0
-The quintile score of laura is: 1 --- actual score: 0.0
-The quintile score of johnw is: 1 --- actual score: 0.0
+The quintile score jessicaf is: 5 --- actual score: 0.3333333333333333
+The quintile score sarah is: 4 --- actual score: 0.26666666666666666
+The quintile score lisa is: 4 --- actual score: 0.26666666666666666
+The quintile score jorge1 is: 3 --- actual score: 0.13333333333333333
+The quintile score ilspersonnel is: 1 --- actual score: 0.0
+The quintile score laura is: 1 --- actual score: 0.0
+The quintile score johnw is: 1 --- actual score: 0.0
 
 
 Processing Agreement...
-The actural score of ATX of jorge1 is: 0.05660377358490566
-The actural score of ATX of laura is: 0.3018867924528302
-The actural score of ATX of johnw is: 0.1320754716981132
-The actural score of ATX of jessicaf is: 0.16981132075471697
-The actural score of ATX of sarah is: 0.1320754716981132
-The actural score of ATX of lisa is: 0.20754716981132076
+The actural score ATX jorge1 is: 0.05660377358490566
+The actural score ATX laura is: 0.3018867924528302
+The actural score ATX johnw is: 0.1320754716981132
+The actural score ATX jessicaf is: 0.16981132075471697
+The actural score ATX sarah is: 0.1320754716981132
+The actural score ATX lisa is: 0.20754716981132076
 leadership: 
 key: jorge1
 ======================jorge1: 
@@ -1485,33 +1485,33 @@ utt_ information level tag: task
 go into processFeatures...
 
 ****************** Corpus: *****************
-Tag quantity of corpus: {acknowledge=232, conventional-opening=75, correct-misspelling=58, action-directive=100, information-request=401, assertion-opinion=1401, unknown=17, signal-non-understanding=22, conventional-closing=45, offer-commit=8, confirmation-request=127, response-non-answer=105, other-conventional-phrase=90, agree-accept=661, response-answer=472, disagree-reject=347}
+Tag quantity corpus: {acknowledge=232, conventional-opening=75, correct-misspelling=58, action-directive=100, information-request=401, assertion-opinion=1401, unknown=17, signal-non-understanding=22, conventional-closing=45, offer-commit=8, confirmation-request=127, response-non-answer=105, other-conventional-phrase=90, agree-accept=661, response-answer=472, disagree-reject=347}
 *****************************************************
-Tag percentage of corpus: {acknowledge=0.05575582792597933, conventional-opening=0.01802451333813987, correct-misspelling=0.013938956981494832, action-directive=0.02403268445085316, information-request=0.09637106464792117, assertion-opinion=0.33669790915645276, unknown=0.004085556356645037, signal-non-understanding=0.005287190579187695, conventional-closing=0.010814708002883922, offer-commit=0.0019226147560682527, confirmation-request=0.030521509252583512, response-non-answer=0.025234318673395817, other-conventional-phrase=0.021629416005767843, agree-accept=0.15885604422013938, response-answer=0.11343427060802691, disagree-reject=0.08339341504446046}
+Tag percentage corpus: {acknowledge=0.05575582792597933, conventional-opening=0.01802451333813987, correct-misspelling=0.013938956981494832, action-directive=0.02403268445085316, information-request=0.09637106464792117, assertion-opinion=0.33669790915645276, unknown=0.004085556356645037, signal-non-understanding=0.005287190579187695, conventional-closing=0.010814708002883922, offer-commit=0.0019226147560682527, confirmation-request=0.030521509252583512, response-non-answer=0.025234318673395817, other-conventional-phrase=0.021629416005767843, agree-accept=0.15885604422013938, response-answer=0.11343427060802691, disagree-reject=0.08339341504446046}
 ******************************************************
 
 ****************** Training set: *****************
-Tag quantity of training set: {acknowledge=225, conventional-opening=73, correct-misspelling=58, action-directive=87, information-request=370, assertion-opinion=1299, unknown=14, signal-non-understanding=8, conventional-closing=42, offer-commit=8, confirmation-request=122, response-non-answer=96, other-conventional-phrase=77, agree-accept=641, response-answer=438, disagree-reject=320}
+Tag quantity training set: {acknowledge=225, conventional-opening=73, correct-misspelling=58, action-directive=87, information-request=370, assertion-opinion=1299, unknown=14, signal-non-understanding=8, conventional-closing=42, offer-commit=8, confirmation-request=122, response-non-answer=96, other-conventional-phrase=77, agree-accept=641, response-answer=438, disagree-reject=320}
 ****************************************************
-Tag percentage of training set: {acknowledge=0.05801959773078907, conventional-opening=0.018824136152656008, correct-misspelling=0.014956162970603403, action-directive=0.022434244455905104, information-request=0.09541000515729757, assertion-opinion=0.33496647756575554, unknown=0.0036101083032490976, signal-non-understanding=0.0020629190304280558, conventional-closing=0.010830324909747292, offer-commit=0.0020629190304280558, confirmation-request=0.03145951521402785, response-non-answer=0.02475502836513667, other-conventional-phrase=0.019855595667870037, agree-accept=0.16529138731304796, response-answer=0.11294481691593605, disagree-reject=0.08251676121712223}
+Tag percentage training set: {acknowledge=0.05801959773078907, conventional-opening=0.018824136152656008, correct-misspelling=0.014956162970603403, action-directive=0.022434244455905104, information-request=0.09541000515729757, assertion-opinion=0.33496647756575554, unknown=0.0036101083032490976, signal-non-understanding=0.0020629190304280558, conventional-closing=0.010830324909747292, offer-commit=0.0020629190304280558, confirmation-request=0.03145951521402785, response-non-answer=0.02475502836513667, other-conventional-phrase=0.019855595667870037, agree-accept=0.16529138731304796, response-answer=0.11294481691593605, disagree-reject=0.08251676121712223}
 *****************************************************
 
 ****************** Testing set: *****************
-Tag quantity of testing set: {acknowledge=7, conventional-opening=2, action-directive=13, information-request=31, assertion-opinion=102, unknown=3, conventional-closing=3, signal-non-understanding=14, confirmation-request=5, response-non-answer=9, other-conventional-phrase=13, agree-accept=20, response-answer=34, disagree-reject=27}
+Tag quantity testing set: {acknowledge=7, conventional-opening=2, action-directive=13, information-request=31, assertion-opinion=102, unknown=3, conventional-closing=3, signal-non-understanding=14, confirmation-request=5, response-non-answer=9, other-conventional-phrase=13, agree-accept=20, response-answer=34, disagree-reject=27}
 ********************************************************
-Tag percentage of testing set: {acknowledge=0.024734982332155476, conventional-opening=0.007067137809187279, action-directive=0.045936395759717315, information-request=0.10954063604240283, assertion-opinion=0.36042402826855124, unknown=0.01060070671378092, conventional-closing=0.01060070671378092, signal-non-understanding=0.04946996466431095, confirmation-request=0.0176678445229682, response-non-answer=0.03180212014134275, other-conventional-phrase=0.045936395759717315, agree-accept=0.0706713780918728, response-answer=0.12014134275618374, disagree-reject=0.09540636042402827}
+Tag percentage testing set: {acknowledge=0.024734982332155476, conventional-opening=0.007067137809187279, action-directive=0.045936395759717315, information-request=0.10954063604240283, assertion-opinion=0.36042402826855124, unknown=0.01060070671378092, conventional-closing=0.01060070671378092, signal-non-understanding=0.04946996466431095, confirmation-request=0.0176678445229682, response-non-answer=0.03180212014134275, other-conventional-phrase=0.045936395759717315, agree-accept=0.0706713780918728, response-answer=0.12014134275618374, disagree-reject=0.09540636042402827}
 ********************************************************
 
 ******************** Training set terms **********************
-Size of terms in training set: 80676
+Size terms in training set: 80676
 ********************************************************
 
 ******************* Testing set terms *************************
-Size of terms in testing set: 5968
+Size terms in testing set: 5968
 **********************************************************
 
 ************************* Training set tagF/tf *********************
-Size of tagF/tf in training set: 80676
+Size tagF/tf in training set: 80676
 ****************************************************************
 utt_ DA tag: Other-Conventional-Phrase
 pre_turn_no: 23
@@ -1758,7 +1758,7 @@ The quintile score ashley is: 2 --- actual score: 0.20725388601036268
 The quintile score tony is: 1 --- actual score: 0.12435233160621761
 
 ++++++++++++++++++++++++++++++++
-calculate Topic Control -  SMT quintile: 
+calculate Topic Control - SMT quintile:
 
 =====================================
 
@@ -1768,7 +1768,7 @@ The quintile score ashley is: 2 --- actual score: 0.08695652173913043
 The quintile score tony is: 1 --- actual score: 0.08074534161490683
 
 ++++++++++++++++++++++++++++++++
-calculate Topic Control -  CS quintile
+calculate Topic Control - CS quintile
 
 =====================================
 
@@ -1782,7 +1782,7 @@ set tpc cs rank on ashley with 4
 The quintile score ashley is: 1 --- actual score: 0.08080808080808081
 
 ++++++++++++++++++++++++++++++++
-calculate Topic Control -  TL quintile
+calculate Topic Control - TL quintile
 
 =====================================
 
@@ -1838,7 +1838,7 @@ The quintile score sarah is: 3 --- actual score: 0.2360248447204969
 The quintile score ashley is: 2 --- actual score: 0.2236024844720497
 The quintile score tony is: 1 --- actual score: 0.13043478260869565
 ++++++++++++++++++++++++++++++++
-calculate Merged quintile
+MERGE
 
 =====================================
 
@@ -1853,11 +1853,11 @@ total_ac_oc_: 29
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 ++++++++++++++++++++++++++++++++
 calculate Task Control
-The quintile score of sarah is: 5 --- actual score: (10)0.3448275862068966
-The quintile score of ashley is: 3 --- actual score: (4)0.13793103448275862
-The quintile score of ilspersonnel is: 3 --- actual score: (4)0.13793103448275862
-The quintile score of jorge1 is: 2 --- actual score: (3)0.10344827586206896
-The quintile score of tony is: 1 --- actual score: (0)0.0
+The quintile score sarah is: 5 --- actual score: (10)0.3448275862068966
+The quintile score ashley is: 3 --- actual score: (4)0.13793103448275862
+The quintile score ilspersonnel is: 3 --- actual score: (4)0.13793103448275862
+The quintile score jorge1 is: 2 --- actual score: (3)0.10344827586206896
+The quintile score tony is: 1 --- actual score: (0)0.0
 
 
 Processing Expressive Disagreement...
@@ -1867,18 +1867,18 @@ calculate Expressive Disagreement - CDXI quintile
 
 =====================================
 
-The quintile score of jorge1 is: 3 --- actual score: 0.2777777777777778
-The quintile score of ashley is: 3 --- actual score: 0.2777777777777778
-The quintile score of sarah is: 3 --- actual score: 0.2777777777777778
-The quintile score of tony is: 2 --- actual score: 0.16666666666666666
-The quintile score of ilspersonnel is: 1 --- actual score: 0.0
+The quintile score jorge1 is: 3 --- actual score: 0.2777777777777778
+The quintile score ashley is: 3 --- actual score: 0.2777777777777778
+The quintile score sarah is: 3 --- actual score: 0.2777777777777778
+The quintile score tony is: 2 --- actual score: 0.16666666666666666
+The quintile score ilspersonnel is: 1 --- actual score: 0.0
 
 
 Processing Agreement...
-The actural score of ATX of jorge1 is: 0.2222222222222222
-The actural score of ATX of tony is: 0.2222222222222222
-The actural score of ATX of ashley is: 0.3888888888888889
-The actural score of ATX of sarah is: 0.16666666666666666
+The actural score ATX jorge1 is: 0.2222222222222222
+The actural score ATX tony is: 0.2222222222222222
+The actural score ATX ashley is: 0.3888888888888889
+The actural score ATX sarah is: 0.16666666666666666
 leadership: 
 key: jorge1
 ======================jorge1: 
@@ -1917,33 +1917,33 @@ utt_ information level tag: task
 go into processFeatures...
 
 ****************** Corpus: *****************
-Tag quantity of corpus: {acknowledge=248, conventional-opening=80, correct-misspelling=62, action-directive=115, information-request=419, assertion-opinion=1496, unknown=35, signal-non-understanding=12, conventional-closing=50, offer-commit=9, confirmation-request=139, response-non-answer=108, other-conventional-phrase=88, agree-accept=737, response-answer=491, disagree-reject=336}
+Tag quantity corpus: {acknowledge=248, conventional-opening=80, correct-misspelling=62, action-directive=115, information-request=419, assertion-opinion=1496, unknown=35, signal-non-understanding=12, conventional-closing=50, offer-commit=9, confirmation-request=139, response-non-answer=108, other-conventional-phrase=88, agree-accept=737, response-answer=491, disagree-reject=336}
 *****************************************************
-Tag percentage of corpus: {acknowledge=0.056045197740113, conventional-opening=0.01807909604519774, correct-misspelling=0.01401129943502825, action-directive=0.02598870056497175, information-request=0.09468926553672316, assertion-opinion=0.33807909604519776, unknown=0.007909604519774011, signal-non-understanding=0.002711864406779661, conventional-closing=0.011299435028248588, offer-commit=0.002033898305084746, confirmation-request=0.03141242937853107, response-non-answer=0.02440677966101695, other-conventional-phrase=0.019887005649717515, agree-accept=0.16655367231638418, response-answer=0.11096045197740113, disagree-reject=0.0759322033898305}
+Tag percentage corpus: {acknowledge=0.056045197740113, conventional-opening=0.01807909604519774, correct-misspelling=0.01401129943502825, action-directive=0.02598870056497175, information-request=0.09468926553672316, assertion-opinion=0.33807909604519776, unknown=0.007909604519774011, signal-non-understanding=0.002711864406779661, conventional-closing=0.011299435028248588, offer-commit=0.002033898305084746, confirmation-request=0.03141242937853107, response-non-answer=0.02440677966101695, other-conventional-phrase=0.019887005649717515, agree-accept=0.16655367231638418, response-answer=0.11096045197740113, disagree-reject=0.0759322033898305}
 ******************************************************
 
 ****************** Training set: *****************
-Tag quantity of training set: {acknowledge=225, conventional-opening=73, correct-misspelling=58, action-directive=87, information-request=370, assertion-opinion=1299, unknown=14, signal-non-understanding=8, conventional-closing=42, offer-commit=8, confirmation-request=122, response-non-answer=96, other-conventional-phrase=77, agree-accept=641, response-answer=438, disagree-reject=320}
+Tag quantity training set: {acknowledge=225, conventional-opening=73, correct-misspelling=58, action-directive=87, information-request=370, assertion-opinion=1299, unknown=14, signal-non-understanding=8, conventional-closing=42, offer-commit=8, confirmation-request=122, response-non-answer=96, other-conventional-phrase=77, agree-accept=641, response-answer=438, disagree-reject=320}
 ****************************************************
-Tag percentage of training set: {acknowledge=0.05801959773078907, conventional-opening=0.018824136152656008, correct-misspelling=0.014956162970603403, action-directive=0.022434244455905104, information-request=0.09541000515729757, assertion-opinion=0.33496647756575554, unknown=0.0036101083032490976, signal-non-understanding=0.0020629190304280558, conventional-closing=0.010830324909747292, offer-commit=0.0020629190304280558, confirmation-request=0.03145951521402785, response-non-answer=0.02475502836513667, other-conventional-phrase=0.019855595667870037, agree-accept=0.16529138731304796, response-answer=0.11294481691593605, disagree-reject=0.08251676121712223}
+Tag percentage training set: {acknowledge=0.05801959773078907, conventional-opening=0.018824136152656008, correct-misspelling=0.014956162970603403, action-directive=0.022434244455905104, information-request=0.09541000515729757, assertion-opinion=0.33496647756575554, unknown=0.0036101083032490976, signal-non-understanding=0.0020629190304280558, conventional-closing=0.010830324909747292, offer-commit=0.0020629190304280558, confirmation-request=0.03145951521402785, response-non-answer=0.02475502836513667, other-conventional-phrase=0.019855595667870037, agree-accept=0.16529138731304796, response-answer=0.11294481691593605, disagree-reject=0.08251676121712223}
 *****************************************************
 
 ****************** Testing set: *****************
-Tag quantity of testing set: {acknowledge=23, conventional-opening=7, correct-misspelling=4, action-directive=28, information-request=49, assertion-opinion=197, unknown=21, conventional-closing=8, signal-non-understanding=4, confirmation-request=17, offer-commit=1, response-non-answer=12, other-conventional-phrase=11, agree-accept=96, response-answer=53, disagree-reject=16}
+Tag quantity testing set: {acknowledge=23, conventional-opening=7, correct-misspelling=4, action-directive=28, information-request=49, assertion-opinion=197, unknown=21, conventional-closing=8, signal-non-understanding=4, confirmation-request=17, offer-commit=1, response-non-answer=12, other-conventional-phrase=11, agree-accept=96, response-answer=53, disagree-reject=16}
 ********************************************************
-Tag percentage of testing set: {acknowledge=0.04204753199268738, conventional-opening=0.012797074954296161, correct-misspelling=0.007312614259597806, action-directive=0.051188299817184646, information-request=0.08957952468007313, assertion-opinion=0.360146252285192, unknown=0.038391224862888484, conventional-closing=0.014625228519195612, signal-non-understanding=0.007312614259597806, confirmation-request=0.031078610603290677, offer-commit=0.0018281535648994515, response-non-answer=0.021937842778793418, other-conventional-phrase=0.02010968921389397, agree-accept=0.17550274223034734, response-answer=0.09689213893967093, disagree-reject=0.029250457038391225}
+Tag percentage testing set: {acknowledge=0.04204753199268738, conventional-opening=0.012797074954296161, correct-misspelling=0.007312614259597806, action-directive=0.051188299817184646, information-request=0.08957952468007313, assertion-opinion=0.360146252285192, unknown=0.038391224862888484, conventional-closing=0.014625228519195612, signal-non-understanding=0.007312614259597806, confirmation-request=0.031078610603290677, offer-commit=0.0018281535648994515, response-non-answer=0.021937842778793418, other-conventional-phrase=0.02010968921389397, agree-accept=0.17550274223034734, response-answer=0.09689213893967093, disagree-reject=0.029250457038391225}
 ********************************************************
 
 ******************** Training set terms **********************
-Size of terms in training set: 80676
+Size terms in training set: 80676
 ********************************************************
 
 ******************* Testing set terms *************************
-Size of terms in testing set: 8966
+Size terms in testing set: 8966
 **********************************************************
 
 ************************* Training set tagF/tf *********************
-Size of tagF/tf in training set: 80676
+Size tagF/tf in training set: 80676
 ****************************************************************
 utt_ DA tag: Other-Conventional-Phrase
 pre_turn_no: 26
@@ -2341,30 +2341,30 @@ calculate Topic Control - LTI quintile
 
 =====================================
 
-The quintile score of jodie is: 5 --- actual score: 0.3333333333333333
+The quintile score jodie is: 5 --- actual score: 0.3333333333333333
 The quintile score lisa is: 4 --- actual score: 0.2564102564102564
 The quintile score jenniferb is: 3 --- actual score: 0.23443223443223443
 The quintile score laura is: 2 --- actual score: 0.13553113553113552
 The quintile score sarah is: 1 --- actual score: 0.0
 
 ++++++++++++++++++++++++++++++++
-calculate Topic Control -  SMT quintile: 
+calculate Topic Control - SMT quintile:
 
 =====================================
 
-The quintile score of jodie is: 5 --- actual score: 0.4952978056426332
+The quintile score jodie is: 5 --- actual score: 0.4952978056426332
 The quintile score jenniferb is: 4 --- actual score: 0.18181818181818182
 The quintile score lisa is: 3 --- actual score: 0.16614420062695925
 The quintile score laura is: 2 --- actual score: 0.09717868338557993
 The quintile score sarah is: 1 --- actual score: 0.0
 
 ++++++++++++++++++++++++++++++++
-calculate Topic Control -  CS quintile
+calculate Topic Control - CS quintile
 
 =====================================
 
 set tpc cs rank on jodie with 1
-The quintile score of jodie is: 5 --- actual score: 0.48623853211009177
+The quintile score jodie is: 5 --- actual score: 0.48623853211009177
 set tpc cs rank on jenniferb with 2
 The quintile score jenniferb is: 4 --- actual score: 0.1834862385321101
 set tpc cs rank on lisa with 3
@@ -2375,11 +2375,11 @@ set tpc cs rank on sarah with 5
 The quintile score sarah is: 1 --- actual score: 0.0
 
 ++++++++++++++++++++++++++++++++
-calculate Topic Control -  TL quintile
+calculate Topic Control - TL quintile
 
 =====================================
 
-The quintile score of lisa is: 5 --- actual score: 6.975460122699387
+The quintile score lisa is: 5 --- actual score: 6.975460122699387
 The quintile score jenniferb is: 4 --- actual score: 6.476190476190476
 The quintile score jodie is: 3 --- actual score: 5.91970802919708
 The quintile score laura is: 2 --- actual score: 4.745283018867925
@@ -2389,7 +2389,7 @@ calculate Topic Control - Merged quintile
 
 =====================================
 
-The quintile score of jodie is: 5 --- actual score: 0.3760606914832992
+The quintile score jodie is: 5 --- actual score: 0.3760606914832992
 The quintile score jenniferb is: 4 --- actual score: 0.20172794420164833
 The quintile score lisa is: 3 --- actual score: 0.19582900796197789
 The quintile score laura is: 2 --- actual score: 0.12365111910812515
@@ -2400,7 +2400,7 @@ processing Involvement...
 NPI
 =====================================
 
-The quintile score of lisa is: 5 --- actual score: 0.33774834437086093
+The quintile score lisa is: 5 --- actual score: 0.33774834437086093
 The quintile score jodie is: 4 --- actual score: 0.26490066225165565
 The quintile score jenniferb is: 3 --- actual score: 0.2582781456953642
 The quintile score laura is: 2 --- actual score: 0.1390728476821192
@@ -2408,7 +2408,7 @@ The quintile score sarah is: 1 --- actual score: 0.0
 TI
 =====================================
 
-The quintile score of lisa is: 5 --- actual score: 0.2979890310786106
+The quintile score lisa is: 5 --- actual score: 0.2979890310786106
 The quintile score jodie is: 4 --- actual score: 0.25045703839122485
 The quintile score jenniferb is: 3 --- actual score: 0.2303473491773309
 The quintile score laura is: 2 --- actual score: 0.19378427787934185
@@ -2416,7 +2416,7 @@ The quintile score sarah is: 1 --- actual score: 0.0018281535648994515
 TCI
 =====================================
 
-The quintile score of lisa is: 5 --- actual score: 0.35625
+The quintile score lisa is: 5 --- actual score: 0.35625
 The quintile score jenniferb is: 4 --- actual score: 0.275
 The quintile score jodie is: 3 --- actual score: 0.25625
 The quintile score laura is: 2 --- actual score: 0.1125
@@ -2424,7 +2424,7 @@ The quintile score sarah is: 1 --- actual score: 0.0
 ALLOTP
 =====================================
 
-The quintile score of lisa is: 5 --- actual score: 0.013761467889908258
+The quintile score lisa is: 5 --- actual score: 0.013761467889908258
 The quintile score jenniferb is: 3 --- actual score: 0.0045871559633027525
 The quintile score laura is: 3 --- actual score: 0.0045871559633027525
 The quintile score jodie is: 1 --- actual score: 0.0
@@ -2432,17 +2432,17 @@ The quintile score sarah is: 1 --- actual score: 0.0
 ASMI
 =====================================
 
-The quintile score of lisa is: 5 --- actual score: 0.32601880877742945
+The quintile score lisa is: 5 --- actual score: 0.32601880877742945
 The quintile score jodie is: 4 --- actual score: 0.2727272727272727
 The quintile score jenniferb is: 3 --- actual score: 0.26332288401253917
 The quintile score laura is: 2 --- actual score: 0.13479623824451412
 The quintile score sarah is: 1 --- actual score: 0.0
 ++++++++++++++++++++++++++++++++
-calculate Merged quintile
+MERGE
 
 =====================================
 
-The quintile score of lisa is: 5 --- actual score: 0.26635353042336185
+The quintile score lisa is: 5 --- actual score: 0.26635353042336185
 The quintile score jodie is: 4 --- actual score: 0.2088669946740306
 The quintile score jenniferb is: 3 --- actual score: 0.20630710696970742
 The quintile score laura is: 2 --- actual score: 0.11694810395385558
@@ -2454,12 +2454,12 @@ total_ac_oc_: 59
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 ++++++++++++++++++++++++++++++++
 calculate Task Control
-The quintile score of jodie is: 5 --- actual score: (29)0.4915254237288136
-The quintile score of jenniferb is: 4 --- actual score: (6)0.1016949152542373
-The quintile score of lisa is: 3 --- actual score: (5)0.0847457627118644
-The quintile score of ilspersonnel is: 3 --- actual score: (2)0.03389830508474576
-The quintile score of laura is: 2 --- actual score: (1)0.01694915254237288
-The quintile score of sarah is: 1 --- actual score: (0)0.0
+The quintile score jodie is: 5 --- actual score: (29)0.4915254237288136
+The quintile score jenniferb is: 4 --- actual score: (6)0.1016949152542373
+The quintile score lisa is: 3 --- actual score: (5)0.0847457627118644
+The quintile score ilspersonnel is: 3 --- actual score: (2)0.03389830508474576
+The quintile score laura is: 2 --- actual score: (1)0.01694915254237288
+The quintile score sarah is: 1 --- actual score: (0)0.0
 
 
 Processing Expressive Disagreement...
@@ -2470,20 +2470,20 @@ calculate Expressive Disagreement - CDXI quintile
 =====================================
 
 
-The quintile score of jenniferb is: 5 --- actual score: 0.625
-The quintile score of lisa is: 4 --- actual score: 0.375
-The quintile score of jodie is: 1 --- actual score: 0.0
-The quintile score of ilspersonnel is: 1 --- actual score: 0.0
-The quintile score of laura is: 1 --- actual score: 0.0
-The quintile score of sarah is: 1 --- actual score: 0.0
+The quintile score jenniferb is: 5 --- actual score: 0.625
+The quintile score lisa is: 4 --- actual score: 0.375
+The quintile score jodie is: 1 --- actual score: 0.0
+The quintile score ilspersonnel is: 1 --- actual score: 0.0
+The quintile score laura is: 1 --- actual score: 0.0
+The quintile score sarah is: 1 --- actual score: 0.0
 
 
 Processing Agreement...
-The actural score of ATX of jodie is: 0.0963855421686747
-The actural score of ATX of jenniferb is: 0.20481927710843373
-The actural score of ATX of laura is: 0.39759036144578314
-The actural score of ATX of sarah is: 0.0
-The actural score of ATX of lisa is: 0.30120481927710846
+The actural score ATX jodie is: 0.0963855421686747
+The actural score ATX jenniferb is: 0.20481927710843373
+The actural score ATX laura is: 0.39759036144578314
+The actural score ATX sarah is: 0.0
+The actural score ATX lisa is: 0.30120481927710846
 leadership: 
 key: jodie
 ======================jodie: 
