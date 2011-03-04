@@ -20,14 +20,15 @@ public class Preprocessing {
 	public static void main(String[] args) throws IOException{
 		
 		Preprocessing p = new Preprocessing();
-                p.setInput("/home/ruobo/NetBeansProjects/evaluation-m2w/src/input_files/scil_automated_withHalfDGR_jessamyn_leadership_4_ngt.txt");
-                p.setOutput("/home/ruobo/NetBeansProjects/evaluation-m2w/src/preprocessed/_MANUAL_tpc_scil_automated_withHalfDGR_jessamyn_leadership_4_ngt");
+                p.setInput("/home/ruobo/NetBeansProjects/evaluation-m2w/src/input_files/scil_automated_withHalfDGR_has_survey_leadership_4_ngt_02_22_11.txt");
+                p.setOutput("/home/ruobo/NetBeansProjects/evaluation-m2w/src/preprocessed/_MANUAL_tsk_scil_automated_withHalfDGR_has_survey_leadership_4_ngt_02_22_11");
                 p.setPre_input("/home/ruobo/NetBeansProjects/evaluation-m2w/src/preprocessed/pre_input");
 
 //                p.parseInvQt();
-//                p.parseTskQt();
+                p.parseTskQt();
 //		  		  p.parseAgrAct();
 //                p.parseTcpQt();
+//                p.parseLeaderAct();
 
 
 }
@@ -86,9 +87,9 @@ public class Preprocessing {
                     tempStr = theList.get(i);
 
                     //file
-                    if(tempStr.startsWith("processing:")){// if starts with "processing:" then get the file name and make it looks like Feb19B
-                        tempFileName = tempStr.split(" ", -1)[1].split("_")[0] + "" +tempStr.split(" ", -1)[1].split("_")[1].split("Group")[1];
-
+                    if(tempStr.startsWith("processing: ")){// if starts with "processing:" then get the file name and make it looks like Feb19B
+                        String tempFN = tempStr.split("processing: ", -1)[1].split(".xml")[0];//processing: Feb19_GroupA.xmlparseLeader ->Feb19_GroupA
+                        tempFileName = tempFN.split("_")[0] + "" +tempFN.split("_")[1].split("Group")[1];//Feb19_GroupA -> Feb19A
                     }
 
                     //cat
@@ -196,38 +197,44 @@ public class Preprocessing {
          */
         public void parseLeaderAct(){
         	
-            ArrayList<String> theList = this.parseUsePart("leadership: ", "$$$$$$$$$$$$$$$$");
+            ArrayList<String> theList = this.parseUsePart("leadership: ", "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
+            System.out.println("1.the list is : " + theList); //checking initial list
             ArrayList<ArrayList<String>> tempList = null;//is a arraylist of arraylist of entries. each cat is a list
             String output = this.getOutput();
             String tempStr = null;
             String tempFileName = null;
+            String tempAntorName = null;
 
                 for(int i = 0; i < theList.size(); i++){
                     tempStr = theList.get(i);
-
-                    if(tempStr.startsWith("processing:")){// if starts with "processing:" then get the file name and make it looks like Feb19B
-                        tempFileName = tempStr.split(" ", -1)[1].split("_")[0] + "" +tempStr.split(" ", -1)[1].split("_")[1].split("Group")[1];
-//                        theList.set(i, tempFileName);
+//                    System.out.println("tempStr is: " + tempStr);
+                    if(tempStr.startsWith("processing: ")){// if starts with "processing:" then get the file name and make it looks like Feb19B
+                        String tempFN = tempStr.split("processing: ", -1)[1].split(".xml")[0];//processing: Feb19_GroupA.xmlparseLeader ->Feb19_GroupA
+                        tempFileName = tempFN.split("_")[0] + "" +tempFN.split("_")[1].split("Group")[1];//Feb19_GroupA -> Feb19A
                     }
 
-                    if(tempStr.contains("Processing Agreement...")){//if this the topic line, then put in topic
-                        theList.set(i, tempFileName + "\t"+ "agr" + "\t%");
+                    if(tempStr.equals("leadership: ")){//if this the topic line, then put in topic
+                        theList.set(i, tempFileName + "\t"+ "ldr" + "\t%");
                     }
 
-                    if(tempStr.startsWith("The")){// if starts with "The", then split " " and get [3] and [5], and add $
-                        theList.set(i, (tempStr.split(" ", -1)[4] + "\t" + tempStr.split(" ", -1)[6]) + "\t$")  ;
+                    if(tempStr.startsWith("key:")){// if starts with "The", then split " " and get [3] and [5], and add $
+                        tempAntorName = tempStr.split(" ")[1];
+                        String tempAntorScore = theList.get(i+1).split(" ")[1];
+                        theList.set(i, (tempAntorName + "\t" + tempAntorScore + "\t$"))  ;
+                        theList.remove(i+1);
                     }
                 }
 
-//            System.out.println("thelist: " + theList);
+            System.out.println("2. after saving thelist: " + theList);
 
             tempList = this.writeToTempList(theList);
 
-//            System.out.println("templist: " + tempList);
+            System.out.println("3. after parsing to templist: " + tempList);
             
             theList.clear();
 
             theList = this.calRank(tempList);
+            System.out.println("4. after caling the rank theList: " + theList);
             this.writeToFile(theList);
 
 
@@ -328,26 +335,33 @@ public class Preprocessing {
 
                             if(tempStr.equals(cat)){//if tempStr equals CatgString, start saving to list
                                 theList.add(tempStr);
+//                                System.out.println("added: " + tempStr);
                                 String thisLine = null;
 
-                                while(!(thisLine = br.readLine()).equals(null)//while temp string not reaches next processing, mark, save to list
-                                        && !thisLine.toLowerCase().contains("processing ")
-                                        && !thisLine.toLowerCase().contains(EndString)){//agreement, followed by leadership.
-                                    br.mark(1000);
-//                                    thisLine
-                                    if(!thisLine.equals("")//blank lines
-                                    && !thisLine.contains("topic control:")//don't want the thing we don't want
-                                    && !thisLine.contains("task control:")
-                                    && !thisLine.contains("involvement:")
-                                    && !thisLine.contains("disagreement:")
-                                    && !thisLine.contains("==")){// only save the leadership
-                                    theList.add(thisLine);
+                                while((thisLine = br.readLine()) != null){//while temp string not reaches next processing, mark, save to list
+//                                        && !thisLine.toLowerCase().contains("processing ")
+//                                        System.out.println(thisLine);
+//                                        && !thisLine.equals(EndString)){// the ending string, for leadership it's $$$$$$
+                                    if(!thisLine.equals(EndString)){
+                                        br.mark(1000);
+
+                                        if(!thisLine.equals("")//blank lines
+                                        && !thisLine.contains("topic control:")//don't want the thing we don't want
+                                        && !thisLine.contains("task control:")
+                                        && !thisLine.contains("involvement:")
+                                        && !thisLine.contains("disagreement:")
+                                        && !thisLine.contains("==")){// only save the leadership
+                                        theList.add(thisLine);
+                                        }//if
+                                    }else{
+                                        break;
                                     }
-                                }
+                                    
+                                }//while
                                 
                                 br.reset();
-                            }
-			}//1st
+                            }//if
+			}//1st while
 			br.close();
 
 			for(int i = 0; i < theList.size(); i ++){// print to pre_in file
