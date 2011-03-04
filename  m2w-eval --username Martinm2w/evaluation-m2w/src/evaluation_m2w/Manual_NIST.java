@@ -42,10 +42,10 @@ public class Manual_NIST {
 
     public static void main(String[] args){
 
-        String human_annotation = "/home/ruobo/NetBeansProjects/evaluation-m2w/src/preprocessed/_MANUAL_tpc_scil_annotated_withHalfDGR_jessamyn_leadership_4_ngt";
-        String auto_annotation = "/home/ruobo/NetBeansProjects/evaluation-m2w/src/preprocessed/_MANUAL_tpc_scil_automated_withHalfDGR_jessamyn_leadership_4_ngt";
+        String human_annotation = "/home/ruobo/NetBeansProjects/evaluation-m2w/src/input_files/post_tsk_022211";
+        String auto_annotation = "/home/ruobo/NetBeansProjects/evaluation-m2w/src/preprocessed/_MANUAL_tsk_scil_automated_withHalfDGR_has_survey_leadership_4_ngt_02_22_11";
 
-        String evaluation_file = "/home/ruobo/NetBeansProjects/evaluation-m2w/src/output_files/_MANUAL_tpc_scil_withHalfDGR_jessamyn_leadership_4_ngt.txt";
+        String evaluation_file = "/home/ruobo/NetBeansProjects/evaluation-m2w/src/output_files/_MANUAL_tsk_scil_022211";
 
             try { //extract names/topics
                 BufferedReader br = new BufferedReader(new FileReader(human_annotation));

@@ -1,0 +1,64 @@
+
+Feb19A	ldr
+match	total	acc
+10	15	0.6666666666666666
+
+Feb19B	ldr
+match	total	acc
+10	10	1.0
+
+Feb26A	ldr
+match	total	acc
+9	15	0.6
+
+Feb27A	ldr
+match	total	acc
+6	10	0.6
+
+Feb27B	ldr
+match	total	acc
+7	10	0.7
+
+Feb28A	ldr
+match	total	acc
+13	15	0.8666666666666667
+
+Feb28B	ldr
+match	total	acc
+7	10	0.7
+
+Mar06A	ldr
+match	total	acc
+18	28	0.6428571428571429
+
+Mar07A	ldr
+match	total	acc
+11	21	0.5238095238095238
+
+Mar07B	ldr
+match	total	acc
+12	15	0.8
+
+Mar10A	ldr
+match	total	acc
+11	15	0.7333333333333333
+
+Mar10B	ldr
+match	total	acc
+10	15	0.6666666666666666
+
+Mar11A	ldr
+match	total	acc
+12	15	0.8
+
+Mar11B	ldr
+match	total	acc
+4	10	0.4
+
+Mar14A	ldr
+match	total	acc
+5	6	0.8333333333333334
+
+Mar14B	ldr
+match	total	acc
+4	6	0.6666666666666666

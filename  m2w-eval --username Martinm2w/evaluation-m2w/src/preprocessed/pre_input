@@ -1,133 +1,162 @@
-processing: Feb19_GroupB_lauren.xml
-processing Topic Control...
-calculate Topic Control - LTI quintile
-The quintile score carol is: 5 --- actual score: 0.37320574162679426
-The quintile score dk is: 4 --- actual score: 0.24401913875598086
-The quintile score nicole is: 3 --- actual score: 0.11961722488038277
-The quintile score danielle is: 3 --- actual score: 0.09090909090909091
-The quintile score jessicaf is: 2 --- actual score: 0.07655502392344497
-The quintile score jessamyn is: 1 --- actual score: 0.05741626794258373
-calculate Topic Control - SMT quintile:
-The quintile score carol is: 5 --- actual score: 0.2938775510204082
-The quintile score nicole is: 4 --- actual score: 0.22244897959183674
-The quintile score dk is: 3 --- actual score: 0.1836734693877551
-The quintile score danielle is: 3 --- actual score: 0.12244897959183673
-The quintile score jessicaf is: 2 --- actual score: 0.10612244897959183
-The quintile score jessamyn is: 1 --- actual score: 0.04693877551020408
-calculate Topic Control - CS quintile
-The quintile score carol is: 5 --- actual score: 0.2646239554317549
-The quintile score nicole is: 4 --- actual score: 0.23676880222841226
-The quintile score dk is: 3 --- actual score: 0.18662952646239556
-The quintile score danielle is: 3 --- actual score: 0.1309192200557103
-The quintile score jessicaf is: 2 --- actual score: 0.11420612813370473
-The quintile score jessamyn is: 1 --- actual score: 0.03899721448467967
-calculate Topic Control - TL quintile
-The quintile score carol is: 5 --- actual score: 10.228571428571428
-The quintile score danielle is: 4 --- actual score: 9.62962962962963
-The quintile score jessicaf is: 3 --- actual score: 7.222222222222222
-The quintile score jessamyn is: 3 --- actual score: 6.018867924528302
-The quintile score dk is: 2 --- actual score: 5.779141104294479
-The quintile score nicole is: 1 --- actual score: 5.495145631067961
-calculate Topic Control - Merged quintile
-The quintile score carol is: 5 --- actual score: 0.2823813780372248
-The quintile score dk is: 4 --- actual score: 0.18152235497648914
-The quintile score nicole is: 3 --- actual score: 0.17127747090297124
-The quintile score danielle is: 3 --- actual score: 0.13262803883604732
-The quintile score jessicaf is: 2 --- actual score: 0.10913993740685127
-The quintile score jessamyn is: 1 --- actual score: 0.06493895146577434
-processing: Mar07_GroupB_jessamyn.xml
-processing Topic Control...
-calculate Topic Control - LTI quintile
-The quintile score sarah is: 5 --- actual score: 0.24907063197026022
-The quintile score laura is: 4 --- actual score: 0.2379182156133829
-The quintile score lisa is: 3 --- actual score: 0.1821561338289963
-The quintile score jessicaf is: 3 --- actual score: 0.11152416356877323
-The quintile score jorge1 is: 2 --- actual score: 0.10037174721189591
-The quintile score johnw is: 1 --- actual score: 0.06691449814126393
-calculate Topic Control - SMT quintile:
-The quintile score laura is: 5 --- actual score: 0.3756345177664975
-The quintile score lisa is: 4 --- actual score: 0.25888324873096447
-The quintile score jorge1 is: 3 --- actual score: 0.13959390862944163
-The quintile score jessicaf is: 3 --- actual score: 0.09644670050761421
-The quintile score sarah is: 2 --- actual score: 0.06091370558375635
-The quintile score johnw is: 1 --- actual score: 0.03553299492385787
-calculate Topic Control - CS quintile
-The quintile score laura is: 5 --- actual score: 0.375
-The quintile score lisa is: 4 --- actual score: 0.25
-The quintile score jorge1 is: 3 --- actual score: 0.14864864864864866
-The quintile score jessicaf is: 3 --- actual score: 0.11486486486486487
-The quintile score sarah is: 2 --- actual score: 0.04391891891891892
-The quintile score johnw is: 1 --- actual score: 0.030405405405405407
-calculate Topic Control - TL quintile
-The quintile score lisa is: 5 --- actual score: 8.714285714285714
-The quintile score sarah is: 4 --- actual score: 8.712765957446809
-The quintile score johnw is: 3 --- actual score: 7.916666666666667
-The quintile score jessicaf is: 3 --- actual score: 7.125
-The quintile score jorge1 is: 2 --- actual score: 6.68
-The quintile score laura is: 1 --- actual score: 5.775700934579439
-calculate Topic Control - Merged quintile
-The quintile score laura is: 5 --- actual score: 0.2734960522610688
-The quintile score lisa is: 4 --- actual score: 0.2125281790693421
-The quintile score sarah is: 3 --- actual score: 0.1282372120168168
-The quintile score jorge1 is: 3 --- actual score: 0.1276382854857178
-The quintile score jessicaf is: 2 --- actual score: 0.11322443436300039
-The quintile score johnw is: 1 --- actual score: 0.06934156031506214
-processing: Mar14_GroupA Finished.xml
-processing Topic Control...
-calculate Topic Control - LTI quintile
-The quintile score jorge1 is: 4 --- actual score: 0.30569948186528495
-The quintile score sarah is: 3 --- actual score: 0.27461139896373055
-The quintile score ashley is: 2 --- actual score: 0.20725388601036268
-The quintile score tony is: 1 --- actual score: 0.12435233160621761
-calculate Topic Control - SMT quintile:
-The quintile score sarah is: 4 --- actual score: 0.38509316770186336
-The quintile score jorge1 is: 3 --- actual score: 0.36645962732919257
-The quintile score ashley is: 2 --- actual score: 0.08695652173913043
-The quintile score tony is: 1 --- actual score: 0.08074534161490683
-calculate Topic Control - CS quintile
-The quintile score sarah is: 4 --- actual score: 0.4444444444444444
-The quintile score jorge1 is: 3 --- actual score: 0.2828282828282828
-The quintile score tony is: 2 --- actual score: 0.09090909090909091
-The quintile score ashley is: 1 --- actual score: 0.08080808080808081
-calculate Topic Control - TL quintile
-The quintile score jorge1 is: 4 --- actual score: 8.901408450704226
-The quintile score tony is: 3 --- actual score: 7.966666666666667
-The quintile score sarah is: 2 --- actual score: 6.469387755102041
-The quintile score ashley is: 1 --- actual score: 6.211267605633803
-calculate Topic Control - Merged quintile
-The quintile score sarah is: 4 --- actual score: 0.31982822001852373
-The quintile score jorge1 is: 3 --- actual score: 0.2990000436123781
-The quintile score ashley is: 2 --- actual score: 0.13579838679532608
-The quintile score tony is: 1 --- actual score: 0.12792766551830745
-processing: Mar14_GroupB Finished.xml
-processing Topic Control...
-calculate Topic Control - LTI quintile
-The quintile score jodie is: 5 --- actual score: 0.3333333333333333
-The quintile score lisa is: 4 --- actual score: 0.2564102564102564
-The quintile score jenniferb is: 3 --- actual score: 0.23443223443223443
-The quintile score laura is: 2 --- actual score: 0.13553113553113552
-The quintile score sarah is: 1 --- actual score: 0.0
-calculate Topic Control - SMT quintile:
-The quintile score jodie is: 5 --- actual score: 0.4952978056426332
-The quintile score jenniferb is: 4 --- actual score: 0.18181818181818182
-The quintile score lisa is: 3 --- actual score: 0.16614420062695925
-The quintile score laura is: 2 --- actual score: 0.09717868338557993
-The quintile score sarah is: 1 --- actual score: 0.0
-calculate Topic Control - CS quintile
-The quintile score jodie is: 5 --- actual score: 0.48623853211009177
-The quintile score jenniferb is: 4 --- actual score: 0.1834862385321101
-The quintile score lisa is: 3 --- actual score: 0.13761467889908258
-The quintile score laura is: 2 --- actual score: 0.11009174311926606
-The quintile score sarah is: 1 --- actual score: 0.0
-calculate Topic Control - TL quintile
-The quintile score lisa is: 5 --- actual score: 6.975460122699387
-The quintile score jenniferb is: 4 --- actual score: 6.476190476190476
-The quintile score jodie is: 3 --- actual score: 5.91970802919708
-The quintile score laura is: 2 --- actual score: 4.745283018867925
-The quintile score sarah is: 1 --- actual score: 1.0
-calculate Topic Control - Merged quintile
-The quintile score jodie is: 5 --- actual score: 0.3760606914832992
-The quintile score jenniferb is: 4 --- actual score: 0.20172794420164833
-The quintile score lisa is: 3 --- actual score: 0.19582900796197789
-The quintile score laura is: 2 --- actual score: 0.12365111910812515
-The quintile score sarah is: 1 --- actual score: 0.00799756904872317
+processing: Feb19_GroupA.xmlparseLeader
+processing Task Control...
+calculate Task Control
+The quintile score jenniferb is: 5 --- actual score: (15)0.1485148514851485
+The quintile score lisa is: 4 --- actual score: (7)0.06930693069306931
+The quintile score eugenia is: 4 --- actual score: (6)0.0594059405940594
+The quintile score ilspersonnel2 is: 2 --- actual score: (5)0.04950495049504951
+The quintile score laura is: 2 --- actual score: (5)0.04950495049504951
+The quintile score kerri is: 2 --- actual score: (4)0.039603960396039604
+The quintile score jessicad is: 1 --- actual score: (1)0.009900990099009901
+processing: Feb19_GroupB.xml
+processing Task Control...
+calculate Task Control
+The quintile score dk is: 5 --- actual score: (12)0.1276595744680851
+The quintile score danielle is: 4 --- actual score: (5)0.05319148936170213
+The quintile score ilspersonnel2 is: 4 --- actual score: (4)0.0425531914893617
+The quintile score carol is: 3 --- actual score: (3)0.031914893617021274
+The quintile score jessamyn is: 2 --- actual score: (2)0.02127659574468085
+The quintile score nicole is: 2 --- actual score: (2)0.02127659574468085
+The quintile score jessicaf is: 1 --- actual score: (0)0.0
+processing: Feb26_GroupA.xml
+processing Task Control...
+calculate Task Control
+The quintile score ashley is: 5 --- actual score: (9)0.1
+The quintile score jessicad is: 5 --- actual score: (8)0.08888888888888889
+The quintile score lauren is: 4 --- actual score: (5)0.05555555555555555
+The quintile score danielle is: 3 --- actual score: (4)0.044444444444444446
+The quintile score ilspersonnel is: 3 --- actual score: (4)0.044444444444444446
+The quintile score carol is: 3 --- actual score: (4)0.044444444444444446
+The quintile score tony is: 2 --- actual score: (3)0.03333333333333333
+The quintile score johnw is: 2 --- actual score: (3)0.03333333333333333
+The quintile score nicole is: 1 --- actual score: (1)0.011111111111111112
+The quintile score nate is: 1 --- actual score: (0)0.0
+processing: Feb27_GroupA.xml
+processing Task Control...
+calculate Task Control
+The quintile score sarah is: 5 --- actual score: (8)0.21052631578947367
+The quintile score nate is: 4 --- actual score: (5)0.13157894736842105
+The quintile score ashley is: 3 --- actual score: (3)0.07894736842105263
+The quintile score ilspersonnel is: 3 --- actual score: (3)0.07894736842105263
+The quintile score samantha is: 2 --- actual score: (1)0.02631578947368421
+The quintile score tony is: 2 --- actual score: (1)0.02631578947368421
+The quintile score johnw is: 1 --- actual score: (0)0.0
+The quintile score laura is: 1 --- actual score: (0)0.0
+processing: Feb27_GroupB.xml
+processing Task Control...
+calculate Task Control
+The quintile score jenifer is: 4 --- actual score: (5)0.08064516129032258
+The quintile score jessicad is: 4 --- actual score: (5)0.08064516129032258
+The quintile score lauren is: 2 --- actual score: (4)0.06451612903225806
+The quintile score ilspersonnel is: 2 --- actual score: (4)0.06451612903225806
+The quintile score laura is: 2 --- actual score: (4)0.06451612903225806
+The quintile score johnw is: 1 --- actual score: (1)0.016129032258064516
+processing: Feb28_GroupA.xml
+processing Task Control...
+calculate Task Control
+The quintile score jenifer is: 5 --- actual score: (7)0.1346153846153846
+The quintile score laura is: 4 --- actual score: (5)0.09615384615384616
+The quintile score ilspersonnel is: 4 --- actual score: (4)0.07692307692307693
+The quintile score nicole is: 3 --- actual score: (3)0.057692307692307696
+The quintile score jessamyn is: 2 --- actual score: (2)0.038461538461538464
+The quintile score jessicaf is: 2 --- actual score: (2)0.038461538461538464
+The quintile score johnw is: 1 --- actual score: (0)0.0
+processing: Feb28_GroupB.xml
+processing Task Control...
+calculate Task Control
+The quintile score lisa is: 5 --- actual score: (6)0.17647058823529413
+The quintile score ilspersonnel is: 4 --- actual score: (5)0.14705882352941177
+The quintile score jorge1 is: 3 --- actual score: (3)0.08823529411764706
+The quintile score ashley is: 3 --- actual score: (3)0.08823529411764706
+The quintile score tony is: 1 --- actual score: (1)0.029411764705882353
+The quintile score jessicad is: 1 --- actual score: (1)0.029411764705882353
+processing: Mar06_GroupA.xml
+processing Task Control...
+calculate Task Control
+The quintile score danielle is: 5 --- actual score: (5)0.08771929824561403
+The quintile score jodie is: 4 --- actual score: (4)0.07017543859649122
+The quintile score eugenia is: 4 --- actual score: (4)0.07017543859649122
+The quintile score nicole is: 4 --- actual score: (4)0.07017543859649122
+The quintile score ashley is: 4 --- actual score: (4)0.07017543859649122
+The quintile score ilspersonnel is: 4 --- actual score: (4)0.07017543859649122
+The quintile score jessamyn is: 1 --- actual score: (1)0.017543859649122806
+The quintile score tony is: 1 --- actual score: (1)0.017543859649122806
+The quintile score jessicad is: 1 --- actual score: (1)0.017543859649122806
+processing: Mar07_GroupA.xml
+processing Task Control...
+calculate Task Control
+The quintile score eugenia is: 5 --- actual score: (8)0.22857142857142856
+The quintile score ilspersonnel is: 4 --- actual score: (4)0.11428571428571428
+The quintile score jessamyn is: 3 --- actual score: (2)0.05714285714285714
+The quintile score tony is: 3 --- actual score: (2)0.05714285714285714
+The quintile score danielle is: 1 --- actual score: (1)0.02857142857142857
+The quintile score nicole is: 1 --- actual score: (1)0.02857142857142857
+The quintile score ashley is: 1 --- actual score: (1)0.02857142857142857
+processing: Mar07_GroupB.xml
+processing Task Control...
+calculate Task Control
+The quintile score lisa is: 5 --- actual score: (6)0.15
+The quintile score laura is: 4 --- actual score: (5)0.125
+The quintile score sarah is: 4 --- actual score: (4)0.1
+The quintile score ilspersonnel is: 3 --- actual score: (3)0.075
+The quintile score jessicaf is: 2 --- actual score: (2)0.05
+The quintile score jorge1 is: 2 --- actual score: (1)0.025
+The quintile score johnw is: 1 --- actual score: (0)0.0
+processing: Mar10_GroupA.xml
+processing Task Control...
+calculate Task Control
+The quintile score sarah is: 4 --- actual score: (15)0.1271186440677966
+The quintile score carol is: 4 --- actual score: (15)0.1271186440677966
+The quintile score jorge1 is: 4 --- actual score: (12)0.1016949152542373
+The quintile score ashley is: 3 --- actual score: (7)0.059322033898305086
+The quintile score jenifer is: 2 --- actual score: (5)0.0423728813559322
+The quintile score ilspersonnel is: 2 --- actual score: (2)0.01694915254237288
+The quintile score samantha is: 1 --- actual score: (0)0.0
+processing: Mar10_GroupB.xml
+processing Task Control...
+calculate Task Control
+The quintile score lisa is: 5 --- actual score: (21)0.19626168224299065
+The quintile score laura is: 4 --- actual score: (10)0.09345794392523364
+The quintile score nate is: 3 --- actual score: (5)0.04672897196261682
+The quintile score jenniferb is: 3 --- actual score: (5)0.04672897196261682
+The quintile score ilspersonnel is: 2 --- actual score: (3)0.028037383177570093
+The quintile score kerri is: 2 --- actual score: (2)0.018691588785046728
+The quintile score johnw is: 1 --- actual score: (0)0.0
+processing: Mar11_GroupA.xml
+processing Task Control...
+calculate Task Control
+The quintile score ashley is: 5 --- actual score: (11)0.21568627450980393
+The quintile score ilspersonnel is: 4 --- actual score: (4)0.0784313725490196
+The quintile score tony is: 3 --- actual score: (3)0.058823529411764705
+The quintile score jessicad is: 3 --- actual score: (3)0.058823529411764705
+The quintile score eugenia is: 2 --- actual score: (2)0.0392156862745098
+The quintile score johnw is: 2 --- actual score: (1)0.0196078431372549
+The quintile score nicole is: 1 --- actual score: (0)0.0
+processing: Mar11_GroupB.xml
+processing Task Control...
+calculate Task Control
+The quintile score lisa is: 5 --- actual score: (8)0.10666666666666667
+The quintile score nate is: 4 --- actual score: (5)0.06666666666666667
+The quintile score laura is: 4 --- actual score: (5)0.06666666666666667
+The quintile score jenifer is: 3 --- actual score: (4)0.05333333333333334
+The quintile score kerri is: 3 --- actual score: (4)0.05333333333333334
+The quintile score ilspersonnel is: 2 --- actual score: (3)0.04
+The quintile score johnw is: 1 --- actual score: (0)0.0
+The quintile score jessicad is: 1 --- actual score: (0)0.0
+processing: Mar14_GroupA.xml
+processing Task Control...
+calculate Task Control
+The quintile score ilspersonnel is: 5 --- actual score: (5)0.13513513513513514
+The quintile score ashley is: 4 --- actual score: (3)0.08108108108108109
+The quintile score sarah is: 3 --- actual score: (2)0.05405405405405406
+The quintile score jorge1 is: 1 --- actual score: (0)0.0
+The quintile score tony is: 1 --- actual score: (0)0.0
+processing: Mar14_GroupB.xml
+processing Task Control...
+calculate Task Control
+The quintile score jodie is: 5 --- actual score: (11)0.1774193548387097
+The quintile score jenniferb is: 4 --- actual score: (9)0.14516129032258066
+The quintile score ilspersonnel is: 2 --- actual score: (4)0.06451612903225806
+The quintile score laura is: 2 --- actual score: (4)0.06451612903225806
+The quintile score lisa is: 2 --- actual score: (4)0.06451612903225806
+The quintile score sarah is: 1 --- actual score: (0)0.0
