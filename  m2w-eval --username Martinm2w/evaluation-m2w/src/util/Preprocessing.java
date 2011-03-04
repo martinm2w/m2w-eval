@@ -26,8 +26,8 @@ public class Preprocessing {
 
 //                p.parseInvQt();
 //                p.parseTskQt();
-//		  p.parseAgrQt();
-                p.parseTcpQt();
+//		  		  p.parseAgrAct();
+//                p.parseTcpQt();
 
 
 }
@@ -109,49 +109,6 @@ public class Preprocessing {
         }
 
 
-        /**
-         * m2w: this method parses the qt of agreement. PS: nothing
-         *
-         */
-        public void parseAgrQt(){
-
-            ArrayList<String> theList = this.parseUsePart("Processing Agreement...");
-            ArrayList<ArrayList<String>> tempList = null;//is a arraylist of arraylist of entries. each cat is a list
-            String output = this.getOutput();
-            String tempStr = null;
-            String tempFileName = null;
-
-                for(int i = 0; i < theList.size(); i++){
-                    tempStr = theList.get(i);
-
-                    if(tempStr.startsWith("processing:")){// if starts with "processing:" then get the file name and make it looks like Feb19B
-                        tempFileName = tempStr.split(" ", -1)[1].split("_")[0] + "" +tempStr.split(" ", -1)[1].split("_")[1].split("Group")[1];
-//                        theList.set(i, tempFileName);
-                    }
-
-                    if(tempStr.contains("Processing Agreement...")){//if this the topic line, then put in topic
-                        theList.set(i, tempFileName + "\t"+ "agr" + "\t%");
-                    }
-
-                    if(tempStr.startsWith("The")){// if starts with "The", then split " " and get [3] and [5], and add $
-                        theList.set(i, (tempStr.split(" ", -1)[4] + "\t" + tempStr.split(" ", -1)[6]) + "\t$")  ;
-                    }
-                }
-
-//            System.out.println("thelist: " + theList);
-
-            tempList = this.writeToTempList(theList);
-
-//            System.out.println("templist: " + tempList);
-            
-            theList.clear();
-
-            theList = this.calRank(tempList);
-            this.writeToFile(theList);
-
-
-        }
-
 
         /**
          * m2w: this method parses the qt of topic control. PS: replace all "-  " with "- " ,since like "calculate Topic Control -  CS quintile" has 2 spaces after the "-"
@@ -190,6 +147,93 @@ public class Preprocessing {
         }
 
 
+        /**
+         * m2w: this method parses the act score of agreement. PS: nothing , has double entries.
+         *
+         */
+        public void parseAgrAct(){
+
+            ArrayList<String> theList = this.parseUsePart("Processing Agreement...");
+            ArrayList<ArrayList<String>> tempList = null;//is a arraylist of arraylist of entries. each cat is a list
+            String output = this.getOutput();
+            String tempStr = null;
+            String tempFileName = null;
+
+                for(int i = 0; i < theList.size(); i++){
+                    tempStr = theList.get(i);
+
+                    if(tempStr.startsWith("processing:")){// if starts with "processing:" then get the file name and make it looks like Feb19B
+                        tempFileName = tempStr.split(" ", -1)[1].split("_")[0] + "" +tempStr.split(" ", -1)[1].split("_")[1].split("Group")[1];
+//                        theList.set(i, tempFileName);
+                    }
+
+                    if(tempStr.contains("Processing Agreement...")){//if this the topic line, then put in topic
+                        theList.set(i, tempFileName + "\t"+ "agr" + "\t%");
+                    }
+
+                    if(tempStr.startsWith("The")){// if starts with "The", then split " " and get [3] and [5], and add $
+                        theList.set(i, (tempStr.split(" ", -1)[4] + "\t" + tempStr.split(" ", -1)[6]) + "\t$")  ;
+                    }
+                }
+
+//            System.out.println("thelist: " + theList);
+
+            tempList = this.writeToTempList(theList);
+
+//            System.out.println("templist: " + tempList);
+            
+            theList.clear();
+
+            theList = this.calRank(tempList);
+            this.writeToFile(theList);
+
+
+        }
+
+        /**
+         * m2w: this method parses the act score of leadership. PS: nothing , has double entries.
+         *
+         */
+        public void parseLeaderAct(){
+        	
+            ArrayList<String> theList = this.parseUsePart("leadership: ", "$$$$$$$$$$$$$$$$");
+            ArrayList<ArrayList<String>> tempList = null;//is a arraylist of arraylist of entries. each cat is a list
+            String output = this.getOutput();
+            String tempStr = null;
+            String tempFileName = null;
+
+                for(int i = 0; i < theList.size(); i++){
+                    tempStr = theList.get(i);
+
+                    if(tempStr.startsWith("processing:")){// if starts with "processing:" then get the file name and make it looks like Feb19B
+                        tempFileName = tempStr.split(" ", -1)[1].split("_")[0] + "" +tempStr.split(" ", -1)[1].split("_")[1].split("Group")[1];
+//                        theList.set(i, tempFileName);
+                    }
+
+                    if(tempStr.contains("Processing Agreement...")){//if this the topic line, then put in topic
+                        theList.set(i, tempFileName + "\t"+ "agr" + "\t%");
+                    }
+
+                    if(tempStr.startsWith("The")){// if starts with "The", then split " " and get [3] and [5], and add $
+                        theList.set(i, (tempStr.split(" ", -1)[4] + "\t" + tempStr.split(" ", -1)[6]) + "\t$")  ;
+                    }
+                }
+
+//            System.out.println("thelist: " + theList);
+
+            tempList = this.writeToTempList(theList);
+
+//            System.out.println("templist: " + tempList);
+            
+            theList.clear();
+
+            theList = this.calRank(tempList);
+            this.writeToFile(theList);
+
+
+        }
+
+        
 //         ===============================================util methods============================================
 
         /**
@@ -257,6 +301,72 @@ public class Preprocessing {
             
         }
 
+        /**
+         * m2w : this method is for parsing the useful lines for certain category preprocessing. cuz different category has different formats.
+         * @overload 
+         * @param CatgString : this string is the line that indicates the beginning of a category.
+         * @param EndString  : giving the EndString, esp for leadership.
+         */
+        public ArrayList<String> parseUsePart(String CatgString, String EndString){
+
+            String input = this.getInput();
+            String pre_input = this.getPre_input();
+            String cat = CatgString;
+            
+		ArrayList<String> theList = new ArrayList<String>();
+
+		try {
+			BufferedReader br = new BufferedReader(new FileReader(input));
+			PrintWriter pr = new PrintWriter(pre_input);
+
+			String tempStr = null;
+			while((tempStr = br.readLine()) != null ) {//1st. whole file
+
+                            if(tempStr.contains("processing:")){// if temp string contains processing:, then save the file name to list;
+                                theList.add(tempStr);
+                            }
+
+                            if(tempStr.equals(cat)){//if tempStr equals CatgString, start saving to list
+                                theList.add(tempStr);
+                                String thisLine = null;
+
+                                while(!(thisLine = br.readLine()).equals(null)//while temp string not reaches next processing, mark, save to list
+                                        && !thisLine.toLowerCase().contains("processing ")
+                                        && !thisLine.toLowerCase().contains(EndString)){//agreement, followed by leadership.
+                                    br.mark(1000);
+//                                    thisLine
+                                    if(!thisLine.equals("")//blank lines
+                                    && !thisLine.contains("topic control:")//don't want the thing we don't want
+                                    && !thisLine.contains("task control:")
+                                    && !thisLine.contains("involvement:")
+                                    && !thisLine.contains("disagreement:")
+                                    && !thisLine.contains("==")){// only save the leadership
+                                    theList.add(thisLine);
+                                    }
+                                }
+                                
+                                br.reset();
+                            }
+			}//1st
+			br.close();
+
+			for(int i = 0; i < theList.size(); i ++){// print to pre_in file
+                                pr.println(theList.get(i));
+			}
+
+			pr.close();
+
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+                return theList;
+            
+        }
         /**
          * m2w: this method just write the whole list to the final preprocessed output file. with 2 empty lines in between each category.
          * @param theList the preprocessed list
