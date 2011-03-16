@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 /**
- * 
+ * m2w : this class is for getting the file names, now we basically use the printSimpleFileNames and the extractFileNames methods.
  * @author m2w
  *
  */
