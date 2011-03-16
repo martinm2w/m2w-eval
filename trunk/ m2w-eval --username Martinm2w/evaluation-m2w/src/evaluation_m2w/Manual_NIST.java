@@ -8,8 +8,9 @@ import java.util.logging.*;
 import util.*;
 
 /**
- *
+ * m2w: this class is for the manual nist, from now on , use Class preprocessing in the util package to preprocess and then run this file.
  * @author m2w
+ * @date 1/16/11 1:14 PM
  */
 
 public class Manual_NIST {

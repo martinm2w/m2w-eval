@@ -6,9 +6,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 /**
- * this method is
- * known as the SCIL evaluation method
+ * m2w : this method is known as the NIST evaluation method , we basically use the nistEval_simple, the compareEval can be used as testing and debugging.
  * @author m2w
+ * @time 3/16/11 1:21 PM
  *
  */
 
