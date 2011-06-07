@@ -1,0 +1,448 @@
+
+Oct 11	tpc1
+          -=        Relations      =-             
+Auto_file		Human_file
+darshan  < razi 		darshan  < razi 
+darshan  > tasneem 		darshan  < tasneem 
+darshan  > mariam		darshan  > mariam
+darshan  > hassan		darshan  > hassan
+razi  > tasneem 		razi  > tasneem 
+razi  > mariam		razi  > mariam
+razi  > hassan		razi  > hassan
+tasneem  > mariam		tasneem  > mariam
+tasneem  > hassan		tasneem  > hassan
+mariam < hassan		mariam < hassan
+::Equalcount		Totalcount		Accuracy
+::9		10		0.9
+
+Oct 11	tsk1
+          -=        Relations      =-             
+Auto_file		Human_file
+darshan  < razi 		darshan  < razi 
+darshan  > tasneem 		darshan  > tasneem 
+darshan  < mariam		darshan  < mariam
+darshan  > hassan		darshan  > hassan
+razi  > tasneem 		razi  > tasneem 
+razi  > mariam		razi  > mariam
+razi  > hassan		razi  > hassan
+tasneem  < mariam		tasneem  < mariam
+tasneem  > hassan		tasneem  > hassan
+mariam > hassan		mariam > hassan
+::Equalcount		Totalcount		Accuracy
+::10		10		1.0
+
+Oct 11	inv1
+          -=        Relations      =-             
+Auto_file		Human_file
+darshan  < razi 		darshan  < razi 
+darshan  < tasneem 		darshan  < tasneem 
+darshan  < mariam		darshan  < mariam
+darshan  < hassan		darshan  < hassan
+razi  > tasneem 		razi  > tasneem 
+razi  > mariam		razi  > mariam
+razi  > hassan		razi  > hassan
+tasneem  < mariam		tasneem  > mariam
+tasneem  > hassan		tasneem  < hassan
+mariam > hassan		mariam < hassan
+::Equalcount		Totalcount		Accuracy
+::7		10		0.7
+
+Oct 11	tpc2
+          -=        Relations      =-             
+Auto_file		Human_file
+darshan  < razi 		darshan  < razi 
+darshan  < tasneem 		darshan  < tasneem 
+darshan  > mariam		darshan  > mariam
+darshan  > hassan		darshan  > hassan
+razi  > tasneem 		razi  > tasneem 
+razi  > mariam		razi  > mariam
+razi  > hassan		razi  > hassan
+tasneem  > mariam		tasneem  > mariam
+tasneem  > hassan		tasneem  > hassan
+mariam < hassan		mariam < hassan
+::Equalcount		Totalcount		Accuracy
+::10		10		1.0
+
+Oct 11	tsk2
+          -=        Relations      =-             
+Auto_file		Human_file
+darshan  < razi 		darshan  < razi 
+darshan  > tasneem 		darshan  > tasneem 
+darshan  = mariam		darshan  > mariam
+darshan  = hassan		darshan  > hassan
+razi  > tasneem 		razi  > tasneem 
+razi  > mariam		razi  > mariam
+razi  > hassan		razi  > hassan
+tasneem  < mariam		tasneem  < mariam
+tasneem  < hassan		tasneem  < hassan
+mariam = hassan		mariam > hassan
+::Equalcount		Totalcount		Accuracy
+::7		10		0.7
+
+Oct 11	inv2
+          -=        Relations      =-             
+Auto_file		Human_file
+darshan  < razi 		darshan  < razi 
+darshan  < tasneem 		darshan  < tasneem 
+darshan  > mariam		darshan  < mariam
+darshan  < hassan		darshan  < hassan
+razi  > tasneem 		razi  > tasneem 
+razi  > mariam		razi  > mariam
+razi  > hassan		razi  > hassan
+tasneem  > mariam		tasneem  > mariam
+tasneem  > hassan		tasneem  < hassan
+mariam < hassan		mariam < hassan
+::Equalcount		Totalcount		Accuracy
+::8		10		0.8
+
+Oct 11	dis1
+          -=        Relations      =-             
+Auto_file		Human_file
+darshan  < razi 		darshan  < razi 
+darshan  < tasneem 		darshan  < tasneem 
+darshan  < mariam		darshan  < mariam
+darshan  < hassan		darshan  < hassan
+razi  > tasneem 		razi  > tasneem 
+razi  > mariam		razi  > mariam
+razi  > hassan		razi  > hassan
+tasneem  = mariam		tasneem  > mariam
+tasneem  < hassan		tasneem  < hassan
+mariam < hassan		mariam < hassan
+::Equalcount		Totalcount		Accuracy
+::9		10		0.9
+
+Oct 11	dis2
+          -=        Relations      =-             
+Auto_file		Human_file
+darshan  < razi 		darshan  < razi 
+darshan  = tasneem 		darshan  < tasneem 
+darshan  = mariam		darshan  < mariam
+darshan  = hassan		darshan  < hassan
+razi  > tasneem 		razi  > tasneem 
+razi  > mariam		razi  > mariam
+razi  > hassan		razi  > hassan
+tasneem  = mariam		tasneem  > mariam
+tasneem  = hassan		tasneem  < hassan
+mariam = hassan		mariam < hassan
+::Equalcount		Totalcount		Accuracy
+::4		10		0.4
+
+Dec 05	tpc1
+          -=        Relations      =-             
+Auto_file		Human_file
+darshan < sana		darshan > sana
+darshan > razi 		darshan < razi 
+darshan > mariam		darshan > mariam
+sana > razi 		sana < razi 
+sana > mariam		sana < mariam
+razi  > mariam		razi  > mariam
+::Equalcount		Totalcount		Accuracy
+::2		6		0.3333333333333333
+
+Dec 05	tsk1
+          -=        Relations      =-             
+Auto_file		Human_file
+darshan < sana		darshan > sana
+darshan = razi 		darshan < razi 
+darshan = mariam		darshan > mariam
+sana > razi 		sana < razi 
+sana > mariam		sana < mariam
+razi  = mariam		razi  > mariam
+::Equalcount		Totalcount		Accuracy
+::0		6		0.0
+
+Dec 05	inv1
+          -=        Relations      =-             
+Auto_file		Human_file
+darshan < sana		darshan > sana
+darshan < razi 		darshan < razi 
+darshan < mariam		darshan < mariam
+sana > razi 		sana < razi 
+sana > mariam		sana < mariam
+razi  < mariam		razi  > mariam
+::Equalcount		Totalcount		Accuracy
+::2		6		0.3333333333333333
+
+Dec 05	tpc2
+          -=        Relations      =-             
+Auto_file		Human_file
+darshan < sana		darshan > sana
+darshan > razi 		darshan < razi 
+darshan > mariam		darshan > mariam
+sana > razi 		sana < razi 
+sana > mariam		sana < mariam
+razi  < mariam		razi  > mariam
+::Equalcount		Totalcount		Accuracy
+::1		6		0.16666666666666666
+
+Dec 05	tsk2
+          -=        Relations      =-             
+Auto_file		Human_file
+darshan > sana		darshan > sana
+darshan > razi 		darshan < razi 
+darshan > mariam		darshan > mariam
+sana < razi 		sana < razi 
+sana < mariam		sana < mariam
+razi  = mariam		razi  > mariam
+::Equalcount		Totalcount		Accuracy
+::4		6		0.6666666666666666
+
+Dec 05	inv2
+          -=        Relations      =-             
+Auto_file		Human_file
+darshan < sana		darshan > sana
+darshan < razi 		darshan < razi 
+darshan < mariam		darshan < mariam
+sana > razi 		sana < razi 
+sana > mariam		sana < mariam
+razi  < mariam		razi  > mariam
+::Equalcount		Totalcount		Accuracy
+::2		6		0.3333333333333333
+
+Dec 05	dis1
+          -=        Relations      =-             
+Auto_file		Human_file
+darshan < sana		darshan > sana
+darshan < razi 		darshan < razi 
+darshan < mariam		darshan < mariam
+sana < razi 		sana < razi 
+sana > mariam		sana < mariam
+razi  > mariam		razi  > mariam
+::Equalcount		Totalcount		Accuracy
+::4		6		0.6666666666666666
+
+Dec 05	dis2
+          -=        Relations      =-             
+Auto_file		Human_file
+darshan < sana		darshan > sana
+darshan < razi 		darshan < razi 
+darshan < mariam		darshan < mariam
+sana > razi 		sana < razi 
+sana > mariam		sana < mariam
+razi  < mariam		razi  > mariam
+::Equalcount		Totalcount		Accuracy
+::2		6		0.3333333333333333
+
+Dec 08	tpc1
+          -=        Relations      =-             
+Auto_file		Human_file
+darshan  > entourage		darshan  > entourage
+darshan  > tasneem 		darshan  < tasneem 
+darshan  > mariam		darshan  > mariam
+darshan  > imran		darshan  > imran
+entourage > tasneem 		entourage < tasneem 
+entourage > mariam		entourage < mariam
+entourage > imran		entourage = imran
+tasneem  > mariam		tasneem  > mariam
+tasneem  < imran		tasneem  > imran
+mariam < imran		mariam > imran
+::Equalcount		Totalcount		Accuracy
+::4		10		0.4
+
+Dec 08	tsk1
+          -=        Relations      =-             
+Auto_file		Human_file
+darshan  > entourage		darshan  > entourage
+darshan  > tasneem 		darshan  > tasneem 
+darshan  > mariam		darshan  < mariam
+darshan  > imran		darshan  > imran
+entourage < tasneem 		entourage < tasneem 
+entourage = mariam		entourage < mariam
+entourage < imran		entourage = imran
+tasneem  > mariam		tasneem  < mariam
+tasneem  < imran		tasneem  > imran
+mariam < imran		mariam > imran
+::Equalcount		Totalcount		Accuracy
+::4		10		0.4
+
+Dec 08	inv1
+          -=        Relations      =-             
+Auto_file		Human_file
+darshan  > entourage		darshan  > entourage
+darshan  < tasneem 		darshan  < tasneem 
+darshan  < mariam		darshan  < mariam
+darshan  > imran		darshan  > imran
+entourage < tasneem 		entourage < tasneem 
+entourage < mariam		entourage < mariam
+entourage < imran		entourage = imran
+tasneem  > mariam		tasneem  > mariam
+tasneem  > imran		tasneem  > imran
+mariam > imran		mariam > imran
+::Equalcount		Totalcount		Accuracy
+::9		10		0.9
+
+Dec 08	tpc2
+          -=        Relations      =-             
+Auto_file		Human_file
+darshan  > entourage		darshan  > entourage
+darshan  > tasneem 		darshan  < tasneem 
+darshan  > mariam		darshan  > mariam
+darshan  > imran		darshan  > imran
+entourage < tasneem 		entourage < tasneem 
+entourage > mariam		entourage < mariam
+entourage < imran		entourage = imran
+tasneem  > mariam		tasneem  > mariam
+tasneem  < imran		tasneem  > imran
+mariam < imran		mariam > imran
+::Equalcount		Totalcount		Accuracy
+::5		10		0.5
+
+Dec 08	tsk2
+          -=        Relations      =-             
+Auto_file		Human_file
+darshan  > entourage		darshan  > entourage
+darshan  > tasneem 		darshan  > tasneem 
+darshan  > mariam		darshan  < mariam
+darshan  > imran		darshan  > imran
+entourage < tasneem 		entourage < tasneem 
+entourage < mariam		entourage < mariam
+entourage < imran		entourage = imran
+tasneem  < mariam		tasneem  < mariam
+tasneem  < imran		tasneem  > imran
+mariam < imran		mariam > imran
+::Equalcount		Totalcount		Accuracy
+::6		10		0.6
+
+Dec 08	inv2
+          -=        Relations      =-             
+Auto_file		Human_file
+darshan  > entourage		darshan  > entourage
+darshan  < tasneem 		darshan  < tasneem 
+darshan  > mariam		darshan  < mariam
+darshan  > imran		darshan  > imran
+entourage < tasneem 		entourage < tasneem 
+entourage > mariam		entourage < mariam
+entourage < imran		entourage = imran
+tasneem  > mariam		tasneem  > mariam
+tasneem  > imran		tasneem  > imran
+mariam < imran		mariam > imran
+::Equalcount		Totalcount		Accuracy
+::6		10		0.6
+
+Dec 08	dis1
+          -=        Relations      =-             
+Auto_file		Human_file
+darshan  > entourage		darshan  > entourage
+darshan  < tasneem 		darshan  < tasneem 
+darshan  > mariam		darshan  < mariam
+darshan  > imran		darshan  > imran
+entourage < tasneem 		entourage < tasneem 
+entourage < mariam		entourage < mariam
+entourage < imran		entourage = imran
+tasneem  > mariam		tasneem  > mariam
+tasneem  > imran		tasneem  > imran
+mariam < imran		mariam > imran
+::Equalcount		Totalcount		Accuracy
+::7		10		0.7
+
+Dec 08	dis2
+          -=        Relations      =-             
+Auto_file		Human_file
+darshan  > entourage		darshan  > entourage
+darshan  = tasneem 		darshan  < tasneem 
+darshan  < mariam		darshan  < mariam
+darshan  > imran		darshan  > imran
+entourage < tasneem 		entourage < tasneem 
+entourage < mariam		entourage < mariam
+entourage = imran		entourage = imran
+tasneem  < mariam		tasneem  > mariam
+tasneem  > imran		tasneem  > imran
+mariam > imran		mariam > imran
+::Equalcount		Totalcount		Accuracy
+::8		10		0.8
+
+Oct 11	tpc1
+match	total	acc
+9	10	0.9
+
+Oct 11	tsk1
+match	total	acc
+8	10	0.8
+
+Oct 11	inv1
+match	total	acc
+7	10	0.7
+
+Oct 11	tpc2
+match	total	acc
+10	10	1.0
+
+Oct 11	tsk2
+match	total	acc
+7	10	0.7
+
+Oct 11	inv2
+match	total	acc
+8	10	0.8
+
+Oct 11	dis1
+match	total	acc
+9	10	0.9
+
+Oct 11	dis2
+match	total	acc
+4	10	0.4
+
+Dec 05	tpc1
+match	total	acc
+2	6	0.3333333333333333
+
+Dec 05	tsk1
+match	total	acc
+0	6	0.0
+
+Dec 05	inv1
+match	total	acc
+2	6	0.3333333333333333
+
+Dec 05	tpc2
+match	total	acc
+1	6	0.16666666666666666
+
+Dec 05	tsk2
+match	total	acc
+4	6	0.6666666666666666
+
+Dec 05	inv2
+match	total	acc
+2	6	0.3333333333333333
+
+Dec 05	dis1
+match	total	acc
+4	6	0.6666666666666666
+
+Dec 05	dis2
+match	total	acc
+2	6	0.3333333333333333
+
+Dec 08	tpc1
+match	total	acc
+4	10	0.4
+
+Dec 08	tsk1
+match	total	acc
+4	10	0.4
+
+Dec 08	inv1
+match	total	acc
+9	10	0.9
+
+Dec 08	tpc2
+match	total	acc
+5	10	0.5
+
+Dec 08	tsk2
+match	total	acc
+6	10	0.6
+
+Dec 08	inv2
+match	total	acc
+6	10	0.6
+
+Dec 08	dis1
+match	total	acc
+7	10	0.7
+
+Dec 08	dis2
+match	total	acc
+8	10	0.8

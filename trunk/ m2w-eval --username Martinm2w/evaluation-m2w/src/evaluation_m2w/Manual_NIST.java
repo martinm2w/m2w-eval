@@ -43,10 +43,10 @@ public class Manual_NIST {
 
     public static void main(String[] args){
 
-        String human_annotation = "/home/ruobo/NetBeansProjects/evaluation-m2w/src/input_files/post_tsk_022211";
-        String auto_annotation = "/home/ruobo/NetBeansProjects/evaluation-m2w/src/preprocessed/_MANUAL_tsk_scil_automated_withHalfDGR_has_survey_leadership_4_ngt_02_22_11";
+        String human_annotation = "/home/ruobo/NetBeansProjects/evaluation-m2w/src/input_files/nist_man_2011-05-20.anno";
+        String auto_annotation = "/home/ruobo/NetBeansProjects/evaluation-m2w/src/input_files/nist_man_2011-05-20.auto";
 
-        String evaluation_file = "/home/ruobo/NetBeansProjects/evaluation-m2w/src/output_files/_MANUAL_tsk_scil_022211";
+        String evaluation_file = "/home/ruobo/NetBeansProjects/evaluation-m2w/src/output_files/2011-05-20_urdu_nist_result";
 
             try { //extract names/topics
                 BufferedReader br = new BufferedReader(new FileReader(human_annotation));
@@ -363,6 +363,7 @@ public class Manual_NIST {
     
     public static void writeToEvaluation(String filePath, String human_annotation, String auto_annotation, String curtopic, boolean isnew){
 
+        
         try {
                 BufferedWriter bw = new BufferedWriter(new FileWriter(filePath, true));
                	
@@ -406,6 +407,7 @@ public class Manual_NIST {
                         CpEval.nistEval_simple(bw, speakers, auto_ascore, human_ascore);
                     }else{
                         CpEval.nistEval_simple(bw, speakers, auto_qscore, human_qscore);
+//                        CpEval.compareEval(bw, speakers, auto_qscore, human_qscore);
                     }
                     
 
